@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="mibi_error_mipay_no_installed">"Mi Wallet isn't installed on your device."</string>
+     <string name="mibi_error_privacy_summary">You revoked authorization.</string>
+     <string name="mibi_giftcard_in_available">Available</string>
+     <string name="mibi_privacy_tip_message">"You can't use Mi Credits after authorization has been revoked."</string>
+     <string name="mibi_privacy_tip_title">Grant authorization first</string>
+</resources>

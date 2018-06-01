@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="feedback_status_collect_log_failed">"Couldn't get logs"</string>
+     <string name="feedback_status_get_and_save_bbs_info_failed">"Couldn't get attachment URL"</string>
+     <string name="feedback_status_save_log_info_failed">"Couldn't change attachment URL"</string>
+     <string name="feedback_status_submit_bbs_failed">"Couldn't submit feedback content"</string>
+     <string name="feedback_status_submit_feedback_failed">"Couldn't submit feedback"</string>
+     <string name="feedback_status_upload_log_failed">"Couldn't upload attachments"</string>
+</resources>

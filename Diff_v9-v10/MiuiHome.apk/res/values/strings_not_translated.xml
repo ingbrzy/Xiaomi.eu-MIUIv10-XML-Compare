@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="announce_for_checked">%1$s, checked</string>
+     <string name="announce_for_move">Move to row %1$d column %2$d</string>
+     <string name="announce_for_move_hotseat">Move to dock position %1$d</string>
+     <string name="announce_for_unchecked">%1$s, unchecked</string>
+     <string name="backup_fail">Failed to backup launcher.</string>
+     <string name="icon_reorganize_channel">图标整理</string>
+     <string name="notification_reset_description">%1$s%1$s Can reset launcher to %2$s</string>
+     <string name="notification_reset_duration">In two hours,</string>
+     <string name="notification_reset_title">Auto clean up finished</string>
+     <string name="quick_app">Quick App</string>
+     <string name="refresh">Refresh</string>
+     <string name="reset_fail">Reset failed</string>
+     <string name="reset_title">reset</string>
+</resources>

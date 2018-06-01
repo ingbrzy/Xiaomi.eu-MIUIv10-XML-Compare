@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string-array name="pref_navscreen_layoutstate_choices">
+        <item>Vertical view</item>
+        <item>Horizontal view</item>
+     </string-array>
+     <string-array name="pref_navscreen_layoutstate_values">
+        <item>0</item>
+        <item>1</item>
+     </string-array>
+</resources>

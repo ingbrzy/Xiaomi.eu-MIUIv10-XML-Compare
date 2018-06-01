@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="gamebox_qq_not_find">Install QQ and try again.</string>
+     <string name="gamebox_wechat_not_find">Install WeChat and try again.</string>
+     <string name="gb_msg_not_shielded_summary">Show</string>
+     <string name="gs_gamebox">In-game shortcuts</string>
+     <string name="gs_gamebox_detail">Show in-game shortcut panel</string>
+     <string name="midrop_post_notification_contentText">"Try Mi Drop. It's fast and ad-free."</string>
+     <string name="midrop_post_notification_contentTitle">Need to transfer files?</string>
+     <string name="screenrecord_not_find">Install the latest version of Screen Recorder and try again.</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string-array name="first_guide_contents">
+        <item>Welcome to Notes!</item>
+        <item>Take notes</item>
+        <item>You can use text, images, and voice recordings in your notes. A rich library of styles and fonts will make your simple scribbles look stunning.</item>
+        <item>Checklists and reminders come to help when you need basic and effective tools for planning your next trip or putting together a grocery list.</item>
+        <item>Share notes</item>
+        <item>You can generate scrolling screenshots in Notes automatically, and them share them with your friends.</item>
+        <item>Create&amp;switch between folders</item>
+        <item>Press the arrow below to create a new folder or switch between existing ones.</item>
+     </string-array>
+     <string-array name="first_guide_images">
+        <item>guide_first_00</item>
+        <item>guide_first_01</item>
+        <item>guide_first_02</item>
+        <item>guide_first_03</item>
+        <item>guide_first_04</item>
+        <item></item>
+     </string-array>
+     <string-array name="second_guide_contents">
+        <item>Voice notes</item>
+        <item>Create notes using our built-in speech-to-text engine attaching the original recordings of your voice to the notes.</item>
+     </string-array>
+     <string-array name="second_guide_images">
+        <item>guide_second_00</item>
+        <item></item>
+     </string-array>
+</resources>

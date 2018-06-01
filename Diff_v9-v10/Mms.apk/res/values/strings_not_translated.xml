@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="notification_channel_description">Notifications from Messaging</string>
+     <string name="notification_channel_name">Messaging</string>
+     <string name="notification_copy">Copy OTP</string>
+     <string name="status_bar_notification_info_overflow">999+</string>
+     <string name="toast_pending_hangup_msg">Message will be sent after the call ends</string>
+     <string name="url_scan_again">Check again</string>
+</resources>

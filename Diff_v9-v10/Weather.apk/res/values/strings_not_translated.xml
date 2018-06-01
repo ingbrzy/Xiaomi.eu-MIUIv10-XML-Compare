@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="daily_forecast_add_city_add">Follow</string>
+     <string name="daily_forecast_add_city_message">Follow the weather in %1$s for a more detailed forecast.</string>
+     <string name="daily_forecast_add_city_title">Follow the weather in %1$s</string>
+</resources>

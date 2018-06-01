@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="candy">Candy</string>
+     <string name="fairyland">Fairyland</string>
+     <string name="fieldtrip">Field trip</string>
+     <string name="glee">Glee</string>
+     <string name="kungfu">Kung fu</string>
+     <string name="mountainspring">Mountain spring</string>
+     <string name="notice_audition">Nature sounds</string>
+     <string name="spaceage">Space age</string>
+     <string name="vigor">Vigor</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="accessibility_ai_scene_off">AI camera is off</string>
+     <string name="accessibility_ai_scene_on">AI camera</string>
+     <string name="hint_ae_af_lock">Auto focus / auto exposure has been locked</string>
+</resources>

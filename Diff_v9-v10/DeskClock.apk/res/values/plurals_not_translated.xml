@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <plurals name="second">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+     </plurals>
+</resources>

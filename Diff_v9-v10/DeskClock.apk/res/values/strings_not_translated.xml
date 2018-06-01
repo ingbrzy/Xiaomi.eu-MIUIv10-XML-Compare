@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="alarm_clock_more_setting">Additional settings</string>
+     <string name="channel_name_alarm">Alarm</string>
+     <string name="channel_name_timer">Timer</string>
+     <string name="dialog_message_agree">Agree</string>
+     <string name="dialog_message_for_contact_permission">In order to make birthday alarms available, Clock needs to access your contacts. Agree?</string>
+     <string name="dialog_message_negative">"Don't agree"</string>
+     <string name="dynamic_alarm_speech">Smart alarm</string>
+     <string name="edit_alarm">Edit alarm</string>
+     <string name="module_download_cancel">Not now</string>
+     <string name="module_download_data_msg">"In order to make smart alarms, nature sounds, and birthday alarms available, Clock needs to connect to the internet and access your contacts. You'll also have to download additional audio. Use mobile data to download additional audio?"</string>
+     <string name="module_download_data_msg_golbal">In order to make smart alarms and nature sounds available, Clock needs to download additional audio. Use mobile data to download additional audio?</string>
+     <string name="module_download_fail">"Couldn't download additional audio"</string>
+     <string name="module_download_msg">"In order to make smart alarms, nature sounds, and birthday alarms available, Clock needs to connect to the internet and access your contacts. You'll also have to download additional audio. Agree?"</string>
+     <string name="module_download_msg_golbal">In order to make smart alarms and nature sounds available, Clock needs to download additional audio. Agree?</string>
+     <string name="module_download_no_network">"Couldn't connect to the network. Check your network settings and try again."</string>
+     <string name="module_download_ok">Agree &amp; download</string>
+     <string name="module_download_success">Downloaded additional audio successfully</string>
+     <string name="module_download_title">Additional audio required</string>
+     <string name="module_downloading">Downloading additional audio…</string>
+     <string name="monday_to_friday">Monday to Friday</string>
+     <string name="set_alarm_done">Done</string>
+     <string name="time_picker_colon">:</string>
+     <string name="time_picker_label_hour">H</string>
+     <string name="time_picker_label_minute">M</string>
+     <string name="time_picker_label_second">S</string>
+     <string name="timer_alert_type_beach">Beach</string>
+     <string name="timer_alert_type_forest">Forest</string>
+     <string name="timer_alert_type_mute">Default</string>
+     <string name="timer_alert_type_rain">Drizzle</string>
+     <string name="timer_alert_type_stove_fire">Stove fire</string>
+     <string name="timer_alert_type_summer_night">Summer night</string>
+     <string name="timer_cancel_timer">Cancel timer</string>
+     <string name="timer_continue_timer">Resume timer</string>
+     <string name="timer_pause_hint">Pause</string>
+     <string name="timer_pause_timer">Pause timer</string>
+     <string name="timer_running">Timer is running</string>
+     <string name="timer_running_hint">Continue</string>
+     <string name="timer_start_timer">Start timer</string>
+     <string name="worldclock_input_hint_text">Enter country or city</string>
+     <string name="worldclock_search_city">Select city</string>
+     <string name="worldclock_world_time">Time zones</string>
+     <string name="worldcolock_timezone_current">Current: %1$s</string>
+     <string name="worldcolock_timezone_date">MMM dd</string>
+     <string name="worldcolock_timezone_gap">Hour</string>
+     <string name="worldcolock_timezone_local">Same as local time</string>
+</resources>

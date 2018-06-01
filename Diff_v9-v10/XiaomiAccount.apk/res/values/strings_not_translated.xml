@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="passport_talkback_image_captcha">Image verification code</string>
+     <string name="passport_talkback_switch_image_captcha">Switch to image verification code</string>
+     <string name="passport_talkback_switch_voice_captcha">Switch to voice verification code</string>
+     <string name="passport_talkback_voice_captcha">Play voice verification code</string>
+</resources>

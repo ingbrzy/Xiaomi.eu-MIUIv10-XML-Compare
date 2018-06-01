@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <plurals name="announce_for_unread">
+        <item quantity="other">%2$s unread from %1$s</item>
+     </plurals>
+</resources>

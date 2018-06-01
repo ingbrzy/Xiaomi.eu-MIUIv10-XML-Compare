@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="app_name">miot-device-lib</string>
+     <string name="book_arr_city">目的地</string>
+     <string name="book_dep_city">出发地</string>
+     <string name="didi_app_name">DiDi</string>
+     <string name="express_setting_other">Other</string>
+     <string name="miot_device_add_device">添加设备</string>
+     <string name="miot_device_all_device">全部设备</string>
+     <string name="miot_device_cancel">取消</string>
+     <string name="miot_device_card_title">mi home</string>
+     <string name="miot_device_cta_and">及</string>
+     <string name="miot_device_cta_message">将智能设备添加至此，实现快捷操控。如您点击“授权开启”则表示您同意米家APP</string>
+     <string name="miot_device_cta_priv">隐私协议</string>
+     <string name="miot_device_cta_use_info">使用条款</string>
+     <string name="miot_device_edit">编辑</string>
+     <string name="miot_device_empty_text">添加空气净化器、摄像机、扫地机器人等智能设备，实现快捷操控。</string>
+     <string name="miot_device_install_mijia">去下载</string>
+     <string name="miot_device_introduction">实现智能设备快捷操控</string>
+     <string name="miot_device_loading">数据加载中</string>
+     <string name="miot_device_login">去登录</string>
+     <string name="miot_device_mijia_logout_message">添加和使用设备前，需要先登录小米账号。是否去登录？</string>
+     <string name="miot_device_mijia_logout_title">账号未登录</string>
+     <string name="miot_device_mijia_uninstall_message">您的手机尚未安装“米家APP”，因此无法启用相关功能。是否去应用商店下载？</string>
+     <string name="miot_device_mijia_uninstall_title">尚未安装</string>
+     <string name="miot_device_network_error">当前网络未连接</string>
+     <string name="miot_device_shrink_list">收起列表</string>
+     <string name="net_unavailable">"Couldn't connect to the network."</string>
+</resources>

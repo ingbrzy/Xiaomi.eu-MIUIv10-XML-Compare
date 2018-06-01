@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="action_one_touch">Open notifications</string>
+     <string name="action_skip">Skip</string>
+     <string name="enter_infoflow_guide">Slide up to see news</string>
+     <string name="hot_words_item_ads_mark">Ads</string>
+     <string name="info_flow_description">Info channel</string>
+     <string name="message_notice_push">Latest hot spots no longer miss!</string>
+     <string name="pref_navscreen_layoutstate_title">Multi-window management</string>
+     <string name="refresh_description">Refresh</string>
+     <string name="save_file_suffix">file</string>
+     <string name="short_video_description">Video channel</string>
+     <string name="short_video_tip">Look! Fun video</string>
+     <string name="suggestion_clear_record_message">Do you confirm empty input record?</string>
+     <string name="title_notice_push">Notice reminding</string>
+</resources>

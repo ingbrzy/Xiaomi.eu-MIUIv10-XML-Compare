@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="voice_service_cannot_call_notification_content">You may face connectivity problems while trying to make calls.</string>
+     <string name="voice_service_cannot_call_notification_title">"Can't make calls in the current network"</string>
+     <string name="voice_service_switch_summary">Turn on to be able to use VoLTE call functionality in VoLTE networks</string>
+     <string name="voice_service_switch_title">Use VoLTE call services</string>
+     <string name="voice_service_warning_dialog_body">"This tablet supports VoLTE calls in 4G networks. Make sure the networks that your device is connected to support this functionality. VoLTE services are provided by your carrier. Contact your local carrier to learn if VoLTE is not supported in your area.
+
+If you see _ in your status bar, VoLTE calls aren't available. If you can't make or receive calls, or your calls are interrupted, make sure your network is compatible with VoLTE.
+
+This tablet doesn't have an earpiece. You can switch to hands-free mode or use earphones to make calls."</string>
+     <string name="voice_service_warning_dialog_cancel">Cancel</string>
+     <string name="voice_service_warning_dialog_ok">Got it</string>
+     <string name="voice_service_warning_dialog_ok_timer">Got it (%d)</string>
+     <string name="voice_service_warning_dialog_title">VoLTE calls</string>
+</resources>

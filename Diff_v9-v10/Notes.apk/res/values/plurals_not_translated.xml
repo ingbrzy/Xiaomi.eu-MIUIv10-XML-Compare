@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <plurals name="record_last_ten_seconds_reminder">
+        <item quantity="other">%d seconds left</item>
+        <item quantity="one">%d second left</item>
+     </plurals>
+     <plurals name="word_count">
+        <item quantity="other">%s Characters</item>
+        <item quantity="one">%s Character</item>
+     </plurals>
+</resources>

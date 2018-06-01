@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="clean_long_msg">"Cleaning %1$d files,%2$d finished 
+%3$d%% item/second remained time:%4$s"</string>
+</resources>

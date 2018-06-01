@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="ai_album_open_switch_button_title">Start analyzing photos</string>
+     <string name="ai_album_requesting_title">AI algorithm is still processing your photos. Come back in a while.</string>
+     <string name="ai_album_setting_sub_title">Allow AI algorithm to identify people, places, and objects on your photos so you could find them faster.</string>
+     <string name="ai_album_setting_title">Identify objects on photos</string>
+     <string name="search_empty_title">Find photos with specific people, places, and objects in your Gallery</string>
+     <string name="video_editor_adjust">Enhance</string>
+     <string name="video_editor_filter_and_regulator">Filters</string>
+     <string name="video_editor_filter_bailu">Dew</string>
+     <string name="video_editor_filter_heibai">B&amp;W</string>
+     <string name="video_editor_filter_jiaopian">Film</string>
+     <string name="video_editor_filter_jingmi">Calm</string>
+     <string name="video_editor_filter_nuancha">Tea</string>
+     <string name="video_editor_filter_origin">Original</string>
+     <string name="video_editor_filter_qingse">Youth</string>
+     <string name="video_editor_filter_wangshi">Retro</string>
+     <string name="video_editor_filter_xiaosenlin">Grove</string>
+     <string name="video_editor_intelligent_special_effect">Effects</string>
+     <string name="video_editor_regulator">Adjust</string>
+     <string name="video_editor_smart_effect_beat">Beats</string>
+     <string name="video_editor_smart_effect_big_film">Epic</string>
+     <string name="video_editor_smart_effect_cadence">Rhythm</string>
+     <string name="video_editor_smart_effect_dynamic">Dynamic</string>
+     <string name="video_editor_smart_effect_fastslow">Motion</string>
+     <string name="video_editor_smart_effect_freesze">Stop motion</string>
+     <string name="video_editor_smart_effect_halo">Halo</string>
+     <string name="video_editor_smart_effect_high_iframes_text">This effect works best with high frame rate videos.</string>
+     <string name="video_editor_smart_effect_movie">Movie</string>
+     <string name="video_editor_smart_effect_none">None</string>
+     <string name="video_editor_smart_effect_radical">Upbeat</string>
+     <string name="video_editor_smart_effect_rhythm">Pulse</string>
+     <string name="video_editor_smart_effect_street">Metropolis</string>
+     <string name="video_editor_smart_effect_time_limit_txt_40">You can apply this effect to videos which are up to 40 seconds long.</string>
+     <string name="video_editor_smart_effect_time_limit_txt_6">You can apply this effect to videos which are at least 6 seconds long.</string>
+     <string name="video_editor_smart_effect_time_limit_txt_60">You can apply this effect to videos which are up to 60 seconds long.</string>
+     <string name="video_editor_text_edit_all">All</string>
+     <string name="video_editor_text_edit_input_all_hint">Enter text</string>
+     <string name="video_editor_unzip_file_fail">"Couldn't unpack video."</string>
+     <string name="video_editor_video_is_short">"Can't edit this video."</string>
+     <string name="video_editor_watermark">Watermark</string>
+     <string name="voice_assistant">Voice input</string>
+</resources>

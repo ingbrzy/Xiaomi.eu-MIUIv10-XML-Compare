@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <string name="miui_forbid_poweroff_when_device_locked">"Can't power off, device is locked."</string>
+     <string name="super_resolution_maintain_tips">"Super resolution isn't available yet."</string>
+     <string name="wifi_assistant_wifi_no_internet">This WLAN network has no access to the internet</string>
+     <string name="wifi_assistant_wifi_no_internet_detail">Tap to view details</string>
+</resources>

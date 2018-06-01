@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parsed by jbart3h -->
+<resources>
+     <array name="ai_scene_drawables">
+        <item>@drawable/ic_ai_scene_on</item>
+        <item>@drawable/ic_ai_scene_doc</item>
+        <item>@drawable/ic_ai_scene_flower</item>
+        <item>@drawable/ic_ai_scene_food</item>
+        <item>@drawable/ic_ai_scene_ppt</item>
+        <item>@drawable/ic_ai_scene_sky</item>
+        <item>@drawable/ic_ai_scene_sunrise_sunset</item>
+        <item>@drawable/ic_ai_scene_cat</item>
+        <item>@drawable/ic_ai_scene_dog</item>
+        <item>@drawable/ic_ai_scene_green_plants</item>
+        <item>@drawable/ic_ai_scene_night</item>
+        <item>@drawable/ic_ai_scene_snow</item>
+        <item>@drawable/ic_ai_scene_sea</item>
+        <item>@drawable/ic_ai_scene_autumn</item>
+        <item>@drawable/ic_ai_scene_candlelight</item>
+        <item>@drawable/ic_ai_scene_car</item>
+        <item>@drawable/ic_ai_scene_grass</item>
+        <item>@drawable/ic_ai_scene_maple_leaves</item>
+        <item>@drawable/ic_ai_scene_succulent</item>
+        <item>@drawable/ic_ai_scene_building</item>
+        <item>@drawable/ic_ai_scene_city</item>
+        <item>@drawable/ic_ai_scene_cloud</item>
+        <item>@drawable/ic_ai_scene_overcast</item>
+        <item>@drawable/ic_ai_scene_human</item>
+        <item>@drawable/ic_ai_scene_human</item>
+        <item>@drawable/ic_ai_scene_human</item>
+     </array>
+     <string-array name="ai_scene_names">
+        <item>无</item>
+        <item>文档</item>
+        <item>花</item>
+        <item>食物</item>
+        <item>ppt</item>
+        <item>天空</item>
+        <item>日出日落</item>
+        <item>猫</item>
+        <item>狗</item>
+        <item>绿植</item>
+        <item>夜景</item>
+        <item>雪景</item>
+        <item>海边</item>
+        <item>秋色</item>
+        <item>烛光</item>
+        <item>汽车</item>
+        <item>草地</item>
+        <item>枫叶</item>
+        <item>多肉</item>
+        <item>建筑</item>
+        <item>城市</item>
+        <item>多云</item>
+        <item>阴天</item>
+        <item>逆光人像</item>
+        <item>剪影</item>
+        <item>人像</item>
+     </string-array>
+</resources>
