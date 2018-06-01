@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desc_weather">\@weather_location+\', \'+@weather_description+\', \'+#weather_temperature+\'度\'</string>
+    <string name="desc_weather_null">'暫無資料'</string>
+    <string name="weather_type_null">'暫無資料'</string>
+    <string name="weather_type_0">晴</string>
+    <string name="weather_type_1">多雲</string>
+    <string name="weather_type_2">陰</string>
+    <string name="weather_type_3">霧</string>
+    <string name="weather_type_4">特大暴雨</string>
+    <string name="weather_type_5">大暴雨</string>
+    <string name="weather_type_6">暴雨</string>
+    <string name="weather_type_7">雷陣雨</string>
+    <string name="weather_type_8">陣雨</string>
+    <string name="weather_type_9">大雨</string>
+    <string name="weather_type_10">中雨</string>
+    <string name="weather_type_11">小雨</string>
+    <string name="weather_type_12">雨夾帶雪</string>
+    <string name="weather_type_13">暴雪</string>
+    <string name="weather_type_14">陣雪</string>
+    <string name="weather_type_15">大雪</string>
+    <string name="weather_type_16">中雪</string>
+    <string name="weather_type_17">小雪</string>
+    <string name="weather_type_18">強沙塵暴</string>
+    <string name="weather_type_19">沙塵暴</string>
+    <string name="weather_type_20">沙塵</string>
+    <string name="weather_type_21">揚沙</string>
+    <string name="weather_type_22">冰雹</string>
+    <string name="weather_type_23">浮塵</string>
+    <string name="weather_type_24">霾</string>
+</resources>
