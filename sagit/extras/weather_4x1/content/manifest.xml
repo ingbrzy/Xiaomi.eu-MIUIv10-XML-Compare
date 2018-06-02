@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gadget version="1" resDensity="480" extraResources="sw1440-den640::1.222" extraScaleByDensity="640:1.222">
+    <VariableBinders>
+         <ContentProviderBinder
+            uri="content://weather/weather"
+            columns="city_name,weather_type,temperature"
+            countName="hasweather">
+             <Variable name="weather_location" type="string" column="city_name"/>
+             <Variable name="weather_id" type="int" column="weather_type"/>
+             <Variable name="weather_temperature" type="int" column="temperature"/>
+         </ContentProviderBinder>
+    </VariableBinders>
+    <Var name="weather_description" expression="eval('@weather_type_'+#weather_id)" type="string"/>
+    <Var name="weather_description_null" expression="eval(@weather_type_null)" type="string"/>
+
+    <Var name="color" type="string" expression="ifelse(#applied_light_wallpaper,'#8a000000','#ffffffff')"/>
+    <Var name="light_color" type="string" expression="ifelse(#applied_light_wallpaper,'#50000000','#80ffffff')"/>
+    <Group visibility="#hasweather">
+        <ImageNumber name="temp" number="#weather_temperature" srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/temp.png'" x="58" y="#view_height-12" alignV="bottom"/>
+        <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/temp_degree.png'" x="58+#temp.bmp_width" y="#view_height-12" alignV="bottom"/>
+        <Group x="58+#temp.bmp_width+75" y="#view_height-12-#temp.bmp_height">
+            <Text enableFontScale="true" name="text_description" text="@weather_description" size="38" color="@color"/>
+            <Text enableFontScale="true" name="text_location" text="@weather_location" y="#text_description.text_height+7" size="38" color="@light_color"/>
+        </Group>
+        <Image name="img_weather" srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/weather.png'" srcid="ifelse(gt(#weather_id,24)+lt(#weather_id,0),10000,#weather_id)" x="#view_width-28" y="#view_height" align="right" alignV="bottom" touchable="true">
+            <Triggers>
+                <Trigger action="up">
+                    <IntentCommand action="android.intent.action.MAIN" package="com.miui.weather2" class="com.miui.weather2.ActivityWeatherMain"/>
+                </Trigger>
+            </Triggers>
+        </Image>
+
+        <Button x="58" y="#view_height-12" w="#temp.bmp_width+75+max(#text_description.text_width,#text_location.text_width)" h="#temp.bmp_height" alignV="bottom" >
+            <Triggers>
+                <Trigger action="up">
+                    <IntentCommand action="android.intent.action.MAIN" package="com.miui.weather2" class="com.miui.weather2.ActivityWeatherMain"/>
+                </Trigger>
+            </Triggers>
+        </Button>
+		
+		<Button name="weather_button" x="0" y="0" w="1080" h="600" contentDescriptionExp="eval(@desc_weather)"/>
+		
+    </Group>
+    	
+	
+	<Group y="#view_height/2" visibility="1-#hasweather">
+	    <Text enableFontScale="true" textExp="@weather_description_null" x="72" size="38" color="@color" alignV="center"/>
+		<Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/weather_null.png'" x="#view_width-82" align="right" alignV="center" touchable="true">
+            <Triggers>
+                <Trigger action="up">
+                    <IntentCommand action="android.intent.action.MAIN" package="com.miui.weather2" class="com.miui.weather2.ActivityWeatherMain"/>
+                </Trigger>
+            </Triggers>
+        </Image>
+
+        <Button x="58" w="#view_width" h="#view_height" alignV="bottom">
+            <Triggers>
+                <Trigger action="up">
+                    <IntentCommand action="android.intent.action.MAIN" package="com.miui.weather2" class="com.miui.weather2.ActivityWeatherMain"/>
+                </Trigger>
+            </Triggers>
+        </Button>
+		<Button name="weather_button1" x="0" y="-#view_height/2" w="1080" h="600" contentDescriptionExp="eval(@desc_weather_null)"/>
+	</Group>
+	
+</Gadget>
+
