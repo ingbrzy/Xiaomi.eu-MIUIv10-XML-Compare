@@ -56,6 +56,7 @@ Updates are not available for you!"</string>
   <string name="server_error">Server not responding, application might not work properly!</string>
   <string name="share_title">Share with</string>
   <string name="stable">stable</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="version">Currently installed:</string>
   <string name="weekly">weekly</string>
   <string name="wifi_recommended">No WiFi connection to start download safely!</string>
