@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="weather_type_null">'Ei dataa'</string>
-    <string name="weather_type_0">Selkeää</string>
-    <string name="weather_type_1">Puolipilvinen</string>
+	<string name="weather_type_null">'Ei tietoa'</string>
+	<string name="weather_type_0">Selkeä</string>
+    <string name="weather_type_1">Pilvinen</string>
     <string name="weather_type_2">Usvainen</string>
     <string name="weather_type_3">Sumuinen</string>
     <string name="weather_type_4">Kova rankkasade</string>
