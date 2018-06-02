@@ -1,4 +1,4 @@
-[![MIUI10 logo](https://i.imgur.com/PDpAAjL.png)](https://xiaomi.eu/)
+[![MIUI10 logo](https://i.imgur.com/s5PsCYM.png)](https://xiaomi.eu/)
 
 # MIUI 10 Daily XML changes by xiaomi.eu / miui.com
 
