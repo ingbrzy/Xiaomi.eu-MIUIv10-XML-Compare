@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Whetstone</string>
+  <string name="permstep_description">"Allow application to read your phone's step information"</string>
+  <string name="permstep_label">Read Steps</string>
+</resources>
