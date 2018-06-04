@@ -3015,6 +3015,20 @@
     return v0
 .end method
 
+.method public static supportFilterInBackPortraitMode()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_filter_in_back_portrait_mode"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static supportHFRBitRateScale()Z
     .locals 2
 
