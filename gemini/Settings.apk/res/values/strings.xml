@@ -4890,7 +4890,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
   <string name="total">DND</string>
-  <string name="total_info">Silence sounds and turn off vibration except for the alarms</string>
+  <string name="total_info">Silence sounds %1$sexcept for the alarms</string>
+  <string name="total_info_sub">and turn off vibration</string>
   <string name="total_memory">Total memory</string>
   <string name="total_size">%s total</string>
   <string name="total_size_label">Total</string>

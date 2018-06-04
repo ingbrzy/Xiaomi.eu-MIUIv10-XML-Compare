@@ -348,6 +348,7 @@ to enter Second space from Lock screen"</string>
   <string name="switching_files">Moving files…</string>
   <string name="switching_photos">Moving photos…</string>
   <string name="temporary_no_set">Not now</string>
+  <string name="this_function_can_not_use_in_second_space">This function can only be used in first space</string>
   <string name="title_choose_app_status">Select app type</string>
   <string name="title_switch_file">Delete these files?</string>
   <string name="title_switch_photo">Delete these photos?</string>
