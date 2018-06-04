@@ -310,6 +310,7 @@
   <string name="toast_feedback_submitting">Sending…</string>
   <string name="toast_feedbackservice_in_submit">Handling previous feedback…</string>
   <string name="toast_fill_brackets">Your report is missing some info</string>
+  <string name="toast_loading_app_id">Getting info…</string>
   <string name="toast_log_not_exists">"The required log was deleted or doesn't exist"</string>
   <string name="toast_log_too_large">"Can't upload. The file is too big."</string>
   <string name="toast_module_required">Select item</string>
