@@ -171,6 +171,7 @@
   <string name="app_manager_defaults_setting">Default apps</string>
   <string name="app_manager_details_electric_title">Battery</string>
   <string name="app_manager_details_storage_title">Storage</string>
+  <string name="app_manager_details_title">App info</string>
   <string name="app_manager_details_traffic_title">Data usage</string>
   <string name="app_manager_disable">"Don't allow"</string>
   <string name="app_manager_disable_dlg_text">If you disable this app, other apps may not be able to work normally.</string>
