@@ -1300,6 +1300,10 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="power_remaining_duration_only_short">%1$s left</string>
   <string name="process_kernel_label">Android OS</string>
   <string name="profile_owned_footer">Profile may be monitored</string>
+  <string name="prompt_danger">Danger</string>
+  <string name="prompt_detecting">Detecting</string>
+  <string name="prompt_safe">Safe</string>
+  <string name="prompt_unknown">Unknown</string>
   <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
   <string name="proxy_hostname_hint">proxy.example.com</string>
   <string name="proxy_port_hint">8080</string>
@@ -1364,7 +1368,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_dnd_priority_label">Priority only</string>
   <string name="quick_settings_done">Done</string>
   <string name="quick_settings_drivemode_label">Car mode</string>
-  <string name="quick_settings_dual_location_label">GPS</string>
+  <string name="quick_settings_dual_location_label">Dual GPS</string>
   <string name="quick_settings_edit_label">Edit</string>
   <string name="quick_settings_flashlight_label">Flashlight</string>
   <string name="quick_settings_hotspot_label">Hotspot</string>
@@ -1585,6 +1589,10 @@ Slide down to lock"</string>
   <string name="status_bar_recent_remove_item_title">Remove from list</string>
   <string name="status_bar_recording_back">Return to Recorder</string>
   <string name="status_bar_recording_pause">Recorder paused</string>
+  <string name="status_bar_safepay_risk">Payment risks found</string>
+  <string name="status_bar_safepay_safe">No payment risks found</string>
+  <string name="status_bar_safepay_scanning">Checking payment environment…</string>
+  <string name="status_bar_safepay_unknown">"Couldn't check payment environment"</string>
   <string name="status_bar_settings_airplane">Airplane mode</string>
   <string name="status_bar_settings_auto_brightness_label">AUTO</string>
   <string name="status_bar_settings_auto_rotation">Auto-rotate screen</string>
