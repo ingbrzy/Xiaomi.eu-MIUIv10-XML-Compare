@@ -55,7 +55,6 @@
   <string name="account_settings_notify_summary">Show notification when new email arrives</string>
   <string name="account_settings_param">Account settings</string>
   <string name="account_settings_policies">Security policies</string>
-  <string name="account_settings_preference_add_account">Add email account</string>
   <string name="account_settings_preference_att_save_path">Default location for attachments</string>
   <string name="account_settings_preference_head_icon">Profile photos</string>
   <string name="account_settings_preference_notify">Notify</string>
@@ -95,6 +94,7 @@
   <string name="account_setup_exchange_certificate_title">Client certificate</string>
   <string name="account_setup_exchange_device_id_label">Mobile Device ID</string>
   <string name="account_setup_exchange_no_certificate">None</string>
+  <string name="account_setup_failed_auth_required">"Authentication methods aren't supported by server."</string>
   <string name="account_setup_failed_certificate_inaccessible">The certificate is invalid or inaccessible.</string>
   <string name="account_setup_failed_certificate_required">A client certificate is required. Do you want to connect to the server with a client certificate?</string>
   <string name="account_setup_failed_check_credentials_message">The server responded with an error. Check your username and password, then try again.</string>
@@ -594,6 +594,7 @@
   <string name="login139">Sign in with China Mobile</string>
   <string name="login_failed_ticker">%s signin unsuccessful.</string>
   <string name="login_failed_title">"Can't sign in"</string>
+  <string name="login_mail">Login Mail</string>
   <string name="login_support_tip_text">Supports all major email accounts</string>
   <string name="long_press_to_select_tip">Touch &amp; hold to select one conversation, then touch to select more.</string>
   <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
@@ -604,7 +605,6 @@
   <string name="mail_header_network_not_available">"You don't have a network connection."</string>
   <string name="mailbox_list_account_selector_combined_view">Combined account</string>
   <string name="mailbox_name_display_ad">Ads</string>
-  <string name="mailbox_name_display_add_account">Add email account</string>
   <string name="mailbox_name_display_circular">Notifications</string>
   <string name="mailbox_name_display_drafts">Drafts</string>
   <string name="mailbox_name_display_inbox">Inbox</string>
@@ -722,6 +722,7 @@
   <string name="multiple_new_message_notification_item">&lt;b&gt;%1$s&lt;/b&gt;"   %2$s"</string>
   <string name="mute">Mute</string>
   <string name="navigation_menu">Navigation menu</string>
+  <string name="need_get_qq_mail">Need QQ Mail</string>
   <string name="network_error">No connection</string>
   <string name="network_invaild">"Can't connect to the network"</string>
   <string name="network_not_available">"Can't connect to the network"</string>
@@ -773,6 +774,10 @@ Try a different inbox."</string>
   <string name="open_external_storage_and_calendar_permission">Allow Mail to access storage and calendar info in the Settings</string>
   <string name="open_external_storage_and_contacts_and_calendar_permission">Allow Mail to access storage, contacts, and calendar info in the Settings</string>
   <string name="open_external_storage_and_contacts_permission">Allow Mail to access storage and contacts in the Settings</string>
+  <string name="open_notification_kingagent">Open the notice of the burial point</string>
+  <string name="optimization_suggestion">Optimization suggestion</string>
+  <string name="others_mail">Others</string>
+  <string name="others_mail_des">(Conver More than 60,0000 Mails)</string>
   <string name="outbox_alert_button_no_resend">"Don't send"</string>
   <string name="outbox_alert_button_resend">Resend</string>
   <string name="outbox_alert_certificate_error">"Contact your email system's administrator and update your certificate."</string>
@@ -900,6 +905,9 @@ to receive reminders about payments and trips"</string>
   <string name="push_wps_confirm_message">Try using WPS Office to open this attachment.</string>
   <string name="push_wps_confirm_title">Try WPS Office</string>
   <string name="push_wps_no_response_app">No application found to handle this action</string>
+  <string name="qq_authorization_help_get">Help me get</string>
+  <string name="qq_authorization_know">Understanding the authorization code</string>
+  <string name="qq_authorization_tips">No longer prompt</string>
   <string name="qq_auto_login_failed_cpy_pass_success">Copied successfully. Go back to the sign-in page and paste the code into the password form.</string>
   <string name="qq_auto_login_failed_dialog_message">Copy verification code, tap \"Enter username and password to sign in\" on the sign-in page, and paste the code into the password form.</string>
   <string name="qq_auto_login_failed_dialog_positive_label">Copy code</string>
@@ -913,6 +921,7 @@ to receive reminders about payments and trips"</string>
   <string name="qq_login_webview">Signing in to QQ web client, tap sign in using the password.</string>
   <string name="qq_next_generation_auth_toast">Turn on password protection in your browser</string>
   <string name="qq_uthentication_failed">"Couldn't verify account, sign in again"</string>
+  <string name="qq_verify_code">(Need QQ Verify Code)</string>
   <string name="qq_webview_loading">Just a sec…</string>
   <string name="questionnair_body_invisibility">"Messages aren't displayed"</string>
   <string name="questionnair_confirm_delete">Remove account?</string>
@@ -1023,7 +1032,7 @@ to receive reminders about payments and trips"</string>
   <string name="saved">Saved,  %s</string>
   <string name="saving">Saving…</string>
   <string name="sdcard_cannot_use">"Can't use SD card"</string>
-  <string name="search_bar_text">Search for messages and contacts</string>
+  <string name="search_bar_text">Search sender or search contact</string>
   <string name="search_hint">Search mail</string>
   <string name="search_result">"Results "</string>
   <string name="search_tabs_name_all">All</string>
@@ -1131,6 +1140,7 @@ to receive reminders about payments and trips"</string>
   <string name="tap_to_configure">Touch to set up.</string>
   <string name="tap_to_enable_sync">Touch to turn on.</string>
   <string name="three_day">3 days</string>
+  <string name="title_activity_about">About</string>
   <string name="to">To</string>
   <string name="to_heading">"To: "</string>
   <string name="toast_bar_fail_synchronization">"Can't connect to the network"</string>
@@ -1176,9 +1186,8 @@ Remove account?"</string>
   <string name="unread_string">conversation unread</string>
   <string name="unzip_file_failed">"Couldn't unzip file"</string>
   <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
-  <string name="update_to_wps_mail">Enjoy more features with WPS Mail</string>
   <string name="updated_at">Refreshed at %1$s</string>
-  <string name="upload_log">Upload logs</string>
+  <string name="upload_log">Submit logs</string>
   <string name="upload_log_failed">"Couldn't send logs"</string>
   <string name="upload_log_no">Cancel</string>
   <string name="upload_log_success">"Sent successfully, we'll get back to you soon."</string>
@@ -1192,6 +1201,8 @@ Remove account?"</string>
   <string name="veiled_alternate_text"/>
   <string name="veiled_alternate_text_unknown_person"/>
   <string name="veiled_summary_unknown_person"/>
+  <string name="verify_code">Verify Code</string>
+  <string name="version_string">Version: %s</string>
   <string name="via_domain">via %1$s</string>
   <string name="view_more_conversations">View more conversations</string>
   <string name="wait_for_manual_sync_body">"This account isn't set up to sync automatically.
@@ -1210,6 +1221,7 @@ Touch "&lt;b&gt;Sync Now&lt;/b&gt; to sync mail once, or &lt;b&gt;Change Sync Se
   <string name="widget_provider">com.kingsoft.email.provider.WidgetProvider</string>
   <string name="wipe_account_fail_description">Allow</string>
   <string name="wipe_account_fail_title">"Couldn't delete personal info"</string>
+  <string name="wps_title">WPS Mail</string>
   <string name="wrong_password">The password you entered is incorrect</string>
   <string name="yes">Yes</string>
   <string name="you_are_in_mobile_network">Use mobile data to upload logs?</string>
