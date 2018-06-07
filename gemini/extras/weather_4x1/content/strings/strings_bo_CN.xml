@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="desc_weather">\@weather_location+\', \'+@weather_description+\', \'+#weather_temperature+\'ཏུའུ\'</string>
-    <string name="desc_weather_null">'གནས་སྐབས་སུ་གཞི་གྲངས་མི་འདུག'</string>
-    <string name="weather_type_null">'གནས་སྐབས་གཞི་གྲངས་མི་འདུག'</string>
+    <string name="air_quality0">'空气优'</string>
+    <string name="air_quality1">'空气良'</string>
+    <string name="air_quality2">'轻度污染'</string>
+    <string name="air_quality3">'中度污染'</string>
+    <string name="air_quality4">'重度污染'</string>
+    <string name="air_quality5">'严重污染'</string>
+    <string name="weather_null">点击获取天气数据</string>
+    <string name="weather_location_null">无位置信息</string>
     <string name="weather_type_0">གནམ་དྭངས།</string>
     <string name="weather_type_1">སྤྲིན་མང་།</string>
     <string name="weather_type_2">གནམ་འཐིབས།</string>
