@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="desc_weather">\@weather_location+\', \'+@weather_description+\', \'+#weather_temperature+\'سېلسىيە گرادۇس\'</string>
-    <string name="desc_weather_null">'سانلىق مەلۇمات يوق'</string>
-    <string name="weather_type_null">'سانلىق مەلۇمات يوق'</string>
+    <string name="air_quality0">'ھاۋا سۈپىتى ئەلا'</string>
+    <string name="air_quality1">'ھاۋا سۈپىتى ياخشى'</string>
+    <string name="air_quality2">'يېنىك بۇلغىنىش'</string>
+    <string name="air_quality3">'ئوتتۇرھال بۇلغىنىش'</string>
+    <string name="air_quality4">'ئېغىر بۇلغىنىش'</string>
+    <string name="air_quality5">'قاتتىق بۇلغىنىش'</string>
+    <string name="weather_null">چېكىپ ھاۋارايى ئۇچۇرىغا ئېرىشىڭ</string>
+    <string name="weather_location_null">ئورۇن ئۇچۇرى يوق</string>
     <string name="weather_type_0">ئوچۇق</string>
     <string name="weather_type_1">بۇلۇتلۇق</string>
     <string name="weather_type_2">تۇتۇق</string>

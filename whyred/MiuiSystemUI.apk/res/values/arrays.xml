@@ -255,6 +255,18 @@
     <array name="car_facet_intent_uris" />
     <array name="car_facet_longpress_intent_uris" />
     <array name="car_facet_package_filters" />
+    <string-array name="carrier_name">
+        <item>China Mobile</item>
+        <item>China Unicom</item>
+        <item>China Telecom</item>
+        <item>SmarToneVodafone</item>
+    </string-array>
+    <string-array name="carrier_simple_name">
+        <item>CM</item>
+        <item>CU</item>
+        <item>CT</item>
+        <item>SMC HK</item>
+    </string-array>
     <string-array name="clock_options">
         <item>Show hours, minutes, and seconds</item>
         <item>Show hours and minutes (default)</item>

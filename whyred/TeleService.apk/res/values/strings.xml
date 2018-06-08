@@ -1129,6 +1129,8 @@ Using preferred network instead."</string>
   <string name="no_internet_available">To place a SIP call, check your Internet connection first.</string>
   <string name="no_mobile_data">Mobile data is not available</string>
   <string name="no_mobile_data_roaming">Data roaming is not available</string>
+  <string name="no_unlock_chance_hint">"You have no retry times.
+Please contact your operators"</string>
   <string name="no_vm_number">Missing voicemail number</string>
   <string name="no_vm_number_msg">No voicemail number is stored on the SIM card.</string>
   <string name="no_voip">SIP calling not supported</string>
@@ -1548,12 +1550,14 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="sim_description_default">SIM card, slot: %s</string>
   <string name="sim_description_emergency_calls">Emergency calling only</string>
   <string name="sim_label_emergency_calls">Emergency calls</string>
+  <string name="sim_me_lock_disabled">Simlock is disabled.</string>
   <string name="sim_ndp_dismiss_text">Dismiss</string>
   <string name="sim_ndp_unlock_text">Unlock</string>
   <string name="sim_roaming_settings_summary">Connect to mobile data networks while roaming</string>
   <string name="sim_roaming_settings_title">Mi Roaming</string>
   <string name="sim_selection_required_pref">Selection required</string>
   <string name="sim_service_setting">Mi SIM &amp; Mi Roaming</string>
+  <string name="simmelock_name">SIM ME Lock</string>
   <string name="simulate_color_space">Simulate color space</string>
   <string name="singleContactImportedMsg">Imported contact</string>
   <string name="sip_account_list">SIP accounts</string>
@@ -1600,6 +1604,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="stk_cc_ss_to_ussd_error">SS request modified to USSD request.</string>
   <string name="stock_quotes_disable">Stock Quotes disabled</string>
   <string name="stock_quotes_enable">Stock Quotes enabled</string>
+  <string name="strPasswordLengthIncorrect">4-16 numbers!</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
   <string name="sum_cdma_call_settings">Additional CDMA only call settings</string>
@@ -1733,6 +1738,10 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="tts_status_ok">%1$s is fully supported</string>
   <string name="tts_status_requires_network">%1$s requires network connection</string>
   <string name="tts_status_title">Default language status</string>
+  <string name="tty_mode_entries_full">TTY Full</string>
+  <string name="tty_mode_entries_hco">TTY HCO</string>
+  <string name="tty_mode_entries_off">TTY Off</string>
+  <string name="tty_mode_entries_vco">TTY VCO</string>
   <string name="tty_mode_key">button_tty_mode_key</string>
   <string name="tty_mode_not_allowed_video_call">TTY Mode change is not allowed during a video call</string>
   <string name="tty_mode_option_summary">Set TTY mode</string>
@@ -1744,6 +1753,7 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="ui_default_package">com.android.dialer</string>
   <string name="undefined">None</string>
   <string name="unknown">Unknown</string>
+  <string name="unlock_chances_left">Retries Left:</string>
   <string name="updating_fdn_contact">Updating fixed dialing number…</string>
   <string name="updating_settings">Updating settings…</string>
   <string name="updating_title">Call settings</string>
