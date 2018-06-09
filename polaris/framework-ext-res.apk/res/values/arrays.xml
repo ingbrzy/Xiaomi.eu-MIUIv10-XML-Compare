@@ -61,6 +61,7 @@
         <item>com.miui.greenguard</item>
         <item>com.xiaomi.mipicks</item>
         <item>com.xiaomi.smarthome</item>
+        <item>com.kiteguard</item>
     </string-array>
     <string-array name="keyguard_whitelist">
         <item>com.google.android.talk</item>
@@ -106,6 +107,8 @@
         <item>com.mi.AutoTest</item>
         <item>com.android.cellbroadcastreceiver</item>
         <item>com.android.htmlviewer</item>
+        <item>com.miui.greenguard</item>
+        <item>com.kiteguard</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />

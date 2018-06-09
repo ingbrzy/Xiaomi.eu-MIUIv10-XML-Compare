@@ -127,6 +127,7 @@
   <string name="more_settings">Settings</string>
   <string name="never">Once</string>
   <string name="oneshot_alarm">Delete after goes off</string>
+  <string name="open_keep_screen">Screen will be kept on</string>
   <string name="pause">Pause</string>
   <string name="percentage_sign">%</string>
   <string name="remind_ringtone">Ringtone</string>
@@ -145,6 +146,7 @@
   <string name="setting_alarm_arriving_summary">Send a notification before ringing</string>
   <string name="setting_alarm_arriving_title">Notification before ringing</string>
   <string name="settings">Settings</string>
+  <string name="shut_down_keep_screen">"Screen won't be kept on"</string>
   <string name="shutdown_alarm_disable_summary">Alarm will not ring after powered off</string>
   <string name="shutdown_alarm_enable_summary">Alarm will ring after powered off</string>
   <string name="shutdown_alarm_title">Shutdown alarm</string>
@@ -216,7 +218,7 @@
   <string name="volume_button_setting_title">Volume buttons</string>
   <string name="workday_alarm_clock">Workday alarm</string>
   <string name="worldclock_empty_text">No clocks</string>
-  <string name="worldclock_input_hint_text">Enter country or city</string>
+  <string name="worldclock_input_hint_text">Enter city</string>
   <string name="worldclock_search_city">Select city</string>
   <string name="worldclock_title">Clock</string>
   <string name="worldclock_world_time">Time zones</string>

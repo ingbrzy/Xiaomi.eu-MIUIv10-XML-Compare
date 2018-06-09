@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="access_sd_fail">"Couldn't access USB storage."</string>
+  <string name="accessibility_ai_scene_off">AI camera is off</string>
+  <string name="accessibility_ai_scene_on">AI camera is on</string>
   <string name="accessibility_back_preview_status">Rear camera preview</string>
   <string name="accessibility_beauty_panel_closed">Beautify menu is hidden</string>
   <string name="accessibility_beauty_panel_open">Beautify menu is opened</string>
