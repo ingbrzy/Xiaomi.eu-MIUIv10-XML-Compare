@@ -68,6 +68,14 @@
         <item>5</item>
         <item>4</item>
     </string-array>
+    <string-array name="pref_video_hfr_entries">
+        <item>720p,120fps</item>
+        <item>1080p,120fps</item>
+    </string-array>
+    <string-array name="pref_video_hfr_entryvalues">
+        <item>5:120</item>
+        <item>6:120</item>
+    </string-array>
     <string-array name="pref_video_quality_default_values">
         <item>@string/pref_video_quality_default</item>
         <item>@string/pref_mtk_video_quality_default</item>

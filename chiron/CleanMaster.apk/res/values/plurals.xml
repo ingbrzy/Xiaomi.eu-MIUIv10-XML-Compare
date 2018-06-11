@@ -101,6 +101,16 @@
         <item quantity="other">&lt;Data>"&lt;font color=#ff0000 >%d&lt;/font> apps haven't been used for a long time, take a look."&lt;/Data></item>
         <item quantity="one">&lt;Data>"&lt;font color=#ff0000 >%d&lt;/font> app hasn't been used for a long time, take a look."&lt;/Data></item>
     </plurals>
+    <plurals name="clean_long_msg_p1">
+        <item quantity="other">"Cleaning %1$d files,%2$d finished 
+"</item>
+        <item quantity="one">"Cleaning %1$d file,%2$d finished 
+"</item>
+    </plurals>
+    <plurals name="clean_long_msg_p2">
+        <item quantity="other">%1$d%% items/second remained time:%2$s</item>
+        <item quantity="one">%1$d%% items/second remained time:%2$s</item>
+    </plurals>
     <plurals name="hour">
         <item quantity="other">%1$d hours</item>
         <item quantity="one">%1$d hour</item>
