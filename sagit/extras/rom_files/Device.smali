@@ -966,6 +966,20 @@
     goto :goto_0
 .end method
 
+.method public static getHibernationTimeout()I
+    .locals 2
+
+    const-string/jumbo v0, "camera_hibernation_timeout_in_minutes"
+
+    sget v1, Lcom/android/camera/AutoLockManager;->HIBERNATION_TIMEOUT:I
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static getMaxHFRQuality()I
     .locals 2
     .annotation build Lcom/android/camera/Device$HFR_QUALITY;
@@ -1311,6 +1325,32 @@
     move-result v0
 
     return v0
+.end method
+
+.method public static isHideHHTMenu()Z
+    .locals 2
+
+    invoke-static {}, Lcom/android/camera/Device;->isUsedMorphoLib()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const-string/jumbo v0, "is_camera_hide_hht_menu"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
 .end method
 
 .method public static isHoldBlurBackground()Z
@@ -1675,6 +1715,27 @@
     return v0
 .end method
 
+.method public static isSupportFrontAiScene()Z
+    .locals 2
+
+    const/4 v0, 0x0
+
+    invoke-static {}, Lcom/android/camera/Device;->isSupportAiScene()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    const-string/jumbo v1, "camera_supported_front_ai_scene"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :cond_0
+    return v0
+.end method
+
 .method public static isSupportFrontBokeh()Z
     .locals 2
 
@@ -1802,38 +1863,17 @@
 .end method
 
 .method public static isSupportParallelProcess()Z
-    .locals 3
+    .locals 2
 
-    sget-boolean v1, Lcom/android/camera/Device;->IS_E7S:Z
+    const-string/jumbo v0, "support_parallel_process"
 
-    if-eqz v1, :cond_0
+    const/4 v1, 0x0
 
-    const-string/jumbo v1, "ro.boot.hwc"
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
-    invoke-static {v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    move-result v0
 
-    move-result-object v0
-
-    const-string/jumbo v1, "India"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    xor-int/lit8 v1, v1, 0x1
-
-    return v1
-
-    :cond_0
-    const-string/jumbo v1, "support_parallel_process"
-
-    const/4 v2, 0x0
-
-    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v1
-
-    return v1
+    return v0
 .end method
 
 .method public static isSupportSquare()Z

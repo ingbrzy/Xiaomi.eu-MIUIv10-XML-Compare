@@ -102,7 +102,7 @@
   <string name="byteShort">B</string>
   <string name="cache_title_empty_folder">Empty folder (%d)</string>
   <string name="cache_title_empty_folder2">Empty folder</string>
-  <string name="cache_title_system_cache">System cache</string>
+  <string name="cache_title_system_cache">Data cache</string>
   <string name="cached_garbage">Cache</string>
   <string name="call_log">Call Logs</string>
   <string name="cancel">Cancel</string>
@@ -120,8 +120,6 @@
   <string name="clean_content_three">3 items</string>
   <string name="clean_content_two">2 items</string>
   <string name="clean_content_zero">None</string>
-  <string name="clean_long_msg">"Cleaning %1$d files,%2$d finished 
-%3$d%% item/second remained time:%4$s"</string>
   <string name="clear_bigfiles">Delete big files, duplicate photos, and other obsolete items</string>
   <string name="clear_immediately">Clean now</string>
   <string name="clear_safe_notify">Notification shade widget</string>

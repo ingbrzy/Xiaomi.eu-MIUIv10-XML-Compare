@@ -915,13 +915,19 @@ Sample rate"</string>
   <string name="bootloader_apply_step_5">Make sure you know how to use Fastboot mode before you turn it on.</string>
   <string name="bootloader_apply_title">Important warning</string>
   <string name="bootloader_device_bind_already">Added successfully. Mi Account is associated with this device now.</string>
+  <string name="bootloader_device_bind_exceed_sim_limit">"Can't add more accounts to this SIM card."</string>
   <string name="bootloader_device_bind_fail">"Couldn't verify, wait a minute or two and try again"</string>
   <string name="bootloader_device_bind_msg">Preparing to add account and device…</string>
   <string name="bootloader_device_bind_no_account">Sign in to your Mi Account first</string>
   <string name="bootloader_device_bind_no_network">Connect to the network and try again</string>
+  <string name="bootloader_device_bind_no_sim">Insert SIM card and try again.</string>
+  <string name="bootloader_device_bind_server_code">"Couldn't add. Error code:"</string>
+  <string name="bootloader_device_bind_sim_invalid">SIM card is invalid. Replace it and try again.</string>
   <string name="bootloader_locked_answer_1">"We lock devices to make sure they are secure and your personal info isn't disclosed to third parties. If you need to enter Fastboot mode and flash your device, you can unlock it."</string>
   <string name="bootloader_locked_answer_1_warning">"Remember: You won't be able to use \"Find device\" after the phone is unlocked."</string>
-  <string name="bootloader_locked_answer_2">"Tap the button below to associate your Mi Account with this device. Then go to MIUI website to download the unlock tool and install it on your computer. Here's the address:"</string>
+  <string name="bootloader_locked_answer_2">"1. Make sure you've already inserted a SIM card into your device.
+2. Tap \"Add account\" below to associate your Mi Account with this device.
+3. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
   <string name="bootloader_locked_check_status">Add account and device</string>
   <string name="bootloader_locked_question_1">Why should devices be locked?</string>
   <string name="bootloader_locked_question_2">I understand the risks, but still want to unlock my device.</string>
@@ -929,6 +935,11 @@ Sample rate"</string>
   <string name="bootloader_status_locked">Locked</string>
   <string name="bootloader_status_locked_info">This device is locked</string>
   <string name="bootloader_status_locked_summary">The phone is secured</string>
+  <string name="bootloader_status_privacy_dialog_message">Mi Unlock needs access to your Mi Account, CPU ID, IMEI, IMSI to work normally. We collect, use, and process your data in accordance with our %s. Agree?</string>
+  <string name="bootloader_status_privacy_dialog_no">Cancel</string>
+  <string name="bootloader_status_privacy_dialog_title">Permissions required</string>
+  <string name="bootloader_status_privacy_dialog_url_text">Privacy Policy</string>
+  <string name="bootloader_status_privacy_dialog_yes">Agree</string>
   <string name="bootloader_status_summary">Check if the device is locked</string>
   <string name="bootloader_status_unlocked">Unlocked</string>
   <string name="bootloader_status_unlocked_info">This device is unlocked</string>

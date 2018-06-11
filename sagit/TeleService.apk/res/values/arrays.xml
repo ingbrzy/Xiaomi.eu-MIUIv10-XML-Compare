@@ -960,6 +960,10 @@
         <item>25</item>
         <item>30</item>
     </integer-array>
+    <string-array name="wificall_preferred_entries">
+        <item>@string/wfcmode_mobile_preferred</item>
+        <item>@string/wfcmode_wifi_preferred</item>
+    </string-array>
     <integer-array name="support_networktypes_cdma_master">
         <item>10</item>
         <item>7</item>

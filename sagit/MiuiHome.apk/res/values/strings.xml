@@ -62,7 +62,7 @@
   <string name="aqi_quality_index_light_pollution">Caution</string>
   <string name="aqi_quality_index_moderate">Moderate</string>
   <string name="aqi_quality_index_unhealthy">Unhealthy</string>
-  <string name="backup_fail">Failed to backup launcher.</string>
+  <string name="backup_fail">"Couldn't backup launcher"</string>
   <string name="bad_wallpaper_source_prompt">"Can't load wallpaper"</string>
   <string name="buffering">Buffering…</string>
   <string name="cancel_action">Cancel</string>
@@ -184,7 +184,7 @@
   <string name="guide_tips_editing_mode">Press &amp; hold to pick up a widget</string>
   <string name="home_indicator">bottom_point</string>
   <string name="home_screen">Home screen</string>
-  <string name="icon_reorganize_channel">图标整理</string>
+  <string name="icon_reorganize_channel">Arrange icons</string>
   <string name="image_too_small_message">"Original image isn't big enough."</string>
   <string name="install">Install</string>
   <string name="invalid_contact_shortcut">Invalid contact</string>
@@ -234,9 +234,7 @@
   <string name="normal_wallpaper">Wallpaper</string>
   <string name="notification_installed">Installed successfully</string>
   <string name="notification_open_button">Open</string>
-  <string name="notification_reset_description">%1$s%1$s Can reset launcher to %2$s</string>
-  <string name="notification_reset_duration">In two hours,</string>
-  <string name="notification_reset_title">Auto clean up finished</string>
+  <string name="notification_reset_title">Arranged icons successfully</string>
   <string name="online_wallpaper">Online</string>
   <string name="open_personal_assistant_dialog_btn_cancel">Cancel</string>
   <string name="open_personal_assistant_dialog_btn_confirm">Turn off</string>
@@ -274,7 +272,7 @@
   <string name="preferences_title">Launcher settings</string>
   <string name="preferred_app_settings_not_selected">Not selected</string>
   <string name="process"/>
-  <string name="quick_app">Quick App</string>
+  <string name="quick_app">Quick apps</string>
   <string name="recents_config_title">Recents</string>
   <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
   <string name="recommend_apps_default_title">Empty</string>
@@ -285,9 +283,11 @@
   <string name="recommend_apps_tips">"This feature needs to connect to the internet to work normally. To turn this feature off, tap this folder's name."</string>
   <string name="recommend_loading">Loading</string>
   <string name="refresh">Refresh</string>
-  <string name="reset_fail">Reset failed</string>
+  <string name="reset_description_first_time">You can restore the layout from %1$s within 2 hours</string>
+  <string name="reset_description_others">You can restore the layout from %1$s</string>
+  <string name="reset_fail">"Couldn't restore"</string>
   <string name="reset_scene_prompt">Screen will be reset to default layout.</string>
-  <string name="reset_title">reset</string>
+  <string name="reset_title">Restore</string>
   <string name="screen_cells_config_title">Home screen layout</string>
   <string name="screen_locked_toast">Home screen layout is locked.</string>
   <string name="screen_number">%d screen</string>

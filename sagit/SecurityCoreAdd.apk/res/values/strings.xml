@@ -15,10 +15,10 @@ this feature will be added to Second space automatically."</string>
   <string name="appData">Installed apps</string>
   <string name="app_name">Security Core Component</string>
   <string name="back">Back</string>
-  <string name="bind_device">Bind devices</string>
+  <string name="bind_device">Add devices</string>
   <string name="can_not_delete_when_calling">"Can't delete spaces during a call"</string>
   <string name="can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
-  <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by family guard</string>
+  <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
   <string name="cancelClosePassword">"Don't turn off"</string>
   <string name="cancel_button">Cancel</string>
   <string name="changePassword">Change password</string>
@@ -112,7 +112,7 @@ to be able to view them anytime"</string>
   <string name="go_on_import">Keep importing</string>
   <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
   <string name="gpg_title">Dual app for Google Play Games</string>
-  <string name="green_guard">Family Guard</string>
+  <string name="green_guard">Parental controls</string>
   <string name="green_guard_des1">Add devices to manage them remotely</string>
   <string name="green_guard_des2">Know where exactly all managed devices are</string>
   <string name="green_guard_des3">Control installed apps and restrict usage</string>
@@ -348,7 +348,7 @@ to enter Second space from Lock screen"</string>
   <string name="switching_files">Moving files…</string>
   <string name="switching_photos">Moving photos…</string>
   <string name="temporary_no_set">Not now</string>
-  <string name="this_function_can_not_use_in_second_space">This function can only be used in first space</string>
+  <string name="this_function_can_not_use_in_second_space">This feature can only be used in First space</string>
   <string name="title_choose_app_status">Select app type</string>
   <string name="title_switch_file">Delete these files?</string>
   <string name="title_switch_photo">Delete these photos?</string>

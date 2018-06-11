@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="desc_weather">\@weather_location+\', \'+@weather_description+\', \'+#weather_temperature+\'度\'</string>
-    <string name="desc_weather_null">'暫無資料'</string>
-    <string name="weather_type_null">'暫無資料'</string>
+    <string name="air_quality0">'空氣優'</string>
+    <string name="air_quality1">'空氣良'</string>
+    <string name="air_quality2">'輕度污染'</string>
+    <string name="air_quality3">'中度污染'</string>
+    <string name="air_quality4">'重度污染'</string>
+    <string name="air_quality5">'嚴重污染'</string>
+    <string name="weather_null">點擊獲取天氣資料</string>
+    <string name="weather_location_null">無位置資訊</string>
     <string name="weather_type_0">晴</string>
     <string name="weather_type_1">多雲</string>
     <string name="weather_type_2">陰</string>

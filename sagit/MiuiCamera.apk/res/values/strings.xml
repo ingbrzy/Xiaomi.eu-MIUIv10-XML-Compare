@@ -115,14 +115,22 @@ and optimizes your photos based on this info"</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
   <string name="dual_camera_too_close_toast">The camera is too close to the object.</string>
   <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
+  <string name="edit_chin">Chin</string>
   <string name="edit_eye_large">Big eyes</string>
   <string name="edit_face_ruddy">Ruddy</string>
   <string name="edit_face_slender">Slender</string>
+  <string name="edit_lips">Lips</string>
+  <string name="edit_neck">Neck</string>
+  <string name="edit_nose">Nose</string>
+  <string name="edit_risorius">Risorius</string>
   <string name="edit_skin_smooth">Smooth</string>
   <string name="edit_skin_white">Tone</string>
+  <string name="edit_slim_nose">Nose</string>
+  <string name="edit_smile">Smile</string>
   <string name="empty">" "</string>
   <string name="error_fail_to_start_audio_capture">"Couldn't start audio capture"</string>
   <string name="face_age_info">Age: %d</string>
+  <string name="face_analyze_info">Age: %2$s (%1$s)</string>
   <string name="face_analyze_info_female">Female</string>
   <string name="face_analyze_info_male">Male</string>
   <string name="face_beauty_advanced">Pro</string>
@@ -154,6 +162,7 @@ and optimizes your photos based on this info"</string>
   <string name="front_camera_hint_text_place">"Taking selfies will be easier
 if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>
+  <string name="hibernate_hint">Tap the screen to wake Camera</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
   <string name="hint_ae_af_lock">Auto focus / auto exposure has been locked</string>
@@ -186,6 +195,7 @@ and then create a shot where everyone looks best."</string>
   <string name="pano_how_to_use_prompt_start">Tap the arrow to switch direction and begin panning slowly.</string>
   <string name="pano_how_to_use_prompt_to_move">Begin panning slowly</string>
   <string name="path_settings">System apps/Camera/Settings</string>
+  <string name="popup_tip_3d_beauty_intro_text">3D Beauty</string>
   <string name="portait_effect_entry_blackwhite">B&amp;W</string>
   <string name="portait_effect_entry_cool">Mint</string>
   <string name="portait_effect_entry_fairytale">Childhood</string>
@@ -430,6 +440,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_picturesize_entry_16_9">16:9</string>
   <string name="pref_camera_picturesize_entry_18_9">18:9</string>
   <string name="pref_camera_picturesize_entry_4_3">4:3</string>
+  <string name="pref_camera_picturesize_entry_fullscreen">Full screen 16:9</string>
+  <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
   <string name="pref_camera_picturesize_title_simple_mode">Camera frame</string>
   <string name="pref_camera_portrait_mode_entry_off">Portrait mode is off</string>
   <string name="pref_camera_portrait_mode_entry_on">Portrait mode is on</string>
@@ -596,12 +608,17 @@ and brings out the people in the front."</string>
   <string name="pref_skin_beautify_smooth_default">5</string>
   <string name="pref_skin_beautify_smooth_title">Skin</string>
   <string name="pref_video_captrue_ability_title">Image capture while recording</string>
+  <string name="pref_video_encoder_default">h264</string>
+  <string name="pref_video_encoder_entry_h264">H.264 High compatibility</string>
+  <string name="pref_video_encoder_entry_h265">H.265 High performance</string>
+  <string name="pref_video_encoder_title">Video encoder</string>
   <string name="pref_video_focusmode_entry_auto">Tap</string>
   <string name="pref_video_focusmode_entry_continuous">CAF</string>
   <string name="pref_video_focusmode_entryvalue_auto">auto</string>
   <string name="pref_video_focusmode_entryvalue_continuous">continuous-video</string>
   <string name="pref_video_focusmode_entryvalue_default">@string/pref_video_focusmode_entryvalue_continuous</string>
   <string name="pref_video_focusmode_title">Focus mode</string>
+  <string name="pref_video_hfr_entryvalue_default">5:120</string>
   <string name="pref_video_hfr_title">Video HFR</string>
   <string name="pref_video_quality_default">6</string>
   <string name="pref_video_quality_entry_1080p">FHD 1080P</string>

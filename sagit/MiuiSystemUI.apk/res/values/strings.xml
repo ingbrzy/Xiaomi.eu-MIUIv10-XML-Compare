@@ -476,6 +476,7 @@ Sample rate"</string>
   <string name="daltonizer_mode_protanomaly">Protanomaly (red-green)</string>
   <string name="daltonizer_mode_tritanomaly">Tritanomaly (blue-yellow)</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
+  <string name="data_connection_no_internet">No internet</string>
   <string name="data_saver">Data saver</string>
   <string name="data_usage_disabled_dialog">"The data limit you set has been reached. You are no longer using mobile data.
 
@@ -1164,6 +1165,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="notification_channel_disabled">"You won't get these notifications anymore."</string>
   <string name="notification_channel_general">General Messages</string>
   <string name="notification_channel_location">Location</string>
+  <string name="notification_channel_screenbutton">ScreenButton</string>
   <string name="notification_channel_screenshot">Screenshots</string>
   <string name="notification_channel_storage">Storage</string>
   <string name="notification_channel_switch_accessibility">Allow notifications from this channel</string>
@@ -1176,7 +1178,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="notification_group_overflow_indicator">+%s</string>
   <string name="notification_header_default_channel">Notifications</string>
   <string name="notification_header_title">Notifications</string>
-  <string name="notification_hidden_by_policy_text">Content is hidden</string>
+  <string name="notification_hidden_by_policy_text">Contents hidden by policy</string>
   <string name="notification_hidden_text">You have a new message</string>
   <string name="notification_info_channel_disabled_text">"You won't receive %2$s notifications from %1$s."</string>
   <string name="notification_info_channel_enabled_text">You will receive %2$s notifications from %1$s.</string>
@@ -1300,6 +1302,10 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="power_remaining_duration_only_short">%1$s left</string>
   <string name="process_kernel_label">Android OS</string>
   <string name="profile_owned_footer">Profile may be monitored</string>
+  <string name="prompt_danger">Danger</string>
+  <string name="prompt_detecting">Detecting</string>
+  <string name="prompt_safe">Safe</string>
+  <string name="prompt_unknown">Unknown</string>
   <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
   <string name="proxy_hostname_hint">proxy.example.com</string>
   <string name="proxy_port_hint">8080</string>
@@ -1364,7 +1370,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_dnd_priority_label">Priority only</string>
   <string name="quick_settings_done">Done</string>
   <string name="quick_settings_drivemode_label">Car mode</string>
-  <string name="quick_settings_dual_location_label">GPS</string>
+  <string name="quick_settings_dual_location_label">Dual GPS</string>
   <string name="quick_settings_edit_label">Edit</string>
   <string name="quick_settings_flashlight_label">Flashlight</string>
   <string name="quick_settings_hotspot_label">Hotspot</string>
@@ -1380,6 +1386,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_nfc_off">NFC is disabled</string>
   <string name="quick_settings_nfc_on">NFC is enabled</string>
   <string name="quick_settings_night_display_label">Night light</string>
+  <string name="quick_settings_night_secondary_label_on_at">On at %s</string>
+  <string name="quick_settings_night_secondary_label_on_at_sunset">On at sunset</string>
+  <string name="quick_settings_night_secondary_label_until_sunrise">Until sunrise</string>
   <string name="quick_settings_notifications_label">Notifications</string>
   <string name="quick_settings_papermode_label">Reading mode</string>
   <string name="quick_settings_powermode_label">Performance mode</string>
@@ -1396,6 +1405,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_screenbutton_label">Buttons</string>
   <string name="quick_settings_screenlock_label">Lock screen</string>
   <string name="quick_settings_screenshot_label">Screenshot</string>
+  <string name="quick_settings_secondary_label_until">Until %s</string>
   <string name="quick_settings_settings_label">Settings</string>
   <string name="quick_settings_sync_label">Sync</string>
   <string name="quick_settings_tethering_label">Tethering</string>
@@ -1585,6 +1595,10 @@ Slide down to lock"</string>
   <string name="status_bar_recent_remove_item_title">Remove from list</string>
   <string name="status_bar_recording_back">Return to Recorder</string>
   <string name="status_bar_recording_pause">Recorder paused</string>
+  <string name="status_bar_safepay_risk">Payment risks found</string>
+  <string name="status_bar_safepay_safe">No payment risks found</string>
+  <string name="status_bar_safepay_scanning">Checking payment environment…</string>
+  <string name="status_bar_safepay_unknown">"Couldn't check payment environment"</string>
   <string name="status_bar_settings_airplane">Airplane mode</string>
   <string name="status_bar_settings_auto_brightness_label">AUTO</string>
   <string name="status_bar_settings_auto_rotation">Auto-rotate screen</string>
@@ -1871,10 +1885,10 @@ Any user can update apps for all other users."</string>
   <string name="wrong_password">Incorrect password</string>
   <string name="zen_alarm_warning">"You won't hear your next alarm %1$s"</string>
   <string name="zen_alarm_warning_indef">"You won't hear your next alarm %1$s unless you turn this off before then"</string>
-  <string name="zen_alarms_introduction">"You won’t be disturbed by sounds and vibrations, except from alarms. "</string>
+  <string name="zen_alarms_introduction">"You won’t be disturbed by sounds and vibrations, except from alarms. You'll still hear anything you choose to play including music, videos, and games."</string>
   <string name="zen_mode_and_condition">%1$s. %2$s</string>
   <string name="zen_priority_customize_button">Customize</string>
-  <string name="zen_priority_introduction">"You won’t be disturbed by sounds and vibrations, except from alarms, reminders, events, and callers you specify. "</string>
+  <string name="zen_priority_introduction">"You won’t be disturbed by sounds and vibrations, except from alarms, reminders, events, and callers you specify. You'll still hear anything you choose to play including music, videos, and games."</string>
   <string name="zen_silence_introduction">This blocks ALL sounds and vibrations, including from alarms, music, videos, and games.</string>
   <string name="zen_silence_introduction_voice">This blocks ALL sounds and vibrations, including from alarms, music, videos, and games. You’ll still be able to make phone calls.</string>
 </resources>
