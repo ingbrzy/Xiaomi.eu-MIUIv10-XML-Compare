@@ -56,6 +56,8 @@
   <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
 and optimizes your photos based on this info"</string>
   <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
+  <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
+  <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
   <string name="bokeh_use_hint">Depth effect</string>
@@ -130,6 +132,7 @@ and optimizes your photos based on this info"</string>
   <string name="empty">" "</string>
   <string name="error_fail_to_start_audio_capture">"Couldn't start audio capture"</string>
   <string name="face_age_info">Age: %d</string>
+  <string name="face_analyze_info">Age: %2$s (%1$s)</string>
   <string name="face_analyze_info_female">Female</string>
   <string name="face_analyze_info_male">Male</string>
   <string name="face_beauty_advanced">Pro</string>
@@ -174,6 +177,10 @@ and then create a shot where everyone looks best."</string>
   <string name="hunt_dual_water_mark">Dual camera watermark will be added automatically.</string>
   <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
   <string name="install_confirmed">Install</string>
+  <string name="lens_dirty_detected_content">"It is detected that your camera lens is dirty,
+please clean your camera lens for better picture."</string>
+  <string name="lens_dirty_detected_title_back">Rear camera lens is dirty</string>
+  <string name="lens_dirty_detected_title_front">Front camera lens is dirty</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="module_name_beauty">Beauty</string>
   <string name="module_name_capture">Photo</string>
@@ -439,6 +446,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_picturesize_entry_16_9">16:9</string>
   <string name="pref_camera_picturesize_entry_18_9">18:9</string>
   <string name="pref_camera_picturesize_entry_4_3">4:3</string>
+  <string name="pref_camera_picturesize_entry_fullscreen">Full screen 16:9</string>
+  <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
   <string name="pref_camera_picturesize_title_simple_mode">Camera frame</string>
   <string name="pref_camera_portrait_mode_entry_off">Portrait mode is off</string>
   <string name="pref_camera_portrait_mode_entry_on">Portrait mode is on</string>
@@ -615,6 +624,7 @@ and brings out the people in the front."</string>
   <string name="pref_video_focusmode_entryvalue_continuous">continuous-video</string>
   <string name="pref_video_focusmode_entryvalue_default">@string/pref_video_focusmode_entryvalue_continuous</string>
   <string name="pref_video_focusmode_title">Focus mode</string>
+  <string name="pref_video_hfr_entryvalue_default">5:120</string>
   <string name="pref_video_hfr_title">Video HFR</string>
   <string name="pref_video_quality_default">6</string>
   <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
