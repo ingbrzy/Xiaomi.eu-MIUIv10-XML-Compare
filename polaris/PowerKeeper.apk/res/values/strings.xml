@@ -25,10 +25,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="config_suggest_suffix_title">Battery saver (recommended)</string>
   <string name="confirm">OK</string>
   <string name="current_cloud_addr_is">Cloud control server address is:</string>
-  <string name="disable_hide_mode">Turn off Battery saver</string>
-  <string name="disable_hide_mode_warning">"Turning off Battery saver may increase your device's power consumption."</string>
   <string name="empty_title_apps_container_list">No apps</string>
-  <string name="enable_hide_mode">Turn on Battery saver</string>
   <string name="enable_sleep_mode">Turn on Sleep mode to optimize battery usage at night</string>
   <string name="error_filename_too_long">The filename you entered is too long.</string>
   <string name="extreme_power_config_mode_category">Extreme mode</string>
