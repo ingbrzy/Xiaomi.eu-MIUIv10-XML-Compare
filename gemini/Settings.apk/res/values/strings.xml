@@ -2796,6 +2796,9 @@ There are other users present on this device.
   <string name="miui_allow_vibrate">Vibrations</string>
   <string name="miui_data_usage_menu_metered">Mobile hotspots</string>
   <string name="miui_experience_optimization">Turn on MIUI optimization</string>
+  <string name="miui_lab_ai_cloud_closed">"AI preloading isn't available yet."</string>
+  <string name="miui_lab_ai_preload_desc">AI preloading increases app launch speed</string>
+  <string name="miui_lab_ai_preload_title">AI preloading</string>
   <string name="miui_lab_drive_mode_desc">Use voice controls &amp; listen to WeChat messages</string>
   <string name="miui_lab_drive_mode_title">Car mode</string>
   <string name="miui_lab_feature_applied">Applied</string>
@@ -4752,7 +4755,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="super_resolution_desc">Make images crisper using an AI algorithm</string>
   <string name="super_resolution_maintain">"Super resolution isn't available yet."</string>
   <string name="super_resolution_no_app_tips">Download WeChat and Toutiao first.</string>
-  <string name="super_resolution_reboot_tips">Restart apps to make this feature work after you turn it on.</string>
+  <string name="super_resolution_reboot_tips">This feature allows to make blurry images in WeChat and Toutiao crisper. Launch apps again after you turn this feature on.</string>
   <string name="super_resolution_title">Super resolution</string>
   <string name="supl_not_set">&lt;Not set&gt;</string>
   <string name="supplicant_state_label">Supplicant state:</string>
