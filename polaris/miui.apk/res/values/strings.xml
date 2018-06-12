@@ -14,6 +14,7 @@
   <string name="afternoon">PM</string>
   <string name="am">AM</string>
   <string name="birthday">Birthday</string>
+  <string name="cancel_description">Cancel</string>
   <string name="check_phone_error_title">Sync is off</string>
   <string name="check_phone_io_error">"Can't connect to the network"</string>
   <string name="chinese_day_1">初一</string>
@@ -88,6 +89,7 @@
   <string name="chinese_symbol_animals_tiger">虎</string>
   <string name="clearable_edittext_clear_description">Clear</string>
   <string name="close">Close</string>
+  <string name="confirm_description">Confirm</string>
   <string name="copyright">Copyright</string>
   <string name="country_name_ac">AC</string>
   <string name="country_name_ad">AD</string>
@@ -325,7 +327,9 @@
   <string name="date_picker_label_year"/>
   <string name="date_time_done">Done</string>
   <string name="date_time_picker_dialog_title">Set date and time</string>
+  <string name="delete_description">Delete</string>
   <string name="deselect_all">Deselect</string>
+  <string name="deselect_all_description">Deselect all</string>
   <string name="early_morning">AM</string>
   <string name="earthly_branches_chen">辰</string>
   <string name="earthly_branches_chou">丑</string>
@@ -482,6 +486,7 @@
   <string name="search_input_description">Search</string>
   <string name="search_mode_button_back_description">Back</string>
   <string name="select_all">Select all</string>
+  <string name="select_all_description">Select all</string>
   <string name="select_item">Select items</string>
   <string name="send">Send</string>
   <string name="send_sms_for_sync_notice">An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
