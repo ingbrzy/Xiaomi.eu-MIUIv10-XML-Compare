@@ -196,7 +196,7 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_main_multi_user_error_message">"You signed in with the same account as in First space which caused a Mi Cloud error. 
 Use a different account."</string>
   <string name="micloud_main_multi_user_error_title">Mi Cloud error</string>
-  <string name="micloud_main_network_abnormal">"Can't connect to the network"</string>
+  <string name="micloud_main_network_abnormal">Check your network settings</string>
   <string name="micloud_main_network_error">"Can't connect to the network"</string>
   <string name="micloud_main_query_again">Send another request</string>
   <string name="micloud_main_query_error_message">"Can't confirm if sync is complete for some services"</string>

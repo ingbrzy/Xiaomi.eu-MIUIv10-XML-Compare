@@ -52,55 +52,6 @@
         <item>25 minutes</item>
         <item>30 minutes</item>
     </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
-    <string-array name="timer_duration">
-        <item>Total %1$s</item>
-        <item>Total %2$s</item>
-        <item>Total %1$s%2$s</item>
-        <item>Total %3$s</item>
-        <item>Total %1$s%3$s</item>
-        <item>Total %2$s%3$s</item>
-        <item>Total %1$s%2$s%3$s</item>
-    </string-array>
-    <string-array name="volume_button_setting_entries">
-        <item>Do nothing</item>
-        <item>Snooze</item>
-        <item>Dismiss</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="weather_tips_value">
-        <item>Reduce outdoor activities.</item>
-        <item>The roads are slippery today.</item>
-        <item>The weather is stormy, be careful.</item>
-        <item>"It's foggy today. Drive responsibly."</item>
-        <item>The air is polluted, wear a mask.</item>
-        <item>Take an umbrella when you go out.</item>
-        <item>Be careful on the road.</item>
-        <item>"It's hailing today, be careful."</item>
-        <item>Sandstorm is coming, wear a mask.</item>
-        <item>Have a nice day!</item>
-    </string-array>
     <string-array name="cities_names_miui">
         <item>Abidjan</item>
         <item>Accra</item>
@@ -694,6 +645,55 @@
         <item>Honduras</item>
         <item>Suriname</item>
         <item>Ecuador</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="timer_duration">
+        <item>Total %1$s</item>
+        <item>Total %2$s</item>
+        <item>Total %1$s%2$s</item>
+        <item>Total %3$s</item>
+        <item>Total %1$s%3$s</item>
+        <item>Total %2$s%3$s</item>
+        <item>Total %1$s%2$s%3$s</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Do nothing</item>
+        <item>Snooze</item>
+        <item>Dismiss</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="weather_tips_value">
+        <item>Reduce outdoor activities.</item>
+        <item>The roads are slippery today.</item>
+        <item>The weather is stormy, be careful.</item>
+        <item>"It's foggy today. Drive responsibly."</item>
+        <item>The air is polluted, wear a mask.</item>
+        <item>Take an umbrella when you go out.</item>
+        <item>Be careful on the road.</item>
+        <item>"It's hailing today, be careful."</item>
+        <item>Sandstorm is coming, wear a mask.</item>
+        <item>Have a nice day!</item>
     </string-array>
     <integer-array name="alarm_repeat_type_no_workdays_values">
         <item>0</item>
