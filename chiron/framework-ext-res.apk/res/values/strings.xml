@@ -162,6 +162,8 @@
   <string name="reboot_progress">Rebooting…</string>
   <string name="remain">Remaining: %s</string>
   <string name="replace">Replace</string>
+  <string name="resolver_app_recommend_flag">Recommend</string>
+  <string name="resolver_recommended_app_name">%1$s&lt;font color=#0099ff&gt;&lt;br/&gt;(%2$s)&lt;/font&gt;</string>
   <string name="resource_select">Select</string>
   <string name="screen_button_notification_text">To turn them on, press the Home and Power buttons simultaneously.</string>
   <string name="screen_button_notification_title">Navigation buttons are turned off</string>
@@ -175,16 +177,6 @@
   <string name="screenshot_gesture_detect_alert_dont_again">"Don't show again"</string>
   <string name="screenshot_gesture_detect_alert_msg">Swipe down with three fingers to take a screenshot?</string>
   <string name="screenshot_gesture_detect_alert_title">Three-finger screenshot</string>
-  <string name="securespaces_extension_accelerometer_name">ACCELEROMETER_EXTENSION</string>
-  <string name="securespaces_extension_accelerometer_serviceName"/>
-  <string name="securespaces_extension_delete_userdata_name">DELETE_USERDATA_EXTENSION</string>
-  <string name="securespaces_extension_delete_userdata_serviceName"/>
-  <string name="securespaces_extension_encryption_name">ENCRYPTION_EXTENSION</string>
-  <string name="securespaces_extension_encryption_serviceName">spaceencryption</string>
-  <string name="securespaces_extension_hidden_name">HIDDEN_EXTENSION</string>
-  <string name="securespaces_extension_hidden_serviceName"/>
-  <string name="securespaces_extension_read_cross_space_contacts_name">READ_CROSS_SPACE_CONTACTS_EXTENSION</string>
-  <string name="securespaces_extension_read_cross_space_contacts_serviceName"/>
   <string name="security_permission_denied_text">Access denied</string>
   <string name="security_permission_failed_text">An error occurred, try again later</string>
   <string name="security_permission_validate_warning">Thank you for helping make MIUI better!</string>

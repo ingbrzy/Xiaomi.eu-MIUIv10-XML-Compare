@@ -620,8 +620,6 @@
         <item>@string/unpin_target</item>
         <item>@string/app_info</item>
     </string-array>
-    <array name="securespaces_extension_encryption_userRestrictions" />
-    <array name="securespaces_extension_hidden_userRestrictions" />
     <array name="sim_colors">
         <item>@color/Teal_700</item>
         <item>@color/Blue_700</item>

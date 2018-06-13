@@ -207,6 +207,8 @@
   <string name="change_to_face_mode">Show face only</string>
   <string name="change_to_photo_mode">Show full previews</string>
   <string name="change_to_visible">Restore this person?</string>
+  <string name="checked">Selected</string>
+  <string name="checked_something">Selected %s</string>
   <string name="choose_baby_sexy">Gender</string>
   <string name="choose_owner_relation">Relationship</string>
   <string name="choose_people">"Choose a person's album"</string>
@@ -750,6 +752,7 @@
   <string name="enable_face_album_summary">Automatically sort photos by the people that are in them</string>
   <string name="enable_face_album_title">Sort by people</string>
   <string name="enabling_face_feature">Just a sec…</string>
+  <string name="enter_choice_mode">Entered Share dialog</string>
   <string name="enter_email_hint">Enter email address</string>
   <string name="error_album_not_exist">"Album doesn't exist"</string>
   <string name="error_build_thumbnail_action">Download original file</string>
@@ -813,6 +816,7 @@
   <string name="error_unknown_msg">An error occurred. Send us your feedback.</string>
   <string name="error_unknown_tip">An error occurred.</string>
   <string name="exit">Exit</string>
+  <string name="exit_choice_mode">Left Share dialog</string>
   <string name="exit_share">Exit album</string>
   <string name="exit_share_failed">"Couldn't exit %1$s"</string>
   <string name="exit_share_in_process">Leaving album \"%s\"…</string>
@@ -847,6 +851,7 @@ Take more photos of your friends!"</string>
   <string name="fancy_color_desc">Colors</string>
   <string name="fast_share_auto_render">Beautify</string>
   <string name="fast_share_auto_render_finish">Beautified</string>
+  <string name="feature_guidance_photo_effects">Photo effects</string>
   <string name="fileSizeSuffix">%1$s%2$s</string>
   <string name="filter_bi_memory">Memory</string>
   <string name="filter_bi_mono">Mono</string>
@@ -951,6 +956,8 @@ Take more photos of your friends!"</string>
   <string name="image_invalid_path">Invalid path</string>
   <string name="image_not_found">"Couldn't find image"</string>
   <string name="image_quota_fulfiled">Too many images. Delete some images and try again.</string>
+  <string name="image_with_time">Photo taken on %s</string>
+  <string name="image_with_time_and_location">Photo taken on %1$s. Location: %2$s.</string>
   <string name="impunity_declaration_settings">Internet connection notification</string>
   <string name="impunity_declaration_summary">Show internet connection notification every time you open Gallery</string>
   <string name="initializing_cloud">Initializing…</string>
@@ -1444,6 +1451,7 @@ to personalize Gallery"</string>
   <string name="sticker_words">Words</string>
   <string name="storage_description_primary">Internal storage</string>
   <string name="storage_description_sdcard">SD card</string>
+  <string name="storage_description_usb">USB storage</string>
   <string name="storage_description_xspace">Dual apps data</string>
   <string name="storage_no_space">Not enough space</string>
   <string name="sub_discard_confirm_message">Save changes?</string>
@@ -1509,6 +1517,8 @@ to personalize Gallery"</string>
   <string name="turn_off_and_move">Turn off and move</string>
   <string name="turn_on_and_remove">Turn on and move</string>
   <string name="turn_on_sync">Turn on sync</string>
+  <string name="unchecked">Deselected</string>
+  <string name="unchecked_something">Deselected %s</string>
   <string name="unpublish_failed">"Couldn't unpublish"</string>
   <string name="unpublish_succeeded">Album unpublished</string>
   <string name="unpublishing">Canceling…</string>
@@ -1615,6 +1625,8 @@ to personalize Gallery"</string>
   <string name="video_editor_watermark">Watermark</string>
   <string name="video_err">"Can't play video"</string>
   <string name="video_not_exist">"Video doesn't exist"</string>
+  <string name="video_with_time">Video taken on %s</string>
+  <string name="video_with_time_and_location">Video taken on %1$s. Location: %2$s.</string>
   <string name="view_by_gallery_tip">MIUI Gallery</string>
   <string name="view_face_album">View album</string>
   <string name="view_more_face_desc">View more people</string>

@@ -56,6 +56,7 @@
   <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
 and optimizes your photos based on this info"</string>
   <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
+  <string name="back_bokeh_use_hint">"Make sure the object isn't further than 1.5 meters."</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
