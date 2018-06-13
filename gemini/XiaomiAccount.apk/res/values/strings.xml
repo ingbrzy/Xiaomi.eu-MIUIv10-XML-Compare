@@ -20,6 +20,7 @@
   <string name="account_has_been_set">Change</string>
   <string name="account_limit_update_birthday">"Can't update birthday right now"</string>
   <string name="account_mibi_center">Mi Credits</string>
+  <string name="account_mibi_charge">Mi Credits Charge</string>
   <string name="account_mipay_info">Mi Pay</string>
   <string name="account_no_set">None</string>
   <string name="account_none">None</string>
@@ -184,6 +185,7 @@
   <string name="oauth_scopes_intro">&lt;font color=#%1$s&gt;%2$s&lt;/font&gt; will get following permissions:&lt;br&gt; &lt;br&gt; %3$s</string>
   <string name="oauth_title">Sign in with Mi Account</string>
   <string name="other_devices_title">Other devices</string>
+  <string name="passport_Resend">Resend</string>
   <string name="passport_access_denied">Access denied</string>
   <string name="passport_account_hint_text">Email/phone number/Mi Account ID</string>
   <string name="passport_account_identity_title">Verify your identity</string>
@@ -203,6 +205,7 @@
   <string name="passport_back">Back</string>
   <string name="passport_bad_authentication">Invalid username or password</string>
   <string name="passport_barcode_add_account_prompt">To connect an account, scan the QR code again after you sign in.</string>
+  <string name="passport_btn_change_account">Change account</string>
   <string name="passport_change_account">&lt;u&gt;Change account&lt;/u&gt;</string>
   <string name="passport_change_phone_number">Switch numbers</string>
   <string name="passport_checking_account">Checking password…</string>
@@ -233,6 +236,7 @@ To activate your account, follow the
   <string name="passport_error_empty_pwd">Enter your password</string>
   <string name="passport_error_empty_username">Enter your account ID</string>
   <string name="passport_error_empty_vcode">Enter verification code</string>
+  <string name="passport_error_empty_voice_code">Enter captcha</string>
   <string name="passport_error_illegal_pwd">Invalid password</string>
   <string name="passport_error_invalid_dev_id">"Your device's ID is invalid."</string>
   <string name="passport_error_invalid_phone_num">Invalid phone number</string>
@@ -270,7 +274,10 @@ To activate your account, follow the
   <string name="passport_input_phone_hint">Enter phone number</string>
   <string name="passport_input_vcode_hint">Enter verification code</string>
   <string name="passport_input_voice_captcha_hint">Enter voice verification code</string>
+  <string name="passport_input_voice_hint">Enter voice code</string>
   <string name="passport_license_host_unreachable">"Can't connect to the network. You can view this page at %s."</string>
+  <string name="passport_license_info_collapse">Collapse</string>
+  <string name="passport_license_info_open">Details</string>
   <string name="passport_loading">Loading…</string>
   <string name="passport_login">Sign in</string>
   <string name="passport_login_failed">"Can't sign in"</string>
@@ -283,6 +290,7 @@ To activate your account, follow the
   <string name="passport_login_title">Sign in to your Mi Account</string>
   <string name="passport_login_using_other_ways">Other ways to sign in</string>
   <string name="passport_message_dialog_title">SMS with verifying codes</string>
+  <string name="passport_new_user_register">Create an account</string>
   <string name="passport_next">Next</string>
   <string name="passport_no">No</string>
   <string name="passport_notification_title">Sign in error for %1$s</string>
@@ -326,6 +334,7 @@ To activate your account, follow the
   <string name="passport_register_by_email">&lt;u&gt;Create an account using email address&lt;/u&gt;</string>
   <string name="passport_register_restricted">Too many accounts have been associated with this number, try a different one</string>
   <string name="passport_register_restricted_title">"Can't use this phone number"</string>
+  <string name="passport_register_using_other_ways">Other ways to registered</string>
   <string name="passport_registered_phone_num">Phone: %s</string>
   <string name="passport_registered_phone_user_ID">User ID: %s</string>
   <string name="passport_registered_phone_user_name">Username: %s</string>
@@ -390,6 +399,7 @@ To activate your account, follow the
   <string name="passport_wrong_captcha">The code you entered is incorrect</string>
   <string name="passport_wrong_phone_number_format">The format of the phone number you entered is invalid</string>
   <string name="passport_wrong_vcode">The code you entered is incorrect</string>
+  <string name="passport_wrong_voice">The code you entered is incorrect</string>
   <string name="passport_yes">Yes</string>
   <string name="phone_activated">%s activated</string>
   <string name="phone_num_use_for">Phone number is used for:</string>

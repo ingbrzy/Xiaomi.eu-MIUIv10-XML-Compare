@@ -5540,7 +5540,7 @@ Tap the plus to add words."</string>
 1. When WLAN connection is poor, WLAN assistant will try to connect your device to other available WLAN networks.
 2. If all available WLAN connections turn out to be poor and mobile data is turned on, WLAN assistant will switch to mobile data."</string>
   <string name="wifi_assistant_disconnect">Disconnect</string>
-  <string name="wifi_assistant_explicitly_confirm_data_message">This Wi-Fi network has no access to the internet. Use mobile data instead?</string>
+  <string name="wifi_assistant_explicitly_confirm_data_message">This WLAN network has no access to the internet. Use mobile data instead?</string>
   <string name="wifi_assistant_explicitly_confirm_disconnect">This WLAN network has no access to the internet. Disconnect now?</string>
   <string name="wifi_assistant_explicitly_confirm_wifi_message">This WLAN network has no access to the internet. Other WLAN networks are available. Switch networks?</string>
   <string name="wifi_assistant_keep_connection">Stay connected</string>
@@ -5570,6 +5570,7 @@ Tap the plus to add words."</string>
   <string name="wifi_cellular_data_fallback_summary">Use mobile data when WLAN has no Internet access. Data usage may apply.</string>
   <string name="wifi_cellular_data_fallback_title">Switch to mobile data automatically</string>
   <string name="wifi_certificate">Certificate</string>
+  <string name="wifi_click_login_wlan">Requires login/authorization</string>
   <string name="wifi_click_share_wlan">Tap to share password</string>
   <string name="wifi_config_info">WLAN config</string>
   <string name="wifi_configure_settings_preference_summary_wakeup_off">"WLAN doesn't turn back on automatically"</string>

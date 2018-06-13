@@ -45,7 +45,7 @@
   <string name="anniversary_secondary_tag">Anniversary</string>
   <string name="app_label">Calendar</string>
   <string name="app_name">common</string>
-  <string name="birthday_born">birth date</string>
+  <string name="birthday_born">Birth date</string>
   <string name="birthday_calendar_display_name">Birthday reminders</string>
   <string name="birthday_event_description_a_week_ago">A week ago</string>
   <string name="birthday_event_description_a_week_later">One week until</string>
@@ -63,7 +63,7 @@
   <string name="birthday_notification_title_today">"%1$s's %3$s"</string>
   <string name="birthday_notification_type_term_lunar"/>
   <string name="birthday_saved">Birthday saved</string>
-  <string name="birthday_term">birthday</string>
+  <string name="birthday_term">Birthday</string>
   <string name="book_card_free">免费</string>
   <string name="book_card_rating_text">|   %1$s 条评论</string>
   <string name="button_day">Day</string>
@@ -86,7 +86,7 @@
   <string name="card_manager_no_data">No subscriptions yet</string>
   <string name="card_title_change">More</string>
   <string name="change_response_title">Change response</string>
-  <string name="check_reminded_text">查看提醒</string>
+  <string name="check_reminded_text">查看</string>
   <string name="chinese_leap">闰</string>
   <string name="chongsha">冲煞</string>
   <string name="clear_net_mock_success">Net mock clear success</string>
@@ -263,8 +263,8 @@
   <string name="global_football_no_match">No football matches are scheduled for today.</string>
   <string name="global_onthisday_com">OnThisDay.com</string>
   <string name="guide_card_import">Import</string>
-  <string name="guide_card_primary_text">Import friend birthday</string>
-  <string name="guide_card_second_text">Batch import, buddy birthday is not missing</string>
+  <string name="guide_card_primary_text">"Import your friends' birthdays"</string>
+  <string name="guide_card_second_text">Never miss important dates</string>
   <string name="guide_card_title">Import birthdays</string>
   <string name="hint_attendees">Guests</string>
   <string name="hint_description">Description</string>
