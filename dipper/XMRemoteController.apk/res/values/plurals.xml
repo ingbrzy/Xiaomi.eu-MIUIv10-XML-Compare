@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_install_count">
+        <item quantity="other">%1$s downloads</item>
+        <item quantity="one">%1$s download</item>
+    </plurals>
+    <plurals name="app_user_used">
+        <item quantity="other">%1$s users</item>
+        <item quantity="one">%1$s user</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d days ago</item>
+        <item quantity="one">%1$d day ago</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d hours ago</item>
+        <item quantity="one">%1$d hour ago</item>
+    </plurals>
+    <plurals name="match_brand_selection_des">
+        <item quantity="other">%d brands available</item>
+        <item quantity="one">1 brand available</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d minutes ago</item>
+        <item quantity="one">%1$d minute ago</item>
+    </plurals>
+</resources>
