@@ -476,7 +476,7 @@ Sample rate"</string>
   <string name="daltonizer_mode_protanomaly">Protanomaly (red-green)</string>
   <string name="daltonizer_mode_tritanomaly">Tritanomaly (blue-yellow)</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
-  <string name="data_connection_no_internet">No internet</string>
+  <string name="data_connection_no_internet">Not connected to the internet</string>
   <string name="data_saver">Data saver</string>
   <string name="data_usage_disabled_dialog">"The data limit you set has been reached. You are no longer using mobile data.
 
@@ -1160,16 +1160,18 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="notification_all_categories">All categories</string>
   <string name="notification_app_settings">Customize: %1$s</string>
   <string name="notification_channel_alerts">Alerts</string>
+  <string name="notification_channel_battery">Battery</string>
   <string name="notification_channel_controls_closed_accessibility">Notification controls for %1$s closed</string>
   <string name="notification_channel_controls_opened_accessibility">Notification controls for %1$s opened</string>
   <string name="notification_channel_disabled">"You won't get these notifications anymore."</string>
-  <string name="notification_channel_general">General Messages</string>
+  <string name="notification_channel_general">General messages</string>
   <string name="notification_channel_location">Location</string>
-  <string name="notification_channel_screenbutton">ScreenButton</string>
+  <string name="notification_channel_screenbutton">Buttons</string>
   <string name="notification_channel_screenshot">Screenshots</string>
   <string name="notification_channel_storage">Storage</string>
   <string name="notification_channel_switch_accessibility">Allow notifications from this channel</string>
   <string name="notification_channel_tv_pip">Picture-in-Picture</string>
+  <string name="notification_channel_usb">USB</string>
   <string name="notification_channels_list_desc_2">%1$s, %2$s</string>
   <string name="notification_default_channel_desc">"This app doesn't have notification categories"</string>
   <string name="notification_done">Done</string>
@@ -1178,7 +1180,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="notification_group_overflow_indicator">+%s</string>
   <string name="notification_header_default_channel">Notifications</string>
   <string name="notification_header_title">Notifications</string>
-  <string name="notification_hidden_by_policy_text">Contents hidden by policy</string>
+  <string name="notification_hidden_by_policy_text">Contents hidden</string>
   <string name="notification_hidden_text">You have a new message</string>
   <string name="notification_info_channel_disabled_text">"You won't receive %2$s notifications from %1$s."</string>
   <string name="notification_info_channel_enabled_text">You will receive %2$s notifications from %1$s.</string>
@@ -1197,7 +1199,6 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="notification_menu_remove_from_filter_title">Important</string>
   <string name="notification_menu_snooze_description">Notification snooze options</string>
   <string name="notification_more_settings">More settings</string>
-  <string name="notification_num_channels">%d notification categories</string>
   <string name="notification_otg_gamestick_in">Game controller connected</string>
   <string name="notification_otg_gamestick_out">Game controller disconnected</string>
   <string name="notification_otg_keyboard_in">Keyboard connected</string>
@@ -1373,6 +1374,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_dual_location_label">Dual GPS</string>
   <string name="quick_settings_edit_label">Edit</string>
   <string name="quick_settings_flashlight_label">Flashlight</string>
+  <string name="quick_settings_gps_label">GPS</string>
   <string name="quick_settings_hotspot_label">Hotspot</string>
   <string name="quick_settings_ime_label">Input method</string>
   <string name="quick_settings_inversion_label">Invert colors</string>
@@ -1412,7 +1414,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_tiles">default</string>
   <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit</string>
   <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
-  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver,midrop</string>
+  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit,gps,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver,midrop</string>
   <string name="quick_settings_time_label">Time</string>
   <string name="quick_settings_user_label">Me</string>
   <string name="quick_settings_user_new_user">New user</string>
