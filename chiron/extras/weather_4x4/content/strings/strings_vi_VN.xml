@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_format">EEE, d MMM</string>
+    <string name="date_format">EEEE, d MMMM</string>
     <string name="today">Hôm nay</string>
     <string name="tomorrow">Ngày mai</string>
-    <string name="aqi_pure">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_good">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_moderate">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_pollution">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_unhealthy">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_dangerous">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_hazardous">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_break">'AQI '+#weather_aqilevel</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
     <string name="weather_type_null">'Không có dữ liệu'</string>
-	<string name="weather_type_0">Quang</string>
+    <string name="weather_type_0">Quang</string>
     <string name="weather_type_1">Nhiều mây</string>
     <string name="weather_type_2">Sương mù</string>
     <string name="weather_type_3">Sương mù</string>
