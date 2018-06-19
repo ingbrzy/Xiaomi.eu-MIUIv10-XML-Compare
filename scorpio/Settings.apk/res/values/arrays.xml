@@ -1520,10 +1520,14 @@
         <item>TW</item>
         <item>UA</item>
     </string-array>
-    <string-array name="device_global_support_face">
+    <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
         <item>polaris</item>
         <item>ysl</item>
+    </string-array>
+    <string-array name="device_global_support_face_sensetime">
+        <item>dipper</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -2439,12 +2443,21 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Critical</item>
         <item>\?</item>
     </string-array>
-    <string-array name="region_support_face">
+    <string-array name="region_global_support_face_facejiajia">
         <item>IN</item>
         <item>ID</item>
         <item>RU</item>
         <item>HK</item>
         <item>TW</item>
+    </string-array>
+    <string-array name="region_global_support_face_sensetime">
+        <item>IN</item>
+        <item>ID</item>
+        <item>HK</item>
+        <item>TW</item>
+        <item>SG</item>
+        <item>VN</item>
+        <item>MY</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
