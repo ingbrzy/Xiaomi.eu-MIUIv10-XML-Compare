@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gadget version="1" resDensity="480" extraResources="sw1440-den640::1.222" extraScaleByDensity="640:1.222">
+	<Var name="datum_x" expression="#view_width/2"/>
+	<Var name="datum_y" expression="#view_height/2"/>
+
+    <!-- make sure equation always not empty, at least a '0' -->
+    <Var name="equation" expression="'0'" type="string" const="true"/>
+    <Var name="history_equation" expression="'0'" type="string" const="true"/>
+    <!-- for bug of expression parse. can't write directly in expression -->
+    <Var name="pow_for_E" expression="'*pow(10,'" type="string" const="true"/>
+    <!-- for better experience: after an evaluation, press number will start a new equation -->
+    <Var name="finish_eval" expression="1" const="true"/>
+	<FramerateController name="framerate_controller" loop="false">
+		<ControlPoint frameRate="60" time="0"/>
+		<ControlPoint frameRate="0" time="500"/>
+	</FramerateController>
+	<Image x="#datum_x" y="#datum_y" align="center" alignV="center" src="bg.png"/>
+	<Button name="0" x="#datum_x-465" y="#datum_y+370" w="465" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x-465" y="#datum_y+370" w="465" h="186" cornerRadius="5,10">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x-465" y="#datum_y+370" w="465" h="186" cornerRadius="5,10"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+			    <VariableCommand name="equation" expression="ifelse(#finish_eval,'0', eqs(@equation,'0'),'0', strMatches(@equation,'.*[\\+*/-]0$'), substr(@equation,0,len(@equation)-1)+'0', @equation+'0')" type="string"/>
+			    <VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="1" x="#datum_x-465" y="#datum_y+184" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x-465" y="#datum_y+184" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x-465" y="#datum_y+184" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(#finish_eval,'1', eqs(@equation,'0'),'1', strMatches(@equation,'.*[\\+*/-]0$'), substr(@equation,0,len(@equation)-1)+'1', @equation+'1')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="2" x="#datum_x-232" y="#datum_y+184" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x-232" y="#datum_y+184" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x-232" y="#datum_y+184" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(#finish_eval,'2', eqs(@equation,'0'),'2', strMatches(@equation,'.*[\\+*/-]0$'), substr(@equation,0,len(@equation)-1)+'2', @equation+'2')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="3" x="#datum_x+1" y="#datum_y+184" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x+1" y="#datum_y+184" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x+1" y="#datum_y+184" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(#finish_eval,'3', eqs(@equation,'0'),'3', strMatches(@equation,'.*[\\+*/-]0$'), substr(@equation,0,len(@equation)-1)+'3', @equation+'3')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="4" x="#datum_x-465" y="#datum_y" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x-465" y="#datum_y" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x-465" y="#datum_y" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(#finish_eval,'4', eqs(@equation,'0'),'4', strMatches(@equation,'.*[\\+*/-]0$'), substr(@equation,0,len(@equation)-1)+'4', @equation+'4')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="5" x="#datum_x-232" y="#datum_y" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x-232" y="#datum_y" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x-232" y="#datum_y" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(#finish_eval,'5', eqs(@equation,'0'),'5', strMatches(@equation,'.*[\\+*/-]0$'), substr(@equation,0,len(@equation)-1)+'5', @equation+'5')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="6" x="#datum_x+1" y="#datum_y" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x+1" y="#datum_y" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x+1" y="#datum_y" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(#finish_eval,'6', eqs(@equation,'0'),'6', strMatches(@equation,'.*[\\+*/-]0$'), substr(@equation,0,len(@equation)-1)+'6', @equation+'6')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="7" x="#datum_x-465" y="#datum_y-186" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x-465" y="#datum_y-186" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x-465" y="#datum_y-186" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(#finish_eval,'7', eqs(@equation,'0'),'7', strMatches(@equation,'.*[\\+*/-]0$'), substr(@equation,0,len(@equation)-1)+'7', @equation+'7')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="8" x="#datum_x-232" y="#datum_y-186" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x-232" y="#datum_y-186" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x-232" y="#datum_y-186" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(#finish_eval,'8', eqs(@equation,'0'),'8', strMatches(@equation,'.*[\\+*/-]0$'), substr(@equation,0,len(@equation)-1)+'8', @equation+'8')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="9" x="#datum_x+1" y="#datum_y-186" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x+1" y="#datum_y-186" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x+1" y="#datum_y-186" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(#finish_eval,'9', eqs(@equation,'0'),'9', strMatches(@equation,'.*[\\+*/-]0$'), substr(@equation,0,len(@equation)-1)+'9', @equation+'9')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="." x="#datum_x+1" y="#datum_y+370" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x+1" y="#datum_y+370" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x+1" y="#datum_y+370" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="@equation+'.'" type="string" condition="ifelse(eq(strLastIndexOf(@equation,'.'),-1),1,not(strMatches(substr(@equation,strLastIndexOf(@equation,'.')+1),'^\d*$')))"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="=" x="#datum_x+234" y="#datum_y+184" w="231" h="372">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x+232" y="#datum_y+184" w="232" h="372">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x+232" y="#datum_y+184" w="232" h="372"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+			    <VariableCommand name="history_equation" expression="@equation" type="string"/>
+			    <!-- for xxEyy case: convert to xx*pow(10,yy) -->
+			    <VariableCommand name="end_of_base" expression="strIndexOf(@equation,'E')" condition="strContains(@equation,'E')"/>
+			    <!-- end_of_base+2: for xxE-yy case -->
+			    <VariableCommand name="plus_pos" expression="strIndexOf(substr(@equation,#end_of_base+2),'+')" condition="strContains(@equation,'E')"/>
+			    <VariableCommand name="plus_pos" expression="ifelse(ne(#plus_pos,-1),#plus_pos+#end_of_base+2,len(@equation))" condition="strContains(@equation,'E')"/>
+			    <VariableCommand name="minus_pos" expression="strIndexOf(substr(@equation,#end_of_base+2),'-')" condition="strContains(@equation,'E')"/>
+			    <VariableCommand name="minus_pos" expression="ifelse(ne(#minus_pos,-1),#minus_pos+#end_of_base+2,len(@equation))" condition="strContains(@equation,'E')"/>
+			    <VariableCommand name="mult_pos" expression="strIndexOf(substr(@equation,#end_of_base+2),'*')" condition="strContains(@equation,'E')"/>
+			    <VariableCommand name="mult_pos" expression="ifelse(ne(#mult_pos,-1),#mult_pos+#end_of_base+2,len(@equation))" condition="strContains(@equation,'E')"/>
+			    <VariableCommand name="divide_pos" expression="strIndexOf(substr(@equation,#end_of_base+2),'/')" condition="strContains(@equation,'E')"/>
+			    <VariableCommand name="divide_pos" expression="ifelse(ne(#divide_pos,-1),#divide_pos+#end_of_base+2,len(@equation))" condition="strContains(@equation,'E')"/>
+			    <VariableCommand name="end_of_index" expression="ifelse(lt(#plus_pos,#minus_pos)*lt(#plus_pos,#mult_pos)*lt(#plus_pos,#divide_pos),#plus_pos, lt(#minus_pos,#mult_pos)*lt(#minus_pos,#divide_pos),#minus_pos, lt(#mult_pos,#divide_pos),#mult_pos, #divide_pos)" condition="strContains(@equation,'E')"/>
+			    <!-- for bug of expression parse -->
+			    <VariableCommand name="equation_pow_temp" expression="substr(@equation,#end_of_base+1,#end_of_index-#end_of_base-1) + ')' + substr(@equation,#end_of_index)" type="string" condition="strContains(@equation,'E')"/>
+			    <VariableCommand name="equation_pow" expression="substr(@equation,0,#end_of_base)+ @pow_for_E + @equation_pow_temp" type="string" condition="strContains(@equation,'E')"/>
+			    <VariableCommand name="equation_normalized" expression="ifelse(strContains(@equation,'E'),@equation_pow,@equation)" type="string"/>
+			    <VariableCommand name="equation_normalized" expression="ifelse(strMatches(@equation_normalized,'.*[\\+*/-]$'),substr(@equation_normalized,0,len(@equation_normalized)-1),@equation_normalized)" type="string"/>
+			    <VariableCommand name="equation" expression="ifelse(strContains(@equation_normalized,'NaN'),'NaN',preciseeval(@equation_normalized,8))" type="string"/>
+			    <VariableCommand name="show_equation" expression="1"/>
+                <!-- for better experience -->
+                <VariableCommand name="finish_eval" expression="1"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="+" x="#datum_x+234" y="#datum_y" w="231" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x+234" y="#datum_y" w="231" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x+234" y="#datum_y" w="231" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+			    <!-- take care: '-' can't be in middle -->
+				<VariableCommand name="equation" expression="ifelse(strEndsWith(@equation,'.'),@equation, strMatches(@equation,'.*[\\+*/-]$'), substr(@equation,0,len(@equation)-1)+'+', @equation+'+')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="-" x="#datum_x+234" y="#datum_y-186" w="231" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x+234" y="#datum_y-186" w="231" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x+234" y="#datum_y-186" w="231" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(strEndsWith(@equation,'.'),@equation, strMatches(@equation,'.*[\\+*/-]$'), substr(@equation,0,len(@equation)-1)+'-', @equation+'-')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="x" x="#datum_x+234" y="#datum_y-371" w="231" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x+234" y="#datum_y-371" w="231" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x+234" y="#datum_y-371" w="231" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(strEndsWith(@equation,'.'),@equation, strMatches(@equation,'.*[\\+*/-]$'), substr(@equation,0,len(@equation)-1)+'*', @equation+'*')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="÷" x="#datum_x+1" y="#datum_y-371" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x+1" y="#datum_y-371" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x+1" y="#datum_y-371" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(strEndsWith(@equation,'.'),@equation, strMatches(@equation,'.*[\\+*/-]$'), substr(@equation,0,len(@equation)-1)+'/', @equation+'/')" type="string"/>
+				<VariableCommand name="finish_eval" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="del" x="#datum_x-232" y="#datum_y-371" w="232" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x-232" y="#datum_y-371" w="232" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x-232" y="#datum_y-371" w="232" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+				<VariableCommand name="equation" expression="ifelse(#finish_eval,'0', ifelse(gt(len(@equation),1),substr(@equation,0,len(@equation)-1),'0'))" type="string"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button name="clean" x="#datum_x-465" y="#datum_y-371" w="234" h="186">
+		<Normal>
+			<Rectangle fillColor="#30000000" x="#datum_x-465" y="#datum_y-371" w="234" h="186">
+				<AlphaAnimation loop="false">
+					<Alpha a="255" time="0" acc="-2000"/>
+					<Alpha a="0" time="500"/>
+				</AlphaAnimation>
+			</Rectangle>
+		</Normal>
+		<Pressed>
+			<Rectangle fillColor="#30000000" x="#datum_x-465" y="#datum_y-371" w="234" h="186"/>
+		</Pressed>
+		<Triggers>
+			<Trigger action="up">
+				<Command target="framerate_controller.animation" value="play"/>
+			    <VariableCommand name="history_equation" expression="'0'" type="string"/>
+				<VariableCommand name="equation" expression="'0'" type="string"/>
+				<VariableCommand name="show_equation" expression="0"/>
+			</Trigger>
+			<Trigger action="cancel">
+				<Command target="framerate_controller.animation" value="play"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Group x="#datum_x-430" y="#datum_y-555" w="860" h="184" clip="true">
+		<Text x="860" y="51" align="right" alignV="center" name="his_disp" size="36" color="#ffffff" alpha="157.5" textExp="ifelse(eqs(@history_equation,'0'),'',strReplace(strReplace(@history_equation,'*','×'),'/','÷')+'=')" visibility="#show_equation"/>
+		<Text x="860" y="152" align="right" alignV="bottom" name="cur_disp" size="63" scale="1-0.175*gt(#cur_disp.text_width,860)" pivotX="#cur_disp.text_width" pivotY="63" color="#ffffff" alpha="157.5" textExp="strReplace(strReplace(@equation,'*','×'),'/','÷')"/>
+	</Group>
+	<Button x="#datum_x-465" y="#datum_y-555" w="930" h="184">
+		<Triggers>
+			<Trigger action="up">
+				<ExternCommand command="start_activity" strPara="'#Intent;action=android.intent.action.MAIN;component=com.miui.calculator/.cal.CalculatorActivity;end'"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+</Gadget>
