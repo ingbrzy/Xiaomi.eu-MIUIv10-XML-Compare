@@ -1416,10 +1416,6 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="searchview_description_voice">Voice search</string>
   <string name="second">sec</string>
   <string name="seconds">secs</string>
-  <string name="securespaces_extension_encryption_name">ENCRYPTION_EXTENSION</string>
-  <string name="securespaces_extension_encryption_serviceName">spaceencryption</string>
-  <string name="securespaces_extension_hidden_name">HIDDEN_EXTENSION</string>
-  <string name="securespaces_extension_hidden_serviceName"/>
   <string name="selectAll">Select all</string>
   <string name="selectTextMode">Select text</string>
   <string name="select_character">Insert character</string>
