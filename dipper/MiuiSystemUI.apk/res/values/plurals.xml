@@ -104,6 +104,10 @@
         <item quantity="other">%s more notifications inside.</item>
         <item quantity="one">%s more notification inside.</item>
     </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="other">%d notification categories</item>
+        <item quantity="one">%d notification category</item>
+    </plurals>
     <plurals name="notification_num_channels_desc">
         <item quantity="other">1 out of %d notification categories from this app</item>
         <item quantity="one">1 out of %d notification category from this app</item>

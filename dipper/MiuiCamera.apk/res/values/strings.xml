@@ -8,8 +8,6 @@
   <string name="accessibility_beauty_panel_open">Beautify menu is opened</string>
   <string name="accessibility_beauty_switch_closed">Beautify is off</string>
   <string name="accessibility_beauty_switch_open">Beautify is on</string>
-  <string name="accessibility_bokeh_normal">Front camera background blur is off</string>
-  <string name="accessibility_bokeh_on">Front camera background blur is on</string>
   <string name="accessibility_camera_picker">Front and rear camera switch</string>
   <string name="accessibility_camera_picker_finish">Switched cameras successfully</string>
   <string name="accessibility_camera_shutter_finish">Took a photo successfully</string>
@@ -49,7 +47,6 @@
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
-  <string name="bokeh_use_hint">Depth effect</string>
   <string name="button_fisheye_camera_title">Fisheye</string>
   <string name="button_front_camera_title">Make a selfie</string>
   <string name="button_normal_video_title">Record video</string>
@@ -206,7 +203,6 @@ and brings out the people in the front."</string>
   <string name="pref_camera_beautify_entry_normal">Medium</string>
   <string name="pref_camera_beauty">Beautify</string>
   <string name="pref_camera_beauty_deep">Beautify Pro</string>
-  <string name="pref_camera_bokeh_title">Portrait</string>
   <string name="pref_camera_coloreffect_default">none</string>
   <string name="pref_camera_coloreffect_entry_none">Normal</string>
   <string name="pref_camera_coloreffect_title">Filters</string>
@@ -251,8 +247,6 @@ and brings out the people in the front."</string>
   <string name="pref_camera_focusmode_value_default">continuous-picture</string>
   <string name="pref_camera_front_ai_scene_entry_off">AI camera is off</string>
   <string name="pref_camera_front_ai_scene_entry_on">AI camera</string>
-  <string name="pref_camera_front_bokeh_entry_off">Off</string>
-  <string name="pref_camera_front_bokeh_entry_on">On</string>
   <string name="pref_camera_hdr_entry_auto">Auto</string>
   <string name="pref_camera_hdr_entry_live">Live</string>
   <string name="pref_camera_hdr_entry_normal">Pro</string>

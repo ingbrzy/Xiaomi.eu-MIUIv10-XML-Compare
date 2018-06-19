@@ -278,6 +278,16 @@
         <item>260,ZM</item>
         <item>263,ZW</item>
     </string-array>
+    <string-array name="ball_world_cup_groups">
+        <item>@string/setting_world_cup_a</item>
+        <item>@string/setting_world_cup_b</item>
+        <item>@string/setting_world_cup_c</item>
+        <item>@string/setting_world_cup_d</item>
+        <item>@string/setting_world_cup_e</item>
+        <item>@string/setting_world_cup_f</item>
+        <item>@string/setting_world_cup_g</item>
+        <item>@string/setting_world_cup_h</item>
+    </string-array>
     <string-array name="default_app">
         <item>com.xiaomi.shop/com.xiaomi.shop2.plugin.PluginChildActivity</item>
         <item>com.tmall.wireless/.orderlogistics.ui.TMLogisticsActivity</item>
