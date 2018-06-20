@@ -917,6 +917,7 @@ To add a contact to your list of favorites:
   <string name="preference_phone">Device</string>
   <string name="preference_phone_more_title">Call settings</string>
   <string name="preference_remove_duplicate">Merge duplicate contacts</string>
+  <string name="preference_show_firewall_calllog">Show blocked calls in call history</string>
   <string name="preference_show_yellowpage_tab_description">Yellow pages might not work properly when this feature is off.</string>
   <string name="preference_show_yellowpage_tab_title">Show Yellow pages</string>
   <string name="preference_simple_mode_description">Display photos and other contact info in list view</string>

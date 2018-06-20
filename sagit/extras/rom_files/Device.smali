@@ -1038,6 +1038,20 @@
     return v0
 .end method
 
+.method public static isBackBokehSupported()Z
+    .locals 2
+
+    const-string/jumbo v0, "is_back_bokeh_supported"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static isBackFingerSensor()Z
     .locals 2
 
@@ -2512,6 +2526,12 @@
     if-nez v1, :cond_0
 
     invoke-static {}, Lcom/android/camera/Device;->isSupportedStereo()Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    invoke-static {}, Lcom/android/camera/Device;->isBackBokehSupported()Z
 
     move-result v1
 

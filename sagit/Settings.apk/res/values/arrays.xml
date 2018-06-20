@@ -2320,6 +2320,9 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="poco_device_list">
+        <item>beryllium</item>
+    </string-array>
     <array name="power_click">
         <item>@drawable/powerclick01</item>
         <item>@drawable/powerclick01</item>

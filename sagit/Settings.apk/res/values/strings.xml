@@ -1494,6 +1494,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_memory">RAM</string>
   <string name="device_miui_more">View more</string>
   <string name="device_miui_version">MIUI version</string>
+  <string name="device_miui_version_for_POCO">MIUI version (For POCO)</string>
   <string name="device_miui_version_update">MIUI update is available</string>
   <string name="device_name">Device name</string>
   <string name="device_name_input_error">"Couldn't save device name"</string>
@@ -2261,6 +2262,9 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="key_combination_power_back">Power + Back</string>
   <string name="key_combination_power_home">Power + Home</string>
   <string name="key_combination_power_menu">Power + Menu</string>
+  <string name="key_fsg_dialog_message">"You're using full screen gestures for navigation. Button-related features aren't available now. Switch to buttons?"</string>
+  <string name="key_fsg_dialog_negative">Cancel</string>
+  <string name="key_fsg_dialog_positive">Switch to buttons</string>
   <string name="key_gesture_function_dialog_message">%1$s is a shortcut for %2$s. Replace with %3$s?</string>
   <string name="key_gesture_function_dialog_negative">Cancel</string>
   <string name="key_gesture_function_dialog_positive">Replace</string>
@@ -2795,6 +2799,9 @@ There are other users present on this device.
   <string name="miui_allow_vibrate">Vibrations</string>
   <string name="miui_data_usage_menu_metered">Mobile hotspots</string>
   <string name="miui_experience_optimization">Turn on MIUI optimization</string>
+  <string name="miui_lab_ai_cloud_closed">"AI preloading isn't available yet."</string>
+  <string name="miui_lab_ai_preload_desc">AI preloading increases app launch speed</string>
+  <string name="miui_lab_ai_preload_title">AI preloading</string>
   <string name="miui_lab_drive_mode_desc">Use voice controls &amp; listen to WeChat messages</string>
   <string name="miui_lab_drive_mode_title">Car mode</string>
   <string name="miui_lab_feature_applied">Applied</string>
@@ -2807,8 +2814,6 @@ There are other users present on this device.
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
   <string name="miui_lab_super_resolution_desc">Make images crisper</string>
   <string name="miui_lab_super_resolution_title">Super resolution</string>
-  <string name="miui_lab_taplus_desc">Press and hold items to trigger actions</string>
-  <string name="miui_lab_taplus_title">Taplus</string>
   <string name="miui_master_clear_summary">Erases all data on phone</string>
   <string name="miui_touch_filtered_warning">If an app is blocking a permissions dialog, drag the overlapping item away or close the app.</string>
   <string name="miui_updater">System update</string>
@@ -4753,7 +4758,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="super_resolution_desc">Make images crisper using an AI algorithm</string>
   <string name="super_resolution_maintain">"Super resolution isn't available yet."</string>
   <string name="super_resolution_no_app_tips">Download WeChat and Toutiao first.</string>
-  <string name="super_resolution_reboot_tips">Restart apps to make this feature work after you turn it on.</string>
+  <string name="super_resolution_reboot_tips">This feature allows to make blurry images in WeChat and Toutiao crisper. Launch apps again after you turn this feature on.</string>
   <string name="super_resolution_title">Super resolution</string>
   <string name="supl_not_set">&lt;Not set&gt;</string>
   <string name="supplicant_state_label">Supplicant state:</string>
@@ -4842,6 +4847,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="talkback_title">Talkback</string>
   <string name="tap_to_wake">Tap to wake</string>
   <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
+  <string name="taplus_title">Taplus</string>
   <string name="telephony_monitor_switch">Telephony monitor</string>
   <string name="telephony_monitor_switch_summary">Telephony monitor will collect logs when it detects a problem with telephony/modem functionality and prompt the user to report a bug.</string>
   <string name="telephony_monitor_toast">To apply telephony monitor change, reboot device</string>
@@ -5567,6 +5573,7 @@ Tap the plus to add words."</string>
   <string name="wifi_cellular_data_fallback_summary">Use mobile data when WLAN has no Internet access. Data usage may apply.</string>
   <string name="wifi_cellular_data_fallback_title">Switch to mobile data automatically</string>
   <string name="wifi_certificate">Certificate</string>
+  <string name="wifi_click_login_wlan">Requires login/authorization</string>
   <string name="wifi_click_share_wlan">Tap to share password</string>
   <string name="wifi_config_info">WLAN config</string>
   <string name="wifi_configure_settings_preference_summary_wakeup_off">"WLAN doesn't turn back on automatically"</string>

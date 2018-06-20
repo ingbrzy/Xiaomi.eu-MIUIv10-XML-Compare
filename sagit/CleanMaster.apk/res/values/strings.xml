@@ -616,6 +616,8 @@
   <string name="wechat_copying_video_dialog_title">Export to Gallery</string>
   <string name="wechat_copying_video_empty">No videos to export</string>
   <string name="wechat_copying_video_success">Exported successfully</string>
+  <string name="wechat_msg_time_long">yyyy-MM-dd</string>
+  <string name="wechat_msg_time_short">MM-dd</string>
   <string name="wechat_qq_activity_title">Deep clean</string>
   <string name="wechat_qq_celan_tab_file">Files</string>
   <string name="wechat_qq_celan_tab_image">Images</string>
@@ -624,6 +626,7 @@
   <string name="wechat_qq_chat_files">Chat history</string>
   <string name="wechat_qq_deep_clean_button_text">Deep clean</string>
   <string name="wechat_qq_normal_files">Trash</string>
+  <string name="wechat_video_time">%1$s:%2$s</string>
   <string name="white_list_ad_header">Obsolete files: %d</string>
   <string name="white_list_apk_header">Install packages: %d</string>
   <string name="white_list_cache_header">Cached files: %d</string>
