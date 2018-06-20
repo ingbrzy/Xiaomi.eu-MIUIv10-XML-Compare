@@ -517,6 +517,8 @@ Sample Rate"</string>
   <string name="close_profile">Close</string>
   <string name="close_volte">Turn off VoLTE</string>
   <string name="cloud_antispam_title">Identify unknown numbers</string>
+  <string name="cloud_sim_enabled_dual_4g_summary">"Can't turn off Dual 4G while using Mi Roaming"</string>
+  <string name="cloud_sim_enabled_preferred_network_summary">"Can't change network preferences while using Mi Roaming"</string>
   <string name="cmcc_ut_data_enable_prompt">This service requires mobile data connection. Turn it on to continue.</string>
   <string name="command_error_fdn_failure">You need to turn off FDN first</string>
   <string name="config_default_data_sim">Settings</string>
@@ -568,8 +570,11 @@ Sample Rate"</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
   <string name="data_enable_summary">Allow this device to use mobile data</string>
   <string name="data_enabled">Mobile data</string>
+  <string name="data_plan">mobile data plans</string>
   <string name="data_usage_uninstalled_apps">Removed apps</string>
   <string name="data_usage_uninstalled_apps_users">Removed apps and users</string>
+  <string name="dc_alert_dialog_message">Some apps require mobile data connection. You can contact your carrier to learn what %s are available to you.</string>
+  <string name="dc_alert_dialog_title">Data usage warning</string>
   <string name="deactivate_all">Cancel all</string>
   <string name="debug_app">Select debug app</string>
   <string name="debug_app_not_set">No debug application set</string>
@@ -681,6 +686,7 @@ Sample Rate"</string>
   <string name="display_name">DisplayName</string>
   <string name="display_name_summary">&lt;Same as username&gt;</string>
   <string name="display_name_title">Display name</string>
+  <string name="do_not_show_again">"Don't show again"</string>
   <string name="domain_address">SipDomain</string>
   <string name="domain_address_title">Server</string>
   <string name="doneButton">Done</string>
