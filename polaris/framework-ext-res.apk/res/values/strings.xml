@@ -116,10 +116,6 @@
   <string name="global_actions_reboot">Reboot</string>
   <string name="global_actions_shutdown">Power off</string>
   <string name="global_actions_silent_mode">Silent mode</string>
-  <string name="group_name_contacts">Contacts</string>
-  <string name="group_name_coworkers">Colleagues</string>
-  <string name="group_name_family">Family</string>
-  <string name="group_name_friends">Friends</string>
   <string name="handy_mode_enter_dlg_msg">Enter One-handed mode?</string>
   <string name="handy_mode_enter_dlg_title">Enter One-handed mode</string>
   <string name="handy_mode_summary">To close, tap the darkened area</string>

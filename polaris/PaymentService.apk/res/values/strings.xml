@@ -171,7 +171,6 @@ Please check your local date and try again."</string>
   <string name="mibi_label_balance">Balance</string>
   <string name="mibi_label_giftcard">Giftcard</string>
   <string name="mibi_label_pay_remain">Amount due: %1$s Mi Credits</string>
-  <string name="mibi_license_message">"You're about to use Mi Credit, which is a service provided by Xiaomi Inc. Before you can use this service, you must agree to the Terms of Service stated in %1$s. Touch OK if you agree to the terms and conditions described in the %1$s . You need to connect to the internet, locate you device to use Mi Credit."</string>
   <string name="mibi_license_message_span">Mi Credit User Agreement</string>
   <string name="mibi_license_title">Terms and conditions</string>
   <string name="mibi_list_item_bottom_hint">"You've reached the bottom of this list"</string>
