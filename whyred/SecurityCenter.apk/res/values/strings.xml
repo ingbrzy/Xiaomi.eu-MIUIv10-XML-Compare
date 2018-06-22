@@ -840,6 +840,9 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gamebooster_network_dialog_message">Allow Security to connect to the network in order to use all features of the Game speed booster?</string>
   <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
   <string name="gamebox_qq_not_find">Install QQ and try again.</string>
+  <string name="gamebox_type_close">"Don't show"</string>
+  <string name="gamebox_type_float">Fixed shortcut</string>
+  <string name="gamebox_type_gesture">Swipe to show</string>
   <string name="gamebox_wechat_not_find">Install WeChat and try again.</string>
   <string name="gateway_exception_summary">Check your router and try again.</string>
   <string name="gateway_exception_summary2">"Can't connect to the server"</string>
