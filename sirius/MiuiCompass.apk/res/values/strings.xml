@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="allow">Allow</string>
   <string name="altitude">%.1f</string>
   <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
   <string name="altitude_title">Altitude</string>
@@ -19,6 +20,7 @@
   <string name="calibrate_success">Calibrated</string>
   <string name="calibrate_tip">Tilt your device to roll the ball around the circle</string>
   <string name="calibrate_title">Calibrate compass</string>
+  <string name="cancel">Cancel</string>
   <string name="cannot_get_location">--</string>
   <string name="dialog_body_no_network">"Can't connect to network"</string>
   <string name="dialog_calibrat_altitude">Calibrating…</string>
@@ -51,6 +53,8 @@
   <string name="longitude">LON</string>
   <string name="mobiledata_alert_dialog_message">Connect to the internet to calibrate altitude?</string>
   <string name="mobiledata_alert_dialog_title">Data usage warning</string>
+  <string name="open_perm_msg">Compass needs access to location info and camera. This is necessary to determine coordinates and provide live previews. Allow?</string>
+  <string name="open_perm_title">Permissions required</string>
   <string name="pressure">%.1f</string>
   <string name="pressure_title">Pressure</string>
   <string name="pressure_unit">hPa</string>
