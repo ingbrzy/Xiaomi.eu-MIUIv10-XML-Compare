@@ -4,5 +4,5 @@
     <string name="date_time_12">EEE, dd. MMMM</string>
     <string name="desc_date_format">EEE, dd. MMM</string>
     <string name="desc_date_format_12">EEE, dd. MMM</string>
-    <string name="desc_time">'Uhrzeit jetzt\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', Tippe doppelt um die Uhr zu öffnen'</string>
+    <string name="desc_time">'Uhrzeit jetzt\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', Tippe doppelt, um die Uhr zu öffnen'</string>
 </resources>
