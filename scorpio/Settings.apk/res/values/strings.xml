@@ -1015,6 +1015,7 @@ Sample rate"</string>
   <string name="cancel_action">Cancel</string>
   <string name="cancel_alert">Discard your changes?</string>
   <string name="cancel_button">Cancel</string>
+  <string name="cancel_description">Cancel</string>
   <string name="cancel_download_buton_text">Cancel</string>
   <string name="cant_sync_dialog_message">Sync for this item is currently disabled. To change this setting, temporarily turn on background data and automatic sync.</string>
   <string name="cant_sync_dialog_title">Can’t manually sync</string>
@@ -1163,6 +1164,7 @@ Sample rate"</string>
   <string name="confirm_action">OK</string>
   <string name="confirm_bind_xiaomi_account_dialog_title">Add</string>
   <string name="confirm_convert_to_fbe_warning">Really wipe user data and convert to file encryption?</string>
+  <string name="confirm_description">Confirm</string>
   <string name="confirm_download_cancelation_dialog_message">Cancel download?</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
@@ -1849,6 +1851,7 @@ For more details, contact your organization's admin."</string>
   <string name="failed_to_open_app_settings_toast">"Couldn't open settings for %1$s"</string>
   <string name="failed_to_shut_down_find_device_content">"Couldn't turn off Find device. Wait a minute or two and try again."</string>
   <string name="failed_to_shut_down_find_device_title">"Couldn't turn off"</string>
+  <string name="fallback_home_title">Just a sec…</string>
   <string name="fcc_equipment_id">Equipment ID</string>
   <string name="file_privacy_password_role_instruction">Your private files will be stored here.</string>
   <string name="filter">Filter</string>
@@ -2262,6 +2265,9 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="key_combination_power_back">Power + Back</string>
   <string name="key_combination_power_home">Power + Home</string>
   <string name="key_combination_power_menu">Power + Menu</string>
+  <string name="key_fsg_dialog_message">"You're using full screen gestures for navigation. Button-related features aren't available now. Switch to buttons?"</string>
+  <string name="key_fsg_dialog_negative">Cancel</string>
+  <string name="key_fsg_dialog_positive">Switch to buttons</string>
   <string name="key_gesture_function_dialog_message">%1$s is a shortcut for %2$s. Replace with %3$s?</string>
   <string name="key_gesture_function_dialog_negative">Cancel</string>
   <string name="key_gesture_function_dialog_positive">Replace</string>

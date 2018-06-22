@@ -92,6 +92,7 @@
   <string name="default_folder_title_microsoft">Microsoft</string>
   <string name="default_folder_title_recommend">More apps</string>
   <string name="default_folder_title_security">System</string>
+  <string name="default_folder_title_services">Services</string>
   <string name="default_folder_title_telcel">Telcel</string>
   <string name="default_folder_title_tools">Tools</string>
   <string name="default_screen_preview_title">Tap to set default screen</string>
@@ -239,8 +240,9 @@
   <string name="open_personal_assistant_dialog_btn_cancel">Cancel</string>
   <string name="open_personal_assistant_dialog_btn_confirm">Turn off</string>
   <string name="open_personal_assistant_dialog_desc">"You won't be able to use App vault and receive its updates. Turn off now?"</string>
+  <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
   <string name="open_personal_assistant_dialog_title">Turn off App vault</string>
-  <string name="open_personal_assistant_title">Turn on App vault</string>
+  <string name="open_personal_assistant_title">App vault</string>
   <string name="out_of_space">No more room on this Home screen</string>
   <string name="permdesc_install_shortcut">Allows an app to add shortcuts without user intervention.</string>
   <string name="permdesc_install_widget">Allows an app to add widgets without user intervention.</string>

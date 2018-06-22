@@ -553,9 +553,9 @@ If you resume, charges may apply for data usage."</string>
   <string name="drag_to_add_tiles">Drag to add tiles</string>
   <string name="drag_to_remove_tiles">Drag here to remove</string>
   <string name="drive_mode_tip">Car mode is on</string>
-  <string name="drive_mode_tip_idle">Tap to exit Car mode</string>
-  <string name="drive_mode_tip_idle_notch">Exit Car mode</string>
-  <string name="drive_mode_tip_notch">Car mode on</string>
+  <string name="drive_mode_tip_idle">Car mode is on</string>
+  <string name="drive_mode_tip_idle_notch">Car mode</string>
+  <string name="drive_mode_tip_notch">Car mode</string>
   <string name="emergency_call_string">Emergency</string>
   <string name="empty_shade_text">No notifications</string>
   <string name="enable_adb">USB debugging</string>

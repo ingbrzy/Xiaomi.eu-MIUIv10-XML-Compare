@@ -9,6 +9,7 @@
   <string name="accessibility_button_clear">Clear input</string>
   <string name="account_prifix">Account:</string>
   <string name="action">Sign in</string>
+  <string name="action_imme_open">Immediately open</string>
   <string name="action_menu_account_not_login">Not signed in</string>
   <string name="action_menu_account_not_login_hint">Sign in to sync with Mi Cloud</string>
   <string name="action_menu_bookshelf">Bookshelf</string>
@@ -45,7 +46,6 @@
   <string name="action_menu_useful_page_added">Added to start page</string>
   <string name="action_menu_user_center">Profile</string>
   <string name="action_modify_bookmark">Modify bookmark</string>
-  <string name="action_one_touch">Open notifications</string>
   <string name="action_put_in_search_box">Put %s in the search box</string>
   <string name="action_skip">Skip</string>
   <string name="adblock_force_updating_rules_toast">Updating Ad blocker</string>
@@ -289,6 +289,8 @@
   <string name="browserFrameFormResubmitLabel"/>
   <string name="browserFrameFormResubmitMessage">"The page you're trying to view contains data that has already been submitted. If you resend the data, previous actions (e.g. searches or purchases) will be repeated."</string>
   <string name="browserFrameNetworkErrorLabel">Connection error</string>
+  <string name="bubble_guide_logined_text">Sign in for lucky draw</string>
+  <string name="bubble_guide_unlogined_text">Login in to enjoy privileges</string>
   <string name="cancel">Cancel</string>
   <string name="cancle_sync_cloud_tabs">Cancel sync</string>
   <string name="cannot_download">Can only download \"http\" or \"https\" URLs</string>
@@ -391,10 +393,15 @@
   <string name="current_version_pc">Desktop</string>
   <string name="current_version_phone">Phone</string>
   <string name="custom_head_card_text">Always believe that something wonderful is about to happen</string>
+  <string name="custom_head_pull_down_text">Enter infoFlow</string>
   <string name="data_monitor">Data usage monitor</string>
   <string name="data_monitor_dialog_message">Looks like something is draining your mobile data. Open the start page to stop this.</string>
-  <string name="data_traffic_prompt_message">"Using your mobile data connection to browse videos will increase your data usage. If you go over your plan’s data usage limit,     your carrier could charge you additional fees."</string>
-  <string name="data_traffic_prompt_title">Data usage warning</string>
+  <string name="data_traffic_continue">Continue</string>
+  <string name="data_traffic_goto">Free data traffic</string>
+  <string name="data_traffic_prompt_free_data">Using your mobile data connection to browse videos will increase your data usage. Please get free data traffic.</string>
+  <string name="data_traffic_prompt_message">Using your mobile data connection to browse videos will increase your data usage. If you go over your plan’s data usage limit, your carrier could charge you additional fees.</string>
+  <string name="data_traffic_prompt_title">Using data usage</string>
+  <string name="data_traffic_stop">Stop</string>
   <string name="delete">Delete</string>
   <string name="delete_bookmark">Delete</string>
   <string name="delete_bookmark_action_warning">Delete bookmarks?</string>
@@ -575,7 +582,7 @@ to view open tabs from other devices."</string>
   <string name="menu_title_open_file_management">Open File Manager</string>
   <string name="menu_title_pause_all">Pause all</string>
   <string name="menu_title_resume_all">Start all</string>
-  <string name="message_notice_push">Latest hot spots no longer miss!</string>
+  <string name="message_notice_push">Experience my personal information</string>
   <string name="miui_autologin_bar_error">"Can't sign in"</string>
   <string name="miui_autologin_bar_title">Sign in with Mi Account</string>
   <string name="miui_bookmark_action_bar_add_group_title">Add group</string>
@@ -1023,6 +1030,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="navigationbar_rightbutton_actiontext_cancle">Cancel</string>
   <string name="navigationbar_rightbutton_actiontext_go">Go</string>
   <string name="navigationbar_rightbutton_actiontext_search">Search</string>
+  <string name="network_not_available_comment">No internet connection, unable to comment</string>
   <string name="network_show_wifi_setting_tip_dialog_description">Found a Wi-Fi hotspot nearby. Try to connect?</string>
   <string name="network_show_wifi_setting_tip_dialog_title">Wi-Fi network is available</string>
   <string name="next_button_label">Next</string>
@@ -1253,6 +1261,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="save_to_camera_success">Saved to Gallery</string>
   <string name="scanner_uninstalled_text">Install Scanner to continue</string>
   <string name="scanner_uninstalled_title">Scanner has been uninstalled</string>
+  <string name="screenshot_loading_dialog_title">Capturing</string>
   <string name="sdcard_error">Check your SD card</string>
   <string name="search">Search</string>
   <string name="search_baidu">Baidu</string>
@@ -1351,6 +1360,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="suggest_access_item_singer_albums">%d albums</string>
   <string name="suggest_access_item_singer_pop">%d popular songs</string>
   <string name="suggest_access_item_site_mark">SITES</string>
+  <string name="suggest_access_item_topic_mark">TOPIC</string>
   <string name="suggest_access_item_video_mark">VIDEOS</string>
   <string name="suggest_access_item_weather_mark">WEATHER</string>
   <string name="suggest_access_item_yellow_mark">YELLOW PAGES</string>
@@ -1371,6 +1381,11 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="suggestion_lottery_detail_price">EACH NOTE IS WORTH %s YUAN</string>
   <string name="suggestion_lottery_detail_text">THIS ROUND %s</string>
   <string name="suggestion_lottery_period">ROUND %s</string>
+  <string name="suggestion_more_button_text">SEE MORE</string>
+  <string name="suggestion_more_news">MORE NEWS</string>
+  <string name="suggestion_more_news_start_title_text">Related News</string>
+  <string name="suggestion_topic_subtitle_hyphen">Focus</string>
+  <string name="suggestion_topic_subtitle_navtitle_hyphen">·</string>
   <string name="suggestion_translation_more">VIEW MORE</string>
   <string name="switchText">YES</string>
   <string name="switch_proxy_dialog_msg">"Network hijacking detected. Use MIUI's built-in Security app or report this to your mobile operator."</string>
@@ -1388,7 +1403,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="tae_sdk_qr_login_icon_scan"></string>
   <string name="temp_refuse">No thanks</string>
   <string name="title_bar_loading">Loading…</string>
-  <string name="title_notice_push">Notice reminding</string>
+  <string name="title_notice_push">Turn on push</string>
   <string name="too_many_windows_dialog_message">"Browser can't open a new tab until you close another tab"</string>
   <string name="too_many_windows_dialog_title">"Can't open more tabs"</string>
   <string name="transfer_prompt_0">Play video</string>
