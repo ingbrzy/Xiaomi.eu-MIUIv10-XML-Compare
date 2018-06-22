@@ -352,6 +352,8 @@
     <string-array name="device_global_support_face_sensetime">
         <item>dipper</item>
         <item>beryllium</item>
+        <item>cactus</item>
+        <item>cereus</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -367,6 +369,8 @@
         <item>dipper</item>
         <item>sirius</item>
         <item>ursa</item>
+        <item>cactus</item>
+        <item>cereus</item>
     </string-array>
     <string-array name="device_support_pickup_by_xiaomi">
         <item>polaris</item>
@@ -385,6 +389,8 @@
         <item>ysl</item>
         <item>sakura</item>
         <item>clover</item>
+        <item>cactus</item>
+        <item>cereus</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
