@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="weather" size="4:4">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Weather4x4</title>
+	<titles>
+		<title locale="zh_CN">天气4x4</title>
+		<title locale="zh_TW">天氣4x4</title>
+		<title locale="pl_PL">Pogoda 4x4</title>
+		<title locale="sk_SK">Počasie 4x4</title>
+		<title locale="cs_CZ">Počasí 4x4</title>
+		<title locale="el_GR">Καιρός 4x4</title>
+		<title locale="hr_HR">Vrijeme 4x4</title>
+		<title locale="nb_NO">Været 4x4</title>
+		<title locale="hu_HU">Időjárás 4x4</title>
+		<title locale="fr_FR">Météo 4x4</title>
+		<title locale="tr_TR">4x4 Hava Durumu</title>
+		<title locale="es_ES">Tiempo 4x4</title>
+		<title locale="de_DE">Wetter 4x4</title>
+		<title locale="tr_TR">Hava durumu4x4</title>
+		<title locale="vi_VN">T.tiết 4x4</title>
+		<title locale="pt_PT">Tempo 4x4</title>
+	</titles>
+</MIUI-Theme>
