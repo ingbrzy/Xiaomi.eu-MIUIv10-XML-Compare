@@ -1320,6 +1320,7 @@
         <item>com.miui.greenguard</item>
         <item>com.miui.miwallpaper</item>
         <item>com.miui.contentextension</item>
+        <item>com.xiaomi.mimobile.cloudsim</item>
     </string-array>
     <string-array name="process_disable_trim_list">
         <item>com.miui.home</item>
