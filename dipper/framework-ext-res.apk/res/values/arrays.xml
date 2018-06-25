@@ -1293,7 +1293,6 @@
         <item>com.miui.core</item>
         <item>com.android.providers.media</item>
         <item>com.xiaomi.xmsf</item>
-        <item>com.xiaomi.metok</item>
         <item>com.miui.sysbase</item>
         <item>com.lbe.security.miui</item>
         <item>com.google.android.marvin.talkback</item>
@@ -1315,6 +1314,7 @@
         <item>com.qti.snapdragon.sdk.display</item>
         <item>com.xiaomi.bluetooth</item>
         <item>com.xiaomi.metoknlp</item>
+        <item>com.xiaomi.location.fused</item>
         <item>android.process.acore</item>
         <item>com.miui.wmsvc</item>
         <item>com.miui.greenguard</item>
