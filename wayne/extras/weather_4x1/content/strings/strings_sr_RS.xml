@@ -1,0 +1,27 @@
+<resources>
+    <string name="weather_type_0">Ведро</string>
+    <string name="weather_type_1">Облачно</string>
+    <string name="weather_type_2">Магловито</string>
+    <string name="weather_type_3">Магла</string>
+    <string name="weather_type_4">Олуја</string>
+    <string name="weather_type_5">Кишна олуја</string>
+    <string name="weather_type_6">Пљусак</string>
+    <string name="weather_type_7">Олуја</string>
+    <string name="weather_type_8">Пљусак</string>
+    <string name="weather_type_9">Пљусак</string>
+    <string name="weather_type_10">Киша</string>
+    <string name="weather_type_11">Слаба киша</string>
+    <string name="weather_type_12">Суснежица</string>
+    <string name="weather_type_13">Мећава</string>
+    <string name="weather_type_14">Снег</string>
+    <string name="weather_type_15">Снег</string>
+    <string name="weather_type_16">Снег</string>
+    <string name="weather_type_17">Снег</string>
+    <string name="weather_type_18">Пешчана олуја</string>
+    <string name="weather_type_19">Пешчана олуја</string>
+    <string name="weather_type_20">Пешчана олуја</string>
+    <string name="weather_type_21">Пешчана олуја</string>
+    <string name="weather_type_22">Град</string>
+    <string name="weather_type_23">Прашина</string>
+    <string name="weather_type_24">Ледена киша</string>
+</resources>
