@@ -4408,7 +4408,7 @@ Possibly incorrect PIN."</string>
   <string name="sim_lock_settings_summary_on">Locked</string>
   <string name="sim_lock_settings_title">SIM lock</string>
   <string name="sim_management_title">SIM cards &amp; mobile networks</string>
-  <string name="sim_management_title_cr_kolbi">SIM card &amp; mobile networks</string>
+  <string name="sim_management_title_singlesim">SIM card &amp; mobile networks</string>
   <string name="sim_multi_sims_summary">Choose the SIM you prefer for mobile data.</string>
   <string name="sim_multi_sims_title">Multiple SIMs found</string>
   <string name="sim_name_hint">Enter SIM name</string>
