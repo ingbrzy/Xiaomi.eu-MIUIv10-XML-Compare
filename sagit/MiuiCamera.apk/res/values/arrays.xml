@@ -27,6 +27,8 @@
         <item>逆光人像</item>
         <item>剪影</item>
         <item>人像</item>
+        <item>沙滩</item>
+        <item>水下</item>
     </string-array>
     <array name="ai_scene_drawables">
         <item>@drawable/ic_ai_scene_on</item>
@@ -55,16 +57,22 @@
         <item>@drawable/ic_ai_scene_human</item>
         <item>@drawable/ic_ai_scene_human</item>
         <item>@drawable/ic_ai_scene_human</item>
+        <item>@drawable/ic_ai_scene_cat</item>
+        <item>@drawable/ic_ai_scene_dog</item>
     </array>
     <string-array name="pref_video_quality_entries">
         <item>@string/pref_video_quality_entry_4kuhd</item>
+        <item>@string/pref_video_quality_entry_4kuhd_60fps</item>
         <item>@string/pref_video_quality_entry_1080p</item>
+        <item>@string/pref_video_quality_entry_1080p_60fps</item>
         <item>@string/pref_video_quality_entry_720p</item>
         <item>@string/pref_video_quality_entry_480p</item>
     </string-array>
     <string-array name="pref_video_quality_entryvalues">
         <item>@string/pref_video_quality_entry_value_4kuhd</item>
+        <item>@string/pref_video_quality_entry_value_4kuhd_60fps</item>
         <item>6</item>
+        <item>@string/pref_video_quality_entry_value_1080p_60fps</item>
         <item>5</item>
         <item>4</item>
     </string-array>
