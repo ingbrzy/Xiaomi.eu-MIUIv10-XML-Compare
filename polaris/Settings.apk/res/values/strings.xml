@@ -2530,12 +2530,14 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="lockpassword_choose_for_second_user">Set Second space password</string>
   <string name="lockpassword_choose_lock_generic_header">Choose screen lock</string>
   <string name="lockpassword_choose_your_password_header">Set your password</string>
-  <string name="lockpassword_choose_your_password_second_space">"Set password 
- for Second space"</string>
+  <string name="lockpassword_choose_your_password_second_space">"Set PIN for Second space.
+This PIN must contain as many digits
+as your First space PIN."</string>
   <string name="lockpassword_choose_your_pattern_header">Set your pattern</string>
   <string name="lockpassword_choose_your_pin_header">Set your PIN</string>
   <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
  for Second space"</string>
+  <string name="lockpassword_choose_your_pin_title">Enter 4-16 digits</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
   <string name="lockpassword_confirm_passwords_dont_match">Passwords don’t match</string>
   <string name="lockpassword_confirm_pins_dont_match">"PINs don't match"</string>
