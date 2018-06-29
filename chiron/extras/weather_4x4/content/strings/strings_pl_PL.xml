@@ -1,15 +1,15 @@
 <resources>
-    <string name="date_format">EEE d MMM</string>
+    <string name="date_format">EEEE, d MMM</string>
     <string name="today">Dziś</string>
     <string name="tomorrow">Jutro</string>
-    <string name="aqi_pure"/>
-    <string name="aqi_good"/>
-    <string name="aqi_moderate"/>
-    <string name="aqi_pollution"/>
-    <string name="aqi_unhealthy"/>
-    <string name="aqi_dangerous"/>
-    <string name="aqi_hazardous"/>
-    <string name="aqi_break"/>
+    <string name="aqi_pure">'IJP '+#weather_aqilevel</string>
+    <string name="aqi_good">'IJP '+#weather_aqilevel</string>
+    <string name="aqi_moderate">'IJP '+#weather_aqilevel</string>
+    <string name="aqi_pollution">'IJP '+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">'IJP '+#weather_aqilevel</string>
+    <string name="aqi_dangerous">'IJP '+#weather_aqilevel</string>
+    <string name="aqi_hazardous">'IJP '+#weather_aqilevel</string>
+    <string name="aqi_break">'IJP '+#weather_aqilevel</string>
     <string name="weather_type_null">'Brak danych'</string>
     <string name="weather_type_0">Pogodnie</string>
     <string name="weather_type_1">Pochmurnie</string>
