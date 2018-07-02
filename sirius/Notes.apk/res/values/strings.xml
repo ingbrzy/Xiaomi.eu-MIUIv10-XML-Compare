@@ -4,6 +4,8 @@
   <string name="action_mode_switcher_grid_description">Grid view</string>
   <string name="action_mode_switcher_list_description">List view</string>
   <string name="action_settings_description">Open Settings</string>
+  <string name="actionbar_close_description">Close</string>
+  <string name="actionbar_home_description">Back</string>
   <string name="add_account_desc">Sync your notes with your Mi Account?</string>
   <string name="alarm_bar_title">Reminder</string>
   <string name="alert_action_edit_anyway">Keep editing</string>
@@ -55,7 +57,6 @@
   <string name="dlg_unhide_message">Unhiding…</string>
   <string name="done">Done</string>
   <string name="edit_header_done_description">Done</string>
-  <string name="edit_header_home_description">Back</string>
   <string name="edit_header_lock_description">Hidden note</string>
   <string name="empty_folder_import_notes">Import notes</string>
   <string name="empty_folder_no_notes">No notes here</string>
@@ -95,6 +96,7 @@
   <string name="menu_delete_forever">Delete permanently</string>
   <string name="menu_folders">Folders</string>
   <string name="menu_hide">Hide</string>
+  <string name="menu_more_description">More</string>
   <string name="menu_move_parent_folder">Parent folder</string>
   <string name="menu_move_to">Move to</string>
   <string name="menu_new_folder">New folder</string>
@@ -203,10 +205,10 @@
   <string name="toast_reach_text_limit_checkbox">"Can't add checkbox because note is too long"</string>
   <string name="toast_reach_text_limit_truncate">This note is too long. Some text has been cut off of the end.</string>
   <string name="toast_refuse_to_record_when_in_call">"Can't use this feature during calls"</string>
+  <string name="toast_refuse_to_record_when_in_multi_window">"Can't use this feature with Split screen"</string>
   <string name="toolbar_check_description">Add checkbox</string>
   <string name="toolbar_delete_description">Delete this note</string>
   <string name="toolbar_gallery_description">Add image</string>
-  <string name="toolbar_more_description">More</string>
   <string name="toolbar_redo_description">Redo</string>
   <string name="toolbar_share_description">Share this note</string>
   <string name="toolbar_text_description">Text style</string>
