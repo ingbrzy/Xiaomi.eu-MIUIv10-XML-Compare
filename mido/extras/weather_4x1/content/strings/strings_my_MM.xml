@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="weather_type_0">ကြည်လင်သော</string>
+    <string name="air_quality0">\'AQI \'+#aqi</string>
+    <string name="air_quality1">\'AQI \'+#aqi</string>
+    <string name="air_quality2">\'AQI \'+#aqi</string>
+    <string name="air_quality3">\'AQI \'+#aqi</string>
+    <string name="air_quality4">\'AQI \'+#aqi</string>
+    <string name="air_quality5">\'AQI \'+#aqi</string>
+    <string name="weather_null"></string>
+    <string name="weather_location_null"></string>
+    <string name="weather_type_0">နေသာသော</string>
     <string name="weather_type_1">မိုးအုံ့</string>
     <string name="weather_type_2">ဝိုးတိုးဝါးတား</string>
     <string name="weather_type_3">မြူဆိုင်းသော</string>
@@ -23,6 +31,6 @@
     <string name="weather_type_20">အားနည်းသော သဲမုန်တိုင်း</string>
     <string name="weather_type_21">သဲမုန်တိုင်း</string>
     <string name="weather_type_22">မိုးသီးကြွေခြင်း</string>
-    <string name="weather_type_23">ဟိုပြေးဒီပြေး ဖုန်မှုန့်များ</string>
+    <string name="weather_type_23">ဖုန်မှုန့်</string>
     <string name="weather_type_24">မြူ</string>
 </resources>

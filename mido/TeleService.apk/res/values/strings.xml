@@ -434,7 +434,6 @@
   <string name="cfnry_title">Forward when unanswered</string>
   <string name="cfu_title">Always forward calls</string>
   <string name="change_data_preference_4g_only_prompt">Looks like you have a 4G only SIM card. Set it as default for mobile data?</string>
-  <string name="change_data_sim_4g_only_prompt">"SIM %1$s only supports 4G. When SIM %2$s isn't your default SIM for mobile data, SIM card might not work normally. Switch now?"</string>
   <string name="change_default_data_card">Default mobile data SIM</string>
   <string name="change_default_data_card_summary">Looks like you changed SIM cards. Set this card as your default SIM for your mobile data connection?</string>
   <string name="change_num">Update</string>
@@ -479,10 +478,10 @@
   <string name="connected_via_passpoint">Connected via %1$s</string>
   <string name="connected_via_wfa">Connected via WLAN assistant</string>
   <string name="connection_service_default_label">Built-in connection service</string>
-  <string name="contactAddFailed">"Can't add contact to SIM"</string>
+  <string name="contactAddFailed">"Can't add contact to SIM."</string>
   <string name="contactAddSuccess">Added contact to SIM.</string>
   <string name="contactPhoto">contact photo</string>
-  <string name="contactUpdateFailed">Updated contact on SIM.</string>
+  <string name="contactUpdateFailed">"Couldn't update contact on SIM."</string>
   <string name="contactUpdateSuccess">Updated contact on SIM.</string>
   <string name="contactdeleteFailed">"Can't delete contact from SIM."</string>
   <string name="contactdeleteSuccess">Deleted contact from SIM.</string>
@@ -503,7 +502,7 @@
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
   <string name="data_enable_summary">Allow this device to use mobile data</string>
   <string name="data_enabled">Mobile data</string>
-  <string name="data_plan">Mobile data plans</string>
+  <string name="data_plan">mobile data plans</string>
   <string name="data_usage_uninstalled_apps">Removed apps</string>
   <string name="data_usage_uninstalled_apps_users">Removed apps and users</string>
   <string name="dc_alert_dialog_message">Some apps require mobile data connection. You can contact your carrier to learn what %s are available to you.</string>
@@ -1016,8 +1015,6 @@ Using preferred network instead."</string>
   <string name="onscreenSwapCallsText">Swap</string>
   <string name="onscreenVideoCallText">Video call</string>
   <string name="open_miui">Open</string>
-  <string name="opened_dual_4g_confirm_prompt">Looks like you have a 4G only SIM card. Dual 4G was turned on automatically.</string>
-  <string name="opened_dual_4g_confirm_prompt_with_sim">SIM %1$s only supports 4G. To make sure your SIM card works normally, dual 4G was turned on.</string>
   <string name="optional_summary">&lt;Optional&gt;</string>
   <string name="ota_activate">Activate</string>
   <string name="ota_call_end">Back</string>
@@ -1261,7 +1258,6 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="quick_dial_setting_title">Quick dial</string>
   <string name="radio_off_during_emergency_call">Cannot enter airplane mode during an emergency call.</string>
   <string name="radio_off_error">Turn on the radio before viewing these settings.</string>
-  <string name="rcs_not_supported">"Rcs isn't supported"</string>
   <string name="reading_settings">Reading settings…</string>
   <string name="regional_disable">Regional news disabled</string>
   <string name="regional_enable">Regional news enabled</string>
@@ -1625,6 +1621,19 @@ Contact your carrier if this problem persists."</string>
   <string name="voice_privacy_summary">Enable enhanced privacy mode</string>
   <string name="voice_report_incoming_call">Calling</string>
   <string name="voice_report_unknown_num">Unknown number</string>
+  <string name="voice_service_cannot_call_notification_content">You may face connectivity problems while trying to make calls.</string>
+  <string name="voice_service_cannot_call_notification_title">"Can't make calls in the current network"</string>
+  <string name="voice_service_switch_summary">Turn on to be able to use VoLTE call functionality in VoLTE networks</string>
+  <string name="voice_service_switch_title">Use VoLTE call services</string>
+  <string name="voice_service_warning_dialog_body">"This tablet supports VoLTE calls in 4G networks. Make sure the networks that your device is connected to support this functionality. VoLTE services are provided by your carrier. Contact your local carrier to learn whether VoLTE is supported in your area.
+
+If you see _ in your status bar, VoLTE calls aren't available. If you can't make or receive calls, or your calls are interrupted, make sure your network is compatible with VoLTE.
+
+This tablet doesn't have an earpiece. You can switch to hands-free mode or use earphones to make calls."</string>
+  <string name="voice_service_warning_dialog_cancel">Cancel</string>
+  <string name="voice_service_warning_dialog_ok">Got it</string>
+  <string name="voice_service_warning_dialog_ok_timer">Got it (%d)</string>
+  <string name="voice_service_warning_dialog_title">VoLTE calls</string>
   <string name="voicemail">Voicemail</string>
   <string name="voicemail_abbreviated">VM:</string>
   <string name="voicemail_default">Your carrier</string>

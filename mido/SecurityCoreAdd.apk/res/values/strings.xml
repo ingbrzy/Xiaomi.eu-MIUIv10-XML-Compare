@@ -31,7 +31,7 @@ this feature will be added to Second space automatically."</string>
   <string name="closeSecondSpace">Delete Second space</string>
   <string name="closeSecondSpaceSummary">Delete Second space together with its data</string>
   <string name="closeSuccess">Turned off</string>
-  <string name="close_second_space">删除手机分身</string>
+  <string name="close_second_space">Deleted Second space</string>
   <string name="close_second_space_success">Deleted Second space</string>
   <string name="closed">Off</string>
   <string name="complete_setting">Finish</string>

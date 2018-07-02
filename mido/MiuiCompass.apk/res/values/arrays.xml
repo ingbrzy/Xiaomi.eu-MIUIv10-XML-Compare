@@ -5,9 +5,6 @@
         <item>ar</item>
         <item>bn</item>
     </string-array>
-    <string-array name="support_mi_nmea_devices">
-        <item>leo</item>
-    </string-array>
     <string-array name="support_rotate_calibrate_devices">
         <item>aqua</item>
         <item>capricorn</item>
@@ -35,6 +32,8 @@
         <item>sirius</item>
         <item>beryllium</item>
         <item>ursa</item>
-        <item>sakura_india</item>
+    </string-array>
+    <string-array name="support_mi_nmea_devices">
+        <item>leo</item>
     </string-array>
 </resources>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_format">EEEE، d MMMM</string>
+    <string name="date_format">EEEE, d MMMM</string>
     <string name="today">היום</string>
     <string name="tomorrow">מחר</string>
-    <string name="aqi_pure">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_good">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_moderate">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_pollution">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_unhealthy">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_dangerous">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_hazardous">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_break">'AQI '+#weather_aqilevel</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'אין נתונים'</string>
     <string name="weather_type_0">בהיר</string>
     <string name="weather_type_1">מעונן</string>
     <string name="weather_type_2">אביך</string>

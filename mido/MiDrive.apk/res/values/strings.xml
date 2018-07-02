@@ -108,8 +108,8 @@
   <string name="quota_info">Mi Drive: %1$s available, %2$s total</string>
   <string name="rename_alert">"If you change this file's extension, you may not be able to open it."</string>
   <string name="rename_failed">A file with the same name already exists.</string>
-  <string name="request_permission_msg">Mi Drive needs to access your account to work normally,please grant the permission</string>
-  <string name="request_permission_title">Allow Permission</string>
+  <string name="request_permission_msg">Allow Mi Drive to access your account info so it could work normally.</string>
+  <string name="request_permission_title">Permissions are required</string>
   <string name="sd_full">Your SD card is full.</string>
   <string name="sd_invalid">Your SD card is corrupted.</string>
   <string name="send_to_midrive_failed">"This file type isn't supported."</string>
@@ -132,8 +132,8 @@
   <string name="wait_wifi">Waiting for WLAN</string>
   <string name="waiting">Waiting</string>
   <string name="wangpan_root_path">My drive</string>
-  <string name="xiaomi_drive_description_content">MiDrive is a support for file storage network disk applications. Please make sure you will abandon the relevant web function and service?</string>
-  <string name="xiaomi_drive_description_title">MiDrive Introduction</string>
+  <string name="xiaomi_drive_description_content">Mi Drive is an online storage tool which allows you to keep your files online and free up storage on your device. Stop using Mi Drive?</string>
+  <string name="xiaomi_drive_description_title">About Mi Drive</string>
   <string name="year_month_day_format">MMM dd, yyyy</string>
   <string name="yesterday">Yesterday</string>
 </resources>

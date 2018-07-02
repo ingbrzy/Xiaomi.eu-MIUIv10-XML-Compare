@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="desc_weather">@weather_description+\', \'+#weather_temperature+\'ཏུའུ\'</string>
-    <string name="desc_weather_null">'གནས་སྐབས་སུ་གཞི་གྲངས་མི་འདུག'</string>
-    <string name="weather_type_null">'གནས་སྐབས་སུ་གཞི་གྲངས་མི་འདུག'</string>
+    <string name="air_quality0">'མཁའ་དབུགས་རབ།'</string>
+    <string name="air_quality1">'མཁའ་དབུགས་བཟང་།'</string>
+    <string name="air_quality2">'སྦགས་བཙོག་ཚད་ཆུང་།'</string>
+    <string name="air_quality3">'སྦགས་བཙོག་ཚད་འབྲིང་།'</string>
+    <string name="air_quality4">'སྦགས་བཙོག་ཚད་མཐོ།'</string>
+    <string name="air_quality5">'སྦགས་བཙོག་ཚབས་ཆེན།'</string>
+    <string name="weather_null">གནམ་གཤིས་གཞི་གྲངས་རེག་ནས་ཐོབ་ལེན།</string>
+    <string name="weather_location_null">ས་གནས་ཆ་འཕྲིན་མེད།</string>
     <string name="weather_type_0">གནམ་དྭངས།</string>
     <string name="weather_type_1">སྤྲིན་མང་།</string>
     <string name="weather_type_2">གནམ་འཐིབས།</string>

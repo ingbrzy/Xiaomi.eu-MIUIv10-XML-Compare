@@ -127,7 +127,7 @@
   <string name="key_btn_space">Space</string>
   <string name="livetalk_not_enable">Top-up package off</string>
   <string name="location_usage_restricted_body">Tap to allow.</string>
-  <string name="location_usage_restricted_title">Location access restricted</string>
+  <string name="location_usage_restricted_title">Background location restricted</string>
   <string name="lockscreen_access_pattern_cell_added">Cell added</string>
   <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
   <string name="lockscreen_access_pattern_detected">Pattern completed</string>
@@ -142,7 +142,7 @@
   <string name="miui_screen_ratio_hint_go_to_settings">Go to Settings</string>
   <string name="miui_screen_ratio_hint_message">This app is allowed to run in the fullscreen mode, which may cause it to be displayed incorrectly. You can change this in Settings &gt; Full screen display.</string>
   <string name="miui_screen_ratio_hint_ok">OK</string>
-  <string name="miui_upgrading_notification_title">System is loading, some features may be limited</string>
+  <string name="miui_upgrading_notification_title">Loading system, some features may not be available.</string>
   <string name="onehour">30 minutes</string>
   <string name="package_delete_confirm_step_1">Uninstall %s?</string>
   <string name="package_delete_confirm_step_2">Uninstalling this app may cause your system to become unstable.</string>
@@ -150,7 +150,7 @@
   <string name="paste">Paste</string>
   <string name="perm_send_push_dspt">Allow Mi push messages</string>
   <string name="perm_send_push_lab">Send push message</string>
-  <string name="permdesc_manageLocationPolicy">Allows app to change location-related permissions and define app-specific rules.</string>
+  <string name="permdesc_manageLocationPolicy">Allows the app to manage location policies and define app-specific rules.</string>
   <string name="permlab_manageLocationPolicy">Location access</string>
   <string name="reboot_confirm_title">Reboot device now?</string>
   <string name="reboot_info_auto_boot">Device is scheduled to power on at %s</string>
@@ -203,7 +203,6 @@
   <string name="status_bar_toggle_cast">Cast</string>
   <string name="status_bar_toggle_data">Mobile data</string>
   <string name="status_bar_toggle_data_action">com.android.phone/.settings.MobileNetworkSettings</string>
-  <string name="status_bar_toggle_drive_mode">Drive mode</string>
   <string name="status_bar_toggle_edit">Sort</string>
   <string name="status_bar_toggle_flight_mode">Airplane</string>
   <string name="status_bar_toggle_flight_mode_action">com.android.settings/com.android.settings.Settings$WirelessSettingsActivity</string>
@@ -251,11 +250,6 @@
   <string name="twohours">1 hour</string>
   <string name="unknown_caller">Unknown number</string>
   <string name="user_switching_dialog_text">Switching…</string>
-  <string name="voice_begin">What are you looking for?</string>
-  <string name="voice_button_action_down">Release to search</string>
-  <string name="voice_button_action_up">Press to talk</string>
-  <string name="voice_input_error_network">"Couldn't connect to the network. Check your network settings and try again."</string>
-  <string name="voice_input_error_other">An error occurred. Wait a minute or two and try again.</string>
   <string name="wifi_assistant_wifi_no_internet">This WLAN network has no access to the internet</string>
   <string name="wifi_assistant_wifi_no_internet_detail">Tap to view details</string>
   <string name="xspace_resolver_activity_title">Select app</string>

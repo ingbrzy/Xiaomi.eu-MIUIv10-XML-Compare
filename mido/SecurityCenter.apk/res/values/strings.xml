@@ -91,6 +91,7 @@
   <string name="already_close_gamebooster">Game speed booster is off</string>
   <string name="anti_disturb_msg_detail">Turn off all notifications except for incoming calls</string>
   <string name="anti_disturb_msg_title">DND</string>
+  <string name="antispam_mode_details">Blocklist details</string>
   <string name="antispam_notificaiton_type_show_all">All numbers</string>
   <string name="antispam_notificaiton_type_show_except_blacklist">Non-blocklist numbers</string>
   <string name="antispam_notificaiton_type_show_none">Never</string>
@@ -192,6 +193,7 @@
   <string name="app_manager_globel_perm_summary">Manage permissions related to location, storage, phone, messages, and contacts.</string>
   <string name="app_manager_globel_perm_title">App permissions</string>
   <string name="app_manager_has_not_data">No data</string>
+  <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
   <string name="app_manager_install_other_app">Install apps from unknown sources</string>
   <string name="app_manager_manage_space">Manage space</string>
@@ -255,8 +257,8 @@
   <string name="app_summary">"微信/QQ/米聊抢红包神器
 支持个人红包与群红包
 春节红包活动，不错过每一个红包"</string>
-  <string name="app_usage_never">Not recently used</string>
-  <string name="app_usage_recently">Used recently</string>
+  <string name="app_usage_never">Never used</string>
+  <string name="app_usage_recently">Recently used</string>
   <string name="app_version">Version:</string>
   <string name="app_wifi">WLAN</string>
   <string name="application_item_already_permission">Allowed</string>
@@ -288,7 +290,6 @@
   <string name="apps_item_virus_summary_uninstalled">APK</string>
   <string name="apps_list_header_title_sms">Check messaging app</string>
   <string name="apps_list_header_title_sms_access">Restrict access to verification codes</string>
-  <string name="ask_create_shortcut">Create a Home screen shortcut?</string>
   <string name="auto_atsk_condition_battery_level_text_down">When battery reaches %s</string>
   <string name="auto_atsk_condition_battery_level_text_up">When battery is charged to %s</string>
   <string name="auto_back_booster">Stop boosting</string>
@@ -484,6 +485,7 @@
   <string name="call_private">Block calls from hidden numbers</string>
   <string name="call_stranger_block">Block calls from strangers</string>
   <string name="call_transfer_block">Block forwarded calls</string>
+  <string name="call_transfer_info">Block calls forwarded from unknown numbers</string>
   <string name="cancal_to_setting_fingerprint">Cancel</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_button">Cancel</string>
@@ -558,6 +560,15 @@
   <string name="convenient_summary">Enter password once to unlock all apps</string>
   <string name="correction_attention_dialog_message">Adjusting settings now. Wait until the process is finished and try again.</string>
   <string name="cpu_usage_android_system">Android system</string>
+  <string name="cpu_usage_app_bg_restrict_default">Auto (recommended)</string>
+  <string name="cpu_usage_app_bg_restrict_default_short">Auto</string>
+  <string name="cpu_usage_app_bg_restrict_full">Restrict background activity</string>
+  <string name="cpu_usage_app_bg_restrict_no_limit">"Don't restrict"</string>
+  <string name="cpu_usage_app_bg_restrict_partly">After %s</string>
+  <string name="cpu_usage_app_bg_restrict_partly_short">After %s</string>
+  <string name="cpu_usage_app_bg_restrict_title">Background settings</string>
+  <string name="cpu_usage_app_tip_can_not_restrict_system_app">"Can't restrict system services"</string>
+  <string name="cpu_usage_app_uninstalled_toast">This app is uninstalled</string>
   <string name="cpu_usage_process_run_time_little_time">Less than 1 minute</string>
   <string name="cpu_usage_view_action_btn_text">Tap to view</string>
   <string name="create_shortcut">Create a Home screen shortcut for Game speed booster</string>
@@ -573,6 +584,7 @@
   <string name="cta_settings">Allow internet connection</string>
   <string name="current_network_state_not_need_diagnose">Internet connection is normal.</string>
   <string name="customize_limit_pkg">%s (custom)</string>
+  <string name="customizer_mode_user_define_name">My rules</string>
   <string name="daily_limit_and_lock_screen">Data usage warning</string>
   <string name="daily_limit_network_available_body">Tap to view data usage stats.</string>
   <string name="daily_limit_over_message">"You've exceeded your daily data limit."</string>
@@ -638,6 +650,7 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="dialog_roaming_warning_checkbox">"Don't show again"</string>
   <string name="dialog_roaming_warning_message">The carrier will charge you a fee after you turn on international data roaming. Turn on anyway?</string>
   <string name="dialog_roaming_warning_ok">Turn on</string>
+  <string name="dialog_text">Create a Home screen shortcut for Game speed booster</string>
   <string name="dialog_title_attention">Attention</string>
   <string name="dialog_title_auto_start_declare">About autostart</string>
   <string name="dialog_title_stop_virus_scan">Stop security scan</string>
@@ -646,10 +659,19 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="dlg_add_blacklist_title">Add to blocklist</string>
   <string name="dlg_add_keyword">Add keywords</string>
   <string name="dlg_add_white">"New calls and messages from the numbers added to exceptions will be shown in call history and Messaging inbox. However, previously blocked items won't appear there. Add selected numbers to exceptions?"</string>
+  <string name="dlg_antispam_mode_delete_message">"You can't recover rules after they've been deleted."</string>
+  <string name="dlg_antispam_mode_delete_title">Delete rules?</string>
+  <string name="dlg_antispam_using_mode_delete_message">"Delete the rules you're currently using and switch back to blocklist's default rules?"</string>
+  <string name="dlg_antispam_using_mode_international_delete_message">"Delete the rules you're currently using and switch back to blocklist's default rules?"</string>
   <string name="dlg_black_address_antispam_message">Add this location to blocklist?</string>
   <string name="dlg_black_antispam_hint">Blocklist</string>
   <string name="dlg_black_antispam_message">Add this number to blocklist?</string>
+  <string name="dlg_clear_all_call">Clear blocked calls?</string>
+  <string name="dlg_clear_all_ok">Clear all</string>
+  <string name="dlg_clear_all_sms">Delete blocked messages?</string>
+  <string name="dlg_clear_current_call">Clear all blocked calls from this number?</string>
   <string name="dlg_clear_current_ok">Clear</string>
+  <string name="dlg_clear_current_sms">Delete all blocked messages sent from this number?</string>
   <string name="dlg_delete_keyword">Clear selected keywords?</string>
   <string name="dlg_edit_keyword">Edit keywords</string>
   <string name="dlg_import_blacklist">Adding…</string>
@@ -689,6 +711,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="do_clean">Clearing…</string>
   <string name="domestic_roaming_setting">National roaming</string>
   <string name="dont_bore">"Don't let buttons and notifications distract you"</string>
+  <string name="dont_bore_text">Silence notifications and turn off buttons to remove distractions</string>
+  <string name="dont_bore_title">DND mode</string>
   <string name="download">Download</string>
   <string name="downloading">Downloading</string>
   <string name="dual_setting_simcard1">SIM 1</string>
@@ -765,9 +789,9 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="firewall_restrict_wlan">Restrict using WLAN connection</string>
   <string name="firewall_rule_group_title_roaming">Overseas roaming</string>
   <string name="firewall_system_title">Data usage for system apps</string>
-  <string name="firewall_temp_rule_reason">%2$s restricted internet connection for %1$s</string>
+  <string name="firewall_temp_rule_reason">%2$s restricted internet connection for %1$s​</string>
   <string name="firewall_wifi">WLAN</string>
-  <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off."</string>
+  <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off.​"</string>
   <string name="five_percent_total_pkg">%s (5%% of monthly data)</string>
   <string name="float_window">桌面悬浮窗</string>
   <string name="float_window_summary">支持快速跳转至摇一摇与咻一咻页面</string>
@@ -802,11 +826,17 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="game_booster_tab_top">Top</string>
   <string name="game_booster_title">Boost</string>
   <string name="game_bootser_tab_settings">Booster settings</string>
+  <string name="game_improve_text1">Clear background cache to free up memory for gaming</string>
+  <string name="game_improve_text2">Clear background cache to free up memory for gaming and improve CPU performance</string>
+  <string name="game_improve_title">Optimize performance</string>
   <string name="game_more_improve">Restrict background activities and download speed to save battery and bandwidth for gaming</string>
+  <string name="game_net_text1">Limit background download speed to reduce network delay</string>
+  <string name="game_net_text2">"Boost the game's connection speed while limiting background download speed to reduce network delay"</string>
+  <string name="game_net_title">Optimize connection speed</string>
   <string name="game_setting">Game settings</string>
   <string name="gamebooster_lowbattery_notification_summary">Charge your device before it turns off.</string>
   <string name="gamebooster_lowbattery_notification_title">Battery is lower than 5%%</string>
-  <string name="gamebooster_main_activity_back">Back Game Speed Booster</string>
+  <string name="gamebooster_main_activity_back">Back</string>
   <string name="gamebooster_network_dialog_message">Allow Security to connect to the network in order to use all features of the Game speed booster?</string>
   <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
   <string name="gamebox_qq_not_find">Install QQ and try again.</string>
@@ -893,6 +923,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="hide_mode_app_background_setting_text">App battery saver</string>
   <string name="hide_mode_summary_text">"Manage apps' background activity to save battery"</string>
   <string name="hide_system_app">Hide system apps</string>
+  <string name="hint_antispam_mode_edit">Custom mode</string>
   <string name="hints_handle_item_text_virus">Danger</string>
   <string name="hints_input_roaming_daily_limit">Enter data usage limit</string>
   <string name="hints_loading_text">Loading…</string>
@@ -917,6 +948,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="i_know">Got it</string>
   <string name="im">IM</string>
   <string name="info_and_call">Calls and messaging</string>
+  <string name="info_antispam_close">Blocklist is off</string>
+  <string name="info_antispam_current_mode">%s</string>
   <string name="info_antispam_phone">Block calls</string>
   <string name="info_antispam_phone_sms">Block calls and SMS</string>
   <string name="info_antispam_sms">Block SMS</string>
@@ -933,7 +966,10 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="install_sucess">Installed %s successfully</string>
   <string name="install_title">Install via USB</string>
   <string name="installing">Installing</string>
+  <string name="international_Ad">Ad</string>
   <string name="international_roaming_setting">Overseas roaming</string>
+  <string name="intro_improve">Boost your gaming experience on a system level</string>
+  <string name="intro_skip">Skip</string>
   <string name="ip_address_exception_summary">"Couldn't get IP address. If you run into this issue again, try using a static IP address."</string>
   <string name="item_app_permission">App permissions</string>
   <string name="item_dev_mode">Developer options</string>
@@ -963,6 +999,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="label_callwait">Call waiting notification</string>
   <string name="label_mi_stats">Mi analytics</string>
   <string name="last_check_canceled">Previous scan was canceled</string>
+  <string name="later">稍后处理</string>
   <string name="left_precent">60%</string>
   <string name="legal_workday">Legal workdays</string>
   <string name="legal_workday_invalidate">Mon-Fri (holiday info expired)</string>
@@ -1021,15 +1058,11 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="low_memory_warning_dialog_msg">Free up space on your device to continue</string>
   <string name="low_memory_warning_dialog_ok_button">Clear</string>
   <string name="low_memory_warning_dialog_title">Not enough free space</string>
-  <string name="lucky_accessibility_alarm_disable">红包闹钟，已禁用</string>
-  <string name="lucky_accessibility_fast_mode_disable">速抢模式，已禁用</string>
-  <string name="lucky_accessibility_more_settings_disable">更多设置，已禁用</string>
   <string name="lucky_activity">红包活动</string>
   <string name="lucky_alarm">红包闹钟</string>
   <string name="lucky_alarm_app">红包活动倒计时</string>
   <string name="lucky_alarm_app_after">红包活动已经结束</string>
   <string name="lucky_alarm_app_tail">倒计时</string>
-  <string name="lucky_alarm_back">返回红包助手</string>
   <string name="lucky_alarm_count_down">0:00:00</string>
   <string name="lucky_alarm_count_down_default">0:00:00</string>
   <string name="lucky_alarm_item_date">27</string>
@@ -1041,7 +1074,6 @@ Carrier may charge you additional fees if you use mobile data connection again."
 微信/QQ/米聊抢红包神器
 不支持提醒被屏蔽的群，以及开启电脑登录免打扰功能的软件"</string>
   <string name="lucky_max_chat_title">来自QQ</string>
-  <string name="lucky_money_close">关闭</string>
   <string name="lucky_money_group_summary">个人发送的红包不需抢，建议您仅提醒群红包，以免提醒次数过多。</string>
   <string name="lucky_my_luckymoney">我的红包战绩</string>
   <string name="lucky_sound_mode_gold">金币</string>
@@ -1063,9 +1095,6 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="main_button_usage_adjusting_bill">Changing…</string>
   <string name="main_button_usage_package_setting">Set data usage limit</string>
   <string name="main_daily_package">Daily data plan</string>
-  <string name="main_dialog_button">立即设置</string>
-  <string name="main_dialog_message">立即设置运营商，系统将为您自动管控流量，防止流量超出扣费。网络助手目前已支持日常套餐、闲时流量、加油包、日租卡、定向流量等多种套餐形式。</string>
-  <string name="main_dialog_titile">运营商设置</string>
   <string name="main_indicator_title">Activation</string>
   <string name="main_leisure_remained">Off-peak data remaining</string>
   <string name="main_month_total_used">Used this month</string>
@@ -1139,6 +1168,7 @@ to respond"</string>
   <string name="memory_clean_no_need_clean">Everything looks good</string>
   <string name="memory_clean_no_running_process">No tasks to clear</string>
   <string name="memory_clean_running_process_title">Monitoring apps (%d)</string>
+  <string name="memory_cleaned_memory_info">Available memory</string>
   <string name="memory_cleaned_memory_up">Speed boost</string>
   <string name="memory_clear_unused">Clear cache (%s)</string>
   <string name="menu_add">Add</string>
@@ -1301,8 +1331,13 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notify_daily_data_usage_body">To limit data usage automatically, set up your monthly data plan.</string>
   <string name="notify_daily_limit_body">Tap to set data limit.</string>
   <string name="notify_daily_limit_title">Used %s today</string>
+  <string name="notify_daily_limit_title_for_slotnum">%1$s used %2$s today</string>
   <string name="notify_month_traffic_body">Set a data usage limit to prevent going over your monthly data plan.</string>
   <string name="notify_month_traffic_title">Used %s this month</string>
+  <string name="notify_month_traffic_title_for_slotnum">%1$s used %2$s this month</string>
+  <string name="notify_weekly_traffic_body">To limit data usage automatically, set up your monthly data plan.</string>
+  <string name="notify_weekly_traffic_title">Used %s this week</string>
+  <string name="notify_weekly_traffic_title_for_slotnum">%1$s used %2$s this week</string>
   <string name="number_of_lucky_money">已为您提醒红包总数</string>
   <string name="numeric_need_to_confirm">Enter again to confirm</string>
   <string name="numeric_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
@@ -1327,6 +1362,7 @@ your device"</string>
   <string name="om_formatted_percent_string">%s%%</string>
   <string name="om_ill_proc_activity_title">Issues</string>
   <string name="om_ill_proc_handle_uninstall_prompt">Uninstall this app to fix battery usage issues.</string>
+  <string name="om_ill_proc_handle_unstaill_title">Uninstall %s?</string>
   <string name="om_ill_proc_type_alarm_detail">Fix background activity issues</string>
   <string name="om_ill_proc_type_alarm_title">The app wakes the device frequently and drains battery</string>
   <string name="om_ill_proc_type_cpu_detail">Fix CPU workload issues</string>
@@ -1340,6 +1376,7 @@ your device"</string>
   <string name="om_ill_proc_type_wifiscan_detail">Fix WLAN scan issues</string>
   <string name="om_ill_proc_type_wifiscan_title">The app searches for WLAN frequently and drains battery</string>
   <string name="om_lock_app_locked_app">Locked</string>
+  <string name="om_lock_app_locked_app_occupy_memory">"Locking too many apps reduces your phone's performance"</string>
   <string name="om_lock_app_tip_msg">Tap to lock</string>
   <string name="om_lock_app_unlocked_app">Unlocked</string>
   <string name="om_media_scan_time_warn_title">"Media server works in the background.
@@ -1352,6 +1389,8 @@ This activity shortens battery life."</string>
   <string name="om_notify_cpu_load_too_high_title">CPU usage of %s is too high</string>
   <string name="om_notify_need_clean_memory_summary">Clear cache to boost speed</string>
   <string name="om_notify_need_clean_memory_title">Cache size reached %s</string>
+  <string name="om_other_processes">Other tasks</string>
+  <string name="om_other_processes_cpu_usage_summary">Average CPU usage is lower than %s%%</string>
   <string name="om_settings_cpu_over_load_notify">CPU usage</string>
   <string name="om_settings_cpu_over_load_summary">Notify when CPU usage is too high</string>
   <string name="om_settings_lock_app">Lock apps</string>
@@ -1404,6 +1443,7 @@ This activity shortens battery life."</string>
   <string name="optimize_result_button_see_detaills">Details</string>
   <string name="optimize_result_button_to_set">Set</string>
   <string name="optimize_result_button_update_now">Update</string>
+  <string name="optimize_result_header_view_summary">Speed boost</string>
   <string name="optimize_result_summary_sucurity_risk">Some security features are off. Turn on these features to make your device more secure:</string>
   <string name="optimize_result_summary_system_default_settings">"Using default MIUI apps increases the level of the system's stability and security."</string>
   <string name="optimize_result_title_sucurity_risk">Security risks found</string>
@@ -1605,7 +1645,7 @@ This activity shortens battery life."</string>
   <string name="pref_roaming_setting_gategory">Settings</string>
   <string name="pref_special_package_setting">Custom data plan</string>
   <string name="pref_special_package_setting_summary">Manage off-peak data, top-up packages, daily data plans, and designated data</string>
-  <string name="pref_summary_upload_data_usage">Report your data usage info to help us improve MIUI services. The reporting process will be carried out in accordance with our Privacy Policy.</string>
+  <string name="pref_summary_upload_data_usage">Report your data usage stats to help us improve MIUI. Reporting is carried out in accordance with our Privacy Policy.</string>
   <string name="pref_title_declaration">Important disclaimer</string>
   <string name="pref_title_diagnostics_show_float_notification">Floating notifications</string>
   <string name="pref_title_manual_check_virus_db_update">Check for updates</string>
@@ -1613,7 +1653,7 @@ This activity shortens battery life."</string>
   <string name="pref_title_traffic_limit_number">Size</string>
   <string name="pref_title_traffic_speed_state">Show network speed</string>
   <string name="pref_title_update_notification">Data usage notifications</string>
-  <string name="pref_title_upload_data_usage">Report data usage info</string>
+  <string name="pref_title_upload_data_usage">Report data usage stats</string>
   <string name="pref_traffic_manage_title">Data usage</string>
   <string name="pref_warning_values">Data usage warning level</string>
   <string name="pref_whitelist_setting">Data roaming exceptions</string>
@@ -1768,6 +1808,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="safe_result_item_info_system_version">MIUI is up to date</string>
   <string name="safepay_alert_dialog_button_continue">Continue</string>
   <string name="safepay_alert_dialog_button_fix">Fix</string>
+  <string name="save_energy_text">"Restrict autostart and sync for apps in the background to get the most out of your device's battery"</string>
+  <string name="save_energy_title">Optimize battery</string>
   <string name="sc_allow_network_dialog_message">You restricted network connection and access to your location for Security. Give Security the required permissions to use this feature.</string>
   <string name="sc_allow_network_dialog_tiltle">"Can't use this feature"</string>
   <string name="sc_system_risk_fix_info_xspace">"Can't solve this in Second space. Try again in First space."</string>
@@ -1818,9 +1860,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="signal_exception_summary">"Can't connect to the network in this area."</string>
   <string name="signal_exception_title">Test signal strength</string>
   <string name="signed_rule">Rules</string>
-  <string name="signed_rule_one">1.Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
-  <string name="signed_rule_three">"3.Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
-  <string name="signed_rule_two">2.You can get only 1 Xunyou boost per month.</string>
+  <string name="signed_rule_one">1. Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
+  <string name="signed_rule_three">"3. Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
+  <string name="signed_rule_two">2. You can get only 1 Xunyou boost per month.</string>
   <string name="sim_location_diagnostic">Location diagnostics</string>
   <string name="sim_location_error_dialog_message">"The SIM you're using is from %1$s. This is different from the location you set manually (%2$s). Change SIM location to %3$s?"</string>
   <string name="sim_location_error_notify_message">Tap to change SIM location.</string>
@@ -1886,13 +1928,37 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_antispam_bw_head_add">Add prefix</string>
   <string name="st_antispam_bw_man_add">Add phone number</string>
   <string name="st_antispam_bw_pick_add">Add contacts</string>
+  <string name="st_antispam_delete">Delete</string>
   <string name="st_antispam_des_anti">Block</string>
   <string name="st_antispam_des_permit">Allow</string>
   <string name="st_antispam_des_permit_nokeyword">Allow</string>
   <string name="st_antispam_des_smart_anti">Filter</string>
   <string name="st_antispam_des_uesless">Off</string>
+  <string name="st_antispam_mode_add_new">Add rules</string>
+  <string name="st_antispam_mode_blacklist">Blocked numbers</string>
+  <string name="st_antispam_mode_blacklist_state">11112121</string>
+  <string name="st_antispam_mode_blacklist_sum">"Block calls and SMS from numbers you've added manually to the blocklist"</string>
+  <string name="st_antispam_mode_denyownself_sum">Custom rules</string>
+  <string name="st_antispam_mode_only_all_deny">Block everything</string>
+  <string name="st_antispam_mode_only_all_deny_state">10000000</string>
+  <string name="st_antispam_mode_only_all_deny_sum">Block all calls and messages</string>
+  <string name="st_antispam_mode_only_contacts">Only allow contacts</string>
+  <string name="st_antispam_mode_only_contacts_state">11110000</string>
+  <string name="st_antispam_mode_only_contacts_sum">Only allow calls and messages from Contacts</string>
+  <string name="st_antispam_mode_only_whitelist">Only allow exceptions</string>
+  <string name="st_antispam_mode_only_whitelist_state">11000000</string>
+  <string name="st_antispam_mode_only_whitelist_sum">Only allow calls and messages from numbers on the exceptions list</string>
+  <string name="st_antispam_mode_smart">Reported numbers</string>
+  <string name="st_antispam_mode_smart_state">11111111</string>
+  <string name="st_antispam_mode_smart_sum">"Block numbers you've added manually and numbers that have been reported by other users"</string>
+  <string name="st_antispam_title_anoy_incoming">Calls from strangers</string>
   <string name="st_antispam_title_anoy_sms">Messages from strangers</string>
+  <string name="st_antispam_title_contact_incoming">Calls from Contacts</string>
+  <string name="st_antispam_title_contact_sms">Messages from Contacts</string>
+  <string name="st_antispam_title_contactandanoy_group">Settings</string>
+  <string name="st_antispam_title_null_incoming">Private numbers</string>
   <string name="st_antispam_title_service_sms">Service notifications</string>
+  <string name="st_antispam_title_whitelist">Exceptions</string>
   <string name="st_call_backsound_group">Blocklist sound</string>
   <string name="st_call_intercept_contacts">Block calls from contacts</string>
   <string name="st_call_intercept_forwarding">Block forwarded calls</string>
@@ -1927,20 +1993,28 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_msg_stranger_group">Block SMS from strangers</string>
   <string name="st_settings_name">Blocklist settings</string>
   <string name="st_share_settings">Use SIM 1 settings</string>
+  <string name="st_sub_title_customize_mode_name">Name</string>
+  <string name="st_sub_title_whiteblack_list_group">Blocklist</string>
   <string name="st_sum_call_wait">Your away message will also be played as a busy signal for incoming calls.</string>
   <string name="st_summary_blacklist_numbers">Block calls and messages from specific numbers and areas</string>
+  <string name="st_summary_blacklist_numbers_international">Block calls and messages from specific numbers</string>
+  <string name="st_summary_keywords_blacklist">Add keywords to block messages</string>
+  <string name="st_summary_special_numbers">Block flagged phone numbers</string>
   <string name="st_summary_whitelist_numbers">Allow calls and messages from specific numbers and areas</string>
+  <string name="st_summary_whitelist_numbers_international">Allow calls and messages from specific numbers</string>
   <string name="st_tab_title">%1$s (SIM %2$d)</string>
   <string name="st_title_addblacklist">Add to blocklist</string>
   <string name="st_title_addwhitelist">Add to exceptions</string>
   <string name="st_title_adress">Add locations</string>
   <string name="st_title_adress_num">%d selected</string>
   <string name="st_title_anticomintcall_backsound_setting">Message played to blocked numbers</string>
+  <string name="st_title_antispam_mode">Rules</string>
   <string name="st_title_back_sound_busy">Busy</string>
   <string name="st_title_back_sound_choose">Away message</string>
   <string name="st_title_back_sound_closed">Powered off</string>
   <string name="st_title_back_sound_none">"Number doesn't exist"</string>
   <string name="st_title_back_sound_stop">Not in service</string>
+  <string name="st_title_backsound_group">Away message</string>
   <string name="st_title_blacklist_numbers">Blocked numbers</string>
   <string name="st_title_call_wait">Call waiting notification</string>
   <string name="st_title_call_wait_setting">Call waiting</string>
@@ -1955,8 +2029,10 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_title_man_head_addblacklist">Add phone number prefix to blocklist</string>
   <string name="st_title_man_head_addwhitelist">Add phone number prefix to exceptions</string>
   <string name="st_title_markednumber_group">Block reported numbers</string>
+  <string name="st_title_mode_choose_group">Blocklist rules</string>
   <string name="st_title_not_sim">Empty</string>
   <string name="st_title_open_antispam">Blocklist</string>
+  <string name="st_title_other_group">Other</string>
   <string name="st_title_settings_other_group">Additional settings</string>
   <string name="st_title_show_antispam_notification">Blocklist notifications</string>
   <string name="st_title_sim_card">%1$s - SIM %2$s</string>
@@ -2023,10 +2099,11 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sys_app_prot_cracked_confirm">Got it</string>
   <string name="sys_cpu_title">CPU usage</string>
   <string name="sys_freememory_title">Available</string>
-  <string name="sys_title_gamebooster_unit_gb">G</string>
-  <string name="sys_title_gamebooster_unit_mb">M</string>
+  <string name="sys_title_gamebooster_unit_gb">GB</string>
+  <string name="sys_title_gamebooster_unit_mb">MB</string>
   <string name="system_app">System apps</string>
   <string name="system_application">System apps</string>
+  <string name="tab_blacklist">Blocklist</string>
   <string name="tab_block_log_unKnowNumber">Private number</string>
   <string name="tab_call">Calls</string>
   <string name="tab_gift">Gifts</string>
@@ -2099,7 +2176,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tc_sms_report_notify_get_timeout_body">Process timed out. Confirm with your carrier that the SMS enquiry code you entered is correct.</string>
   <string name="tc_sms_report_notify_get_timeout_title">"Can't get data usage SMS"</string>
   <string name="tc_sms_report_receive_content">Data usage report SMS contents (Confirm data usage stats)</string>
-  <string name="tc_sms_report_receive_content_null">"Help us improve this feature!&lt;br/&gt;Here's how:&lt;br/&gt;1. Go to \"Check command SMS\" and \"Recipient number\"&lt;br/&gt;2. Tap \"Get SMS template\"&lt;br/&gt;3. Wait to receive SMS message from your carrier &lt;br/&gt;4. Tap \"Upload to MIUI\""</string>
+  <string name="tc_sms_report_receive_content_null">"​Help us improve this feature!&lt;br/&gt;Here's how:&lt;br/&gt;1. Go to \"Check command SMS\" and \"Recipient number\"&lt;br/&gt;2. Tap \"Get SMS template\"&lt;br/&gt;3. Wait to receive SMS message from your carrier &lt;br/&gt;4. Tap \"Upload to MIUI\"​"</string>
   <string name="tc_sms_report_receive_num">Recipient number</string>
   <string name="tc_sms_report_send_num">Carrier phone #</string>
   <string name="tc_sms_report_summary">Help us improve this feature by sending a report when your data usage info is incorrect or fails to update.</string>
@@ -2331,6 +2408,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="usbsharenet_exception_title">Test shared internet over USB</string>
   <string name="usbsharenet_pc_exception_summary">"Can't connect to the internet using shared USB connection. Check your computer's internet connection."</string>
   <string name="use_immediately">Use</string>
+  <string name="user_define_title">Add rules</string>
   <string name="virus_ad_icon_text">Ad</string>
   <string name="virus_auto_update_engine">Auto updates: %s</string>
   <string name="virus_scan_process_pre">%</string>
@@ -2364,6 +2442,5 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="xunyou_net_booster_detail">Use Xunyou speed boost services for gaming</string>
   <string name="xunyou_pay_webview">Xunyou services</string>
   <string name="xunyou_server_expired">The session expired.</string>
-  <string name="yuan">CNY</string>
   <string name="zhifubao_not_found">您的应用版本过低或者未安装</string>
 </resources>

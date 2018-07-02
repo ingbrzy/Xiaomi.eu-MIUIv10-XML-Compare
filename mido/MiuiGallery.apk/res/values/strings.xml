@@ -751,6 +751,7 @@
   <string name="enable_cloud_for_sharing">Turn on Mi Cloud albums to view shared photos.</string>
   <string name="enable_face_album_summary">Automatically sort photos by the people that are in them</string>
   <string name="enable_face_album_title">Sort by people</string>
+  <string name="enabling_face_feature">Just a sec…</string>
   <string name="enter_choice_mode">Entered Share dialog</string>
   <string name="enter_email_hint">Enter email address</string>
   <string name="error_album_not_exist">"Album doesn't exist"</string>
@@ -823,6 +824,7 @@
   <string name="exit_video_play">Exit</string>
   <string name="expand_desc">More</string>
   <string name="expand_people">Show more people</string>
+  <string name="face_album_detecting_tip">Just a sec…</string>
   <string name="face_album_empty">"Not enough photos to recognize people.
 Take more photos of your friends!"</string>
   <string name="face_album_empty_syncing">Syncing data, come back in a while</string>
@@ -830,6 +832,7 @@ Take more photos of your friends!"</string>
   <string name="face_album_long_tap_tip">To select multiple people or change group settings, press &amp; hold a profile photo</string>
   <string name="face_album_new_name_hint">New name</string>
   <string name="face_album_not_named">Unnamed</string>
+  <string name="face_album_pending_enable_tip">Will sort photos when device is connected to Wi-Fi</string>
   <string name="face_album_rename_hint">Enter name</string>
   <string name="face_album_title">Photos with %s</string>
   <string name="face_album_use_tip">Automatically sort photos by the people that are in them.</string>
@@ -849,7 +852,6 @@ Take more photos of your friends!"</string>
   <string name="fast_share_auto_render">Beautify</string>
   <string name="fast_share_auto_render_finish">Beautified</string>
   <string name="feature_guidance_photo_effects">Photo effects</string>
-  <string name="feature_guidance_video_editor_smart_effects">New effects are available</string>
   <string name="fileSizeSuffix">%1$s%2$s</string>
   <string name="filter_bi_memory">Memory</string>
   <string name="filter_bi_mono">Mono</string>
@@ -1226,7 +1228,6 @@ to personalize Gallery"</string>
   <string name="picker_image_will_download">"%d of the selected photos aren't on device. They will be downloaded."</string>
   <string name="picker_no_network_message">Connect to the network to download</string>
   <string name="picker_origin_need_download">"%1$d of the selected photos (%2$dMB) aren't on device. Download using mobile data?"</string>
-  <string name="picker_origin_request_progress_message">Preparing original files (%1$d/%2$d)…</string>
   <string name="picker_title_format">Select %1$d to %2$d photos</string>
   <string name="picker_title_selection_format">Selected photos: %d</string>
   <string name="picker_title_selection_format_multiple">Select %1$d to %2$d photos (%3$d)</string>
@@ -1342,12 +1343,12 @@ to personalize Gallery"</string>
   <string name="search_net_error">A network error occurred. Connect to a different network and try again.</string>
   <string name="search_request_applied">Applied</string>
   <string name="search_request_open">Join testing team</string>
-  <string name="search_request_requesting">Applied. Wait a while before you start.</string>
   <string name="search_result_empty">"Couldn't find anything"</string>
   <string name="search_retry">Try again</string>
   <string name="search_select_network">Select network</string>
   <string name="search_set_network_connection">Network settings</string>
   <string name="search_setting_sub_title">Search for people, places, and objects on your photos.</string>
+  <string name="search_setting_sub_title_open">Applied. Wait a while before you start.</string>
   <string name="search_setting_title">Find photos in Gallery</string>
   <string name="search_syncing">Syncing data, come back in a while</string>
   <string name="search_title_album">Album</string>
@@ -1380,7 +1381,6 @@ to personalize Gallery"</string>
   <string name="secret_reason_too_large">File is too big</string>
   <string name="secret_reason_type_not_support">"This file type isn't supported"</string>
   <string name="secret_reason_unknow_reasons">Unknown error</string>
-  <string name="secret_reason_video_not_support">"Can't add videos to hidden album"</string>
   <string name="see_ignore_faces">"View people you've ignored"</string>
   <string name="select_item_face">"Is this '%s'?"</string>
   <string name="select_origin_tip">Original file (%s)</string>
@@ -1630,6 +1630,7 @@ to personalize Gallery"</string>
   <string name="view_by_gallery_tip">MIUI Gallery</string>
   <string name="view_face_album">View album</string>
   <string name="view_more_face_desc">View more people</string>
+  <string name="view_queuing_status">Check status</string>
   <string name="voice_assistant">Voice input</string>
   <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">Welcome to Mi Cloud</string>

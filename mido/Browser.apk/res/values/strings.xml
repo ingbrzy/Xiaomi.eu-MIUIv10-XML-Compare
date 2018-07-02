@@ -521,7 +521,7 @@ to view open tabs from other devices."</string>
   <string name="geolocation_permissions_prompt_message">%s wants to know your location</string>
   <string name="geolocation_permissions_prompt_remember">Remember preference</string>
   <string name="geolocation_permissions_prompt_share">Share location</string>
-  <string name="geolocation_permissions_prompt_toast_allowed">This site can access your location info. You can change in Settings.</string>
+  <string name="geolocation_permissions_prompt_toast_allowed">This site can access your location info. You can change this in Settings.</string>
   <string name="geolocation_permissions_prompt_toast_disallowed">"This site can't access your location"</string>
   <string name="geolocation_settings_page_dialog_cancel_button">Cancel</string>
   <string name="geolocation_settings_page_dialog_message">Clear location access for this website?</string>
@@ -534,7 +534,7 @@ to view open tabs from other devices."</string>
   <string name="go_supermarket_title">More apps, faster speed, and less data usage in App Store</string>
   <string name="gold_medals">Gold medals</string>
   <string name="google_bookmarks">Google</string>
-  <string name="green_kid_block_request">The website has been banned from visits by parents.</string>
+  <string name="green_kid_block_request">Access to this website is restricted.</string>
   <string name="have_sent_bookmark_to_home_screen">Placed on Home screen</string>
   <string name="hint">Hint</string>
   <string name="history">History</string>
@@ -1061,9 +1061,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="paused_waiting_to_retry">Waiting to retry…</string>
   <string name="pay_failed_toast">"Couldn't complete payment"</string>
   <string name="pay_success_toast">Paid successfully</string>
-  <string name="permission_alert_window">To use the feature, please open system option Diplay pop-up window.</string>
   <string name="permission_notification">send notifications.</string>
-  <string name="permission_unknown">Unknown Option</string>
   <string name="permissions_prompt_message">%s wants to</string>
   <string name="play_pause_video">Play or pause video</string>
   <string name="play_video">Play video</string>
@@ -1138,7 +1136,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="pref_link_prefetch_value_wifi_only">WIFI_ONLY</string>
   <string name="pref_nav_mode_summary_pad">Pad</string>
   <string name="pref_nav_mode_summary_phone">Phone</string>
-  <string name="pref_nav_mode_title">Desktop</string>
+  <string name="pref_nav_mode_title">Browser Mode</string>
   <string name="pref_navscreen_layoutstate_title">Multi-window management</string>
   <string name="pref_notifications_hint">Notifications</string>
   <string name="pref_notifications_receive">Notifications</string>
@@ -1476,7 +1474,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="video_downloaded_group">Downloaded</string>
   <string name="video_downloading_group">Downloading</string>
   <string name="video_edit">Edit</string>
-  <string name="video_float_window_text">PopUp</string>
+  <string name="video_float_window_text">Pop-up</string>
   <string name="video_fragment_name_collections">Favorites</string>
   <string name="video_fragment_name_download">Offline video</string>
   <string name="video_fragment_name_historys">History</string>

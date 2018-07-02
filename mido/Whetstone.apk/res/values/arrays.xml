@@ -85,9 +85,7 @@
         <item>com.xiaomi.upnp</item>
         <item>com.xiaomi.miplay</item>
     </string-array>
-    <string-array name="promotelevel_middle">
-        <item>com.miui.voiceassist</item>
-    </string-array>
+    <array name="promotelevel_middle" />
     <string-array name="promotelevel_high">
         <item>com.miui.touchassistant</item>
         <item>com.miui.virtualsim</item>

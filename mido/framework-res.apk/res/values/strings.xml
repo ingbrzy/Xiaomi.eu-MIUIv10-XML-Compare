@@ -223,7 +223,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_customVpnConfirmDialogComponent">com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog</string>
   <string name="config_datause_iface">rmnet0</string>
   <string name="config_defaultNetworkScorerPackageName"/>
-  <string name="config_defaultPictureInPictureBounds">180 200 880 600</string>
+  <string name="config_defaultPictureInPictureBounds">0 0 100 100</string>
   <string name="config_default_dns_server">8.8.8.8</string>
   <string name="config_dozeComponent">com.android.systemui/com.android.keyguard.doze.DozeService</string>
   <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
@@ -231,7 +231,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_ethernet_tcp_buffers">524288,1048576,3145728,524288,1048576,2097152</string>
   <string name="config_forceVoiceInteractionServicePackage"/>
   <string name="config_fusedLocationProviderPackageName">com.xiaomi.location.fused</string>
-  <string name="config_geocoderProviderPackageName">@null</string>
+  <string name="config_geocoderProviderPackageName">com.xiaomi.metoknlp</string>
   <string name="config_geofenceProviderPackageName">@null</string>
   <string name="config_hardwareFlpPackageName">com.android.location.fused</string>
   <string name="config_iccHotswapPromptForRestartDialogComponent">@null</string>
@@ -258,7 +258,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_wifi_framework_sap_2G_channel_list">1,6,11</string>
   <string name="config_wifi_p2p_device_type">10-0050F204-5</string>
   <string name="config_wifi_random_mac_oui">DA-A1-19</string>
-  <string name="config_wifi_tcp_buffers">524288,1048576,5505024,262144,524288,5505024</string>
+  <string name="config_wifi_tcp_buffers">524288,1048576,5505024,262144,524288,4194304</string>
   <string name="config_wifi_tether_enable">com.android.settings/.TetherService</string>
   <string name="config_wimaxManagerClassname"/>
   <string name="config_wimaxNativeLibLocation"/>
@@ -665,9 +665,16 @@ Try again in %2$d seconds."</string>
   <string name="locale_replacement"/>
   <string name="locale_search_menu">Search</string>
   <string name="lock_pattern_view_aspect">square</string>
+  <string name="lock_to_app_description">"Screen pinning locks the display in a single view.
+
+To unpin, press and hold Home and the Power button at the same time."</string>
+  <string name="lock_to_app_description_accessible">"Screen pinning locks the display in a single view.
+
+To unpin, press and hold Home and the Power button at the same time."</string>
   <string name="lock_to_app_exit">Screen unpinned</string>
   <string name="lock_to_app_start">Screen pinned</string>
-  <string name="lock_to_app_toast">To unpin this screen, touch &amp; hold Back.</string>
+  <string name="lock_to_app_toast">To unpin this screen, press and hold Home and the Power button at the same time.</string>
+  <string name="lock_to_app_toast_accessible">To unpin this screen, press and hold Home and the Power button at the same time.</string>
   <string name="lock_to_app_toast_locked">"App is pinned: Unpinning isn't allowed on this device."</string>
   <string name="lock_to_app_unlock_password">Ask for password before unpinning</string>
   <string name="lock_to_app_unlock_pattern">Ask for unlock pattern before unpinning</string>
@@ -708,7 +715,7 @@ Visit "&lt;b&gt;google.com/accounts/recovery&lt;/b&gt;.</string>
   <string name="lockscreen_pattern_instructions">Draw pattern to unlock</string>
   <string name="lockscreen_pattern_wrong">Try again</string>
   <string name="lockscreen_permanent_disabled_sim_instructions">"Your SIM card has been permanently disabled.
- Contact your wireless service provider for another SIM card."</string>
+Contact your wireless service provider for another SIM card."</string>
   <string name="lockscreen_permanent_disabled_sim_message_short">Unusable SIM card.</string>
   <string name="lockscreen_return_to_call">Return to call</string>
   <string name="lockscreen_screen_locked">Screen locked.</string>
@@ -1033,6 +1040,7 @@ Try again in %2$d seconds."</string>
   <string name="permgrouplab_sensors">Body Sensors</string>
   <string name="permgrouplab_sms">SMS</string>
   <string name="permgrouplab_storage">Storage</string>
+  <string name="permission">Permission</string>
   <string name="permission_remember_choice">Remember</string>
   <string name="permission_request_notification_title">Permission requested</string>
   <string name="permission_request_notification_with_subtitle">"Permission requested
@@ -1487,11 +1495,11 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="volume_alarm">Alarm volume</string>
   <string name="volume_bluetooth_call">Bluetooth in-call volume</string>
   <string name="volume_call">In-call volume</string>
-  <string name="volume_icon_description_bluetooth">Bluetooth volume</string>
-  <string name="volume_icon_description_incall">Call volume</string>
-  <string name="volume_icon_description_media">Media volume</string>
-  <string name="volume_icon_description_notification">Notification volume</string>
-  <string name="volume_icon_description_ringer">Ringtone volume</string>
+  <string name="volume_icon_description_bluetooth">Bluetooth</string>
+  <string name="volume_icon_description_incall">Call</string>
+  <string name="volume_icon_description_media">Media</string>
+  <string name="volume_icon_description_notification">Notification</string>
+  <string name="volume_icon_description_ringer">Ringer</string>
   <string name="volume_music">Media volume</string>
   <string name="volume_music_hint_playing_through_bluetooth">Playing through Bluetooth</string>
   <string name="volume_music_hint_silent_ringtone_selected">Silent ringtone set</string>
