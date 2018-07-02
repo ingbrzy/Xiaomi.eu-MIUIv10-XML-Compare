@@ -474,7 +474,7 @@ Sample Rate"</string>
   <string name="card_title_calliswaiting">Call waiting</string>
   <string name="card_title_callonhold">Put on hold</string>
   <string name="card_title_callonhold_released">Call released</string>
-  <string name="card_title_callretrieved">Call retreived</string>
+  <string name="card_title_callretrieved">Call retrieved</string>
   <string name="card_title_clir_suppression_rejected">Caller ID suppression rejected</string>
   <string name="card_title_conditionalCF">Conditional call forwarding is on</string>
   <string name="card_title_conf_call">Conference call</string>
@@ -723,9 +723,9 @@ Sample Rate"</string>
   <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app can't start until you unlock your phone"</string>
   <string name="disable">Turn off</string>
   <string name="disable_all_cf">Turn off all call forwarding features</string>
-  <string name="disable_cfb_forbidden">"Your operator doesn't support turning off call forwarding when your phone is busy."</string>
+  <string name="disable_cfb_forbidden">"Your carrier doesn't support turning off call forwarding when your phone is busy."</string>
   <string name="disable_cfnrc_forbidden">"Your carrier doesn't support turning off call forwarding when your phone is unreachable."</string>
-  <string name="disable_cfnry_forbidden">"Your operator doesn't support turning off call forwarding when your phone doesn't answer."</string>
+  <string name="disable_cfnry_forbidden">"Your carrier doesn't support turning off call forwarding when your phone doesn't answer."</string>
   <string name="disable_fdn">Turn off FDN</string>
   <string name="disable_fdn_ok">Turn on FDN</string>
   <string name="disable_overlays">Disable HW overlays</string>
@@ -775,7 +775,7 @@ Sample Rate"</string>
   <string name="enable_disable_emergency_broadcast">Emergency broadcast</string>
   <string name="enable_disable_eo">Employment opportunities</string>
   <string name="enable_disable_international">International</string>
-  <string name="enable_disable_lafs">Local airport flight fchedules</string>
+  <string name="enable_disable_lafs">Local airport flight schedules</string>
   <string name="enable_disable_local">Local</string>
   <string name="enable_disable_local_weather">Local weather</string>
   <string name="enable_disable_lodgings">Lodgings</string>
@@ -969,8 +969,8 @@ Switch to the new provider anyway?"</string>
   <string name="lable_enable">On</string>
   <string name="lable_incoming_calls_except">Incoming calls while roaming</string>
   <string name="lable_network_not_supported">"Network isn't supported"</string>
-  <string name="lafs_disable">Local airport flight fchedules are off</string>
-  <string name="lafs_enable">Local airport flight fchedules are on</string>
+  <string name="lafs_disable">Local airport flight schedules are off</string>
+  <string name="lafs_enable">Local airport flight schedules are on</string>
   <string name="launch_defaults_none">No defaults set</string>
   <string name="launch_defaults_some">Some defaults set</string>
   <string name="list_language_dtitle">Languages</string>
@@ -1628,7 +1628,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="sum_cfu_enabled_no_number">Number is unavailable</string>
   <string name="sum_cw_disabled">During a call, notify me of incoming calls</string>
   <string name="sum_cw_enabled">During a call, notify me of incoming calls</string>
-  <string name="sum_default_caller_id">Use default operator settings to display my number in outgoing calls</string>
+  <string name="sum_default_caller_id">Use default carrier settings to display my number in outgoing calls</string>
   <string name="sum_fdn">Manage Fixed Dialing Numbers</string>
   <string name="sum_fdn_change_pin">Change PIN for FDN access</string>
   <string name="sum_fdn_manage_list">Manage phone number list</string>
