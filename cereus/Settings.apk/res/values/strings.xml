@@ -181,6 +181,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="add_device_admin_msg">Activate device admin app?</string>
   <string name="add_facerecoginition_text">Add face data</string>
   <string name="add_fingerprint_cancel_button_text">Back</string>
+  <string name="add_fingerprint_dirty_fingerprint">Make sure the surface of the screen is clean. Try recording your fingerprint again.</string>
   <string name="add_fingerprint_done_msg">Now you can unlock this device with your fingerprint.</string>
   <string name="add_fingerprint_done_title">"You're ready to rock!"</string>
   <string name="add_fingerprint_edge_instruction_msg">Move your finger so the sensor could record the edges of your fingerprint.</string>
@@ -189,6 +190,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="add_fingerprint_finished_button_text">Done</string>
   <string name="add_fingerprint_instruction_msg">Fingerprint sensor is built in the Home button of your device.</string>
   <string name="add_fingerprint_instruction_title">Add your fingerprint</string>
+  <string name="add_fingerprint_move_fast">Keep your finger on the screen a bit longer</string>
   <string name="add_fingerprint_name_suggest_text">Fingerprint name</string>
   <string name="add_fingerprint_put_finger_edge_msg">Move your finger slightly and put it on the sensor again to add all the different parts of your fingerprint.</string>
   <string name="add_fingerprint_put_finger_msg">Put your finger on the sensor and lift after you feel a vibration.</string>
@@ -2075,18 +2077,18 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="got_it">Got it</string>
   <string name="gsm_to_wifi_connect_type_title">GSM to WLAN</string>
   <string name="gxzw_add_fingerprint_continue">Continue</string>
-  <string name="gxzw_add_fingerprint_edge_message">Move your finger so the sensor could record the edges of your fingerprint.</string>
-  <string name="gxzw_add_fingerprint_edge_title">Move your finger slightly</string>
-  <string name="gxzw_add_fingerprint_finish">Finish</string>
-  <string name="gxzw_add_fingerprint_indicate">Press harder here</string>
+  <string name="gxzw_add_fingerprint_edge_message">Move your finger to record the edges of your fingerprint</string>
+  <string name="gxzw_add_fingerprint_edge_title">Adjust your grip</string>
+  <string name="gxzw_add_fingerprint_finish">Done!</string>
+  <string name="gxzw_add_fingerprint_indicate">Press this area lightly</string>
   <string name="gxzw_add_fingerprint_know">Got it</string>
-  <string name="gxzw_add_fingerprint_message">Keep fingers and screen surface clean</string>
+  <string name="gxzw_add_fingerprint_message">Make sure both your finger and the screen are clean</string>
   <string name="gxzw_add_fingerprint_move_indicate">Move your finger slightly</string>
-  <string name="gxzw_add_fingerprint_move_message">"Can't record the remaining areas of your fingerprint. Move your finger slightly"</string>
-  <string name="gxzw_add_fingerprint_move_title">Move your finger slightly</string>
-  <string name="gxzw_add_fingerprint_put_finger_message">Press a bit harder and lift your finger after you feel vibration. Repeat several times.</string>
-  <string name="gxzw_add_fingerprint_put_finger_title">Press harder and lift after vibration</string>
-  <string name="gxzw_add_fingerprint_title">Add fingerprint</string>
+  <string name="gxzw_add_fingerprint_move_message">Move your finger to record all parts of your fingerprint</string>
+  <string name="gxzw_add_fingerprint_move_title">Move your finger a little</string>
+  <string name="gxzw_add_fingerprint_put_finger_message">Press the screen and lift your finger after you feel vibration. Repeat several times.</string>
+  <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
+  <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -2528,12 +2530,14 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="lockpassword_choose_for_second_user">Set Second space password</string>
   <string name="lockpassword_choose_lock_generic_header">Choose screen lock</string>
   <string name="lockpassword_choose_your_password_header">Set your password</string>
-  <string name="lockpassword_choose_your_password_second_space">"Set password 
- for Second space"</string>
+  <string name="lockpassword_choose_your_password_second_space">"Set PIN for Second space.
+This PIN must contain as many digits
+as your First space PIN."</string>
   <string name="lockpassword_choose_your_pattern_header">Set your pattern</string>
   <string name="lockpassword_choose_your_pin_header">Set your PIN</string>
   <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
  for Second space"</string>
+  <string name="lockpassword_choose_your_pin_title">Enter 4-16 digits</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
   <string name="lockpassword_confirm_passwords_dont_match">Passwords don’t match</string>
   <string name="lockpassword_confirm_pins_dont_match">"PINs don't match"</string>
@@ -4406,7 +4410,7 @@ Possibly incorrect PIN."</string>
   <string name="sim_lock_settings_summary_on">Locked</string>
   <string name="sim_lock_settings_title">SIM lock</string>
   <string name="sim_management_title">SIM cards &amp; mobile networks</string>
-  <string name="sim_management_title_cr_kolbi">SIM card &amp; mobile networks</string>
+  <string name="sim_management_title_singlesim">SIM card &amp; mobile networks</string>
   <string name="sim_multi_sims_summary">Choose the SIM you prefer for mobile data.</string>
   <string name="sim_multi_sims_title">Multiple SIMs found</string>
   <string name="sim_name_hint">Enter SIM name</string>

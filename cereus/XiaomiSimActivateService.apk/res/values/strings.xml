@@ -16,6 +16,7 @@
   <string name="activate_feature_register_xiaomi_account">Mi Account setup</string>
   <string name="activate_feature_remote_assist">Remote assistant</string>
   <string name="activate_feature_verify_mx_token">Mi Account verification</string>
+  <string name="activate_feature_voip">Mi Message Voice</string>
   <string name="activate_history_canceled_overview">SIM card activation was canceled. Activation is triggered by \"%1$s\".</string>
   <string name="activate_history_multisim_canceled_overview">SIM card %2$d activation was canceled. Activation is triggered by \"%1$s\".</string>
   <string name="activate_history_multisim_success_overview">Activated SIM card %2$d successfully. Activation is triggered by \"%1$s\".</string>
@@ -106,6 +107,11 @@ Enter the phone number associated with your new SIM card to reactivate %s"</stri
   <string name="activate_status_title_activating_msim">Activating SIM card %d…</string>
   <string name="agree">Allow</string>
   <string name="app_name">Xiaomi SIM Activate Service</string>
+  <string name="checking_client">checking client env</string>
+  <string name="error_checking_client">client env error</string>
+  <string name="error_network_io">network error</string>
+  <string name="error_no_send_sms_permission">no send sms permission</string>
+  <string name="error_sim_not_in_service">sim not in service</string>
   <string name="explain_send_sms_permission_button">Verify</string>
   <string name="explain_send_sms_permission_msg">To turn on %s, Xiaomi Service Framework will send SMS to verify your phone number. You will be charged for the regular SMS by the carrier.</string>
   <string name="explain_send_sms_permission_title">Verify your phone number</string>
@@ -118,4 +124,5 @@ Enter the phone number associated with your new SIM card to reactivate %s"</stri
   <string name="privacy_revoke_failed_msg">Activation requires granting authorization so that Messaging could get your phone number.</string>
   <string name="privacy_revoke_tips">After you revoke authorization, the app will stop collecting your data and delete all your data from its servers. Sync with Mi Cloud, Mi Message, and other Messaging features will no longer be available. Revoke authorization anyway?</string>
   <string name="sim_unactivated_title">"Your SIM card isn't activated"</string>
+  <string name="waiting_sim_in_service">waiting sim in service</string>
 </resources>
