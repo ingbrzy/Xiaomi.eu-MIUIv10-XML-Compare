@@ -90,19 +90,6 @@
         <item>0,4,2,0,-2,-2,4</item>
         <item>2,0,0,-2,-4,0,0</item>
     </string-array>
-    <string-array name="karaoke_descriptions">
-        <item>有没有那么一首歌，会让你轻轻跟着和...</item>
-        <item>我唱得她心醉...我唱得她心碎...</item>
-        <item>不管喜和悲...卡拉永远ok...</item>
-        <item>麦克风都让我征服...</item>
-        <item>你爱默默倾听全世界...全世界谁倾听你...</item>
-        <item>还好我有 我这一首情歌...</item>
-        <item>昨天太近...明天太远...默默聆听那黑夜...</item>
-        <item>你有Jazz 我用Rock 一起Hip-hop整条街...</item>
-        <item>唱出你的热情 伸出你双手 让我拥抱着你的梦...</item>
-        <item>这是一首简单的小情歌...唱着我们心头的白鸽...</item>
-        <item>我想我很适合做一个歌颂者，青春在风中飘着...</item>
-    </string-array>
     <array name="number_value_entries_dark">
         <item>@drawable/theme_dark_number_0</item>
         <item>@drawable/theme_dark_number_1</item>
