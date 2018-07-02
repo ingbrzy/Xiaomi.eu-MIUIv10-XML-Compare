@@ -133,12 +133,12 @@
         <item quantity="one">PIN must be %d digit</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN can contain up to %d digits</item>
-        <item quantity="one">PIN can contain up to %d digit</item>
+        <item quantity="other">You can enter up to %d digits</item>
+        <item quantity="one">You can enter up to %d digit</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">PIN must be %d digits long</item>
-        <item quantity="one">PIN must be %d digit long</item>
+        <item quantity="other">Enter at least %d digits</item>
+        <item quantity="one">Enter at least %d digit</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Connect at least %d dots. Try again.</item>
