@@ -371,6 +371,7 @@
         <item>ursa</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>gemini</item>
     </string-array>
     <string-array name="device_support_pickup_by_xiaomi">
         <item>polaris</item>
@@ -391,6 +392,7 @@
         <item>clover</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>gemini</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
