@@ -1836,6 +1836,7 @@ For more details, contact your organization's admin."</string>
   <string name="every_day">Every day</string>
   <string name="experimental_category_title">Experimental</string>
   <string name="experimental_preference">(Experimental)</string>
+  <string name="extended_power_menu">Extended power menu</string>
   <string name="external_code_size_label">USB storage app</string>
   <string name="external_data_size_label">SD card</string>
   <string name="external_source_switch_title">Allow from this source</string>
