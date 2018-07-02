@@ -147,7 +147,7 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_find_device_guide_alert_negtive">No thanks</string>
   <string name="micloud_find_device_guide_alert_negtive_activate">No thanks</string>
   <string name="micloud_find_device_guide_alert_positive">OK</string>
-  <string name="micloud_find_device_guide_alert_title">Remember your Mi Account ID and password</string>
+  <string name="micloud_find_device_guide_alert_title">Remember your password</string>
   <string name="micloud_find_device_guide_button">Turn on Find device</string>
   <string name="micloud_find_device_guide_fail_reopen">You can turn on Find device in Mi Account - Mi Cloud</string>
   <string name="micloud_find_device_guide_fail_sub_net">Check your network connection and try again.</string>

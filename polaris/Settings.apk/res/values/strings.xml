@@ -3861,7 +3861,7 @@ This setting affects all users on this phone."</string>
   <string name="screen_paper_mode_off_apps_title">"Don't use Reading mode"</string>
   <string name="screen_paper_mode_range_title">Settings</string>
   <string name="screen_paper_mode_set_apps_title">Reading mode apps</string>
-  <string name="screen_paper_mode_summary">"Reduce display's blue light emission"</string>
+  <string name="screen_paper_mode_summary">Reading mode makes the colors of your display warmer allowing your eyes to relax.</string>
   <string name="screen_paper_mode_time_summary">Schedule time to turn Reading mode on and off</string>
   <string name="screen_paper_mode_time_title">Schedule</string>
   <string name="screen_paper_mode_title">Reading mode</string>
