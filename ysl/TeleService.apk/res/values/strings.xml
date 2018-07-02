@@ -474,7 +474,7 @@ Sample Rate"</string>
   <string name="card_title_calliswaiting">Call waiting</string>
   <string name="card_title_callonhold">Put on hold</string>
   <string name="card_title_callonhold_released">Call released</string>
-  <string name="card_title_callretrieved">Call retreived</string>
+  <string name="card_title_callretrieved">Call retrieved</string>
   <string name="card_title_clir_suppression_rejected">Caller ID suppression rejected</string>
   <string name="card_title_conditionalCF">Conditional call forwarding is on</string>
   <string name="card_title_conf_call">Conference call</string>
@@ -564,6 +564,8 @@ Sample Rate"</string>
   <string name="close_profile">Close</string>
   <string name="close_volte">Turn off VoLTE</string>
   <string name="cloud_antispam_title">Identify unknown numbers</string>
+  <string name="cloud_sim_enabled_dual_4g_summary">"Can't turn off Dual 4G while using Mi Roaming"</string>
+  <string name="cloud_sim_enabled_preferred_network_summary">"Can't change network preferences while using Mi Roaming"</string>
   <string name="cmcc_ut_data_enable_prompt">This service requires mobile data connection. Turn it on to continue.</string>
   <string name="command_error_fdn_failure">You need to turn off FDN first</string>
   <string name="config_default_data_sim">Settings</string>
@@ -616,11 +618,14 @@ Sample Rate"</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
   <string name="data_enable_summary">Allow this device to use mobile data</string>
   <string name="data_enabled">Mobile data</string>
+  <string name="data_plan">mobile data plans</string>
   <string name="data_usage_disable_mobile">Turn off mobile data?</string>
   <string name="data_usage_template">%1$s mobile data used %2$s</string>
   <string name="data_usage_title">Data usage</string>
   <string name="data_usage_uninstalled_apps">Removed apps</string>
   <string name="data_usage_uninstalled_apps_users">Removed apps and users</string>
+  <string name="dc_alert_dialog_message">Some apps require mobile data connection. You can contact your carrier to learn what %s are available to you.</string>
+  <string name="dc_alert_dialog_title">Data usage warning</string>
   <string name="deactivate_all">Cancel all</string>
   <string name="debug_app">Select debug app</string>
   <string name="debug_app_not_set">No debug application set</string>
@@ -718,9 +723,9 @@ Sample Rate"</string>
   <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app can't start until you unlock your phone"</string>
   <string name="disable">Turn off</string>
   <string name="disable_all_cf">Turn off all call forwarding features</string>
-  <string name="disable_cfb_forbidden">"Your operator doesn't support turning off call forwarding when your phone is busy."</string>
+  <string name="disable_cfb_forbidden">"Your carrier doesn't support turning off call forwarding when your phone is busy."</string>
   <string name="disable_cfnrc_forbidden">"Your carrier doesn't support turning off call forwarding when your phone is unreachable."</string>
-  <string name="disable_cfnry_forbidden">"Your operator doesn't support turning off call forwarding when your phone doesn't answer."</string>
+  <string name="disable_cfnry_forbidden">"Your carrier doesn't support turning off call forwarding when your phone doesn't answer."</string>
   <string name="disable_fdn">Turn off FDN</string>
   <string name="disable_fdn_ok">Turn on FDN</string>
   <string name="disable_overlays">Disable HW overlays</string>
@@ -733,6 +738,7 @@ Sample Rate"</string>
   <string name="display_name">DisplayName</string>
   <string name="display_name_summary">&lt;Same as username&gt;</string>
   <string name="display_name_title">Display name</string>
+  <string name="do_not_show_again">"Don't show again"</string>
   <string name="domain_address">SipDomain</string>
   <string name="domain_address_title">Server</string>
   <string name="doneButton">Done</string>
@@ -769,7 +775,7 @@ Sample Rate"</string>
   <string name="enable_disable_emergency_broadcast">Emergency broadcast</string>
   <string name="enable_disable_eo">Employment opportunities</string>
   <string name="enable_disable_international">International</string>
-  <string name="enable_disable_lafs">Local airport flight fchedules</string>
+  <string name="enable_disable_lafs">Local airport flight schedules</string>
   <string name="enable_disable_local">Local</string>
   <string name="enable_disable_local_weather">Local weather</string>
   <string name="enable_disable_lodgings">Lodgings</string>
@@ -963,8 +969,8 @@ Switch to the new provider anyway?"</string>
   <string name="lable_enable">On</string>
   <string name="lable_incoming_calls_except">Incoming calls while roaming</string>
   <string name="lable_network_not_supported">"Network isn't supported"</string>
-  <string name="lafs_disable">Local airport flight fchedules are off</string>
-  <string name="lafs_enable">Local airport flight fchedules are on</string>
+  <string name="lafs_disable">Local airport flight schedules are off</string>
+  <string name="lafs_enable">Local airport flight schedules are on</string>
   <string name="launch_defaults_none">No defaults set</string>
   <string name="launch_defaults_some">Some defaults set</string>
   <string name="list_language_dtitle">Languages</string>
@@ -1622,7 +1628,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="sum_cfu_enabled_no_number">Number is unavailable</string>
   <string name="sum_cw_disabled">During a call, notify me of incoming calls</string>
   <string name="sum_cw_enabled">During a call, notify me of incoming calls</string>
-  <string name="sum_default_caller_id">Use default operator settings to display my number in outgoing calls</string>
+  <string name="sum_default_caller_id">Use default carrier settings to display my number in outgoing calls</string>
   <string name="sum_fdn">Manage Fixed Dialing Numbers</string>
   <string name="sum_fdn_change_pin">Change PIN for FDN access</string>
   <string name="sum_fdn_manage_list">Manage phone number list</string>
@@ -1802,7 +1808,7 @@ Contact your carrier if this problem persists."</string>
   <string name="voice_service_cannot_call_notification_title">"Can't make calls in the current network"</string>
   <string name="voice_service_switch_summary">Turn on to be able to use VoLTE call functionality in VoLTE networks</string>
   <string name="voice_service_switch_title">Use VoLTE call services</string>
-  <string name="voice_service_warning_dialog_body">"This tablet supports VoLTE calls in 4G networks. Make sure the networks that your device is connected to support this functionality. VoLTE services are provided by your carrier. Contact your local carrier to learn if VoLTE is not supported in your area.
+  <string name="voice_service_warning_dialog_body">"This tablet supports VoLTE calls in 4G networks. Make sure the networks that your device is connected to support this functionality. VoLTE services are provided by your carrier. Contact your local carrier to learn whether VoLTE is supported in your area.
 
 If you see _ in your status bar, VoLTE calls aren't available. If you can't make or receive calls, or your calls are interrupted, make sure your network is compatible with VoLTE.
 
@@ -1864,9 +1870,9 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
   <string name="wapi_password_length_is_min">Password can not less than 8 characters in length</string>
   <string name="wapi_password_length_is_min_to_max">The password must be: 8-64 characters</string>
   <string name="wapi_yes">yes</string>
-  <string name="wfcmode_mobile_preferred">Cellular prefer</string>
+  <string name="wfcmode_mobile_preferred">Prefer mobile networks</string>
   <string name="wfcmode_wifi_only">WLAN only</string>
-  <string name="wfcmode_wifi_preferred">WLAN prefer</string>
+  <string name="wfcmode_wifi_preferred">Prefer WLAN</string>
   <string name="wifi_aggressive_handover">Aggressive Wi‑Fi to mobile handover</string>
   <string name="wifi_aggressive_handover_summary">When enabled, Wi‑Fi will be more aggressive in handing over the data connection to mobile, when Wi‑Fi signal is low</string>
   <string name="wifi_allow_scan_with_traffic">Always allow Wi‑Fi Roam Scans</string>
@@ -1931,7 +1937,7 @@ Please check validity of certificates"</string>
 Credential storage might not enable"</string>
   <string name="wifi_wapi_psk_type">Password type</string>
   <string name="wifi_wapi_user_certificate">User certificate</string>
-  <string name="wificall_switch_summary">Your device can switch between WLAN and VoLTE when connection is poor</string>
+  <string name="wificall_switch_summary">Your device will switch between WLAN and VoLTE when connection is poor</string>
   <string name="wificall_switch_title">Make calls using WLAN</string>
   <string name="wild_prompt_str">Replace wild character with</string>
   <string name="window_animation_scale_title">Window animation scale</string>

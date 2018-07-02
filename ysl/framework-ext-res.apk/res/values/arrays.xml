@@ -62,6 +62,7 @@
         <item>com.xiaomi.mipicks</item>
         <item>com.xiaomi.smarthome</item>
         <item>com.kiteguard</item>
+        <item>com.xiaomi.discover</item>
     </string-array>
     <string-array name="keyguard_whitelist">
         <item>com.google.android.talk</item>
@@ -109,6 +110,7 @@
         <item>com.android.htmlviewer</item>
         <item>com.miui.greenguard</item>
         <item>com.kiteguard</item>
+        <item>com.xiaomi.discover</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />
@@ -1293,7 +1295,6 @@
         <item>com.miui.core</item>
         <item>com.android.providers.media</item>
         <item>com.xiaomi.xmsf</item>
-        <item>com.xiaomi.metok</item>
         <item>com.miui.sysbase</item>
         <item>com.lbe.security.miui</item>
         <item>com.google.android.marvin.talkback</item>
@@ -1315,11 +1316,13 @@
         <item>com.qti.snapdragon.sdk.display</item>
         <item>com.xiaomi.bluetooth</item>
         <item>com.xiaomi.metoknlp</item>
+        <item>com.xiaomi.location.fused</item>
         <item>android.process.acore</item>
         <item>com.miui.wmsvc</item>
         <item>com.miui.greenguard</item>
         <item>com.miui.miwallpaper</item>
         <item>com.miui.contentextension</item>
+        <item>com.xiaomi.mimobile.cloudsim</item>
     </string-array>
     <string-array name="process_disable_trim_list">
         <item>com.miui.home</item>

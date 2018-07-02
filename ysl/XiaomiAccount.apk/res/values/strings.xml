@@ -20,7 +20,7 @@
   <string name="account_has_been_set">Change</string>
   <string name="account_limit_update_birthday">"Can't update birthday right now"</string>
   <string name="account_mibi_center">Mi Credits</string>
-  <string name="account_mibi_charge">Mi Credits Charge</string>
+  <string name="account_mibi_charge">Top up</string>
   <string name="account_mipay_info">Mi Pay</string>
   <string name="account_no_set">None</string>
   <string name="account_none">None</string>
@@ -187,7 +187,7 @@
   <string name="other_devices_title">Other devices</string>
   <string name="passport_Resend">Resend</string>
   <string name="passport_access_denied">Access denied</string>
-  <string name="passport_account_hint_text">Email/phone number/Mi Account ID</string>
+  <string name="passport_account_hint_text">Email/Phone number/Mi Account ID</string>
   <string name="passport_account_identity_title">Verify your identity</string>
   <string name="passport_account_label">Mi Account</string>
   <string name="passport_account_name">Account: %1$s</string>
@@ -334,7 +334,7 @@ To activate your account, follow the
   <string name="passport_register_by_email">&lt;u&gt;Create an account using email address&lt;/u&gt;</string>
   <string name="passport_register_restricted">Too many accounts have been associated with this number, try a different one</string>
   <string name="passport_register_restricted_title">"Can't use this phone number"</string>
-  <string name="passport_register_using_other_ways">Other ways to registered</string>
+  <string name="passport_register_using_other_ways">Other ways to create account</string>
   <string name="passport_registered_phone_num">Phone: %s</string>
   <string name="passport_registered_phone_user_ID">User ID: %s</string>
   <string name="passport_registered_phone_user_name">Username: %s</string>

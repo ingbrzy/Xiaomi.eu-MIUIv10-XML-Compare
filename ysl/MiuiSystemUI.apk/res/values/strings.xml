@@ -122,6 +122,8 @@
   <string name="accessibility_location_active">Location requests active</string>
   <string name="accessibility_managed_profile">Work profile</string>
   <string name="accessibility_menu">Menu</string>
+  <string name="accessibility_menu_item_split_disable">"App doesn't support Split screen."</string>
+  <string name="accessibility_menu_item_split_enable">App supports Split screen</string>
   <string name="accessibility_multi_user_switch_inactive">Current user %s</string>
   <string name="accessibility_multi_user_switch_quick_contact">Show profile</string>
   <string name="accessibility_multi_user_switch_switcher">Switch user</string>
@@ -238,6 +240,8 @@
   <string name="accessibility_settings">Settings</string>
   <string name="accessibility_settings_button">System settings.</string>
   <string name="accessibility_signal_full">Signal full.</string>
+  <string name="accessibility_splite_screen_primary">Add to split screen primary application</string>
+  <string name="accessibility_splite_screen_secondary">Add to split screen secondary application</string>
   <string name="accessibility_status_bar_headphones">Headphones connected</string>
   <string name="accessibility_status_bar_headset">Headset connected</string>
   <string name="accessibility_status_bar_hotspot">Hotspot</string>
@@ -551,9 +555,9 @@ If you resume, charges may apply for data usage."</string>
   <string name="drag_to_add_tiles">Drag to add tiles</string>
   <string name="drag_to_remove_tiles">Drag here to remove</string>
   <string name="drive_mode_tip">Car mode is on</string>
-  <string name="drive_mode_tip_idle">Tap to exit Car mode</string>
-  <string name="drive_mode_tip_idle_notch">Exit Car mode</string>
-  <string name="drive_mode_tip_notch">Car mode on</string>
+  <string name="drive_mode_tip_idle">Car mode is on</string>
+  <string name="drive_mode_tip_idle_notch">Car mode</string>
+  <string name="drive_mode_tip_notch">Car mode</string>
   <string name="emergency_call_string">Emergency</string>
   <string name="empty_shade_text">No notifications</string>
   <string name="enable_adb">USB debugging</string>

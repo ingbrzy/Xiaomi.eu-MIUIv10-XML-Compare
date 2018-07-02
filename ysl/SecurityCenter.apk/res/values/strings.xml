@@ -840,6 +840,9 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gamebooster_network_dialog_message">Allow Security to connect to the network in order to use all features of the Game speed booster?</string>
   <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
   <string name="gamebox_qq_not_find">Install QQ and try again.</string>
+  <string name="gamebox_type_close">"Don't show"</string>
+  <string name="gamebox_type_float">Fixed shortcut</string>
+  <string name="gamebox_type_gesture">Swipe to show</string>
   <string name="gamebox_wechat_not_find">Install WeChat and try again.</string>
   <string name="gateway_exception_summary">Check your router and try again.</string>
   <string name="gateway_exception_summary2">"Can't connect to the server"</string>
@@ -1324,6 +1327,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="notification_masked_item">Hide notifications</string>
   <string name="notification_masked_subtitle">Hide notifications from apps protected with App lock</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
+  <string name="notify_channel_name_security">System security</string>
   <string name="notify_daily_data_usage_body">To limit data usage automatically, set up your monthly data plan.</string>
   <string name="notify_daily_limit_body">Tap to set data limit.</string>
   <string name="notify_daily_limit_title">Used %s today</string>
