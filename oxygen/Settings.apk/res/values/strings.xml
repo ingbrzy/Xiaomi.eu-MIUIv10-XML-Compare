@@ -1643,6 +1643,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="ethernet_data_usage">Ethernet data usage</string>
   <string name="every_day">Every day</string>
   <string name="experimental_preference">(Experimental)</string>
+  <string name="extended_power_menu">Extended power menu</string>
   <string name="external_code_size_label">USB storage app</string>
   <string name="external_data_size_label">SD card</string>
   <string name="extreme_threats_summary">Receive alerts for extreme threats to life and property</string>
