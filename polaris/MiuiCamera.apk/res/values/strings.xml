@@ -418,6 +418,7 @@ and brings out the people in the front."</string>
   <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
   <string name="pref_video_quality_entry_720p">HD 720P</string>
   <string name="pref_video_quality_entry_value_4kuhd">8</string>
+  <string name="pref_video_quality_summary">4K video cannot be supported in 120FPS mode</string>
   <string name="pref_video_quality_title">Video quality</string>
   <string name="pref_video_speed_fast_title">Time-lapse</string>
   <string name="pref_video_speed_slow_title">Slow-motion</string>
