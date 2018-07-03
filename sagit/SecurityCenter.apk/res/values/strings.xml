@@ -1327,6 +1327,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="notification_masked_item">Hide notifications</string>
   <string name="notification_masked_subtitle">Hide notifications from apps protected with App lock</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
+  <string name="notify_channel_name_security">System security</string>
   <string name="notify_daily_data_usage_body">To limit data usage automatically, set up your monthly data plan.</string>
   <string name="notify_daily_limit_body">Tap to set data limit.</string>
   <string name="notify_daily_limit_title">Used %s today</string>

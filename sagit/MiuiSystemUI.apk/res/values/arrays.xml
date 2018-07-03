@@ -373,6 +373,11 @@
         <item>cereus</item>
         <item>gemini</item>
     </string-array>
+    <string-array name="device_support_new_pickup_by_xiaomi">
+        <item>jason</item>
+        <item>nitrogen</item>
+        <item>platina</item>
+    </string-array>
     <string-array name="device_support_pickup_by_xiaomi">
         <item>polaris</item>
         <item>dipper</item>

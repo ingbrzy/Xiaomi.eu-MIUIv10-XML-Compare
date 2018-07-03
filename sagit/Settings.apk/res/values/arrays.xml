@@ -1510,6 +1510,24 @@
         <item>opengl</item>
         <item>skiagl</item>
     </string-array>
+    <string-array name="defalut_browser_package">
+        <item>mx_telcel:com.android.chrome</item>
+    </string-array>
+    <array name="default_camera_package" />
+    <array name="default_dialer_package" />
+    <string-array name="default_email_package">
+        <item>mx_telcel:com.google.android.gm</item>
+    </string-array>
+    <string-array name="default_gallery_package">
+        <item>mx_telcel:com.google.android.apps.photos</item>
+    </string-array>
+    <string-array name="default_mms_package">
+        <item>mx_telcel:com.google.android.apps.messaging</item>
+    </string-array>
+    <array name="default_music_package" />
+    <string-array name="default_video_package">
+        <item>mx_telcel:com.google.android.apps.photos</item>
+    </string-array>
     <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
         <item>polaris</item>
@@ -1538,6 +1556,11 @@
         <item>cactus</item>
         <item>cereus</item>
         <item>gemini</item>
+    </string-array>
+    <string-array name="device_support_new_pickup_by_xiaomi">
+        <item>jason</item>
+        <item>nitrogen</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_support_pickup_by_xiaomi">
         <item>polaris</item>
@@ -2668,7 +2691,7 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="special_locale_names_global">
         <item>简体中文</item>
-        <item>繁體中文 (台湾)</item>
+        <item>繁體中文 (台灣)</item>
         <item>繁體中文 (香港)</item>
         <item>Español (América)</item>
         <item>Português (Brasil)</item>

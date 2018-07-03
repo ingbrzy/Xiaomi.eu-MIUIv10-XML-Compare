@@ -397,11 +397,15 @@ Free up at least %s."</string>
   <string name="trans_backingup">Backing up …</string>
   <string name="trans_backingup_no_items">Syncing…</string>
   <string name="trans_button_cancel">Cancel</string>
+  <string name="trans_button_exit">Exit</string>
+  <string name="trans_button_stay">Stay</string>
   <string name="trans_calculating">Calculating…</string>
   <string name="trans_calculating_app_sd_description">Data on SD card</string>
   <string name="trans_calculating_media_description">Media files</string>
   <string name="trans_calculating_tip">Calculating %s…</string>
   <string name="trans_cancel_confirm">Transfer in progress, stop now?</string>
+  <string name="trans_cancel_selection_message">If you exit Mi Mover, the ongoing transfer will be interrupted. Wait until the transfer is complete.</string>
+  <string name="trans_cancel_selection_title">Stay in Mi Mover</string>
   <string name="trans_cancelling">Canceling…</string>
   <string name="trans_connect_failed_device_incompatible">"Device isn't compatible. Cancel the transfer and try again."</string>
   <string name="trans_connect_failed_message">"Couldn't connect, try again or reboot device. On the other device, go to Settings &gt; Additional Settings &gt; Mi Mover, tap [I'm a sender], or launch Mi Mover again after reboot."</string>
@@ -547,6 +551,8 @@ Similar files on the new device will be overwritten"</string>
 Select only important items to make the transfer faster."</string>
   <string name="trans_select_device_receive">Select one device to receive data.</string>
   <string name="trans_select_device_send">Select one device to transfer data.</string>
+  <string name="trans_select_notification_message">Tap to view</string>
+  <string name="trans_select_notification_title">Mi Mover is working…</string>
   <string name="trans_sender">"I'm a sender"</string>
   <string name="trans_sender_connectting">Confirm on new device</string>
   <string name="trans_sender_searching">Searching for new devices</string>

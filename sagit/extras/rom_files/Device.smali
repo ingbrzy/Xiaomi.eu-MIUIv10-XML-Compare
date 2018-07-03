@@ -1625,6 +1625,27 @@
     return v0
 .end method
 
+.method public static isPortraitModeSupportAiScene()Z
+    .locals 2
+
+    const/4 v0, 0x0
+
+    invoke-static {}, Lcom/android/camera/Device;->isSupportAiScene()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    const-string/jumbo v1, "camera_portrait_mode_supported_ai_scene"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :cond_0
+    return v0
+.end method
+
 .method public static isQcomPlatform()Z
     .locals 2
 
@@ -2250,6 +2271,27 @@
 
     move-result v0
 
+    return v0
+.end method
+
+.method public static isSupportedContinousIsoMode()Z
+    .locals 2
+
+    const/4 v0, 0x0
+
+    invoke-static {}, Lcom/android/camera/Device;->isSupportedManualFunction()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    const-string/jumbo v1, "support_camera_continuous_iso"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :cond_0
     return v0
 .end method
 
