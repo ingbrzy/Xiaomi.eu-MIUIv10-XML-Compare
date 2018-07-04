@@ -74,6 +74,10 @@
   <string name="loading">Just a sec…</string>
   <string name="master_alert_notif_content">"Can't sync"</string>
   <string name="master_alert_notif_title">Turn on sync with Mi Cloud</string>
+  <string name="member_menu_vipname_free">Free</string>
+  <string name="member_menu_vipname_mega">Mega</string>
+  <string name="member_menu_vipname_premium">Premium</string>
+  <string name="member_menu_vipname_ultra">Ultra</string>
   <string name="micloud_alert_dialog_positive">OK</string>
   <string name="micloud_all_sub_1_intl_sms">International SMS will be sent to activate your SIM card. You will be charged by the carrier.</string>
   <string name="micloud_all_sub_1_sms">Regular SMS will be sent to activate your SIM card. You will be charged by the carrier.</string>
