@@ -3861,6 +3861,9 @@ To use screen pinning:
   <string name="second_space">Second space</string>
   <string name="secondspace_category">Second space</string>
   <string name="secondspace_delete_space_title">Delete Second space</string>
+  <string name="secspace_fod_finger_tips">"Couldn't verify. Try again."</string>
+  <string name="secspace_fod_finger_title">Verify your fingerprint</string>
+  <string name="secspace_fod_use_password">Enter password</string>
   <string name="secure_keyguard_business_title">Set screen lock</string>
   <string name="secure_lock_encryption_warning">Because you’ve turned on an accessibility service, your device won’t use your screen lock to enhance data encryption.</string>
   <string name="security_enable_widgets_disabled_summary">Disabled by administrator</string>
