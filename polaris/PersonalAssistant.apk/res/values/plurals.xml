@@ -7,14 +7,6 @@
     <plurals name="days_ago">
         <item quantity="other">%1$dd ago</item>
     </plurals>
-    <plurals name="express_history_dialog_delete_message">
-        <item quantity="other">Delete %s items from express?</item>
-        <item quantity="one">Delete %s item from express?</item>
-    </plurals>
-    <plurals name="express_history_menu_select_num">
-        <item quantity="other">Selected %s items</item>
-        <item quantity="one">Selected %s item</item>
-    </plurals>
     <plurals name="hours_ago">
         <item quantity="other">%1$dhr ago</item>
     </plurals>
@@ -40,10 +32,6 @@
     <plurals name="payment_record_menu_select_num">
         <item quantity="other">Selected %s items</item>
         <item quantity="one">Selected %s item</item>
-    </plurals>
-    <plurals name="shopping_delete_num">
-        <item quantity="other">Delete %s selected items?</item>
-        <item quantity="one">Delete %s selected item?</item>
     </plurals>
     <plurals name="sms_day_suffix">
         <item quantity="other">In %d days</item>
@@ -77,5 +65,17 @@
     <plurals name="time_minute_ago">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">%d minute ago</item>
+    </plurals>
+    <plurals name="express_history_dialog_delete_message">
+        <item quantity="other">Delete %s items from express?</item>
+        <item quantity="one">Delete %s item from express?</item>
+    </plurals>
+    <plurals name="express_history_menu_select_num">
+        <item quantity="other">Selected %s items</item>
+        <item quantity="one">Selected %s item</item>
+    </plurals>
+    <plurals name="shopping_delete_num">
+        <item quantity="other">Delete %s selected items?</item>
+        <item quantity="one">Delete %s selected item?</item>
     </plurals>
 </resources>
