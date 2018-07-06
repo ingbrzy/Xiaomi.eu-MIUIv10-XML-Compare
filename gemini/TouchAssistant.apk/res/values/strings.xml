@@ -16,6 +16,7 @@
   <string name="hide_touch_assistant_intro">Hide Quick ball in selected apps.</string>
   <string name="hide_when_fullscreen">Move aside when fullscreen</string>
   <string name="hide_when_fullscreen_intro">Move aside when entering fullscreen mode.</string>
+  <string name="mi_wallet_summary">Transport card/Mi Pay/Key card</string>
   <string name="motion_behavior">Preferred gesture</string>
   <string name="name_alipay_payment_code">Alipay payment</string>
   <string name="name_alipay_scan">Alipay scanner</string>
@@ -23,6 +24,7 @@
   <string name="name_handy_mode">One-handed mode</string>
   <string name="name_long_press_power_key">Long press the Power button</string>
   <string name="name_memory_clean">Clear cache</string>
+  <string name="name_mi_wallet">Mi Wallet</string>
   <string name="name_music_next_song">Next song</string>
   <string name="name_music_prev_song">Previous song</string>
   <string name="name_music_toggle">Play/Pause song</string>

@@ -1,5 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="process_static_white_list">
+        <item>android</item>
+        <item>com.miui.home</item>
+        <item>com.android.systemui</item>
+        <item>com.miui.whetstone</item>
+        <item>com.android.phone</item>
+        <item>com.miui.bugreport</item>
+        <item>com.android.keyguard</item>
+        <item>com.android.bluetooth</item>
+        <item>com.miui.networkassistant</item>
+        <item>com.android.providers.contacts</item>
+        <item>com.miui.core</item>
+        <item>com.android.providers.media</item>
+        <item>com.xiaomi.xmsf</item>
+        <item>com.miui.sysbase</item>
+        <item>com.lbe.security.miui</item>
+        <item>com.google.android.marvin.talkback</item>
+        <item>com.android.updater</item>
+        <item>org.simalliance.openmobileapi.service</item>
+        <item>com.qualcomm.wfd.service</item>
+        <item>com.baidu.duersdk.opensdk</item>
+        <item>com.miui.powerkeeper</item>
+        <item>com.miui.antispam</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.miui.virtualsim</item>
+        <item>com.google.android.gms</item>
+        <item>com.miui.voip</item>
+        <item>com.miui.touchassistant</item>
+        <item>com.qualcomm.qcrilmsgtunnel</item>
+        <item>com.qualcomm.uimremoteclient</item>
+        <item>com.android.vpndialogs</item>
+        <item>com.qti.service.colorservice</item>
+        <item>com.qti.snapdragon.sdk.display</item>
+        <item>com.xiaomi.bluetooth</item>
+        <item>com.xiaomi.metoknlp</item>
+        <item>com.xiaomi.location.fused</item>
+        <item>android.process.acore</item>
+        <item>com.miui.wmsvc</item>
+        <item>com.miui.greenguard</item>
+        <item>com.miui.miwallpaper</item>
+        <item>com.miui.contentextension</item>
+        <item>com.xiaomi.mimobile.cloudsim</item>
+    </string-array>
+    <string-array name="process_disable_trim_list">
+        <item>com.miui.home</item>
+        <item>com.android.systemui</item>
+    </string-array>
+    <string-array name="process_disable_force_stop_list">
+        <item>com.miui.securitycore</item>
+    </string-array>
+    <string-array name="need_trace_list">
+        <item>com.android.phone</item>
+        <item>com.android.nfc</item>
+        <item>com.fingerprints.serviceext</item>
+    </string-array>
+    <string-array name="process_secretly_protect_list">
+        <item>com.tencent.mm</item>
+        <item>com.google.android.gms</item>
+    </string-array>
+    <string-array name="process_fg_service_check_list">
+        <item>com.miui.screenrecorder</item>
+        <item>com.android.soundrecorder</item>
+        <item>com.android.deskclock</item>
+        <item>com.miui.voiceassist</item>
+    </string-array>
     <item type="array" name="android_config_keyboardTapVibePattern">@android:array/config_keyboardTapVibePattern</item>
     <item type="array" name="android_config_longPressVibePattern">@android:array/config_longPressVibePattern</item>
     <item type="array" name="android_config_virtualKeyVibePattern">@android:array/config_virtualKeyVibePattern</item>
@@ -62,6 +127,7 @@
         <item>com.xiaomi.mipicks</item>
         <item>com.xiaomi.smarthome</item>
         <item>com.kiteguard</item>
+        <item>com.xiaomi.discover</item>
     </string-array>
     <string-array name="keyguard_whitelist">
         <item>com.google.android.talk</item>
@@ -109,6 +175,7 @@
         <item>com.android.htmlviewer</item>
         <item>com.miui.greenguard</item>
         <item>com.kiteguard</item>
+        <item>com.xiaomi.discover</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />
@@ -1278,73 +1345,6 @@
         <item>com.snapwork.hdfc</item>
         <item>com.netqin.ps</item>
         <item>com.autonavi.minimap</item>
-    </string-array>
-    <string-array name="process_static_white_list">
-        <item>android</item>
-        <item>com.miui.home</item>
-        <item>com.android.systemui</item>
-        <item>com.miui.whetstone</item>
-        <item>com.android.phone</item>
-        <item>com.miui.bugreport</item>
-        <item>com.android.keyguard</item>
-        <item>com.android.bluetooth</item>
-        <item>com.miui.networkassistant</item>
-        <item>com.android.providers.contacts</item>
-        <item>com.miui.core</item>
-        <item>com.android.providers.media</item>
-        <item>com.xiaomi.xmsf</item>
-        <item>com.miui.sysbase</item>
-        <item>com.lbe.security.miui</item>
-        <item>com.google.android.marvin.talkback</item>
-        <item>com.android.updater</item>
-        <item>org.simalliance.openmobileapi.service</item>
-        <item>com.qualcomm.wfd.service</item>
-        <item>com.baidu.duersdk.opensdk</item>
-        <item>com.miui.powerkeeper</item>
-        <item>com.miui.antispam</item>
-        <item>com.miui.securitycenter</item>
-        <item>com.miui.virtualsim</item>
-        <item>com.google.android.gms</item>
-        <item>com.miui.voip</item>
-        <item>com.miui.touchassistant</item>
-        <item>com.qualcomm.qcrilmsgtunnel</item>
-        <item>com.qualcomm.uimremoteclient</item>
-        <item>com.android.vpndialogs</item>
-        <item>com.qti.service.colorservice</item>
-        <item>com.qti.snapdragon.sdk.display</item>
-        <item>com.xiaomi.bluetooth</item>
-        <item>com.xiaomi.metoknlp</item>
-        <item>com.xiaomi.location.fused</item>
-        <item>android.process.acore</item>
-        <item>com.miui.wmsvc</item>
-        <item>com.miui.greenguard</item>
-        <item>com.miui.miwallpaper</item>
-        <item>com.miui.contentextension</item>
-    </string-array>
-    <string-array name="process_disable_trim_list">
-        <item>com.miui.home</item>
-        <item>com.android.systemui</item>
-    </string-array>
-    <string-array name="process_disable_force_stop_list">
-        <item>com.miui.securitycore</item>
-    </string-array>
-    <string-array name="need_trace_list">
-        <item>com.android.phone</item>
-        <item>com.android.nfc</item>
-        <item>com.fingerprints.serviceext</item>
-    </string-array>
-    <string-array name="process_secretly_protect_list">
-        <item>com.tencent.mm</item>
-        <item>com.google.android.gms</item>
-    </string-array>
-    <string-array name="process_fg_service_check_list">
-        <item>com.miui.screenrecorder</item>
-        <item>com.android.soundrecorder</item>
-        <item>com.android.deskclock</item>
-        <item>com.miui.voiceassist</item>
-    </string-array>
-    <string-array name="process_enable_call_list">
-        <item>com.miui.cleanmaster</item>
     </string-array>
     <array name="config_crossSpaceNotificationPackageNames" />
     <string-array name="config_sysBrightnessFileArray">
