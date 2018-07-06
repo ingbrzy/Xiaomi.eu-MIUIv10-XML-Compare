@@ -16,10 +16,6 @@
         <item quantity="other">Player will stop in %d minutes</item>
         <item quantity="one">Player will stop in %d minute</item>
     </plurals>
-    <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">You chose not to find album covers and lyrics for local songs automatically. Delete info for %d songs?</item>
-        <item quantity="one">You chose not to find album covers and lyrics for local songs automatically. Delete info for %d song?</item>
-    </plurals>
     <plurals name="Nsong_group_detail_subtitle">
         <item quantity="other">"Created on %1$s 
 total %2$d songs"</item>
@@ -115,5 +111,9 @@ Note: File will be deleted from this device as well."</item>
     <plurals name="songs_count">
         <item quantity="other">%d songs</item>
         <item quantity="one">%d song</item>
+    </plurals>
+    <plurals name="video_play_count">
+        <item quantity="other">%1$s views</item>
+        <item quantity="one">%1$s view</item>
     </plurals>
 </resources>

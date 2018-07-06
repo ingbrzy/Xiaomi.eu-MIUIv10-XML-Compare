@@ -181,6 +181,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="add_device_admin_msg">Activate device admin app?</string>
   <string name="add_facerecoginition_text">Add face data</string>
   <string name="add_fingerprint_cancel_button_text">Back</string>
+  <string name="add_fingerprint_dirty_fingerprint">Make sure the surface of the screen is clean. Try recording your fingerprint again.</string>
   <string name="add_fingerprint_done_msg">Now you can unlock this device with your fingerprint.</string>
   <string name="add_fingerprint_done_title">"You're ready to rock!"</string>
   <string name="add_fingerprint_edge_instruction_msg">Move your finger so the sensor could record the edges of your fingerprint.</string>
@@ -189,6 +190,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="add_fingerprint_finished_button_text">Done</string>
   <string name="add_fingerprint_instruction_msg">Fingerprint sensor is built in the Home button of your device.</string>
   <string name="add_fingerprint_instruction_title">Add your fingerprint</string>
+  <string name="add_fingerprint_move_fast">Keep your finger on the screen a bit longer</string>
   <string name="add_fingerprint_name_suggest_text">Fingerprint name</string>
   <string name="add_fingerprint_put_finger_edge_msg">Move your finger slightly and put it on the sensor again to add all the different parts of your fingerprint.</string>
   <string name="add_fingerprint_put_finger_msg">Put your finger on the sensor and lift after you feel a vibration.</string>
@@ -955,6 +957,17 @@ Sample rate"</string>
   <string name="bssid_label">BSSID:</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
   <string name="bt_hci_snoop_log_summary">Capture all Bluetooth HCI packets in a file</string>
+  <string name="bt_ldac_declaration">When the Bluetooth device supports LDAC, it will be connected by default. LDAC provides a high-quality audio experience and also brings higher power consumption. Playback may occur due to Bluetooth hardware limitations</string>
+  <string name="bt_ldac_dialog_summary">"LDAC provides a high-quality audio experience and also brings higher power consumption
+This feature can be turned off in [Settings]"</string>
+  <string name="bt_ldac_dialog_title">The current device supports LDAC, which has been connected by default:</string>
+  <string name="bt_ldac_open_dialog_summary">LDAC provides a high-quality audio experience and also brings higher power consumption. Playback may occur due to Bluetooth hardware limitations</string>
+  <string name="bt_ldac_open_dialog_title">Are you sure to turn on LDAC?</string>
+  <string name="bt_ldac_pre_summary">Provide a high-quality audio experience</string>
+  <string name="bt_ldac_pre_title">LDAC</string>
+  <string name="bt_ldac_property">Attributes</string>
+  <string name="bt_ldac_remember_choice">Remember choice</string>
+  <string name="bt_ldac_settings">Settings</string>
   <string name="bt_rarely_used_device_title">Rarely used devices (%d)</string>
   <string name="bt_trace_log">Bluetooth trace log</string>
   <string name="bt_trace_log_summary">Bluetooth trace log</string>
@@ -1834,6 +1847,7 @@ For more details, contact your organization's admin."</string>
   <string name="every_day">Every day</string>
   <string name="experimental_category_title">Experimental</string>
   <string name="experimental_preference">(Experimental)</string>
+  <string name="extended_power_menu">Extended power menu</string>
   <string name="external_code_size_label">USB storage app</string>
   <string name="external_data_size_label">USB storage data</string>
   <string name="external_source_switch_title">Allow from this source</string>
@@ -1941,6 +1955,8 @@ For more details, contact your organization's admin."</string>
   <string name="firewall_wifi">WLAN</string>
   <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off."</string>
   <string name="firmware_version">Android version</string>
+  <string name="flash_drive_backup_restore">Back up or restore using USB</string>
+  <string name="flash_drive_backup_restore_summary">Connect a USB drive</string>
   <string name="floating_window_switch_label">Turn on floating windows</string>
   <string name="floating_window_switch_label_disable">Turn off floating windows</string>
   <string name="fluency_mode">System animations</string>
@@ -2075,18 +2091,18 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="got_it">Got it</string>
   <string name="gsm_to_wifi_connect_type_title">GSM to WLAN</string>
   <string name="gxzw_add_fingerprint_continue">Continue</string>
-  <string name="gxzw_add_fingerprint_edge_message">Move your finger so the sensor could record the edges of your fingerprint.</string>
-  <string name="gxzw_add_fingerprint_edge_title">Move your finger slightly</string>
-  <string name="gxzw_add_fingerprint_finish">Finish</string>
-  <string name="gxzw_add_fingerprint_indicate">Press harder here</string>
+  <string name="gxzw_add_fingerprint_edge_message">Move your finger to record the edges of your fingerprint</string>
+  <string name="gxzw_add_fingerprint_edge_title">Adjust your grip</string>
+  <string name="gxzw_add_fingerprint_finish">Done!</string>
+  <string name="gxzw_add_fingerprint_indicate">Press this area lightly</string>
   <string name="gxzw_add_fingerprint_know">Got it</string>
-  <string name="gxzw_add_fingerprint_message">Keep fingers and screen surface clean</string>
+  <string name="gxzw_add_fingerprint_message">Make sure both your finger and the screen are clean</string>
   <string name="gxzw_add_fingerprint_move_indicate">Move your finger slightly</string>
-  <string name="gxzw_add_fingerprint_move_message">"Can't record the remaining areas of your fingerprint. Move your finger slightly"</string>
-  <string name="gxzw_add_fingerprint_move_title">Move your finger slightly</string>
-  <string name="gxzw_add_fingerprint_put_finger_message">Press a bit harder and lift your finger after you feel vibration. Repeat several times.</string>
-  <string name="gxzw_add_fingerprint_put_finger_title">Press harder and lift after vibration</string>
-  <string name="gxzw_add_fingerprint_title">Add fingerprint</string>
+  <string name="gxzw_add_fingerprint_move_message">Move your finger to record all parts of your fingerprint</string>
+  <string name="gxzw_add_fingerprint_move_title">Move your finger a little</string>
+  <string name="gxzw_add_fingerprint_put_finger_message">Press the screen and lift your finger after you feel vibration. Repeat several times.</string>
+  <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
+  <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -2528,12 +2544,14 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="lockpassword_choose_for_second_user">Set Second space password</string>
   <string name="lockpassword_choose_lock_generic_header">Choose screen lock</string>
   <string name="lockpassword_choose_your_password_header">Set your password</string>
-  <string name="lockpassword_choose_your_password_second_space">"Set password 
- for Second space"</string>
+  <string name="lockpassword_choose_your_password_second_space">"Set PIN for Second space.
+This PIN must contain as many digits
+as your First space PIN."</string>
   <string name="lockpassword_choose_your_pattern_header">Set your pattern</string>
   <string name="lockpassword_choose_your_pin_header">Set your PIN</string>
   <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
  for Second space"</string>
+  <string name="lockpassword_choose_your_pin_title">Enter 4-16 digits</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
   <string name="lockpassword_confirm_passwords_dont_match">Passwords don’t match</string>
   <string name="lockpassword_confirm_pins_dont_match">"PINs don't match"</string>
@@ -3855,7 +3873,7 @@ This setting affects all users on this phone."</string>
   <string name="screen_paper_mode_off_apps_title">"Don't use Reading mode"</string>
   <string name="screen_paper_mode_range_title">Settings</string>
   <string name="screen_paper_mode_set_apps_title">Reading mode apps</string>
-  <string name="screen_paper_mode_summary">"Reduce display's blue light emission"</string>
+  <string name="screen_paper_mode_summary">Reading mode makes the colors of your display warmer allowing your eyes to relax.</string>
   <string name="screen_paper_mode_time_summary">Schedule time to turn Reading mode on and off</string>
   <string name="screen_paper_mode_time_title">Schedule</string>
   <string name="screen_paper_mode_title">Reading mode</string>
@@ -4157,6 +4175,9 @@ To use screen pinning:
   <string name="second_space">Second space</string>
   <string name="secondspace_category">Second space</string>
   <string name="secondspace_delete_space_title">Delete Second space</string>
+  <string name="secspace_fod_finger_tips">"Couldn't verify. Try again."</string>
+  <string name="secspace_fod_finger_title">Verify your fingerprint</string>
+  <string name="secspace_fod_use_password">Enter password</string>
   <string name="secure_keyguard_business_title">Set screen lock</string>
   <string name="secure_lock_encryption_warning">Because you’ve turned on an accessibility service, your device won’t use your screen lock to enhance data encryption.</string>
   <string name="security_dashboard_summary">Screen lock, fingerprint</string>
@@ -4533,10 +4554,11 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
   <string name="status_bar_settings_show_carrier_under_keyguard">Show carrier when device is locked</string>
   <string name="status_bar_settings_show_floating_notification">Floating notifications</string>
-  <string name="status_bar_settings_show_floating_notification_summary">"Floating notifications will disappear automatically after they're shown at the top of the screen"</string>
+  <string name="status_bar_settings_show_floating_notification_summary">Allow important notifications at top of the screen</string>
   <string name="status_bar_settings_show_flow_info">Show data usage</string>
   <string name="status_bar_settings_show_home_message">App icon badge</string>
   <string name="status_bar_settings_show_keyguard_notification">Lock screen notifications</string>
+  <string name="status_bar_settings_show_keyguard_notification_summary">Allow important notifications on the Lock screen</string>
   <string name="status_bar_settings_show_network_speed">Show connection speed</string>
   <string name="status_bar_settings_show_notification_icon">Show notification icons</string>
   <string name="status_bar_settings_show_wifi_name">Show WLAN</string>

@@ -324,7 +324,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_wifi_framework_sap_2G_channel_list">1,6,11</string>
   <string name="config_wifi_p2p_device_type">10-0050F204-5</string>
   <string name="config_wifi_random_mac_oui">DA-A1-19</string>
-  <string name="config_wifi_tcp_buffers">524288,1048576,5505024,262144,524288,5505024</string>
+  <string name="config_wifi_tcp_buffers">524288,1048576,5505024,262144,524288,4194304</string>
   <string name="config_wifi_tether_enable">com.android.settings/.TetherService</string>
   <string name="config_wimaxManagerClassname"/>
   <string name="config_wimaxNativeLibLocation"/>

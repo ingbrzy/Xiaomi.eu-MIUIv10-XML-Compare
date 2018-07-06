@@ -1558,6 +1558,11 @@
         <item>cereus</item>
         <item>gemini</item>
     </string-array>
+    <string-array name="device_support_new_pickup_by_xiaomi">
+        <item>jason</item>
+        <item>nitrogen</item>
+        <item>platina</item>
+    </string-array>
     <string-array name="device_support_pickup_by_xiaomi">
         <item>polaris</item>
         <item>dipper</item>
@@ -2463,6 +2468,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>RU</item>
         <item>HK</item>
         <item>TW</item>
+        <item>TR</item>
+        <item>TH</item>
+        <item>SG</item>
+        <item>MY</item>
+        <item>VN</item>
     </string-array>
     <string-array name="region_global_support_face_sensetime">
         <item>IN</item>
@@ -2687,7 +2697,7 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="special_locale_names_global">
         <item>简体中文</item>
-        <item>繁體中文 (台湾)</item>
+        <item>繁體中文 (台灣)</item>
         <item>繁體中文 (香港)</item>
         <item>Español (América)</item>
         <item>Português (Brasil)</item>
