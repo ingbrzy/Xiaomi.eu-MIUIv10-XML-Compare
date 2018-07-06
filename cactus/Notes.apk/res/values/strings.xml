@@ -31,6 +31,10 @@
   <string name="cloud_service_state_open_reminder">Turn on sync with Mi Cloud to sync notes.</string>
   <string name="cloud_trash_bin_title">Delete notes in Mi Cloud</string>
   <string name="cta_reminder">This app needs to connect to the internet to back up notes to Mi Cloud, as well as read your contacts to label the notes you take during calls.</string>
+  <string name="date_time_picker_alarm_reminder">Alarm</string>
+  <string name="date_time_picker_dialog_title">Set date and time</string>
+  <string name="date_time_picker_has_not_set_alarm">"Alarm isn't set"</string>
+  <string name="date_time_picker_has_set_alarm">Set alarm successfully</string>
   <string name="db_downgrade_clear_button">Clear app data</string>
   <string name="db_downgrade_clear_date_reminder">"Switching to a different version of MIUI requires clearing the app data for Notes. Before you do that, make sure you've backed up your notes to Mi Cloud."</string>
   <string name="default_folder_name">Unnamed folder</string>
@@ -112,7 +116,6 @@
   <string name="menu_unstick">Unpin</string>
   <string name="micloud_state_total_count">%1$s</string>
   <string name="not_now">Not now</string>
-  <string name="note_alert_expired">Expired</string>
   <string name="note_description_content">The Notes app is a great tool for recording your ideas. It has built-in reminders and syncs your items to Mi Cloud so you can access them anywhere, anytime. Make sure you can do without these features before you delete the app.</string>
   <string name="note_description_title">About Notes</string>
   <string name="note_link_email">Compose email</string>
