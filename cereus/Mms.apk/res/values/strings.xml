@@ -406,7 +406,7 @@
   <string name="pref_show_blocked_messages_summary">Show blocked SMS in conversations list</string>
   <string name="pref_show_list_avatar_summary">Show profile photos and contact info in list view</string>
   <string name="pref_show_photo_word_summary">Automatically assign a picture to contacts without one</string>
-  <string name="pref_show_sms_template_entry_summary">Detect one-time passwords in SMS</string>
+  <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
   <string name="pref_show_sms_template_in_summary">Automatically detect one-time passwords in SMS messages</string>
   <string name="pref_show_sms_template_summary">Turn on to use the smart features of Mi Message, such as copying codes, checking balance, etc.</string>
   <string name="pref_smart_messages_settings">Smart messages</string>
@@ -637,7 +637,7 @@
   <string name="title_show_blocked_messages">Show blocked SMS</string>
   <string name="title_show_list_avatar">Show profile photos</string>
   <string name="title_show_photo_word">Assign contact photos</string>
-  <string name="title_show_sms_template">Check SMS for verification codes</string>
+  <string name="title_show_sms_template">Smart Messaging</string>
   <string name="title_show_sms_template_in">Check SMS for OTP</string>
   <string name="title_timed_message_dialog">Set timed message</string>
   <string name="title_use_gsm_alphabet">Use GSM alphabet</string>
