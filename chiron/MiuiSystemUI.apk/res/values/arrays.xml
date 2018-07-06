@@ -373,6 +373,11 @@
         <item>cereus</item>
         <item>gemini</item>
     </string-array>
+    <string-array name="device_support_new_pickup_by_xiaomi">
+        <item>jason</item>
+        <item>nitrogen</item>
+        <item>platina</item>
+    </string-array>
     <string-array name="device_support_pickup_by_xiaomi">
         <item>polaris</item>
         <item>dipper</item>
@@ -663,6 +668,11 @@
         <item>RU</item>
         <item>HK</item>
         <item>TW</item>
+        <item>TR</item>
+        <item>TH</item>
+        <item>SG</item>
+        <item>MY</item>
+        <item>VN</item>
     </string-array>
     <string-array name="region_global_support_face_sensetime">
         <item>IN</item>
