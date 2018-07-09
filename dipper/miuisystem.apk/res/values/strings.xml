@@ -36,6 +36,7 @@
   <string name="cloud_state_syncing">Synced with Mi Cloud</string>
   <string name="cold_dews">寒露</string>
   <string name="country">Country</string>
+  <string name="cowboy">Cowboy</string>
   <string name="crystal">Crystal</string>
   <string name="cta_button_continue">Agree</string>
   <string name="cta_button_quit">Exit</string>
@@ -96,6 +97,7 @@
   <string name="heavy_snow">大雪</string>
   <string name="hksar_establishment_day">行政區成立</string>
   <string name="hoar_frost_falls">霜降</string>
+  <string name="icelatte">Ice latte</string>
   <string name="incomingmessage">Incoming message</string>
   <string name="insects_awaken">惊蛰</string>
   <string name="international_womens_day">妇女节</string>
