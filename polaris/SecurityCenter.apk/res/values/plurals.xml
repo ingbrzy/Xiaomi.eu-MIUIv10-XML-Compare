@@ -166,6 +166,22 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">"%s apps aren't protected"</item>
         <item quantity="one">"%s app isn't protected"</item>
     </plurals>
+    <plurals name="menu_text_antivirus_2">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_3">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="menu_text_antispam_2">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="menu_text_app_manager_2">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d items secure</item>
         <item quantity="one">%1$d item secure</item>
