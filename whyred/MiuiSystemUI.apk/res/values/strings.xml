@@ -1889,6 +1889,13 @@ Any user can update apps for all other users."</string>
   <string name="wifi_verbose_logging">Enable WLAN Verbose Logging</string>
   <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show RSSI for every SSID in the list of WLAN networks.</string>
   <string name="window_animation_scale_title">Window animation scale</string>
+  <string name="wireless_change_to_ac_charging">Switched to wired charging</string>
+  <string name="wireless_charge_current">Charging</string>
+  <string name="wireless_charge_dialog_cancel">Got it</string>
+  <string name="wireless_charge_dialog_title">Place your device on the center of the charging base</string>
+  <string name="wireless_charge_reset_device">Charging is slow. Adjust your device.</string>
+  <string name="wireless_charge_reset_device_detail">Make sure the position of your device on the charging base is correct</string>
+  <string name="wireless_charge_stop">Stopped wireless charging</string>
   <string name="wrong_password">Incorrect password</string>
   <string name="zen_alarm_warning">"You won't hear your next alarm %1$s"</string>
   <string name="zen_alarm_warning_indef">"You won't hear your next alarm %1$s unless you turn this off before then"</string>

@@ -392,7 +392,7 @@ To activate your account, follow the
   <string name="passport_vcode_notification_title">Your sign-in verification is incomplete</string>
   <string name="passport_vcode_prompt_long">Enter verification code</string>
   <string name="passport_vcode_sms_send_prompt">Send verification code to %s</string>
-  <string name="passport_verification_failed">Authentication failed</string>
+  <string name="passport_verification_failed">"Couldn't verify account"</string>
   <string name="passport_verify">Verify</string>
   <string name="passport_verifying_activator_phone">Verifying phone security…</string>
   <string name="passport_wait_for_sms_prompt">"Start over now? Verification messages may take to 10 minutes to be delivered when your phone is within range of your carrier's network."</string>
