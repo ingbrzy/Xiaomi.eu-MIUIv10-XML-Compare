@@ -139,7 +139,7 @@ Sample Rate"</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="choose_profile">Choose profile</string>
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
-  <string name="close">Close</string>
+  <string name="close">Turn off</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
   <string name="connected_via_network_scorer">Automatically connected via %1$s</string>

@@ -1911,6 +1911,30 @@
     return v0
 .end method
 
+.method public static isSupportScene()Z
+    .locals 2
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_HONGMI:Z
+
+    if-eqz v0, :cond_0
+
+    const-string/jumbo v0, "camera_supported_scene"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
 .method public static isSupportSquare()Z
     .locals 2
 
