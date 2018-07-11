@@ -1,51 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer-array name="units_default_selection_length">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_weight">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_volume">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_temperature">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_velocity">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_time">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <integer-array name="units_default_selection_area">
-        <item>1</item>
-        <item>2</item>
-    </integer-array>
-    <string-array name="operators">
-        <item>(</item>
-        <item>)</item>
-        <item>!</item>
-        <item>ln</item>
-        <item>log</item>
-        <item>√</item>
-        <item>÷</item>
-        <item>×</item>
-        <item>+</item>
-        <item>−</item>
-        <item>.</item>
-        <item>^</item>
-        <item>tan</item>
-        <item>sin</item>
-        <item>cos</item>
-        <item>π</item>
-        <item>=</item>
+    <string-array name="mortgage_repayment">
+        <item>Equal installments</item>
+        <item>Decreasing installments</item>
     </string-array>
     <string-array name="operatorDescs">
         <item>left parenthesis</item>
@@ -66,16 +23,51 @@
         <item>pi</item>
         <item>equals</item>
     </string-array>
-    <string-array name="mortgage_repayment">
-        <item>Equal installments</item>
-        <item>Decreasing installments</item>
-    </string-array>
     <string-array name="unit_data_order_currency_">
         <item>USD</item>
         <item>EUR</item>
         <item>HKD</item>
         <item>JPY</item>
         <item>CNY</item>
+    </string-array>
+    <string-array name="operators">
+        <item>(</item>
+        <item>)</item>
+        <item>!</item>
+        <item>ln</item>
+        <item>log</item>
+        <item>√</item>
+        <item>÷</item>
+        <item>×</item>
+        <item>+</item>
+        <item>−</item>
+        <item>.</item>
+        <item>^</item>
+        <item>tan</item>
+        <item>sin</item>
+        <item>cos</item>
+        <item>π</item>
+        <item>=</item>
+    </string-array>
+    <string-array name="unit_data_order_area_">
+        <item>sq.km</item>
+        <item>ha</item>
+        <item>are</item>
+        <item>sq.m</item>
+        <item>sq.dm</item>
+        <item>sq.cm</item>
+        <item>sq.mm</item>
+        <item>sq.um</item>
+        <item>acre</item>
+        <item>sq.mi</item>
+        <item>sq.yd</item>
+        <item>sq.ft</item>
+        <item>sq.in</item>
+        <item>sq.rd</item>
+        <item>qing</item>
+        <item>mu</item>
+        <item>sq.chi</item>
+        <item>sq.cun</item>
     </string-array>
     <string-array name="unit_data_order_length_">
         <item>km</item>
@@ -107,25 +99,34 @@
         <item>au</item>
         <item>ly</item>
     </string-array>
-    <string-array name="unit_data_order_area_">
-        <item>sq.km</item>
-        <item>ha</item>
-        <item>are</item>
-        <item>sq.m</item>
-        <item>sq.dm</item>
-        <item>sq.cm</item>
-        <item>sq.mm</item>
-        <item>sq.um</item>
-        <item>acre</item>
-        <item>sq.mi</item>
-        <item>sq.yd</item>
-        <item>sq.ft</item>
-        <item>sq.in</item>
-        <item>sq.rd</item>
-        <item>qing</item>
-        <item>mu</item>
-        <item>sq.chi</item>
-        <item>sq.cun</item>
+    <string-array name="unit_data_order_temperature_">
+        <item>C</item>
+        <item>F</item>
+        <item>K</item>
+        <item>R</item>
+        <item>Re</item>
+    </string-array>
+    <string-array name="unit_data_order_time_">
+        <item>yr</item>
+        <item>week</item>
+        <item>day</item>
+        <item>h</item>
+        <item>min</item>
+        <item>s</item>
+        <item>ms</item>
+        <item>us</item>
+        <item>ps</item>
+    </string-array>
+    <string-array name="unit_data_order_velocity_">
+        <item>c</item>
+        <item>mach</item>
+        <item>mps</item>
+        <item>kmph</item>
+        <item>kmps</item>
+        <item>nmiph</item>
+        <item>mileph</item>
+        <item>fps</item>
+        <item>ips</item>
     </string-array>
     <string-array name="unit_data_order_volume_">
         <item>cu.m</item>
@@ -141,17 +142,6 @@
         <item>cu.in</item>
         <item>cu.yd</item>
         <item>cu.af</item>
-    </string-array>
-    <string-array name="unit_data_order_velocity_">
-        <item>c</item>
-        <item>mach</item>
-        <item>mps</item>
-        <item>kmph</item>
-        <item>kmps</item>
-        <item>nmiph</item>
-        <item>mileph</item>
-        <item>fps</item>
-        <item>ips</item>
     </string-array>
     <string-array name="unit_data_order_weight_">
         <item>t</item>
@@ -176,22 +166,32 @@
         <item>liang</item>
         <item>taijin</item>
     </string-array>
-    <string-array name="unit_data_order_temperature_">
-        <item>C</item>
-        <item>F</item>
-        <item>K</item>
-        <item>R</item>
-        <item>Re</item>
-    </string-array>
-    <string-array name="unit_data_order_time_">
-        <item>yr</item>
-        <item>week</item>
-        <item>day</item>
-        <item>h</item>
-        <item>min</item>
-        <item>s</item>
-        <item>ms</item>
-        <item>us</item>
-        <item>ps</item>
-    </string-array>
+    <integer-array name="units_default_selection_area">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="units_default_selection_length">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="units_default_selection_temperature">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="units_default_selection_time">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="units_default_selection_velocity">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="units_default_selection_volume">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="units_default_selection_weight">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
 </resources>
