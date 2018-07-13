@@ -3778,6 +3778,7 @@ UT Interface: %5$s"</string>
   <string name="retail_demo_reset_next">Next</string>
   <string name="retail_demo_reset_title">Password required</string>
   <string name="retry">Try again</string>
+  <string name="rgb_manage_facerecoginition_text">Manage 2D face data</string>
   <string name="ring_volume_option_title">Ring volume</string>
   <string name="ring_volume_title">Ring volume</string>
   <string name="ringtone_slot_setting_title">Single SIM settings</string>
@@ -4756,6 +4757,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
   <string name="structure_add_facerecoginition_text">Add 3D face data</string>
+  <string name="structure_manage_facerecoginition_text">Manage 3D face data</string>
   <string name="suggest_unrestrict_max_aspect_ratio_title">These apps work best in fullscreen mode</string>
   <string name="suggested_fingerprint_lock_settings_summary">Unlock with your fingerprint</string>
   <string name="suggested_fingerprint_lock_settings_title">Use fingerprint</string>
