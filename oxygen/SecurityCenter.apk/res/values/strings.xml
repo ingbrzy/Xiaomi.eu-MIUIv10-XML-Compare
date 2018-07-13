@@ -290,6 +290,7 @@
   <string name="apps_item_virus_summary_uninstalled">APK</string>
   <string name="apps_list_header_title_sms">Check messaging app</string>
   <string name="apps_list_header_title_sms_access">Restrict access to verification codes</string>
+  <string name="ask_create_shortcut">Create a Home screen shortcut?</string>
   <string name="auto_atsk_condition_battery_level_text_down">When battery reaches %s</string>
   <string name="auto_atsk_condition_battery_level_text_up">When battery is charged to %s</string>
   <string name="auto_back_booster">Stop boosting</string>
@@ -651,7 +652,6 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="dialog_roaming_warning_checkbox">"Don't show again"</string>
   <string name="dialog_roaming_warning_message">The carrier will charge you a fee after you turn on international data roaming. Turn on anyway?</string>
   <string name="dialog_roaming_warning_ok">Turn on</string>
-  <string name="dialog_text">Create a Home screen shortcut for Game speed booster</string>
   <string name="dialog_title_attention">Attention</string>
   <string name="dialog_title_auto_start_declare">About autostart</string>
   <string name="dialog_title_stop_virus_scan">Stop security scan</string>
@@ -712,8 +712,6 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="do_clean">Clearing…</string>
   <string name="domestic_roaming_setting">National roaming</string>
   <string name="dont_bore">"Don't let buttons and notifications distract you"</string>
-  <string name="dont_bore_text">Silence notifications and turn off buttons to remove distractions</string>
-  <string name="dont_bore_title">DND mode</string>
   <string name="download">Download</string>
   <string name="downloading">Downloading</string>
   <string name="dual_setting_simcard1">SIM 1</string>
@@ -833,13 +831,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="game_booster_tab_top">Top</string>
   <string name="game_booster_title">Boost</string>
   <string name="game_bootser_tab_settings">Booster settings</string>
-  <string name="game_improve_text1">Clear background cache to free up memory for gaming</string>
-  <string name="game_improve_text2">Clear background cache to free up memory for gaming and improve CPU performance</string>
-  <string name="game_improve_title">Optimize performance</string>
   <string name="game_more_improve">Restrict background activities and download speed to save battery and bandwidth for gaming</string>
-  <string name="game_net_text1">Limit background download speed to reduce network delay</string>
-  <string name="game_net_text2">"Boost the game's connection speed while limiting background download speed to reduce network delay"</string>
-  <string name="game_net_title">Optimize connection speed</string>
   <string name="game_setting">Game settings</string>
   <string name="gamebooster_lowbattery_notification_summary">Charge your device before it turns off.</string>
   <string name="gamebooster_lowbattery_notification_title">Battery is lower than 5%%</string>
@@ -855,10 +847,21 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gateway_exception_summary2">"Can't connect to the server"</string>
   <string name="gateway_exception_title">Test router</string>
   <string name="gb_ad_game_size">MB</string>
+  <string name="gb_create_icon_summary">Create Home screen shortcut</string>
   <string name="gb_cutoff">|</string>
   <string name="gb_description_image_button_answer">Answer</string>
   <string name="gb_description_image_button_reject">Decline</string>
   <string name="gb_description_image_button_video_answer">Video call</string>
+  <string name="gb_first_window_antimsg_summary_quick_answer">Use quick replies</string>
+  <string name="gb_first_window_antimsg_summary_transparent_show">See text on transparent background</string>
+  <string name="gb_first_window_antimsg_title">Convenient notifications</string>
+  <string name="gb_first_window_gamebox_summary_four">Clear cache, make screen recordings and screenshots</string>
+  <string name="gb_first_window_gamebox_summary_six">Use quick replies, make screen recordings and screenshots</string>
+  <string name="gb_first_window_handsfree_summary">Turn on speaker automatically</string>
+  <string name="gb_first_window_handsfree_title">Hands-free calls</string>
+  <string name="gb_first_window_start">Start playing</string>
+  <string name="gb_first_window_summary">Boost speed and performance on a system level</string>
+  <string name="gb_first_window_title">Game speed booster</string>
   <string name="gb_get_gift_right_now">Check in now</string>
   <string name="gb_have_signed">Checked in today</string>
   <string name="gb_msg_completely_shielded">Hide messages</string>
@@ -975,8 +978,6 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="installing">Installing</string>
   <string name="international_Ad">Ad</string>
   <string name="international_roaming_setting">Overseas roaming</string>
-  <string name="intro_improve">Boost your gaming experience on a system level</string>
-  <string name="intro_skip">Skip</string>
   <string name="ip_address_exception_summary">"Couldn't get IP address. If you run into this issue again, try using a static IP address."</string>
   <string name="item_app_permission">App permissions</string>
   <string name="item_dev_mode">Developer options</string>
@@ -1131,6 +1132,7 @@ to respond"</string>
   <string name="main_toolbar_statistic">Data usage stats</string>
   <string name="main_used_bill">%s CNY</string>
   <string name="man_add_application">Add autostart apps manually</string>
+  <string name="manage_hybrid_permissions">"Manage app's permissions"</string>
   <string name="managed_user_title">All work apps</string>
   <string name="manual_input_free_traffic">Set off-peak data usage</string>
   <string name="manual_input_traffic">Set data usage</string>
@@ -1836,8 +1838,6 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="safe_result_item_info_system_version">MIUI is up to date</string>
   <string name="safepay_alert_dialog_button_continue">Continue</string>
   <string name="safepay_alert_dialog_button_fix">Fix</string>
-  <string name="save_energy_text">"Restrict autostart and sync for apps in the background to get the most out of your device's battery"</string>
-  <string name="save_energy_title">Optimize battery</string>
   <string name="sc_allow_network_dialog_message">You restricted network connection and access to your location for Security. Give Security the required permissions to use this feature.</string>
   <string name="sc_allow_network_dialog_tiltle">"Can't use this feature"</string>
   <string name="sc_system_risk_fix_info_xspace">"Can't solve this in Second space. Try again in First space."</string>
