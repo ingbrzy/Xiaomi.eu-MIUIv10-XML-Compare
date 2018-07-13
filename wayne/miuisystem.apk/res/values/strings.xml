@@ -36,6 +36,7 @@
   <string name="cloud_state_syncing">Synced with Mi Cloud</string>
   <string name="cold_dews">寒露</string>
   <string name="country">Country</string>
+  <string name="cowboy">Cowboy</string>
   <string name="crystal">Crystal</string>
   <string name="cta_button_continue">Agree</string>
   <string name="cta_button_quit">Exit</string>
@@ -55,9 +56,9 @@
   <string name="def_sms_delivered_sound">/system/media/audio/notifications/MessageSent.ogg</string>
   <string name="def_sms_delivered_sound_slot_1">/system/media/audio/notifications/MessageSent.ogg</string>
   <string name="def_sms_delivered_sound_slot_2">/system/media/audio/notifications/MessageSent.ogg</string>
-  <string name="def_sms_received_sound">/system/media/audio/notifications/IncomingMessage.ogg</string>
-  <string name="def_sms_received_sound_slot_1">/system/media/audio/notifications/IncomingMessage.ogg</string>
-  <string name="def_sms_received_sound_slot_2">/system/media/audio/notifications/IncomingMessage.ogg</string>
+  <string name="def_sms_received_sound">/system/media/audio/ui/notice_audition.ogg</string>
+  <string name="def_sms_received_sound_slot_1">/system/media/audio/ui/notice_audition.ogg</string>
+  <string name="def_sms_received_sound_slot_2">/system/media/audio/ui/notice_audition.ogg</string>
   <string name="delete_frequent_phrases">Delete frequent phrases</string>
   <string name="delete_frequent_phrases_confirm">Delete selected frequent phrases?</string>
   <string name="device_hongmi">Redmi</string>
@@ -96,6 +97,7 @@
   <string name="heavy_snow">大雪</string>
   <string name="hksar_establishment_day">行政區成立</string>
   <string name="hoar_frost_falls">霜降</string>
+  <string name="icelatte">Ice latte</string>
   <string name="incomingmessage">Incoming message</string>
   <string name="insects_awaken">惊蛰</string>
   <string name="international_womens_day">妇女节</string>
@@ -142,7 +144,6 @@
   <string name="national_day">国庆节</string>
   <string name="national_father_day">國父誕辰</string>
   <string name="new_years_day">元旦</string>
-  <string name="newday">New day</string>
   <string name="no_notification_tips">No notifications.</string>
   <string name="notice_audition">Nature sounds</string>
   <string name="notificationxylophone">Notification (Xylophone)</string>
