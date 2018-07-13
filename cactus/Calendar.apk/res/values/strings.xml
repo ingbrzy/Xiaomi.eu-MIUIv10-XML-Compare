@@ -144,6 +144,7 @@
   <string name="description_calendar_huangli"/>
   <string name="description_calendar_subscribe_group"/>
   <string name="directory_searching_fmt">Searching %s…</string>
+  <string name="discard_label">Cancel</string>
   <string name="does_not_repeat">One-time event</string>
   <string name="done">Return</string>
   <string name="download">下载</string>

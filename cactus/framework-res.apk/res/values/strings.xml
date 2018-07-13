@@ -538,6 +538,7 @@ If you have questions, contact your organization"</string>
   <string name="forward_intent_to_owner">"You're using this app outside of your work profile"</string>
   <string name="forward_intent_to_work">"You're using this app in your work profile"</string>
   <string name="gadget_host_error_inflating">"Couldn't add widget."</string>
+  <string name="gigabyteShort">GB</string>
   <string name="global_action_assist">Assist</string>
   <string name="global_action_bug_report">Bug report</string>
   <string name="global_action_emergency">Emergency</string>
@@ -715,6 +716,7 @@ Try again in %2$d seconds."</string>
   <string name="kg_wrong_password">Wrong Password</string>
   <string name="kg_wrong_pattern">Wrong Pattern</string>
   <string name="kg_wrong_pin">Wrong PIN</string>
+  <string name="kilobyteShort">kB</string>
   <string name="language_picker_section_all">All languages</string>
   <string name="language_picker_section_suggested">Suggested</string>
   <string name="language_selection_title">Add a language</string>
@@ -912,6 +914,7 @@ Try again in %2$d seconds."</string>
   <string name="mediasize_na_tabloid">Tabloid</string>
   <string name="mediasize_unknown_landscape">Unknown landscape</string>
   <string name="mediasize_unknown_portrait">Unknown portrait</string>
+  <string name="megabyteShort">MB</string>
   <string name="meid">MEID</string>
   <string name="menu_delete_shortcut_label">delete</string>
   <string name="menu_enter_shortcut_label">enter</string>
