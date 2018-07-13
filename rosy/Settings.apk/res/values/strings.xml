@@ -2604,6 +2604,8 @@ There are other users present on this device.
   <string name="miui_lab_gallery_search_title">Find photos in Gallery</string>
   <string name="miui_lab_settings">MIUI lab</string>
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
+  <string name="miui_lab_super_resolution_desc">Make images crisper</string>
+  <string name="miui_lab_super_resolution_title">Super resolution</string>
   <string name="miui_updater">System update</string>
   <string name="miui_userguide">User guide</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
@@ -3466,6 +3468,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="restriction_wifi_config_summary">Allow modifying WLAN and mobile network settings</string>
   <string name="restriction_wifi_config_title">WLAN and mobile networks</string>
   <string name="retry">Try again</string>
+  <string name="rgb_manage_facerecoginition_text">Manage 2D face data</string>
   <string name="ring_volume_option_title">Ring volume</string>
   <string name="ring_volume_title">Ringer volume</string>
   <string name="ringtone_mute">None</string>
@@ -4409,6 +4412,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
   <string name="structure_add_facerecoginition_text">Add 3D face data</string>
+  <string name="structure_manage_facerecoginition_text">Manage 3D face data</string>
   <string name="suggest_unrestrict_max_aspect_ratio_title">These apps work best in fullscreen mode</string>
   <string name="suggested_fingerprint_lock_settings_summary">Unlock with your fingerprint</string>
   <string name="suggested_lock_settings_summary">Protect your device</string>
@@ -4423,6 +4427,12 @@ Consider using a faster ^1 for better performance."</string>
   <string name="summary_font_size">%1$s</string>
   <string name="summary_range_symbol_combination">%1$s - %2$s</string>
   <string name="summary_range_verbal_combination">%1$s to %2$s</string>
+  <string name="super_resolution_access_title">Accessible apps</string>
+  <string name="super_resolution_desc">Make images crisper using an AI algorithm</string>
+  <string name="super_resolution_maintain">"Super resolution isn't available yet."</string>
+  <string name="super_resolution_no_app_tips">Download WeChat and Toutiao first.</string>
+  <string name="super_resolution_reboot_tips">This feature allows to make blurry images in WeChat and Toutiao crisper. Launch apps again after you turn this feature on.</string>
+  <string name="super_resolution_title">Super resolution</string>
   <string name="supl_not_set">&lt;Not set&gt;</string>
   <string name="supplicant_state_label">Supplicant state:</string>
   <string name="sure_sync_now">Sync items now?</string>

@@ -110,7 +110,7 @@
   <string name="charge_length_format">%1$s ago</string>
   <string name="choose_profile">Choose Profile</string>
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
-  <string name="close">Close</string>
+  <string name="close">Turn off</string>
   <string name="config_feedbackIntentExtraKey"/>
   <string name="config_feedbackIntentNameKey"/>
   <string name="config_helpIntentExtraKey"/>

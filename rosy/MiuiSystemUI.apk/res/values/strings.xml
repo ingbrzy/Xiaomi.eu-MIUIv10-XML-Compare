@@ -585,6 +585,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_data_input_ok_msg_angle">"Unlock the device with your face when the screen is on.
 (Record your face data including all the required angles.)​"</string>
   <string name="face_data_input_ok_title">Added successfully</string>
+  <string name="face_data_input_structure_title">3D face data</string>
   <string name="face_data_input_title">Add face data</string>
   <string name="face_data_introduction_msg">Face data can be used to unlock your device or verify your identity. Add Lock screen password before adding your face data.</string>
   <string name="face_data_introduction_next">Next</string>
@@ -1380,6 +1381,8 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="report_rejected_touch">Report rejected touch</string>
   <string name="reset">Reset</string>
   <string name="return_to_incall_screen">Return to call</string>
+  <string name="rgb_face_data_introduction_title">Add 2D face data</string>
+  <string name="rgb_face_data_manage_delete_msg">Delete 2D face data</string>
   <string name="right_icon">Right icon</string>
   <string name="right_keycode">Right keycode</string>
   <string name="right_nav_bar_button_type">Extra right button type</string>
@@ -1551,6 +1554,8 @@ Slide down to lock"</string>
   <string name="structure_face_data_input_ok">Done</string>
   <string name="structure_face_data_input_right">Turn your head to the right</string>
   <string name="structure_face_data_input_success">Done!</string>
+  <string name="structure_face_data_input_timeout_msg">"Couldn't record. Try again."</string>
+  <string name="structure_face_data_input_timeout_title">Try again</string>
   <string name="structure_face_data_input_up">Look up</string>
   <string name="structure_face_data_introduction_back">Back</string>
   <string name="structure_face_data_introduction_msg">3D face data allows to unlock your device and verify your identity. You must set a password before using this feature.</string>
@@ -1558,6 +1563,7 @@ Slide down to lock"</string>
   <string name="structure_face_data_introduction_settingpassword">Set</string>
   <string name="structure_face_data_introduction_title">Add 3D face data</string>
   <string name="structure_face_data_ir_input_face">Move your head slightly</string>
+  <string name="structure_face_data_manage_delete_msg">Delete 3D face data</string>
   <string name="structure_face_data_open_cameraing">Launching Camera…</string>
   <string name="structure_face_data_rgb_input_face">Place your face inside the frame</string>
   <string name="structure_face_data_suggestion_text">"Make sure all parts of your face are clearly visible. Don't wear hats, sunglasses, or other accessories that might cover your face while recording 3D face data. Make sure your face is evenly lit as well."</string>
@@ -1565,6 +1571,24 @@ Slide down to lock"</string>
   <string name="structure_face_delete_data_dialog_msg">"Couldn't launch Camera and get preview. Try again."</string>
   <string name="structure_face_delete_data_dialog_msg_retry">Try again</string>
   <string name="structure_face_delete_data_dialog_title">"Couldn't launch Camera"</string>
+  <string name="structure_face_hardware_abnormal_btn">Got it</string>
+  <string name="structure_face_hardware_abnormal_msg">"Can't record face data due to a laser error. Contact customer service to get help."</string>
+  <string name="structure_face_hardware_abnormal_title">Laser error</string>
+  <string name="structure_face_modules_abnormal_btn">Reboot</string>
+  <string name="structure_face_modules_abnormal_msg">"Can't record face data due to an optical module error. Reboot your device and try again."</string>
+  <string name="structure_face_modules_abnormal_title">Optical module error</string>
+  <string name="structure_face_unlock_model2d_dialog_msg">"3D recognition will be turned off. Your 3D face data will be deleted. You'll also have to add your 2D face data. Turn on 2D recognition?"</string>
+  <string name="structure_face_unlock_model2d_dialog_title">Turning on 2D recognition</string>
+  <string name="structure_face_unlock_model3d_dialog_msg">"2D recognition will be turned off. Your 2D face data will be deleted. You'll also have to add your 3D face data. Turn on 3D recognition?"</string>
+  <string name="structure_face_unlock_model3d_dialog_title">Turning on 3D recognition</string>
+  <string name="structure_face_unlock_model_dialog_enable">Turn on</string>
+  <string name="structure_face_unlock_model_dialog_notenable">No thanks</string>
+  <string name="structure_face_unlock_model_other">Other</string>
+  <string name="structure_face_unlock_model_other_msg_2d">2D recognition</string>
+  <string name="structure_face_unlock_model_other_msg_3d">3D recognition</string>
+  <string name="structure_face_unlock_model_other_suggestion_2d">2D face recognition is less secure than a pattern, PIN, or password. Whenthis feature is on, your device might be unlocked by your photo, as well as people or objects that look like you.</string>
+  <string name="structure_face_unlock_model_other_suggestion_3d">"3D face recognition is relatively secure. It's highly unlikely that your device can be unlocked with your photo when this feature is on. However, it might be unlocked by people or objects that look like you."</string>
+  <string name="structure_face_unlock_model_other_title">Face recognition</string>
   <string name="switch_bar_off">Off</string>
   <string name="switch_bar_on">On</string>
   <string name="symbol_colon">:</string>
@@ -1787,6 +1811,13 @@ Any user can update apps for all other users."</string>
   <string name="wifi_verbose_logging">Enable WLAN verbose logging</string>
   <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show RSSI for every SSID in the list of WLAN networks.</string>
   <string name="window_animation_scale_title">Window animation scale</string>
+  <string name="wireless_change_to_ac_charging">Switched to wired charging</string>
+  <string name="wireless_charge_current">Charging</string>
+  <string name="wireless_charge_dialog_cancel">Got it</string>
+  <string name="wireless_charge_dialog_title">Place your device on the center of the charging base</string>
+  <string name="wireless_charge_reset_device">Charging is slow. Adjust your device.</string>
+  <string name="wireless_charge_reset_device_detail">Make sure the position of your device on the charging base is correct</string>
+  <string name="wireless_charge_stop">Stopped wireless charging</string>
   <string name="wrong_password">Incorrect password</string>
   <string name="zen_alarm_warning">"You won't hear your next alarm %1$s"</string>
   <string name="zen_alarm_warning_indef">"You won't hear your next alarm %1$s unless you turn this off before then"</string>
