@@ -236,6 +236,10 @@
         <item quantity="other">"You're %1$d steps away from reporting bug."</item>
         <item quantity="one">"You're %1$d step away from reporting bug."</item>
     </plurals>
+    <plurals name="show_reset_countdown">
+        <item quantity="other">Complete %1$d steps to perform a factory reset</item>
+        <item quantity="one">Complete %1$d step to perform a factory reset</item>
+    </plurals>
     <plurals name="special_access_summary">
         <item quantity="other">%d apps can use unrestricted data</item>
         <item quantity="one">1 app can use unrestricted data</item>
