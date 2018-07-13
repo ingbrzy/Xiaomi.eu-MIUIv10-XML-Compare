@@ -554,6 +554,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_square_mode_title">Square</string>
   <string name="pref_camera_stereo_default">5</string>
   <string name="pref_camera_stereo_mode_title">Focus adjustment</string>
+  <string name="pref_camera_super_resolution_title">Turn on SR</string>
   <string name="pref_camera_tilt_shift_default">circle</string>
   <string name="pref_camera_tilt_shift_entry_circle">Circle</string>
   <string name="pref_camera_tilt_shift_entry_parallel">Parallel</string>
