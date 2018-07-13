@@ -377,26 +377,6 @@
         <item>#ffe9f5f5</item>
         <item>#ff349a97</item>
     </array>
-    <array name="action_bar_colors">
-        <item>#ff1daba7</item>
-        <item>#ff34abd7</item>
-        <item>#ff429bd9</item>
-        <item>#ff5e84da</item>
-        <item>#ff747bd1</item>
-        <item>#ff8979cd</item>
-        <item>#ff747bd1</item>
-        <item>#ff5e84da</item>
-        <item>#ff429bd9</item>
-        <item>#ff34abd7</item>
-        <item>#ff1daba7</item>
-        <item>#ff39af81</item>
-        <item>#ff49b46c</item>
-        <item>#ff6ab157</item>
-        <item>#ff81ba51</item>
-        <item>#ff6ab157</item>
-        <item>#ff49b46c</item>
-        <item>#ff39af81</item>
-    </array>
     <integer-array name="allday_reminder_minutes_values">
         <item>0</item>
         <item>1440</item>
@@ -472,26 +452,6 @@
         <item>宋小宝</item>
         <item>郭德纲</item>
     </string-array>
-    <array name="month_today_colors">
-        <item>#ff1db3af</item>
-        <item>#ff37b0dd</item>
-        <item>#ff45a4e6</item>
-        <item>#ff6089e7</item>
-        <item>#ff7d84df</item>
-        <item>#ff9583e2</item>
-        <item>#ff7d84df</item>
-        <item>#ff6089e7</item>
-        <item>#ff45a4e6</item>
-        <item>#ff37b0dd</item>
-        <item>#ff1db3af</item>
-        <item>#ff29b981</item>
-        <item>#ff4dbf72</item>
-        <item>#ff72bd5d</item>
-        <item>#ff92c765</item>
-        <item>#ff72bd5d</item>
-        <item>#ff4dbf72</item>
-        <item>#ff29b981</item>
-    </array>
     <string-array name="prefValues_alerts_vibrateWhen">
         <item>always</item>
         <item>silent</item>

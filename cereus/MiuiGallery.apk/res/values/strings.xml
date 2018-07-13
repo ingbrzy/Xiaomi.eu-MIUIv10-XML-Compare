@@ -54,6 +54,7 @@
   <string name="album_name_people">People</string>
   <string name="album_name_recent_discovery">Recent</string>
   <string name="album_name_tags">Tags</string>
+  <string name="album_notes">Notes</string>
   <string name="album_others_share_baby_info_format">Baby album from %s</string>
   <string name="album_others_share_info_format">From %s</string>
   <string name="album_owner_share">Shared</string>
@@ -751,7 +752,6 @@
   <string name="enable_cloud_for_sharing">Turn on Mi Cloud albums to view shared photos.</string>
   <string name="enable_face_album_summary">Automatically sort photos by the people that are in them</string>
   <string name="enable_face_album_title">Sort by people</string>
-  <string name="enabling_face_feature">Just a sec…</string>
   <string name="enter_choice_mode">Entered Share dialog</string>
   <string name="enter_email_hint">Enter email address</string>
   <string name="error_album_not_exist">"Album doesn't exist"</string>
@@ -824,7 +824,6 @@
   <string name="exit_video_play">Exit</string>
   <string name="expand_desc">More</string>
   <string name="expand_people">Show more people</string>
-  <string name="face_album_detecting_tip">Just a sec…</string>
   <string name="face_album_empty">"Not enough photos to recognize people.
 Take more photos of your friends!"</string>
   <string name="face_album_empty_syncing">Syncing data, come back in a while</string>
@@ -832,7 +831,6 @@ Take more photos of your friends!"</string>
   <string name="face_album_long_tap_tip">To select multiple people or change group settings, press &amp; hold a profile photo</string>
   <string name="face_album_new_name_hint">New name</string>
   <string name="face_album_not_named">Unnamed</string>
-  <string name="face_album_pending_enable_tip">Will sort photos when device is connected to Wi-Fi</string>
   <string name="face_album_rename_hint">Enter name</string>
   <string name="face_album_title">Photos with %s</string>
   <string name="face_album_use_tip">Automatically sort photos by the people that are in them.</string>
@@ -851,7 +849,9 @@ Take more photos of your friends!"</string>
   <string name="fancy_color_desc">Colors</string>
   <string name="fast_share_auto_render">Beautify</string>
   <string name="fast_share_auto_render_finish">Beautified</string>
-  <string name="feature_guidance_photo_effects">Photo effects</string>
+  <string name="feature_guidance_photo_effects">"New photo effects
+are available"</string>
+  <string name="feature_guidance_video_editor_smart_effects">New effects are available</string>
   <string name="fileSizeSuffix">%1$s%2$s</string>
   <string name="filter_bi_memory">Memory</string>
   <string name="filter_bi_mono">Mono</string>
@@ -1194,7 +1194,13 @@ to personalize Gallery"</string>
   <string name="photo_print_package_installing">Loading plug-in…</string>
   <string name="photo_save_to_msg">Saved to %s</string>
   <string name="photomovie_audio_custom">Local</string>
+  <string name="photomovie_audio_default">Memory</string>
+  <string name="photomovie_audio_kawaii">Romantic</string>
+  <string name="photomovie_audio_light">Ballad</string>
+  <string name="photomovie_audio_linear">Rock</string>
   <string name="photomovie_audio_none">None</string>
+  <string name="photomovie_audio_soft">Ukulele</string>
+  <string name="photomovie_audio_sport">Techno</string>
   <string name="photomovie_cancel_download">Cancel</string>
   <string name="photomovie_delete_disable">You need at least 3 photos to create a clip.</string>
   <string name="photomovie_download">Download</string>
@@ -1216,6 +1222,11 @@ to personalize Gallery"</string>
   <string name="photomovie_tab_music">Music</string>
   <string name="photomovie_tab_template">Template</string>
   <string name="photomovie_template_default">Slow</string>
+  <string name="photomovie_template_kawaii">Charms</string>
+  <string name="photomovie_template_light">Breeze</string>
+  <string name="photomovie_template_linear">Roadtrip</string>
+  <string name="photomovie_template_soft">Youth</string>
+  <string name="photomovie_template_sport">Vigor</string>
   <string name="pick_from_contact">Choose from contacts</string>
   <string name="pick_too_many_recipients">Too many recipients</string>
   <string name="picker_cancel_download">Cancel downloading</string>
@@ -1228,6 +1239,7 @@ to personalize Gallery"</string>
   <string name="picker_image_will_download">"%d of the selected photos aren't on device. They will be downloaded."</string>
   <string name="picker_no_network_message">Connect to the network to download</string>
   <string name="picker_origin_need_download">"%1$d of the selected photos (%2$dMB) aren't on device. Download using mobile data?"</string>
+  <string name="picker_origin_request_progress_message">Preparing original files (%1$d/%2$d)…</string>
   <string name="picker_title_format">Select %1$d to %2$d photos</string>
   <string name="picker_title_selection_format">Selected photos: %d</string>
   <string name="picker_title_selection_format_multiple">Select %1$d to %2$d photos (%3$d)</string>
@@ -1343,12 +1355,12 @@ to personalize Gallery"</string>
   <string name="search_net_error">A network error occurred. Connect to a different network and try again.</string>
   <string name="search_request_applied">Applied</string>
   <string name="search_request_open">Join testing team</string>
+  <string name="search_request_requesting">Applied. Wait a while before you start.</string>
   <string name="search_result_empty">"Couldn't find anything"</string>
   <string name="search_retry">Try again</string>
   <string name="search_select_network">Select network</string>
   <string name="search_set_network_connection">Network settings</string>
   <string name="search_setting_sub_title">Search for people, places, and objects on your photos.</string>
-  <string name="search_setting_sub_title_open">Applied. Wait a while before you start.</string>
   <string name="search_setting_title">Find photos in Gallery</string>
   <string name="search_syncing">Syncing data, come back in a while</string>
   <string name="search_title_album">Album</string>
@@ -1381,6 +1393,7 @@ to personalize Gallery"</string>
   <string name="secret_reason_too_large">File is too big</string>
   <string name="secret_reason_type_not_support">"This file type isn't supported"</string>
   <string name="secret_reason_unknow_reasons">Unknown error</string>
+  <string name="secret_reason_video_not_support">"Can't add videos to hidden album"</string>
   <string name="see_ignore_faces">"View people you've ignored"</string>
   <string name="select_item_face">"Is this '%s'?"</string>
   <string name="select_origin_tip">Original file (%s)</string>
@@ -1594,7 +1607,7 @@ to personalize Gallery"</string>
   <string name="video_editor_smart_effect_fastslow">Motion</string>
   <string name="video_editor_smart_effect_freesze">Stop motion</string>
   <string name="video_editor_smart_effect_halo">Halo</string>
-  <string name="video_editor_smart_effect_high_iframes_text">This effect works best with high frame rate videos.</string>
+  <string name="video_editor_smart_effect_high_iframes_text">This effect works best for 120 fps videos.</string>
   <string name="video_editor_smart_effect_movie">Movie</string>
   <string name="video_editor_smart_effect_none">None</string>
   <string name="video_editor_smart_effect_radical">Upbeat</string>
@@ -1622,6 +1635,7 @@ to personalize Gallery"</string>
   <string name="video_editor_unsupport_audio_file">Unsupport audio file</string>
   <string name="video_editor_unzip_file_fail">"Couldn't unpack video."</string>
   <string name="video_editor_video_is_short">"Can't edit this video."</string>
+  <string name="video_editor_video_loading">Preparing video,Wait a second or two and try again.</string>
   <string name="video_editor_watermark">Watermark</string>
   <string name="video_err">"Can't play video"</string>
   <string name="video_not_exist">"Video doesn't exist"</string>
@@ -1630,7 +1644,6 @@ to personalize Gallery"</string>
   <string name="view_by_gallery_tip">MIUI Gallery</string>
   <string name="view_face_album">View album</string>
   <string name="view_more_face_desc">View more people</string>
-  <string name="view_queuing_status">Check status</string>
   <string name="voice_assistant">Voice input</string>
   <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">Welcome to Mi Cloud</string>
