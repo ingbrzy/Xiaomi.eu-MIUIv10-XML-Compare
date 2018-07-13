@@ -129,4 +129,8 @@
     <plurals name="wechat_video_time_p2">
         <item quantity="other">%1$s</item>
     </plurals>
+    <plurals name="whatsapp_delete_files">
+        <item quantity="other">Delete %1$d files?</item>
+        <item quantity="one">Delete %1$d file?</item>
+    </plurals>
 </resources>
