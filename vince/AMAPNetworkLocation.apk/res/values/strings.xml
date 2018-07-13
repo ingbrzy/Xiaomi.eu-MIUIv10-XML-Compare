@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="agree">Agree</string>
+  <string name="app_label">Network Location</string>
+  <string name="disagree">Disagree</string>
+  <string name="location_warning_do_not_show_again">"Don't show again"</string>
+  <string name="location_warning_message">"Allow AutoNavi's location service to collect anonymous location data. Some data may be stored on your device, and collection may occur even when no apps are running."</string>
+  <string name="location_warning_title">Location consent</string>
+  <string name="persmission_close">CLOSE</string>
+  <string name="persmission_message">To work properly, this service requires additional permissions. Please allow permissions when asked.</string>
+  <string name="persmission_message2">To work properly, this service needs to access your storage. Please allow permission when asked.</string>
+  <string name="persmission_message3">To work properly, this service needs to access your location. Please allow permission when asked.</string>
+  <string name="persmission_message4">To work properly, this service needs to access your Phone. Please allow permission when asked.</string>
+  <string name="persmission_message5">"To work properly, this service requires additional permissions. You can manage Network Location's permissions in Settings"</string>
+  <string name="persmission_message6">"To work properly, this servic needs to access your Location. You can manage Network Location's permissions in Settings."</string>
+  <string name="persmission_message7">"To work properly, this servic needs to access your Phone. You can manage Network Location's permissions in Settings."</string>
+  <string name="persmission_message8">"To work properly, this service needs to access your storage. You can manage Network Location's permissions in Settings."</string>
+  <string name="persmission_notification_text">Tap to allow</string>
+  <string name="persmission_notification_title">Network Location requires permissions</string>
+  <string name="persmission_ok">OK</string>
+  <string name="persmission_settings">SETTINGS</string>
+</resources>
