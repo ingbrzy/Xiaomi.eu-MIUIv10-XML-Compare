@@ -1738,6 +1738,8 @@ This helps protect data on lost or stolen devices."</string>
   <string name="firewall_wifi">WLAN</string>
   <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off."</string>
   <string name="firmware_version">Android version</string>
+  <string name="flash_drive_backup_restore">Back up or restore using USB</string>
+  <string name="flash_drive_backup_restore_summary">Connect a USB drive</string>
   <string name="floating_window_switch_label">Turn on floating windows</string>
   <string name="floating_window_switch_label_disable">Turn off floating windows</string>
   <string name="fluency_mode">System animations</string>
@@ -2604,6 +2606,8 @@ There are other users present on this device.
   <string name="miui_lab_gallery_search_title">Find photos in Gallery</string>
   <string name="miui_lab_settings">MIUI lab</string>
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
+  <string name="miui_lab_super_resolution_desc">Make images crisper</string>
+  <string name="miui_lab_super_resolution_title">Super resolution</string>
   <string name="miui_updater">System update</string>
   <string name="miui_userguide">User guide</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
@@ -3466,6 +3470,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="restriction_wifi_config_summary">Allow modification of WLAN and Mobile settings</string>
   <string name="restriction_wifi_config_title">WLAN and Mobile</string>
   <string name="retry">Try again</string>
+  <string name="rgb_manage_facerecoginition_text">Manage 2D face data</string>
   <string name="ring_volume_option_title">Ring volume</string>
   <string name="ring_volume_title">Ringer volume</string>
   <string name="ringtone_mute">None</string>
@@ -3860,6 +3865,9 @@ To use screen pinning:
   <string name="second_space">Second space</string>
   <string name="secondspace_category">Second space</string>
   <string name="secondspace_delete_space_title">Delete Second space</string>
+  <string name="secspace_fod_finger_tips">"Couldn't verify. Try again."</string>
+  <string name="secspace_fod_finger_title">Verify your fingerprint</string>
+  <string name="secspace_fod_use_password">Enter password</string>
   <string name="secure_keyguard_business_title">Set screen lock</string>
   <string name="secure_lock_encryption_warning">Because you’ve turned on an accessibility service, your device won’t use your screen lock to enhance data encryption.</string>
   <string name="security_enable_widgets_disabled_summary">Disabled by administrator</string>
@@ -4219,10 +4227,11 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
   <string name="status_bar_settings_show_carrier_under_keyguard">Show carrier when device is locked</string>
   <string name="status_bar_settings_show_floating_notification">Floating notifications</string>
-  <string name="status_bar_settings_show_floating_notification_summary">"Floating notifications will disappear automatically after they're shown at the top of the screen"</string>
+  <string name="status_bar_settings_show_floating_notification_summary">Allow important notifications at top of the screen</string>
   <string name="status_bar_settings_show_flow_info">Show data usage</string>
   <string name="status_bar_settings_show_home_message">App icon badge</string>
   <string name="status_bar_settings_show_keyguard_notification">Lock screen notifications</string>
+  <string name="status_bar_settings_show_keyguard_notification_summary">Allow important notifications on the Lock screen</string>
   <string name="status_bar_settings_show_network_speed">Show connection speed</string>
   <string name="status_bar_settings_show_notification_icon">Show notification icons</string>
   <string name="status_bar_settings_show_wifi_name">Show WLAN</string>
@@ -4404,6 +4413,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
   <string name="structure_add_facerecoginition_text">Add 3D face data</string>
+  <string name="structure_manage_facerecoginition_text">Manage 3D face data</string>
   <string name="suggest_unrestrict_max_aspect_ratio_title">These apps work best in fullscreen mode</string>
   <string name="suggested_fingerprint_lock_settings_summary">Unlock with your fingerprint</string>
   <string name="suggested_lock_settings_summary">Protect your device</string>
@@ -4418,6 +4428,12 @@ Consider using a faster ^1 for better performance."</string>
   <string name="summary_font_size">%1$s</string>
   <string name="summary_range_symbol_combination">%1$s - %2$s</string>
   <string name="summary_range_verbal_combination">%1$s to %2$s</string>
+  <string name="super_resolution_access_title">Accessible apps</string>
+  <string name="super_resolution_desc">Make images crisper using an AI algorithm</string>
+  <string name="super_resolution_maintain">"Super resolution isn't available yet."</string>
+  <string name="super_resolution_no_app_tips">Download WeChat and Toutiao first.</string>
+  <string name="super_resolution_reboot_tips">This feature allows to make blurry images in WeChat and Toutiao crisper. Launch apps again after you turn this feature on.</string>
+  <string name="super_resolution_title">Super resolution</string>
   <string name="supl_not_set">&lt;Not set&gt;</string>
   <string name="supplicant_state_label">Supplicant state:</string>
   <string name="sure_sync_now">Sync items now?</string>

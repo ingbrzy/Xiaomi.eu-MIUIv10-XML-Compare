@@ -346,6 +346,10 @@
         <item>Notifications will appear in the Notification shade</item>
         <item>Notifications will appear in a separate folder</item>
     </string-array>
+    <string-array name="notch_battery_indicator_style_entries">
+        <item>Graphical</item>
+        <item>Percentage</item>
+    </string-array>
     <string-array name="timezone_filters">
         <item>America</item>
         <item>Europe</item>

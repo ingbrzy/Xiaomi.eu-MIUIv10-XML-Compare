@@ -375,7 +375,7 @@ to enter Second space from Lock screen"</string>
   <string name="xspace_default_guide_notification_content">Tap to change</string>
   <string name="xspace_default_guide_notification_main_title">Using default app</string>
   <string name="xspace_default_guide_notification_xspace_title">Using dual app</string>
-  <string name="xspace_default_setting_dialog_title">Default</string>
+  <string name="xspace_default_setting_dialog_title"> default</string>
   <string name="xspace_default_setting_label">Default app</string>
   <string name="xspace_description">"Dual apps are app copies which can be used separately with a different account.
 
