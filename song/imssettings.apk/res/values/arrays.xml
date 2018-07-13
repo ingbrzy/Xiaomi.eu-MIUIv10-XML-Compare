@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_ims_apn">
+        <item>IPv4v6</item>
+        <item>IPv4</item>
+        <item>IPv6</item>
+    </string-array>
+    <string-array name="entryvalues_list_ims_apn">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_list_emergency_apn">
+        <item>IPv4v6</item>
+        <item>IPv4</item>
+        <item>IPv6</item>
+    </string-array>
+    <string-array name="entryvalues_list_emergency_apn">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_list_ut_apn">
+        <item>IPv4v6</item>
+        <item>IPv4</item>
+        <item>IPv6</item>
+    </string-array>
+    <string-array name="entryvalues_list_ut_apn">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_list_ut_naf_https">
+        <item>@string/ims_settings_value_no</item>
+        <item>@string/ims_settings_value_yes</item>
+    </string-array>
+    <string-array name="entryvalues_list_ut_naf_https">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entries_list_ut_xcap">
+        <item>@string/ims_settings_value_no</item>
+        <item>@string/ims_settings_value_yes</item>
+    </string-array>
+    <string-array name="entryvalues_list_ut_xcap">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entries_list_ut_bsf_https">
+        <item>@string/ims_settings_value_no</item>
+        <item>@string/ims_settings_value_yes</item>
+    </string-array>
+    <string-array name="entryvalues_list_ut_bsf_https">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entries_list_band_settings">
+        <item>@string/ims_band_settings_wide_preferred_value</item>
+        <item>@string/ims_band_settings_narrow_preferred_value</item>
+        <item>@string/ims_band_settings_only_wide_value</item>
+        <item>@string/ims_band_settings_only_narrow_value</item>
+    </string-array>
+    <string-array name="entryvalues_list_band_settings">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="entries_list_band_wide_settings">
+        <item>@string/ims_settings_value_full_rate</item>
+        <item>6.6</item>
+        <item>8.85</item>
+        <item>12.65</item>
+        <item>14.25</item>
+        <item>15.86</item>
+        <item>18.25</item>
+        <item>19.85</item>
+        <item>23.05</item>
+        <item>23.85</item>
+    </string-array>
+    <string-array name="entryvalues_list_band_wide_settings">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="entries_list_band_narrow_settings">
+        <item>@string/ims_settings_value_full_rate</item>
+        <item>4.75</item>
+        <item>5.15</item>
+        <item>5.9</item>
+        <item>6.7</item>
+        <item>7.4</item>
+        <item>7.95</item>
+        <item>10.2</item>
+        <item>12.2</item>
+    </string-array>
+    <string-array name="entryvalues_list_band_narrow_settings">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="entries_list_reg_authentication">
+        <item>AKA</item>
+        <item>DIGEST</item>
+        <item>AKA and IPSEC</item>
+    </string-array>
+    <string-array name="entryvalues_list_reg_authentication">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_list_reg_digest">
+        <item>ACCOUNT</item>
+        <item>DIGEST</item>
+        <item>SERVER</item>
+    </string-array>
+    <string-array name="entryvalues_list_reg_digest">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_list_reg_ipsec">
+        <item>NULL</item>
+        <item>AES</item>
+        <item>3DES</item>
+    </string-array>
+    <string-array name="entryvalues_list_reg_ipsec">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_list_reg_ipsec_protection">
+        <item>MD5</item>
+        <item>SHA-1</item>
+    </string-array>
+    <string-array name="entryvalues_list_reg_ipsec_protection">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entries_list_volte_set">
+        <item>@string/ims_settings_value_no</item>
+        <item>@string/ims_settings_value_yes</item>
+    </string-array>
+    <string-array name="entryvalues_list_volte_set">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entries_list_volte_tl_fdd_set">
+        <item>@string/ims_settings_value_no</item>
+        <item>@string/ims_settings_value_yes</item>
+    </string-array>
+    <string-array name="entryvalues_list_volte_tl_fdd_set">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entries_list_resolution">
+        <item>VGA_30</item>
+        <item>VGA_15</item>
+        <item>720P</item>
+        <item>QVGA_15</item>
+        <item>QVGA_30</item>
+        <item>CIF</item>
+        <item>QCIF</item>
+    </string-array>
+    <string-array name="entryvalues_list_resolution">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="entries_list_other_dial_scheme">
+        <item>tel priority</item>
+        <item>sip priority</item>
+    </string-array>
+    <string-array name="entryvalues_list_other_dial_scheme">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="entries_list_other_sms_ack">
+        <item>@string/ims_settings_value_no</item>
+        <item>@string/ims_settings_value_yes</item>
+    </string-array>
+    <string-array name="entryvalues_list_other_sms_ack">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>
