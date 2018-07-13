@@ -182,6 +182,19 @@ and then create a shot where everyone looks best."</string>
 Clean the lens for better effect."</string>
   <string name="lens_dirty_detected_title_back">Rear camera lens is dirty</string>
   <string name="lens_dirty_detected_title_front">Front camera lens is dirty</string>
+  <string name="lighting_hint_needed">Place your object in the spotlight</string>
+  <string name="lighting_hint_title">Studio lighting</string>
+  <string name="lighting_hint_too_close">Move the camera further away</string>
+  <string name="lighting_hint_too_far">Bring the camera closer</string>
+  <string name="lighting_hint_usage">"You can use studio lighting effects
+in Portrait mode"</string>
+  <string name="lighting_pattern_dot">Dots</string>
+  <string name="lighting_pattern_leaf">Leaves</string>
+  <string name="lighting_pattern_movie">Movie</string>
+  <string name="lighting_pattern_nature">Natural</string>
+  <string name="lighting_pattern_rainbow">Rainbow</string>
+  <string name="lighting_pattern_shutter">Blinds</string>
+  <string name="lighting_pattern_stage">Stage</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="module_name_beauty">Beauty</string>
   <string name="module_name_capture">Photo</string>
@@ -530,6 +543,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_square_mode_title">Square</string>
   <string name="pref_camera_stereo_default">5</string>
   <string name="pref_camera_stereo_mode_title">Focus adjustment</string>
+  <string name="pref_camera_super_resolution_title">Turn on SR</string>
   <string name="pref_camera_tilt_shift_default">circle</string>
   <string name="pref_camera_tilt_shift_entry_circle">Circle</string>
   <string name="pref_camera_tilt_shift_entry_parallel">Parallel</string>
