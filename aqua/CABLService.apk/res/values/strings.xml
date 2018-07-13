@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Content Adaptive Backlight Settings</string>
+  <string name="cabl_enable_summary_off">The backlight will not readjust based on screen content</string>
+  <string name="cabl_enable_summary_on">The backlight will re-adjust based on the screen content</string>
+  <string name="cabl_enable_title">Enable Content Adaptive Backlight</string>
+  <string name="cabl_info_default">Unknown</string>
+  <string name="cabl_level_default">Auto</string>
+  <string name="cabl_levels_summary">Lower quality level indicate CABL will try to save as much power as possible without significantly affecting content being displayed. Auto visual quality level means CABL will try to maximize power savings based on auto detecting type of content being displayed.</string>
+  <string name="cabl_levels_title">Visual Quality Level</string>
+  <string name="cabl_settings_title">Content Adaptive Backlight Settings</string>
+  <string name="cabl_version_title">CABL Version</string>
+</resources>
