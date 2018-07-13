@@ -1158,6 +1158,8 @@ To add a contact to your list of favorites:
   <string name="title_other_devices">Other available devices</string>
   <string name="title_paired_devices">Paired devices</string>
   <string name="toast_call_detail_error">"Couldn't read details for the requested call"</string>
+  <string name="toast_call_no_SoundRecorder">Recorder app not available</string>
+  <string name="toast_call_no_notes">Notes app not available</string>
   <string name="toast_copy_done">Done</string>
   <string name="toast_copying">Copying…</string>
   <string name="toast_displaying_all_contacts">Displaying all contacts</string>
