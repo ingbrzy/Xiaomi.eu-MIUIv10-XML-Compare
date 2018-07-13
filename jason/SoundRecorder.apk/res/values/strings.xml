@@ -97,6 +97,7 @@
   <string name="record_downloading_notification">Downloading…</string>
   <string name="record_downloading_notification_complete">Download complete</string>
   <string name="record_downloading_notification_count">%d downloading</string>
+  <string name="record_format_preference_title">Recording format</string>
   <string name="record_list">Recordings</string>
   <string name="record_list_call">Recorded calls</string>
   <string name="record_list_category_title_format">MMMM yyyy</string>
