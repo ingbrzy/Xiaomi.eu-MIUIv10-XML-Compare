@@ -71,4 +71,8 @@
     <string-array name="white_list_ad">
         <item>/MIUI/debug_log</item>
     </string-array>
+    <array name="dialog_delete_loading_res">
+    </array>
+    <array name="dialog_delete_finish_res">
+    </array>
 </resources>

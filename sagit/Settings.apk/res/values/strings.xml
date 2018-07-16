@@ -3780,6 +3780,7 @@ UT Interface: %5$s"</string>
   <string name="retail_demo_reset_next">Next</string>
   <string name="retail_demo_reset_title">Password required</string>
   <string name="retry">Try again</string>
+  <string name="rgb_manage_facerecoginition_text">Manage 2D face data</string>
   <string name="ring_volume_option_title">Ring volume</string>
   <string name="ring_volume_title">Ring volume</string>
   <string name="ringtone_slot_setting_title">Single SIM settings</string>
@@ -4498,6 +4499,8 @@ Possibly incorrect PIN."</string>
   <string name="sound_settings_summary">Ring volume at %1$s</string>
   <string name="sound_settings_summary_silent">Ringer set to silent</string>
   <string name="sound_settings_summary_vibrate">Ringer set to vibrate</string>
+  <string name="sound_stereo_mode_summary">Only available when you play sound with speaker</string>
+  <string name="sound_stereo_mode_title">Stereo sound</string>
   <string name="sound_vibrate_settings">Sound &amp; vibration</string>
   <string name="sound_work_settings">Work profile sounds</string>
   <string name="special_access">Special app access</string>
@@ -4761,6 +4764,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
   <string name="structure_add_facerecoginition_text">Add 3D face data</string>
+  <string name="structure_manage_facerecoginition_text">Manage 3D face data</string>
   <string name="suggest_unrestrict_max_aspect_ratio_title">These apps work best in fullscreen mode</string>
   <string name="suggested_fingerprint_lock_settings_summary">Unlock with your fingerprint</string>
   <string name="suggested_fingerprint_lock_settings_title">Use fingerprint</string>
@@ -5114,6 +5118,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
   <string name="unmount_inform_text">USB storage will be unmounted.</string>
+  <string name="unmute_sound_title">Unmute sound</string>
   <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
   <string name="unrestricted_app_summary">Allow unrestricted data access when Data Saver is on</string>
   <string name="unrestricted_app_title">Unrestricted data usage</string>
