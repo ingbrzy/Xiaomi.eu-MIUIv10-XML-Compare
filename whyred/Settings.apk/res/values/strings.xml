@@ -4497,6 +4497,8 @@ Possibly incorrect PIN."</string>
   <string name="sound_settings_summary">Ring volume at %1$s</string>
   <string name="sound_settings_summary_silent">Ringer set to silent</string>
   <string name="sound_settings_summary_vibrate">Ringer set to vibrate</string>
+  <string name="sound_stereo_mode_summary">Only available when you play sound with speaker</string>
+  <string name="sound_stereo_mode_title">Stereo sound</string>
   <string name="sound_vibrate_settings">Sound &amp; vibration</string>
   <string name="sound_work_settings">Work profile sounds</string>
   <string name="special_access">Special app access</string>
@@ -5113,6 +5115,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
   <string name="unmount_inform_text">SD card will be unmounted.</string>
+  <string name="unmute_sound_title">Unmute sound</string>
   <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
   <string name="unrestricted_app_summary">Allow unrestricted data access when Data Saver is on</string>
   <string name="unrestricted_app_title">Unrestricted data usage</string>

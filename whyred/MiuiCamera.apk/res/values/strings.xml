@@ -634,6 +634,7 @@ and brings out the people in the front."</string>
   <string name="pref_front_mirror_entryvalue_on">on</string>
   <string name="pref_front_mirror_label_auto">Auto</string>
   <string name="pref_front_mirror_title">Mirror front camera</string>
+  <string name="pref_google_lens">Google lens</string>
   <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_mi_front_video_quality_default">6</string>
