@@ -4499,6 +4499,8 @@ Possibly incorrect PIN."</string>
   <string name="sound_settings_summary">Ring volume at %1$s</string>
   <string name="sound_settings_summary_silent">Ringer set to silent</string>
   <string name="sound_settings_summary_vibrate">Ringer set to vibrate</string>
+  <string name="sound_stereo_mode_summary">Only available when you play sound with speaker</string>
+  <string name="sound_stereo_mode_title">Stereo sound</string>
   <string name="sound_vibrate_settings">Sound &amp; vibration</string>
   <string name="sound_work_settings">Work profile sounds</string>
   <string name="special_access">Special app access</string>

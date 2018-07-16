@@ -375,7 +375,7 @@
   <string name="low_memory_warning_dialog_ok_button">Clear</string>
   <string name="low_memory_warning_dialog_title">Not enough free space</string>
   <string name="main_title_filesize">%1$s trash</string>
-  <string name="main_total_garbage">Total_garbage</string>
+  <string name="main_total_garbage">Total garbage</string>
   <string name="mainbtn_text_no_trash">Skip</string>
   <string name="mainbtn_text_quick_cleanup">Clean up %s</string>
   <string name="mainbtn_text_quick_cleanup_default">Clean up</string>
