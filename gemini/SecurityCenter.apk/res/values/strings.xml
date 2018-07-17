@@ -267,7 +267,7 @@
   <string name="applock_add_account_info">Add your Mi Account to be able to reset your password in case you forget it.</string>
   <string name="applock_add_account_setting">Account &amp; privacy</string>
   <string name="applock_bind_account_title">Forgot password</string>
-  <string name="applock_close_dialog_summary">All hidden apps will be unhidden, their Home screen shortcuts will be restored, and your App lock password will be deleted. Turn off App lock?</string>
+  <string name="applock_close_dialog_summary">Apps will no longer be protected and your password will be deleted after you turn off App lock.</string>
   <string name="applock_close_dialog_title">Turn off App lock?</string>
   <string name="applock_exit_account_info">Account will be removed automatically when you sign out</string>
   <string name="applock_header_text_less_than_half">Too small. Drag a bit further.</string>
@@ -1730,20 +1730,6 @@ This activity shortens battery life."</string>
   <string name="preferred_app_entries_launcher">Launcher</string>
   <string name="preferred_app_entries_messaging">Messaging</string>
   <string name="preferred_app_entries_music">Music</string>
-  <string name="privacy_apps">Hidden apps</string>
-  <string name="privacy_apps_category_title">Hidden apps</string>
-  <string name="privacy_apps_checkbox_remind_choice">"Don't show again"</string>
-  <string name="privacy_apps_close">Close</string>
-  <string name="privacy_apps_enable_summary">Move apps to a hidden folder and remove their Home screen shortcuts</string>
-  <string name="privacy_apps_go_to_use">Start</string>
-  <string name="privacy_apps_manage">Manage hidden apps</string>
-  <string name="privacy_apps_manage_dialog_title">About hidden apps</string>
-  <string name="privacy_apps_manager_dialog_message">Hiding apps requires setting your App screen lock. Notifications for hidden apps will be turned off. Hide this app?</string>
-  <string name="privacy_apps_tutorial">Tutorial</string>
-  <string name="privacy_apps_tutorial_prompt_pageone">"When you hide an app, it's moved to a hidden folder. Its Home screen shortcut is hidden is well.
-This feature isn't supported for system apps."</string>
-  <string name="privacy_apps_tutorial_prompt_pagethree">After you enter your password, the folder with hidden apps will appear.</string>
-  <string name="privacy_apps_tutorial_prompt_pagetwo">"Spread two fingers on the screen. You'll see a message asking you to enter your App lock password."</string>
   <string name="privacy_declare_dialog_title">Terms of Service</string>
   <string name="privacy_dialog_message">"When you connect to the internet, this message along with the carrier info will be encrypted and uploaded to Mi's servers to help us improve data usage monitoring."</string>
   <string name="privacy_mode_dialog_title">Guest mode</string>
