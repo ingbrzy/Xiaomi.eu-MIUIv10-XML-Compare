@@ -3174,7 +3174,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="notification_show_lights_title">Blink light</string>
   <string name="notification_sound_default">Default notification sound</string>
   <string name="notification_sound_dialog_title">Default notification sound</string>
-  <string name="notification_sound_title">Sounds for messages and notifications</string>
+  <string name="notification_sound_title">Default notification sound</string>
   <string name="notification_suggestion_summary">Show or hide notification content</string>
   <string name="notification_suggestion_title">Control lock screen notifications</string>
   <string name="notification_summary_channel">%1$s • %2$s</string>
