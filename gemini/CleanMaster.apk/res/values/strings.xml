@@ -630,7 +630,7 @@
   <string name="wechat_video_time">%1$s:%2$s</string>
   <string name="whatsapp_btn_quick_cleanup">Delete selected items (%s)</string>
   <string name="whatsapp_clean_exit_confirm_cancel">Keep scanning</string>
-  <string name="whatsapp_clean_exit_confirm_msg">"Haven't finished scanning WhataApp yet. Stop scanning now?"</string>
+  <string name="whatsapp_clean_exit_confirm_msg">"Haven't finished scanning WhatsApp yet. Stop scanning now?"</string>
   <string name="whatsapp_clean_exit_confirm_ok">Stop</string>
   <string name="whatsapp_clean_exit_confirm_title">Stop scanning?</string>
   <string name="whatsapp_content_empty">No items here.</string>
