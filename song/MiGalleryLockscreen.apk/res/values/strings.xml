@@ -35,6 +35,12 @@
   <string name="ad_pop_des">应用下载中：</string>
   <string name="add_launch_hint_text">Add Home screen shortcut</string>
   <string name="app_name">Mi Wallpaper Carousel</string>
+  <string name="app_self_upgrade_dlg_checkbox_ignore_version">Ignore this version</string>
+  <string name="app_self_upgrade_dlg_content">A new app version is available, upgrade immediately?</string>
+  <string name="app_self_upgrade_dlg_negative_btn">Remind me later</string>
+  <string name="app_self_upgrade_dlg_postive_btn">Upgrade</string>
+  <string name="app_self_upgrade_dlg_title">App Upgrade</string>
+  <string name="app_self_upgrade_toast_downloading_install">Starting download and install new version</string>
   <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
   <string name="apply">Apply</string>
   <string name="apply_to_above_all">Set both</string>
