@@ -418,8 +418,7 @@
     <array name="config_autoBrightnessKeyboardBacklightValues" />
     <array name="config_ephemeralResolverPackage" />
     <string-array name="config_locationProviderPackageNames">
-        <item>com.xiaomi.location.fused</item>
-        <item>com.xiaomi.metoknlp</item>
+        <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
     </string-array>
     <array name="config_testLocationProviders" />
