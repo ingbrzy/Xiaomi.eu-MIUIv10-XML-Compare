@@ -164,7 +164,7 @@ and then create a shot where everyone looks best."</string>
   <string name="portrait_mode_depth_effect_success_hint">Depth effect</string>
   <string name="portrait_mode_lowlight_hint">"It's too dark now"</string>
   <string name="portrait_mode_too_close_hint">Move farther from the object</string>
-  <string name="portrait_mode_too_far_hint">Place object within 2.5 meters</string>
+  <string name="portrait_mode_too_far_hint">Place object within 2 meters</string>
   <string name="portrait_mode_use_hint">"Portrait mode blurs the background
 and brings out the people in the front."</string>
   <string name="portrait_with_facebeauty_hint">Beautify is now available in Portrait mode</string>
