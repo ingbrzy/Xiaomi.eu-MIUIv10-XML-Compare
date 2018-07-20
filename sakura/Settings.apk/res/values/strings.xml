@@ -2251,7 +2251,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="instant_app_details_summary">More info on %1$s</string>
   <string name="instant_apps_account">Instant apps account</string>
   <string name="instruction_privacy_password">This password protects the following items</string>
-  <string name="instruction_title">Instructions</string>
+  <string name="instruction_title">Important safety information</string>
   <string name="insufficient_storage">Not enough storage space.</string>
   <string name="intent_sender_account_label">Account:</string>
   <string name="intent_sender_action_label">Action:</string>
@@ -3172,7 +3172,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="notification_show_lights_title">Blink light</string>
   <string name="notification_sound_default">Default notification sound</string>
   <string name="notification_sound_dialog_title">Default notification sound</string>
-  <string name="notification_sound_title">Sounds for messages and notifications</string>
+  <string name="notification_sound_title">Default notification sound</string>
   <string name="notification_suggestion_summary">Show or hide notification content</string>
   <string name="notification_suggestion_title">Control lock screen notifications</string>
   <string name="notification_summary_channel">%1$s • %2$s</string>
@@ -4497,6 +4497,8 @@ Possibly incorrect PIN."</string>
   <string name="sound_settings_summary">Ring volume at %1$s</string>
   <string name="sound_settings_summary_silent">Ringer set to silent</string>
   <string name="sound_settings_summary_vibrate">Ringer set to vibrate</string>
+  <string name="sound_stereo_mode_summary">Only available when you play sound with speaker</string>
+  <string name="sound_stereo_mode_title">Stereo sound</string>
   <string name="sound_vibrate_settings">Sound &amp; vibration</string>
   <string name="sound_work_settings">Work profile sounds</string>
   <string name="special_access">Special app access</string>
@@ -4550,6 +4552,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_led_custom">Custom color</string>
   <string name="status_bar_settings_notification_priority">Priority</string>
   <string name="status_bar_settings_notification_priority_summary">Show notifications at the top of the list</string>
+  <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
@@ -4759,6 +4762,8 @@ Consider using a faster ^1 for better performance."</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
   <string name="structure_add_facerecoginition_text">Add 3D face data</string>
+  <string name="structure_face_enroll_not_able_low_electric_itle">"Can't use this feature due to low battery"</string>
+  <string name="structure_face_enroll_not_able_low_electric_msg">Battery must be at least 5% charged to start recording.</string>
   <string name="structure_manage_facerecoginition_text">Manage 3D face data</string>
   <string name="suggest_unrestrict_max_aspect_ratio_title">These apps work best in fullscreen mode</string>
   <string name="suggested_fingerprint_lock_settings_summary">Unlock with your fingerprint</string>
@@ -5113,6 +5118,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
   <string name="unmount_inform_text">SD card will be unmounted.</string>
+  <string name="unmute_sound_title">Unmute sound</string>
   <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
   <string name="unrestricted_app_summary">Allow unrestricted data access when Data Saver is on</string>
   <string name="unrestricted_app_title">Unrestricted data usage</string>
