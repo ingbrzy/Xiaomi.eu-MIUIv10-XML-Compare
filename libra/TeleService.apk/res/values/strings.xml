@@ -384,7 +384,7 @@
   <string name="card_title_dialing">Dialing</string>
   <string name="card_title_forwardcheckreceived">Forward Check Received</string>
   <string name="card_title_forwarded_MTcall">Forwarded Incoming Call</string>
-  <string name="card_title_hanging_up">Hanging up</string>
+  <string name="card_title_hanging_up">"Hanging up "</string>
   <string name="card_title_in_call">In call</string>
   <string name="card_title_incoming_barred">Incoming Calls Barred</string>
   <string name="card_title_incoming_call">Incoming call</string>
