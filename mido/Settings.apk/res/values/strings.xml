@@ -1326,7 +1326,6 @@ This setting affects all users on this phone."</string>
   <string name="dev_settings_warning_message">These settings are intended for developers only. Enabling these features may make your device and the apps on it misbehave or cause errors.</string>
   <string name="dev_settings_warning_title">Allow development settings?</string>
   <string name="developer_build">Beta</string>
-  <string name="developer_density_summary">%d dp</string>
   <string name="developer_smallest_width">Smallest width</string>
   <string name="development_enable">Developer options</string>
   <string name="development_settings_enable">Enable developer options</string>
@@ -1988,7 +1987,6 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="include_app_data_title">Include app data</string>
   <string name="incoming_call_breathing_light_color_title">Calls light color</string>
   <string name="incoming_call_breathing_light_freq_title">Calls pulse frequency</string>
-  <string name="incoming_call_volume_title">Ringtone</string>
   <string name="infinity_display_settings">Full display</string>
   <string name="infinity_display_slogan">Innovation on full display</string>
   <string name="infinity_display_title">Full screen display</string>
@@ -2020,7 +2018,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="install_unknown_applications_title">Lets you install apps from sources other than Google Play</string>
   <string name="install_whole_rom">Download ROM</string>
   <string name="instruction_privacy_password">This password protects the following items</string>
-  <string name="instruction_title">Instructions</string>
+  <string name="instruction_title">Important safety information</string>
   <string name="insufficient_storage">Not enough storage space.</string>
   <string name="intent_sender_account_label">Account:</string>
   <string name="intent_sender_action_label">Action:</string>
@@ -2902,7 +2900,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="notification_reboot_title_hm">Reboot to apply update</string>
   <string name="notification_ringtone_title">Default notification ringtone</string>
   <string name="notification_sound_dialog_title">Default notification sound</string>
-  <string name="notification_sound_title">Sounds for messages and notifications</string>
+  <string name="notification_sound_title">Default notification sound</string>
   <string name="notification_suggestion_summary">Show or hide notification content</string>
   <string name="notification_suggestion_title">Control lock screen notifications</string>
   <string name="notification_summary_level">Level %d</string>
@@ -4222,6 +4220,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_led_custom">Custom color</string>
   <string name="status_bar_settings_notification_priority">Priority</string>
   <string name="status_bar_settings_notification_priority_summary">Show notifications at the top of the list</string>
+  <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
@@ -4415,6 +4414,8 @@ Consider using a faster ^1 for better performance."</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
   <string name="structure_add_facerecoginition_text">Add 3D face data</string>
+  <string name="structure_face_enroll_not_able_low_electric_itle">"Can't use this feature due to low battery"</string>
+  <string name="structure_face_enroll_not_able_low_electric_msg">Battery must be at least 5% charged to start recording.</string>
   <string name="structure_manage_facerecoginition_text">Manage 3D face data</string>
   <string name="suggest_unrestrict_max_aspect_ratio_title">These apps work best in fullscreen mode</string>
   <string name="suggested_fingerprint_lock_settings_summary">Unlock with your fingerprint</string>
@@ -4734,6 +4735,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
   <string name="unmount_inform_text">SD card will be unmounted.</string>
+  <string name="unmute_sound_title">Unmute sound</string>
   <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
   <string name="unrestricted_app_summary">Allow unrestricted data access when Data Saver is on</string>
   <string name="unrestricted_app_title">Unrestricted data usage</string>
