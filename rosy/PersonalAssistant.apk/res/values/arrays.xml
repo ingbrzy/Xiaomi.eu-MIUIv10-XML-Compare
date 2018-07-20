@@ -38,34 +38,6 @@
         <item>Regular</item>
         <item>Large</item>
     </string-array>
-    <string-array name="express_status_all">
-        <item>On the way</item>
-        <item>Dispatching</item>
-        <item>Sent</item>
-        <item>Unknown</item>
-        <item>Recevied</item>
-        <item>Rejected</item>
-        <item>Returned</item>
-        <item>Unknown</item>
-    </string-array>
-    <string-array name="express_status_detail">
-        <item>On the way</item>
-        <item>Dispatching</item>
-    </string-array>
-    <string-array name="express_status_detail_flag">
-        <item>0</item>
-        <item>5</item>
-    </string-array>
-    <string-array name="express_status_flag_all">
-        <item>0</item>
-        <item>5</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>6</item>
-        <item>-1</item>
-    </string-array>
     <string-array name="stock_color_schema">
         <item>Red - up, green - down</item>
         <item>Green - up, red - down</item>
@@ -287,32 +259,6 @@
         <item>@string/setting_world_cup_f</item>
         <item>@string/setting_world_cup_g</item>
         <item>@string/setting_world_cup_h</item>
-    </string-array>
-    <string-array name="default_app">
-        <item>com.xiaomi.shop/com.xiaomi.shop2.plugin.PluginChildActivity</item>
-        <item>com.tmall.wireless/.orderlogistics.ui.TMLogisticsActivity</item>
-        <item>com.taobao.taobao/com.taobao.cainiao.logistic.LogisticDetailActivity</item>
-    </string-array>
-    <string-array name="express_watched_app">
-        <item>com.tmall.wireless.orderlogistics.ui.TMLogisticsActivity</item>
-        <item>com.taobao.cainiao.logistic.LogisticDetailActivity</item>
-        <item>com.xiaomi.shop2.plugin.PluginChildActivity</item>
-    </string-array>
-    <string-array name="express_watched_app_company_id">
-        <item>partner_name</item>
-        <item>tv_logistic_company</item>
-        <item>order_express_text,express_name_tv</item>
-    </string-array>
-    <string-array name="express_watched_app_filter">
-        <item>承运公司:</item>
-        <item>运单编号:</item>
-        <item>信息来源：</item>
-        <item>物流信息：</item>
-    </string-array>
-    <string-array name="express_watched_app_order_number_id">
-        <item>mail_no</item>
-        <item>tv_logistic_waybill_number</item>
-        <item>order_express_sn,deliver_id_tv</item>
     </string-array>
     <string-array name="keyword_recommend_unit">
         <item>要</item>
