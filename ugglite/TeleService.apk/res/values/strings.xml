@@ -384,7 +384,7 @@
   <string name="card_title_dialing">Dialing</string>
   <string name="card_title_forwardcheckreceived">Forwarded call checked &amp; received</string>
   <string name="card_title_forwarded_MTcall">Forwarded incoming call</string>
-  <string name="card_title_hanging_up">Hanging up</string>
+  <string name="card_title_hanging_up">"Hanging up "</string>
   <string name="card_title_in_call">In call</string>
   <string name="card_title_incoming_barred">Incoming calls barred</string>
   <string name="card_title_incoming_call">Incoming call</string>
@@ -919,7 +919,7 @@ Switch to the new provider anyway?"</string>
   <string name="mobile_data_always_on">Cellular data always active</string>
   <string name="mobile_data_always_on_summary">Always keep mobile data active, even when WLAN is active (for fast network switching).</string>
   <string name="mobile_network_settings_not_available">"Mobile network settings aren't available for this user"</string>
-  <string name="mobile_networks">Mobile network settings</string>
+  <string name="mobile_networks">Cellular network settings</string>
   <string name="mock_location_app">Select mock location app</string>
   <string name="mock_location_app_not_set">No mock location app set</string>
   <string name="mock_location_app_set">Mock location app: %1$s</string>
