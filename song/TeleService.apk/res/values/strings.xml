@@ -296,7 +296,7 @@
   <string name="card_title_call_ended">Call ended</string>
   <string name="card_title_conf_call">Conference call</string>
   <string name="card_title_dialing">Dialing</string>
-  <string name="card_title_hanging_up">Hanging up</string>
+  <string name="card_title_hanging_up">"Hanging up "</string>
   <string name="card_title_in_call">In call</string>
   <string name="card_title_incoming_call">Incoming call</string>
   <string name="card_title_on_hold">On hold</string>
