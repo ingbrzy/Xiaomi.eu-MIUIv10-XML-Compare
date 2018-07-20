@@ -248,7 +248,7 @@
   <string name="app_manager_unstall_application">Uninstall</string>
   <string name="app_managere_not_have_app">Empty</string>
   <string name="app_manger_des_separator">", "</string>
-  <string name="app_mobile">Mobile</string>
+  <string name="app_mobile">Mobile data</string>
   <string name="app_name">App lock</string>
   <string name="app_name_na">Data usage</string>
   <string name="app_name_securitycenter">Security</string>
@@ -855,8 +855,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_first_window_antimsg_summary_quick_answer">Use quick replies</string>
   <string name="gb_first_window_antimsg_summary_transparent_show">See text on transparent background</string>
   <string name="gb_first_window_antimsg_title">Convenient notifications</string>
-  <string name="gb_first_window_gamebox_summary_four">Clear cache, make screen recordings and screenshots</string>
-  <string name="gb_first_window_gamebox_summary_six">Use quick replies, make screen recordings and screenshots</string>
+  <string name="gb_first_window_gamebox_summary_four">Use quick replies, make screen recordings and screenshots</string>
+  <string name="gb_first_window_gamebox_summary_six">Clear cache, make screen recordings and screenshots</string>
   <string name="gb_first_window_handsfree_summary">Turn on speaker automatically</string>
   <string name="gb_first_window_handsfree_title">Hands-free calls</string>
   <string name="gb_first_window_start">Start playing</string>
@@ -1334,7 +1334,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="network_speed_for_apps_title">Connection</string>
   <string name="network_speed_for_apps_total">Connection speed</string>
   <string name="network_test_speed">Test WLAN speed</string>
-  <string name="network_traffic_warning_text">"MIUI can't calculate data usage stats for individual system apps here.You will be able to see the data usage related info in the app details in case this app is using mobile data actively."</string>
+  <string name="network_traffic_warning_text">"MIUI can't calculate data usage stats for individual system apps here. You will be able to see the data usage related info in the app details in case this app is using mobile data actively."</string>
   <string name="network_traffic_warning_title">Data usage for system apps</string>
   <string name="networkchanged_exception_summary">Network connection has changed. Test again.</string>
   <string name="networkchanged_exception_title">Connection changed</string>
@@ -1564,7 +1564,7 @@ This activity shortens battery life."</string>
   <string name="power_btn_analyze">Analyze battery usage</string>
   <string name="power_cell">Cell standby</string>
   <string name="power_center_auto_shutdown">Schedule power on/off</string>
-  <string name="power_center_back">Back to Battery usage</string>
+  <string name="power_center_back">Back</string>
   <string name="power_center_charge_time">%1$suntil full</string>
   <string name="power_center_main_percent_formatted">%s%%</string>
   <string name="power_center_ontime_boot">Power on time</string>
