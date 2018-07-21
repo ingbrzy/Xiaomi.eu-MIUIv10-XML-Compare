@@ -680,6 +680,7 @@ test fail!"</string>
   <string name="confirm">确认</string>
   <string name="continue_vibrator">Continue vibrator</string>
   <string name="copyright">Copyright © 2015 Goodix All Rights Reserved.</string>
+  <string name="current_angle">Current Angle:</string>
   <string name="data_address">数据保存的文件地址 ：</string>
   <string name="delete">Delete</string>
   <string name="description_info">Info</string>
@@ -1027,6 +1028,13 @@ Please plug out the charger and reverse plug in."</string>
   <string name="sample_data">sample data</string>
   <string name="sample_hint">extract %1$s samples for one finger</string>
   <string name="sample_progress_hint">wait for extracting sample datas</string>
+  <string name="sar_sensor_calibrate">Start Calibrate</string>
+  <string name="sar_sensor_calibrate_fail">Sar Sensor calibrate fail</string>
+  <string name="sar_sensor_calibrate_success">Sar Sensor calibrate success</string>
+  <string name="sar_sensor_test_description">Sar Sensor Calibrate and Data Collect</string>
+  <string name="sar_sensor_test_summary">"Rotate the phone, put it to the fixture
+Click the Start Calibrate button
+After calibrate success, control the fixture close and away from the phone"</string>
   <string name="screen_off_fail_retry">灭屏解锁失败重试次数：</string>
   <string name="screen_on_fail_retry">亮屏解锁失败重试次数：</string>
   <string name="search_menu_title">Search</string>
@@ -1173,6 +1181,10 @@ Please click the appropriate button according to the number you hear"</string>
   <string name="testing">AutoTest Running...</string>
   <string name="timeout">超时</string>
   <string name="timeout_before_press">超时，需在%ds内按下手指，返回重来。</string>
+  <string name="tips_not_placed_right_angle">Phone not placed right angle</string>
+  <string name="tips_show_calibrate_result">Show calibrate resutl</string>
+  <string name="tips_show_current_angle">Show current angle</string>
+  <string name="tips_show_current_sar_sensor_data">Show current sensor data</string>
   <string name="titile_frr_far_record_setting">录入设置</string>
   <string name="titile_frr_far_test_setting">测试设置</string>
   <string name="title_about">about</string>
