@@ -53,43 +53,39 @@
     <array name="config_autoBrightnessButtonBacklightValues" />
     <array name="config_autoBrightnessKeyboardBacklightValues" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>2</item>
-        <item>2</item>
-        <item>2</item>
-        <item>8</item>
-        <item>8</item>
-        <item>8</item>
-        <item>8</item>
-        <item>8</item>
-        <item>8</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>12</item>
+        <item>15</item>
+        <item>17</item>
         <item>18</item>
-        <item>18</item>
-        <item>18</item>
-        <item>27</item>
-        <item>27</item>
-        <item>27</item>
-        <item>32</item>
-        <item>32</item>
-        <item>32</item>
+        <item>20</item>
+        <item>22</item>
+        <item>29</item>
         <item>37</item>
-        <item>46</item>
-        <item>49</item>
-        <item>52</item>
-        <item>53</item>
-        <item>59</item>
-        <item>61</item>
-        <item>64</item>
-        <item>70</item>
-        <item>77</item>
-        <item>85</item>
-        <item>97</item>
-        <item>107</item>
-        <item>120</item>
-        <item>131</item>
-        <item>149</item>
-        <item>175</item>
-        <item>186</item>
-        <item>209</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>55</item>
+        <item>62</item>
+        <item>62</item>
+        <item>72</item>
+        <item>76</item>
+        <item>82</item>
+        <item>90</item>
+        <item>101</item>
+        <item>105</item>
+        <item>110</item>
+        <item>119</item>
+        <item>143</item>
+        <item>190</item>
+        <item>214</item>
+        <item>240</item>
         <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
@@ -109,27 +105,23 @@
         <item>30</item>
         <item>40</item>
         <item>50</item>
-        <item>80</item>
-        <item>110</item>
-        <item>155</item>
-        <item>173</item>
+        <item>70</item>
+        <item>150</item>
         <item>300</item>
-        <item>387</item>
-        <item>492</item>
-        <item>533</item>
-        <item>726</item>
-        <item>883</item>
-        <item>1023</item>
-        <item>1222</item>
-        <item>1501</item>
-        <item>1733</item>
-        <item>2034</item>
-        <item>2227</item>
-        <item>2517</item>
-        <item>3042</item>
-        <item>3495</item>
-        <item>3998</item>
-        <item>4472</item>
+        <item>400</item>
+        <item>520</item>
+        <item>600</item>
+        <item>700</item>
+        <item>900</item>
+        <item>1100</item>
+        <item>1200</item>
+        <item>1300</item>
+        <item>1500</item>
+        <item>1800</item>
+        <item>2400</item>
+        <item>2800</item>
+        <item>3500</item>
+        <item>4000</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLuxLevels">
         <item>2</item>
@@ -274,8 +266,7 @@
         <item>/system/framework/oat/arm/services.odex</item>
     </string-array>
     <string-array name="config_locationProviderPackageNames">
-        <item>com.xiaomi.location.fused</item>
-        <item>com.xiaomi.metoknlp</item>
+        <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
     </string-array>
     <integer-array name="config_longPressVibePattern">
