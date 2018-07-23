@@ -65,6 +65,8 @@
 
 .field public static final IS_D2A:Z
 
+.field public static final IS_D2T:Z
+
 .field public static final IS_D3:Z
 
 .field public static final IS_D4:Z
@@ -744,6 +746,16 @@
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_E4:Z
 
+    const-string/jumbo v0, "platina"
+
+    sget-object v1, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_D2T:Z
+
     sget-boolean v0, Lmiui/os/Build;->IS_STABLE_VERSION:Z
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_STABLE:Z
@@ -996,14 +1008,14 @@
     return v0
 .end method
 
-.method public static iSSensorHasLatency()Z
+.method public static getScreenLightAheadTime()I
     .locals 2
 
-    const-string/jumbo v0, "sensor_has_latency"
+    const-string/jumbo v0, "support_camera_screen_light_ahead_time"
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -1694,6 +1706,20 @@
     return v0
 .end method
 
+.method public static isSensorHasLatency()Z
+    .locals 2
+
+    const-string/jumbo v0, "sensor_has_latency"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static isSubThreadFrameListener()Z
     .locals 2
 
@@ -1933,6 +1959,20 @@
     const/4 v0, 0x0
 
     goto :goto_0
+.end method
+
+.method public static isSupportScreenLight()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_screen_light"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
 .end method
 
 .method public static isSupportSquare()Z
@@ -2621,50 +2661,24 @@
 .end method
 
 .method public static isSupportedPortraitZoom()Z
-    .locals 3
+    .locals 2
 
-    const/4 v1, 0x0
-
-    sget-boolean v2, Lcom/android/camera/Device;->IS_E7S:Z
-
-    if-eqz v2, :cond_1
-
-    const-string/jumbo v2, "ro.boot.hwc"
-
-    invoke-static {v2}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
+    const/4 v0, 0x0
 
     invoke-static {}, Lcom/android/camera/Device;->isSupportedPortrait()Z
 
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    const-string/jumbo v1, "India"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
     move-result v1
+
+    if-eqz v1, :cond_0
+
+    const-string/jumbo v1, "camera_support_portrait_zoom"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
 
     :cond_0
-    return v1
-
-    :cond_1
-    invoke-static {}, Lcom/android/camera/Device;->isSupportedPortrait()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_2
-
-    const-string/jumbo v2, "camera_support_portrait_zoom"
-
-    invoke-static {v2, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v1
-
-    :cond_2
-    return v1
+    return v0
 .end method
 
 .method public static isSupportedQuickSnap()Z

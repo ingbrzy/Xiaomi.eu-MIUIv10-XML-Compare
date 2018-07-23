@@ -2253,7 +2253,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="instant_app_details_summary">More info on %1$s</string>
   <string name="instant_apps_account">Instant apps account</string>
   <string name="instruction_privacy_password">This password protects the following items</string>
-  <string name="instruction_title">Instructions</string>
+  <string name="instruction_title">Important safety information</string>
   <string name="insufficient_storage">Not enough storage space.</string>
   <string name="intent_sender_account_label">Account:</string>
   <string name="intent_sender_action_label">Action:</string>
@@ -4555,6 +4555,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_led_custom">Custom color</string>
   <string name="status_bar_settings_notification_priority">Priority</string>
   <string name="status_bar_settings_notification_priority_summary">Show notifications at the top of the list</string>
+  <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
@@ -4764,6 +4765,8 @@ Consider using a faster ^1 for better performance."</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
   <string name="structure_add_facerecoginition_text">Add 3D face data</string>
+  <string name="structure_face_enroll_not_able_low_electric_itle">"Can't use this feature due to low battery"</string>
+  <string name="structure_face_enroll_not_able_low_electric_msg">Battery must be at least 5% charged to start recording.</string>
   <string name="structure_manage_facerecoginition_text">Manage 3D face data</string>
   <string name="suggest_unrestrict_max_aspect_ratio_title">These apps work best in fullscreen mode</string>
   <string name="suggested_fingerprint_lock_settings_summary">Unlock with your fingerprint</string>

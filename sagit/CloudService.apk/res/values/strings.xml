@@ -14,6 +14,7 @@
   <string name="button_cancel">Cancel</string>
   <string name="calendar_sync">Calendar</string>
   <string name="click_to_enabled">Touch to sync.</string>
+  <string name="close_shortcut">Close</string>
   <string name="cloud_find_device">Find Device</string>
   <string name="cloud_find_device_off">Off</string>
   <string name="cloud_find_device_on">On</string>
