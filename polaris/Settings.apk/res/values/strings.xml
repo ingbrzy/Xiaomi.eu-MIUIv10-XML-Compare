@@ -1028,7 +1028,6 @@ This feature can be turned off in [Settings]"</string>
   <string name="cancel_action">Cancel</string>
   <string name="cancel_alert">Discard your changes?</string>
   <string name="cancel_button">Cancel</string>
-  <string name="cancel_description">Cancel</string>
   <string name="cancel_download_buton_text">Cancel</string>
   <string name="cant_sync_dialog_message">Sync for this item is currently disabled. To change this setting, temporarily turn on background data and automatic sync.</string>
   <string name="cant_sync_dialog_title">Can’t manually sync</string>
@@ -1177,7 +1176,6 @@ This feature can be turned off in [Settings]"</string>
   <string name="confirm_action">OK</string>
   <string name="confirm_bind_xiaomi_account_dialog_title">Add</string>
   <string name="confirm_convert_to_fbe_warning">Really wipe user data and convert to file encryption?</string>
-  <string name="confirm_description">Confirm</string>
   <string name="confirm_download_cancelation_dialog_message">Cancel download?</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
@@ -4941,8 +4939,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
   <string name="total">DND</string>
-  <string name="total_info">Silence sounds %1$sexcept for the alarms</string>
-  <string name="total_info_sub">and turn off vibration</string>
+  <string name="total_info">Silence sounds and turn off vibration except for the alarms</string>
+  <string name="total_info_no_vibrator">Silence sounds except for the alarms</string>
   <string name="total_memory">Total memory</string>
   <string name="total_size">%s total</string>
   <string name="total_size_label">Total</string>
