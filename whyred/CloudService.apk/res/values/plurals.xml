@@ -25,8 +25,8 @@
         <item quantity="one">%d call history record</item>
     </plurals>
     <plurals name="dirty_wlan_count">
-        <item quantity="other">%d WLAN networks</item>
-        <item quantity="one">%d WLAN network</item>
+        <item quantity="other">%d Wi-Fi networks</item>
+        <item quantity="one">%d Wi-Fi network</item>
     </plurals>
     <plurals name="dirty_recorder_count">
         <item quantity="other">%d records</item>

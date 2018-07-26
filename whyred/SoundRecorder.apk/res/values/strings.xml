@@ -57,7 +57,7 @@
   <string name="network_tip_dialog_title">Internet connection is required</string>
   <string name="new_record_name">New recording</string>
   <string name="no_file">Empty</string>
-  <string name="notification_message_all_paused">Waiting for WLAN connection.</string>
+  <string name="notification_message_all_paused">Waiting for Wi-Fi connection.</string>
   <string name="notification_playback">Playing…</string>
   <string name="notification_recording">Recording…</string>
   <string name="notification_recording_ticker">Phone muted</string>
@@ -151,7 +151,7 @@
   <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
   <string name="toast_max_record_time">%1$s can record for about %2$s</string>
   <string name="toast_uninstall_fileexplorer">"File Manager isn't installed"</string>
-  <string name="wifi_recommended_body" formatted="false">Using your mobile data connection to download this file (%s) will increase your data usage. If you go over your plan’s data usage limit, your carrier could charge you additional fees. To wait for a WLAN connection to download this file, tap %s.</string>
+  <string name="wifi_recommended_body" formatted="false">Using your mobile data connection to download this file (%s) will increase your data usage. If you go over your plan’s data usage limit, your carrier could charge you additional fees. To wait for a Wi-Fi connection to download this file, tap %s.</string>
   <string name="wifi_recommended_title">Data usage warning</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
 </resources>

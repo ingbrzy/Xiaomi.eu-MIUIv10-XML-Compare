@@ -793,4 +793,5 @@
         <item>@string/pref_camera_beautify_entryvalue_9</item>
         <item>@string/pref_camera_beautify_entryvalue_10</item>
     </string-array>
+    <array name="support_face_beauty_type" />
 </resources>

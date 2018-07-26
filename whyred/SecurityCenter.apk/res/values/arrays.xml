@@ -27,18 +27,18 @@
         <item>Today (data)</item>
         <item>Last month (data)</item>
         <item>This month (data)</item>
-        <item>Yesterday WLAN</item>
-        <item>Today WLAN</item>
-        <item>Last month WLAN</item>
-        <item>This month WLAN</item>
+        <item>Yesterday Wi-Fi</item>
+        <item>Today Wi-Fi</item>
+        <item>Last month Wi-Fi</item>
+        <item>This month Wi-Fi</item>
     </string-array>
     <string-array name="traffic_type">
         <item>"Mobile usage "</item>
-        <item>"WLAN usage "</item>
+        <item>"Wi-Fi usage "</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
         <item>"Mobile usage "</item>
-        <item>"WLAN usage "</item>
+        <item>"Wi-Fi usage "</item>
     </string-array>
     <string-array name="over_limit_traffic_waring_style">
         <item>Show warning</item>

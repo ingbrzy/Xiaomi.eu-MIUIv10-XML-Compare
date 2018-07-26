@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
+    <string-array name="menu_theme_setting">
+        <item>White</item>
+        <item>Yellow</item>
+        <item>Grey</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
         <item>Page back forward</item>
         <item>Switch tabs</item>
@@ -42,54 +77,34 @@
         <item>Message from Browser</item>
         <item>Follow the Olympics with Mi</item>
     </string-array>
-    <string-array name="suggestion_topic_tips">
-        <item>Watching Focus</item>
-        <item>Central Issue</item>
-    </string-array>
-    <string-array name="suggestion_weather_condition_message">
+    <string-array name="weather_type">
         <item>Clear</item>
-        <item>Partly cloudy</item>
         <item>Cloudy</item>
-        <item>Shower</item>
-        <item>Thunderstorm</item>
-        <item>Hail</item>
-        <item>Sleet</item>
-        <item>Light rain</item>
-        <item>Moderate rain</item>
-        <item>Heavy rain</item>
+        <item>Overcast</item>
+        <item>Foggy</item>
+        <item>Heavy rainstorm</item>
+        <item>Downpour</item>
         <item>Rainstorm</item>
-        <item>Torrential rain</item>
-        <item>Extreme rainstorm</item>
-        <item>Snow shower</item>
-        <item>Light snow</item>
-        <item>Moderate snow</item>
-        <item>Heavy snow</item>
+        <item>Thunderstorm</item>
+        <item>Shower</item>
+        <item>Heavy rainfall</item>
+        <item>Moderate rain</item>
+        <item>Light rain</item>
+        <item>Rain and snow mixed</item>
         <item>Blizzard</item>
-        <item>Fog</item>
-        <item>Freezing rain</item>
-        <item>Sandstorm</item>
-        <item>Light to moderate rain</item>
-        <item>Moderate to heavy rain</item>
-        <item>Heavy to torrential rain</item>
-        <item>Torrential rain to downpour</item>
-        <item>Downpour to extreme rainstorm</item>
-        <item>Light to moderate snow</item>
-        <item>Moderate to heavy snow</item>
-        <item>Heavy snow to blizzard</item>
-        <item>Floating dust</item>
-        <item>Raising sand</item>
-        <item>Sandstorm</item>
-        <item>Dense fog</item>
-        <item>Strong fog</item>
-        <item>Haze</item>
-        <item>Moderate haze</item>
-        <item>Heavy haze</item>
-        <item>Severe haze</item>
-        <item>Dense fog</item>
-        <item>Strong dense fog</item>
-        <item>None</item>
-        <item>Rain</item>
         <item>Snow</item>
+        <item>Heavy snow</item>
+        <item>Moderate snow</item>
+        <item>Light snow</item>
+        <item>Strong sandstorm</item>
+        <item>Sand storm</item>
+        <item>Sand</item>
+        <item>Windy</item>
+        <item>Hail</item>
+        <item>Dust</item>
+        <item>Haze</item>
+        <item>Freezing rain</item>
+        <item></item>
     </string-array>
     <string-array name="baidu">
         <item>百度</item>
@@ -153,8 +168,8 @@
         <item>http://www.bbc.co.uk/</item>
     </string-array>
     <string-array name="bookmarks_cm_customization">
-        <item>MM网</item>
-        <item>http://a.10086.cn/j/6061/</item>
+        <item>MM综合门户</item>
+        <item>http://mm.10086.cn/a/j/2743/</item>
         <item>手机阅读</item>
         <item>http://wap.cmread.com</item>
         <item>手机游戏</item>
@@ -162,19 +177,35 @@
         <item>手机视频</item>
         <item>http://wap.cmvideo.cn</item>
         <item>无线音乐</item>
-        <item>http://m.10086.cn/wireless/html5/index.html</item>
-        <item>冲浪网址</item>
-        <item>http://go.10086.cn/?coc=6GG2GGRq</item>
+        <item>http://m.10086.cn</item>
+        <item>12580</item>
+        <item>http://12580wap.10086.cn/?pid=PCM002942000</item>
         <item>飞信首页</item>
         <item>http://f.10086.cn</item>
         <item>139邮箱</item>
         <item>http://mail.10086.cn</item>
-        <item>12580</item>
-        <item>http://12580wap.10086.cn/?pid=PCM002942000</item>
+        <item>冲浪网址</item>
+        <item>http://go.10086.cn/?coc=6GG2GGRq</item>
     </string-array>
     <string-array name="bookmarks_cu_customization">
         <item>沃门户</item>
         <item>http://www.wo.com.cn</item>
+    </string-array>
+    <string-array name="bookmarks_es_telcel">
+        <item>Telcel</item>
+        <item>http://www.telcel.com</item>
+        <item>Mi Telcel</item>
+        <item>http://www.telcel.com/mitelcel</item>
+        <item>Marca Claro</item>
+        <item>http://www.marcaclaro.com</item>
+    </string-array>
+    <string-array name="bookmarks_es_vodafone">
+        <item>Mi Web</item>
+        <item>http://miweb.vodafone.es</item>
+        <item>Vodafone Start</item>
+        <item>http://start.vodafone.com</item>
+        <item>Mi Vodafone</item>
+        <item>http://m.vodafone.es</item>
     </string-array>
     <string-array name="bookmarks_zh">
         <item>小米论坛</item>
@@ -246,6 +277,14 @@
         <item>0xFFDBACB6</item>
     </integer-array>
     <array name="mw_config_keySystemUuidMapping" />
+    <string-array name="only_google">
+        <item>Google</item>
+        <item>google.com</item>
+        <item>http://www.google.com/favicon.ico</item>
+        <item>http://www.google.com/search?hl={language}&amp;ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}&amp;client=ms-{clientidbase}</item>
+        <item>UTF-8</item>
+        <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;market={language}</item>
+    </string-array>
     <string-array name="pref_data_preload_values">
         <item>@string/pref_data_preload_value_never</item>
         <item>@string/pref_data_preload_value_wifi_only</item>
@@ -297,19 +336,19 @@
         <item>@string/pref_video_preload_value_always</item>
     </string-array>
     <integer-array name="readmode_theme_bgcolors">
-        <item>0xFFFFFFFF</item>
-        <item>0xFFF0E1CE</item>
-        <item>0xFFE0CDB5</item>
-        <item>0xFFB7CFC1</item>
-        <item>0xFFD1D1D1</item>
+        <item>0xFFF7F7F7</item>
+        <item>0xFFE6DDD1</item>
+        <item>0xFFD8D8D8</item>
+        <item>0xFFCDC3B5</item>
+        <item>0xFFB0C0B6</item>
         <item>0xFF111214</item>
     </integer-array>
     <integer-array name="readmode_theme_fontcolors">
         <item>0xFF000000</item>
-        <item>0xFFE6CBA8</item>
-        <item>0xFFD7BC99</item>
-        <item>0xFF8CB49D</item>
-        <item>0xFFB3B3B3</item>
+        <item>0xFF737770</item>
+        <item>0xFF3E4042</item>
+        <item>0xFF543B20</item>
+        <item>0xFF2E3833</item>
         <item>0xFF646974</item>
     </integer-array>
     <string-array name="s139">
@@ -339,6 +378,9 @@
     <string-array name="search_bar_search_engines_default">
         <item>google</item>
         <item>bing</item>
+    </string-array>
+    <string-array name="search_bar_search_engines_only_google">
+        <item>google</item>
     </string-array>
     <string-array name="search_bar_search_engines_rCN">
         <item>baidu</item>
@@ -407,51 +449,6 @@
         <item>search_sogou</item>
         <item>ic_search_engine_sogou</item>
         <item>sogou</item>
-    </string-array>
-    <string-array name="suggestion_weather_condition_code">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
-        <item>32</item>
-        <item>49</item>
-        <item>53</item>
-        <item>54</item>
-        <item>55</item>
-        <item>56</item>
-        <item>57</item>
-        <item>58</item>
-        <item>99</item>
-        <item>301</item>
-        <item>33</item>
     </string-array>
     <string-array name="taobao">
         <item>淘宝</item>
