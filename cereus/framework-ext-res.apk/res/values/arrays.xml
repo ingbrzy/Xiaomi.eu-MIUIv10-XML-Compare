@@ -39,6 +39,7 @@
         <item>android.process.acore</item>
         <item>com.miui.wmsvc</item>
         <item>com.miui.greenguard</item>
+        <item>com.miui.securitycore</item>
         <item>com.miui.miwallpaper</item>
         <item>com.miui.contentextension</item>
         <item>com.xiaomi.mimobile.cloudsim</item>
