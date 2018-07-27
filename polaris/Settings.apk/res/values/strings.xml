@@ -2964,8 +2964,6 @@ Select your operating system:"</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
-  <string name="navigation_guide_back_anim_summary">"Show animation while you're swiping from the edge of the screen"</string>
-  <string name="navigation_guide_back_anim_title">Animate the \"Go back\" gesture</string>
   <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
   <string name="navigation_guide_back_title">Go back</string>
   <string name="navigation_guide_dialog_dont_show_again">"Don't show again"</string>
@@ -3356,6 +3354,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="picture_in_picture_title">Picture-in-picture</string>
   <string name="pin_failed">SIM PIN operation failed!</string>
   <string name="ping_test_label">Run Ping Test</string>
+  <string name="play_pause_description">Play Pause Button</string>
   <string name="please_select_phase2">Phase 2 authentication</string>
   <string name="please_type_passphrase">Password</string>
   <string name="pointer_location">Pointer location</string>
