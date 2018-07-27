@@ -234,7 +234,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_wifi_framework_sap_2G_channel_list">1,6,11</string>
   <string name="config_wifi_p2p_device_type">10-0050F204-5</string>
   <string name="config_wifi_random_mac_oui">DA-A1-19</string>
-  <string name="config_wifi_tcp_buffers">524288,1048576,5505024,262144,524288,5505024</string>
+  <string name="config_wifi_tcp_buffers">524288,1048576,2097152,262144,524288,1048576</string>
   <string name="config_wifi_tether_enable">com.android.settings/.TetherService</string>
   <string name="config_wimaxManagerClassname"/>
   <string name="config_wimaxNativeLibLocation"/>
@@ -633,10 +633,16 @@ Try again in %d seconds."</string>
   <string name="locale_codes"/>
   <string name="locale_replacement"/>
   <string name="lock_pattern_view_aspect">square</string>
+  <string name="lock_to_app_description">"Screen pinning locks the display in a single view.
+
+To unpin, press and hold Home and the Power button at the same time."</string>
+  <string name="lock_to_app_description_accessible">"Screen pinning locks the display in a single view.
+
+To unpin, press and hold Home and the Power button at the same time."</string>
   <string name="lock_to_app_exit">Screen unpinned</string>
   <string name="lock_to_app_start">Screen pinned</string>
-  <string name="lock_to_app_toast">To unpin this screen, touch and hold Back and Overview at the same time.</string>
-  <string name="lock_to_app_toast_accessible">To unpin this screen, touch and hold Overview.</string>
+  <string name="lock_to_app_toast">To unpin this screen, press and hold Home and the Power button at the same time.</string>
+  <string name="lock_to_app_toast_accessible">To unpin this screen, press and hold Home and the Power button at the same time.</string>
   <string name="lock_to_app_toast_locked">"App is pinned: Unpinning isn't allowed on this device."</string>
   <string name="lock_to_app_unlock_password">Ask for password before unpinning</string>
   <string name="lock_to_app_unlock_pattern">Ask for unlock pattern before unpinning</string>
@@ -677,7 +683,7 @@ Visit "&lt;b&gt;google.com/accounts/recovery&lt;/b&gt;.</string>
   <string name="lockscreen_pattern_instructions">Draw pattern to unlock</string>
   <string name="lockscreen_pattern_wrong">Try again</string>
   <string name="lockscreen_permanent_disabled_sim_instructions">"Your SIM card has been permanently disabled.
- Contact your wireless service provider for another SIM card."</string>
+Contact your wireless service provider for another SIM card."</string>
   <string name="lockscreen_permanent_disabled_sim_message_short">Unusable SIM card.</string>
   <string name="lockscreen_return_to_call">Return to call</string>
   <string name="lockscreen_screen_locked">Screen locked.</string>
@@ -1300,13 +1306,13 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="sms_control_no">Deny</string>
   <string name="sms_control_title">Sending SMS messages</string>
   <string name="sms_control_yes">Allow</string>
-  <string name="sms_premium_short_code_details">&lt;b&gt;This will cause charges on your mobile account.&lt;/b&gt;</string>
+  <string name="sms_premium_short_code_details">This will cause charges on your mobile account.</string>
   <string name="sms_short_code_confirm_allow">Send</string>
   <string name="sms_short_code_confirm_always_allow">Always Allow</string>
   <string name="sms_short_code_confirm_deny">Cancel</string>
   <string name="sms_short_code_confirm_message">&lt;b&gt;%1$s&lt;/b&gt; would like to send a message to &lt;b&gt;%2$s&lt;/b&gt;.</string>
   <string name="sms_short_code_confirm_never_allow">Never Allow</string>
-  <string name="sms_short_code_details">This &lt;b&gt;may cause charges&lt;/b&gt; on your mobile account.</string>
+  <string name="sms_short_code_details">This may cause charges on your mobile account.</string>
   <string name="sms_short_code_remember_choice">Remember my choice</string>
   <string name="sms_short_code_remember_undo_instruction">You can change this later in Settings &gt; Apps</string>
   <string name="smv_application">The app %1$s (process %2$s) has violated its self-enforced StrictMode policy.</string>
@@ -1397,11 +1403,11 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="volume_alarm">Alarm volume</string>
   <string name="volume_bluetooth_call">Bluetooth in-call volume</string>
   <string name="volume_call">In-call volume</string>
-  <string name="volume_icon_description_bluetooth">Bluetooth volume</string>
-  <string name="volume_icon_description_incall">Call volume</string>
-  <string name="volume_icon_description_media">Media volume</string>
-  <string name="volume_icon_description_notification">Notification volume</string>
-  <string name="volume_icon_description_ringer">Ringtone volume</string>
+  <string name="volume_icon_description_bluetooth">Bluetooth</string>
+  <string name="volume_icon_description_incall">Call</string>
+  <string name="volume_icon_description_media">Media</string>
+  <string name="volume_icon_description_notification">Notification</string>
+  <string name="volume_icon_description_ringer">Ringer</string>
   <string name="volume_music">Media volume</string>
   <string name="volume_music_hint_playing_through_bluetooth">Playing through Bluetooth</string>
   <string name="volume_music_hint_silent_ringtone_selected">Silent ringtone set</string>

@@ -126,49 +126,7 @@
         <item>@drawable/progress_horizontal</item>
         <item>@drawable/edit_text</item>
     </array>
-    <array name="preloaded_color_state_lists">
-        <item>@color/primary_text_dark</item>
-        <item>@color/primary_text_dark_disable_only</item>
-        <item>@color/primary_text_dark_nodisable</item>
-        <item>@color/primary_text_disable_only_holo_dark</item>
-        <item>@color/primary_text_disable_only_holo_light</item>
-        <item>@color/primary_text_holo_dark</item>
-        <item>@color/primary_text_holo_light</item>
-        <item>@color/primary_text_light</item>
-        <item>@color/primary_text_light_disable_only</item>
-        <item>@color/primary_text_light_nodisable</item>
-        <item>@color/primary_text_nodisable_holo_dark</item>
-        <item>@color/primary_text_nodisable_holo_light</item>
-        <item>@color/secondary_text_dark</item>
-        <item>@color/secondary_text_dark_nodisable</item>
-        <item>@color/secondary_text_holo_dark</item>
-        <item>@color/secondary_text_holo_light</item>
-        <item>@color/secondary_text_light</item>
-        <item>@color/secondary_text_light_nodisable</item>
-        <item>@color/secondary_text_nodisable_holo_dark</item>
-        <item>@color/secondary_text_nodisable_holo_light</item>
-        <item>@color/secondary_text_nofocus</item>
-        <item>@color/hint_foreground_dark</item>
-        <item>@color/hint_foreground_holo_dark</item>
-        <item>@color/hint_foreground_holo_light</item>
-        <item>@color/hint_foreground_light</item>
-        <item>@color/bright_foreground_light</item>
-        <item>@color/bright_foreground_dark</item>
-        <item>@color/tab_indicator_text</item>
-        <item>#ff000000</item>
-        <item>#00000000</item>
-        <item>#ffffffff</item>
-        <item>@color/background_cache_hint_selector_material_dark</item>
-        <item>@color/background_cache_hint_selector_material_light</item>
-        <item>@color/btn_default_material_dark</item>
-        <item>@color/btn_default_material_light</item>
-        <item>@color/primary_text_disable_only_material_dark</item>
-        <item>@color/primary_text_disable_only_material_light</item>
-        <item>@color/primary_text_material_dark</item>
-        <item>@color/primary_text_material_light</item>
-        <item>@color/search_url_text_material_dark</item>
-        <item>@color/search_url_text_material_light</item>
-    </array>
+    <array name="preloaded_color_state_lists" />
     <string-array name="special_locale_codes">
         <item>ar_EG</item>
         <item>zh_CN</item>
@@ -634,10 +592,10 @@
     </string-array>
     <integer-array name="config_lteDbmThresholds">
         <item>-140</item>
-        <item>-128</item>
-        <item>-118</item>
-        <item>-110</item>
-        <item>-98</item>
+        <item>-140</item>
+        <item>-125</item>
+        <item>-112</item>
+        <item>-102</item>
         <item>-44</item>
     </integer-array>
 </resources>

@@ -97,11 +97,6 @@
   <string name="cut">Cut</string>
   <string name="default_name">Default</string>
   <string name="description_title">Silent mode</string>
-  <string name="editor_pop_dic">Translate</string>
-  <string name="editor_pop_search">Search</string>
-  <string name="editor_pop_share">Send</string>
-  <string name="editor_pop_tel">Call</string>
-  <string name="editor_pop_url">Open URL</string>
   <string name="eighthours">8 hours</string>
   <string name="enable_livetalk_summary">Save 70% on your calling charges</string>
   <string name="enable_livetalk_title">Turn on Top-up package</string>
@@ -132,7 +127,7 @@
   <string name="key_btn_space">Space</string>
   <string name="livetalk_not_enable">Top-up package off</string>
   <string name="location_usage_restricted_body">Tap to allow.</string>
-  <string name="location_usage_restricted_title">Location access restricted</string>
+  <string name="location_usage_restricted_title">Background location restricted</string>
   <string name="lockscreen_access_pattern_cell_added">Cell added</string>
   <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
   <string name="lockscreen_access_pattern_detected">Pattern completed</string>
@@ -141,18 +136,13 @@
   <string name="memory_clear_nothing_result">Nothing to clear in cache</string>
   <string name="memory_clear_result">%1$sB cleared</string>
   <string name="miui">miui</string>
-  <string name="miui_back_and_reenter_information">Open one more page to get a better selfie.</string>
-  <string name="miui_back_and_reenter_title">Open one more page</string>
-  <string name="miui_dialog_not_show_again">"Don't show again"</string>
-  <string name="miui_enter_inversion_mode_information">This will place the camera on top of your device.</string>
-  <string name="miui_enter_inversion_mode_title">Turn your phone upside down</string>
   <string name="miui_forbid_poweroff_when_device_locked">"Can't power off, device is locked."</string>
   <string name="miui_screen_ratio_hint">Screen ratio issues</string>
   <string name="miui_screen_ratio_hint_dont_show_again">"Don't show again"</string>
   <string name="miui_screen_ratio_hint_go_to_settings">Go to Settings</string>
   <string name="miui_screen_ratio_hint_message">This app is allowed to run in the fullscreen mode, which may cause it to be displayed incorrectly. You can change this in Settings &gt; Full screen display.</string>
   <string name="miui_screen_ratio_hint_ok">OK</string>
-  <string name="miui_upgrading_notification_title">System is loading, some features may be limited</string>
+  <string name="miui_upgrading_notification_title">Loading system, some features may not be available.</string>
   <string name="onehour">30 minutes</string>
   <string name="package_delete_confirm_step_1">Uninstall %s?</string>
   <string name="package_delete_confirm_step_2">Uninstalling this app may cause your system to become unstable.</string>
@@ -160,7 +150,7 @@
   <string name="paste">Paste</string>
   <string name="perm_send_push_dspt">Allow Mi push messages</string>
   <string name="perm_send_push_lab">Send push message</string>
-  <string name="permdesc_manageLocationPolicy">Allows app to change location-related permissions and define app-specific rules.</string>
+  <string name="permdesc_manageLocationPolicy">Allows the app to manage location policies and define app-specific rules.</string>
   <string name="permlab_manageLocationPolicy">Location access</string>
   <string name="reboot_confirm_title">Reboot device now?</string>
   <string name="reboot_info_auto_boot">Device is scheduled to power on at %s</string>
@@ -213,7 +203,6 @@
   <string name="status_bar_toggle_cast">Cast</string>
   <string name="status_bar_toggle_data">Mobile data</string>
   <string name="status_bar_toggle_data_action">com.android.phone/.settings.MobileNetworkSettings</string>
-  <string name="status_bar_toggle_drive_mode">Drive mode</string>
   <string name="status_bar_toggle_edit">Sort</string>
   <string name="status_bar_toggle_flight_mode">Airplane</string>
   <string name="status_bar_toggle_flight_mode_action">com.android.settings/com.android.settings.Settings$WirelessSettingsActivity</string>

@@ -7,7 +7,7 @@
   <string name="altitude_uncalibrate_cancel">Cancel</string>
   <string name="altitude_uncalibrate_msg">"Can't calibrate altitude accurately without GPS or mobile data connection."</string>
   <string name="altitude_uncalibrate_refresh">Try again</string>
-  <string name="altitude_uncalibrate_tip">Uncalibrated data</string>
+  <string name="altitude_uncalibrate_tip">"Can't calibrate altitude"</string>
   <string name="altitude_unit">m</string>
   <string name="angle">%.0f</string>
   <string name="app_description_content">Compass is used for navigation and orientation and shows you direction. Make sure you can do without these features before you uninstall the app.</string>

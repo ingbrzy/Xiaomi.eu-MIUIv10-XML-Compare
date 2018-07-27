@@ -372,6 +372,7 @@ Contact cards are turned off"</string>
   <string name="device_import_progress_begin_message">Importing…</string>
   <string name="device_import_progress_end_message">Imported</string>
   <string name="device_import_progress_message">Importing…</string>
+  <string name="device_import_progress_toast">%1$d contacts imported</string>
   <string name="device_import_title">Import</string>
   <string name="device_list_title">Choose a device</string>
   <string name="device_other_guide">Other device supports bluetooth?</string>
@@ -495,6 +496,7 @@ Reason: \"%s\""</string>
   <string name="firewall_setting">Blocklist</string>
   <string name="force_touch_miprofile">Contact card</string>
   <string name="force_touch_new_contact">New contact</string>
+  <string name="foundTooManyContacts">More than %d found.</string>
   <string name="frequentList">Frequent</string>
   <string name="from_account_format">%1$s</string>
   <string name="full_name">Name</string>
@@ -578,6 +580,7 @@ Reason: \"%s\""</string>
   <string name="keep_local">"Don't sync"</string>
   <string name="keep_local_btn">"Use device's internal storage"</string>
   <string name="label_custom_type">Custom</string>
+  <string name="label_duplicate_count">(%1$d)</string>
   <string name="label_no_duplicate_contacts">No duplicates found</string>
   <string name="label_notes">Notes</string>
   <string name="label_sip_address">Internet call</string>
@@ -670,6 +673,7 @@ Reason: \"%s\""</string>
   <string name="menu_splitAggregate">Separate</string>
   <string name="menu_sync_remove">Remove sync group</string>
   <string name="menu_viewContact">View contact</string>
+  <string name="merge_contact_message">%1$d contacts with partially identical info</string>
   <string name="messageShortcutActivityTitle">Choose a number to message</string>
   <string name="miprofile_account_type">Contact cards</string>
   <string name="miprofile_alertdialog_edit">Enter name</string>
@@ -913,7 +917,7 @@ To add a contact to your list of favorites:
   <string name="preference_phone">Device</string>
   <string name="preference_phone_more_title">Call settings</string>
   <string name="preference_remove_duplicate">Merge duplicate contacts</string>
-  <string name="preference_show_firewall_calllog">Show Blocked call logs</string>
+  <string name="preference_show_firewall_calllog">Show blocked calls in call history</string>
   <string name="preference_show_yellowpage_tab_description">Yellow pages might not work properly when this feature is off.</string>
   <string name="preference_show_yellowpage_tab_title">Show Yellow pages</string>
   <string name="preference_simple_mode_description">Display photos and other contact info in list view</string>
@@ -1035,6 +1039,8 @@ To add a contact to your list of favorites:
   <string name="search_wipe_data">Organize;Contacts</string>
   <string name="searching_vcard_message">Searching for vCard data from device…</string>
   <string name="select_all">Select all</string>
+  <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
+  <string name="select_exceed">Select no more than %1$d</string>
   <string name="select_groups">Select groups</string>
   <string name="select_none">No selected items</string>
   <string name="select_show_contacts">Contact list</string>

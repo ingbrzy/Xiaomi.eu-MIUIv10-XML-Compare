@@ -3,15 +3,16 @@
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">ယနေ့</string>
     <string name="tomorrow">မနက်ဖြန်</string>
-    <string name="aqi_pure">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_good">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_moderate">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_pollution">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_unhealthy">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_dangerous">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_hazardous">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_break">'AQI '+#weather_aqilevel</string>
-    <string name="weather_type_0">ကြည်လင်သော</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'ဒေတာ မရှိပါ'</string>
+    <string name="weather_type_0">နေသာသော</string>
     <string name="weather_type_1">မိုးအုံ့</string>
     <string name="weather_type_2">ဝိုးတိုးဝါးတား</string>
     <string name="weather_type_3">မြူဆိုင်းသော</string>
@@ -34,6 +35,6 @@
     <string name="weather_type_20">အားနည်းသော သဲမုန်တိုင်း</string>
     <string name="weather_type_21">သဲမုန်တိုင်း</string>
     <string name="weather_type_22">မိုးသီးကြွေခြင်း</string>
-    <string name="weather_type_23">ဟိုပြေးဒီပြေး ဖုန်မှုန့်များ</string>
+    <string name="weather_type_23">ဖုန်မှုန့်</string>
     <string name="weather_type_24">မြူ</string>
 </resources>

@@ -1,18 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="about_hide_mode">About Battery saver</string>
-  <string name="active_classify">classify by active state</string>
   <string name="app_list_title">Choose apps</string>
   <string name="app_name">Battery and performance</string>
   <string name="app_preload_policies_summary">"Use machine learning to predict the apps you're most likely to use, and load resources in advance."</string>
   <string name="app_preload_policies_title">AI pre-loading</string>
-  <string name="appconfig_active_app_dialog_title">Active app config management</string>
   <string name="base_info">Base info</string>
   <string name="cloud_addr_info">Cloud info</string>
   <string name="cloud_china_addr">Update Chinese server data</string>
   <string name="cloud_international_addr">Update international server data</string>
   <string name="cloud_staging_addr">Update staging server data</string>
-  <string name="config_classify">classify by configure</string>
   <string name="config_description">"MIUI can identify apps with specific background processes (e.g., messaging and navigation apps, media players), and apply Battery saver in a way that won't influence important background activity."</string>
   <string name="config_mode_title">Background settings</string>
   <string name="config_no_restrict_description">"Battery saver doesn't restrict app's activity"</string>

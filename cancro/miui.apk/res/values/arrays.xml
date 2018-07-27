@@ -136,8 +136,6 @@
         <item>@drawable/sliding_btn_slider_on_normal_light</item>
         <item>@drawable/sliding_btn_slider_on_pressed_light</item>
         <item>@drawable/word_photo_bg</item>
-        <item>@drawable/swipe_back_shadow_left</item>
-        <item>@drawable/swipe_back_shadow_right</item>
     </array>
     <string-array name="alphabet_table">
         <item>A</item>

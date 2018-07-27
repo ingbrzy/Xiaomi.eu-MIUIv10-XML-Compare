@@ -457,9 +457,6 @@
   <string name="original_user_signal">Talent team</string>
   <string name="original_user_title">Congratulations on becoming a member of the Talent team!</string>
   <string name="original_user_verify">• Thank you for sticking around!</string>
-  <string name="otg_file_security_confirm">copy to phone</string>
-  <string name="otg_file_security_details">Please copy to phone</string>
-  <string name="otg_file_security_note">OGTSecurity</string>
   <string name="other_user_follow_tab">Following</string>
   <string name="other_user_liked_topic_tip">No topics</string>
   <string name="other_user_no_follow_tip">"You haven't followed anyone yet."</string>

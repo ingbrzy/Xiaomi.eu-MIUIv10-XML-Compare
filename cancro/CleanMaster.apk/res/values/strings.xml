@@ -36,7 +36,7 @@
   <string name="apk_title_alipay_plugin">支付宝插件</string>
   <string name="app_description_content">Cleaner finds trash on your device and frees up storage space. Make sure you can do without these features before you uninstall the app.</string>
   <string name="app_description_title">About Cleaner</string>
-  <string name="app_name">Cheetah Mobile CleanMaster SDK</string>
+  <string name="app_name">JunkEngine</string>
   <string name="app_usage_never">Not recently used</string>
   <string name="app_usage_recently">Used recently</string>
   <string name="apps_sort_type_item_size">Size</string>
@@ -126,14 +126,13 @@
   <string name="clip_board_history_desc">Copied/cut contents</string>
   <string name="clipboard">Clipboard</string>
   <string name="close">Close</string>
-  <string name="close_debug_mode">Click %1$d to close debug switch</string>
   <string name="confirm_auto_cleaner">OK</string>
   <string name="conn_of_function_safe">Network connection for Security</string>
   <string name="connecting">Connecting…</string>
   <string name="deep_clean_completed_tips">Cleaned successfully</string>
   <string name="deep_clean_data_path_clean_title">Clear cache</string>
   <string name="deep_clean_uninstall_completed_tips">Uninstalled successfully</string>
-  <string name="deepclean_1_k_clean">Quick clean</string>
+  <string name="deepclean_1_k_clean">Clear memory</string>
   <string name="deepclean_apk_content">Delete APKs or unnecessary apps</string>
   <string name="deepclean_apk_summary_empty">Everything looks good, no APKs to delete</string>
   <string name="deepclean_apk_version_error">Unknown</string>
@@ -278,7 +277,7 @@
   <string name="hints_storage_free">Free</string>
   <string name="hints_storage_free_size">Total %1$s, %2$s available</string>
   <string name="hints_storage_news">Security news</string>
-  <string name="hints_title_garbage">trash</string>
+  <string name="hints_title_garbage">Trash</string>
   <string name="hints_video_camera">Captured videos</string>
   <string name="hints_video_download">Downloaded videos</string>
   <string name="hot">Popular</string>
@@ -294,8 +293,8 @@
   <string name="junk_tag_RF_DemoVideo_MIUI">小米手机品牌展示视频</string>
   <string name="junk_tag_RF_DemoVideo_Samsung">三星手机演示用视频</string>
   <string name="junk_tag_RF_DemoVideo_Sony">索尼手机演示用视频</string>
-  <string name="junk_tag_RF_EmptyFolders">Empty folders</string>
-  <string name="junk_tag_RF_ImageThumbnails">Gallery Thumbnails</string>
+  <string name="junk_tag_RF_EmptyFolders">空文件夹</string>
+  <string name="junk_tag_RF_ImageThumbnails">相册的预览图</string>
   <string name="junk_tag_RF_LibsDirFiles">无用的数据文件</string>
   <string name="junk_tag_RF_LogFiles">日志文件</string>
   <string name="junk_tag_RF_LostDirFiles">无用的系统文件</string>
@@ -363,7 +362,7 @@
   <string name="label_image_list_none">None</string>
   <string name="label_preserve_the_best_image">Save the sharpest photos</string>
   <string name="last_check_canceled">Previous scan was canceled</string>
-  <string name="load_only_under_wlan">Load using only Wi-Fi</string>
+  <string name="load_only_under_wlan">Load using only WLAN</string>
   <string name="location_not_found">"Couldn't find file"</string>
   <string name="login_immediately">Sign in</string>
   <string name="long_click_dialog_summary">Long press to add to exceptions.</string>
@@ -376,7 +375,7 @@
   <string name="low_memory_warning_dialog_ok_button">Clear</string>
   <string name="low_memory_warning_dialog_title">Not enough free space</string>
   <string name="main_title_filesize">%1$s trash</string>
-  <string name="main_total_garbage">Total garbage</string>
+  <string name="main_total_garbage">Trash size</string>
   <string name="mainbtn_text_no_trash">Skip</string>
   <string name="mainbtn_text_quick_cleanup">Clean up %s</string>
   <string name="mainbtn_text_quick_cleanup_default">Clean up</string>
@@ -410,7 +409,6 @@
   <string name="open">Turn on</string>
   <string name="open_app">Open</string>
   <string name="open_browser">Open in browser</string>
-  <string name="open_debug_mode">Click %1$d to open debug switch</string>
   <string name="open_file_error">"Couldn't find the app that opens this file"</string>
   <string name="optimizecenter_data_support_cm">Powered by Clean Master</string>
   <string name="optimizecenter_data_support_tc">Powered by Tencent</string>
@@ -418,7 +416,6 @@
   <string name="petabyteShort">PB</string>
   <string name="phone_search">Google Search</string>
   <string name="positive_confirm">OK</string>
-  <string name="pref_about_version_summary">Version %s</string>
   <string name="pref_category_title_auto_clean_config_settings">Automatic cleanups</string>
   <string name="pref_category_title_auto_clean_settings">Remind to clean</string>
   <string name="pref_category_title_auto_update_cleanup_db">Additional settings</string>
@@ -436,8 +433,6 @@
   <string name="pref_summary_garbage_cleanup_check_time">Schedule a routine clean</string>
   <string name="pref_summary_garbage_process_mode">Set notifications for when cleaner runs</string>
   <string name="pref_summary_open_optimizer_cloud_scan">Upload and compare unknown file names with online definitions</string>
-  <string name="pref_title_about">About</string>
-  <string name="pref_title_about_server_environment">Network Environment</string>
   <string name="pref_title_apps_cleanup_size">​When cache size reaches</string>
   <string name="pref_title_auto_clean">Clean up automatically</string>
   <string name="pref_title_auto_clean_content_choose">Choose items to clean</string>
@@ -457,7 +452,6 @@
   <string name="preference_category_auto_clean_up">key_category_auto_clean_up</string>
   <string name="preference_category_information_setting">category_information_setting</string>
   <string name="preference_category_key_auto_update_cleanup_db">key_category_auto_update_cleanup_db</string>
-  <string name="preference_key_about_version">key_about_version</string>
   <string name="preference_key_auto_clean_operation">key_auto_clean_operation</string>
   <string name="preference_key_auto_clean_trigger">key_auto_clean_trigger</string>
   <string name="preference_key_auto_update_cleanup_db">key_auto_update_cleanup_db</string>
@@ -636,7 +630,7 @@
   <string name="wechat_video_time">%1$s:%2$s</string>
   <string name="whatsapp_btn_quick_cleanup">Delete selected items (%s)</string>
   <string name="whatsapp_clean_exit_confirm_cancel">Keep scanning</string>
-  <string name="whatsapp_clean_exit_confirm_msg">"Haven't finished scanning WhataApp yet. Stop scanning now?"</string>
+  <string name="whatsapp_clean_exit_confirm_msg">"Haven't finished scanning WhatsApp yet. Stop scanning now?"</string>
   <string name="whatsapp_clean_exit_confirm_ok">Stop</string>
   <string name="whatsapp_clean_exit_confirm_title">Stop scanning?</string>
   <string name="whatsapp_content_empty">No items here.</string>
@@ -654,7 +648,7 @@
   <string name="whatsapp_group_video">Videos</string>
   <string name="whatsapp_group_voice">Voice messages</string>
   <string name="whatsapp_group_wallpaper">Wallpapers</string>
-  <string name="whatsapp_title">Whatsapp cleaner</string>
+  <string name="whatsapp_title">WhatsApp cleaner</string>
   <string name="whatsapp_type_document_recv">Received files</string>
   <string name="whatsapp_type_document_send">Sent files</string>
   <string name="whatsapp_type_image_recv">Received images</string>

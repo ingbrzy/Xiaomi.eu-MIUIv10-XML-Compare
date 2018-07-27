@@ -76,6 +76,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> apps"</item>
         <item quantity="one">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> app"</item>
     </plurals>
+    <plurals name="om_ill_proc_multi_app_title">
+        <item quantity="other">"%d apps don't work properly and drain battery"</item>
+        <item quantity="one">"%d app doesn't work properly and drains battery"</item>
+    </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d days "</item>
         <item quantity="one">"%d day "</item>
@@ -279,6 +283,14 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="zero">0 app found</item>
         <item quantity="one">%d app found</item>
     </plurals>
+    <plurals name="section_clear_acc_item_right_tips">
+        <item quantity="other">%d locked apps are waiting to be cleared</item>
+        <item quantity="one">%d locked app is waiting to be cleared</item>
+    </plurals>
+    <plurals name="section_security_defend_item_right_tips">
+        <item quantity="other">Deleted %d viruses</item>
+        <item quantity="one">Deleted %d virus</item>
+    </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="other">+%d</item>
         <item quantity="one">+%d</item>
@@ -294,6 +306,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="app_manager_permission_summary_ask">
         <item quantity="other">Ask for %d permissions</item>
         <item quantity="one">Ask for %d permission</item>
+    </plurals>
+    <plurals name="app_manager_start_count">
+        <item quantity="other">%d times</item>
+        <item quantity="one">%d time</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Used %d days ago</item>
@@ -322,13 +338,5 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Checked in %d days in a row</item>
         <item quantity="one">Checked in %d time</item>
-    </plurals>
-    <plurals name="privacy_apps_enable_header_title">
-        <item quantity="other">Can hide %d apps</item>
-        <item quantity="one">Can hide %d app</item>
-    </plurals>
-    <plurals name="privacy_apps_disable_header_title">
-        <item quantity="other">%d apps are hidden</item>
-        <item quantity="one">%d app is hidden</item>
     </plurals>
 </resources>
