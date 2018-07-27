@@ -126,7 +126,7 @@
   <string name="note_sort_way">Select how you want to sort your notes</string>
   <string name="notealert_enter">Open note</string>
   <string name="notealert_ok">Dismiss</string>
-  <string name="notelist_string_info">...</string>
+  <string name="notelist_string_info">…</string>
   <string name="notify_alarm_title">Note reminder</string>
   <string name="permdesc_accessNote">Malicious apps may use this to access your personal data.</string>
   <string name="permlab_accessNote">Access notes</string>
@@ -222,9 +222,6 @@
   <string name="trash_folder_reminder">The notes you delete will be deleted permanently in 30 days.</string>
   <string name="undo">Undo</string>
   <string name="unknown_source">Unknown source</string>
-  <string name="welcome_note_for_cm">"And more great features!
-  - Sync with Mi Cloud
-  - Set reminders"</string>
   <string name="widget_content_loading">Just a sec…</string>
   <string name="widget_havenot_content">Tap to create a note. Hold widget to resize.</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
