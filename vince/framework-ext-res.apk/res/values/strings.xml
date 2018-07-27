@@ -250,6 +250,11 @@
   <string name="twohours">1 hour</string>
   <string name="unknown_caller">Unknown number</string>
   <string name="user_switching_dialog_text">Switching…</string>
+  <string name="voice_begin">What are you looking for?</string>
+  <string name="voice_button_action_down">Release to search</string>
+  <string name="voice_button_action_up">Press to talk</string>
+  <string name="voice_input_error_network">"Couldn't connect to the network. Check your network settings and try again."</string>
+  <string name="voice_input_error_other">An error occurred. Wait a minute or two and try again.</string>
   <string name="wifi_assistant_wifi_no_internet">This WLAN network has no access to the internet</string>
   <string name="wifi_assistant_wifi_no_internet_detail">Tap to view details</string>
   <string name="xspace_resolver_activity_title">Select app</string>
