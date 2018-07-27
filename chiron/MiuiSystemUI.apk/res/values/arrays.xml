@@ -354,6 +354,8 @@
         <item>beryllium</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>nitrogen</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -372,6 +374,7 @@
         <item>cactus</item>
         <item>cereus</item>
         <item>gemini</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -398,6 +401,7 @@
         <item>cactus</item>
         <item>cereus</item>
         <item>gemini</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
@@ -1148,6 +1152,7 @@
         <item>@drawable/stat_sys_signal_4_4g_fully</item>
     </array>
     <string-array name="system_foreground_notification_whitelist">
+        <item>com.xiaomi.joyose</item>
         <item>com.miui.home</item>
         <item>com.android.providers.contacts</item>
         <item>com.android.updater</item>
