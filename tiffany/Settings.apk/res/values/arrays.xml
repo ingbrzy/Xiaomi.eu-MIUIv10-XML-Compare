@@ -2968,6 +2968,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>cactus</item>
         <item>cereus</item>
         <item>gemini</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
@@ -2979,5 +2980,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>beryllium</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>nitrogen</item>
+        <item>platina</item>
     </string-array>
 </resources>
