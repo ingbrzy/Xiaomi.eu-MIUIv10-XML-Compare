@@ -261,10 +261,10 @@
     </integer-array>
     <integer-array name="config_lteDbmThresholds">
         <item>-140</item>
-        <item>-128</item>
-        <item>-118</item>
-        <item>-110</item>
-        <item>-98</item>
+        <item>-140</item>
+        <item>-125</item>
+        <item>-112</item>
+        <item>-102</item>
         <item>-44</item>
     </integer-array>
     <integer-array name="config_manualBrightnessRemapIn">
