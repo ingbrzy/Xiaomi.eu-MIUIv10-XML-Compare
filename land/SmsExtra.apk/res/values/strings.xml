@@ -2,7 +2,8 @@
 <resources>
   <string name="activity_not_found">No app was found to handle this action</string>
   <string name="back_to_message_list">Back to message list</string>
-  <string name="confirm_delete_conversation">Delete this entire thread?</string>
+  <string name="button_close">Close</string>
+  <string name="confirm_delete_conversation">Delete this conversation?</string>
   <string name="confirm_delete_group_message">Delete group messages?</string>
   <string name="confirm_delete_locked_message">Delete this locked message?</string>
   <string name="confirm_delete_message">Delete this message?</string>
@@ -23,12 +24,15 @@
   <string name="hybrid_pull_to_refresh_release_label">Release to refresh…</string>
   <string name="hybrid_service_unavailiable">Service unavailable</string>
   <string name="hybrid_try_again">Try again</string>
+  <string name="imageview_ad">Ad</string>
   <string name="menu_forward">Forward</string>
   <string name="menu_lock">Star</string>
   <string name="menu_unlock">Unstar</string>
   <string name="message_details_title">Message details</string>
   <string name="message_type_label">"Type: "</string>
   <string name="messaging">Messaging</string>
+  <string name="more">More</string>
+  <string name="net_sms_unsubscribe">unsubscribe success</string>
   <string name="packages_select_sim_cards_title">Select SIM card</string>
   <string name="received_label">"Received: "</string>
   <string name="repayment_network_error">Something went wrong with your network</string>
@@ -39,8 +43,7 @@
   <string name="sim2">Sim 2</string>
   <string name="smart_messages_network_allow_message">Mi Message needs to connect to the internet in order for its services to work normally. Allow now?</string>
   <string name="smart_messages_network_allow_title">Internet connection is required</string>
-  <string name="sms_card_partner_label">"SMS card partner: "</string>
-  <string name="sms_card_teddy_mobile">Teddy Mobile</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="text_message">Text message</string>
   <string name="view_message_details">View details</string>
 </resources>
