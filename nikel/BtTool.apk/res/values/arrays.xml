@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="act_set_pref_test_situation_entries_labels">
+        <item>Default</item>
+        <item>SQC</item>
+        <item>Debug</item>
+        <item>Cust</item>
+    </string-array>
+    <string-array name="act_set_pref_test_situation_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="act_set_pref_test_situation_entries_summaries">
+        <item>minimal log output</item>
+        <item>more log but keep up the good performance</item>
+        <item>maximal log with a performance degradation</item>
+        <item>use self-defined log config</item>
+    </string-array>
+</resources>
