@@ -2458,8 +2458,6 @@ Select your operating system:"</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
-  <string name="navigation_guide_back_anim_summary">"Show animation while you're swiping from the edge of the screen"</string>
-  <string name="navigation_guide_back_anim_title">Animate the \"Go back\" gesture</string>
   <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
   <string name="navigation_guide_back_title">Go back</string>
   <string name="navigation_guide_dialog_dont_show_again">"Don't show again"</string>

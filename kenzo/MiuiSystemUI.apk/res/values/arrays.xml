@@ -849,6 +849,7 @@
         <item>com.wali.live</item>
     </string-array>
     <string-array name="system_foreground_notification_whitelist">
+        <item>com.xiaomi.joyose</item>
         <item>com.miui.home</item>
         <item>com.android.providers.contacts</item>
         <item>com.android.updater</item>
@@ -1045,6 +1046,7 @@
         <item>cactus</item>
         <item>cereus</item>
         <item>gemini</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
@@ -1056,6 +1058,8 @@
         <item>beryllium</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>nitrogen</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_use_cameraone">
         <item>jason</item>
@@ -1070,6 +1074,7 @@
         <item>cactus</item>
         <item>cereus</item>
         <item>gemini</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>

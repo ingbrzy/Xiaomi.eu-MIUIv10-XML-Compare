@@ -46,12 +46,6 @@
   <string name="find_device_send_sms_alert">If you switch SIM cards, another SMS may be sent automatically to reactivate this feature.</string>
   <string name="find_device_service_title">Find device</string>
   <string name="forget_password">&lt;u&gt;Forgot password&lt;/u&gt;</string>
-  <string name="hybrid_check_network">Network settings</string>
-  <string name="hybrid_data_error">An error occurred</string>
-  <string name="hybrid_network_access_denied">Network access denied</string>
-  <string name="hybrid_network_unavaliable">"Can't connect to the network"</string>
-  <string name="hybrid_service_unavailiable">Service unavailable</string>
-  <string name="hybrid_try_again">Try again</string>
   <string name="i_know">OK</string>
   <string name="input_password_hint">Enter password</string>
   <string name="internet_access_dspt">This app needs to connect to the internet to work normally.</string>
