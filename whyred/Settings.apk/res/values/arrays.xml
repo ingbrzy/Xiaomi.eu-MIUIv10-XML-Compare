@@ -1450,13 +1450,8 @@
     </string-array>
     <array name="config_preinstalled_audio_and_caption_services" />
     <array name="config_preinstalled_display_services" />
-    <string-array name="config_preinstalled_interaction_control_services">
-        <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
-    </string-array>
-    <string-array name="config_preinstalled_screen_reader_services">
-        <item>com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</item>
-        <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
-    </string-array>
+    <array name="config_preinstalled_interaction_control_services" />
+    <array name="config_preinstalled_screen_reader_services" />
     <string-array name="connect_mode_entries">
         <item>Compatibility</item>
         <item>High speed</item>
@@ -1483,9 +1478,9 @@
         <item>Today (data)</item>
         <item>This month (data)</item>
         <item>Last month (data)</item>
-        <item>Today Wi-Fi</item>
-        <item>This month Wi-Fi</item>
-        <item>Last month Wi-Fi</item>
+        <item>Today WLAN</item>
+        <item>This month WLAN</item>
+        <item>Last month WLAN</item>
     </string-array>
     <string-array name="date_of_traffic">
         <item>"Today "</item>
@@ -1543,6 +1538,8 @@
         <item>beryllium</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>nitrogen</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1561,6 +1558,7 @@
         <item>cactus</item>
         <item>cereus</item>
         <item>gemini</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -2782,7 +2780,7 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="traffic_type">
         <item>"Mobile usage "</item>
-        <item>"Wi-Fi usage "</item>
+        <item>"WLAN usage "</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animation off</item>
@@ -2980,21 +2978,21 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/wifi_security_wpa2</item>
     </string-array>
     <string-array name="wifi_calling_mode_choices">
-        <item>Wi-Fi preferred</item>
+        <item>WLAN preferred</item>
         <item>Mobile preferred</item>
-        <item>Wi-Fi only</item>
+        <item>WLAN only</item>
     </string-array>
     <string-array name="wifi_calling_mode_choices_v2">
-        <item>Wi-Fi</item>
+        <item>WLAN</item>
         <item>Mobile</item>
-        <item>Wi-Fi only</item>
+        <item>WLAN only</item>
     </string-array>
     <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-        <item>Wi-Fi</item>
+        <item>WLAN</item>
         <item>Mobile</item>
     </string-array>
     <string-array name="wifi_calling_mode_choices_without_wifi_only">
-        <item>Wi-Fi preferred</item>
+        <item>WLAN preferred</item>
         <item>Mobile preferred</item>
     </string-array>
     <string-array name="wifi_calling_mode_values">

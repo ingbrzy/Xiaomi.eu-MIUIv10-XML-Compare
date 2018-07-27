@@ -286,7 +286,7 @@ Sample Rate"</string>
   <string name="managed_user_title">All work apps</string>
   <string name="media_category">Media</string>
   <string name="mobile_data_always_on">Mobile data always active</string>
-  <string name="mobile_data_always_on_summary">Always keep mobile data active, even when Wi‑Fi is active (for fast network switching).</string>
+  <string name="mobile_data_always_on_summary">Always keep mobile data active, even when WLAN is active (for fast network switching).</string>
   <string name="mock_location_app">Select mock location app</string>
   <string name="mock_location_app_not_set">No mock location app set</string>
   <string name="mock_location_app_set">Mock location app: %1$s</string>
@@ -479,10 +479,10 @@ Sample Rate"</string>
   <string name="wapi_password_length_is_min">Password can not less than 8 characters in length</string>
   <string name="wapi_password_length_is_min_to_max">The password must be: 8-64 characters</string>
   <string name="wapi_yes">yes</string>
-  <string name="wifi_aggressive_handover">Aggressive Wi‑Fi to mobile handover</string>
-  <string name="wifi_aggressive_handover_summary">When enabled, Wi‑Fi will be more aggressive in handing over the data connection to mobile, when Wi‑Fi signal is low</string>
-  <string name="wifi_allow_scan_with_traffic">Always allow Wi‑Fi Roam Scans</string>
-  <string name="wifi_allow_scan_with_traffic_summary">Allow/Disallow Wi‑Fi Roam Scans based on the amount of data traffic present at the interface</string>
+  <string name="wifi_aggressive_handover">Aggressive WLAN to mobile handover</string>
+  <string name="wifi_aggressive_handover_summary">When enabled, WLAN will be more aggressive in handing over the data connection to mobile, when WLAN signal is low</string>
+  <string name="wifi_allow_scan_with_traffic">Always allow WLAN Roam Scans</string>
+  <string name="wifi_allow_scan_with_traffic_summary">Allow/Disallow WLAN Roam Scans based on the amount of data traffic present at the interface</string>
   <string name="wifi_ap_unable_to_handle_new_sta">Access point temporarily full</string>
   <string name="wifi_auth_password_wrong">Password may be incorrect</string>
   <string name="wifi_auto_sel_wapi_cert">Select automatically</string>
@@ -494,7 +494,7 @@ Sample Rate"</string>
   <string name="wifi_disabled_generic">Disabled</string>
   <string name="wifi_disabled_network_failure">IP Configuration Failure</string>
   <string name="wifi_disabled_password_failure">Authentication problem</string>
-  <string name="wifi_disabled_wifi_failure">WiFi Connection Failure</string>
+  <string name="wifi_disabled_wifi_failure">WLAN Connection Failure</string>
   <string name="wifi_display_certification">Wireless display certification</string>
   <string name="wifi_display_certification_summary">Show options for wireless display certification</string>
   <string name="wifi_dns1_hint">8.8.8.8</string>
@@ -528,8 +528,8 @@ Sample Rate"</string>
   <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
   <string name="wifi_ssid_is_empty">Ssid field can not be left blank</string>
   <string name="wifi_ssid_length_is_max">Ssid can not exceed 32 characters in length</string>
-  <string name="wifi_verbose_logging">Enable Wi‑Fi Verbose Logging</string>
-  <string name="wifi_verbose_logging_summary">Increase Wi‑Fi logging level, show per SSID RSSI in Wi‑Fi Picker</string>
+  <string name="wifi_verbose_logging">Enable WLAN Verbose Logging</string>
+  <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show per SSID RSSI in WLAN Picker</string>
   <string name="wifi_wapi_as_certificate">AS certificate</string>
   <string name="wifi_wapi_cert_mode_hand_text">Hand select the certificate</string>
   <string name="wifi_wapi_certification_dont_exist">The WAPI certificates does not exist. Please intall them.</string>

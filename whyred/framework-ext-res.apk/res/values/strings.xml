@@ -176,7 +176,7 @@
   <string name="security_permission_denied_text">Access denied</string>
   <string name="security_permission_failed_text">An error occurred, try again later</string>
   <string name="security_permission_validate_warning">Thank you for helping make MIUI better!</string>
-  <string name="security_permission_wifi_and_data_opened_text">Wi-Fi and mobile data turned on</string>
+  <string name="security_permission_wifi_and_data_opened_text">WLAN and mobile data turned on</string>
   <string name="security_permission_xiaomi_account_missed_text">Enter your Mi Account ID</string>
   <string name="select">Select</string>
   <string name="select_all">Select all</string>
@@ -231,7 +231,7 @@
   <string name="status_bar_toggle_torch">Torch</string>
   <string name="status_bar_toggle_vibrate">Vibrate</string>
   <string name="status_bar_toggle_vibrate_action">com.android.settings/com.android.settings.Settings$SoundSettingsActivity</string>
-  <string name="status_bar_toggle_wifi">Wi-Fi</string>
+  <string name="status_bar_toggle_wifi">WLAN</string>
   <string name="status_bar_toggle_wifi_action">com.android.settings/com.android.settings.Settings$WifiSettingsActivity</string>
   <string name="status_bar_toggle_wifi_ap">Hotspot</string>
   <string name="status_bar_toggle_wifi_ap_action">com.android.settings/com.android.settings.Settings$TetherSettingsActivity</string>
@@ -255,7 +255,7 @@
   <string name="voice_button_action_up">Press to talk</string>
   <string name="voice_input_error_network">"Couldn't connect to the network. Check your network settings and try again."</string>
   <string name="voice_input_error_other">An error occurred. Wait a minute or two and try again.</string>
-  <string name="wifi_assistant_wifi_no_internet">This Wi-Fi network has no access to the internet</string>
+  <string name="wifi_assistant_wifi_no_internet">This WLAN network has no access to the internet</string>
   <string name="wifi_assistant_wifi_no_internet_detail">Tap to view details</string>
   <string name="xspace_resolver_activity_title">Select app</string>
 </resources>

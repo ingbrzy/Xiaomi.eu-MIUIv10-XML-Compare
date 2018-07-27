@@ -3,16 +3,18 @@
   <string name="accessibility_enabled">Accessibility enabled.</string>
   <string name="agree">Agree</string>
   <string name="agree_terms">"I've read and agree to the Terms of Service and Privacy Policy."</string>
+  <string name="agree_terms_input_method_facemoji">"I've read and agreed to Facemoji Privacy Policy."</string>
+  <string name="agree_terms_input_method_kika">"I've read and agreed to Kika Privacy Policy."</string>
   <string name="app_name">Provision</string>
   <string name="application_permissions">App permissions</string>
   <string name="back">Back</string>
-  <string name="cm_terms_content">"In order to improve the services provided to you, the mobile network operator of your choice may upload your personal data and the info about this device to its servers using Wi-Fi networks or mobile data connection. This information will only be used for statistical purposes in order to improve the quality of the services and provide more personalized content. This information won't be used to identify you personally and won't be disclosed to third parties."</string>
+  <string name="cm_terms_content">"In order to improve the services provided to you, the mobile network operator of your choice may upload your personal data and the info about this device to its servers using WLAN networks or mobile data connection. This information will only be used for statistical purposes in order to improve the quality of the services and provide more personalized content. This information won't be used to identify you personally and won't be disclosed to third parties."</string>
   <string name="cm_terms_title">Mobile Network Operator Agreement</string>
   <string name="congratulation_label">"You're ready to rock!​"</string>
   <string name="congratulation_swipe">Swipe up to enter the system</string>
   <string name="congratulation_title">Setup complete</string>
   <string name="content_description_complete">Complete</string>
-  <string name="content_description_miui_version">MIUI 9</string>
+  <string name="content_description_miui_version">MIUI 10</string>
   <string name="content_description_start">Start</string>
   <string name="continue_to_enable_accessibility">Keep holding down two fingers to enable accessibility.</string>
   <string name="desc_extra_fingerprint"/>
@@ -85,9 +87,19 @@ You must agree to our Terms of Service and Privacy Policy before you can use MIU
   <string name="terms_of_use_label_gms">"Your privacy is very important to us. Read our Terms of Service and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
 
 You must agree to our Terms of Service and Privacy Policy before you can use MIUI. Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen, Game center, MAB, MIUI Daemon and MSA system components, Translation services, Quick apps, App vault, statistics, smart cards, Mi Link, Mi Account, and Google Play services components will connect to the internet and acquire your location."</string>
+  <string name="terms_of_use_label_systemhelper">Self-registered service</string>
+  <string name="terms_of_use_lable_default_input_method_facemoji">"
+
+You must agree to Facemoji Privacy Policy before using this feature."</string>
+  <string name="terms_of_use_lable_default_input_method_kika">"
+
+You must agree to Kika Privacy Policy before using this feature."</string>
+  <string name="terms_privacy_policy_input_method_facemoji">Facemoji Privacy Policy</string>
+  <string name="terms_privacy_policy_input_method_kika">Kika Privacy Policy</string>
   <string name="title_fingerprint">Set password</string>
   <string name="user_agreement">Terms of Service</string>
   <string name="voice_assist_desp">Say \"Mi AI\" into your phone. Mi AI will recognize your voice and will be able to control your device.</string>
+  <string name="voice_assist_desp_screen_light">After the screen lights up, say \"Mi AI\" into your phone. Mi AI will recognize your voice and will be able to control your device.</string>
   <string name="voice_assist_title">Wake with voice</string>
   <string name="welcome">Welcome</string>
   <string name="wizard_script_uri">android.resource://com.android.provision/raw/wizard_script</string>

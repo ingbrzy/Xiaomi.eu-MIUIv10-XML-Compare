@@ -10,7 +10,7 @@
   <string name="back_up_task_in_process">Backing up…</string>
   <string name="back_up_task_unfinished">Not finished backing up</string>
   <string name="backing_up_to_micloud">Backing up…</string>
-  <string name="backup_fail_wifi_needed">"Couldn't back up, Wi-Fi needed."</string>
+  <string name="backup_fail_wifi_needed">"Couldn't back up, WLAN needed."</string>
   <string name="backup_finished_notification_content">Backed up Home screen apps, system settings, etc.</string>
   <string name="backup_now">Back up now</string>
   <string name="backup_size">Size: %s</string>
@@ -47,7 +47,7 @@
   <string name="cloud_app_restore_success">Apps restored</string>
   <string name="cloud_app_restore_wifi_prompt">Restore from a Mi Cloud backup.</string>
   <string name="cloud_back_up_date_format">HH:mm MM/dd/yyyy</string>
-  <string name="cloud_back_up_detail_discription">"These items will be backed up to Mi Cloud when your device is connected to Wi-Fi: 
+  <string name="cloud_back_up_detail_discription">"These items will be backed up to Mi Cloud when your device is connected to WLAN: 
 *\u0009\u0009\u0009\u0009Apps, Home screen layout, and wallpapers 
 *\u0009\u0009\u0009\u0009Alarm, clock, and time settings 
 *\u0009\u0009\u0009\u0009Notification settings 
@@ -56,7 +56,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="cloud_back_up_frequence_choice_title">Backup schedule</string>
   <string name="cloud_back_up_frequence_long">Every 7 days</string>
   <string name="cloud_back_up_frequence_short">Every day</string>
-  <string name="cloud_back_up_no_network_warn">"Can't connect to Wi-Fi"</string>
+  <string name="cloud_back_up_no_network_warn">"Can't connect to WLAN"</string>
   <string name="cloud_back_up_ok_btn">OK</string>
   <string name="cloud_back_up_opening">Just a sec…</string>
   <string name="cloud_back_up_share_activity_confirm">Upgrade</string>
@@ -68,7 +68,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="cloud_backup_detail_frequence">Backup schedule</string>
   <string name="cloud_backup_detail_manage">Manage backups</string>
   <string name="cloud_backup_detail_state">Automatic backups</string>
-  <string name="cloud_backup_detail_state_summary">Create Mi Cloud backups automatically when connected to Wi-Fi.</string>
+  <string name="cloud_backup_detail_state_summary">Create Mi Cloud backups automatically when connected to WLAN.</string>
   <string name="cloud_backup_detail_time">Last backup: %1$s</string>
   <string name="cloud_backup_detail_title">Home screen, apps, and settings.</string>
   <string name="cloud_backup_have_data">Found backup in Mi Cloud</string>
@@ -82,7 +82,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="confirm_cancel_restore_positive">Continue</string>
   <string name="confirm_cancel_restore_title">Cancel restoring?</string>
   <string name="confirm_restore">Restore</string>
-  <string name="confirm_restore_summary">Home screen will restart and apps will be downloaded automatically when connected to Wi-Fi</string>
+  <string name="confirm_restore_summary">Home screen will restart and apps will be downloaded automatically when connected to WLAN</string>
   <string name="confirm_restore_title">Restore</string>
   <string name="customization">&lt;u&gt;Customize&lt;/u&gt;</string>
   <string name="date_format">HH:mm:ss MM-dd-yyyy</string>
@@ -100,8 +100,8 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="dialog_cancel_backup_confirm">OK</string>
   <string name="dialog_cancel_backup_msg">Toggling the switch will terminate ongoing backups.</string>
   <string name="dialog_cancel_backup_title">Cancel the ongoing backup?</string>
-  <string name="dialog_msg_restore_require_wlan">Restoring backups requires connecting to Wi-Fi.</string>
-  <string name="dialog_title_require_wlan">Connect to Wi-Fi</string>
+  <string name="dialog_msg_restore_require_wlan">Restoring backups requires connecting to WLAN.</string>
+  <string name="dialog_title_require_wlan">Connect to WLAN</string>
   <string name="dir_date_format">HHmmss_MMddyyyy</string>
   <string name="doing_restore_home">Restoring Home screen and settings…</string>
   <string name="done_remove">Removed successfully</string>
@@ -131,9 +131,9 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="notification_channel_remind">Reminder</string>
   <string name="notification_channel_service">Service</string>
   <string name="open_backup_switch">Toggle the backup switch</string>
-  <string name="open_wifi">Turn Wi-Fi on now</string>
-  <string name="open_wifi_description">Connect to a Wi-Fi network to restore app</string>
-  <string name="open_wifi_setting">Wi-Fi settings</string>
+  <string name="open_wifi">Turn WLAN on now</string>
+  <string name="open_wifi_description">Connect to a WLAN network to restore app</string>
+  <string name="open_wifi_setting">WLAN settings</string>
   <string name="process_whole_recovery">Restoring \"%s\"</string>
   <string name="provision_error_connect_msg">"Test network and try again. Backups aren't available when your device is offline."</string>
   <string name="provision_error_connect_title">"Can't connect"</string>

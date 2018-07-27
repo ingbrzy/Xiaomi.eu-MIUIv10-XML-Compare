@@ -217,9 +217,7 @@
         <item>404</item>
         <item>405</item>
     </integer-array>
-    <string-array name="config_ephemeralResolverPackage">
-        <item>com.google.android.gms</item>
-    </string-array>
+    <array name="config_ephemeralResolverPackage" />
     <string-array name="config_globalActionsList">
         <item>power</item>
         <item>restart</item>
@@ -261,10 +259,10 @@
     </integer-array>
     <integer-array name="config_lteDbmThresholds">
         <item>-140</item>
-        <item>-128</item>
-        <item>-118</item>
-        <item>-110</item>
-        <item>-98</item>
+        <item>-140</item>
+        <item>-125</item>
+        <item>-112</item>
+        <item>-102</item>
         <item>-44</item>
     </integer-array>
     <integer-array name="config_manualBrightnessRemapIn">
@@ -518,7 +516,7 @@
     </string-array>
     <string-array name="network_switch_type_name">
         <item>mobile data</item>
-        <item>Wi-Fi</item>
+        <item>WLAN</item>
         <item>Bluetooth</item>
         <item>Ethernet</item>
         <item>VPN</item>
@@ -1134,13 +1132,13 @@
         <item>zu-ZA</item>
     </string-array>
     <string-array name="wfcOperatorErrorAlertMessages">
-        <item>To make calls and send messages over Wi-Fi, first ask your carrier to set up this service. Then turn on Wi-Fi calling again from Settings. (Error code: %1$s)</item>
+        <item>To make calls and send messages over WLAN, first ask your carrier to set up this service. Then turn on WLAN calling again from Settings. (Error code: %1$s)</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
         <item>Register with your carrier (Error code: %1$s)</item>
     </string-array>
     <string-array name="wfcSpnFormats">
         <item>%s</item>
-        <item>%s Wi-Fi Calling</item>
+        <item>%s WLAN Calling</item>
     </string-array>
 </resources>
