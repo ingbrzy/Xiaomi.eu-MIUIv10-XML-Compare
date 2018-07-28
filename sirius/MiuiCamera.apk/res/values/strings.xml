@@ -360,6 +360,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_tilt_shift_entryvalue_parallel">parallel</string>
   <string name="pref_camera_tilt_shift_title">Tilt-shift</string>
   <string name="pref_camera_touchafaec_default">touch-on</string>
+  <string name="pref_camera_video_bokeh_off">Video bokeh is closed</string>
+  <string name="pref_camera_video_bokeh_on">Video bokeh</string>
   <string name="pref_camera_volumekey_function_default">shutter</string>
   <string name="pref_camera_volumekey_function_entry_shutter">Shutter</string>
   <string name="pref_camera_volumekey_function_entry_volume">Volume</string>
