@@ -1538,6 +1538,8 @@
         <item>beryllium</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>nitrogen</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1556,6 +1558,7 @@
         <item>cactus</item>
         <item>cereus</item>
         <item>gemini</item>
+        <item>platina</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>

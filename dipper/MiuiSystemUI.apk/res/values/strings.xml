@@ -159,6 +159,7 @@
   <string name="accessibility_quick_settings_airplane_off">Airplane mode off.</string>
   <string name="accessibility_quick_settings_airplane_on">Airplane mode on.</string>
   <string name="accessibility_quick_settings_alarm">Alarm set for %s.</string>
+  <string name="accessibility_quick_settings_alarm_on">Alarm set on.</string>
   <string name="accessibility_quick_settings_alarm_set">Alarm set.</string>
   <string name="accessibility_quick_settings_battery">Battery %s.</string>
   <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
@@ -166,6 +167,7 @@
   <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth turned on.</string>
   <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth connected.</string>
   <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth connecting.</string>
+  <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bluetooth device battery %d percent.</string>
   <string name="accessibility_quick_settings_bluetooth_off">Bluetooth off.</string>
   <string name="accessibility_quick_settings_bluetooth_on">Bluetooth on.</string>
   <string name="accessibility_quick_settings_close">Close panel.</string>
@@ -847,8 +849,7 @@ Use only the supplied charger."</string>
   <string name="keyguard_indication_charging_time_slowly">Charging slowly (%s until full)</string>
   <string name="keyguard_indication_trust_disabled">Device will stay locked until you manually unlock</string>
   <string name="keyguard_instructions_when_pattern_disabled">Press Menu to unlock.</string>
-  <string name="keyguard_left_bankcard">Calculator</string>
-  <string name="keyguard_left_buscard">Notes</string>
+  <string name="keyguard_left_mi_wallet">Mi Wallet</string>
   <string name="keyguard_left_remotecentral">Calendar</string>
   <string name="keyguard_left_smarthome">Contacts</string>
   <string name="keyguard_left_view_lock_wallpaper">Music</string>
@@ -1006,7 +1007,7 @@ Try again in %2$d seconds."</string>
   <string name="miui_guide_dialog_message">Media sounds (music, videos, etc.) will still be played in Silent mode. You can change this in the Settings.</string>
   <string name="miui_keyguard_ble_unlock_succeed_msg">Unlocked by Bluetooth device</string>
   <string name="miui_ringer_count_down">Count down</string>
-  <string name="miui_ringer_count_down_time">Count down: %s</string>
+  <string name="miui_ringer_count_down_time">%s</string>
   <string name="miui_ringer_standard">Silent</string>
   <string name="miui_ringer_standard_description">Silence ringtones for incoming calls and notifications</string>
   <string name="miui_ringer_total">DND</string>
