@@ -19,6 +19,10 @@
   <string name="backup_to_cloud">Back up app</string>
   <string name="btn_back">Back</string>
   <string name="btn_continue">Continue</string>
+  <string name="btn_restore_abort">Cancel</string>
+  <string name="btn_restore_cancel">Cancel</string>
+  <string name="btn_restore_resume">Resume</string>
+  <string name="btn_restore_retry">Retry</string>
   <string name="btn_retry">Check again</string>
   <string name="btn_skip">Skip this step</string>
   <string name="button_cancel">Cancel</string>
@@ -118,6 +122,8 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="menu_item_sort_name">Name</string>
   <string name="menu_item_sort_size">Size</string>
   <string name="miui_device_name">Android</string>
+  <string name="msg_alert_cancel_restore">Cloud backup is restoring, stop it?</string>
+  <string name="msg_alert_restore_error">Restore cloud backup failed, try again please.</string>
   <string name="name_model">"%1$s's %2$s"</string>
   <string name="network_error">Connect to network</string>
   <string name="no_account">Not signed in to Mi Account.</string>
@@ -161,6 +167,8 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="start_backup_to_micloud">Back up apps to Mi Cloud</string>
   <string name="start_recover">Restore %s</string>
   <string name="success_open_cloudbackup">Turned on backups for Home screen apps</string>
+  <string name="title_alert_cancel_restore">Stop restoring</string>
+  <string name="title_alert_restore_error">Restore failed</string>
   <string name="total_space">Total space: %s</string>
   <string name="try_again">Tap to try again</string>
   <string name="wait_icon_download">Downloading app icons</string>

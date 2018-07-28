@@ -58,6 +58,7 @@ and optimizes your photos based on this info"</string>
   <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
   <string name="back_bokeh_use_hint">"Make sure the object isn't further than 1.5 meters."</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
+  <string name="beauty_fragment_tab_name_3d_makeup">Makeup</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
@@ -118,13 +119,17 @@ and optimizes your photos based on this info"</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
   <string name="dual_camera_too_close_toast">The camera is too close to the object.</string>
   <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
+  <string name="edit_blusher">Rouge</string>
   <string name="edit_chin">Chin</string>
   <string name="edit_eye_large">Big eyes</string>
+  <string name="edit_eyebrow_dye">Eyebrows</string>
   <string name="edit_face_ruddy">Ruddy</string>
   <string name="edit_face_slender">Slender</string>
+  <string name="edit_jelly_lips">Lip gloss</string>
   <string name="edit_lips">Lips</string>
   <string name="edit_neck">Neck</string>
   <string name="edit_nose">Nose</string>
+  <string name="edit_pupil_line">Eyeliner</string>
   <string name="edit_risorius">Risorius</string>
   <string name="edit_skin_smooth">Smooth</string>
   <string name="edit_skin_white">Tone</string>
@@ -231,7 +236,7 @@ in Portrait mode"</string>
   <string name="portrait_mode_depth_effect_success_hint">Depth effect</string>
   <string name="portrait_mode_lowlight_hint">"It's too dark now"</string>
   <string name="portrait_mode_too_close_hint">Move farther from the object</string>
-  <string name="portrait_mode_too_far_hint">Place object within 2.5 meters</string>
+  <string name="portrait_mode_too_far_hint">Place object within 2 meters</string>
   <string name="portrait_mode_use_hint">"Portrait mode blurs the background
 and brings out the people in the front."</string>
   <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
@@ -623,6 +628,7 @@ and brings out the people in the front."</string>
   <string name="pref_front_mirror_entryvalue_on">on</string>
   <string name="pref_front_mirror_label_auto">Auto</string>
   <string name="pref_front_mirror_title">Mirror front camera</string>
+  <string name="pref_google_lens">Google lens</string>
   <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_mi_front_video_quality_default">6</string>

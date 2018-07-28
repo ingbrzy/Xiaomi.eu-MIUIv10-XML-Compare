@@ -4,7 +4,7 @@
         <item>android</item>
         <item>com.miui.home</item>
         <item>com.android.systemui</item>
-        <item>com.miui.whetstone</item>
+        <item>com.xiaomi.joyose</item>
         <item>com.android.phone</item>
         <item>com.miui.bugreport</item>
         <item>com.android.keyguard</item>
@@ -39,6 +39,7 @@
         <item>android.process.acore</item>
         <item>com.miui.wmsvc</item>
         <item>com.miui.greenguard</item>
+        <item>com.miui.securitycore</item>
         <item>com.miui.miwallpaper</item>
         <item>com.miui.contentextension</item>
         <item>com.xiaomi.mimobile.cloudsim</item>

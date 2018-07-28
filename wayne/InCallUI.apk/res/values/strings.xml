@@ -201,7 +201,7 @@
   <string name="upgrade_vt_prompt">Switch to video call?</string>
   <string name="user_locked_prompt">Unlock device to access contacts.</string>
   <string name="video_conference_caller_info_name">"%1$s's video conference call"</string>
-  <string name="video_crbt_title">%s video ringback tone</string>
+  <string name="video_crbt_title">"The other party's video ringback tone is playing"</string>
   <string name="voicemail">Voicemail</string>
   <string name="wait_prompt_str">"Send the following tones?
 "</string>

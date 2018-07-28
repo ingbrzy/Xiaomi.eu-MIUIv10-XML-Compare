@@ -1026,7 +1026,6 @@ This feature can be turned off in [Settings]"</string>
   <string name="cancel_action">Cancel</string>
   <string name="cancel_alert">Discard your changes?</string>
   <string name="cancel_button">Cancel</string>
-  <string name="cancel_description">Cancel</string>
   <string name="cancel_download_buton_text">Cancel</string>
   <string name="cant_sync_dialog_message">Sync for this item is currently disabled. To change this setting, temporarily turn on background data and automatic sync.</string>
   <string name="cant_sync_dialog_title">Can’t manually sync</string>
@@ -1175,7 +1174,6 @@ This feature can be turned off in [Settings]"</string>
   <string name="confirm_action">OK</string>
   <string name="confirm_bind_xiaomi_account_dialog_title">Add</string>
   <string name="confirm_convert_to_fbe_warning">Really wipe user data and convert to file encryption?</string>
-  <string name="confirm_description">Confirm</string>
   <string name="confirm_download_cancelation_dialog_message">Cancel download?</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
@@ -2251,7 +2249,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="instant_app_details_summary">More info on %1$s</string>
   <string name="instant_apps_account">Instant apps account</string>
   <string name="instruction_privacy_password">This password protects the following items</string>
-  <string name="instruction_title">Instructions</string>
+  <string name="instruction_title">Important safety information</string>
   <string name="insufficient_storage">Not enough storage space.</string>
   <string name="intent_sender_account_label">Account:</string>
   <string name="intent_sender_action_label">Action:</string>
@@ -2964,8 +2962,6 @@ Select your operating system:"</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
-  <string name="navigation_guide_back_anim_summary">"Show animation while you're swiping from the edge of the screen"</string>
-  <string name="navigation_guide_back_anim_title">Animate the \"Go back\" gesture</string>
   <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
   <string name="navigation_guide_back_title">Go back</string>
   <string name="navigation_guide_dialog_dont_show_again">"Don't show again"</string>
@@ -3172,7 +3168,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="notification_show_lights_title">Blink light</string>
   <string name="notification_sound_default">Default notification sound</string>
   <string name="notification_sound_dialog_title">Default notification sound</string>
-  <string name="notification_sound_title">Sounds for messages and notifications</string>
+  <string name="notification_sound_title">Default notification sound</string>
   <string name="notification_suggestion_summary">Show or hide notification content</string>
   <string name="notification_suggestion_title">Control lock screen notifications</string>
   <string name="notification_summary_channel">%1$s • %2$s</string>
@@ -3356,6 +3352,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="picture_in_picture_title">Picture-in-picture</string>
   <string name="pin_failed">SIM PIN operation failed!</string>
   <string name="ping_test_label">Run Ping Test</string>
+  <string name="play_pause_description">Play Pause Button</string>
   <string name="please_select_phase2">Phase 2 authentication</string>
   <string name="please_type_passphrase">Password</string>
   <string name="pointer_location">Pointer location</string>
@@ -4497,6 +4494,8 @@ Possibly incorrect PIN."</string>
   <string name="sound_settings_summary">Ring volume at %1$s</string>
   <string name="sound_settings_summary_silent">Ringer set to silent</string>
   <string name="sound_settings_summary_vibrate">Ringer set to vibrate</string>
+  <string name="sound_stereo_mode_summary">Only available when you play sound with speaker</string>
+  <string name="sound_stereo_mode_title">Stereo sound</string>
   <string name="sound_vibrate_settings">Sound &amp; vibration</string>
   <string name="sound_work_settings">Work profile sounds</string>
   <string name="special_access">Special app access</string>
@@ -4550,6 +4549,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_led_custom">Custom color</string>
   <string name="status_bar_settings_notification_priority">Priority</string>
   <string name="status_bar_settings_notification_priority_summary">Show notifications at the top of the list</string>
+  <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
@@ -4759,6 +4759,8 @@ Consider using a faster ^1 for better performance."</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
   <string name="structure_add_facerecoginition_text">Add 3D face data</string>
+  <string name="structure_face_enroll_not_able_low_electric_itle">"Can't use this feature due to low battery"</string>
+  <string name="structure_face_enroll_not_able_low_electric_msg">Battery must be at least 5% charged to start recording.</string>
   <string name="structure_manage_facerecoginition_text">Manage 3D face data</string>
   <string name="suggest_unrestrict_max_aspect_ratio_title">These apps work best in fullscreen mode</string>
   <string name="suggested_fingerprint_lock_settings_summary">Unlock with your fingerprint</string>
@@ -4933,8 +4935,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
   <string name="total">DND</string>
-  <string name="total_info">Silence sounds %1$sexcept for the alarms</string>
-  <string name="total_info_sub">and turn off vibration</string>
+  <string name="total_info">Silence sounds and turn off vibration except for the alarms</string>
+  <string name="total_info_no_vibrator">Silence sounds except for the alarms</string>
   <string name="total_memory">Total memory</string>
   <string name="total_size">%s total</string>
   <string name="total_size_label">Total</string>
@@ -5113,6 +5115,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
   <string name="unmount_inform_text">SD card will be unmounted.</string>
+  <string name="unmute_sound_title">Unmute sound</string>
   <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
   <string name="unrestricted_app_summary">Allow unrestricted data access when Data Saver is on</string>
   <string name="unrestricted_app_title">Unrestricted data usage</string>
