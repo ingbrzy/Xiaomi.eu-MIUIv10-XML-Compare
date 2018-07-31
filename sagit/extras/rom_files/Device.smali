@@ -1008,12 +1008,26 @@
     return v0
 .end method
 
-.method public static getScreenLightAheadTime()I
+.method public static getScreenLightMaxTime()I
     .locals 2
 
-    const-string/jumbo v0, "support_camera_screen_light_ahead_time"
+    const-string/jumbo v0, "support_camera_screen_light_max_time"
 
-    const/4 v1, 0x0
+    const/16 v1, 0x3e8
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static getScreenLightMinTime()I
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_screen_light_min_time"
+
+    const/16 v1, 0x1f4
 
     invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
 
@@ -1102,6 +1116,35 @@
 
     :cond_1
     return v1
+.end method
+
+.method public static isCameraSoundEnforced()Z
+    .locals 2
+
+    sget-boolean v0, Lmiui/os/Build;->IS_INTERNATIONAL_BUILD:Z
+
+    if-eqz v0, :cond_0
+
+    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string/jumbo v1, "KR"
+
+    invoke-static {v0, v1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
 .method public static isCaptureStopFaceDetection()Z
@@ -1724,6 +1767,20 @@
     .locals 2
 
     const-string/jumbo v0, "is_camera_preview_with_subthread_looper"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupport3DFaceBeauty()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_3d_face_beauty"
 
     const/4 v1, 0x0
 
@@ -2545,7 +2602,11 @@
 .method public static isSupportedMuteCameraSound()Z
     .locals 1
 
-    const/4 v0, 0x1
+    invoke-static {}, Lcom/android/camera/Device;->isCameraSoundEnforced()Z
+
+    move-result v0
+
+    xor-int/lit8 v0, v0, 0x1
 
     return v0
 .end method
