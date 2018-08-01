@@ -482,9 +482,9 @@ Sample rate"</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
   <string name="data_connection_no_internet">Not connected to the internet</string>
   <string name="data_saver">Data saver</string>
-  <string name="data_saver_description">To help reduce data usage, Data Saver prevents some apps from sending or receiving data in the background. An app you’re currently using can access data, but may do so less frequently. This may mean, for example, that images don’t display until you tap them.</string>
+  <string name="data_saver_description">"To help reduce data usage, Data saver prevents some apps from sending or receiving data in the background. An app you're currently using can access data, but may do so less frequently. This may mean, for example, that images don't display until you tap them."</string>
   <string name="data_saver_enable_button">Turn on</string>
-  <string name="data_saver_enable_title">Turn on Data Saver?</string>
+  <string name="data_saver_enable_title">Turn on Data saver?</string>
   <string name="data_usage_disabled_dialog">"The data limit you set has been reached. You are no longer using mobile data.
 
 If you resume, charges may apply for data usage."</string>
@@ -746,6 +746,7 @@ Once your phone has cooled down, it will run normally."</string>
   <string name="incorrect_pukcode">Incorrect PUK code</string>
   <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
+  <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
   <string name="input_password_handle_sdcard_fs">"Can't enter Second space from Lock screen. Enter from First space."</string>
   <string name="input_password_hint_text">Enter password</string>
@@ -973,7 +974,6 @@ Try again in %2$d seconds."</string>
   <string name="lockscreen_shortcut_left">Left shortcut</string>
   <string name="lockscreen_shortcut_right">Right shortcut</string>
   <string name="lockscreen_sim_error_message_short">Invalid Card.</string>
-  <string name="lockscreen_storage_locked">Unlock for all features and data</string>
   <string name="lockscreen_unlock_left">Left shortcut also unlocks</string>
   <string name="lockscreen_unlock_right">Right shortcut also unlocks</string>
   <string name="long_screenshot_not_support_msg">"Current app doesn't support scrolling screenshots"</string>
@@ -1183,13 +1183,13 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="phone_locked_string">Phone has been locked</string>
   <string name="picture_color_mode">Picture color mode</string>
   <string name="picture_color_mode_desc">Use sRGB</string>
-  <string name="pip_close">Close PIP</string>
+  <string name="pip_close">Close PiP</string>
   <string name="pip_fullscreen">Full screen</string>
   <string name="pip_menu_bounds">596 280 1324 690</string>
   <string name="pip_menu_title">Picture in picture menu</string>
   <string name="pip_notification_message">If you don’t want %s to use this feature, tap to open settings and turn it off.</string>
   <string name="pip_notification_title">%s is in picture-in-picture</string>
-  <string name="pip_notification_unknown_title">(No title program)</string>
+  <string name="pip_notification_unknown_title">(No program title)</string>
   <string name="pip_pause">Pause</string>
   <string name="pip_phone_close">Close</string>
   <string name="pip_phone_dismiss_hint">Drag down to dismiss</string>
