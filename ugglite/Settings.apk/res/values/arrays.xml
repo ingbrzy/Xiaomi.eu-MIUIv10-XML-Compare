@@ -2977,6 +2977,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>cereus</item>
         <item>gemini</item>
         <item>platina</item>
+        <item>capricorn</item>
     </string-array>
     <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
@@ -2990,5 +2991,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>cereus</item>
         <item>nitrogen</item>
         <item>platina</item>
+        <item>vince</item>
     </string-array>
 </resources>
