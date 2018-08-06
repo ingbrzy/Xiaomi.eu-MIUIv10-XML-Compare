@@ -483,7 +483,7 @@ Sample Rate"</string>
   <string name="card_title_dialing">Dialing</string>
   <string name="card_title_forwardcheckreceived">Forward check received</string>
   <string name="card_title_forwarded_MTcall">Forwarded incoming call</string>
-  <string name="card_title_hanging_up">Hanging up</string>
+  <string name="card_title_hanging_up">"Hanging up "</string>
   <string name="card_title_in_call">In call</string>
   <string name="card_title_incoming_barred">Incoming calls barred</string>
   <string name="card_title_incoming_call">Incoming call</string>
@@ -618,7 +618,7 @@ Sample Rate"</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
   <string name="data_enable_summary">Allow this device to use mobile data</string>
   <string name="data_enabled">Mobile data</string>
-  <string name="data_plan">mobile data plans</string>
+  <string name="data_plan">Mobile data plans</string>
   <string name="data_usage_disable_mobile">Turn off mobile data?</string>
   <string name="data_usage_template">%1$s mobile data used %2$s</string>
   <string name="data_usage_title">Data usage</string>
