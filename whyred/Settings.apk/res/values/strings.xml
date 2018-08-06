@@ -777,7 +777,7 @@ Last ran on %2$s"</string>
   <string name="bluetooth_notif_message">Tap to pair with %1$s.</string>
   <string name="bluetooth_notif_ticker">Bluetooth pairing request</string>
   <string name="bluetooth_notif_title">Pairing request</string>
-  <string name="bluetooth_on_time">WLAN time on</string>
+  <string name="bluetooth_on_time">Wi-Fi time on</string>
   <string name="bluetooth_only_visible_to_paired_devices">Only visible to paired devices</string>
   <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
   <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
@@ -2304,6 +2304,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_vertical_clock_title">Vertical Clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
   <string name="keywords_all_apps">apps, download, applications, system</string>
