@@ -674,6 +674,8 @@ Check your tracking number."</string>
   <string name="express_setting_service_provider">Service provider</string>
   <string name="express_setting_service_unavailable">抱歉，当前服务不可用，请稍后重试</string>
   <string name="express_setting_sim_card_index">卡槽%d</string>
+  <string name="express_setting_subscribe_phone_failed">添加手机号码失败！</string>
+  <string name="express_setting_subscribe_phone_success">添加手机号码成功！</string>
   <string name="express_setting_supported_orders">"Supported delivery services include Taobao, Tmall, Xianyu, ZTO Express, STO Express, Yunda Express, and other major delivery companies.
 Several orders sent via SF Express from the vendors outside of Taobao, Tmall, and Xianyu can only be checked manually. JD Express isn't supported."</string>
   <string name="express_setting_title">Verified phone number</string>
@@ -960,7 +962,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="mi_sport">Step counter</string>
   <string name="mi_sport_go_install">Download</string>
   <string name="mi_wallet">Mi Wallet</string>
-  <string name="mifare_card">门禁卡</string>
+  <string name="mifare_card">门卡</string>
   <string name="mini_add_fp">请先到手机系统中添加指纹, 再开启支付宝指纹密码</string>
   <string name="mini_agree">同意</string>
   <string name="mini_already_download">已下载</string>
@@ -1361,6 +1363,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="scan_parent">Pay</string>
   <string name="scan_trans">Translate</string>
   <string name="screen_shot">截屏</string>
+  <string name="search">Search</string>
   <string name="search_add_header">Add cover image</string>
   <string name="search_category_article">Articles</string>
   <string name="search_category_shopping">Shopping</string>
