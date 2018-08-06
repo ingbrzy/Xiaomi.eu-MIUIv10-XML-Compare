@@ -21,8 +21,8 @@
         <item quantity="one">%1$s, %2$s, and %3$d other</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">Incorrect SIM PIN code, you have %d remaining attempts.</item>
-        <item quantity="one">Incorrect SIM PIN code, you have %d remaining attempt before you must contact your carrier to unlock your device.</item>
+        <item quantity="other">Incorrect SIM PIN code. You have %d remaining attempts.</item>
+        <item quantity="one">Incorrect SIM PIN code. You have %d remaining attempt before you must contact your carrier to unlock your device.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code">
         <item quantity="other">Incorrect SIM PUK code, you have %d remaining attempts before SIM becomes permanently unusable.</item>
@@ -67,18 +67,6 @@
     <plurals name="new_notifications_msg">
         <item quantity="other">%d new notifications</item>
         <item quantity="one">%d new notification</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
-        <item quantity="other">About %d minutes until full​</item>
-        <item quantity="one">About %d minute until full​</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
-        <item quantity="other">About %d hours until full</item>
-        <item quantity="one">About %d hour until full</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_time__text">
-        <item quantity="other">About %1$d h %2$d m until full</item>
-        <item quantity="one">About %1$d h %2$d m until full</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_min_time_text">
         <item quantity="other">About %d minutes left</item>

@@ -326,7 +326,7 @@
   <string name="cursorError">Cursor error</string>
   <string name="data_enable_summary">Allow this device to use mobile data</string>
   <string name="data_enabled">Mobile data</string>
-  <string name="data_plan">mobile data plans</string>
+  <string name="data_plan">Mobile data plans</string>
   <string name="dc_alert_dialog_message">Some apps require mobile data connection. You can contact your carrier to learn what %s are available to you.</string>
   <string name="dc_alert_dialog_title">Data usage warning</string>
   <string name="deactivate_all">Cancel all</string>
@@ -689,7 +689,7 @@ Switch to the new provider anyway?"</string>
   <string name="mmiCancelled">MMI code canceled</string>
   <string name="mmiStarted">MMI code started</string>
   <string name="mobile_network_settings_not_available">Mobile network settings are not available for this user</string>
-  <string name="mobile_networks">Cellular network settings</string>
+  <string name="mobile_networks">Mobile network settings</string>
   <string name="modem_dialog_body">Mobile network is unstable which results in interruptions and network problems. Send feedback to Mi for analysis? This report may contain personally identifiable information. Your report will be used to help us fix this bug and will never be shared in any commercial context.</string>
   <string name="modem_dialog_title">Mobile network is unstable</string>
   <string name="msim_apn_not_set">Not set</string>

@@ -1238,10 +1238,10 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="same_folder_name_warning">A group with the same name already exists</string>
   <string name="save_button_text">Save</string>
   <string name="save_dialog_title">Save</string>
-  <string name="save_file">Save</string>
+  <string name="save_file">"Save "</string>
   <string name="save_file_already_exist_alert_message">A file with the same name already exists, replace it?</string>
   <string name="save_file_already_exist_alert_title">Replace file?</string>
-  <string name="save_file_suffix">file</string>
+  <string name="save_file_suffix">" file"</string>
   <string name="save_form_data_confirm_message">Turning this feature off may affect usage.</string>
   <string name="save_image_failed">"Couldn't save image"</string>
   <string name="save_image_success">Image saved</string>
