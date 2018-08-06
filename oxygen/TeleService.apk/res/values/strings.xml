@@ -519,7 +519,7 @@
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
   <string name="data_enable_summary">Allow this device to use mobile data</string>
   <string name="data_enabled">Mobile data</string>
-  <string name="data_plan">mobile data plans</string>
+  <string name="data_plan">Mobile data plans</string>
   <string name="data_usage_uninstalled_apps">Removed apps</string>
   <string name="data_usage_uninstalled_apps_users">Removed apps and users</string>
   <string name="dc_alert_dialog_message">Some apps require mobile data connection. You can contact your carrier to learn what %s are available to you.</string>
@@ -917,7 +917,7 @@ Switch to the new provider anyway?"</string>
   <string name="mobile_data_always_on">Cellular data always active</string>
   <string name="mobile_data_always_on_summary">Always keep mobile data active, even when WLAN is active (for fast network switching).</string>
   <string name="mobile_network_settings_not_available">"Mobile network settings aren't available for this user"</string>
-  <string name="mobile_networks">Cellular network settings</string>
+  <string name="mobile_networks">Mobile network settings</string>
   <string name="mock_location_app">Select mock location app</string>
   <string name="mock_location_app_not_set">No mock location app set</string>
   <string name="mock_location_app_set">Mock location app: %1$s</string>
