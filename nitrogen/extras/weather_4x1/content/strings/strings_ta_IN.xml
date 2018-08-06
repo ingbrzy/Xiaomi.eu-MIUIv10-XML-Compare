@@ -8,7 +8,7 @@
     <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null"></string>
     <string name="weather_location_null"></string>
-    <string name="weather_type_0">தெளிவானது</string>
+    <string name="weather_type_0">தெளிவான வானிலை</string>
     <string name="weather_type_1">மேக மூட்டம்</string>
     <string name="weather_type_2">தெளிவற்றது</string>
     <string name="weather_type_3">மூடுபனி</string>
