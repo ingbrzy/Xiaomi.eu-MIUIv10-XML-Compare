@@ -309,7 +309,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="app_list_memory_use">App usage</string>
   <string name="app_list_preference_none">None</string>
   <string name="app_memory_use">Memory use</string>
-  <string name="app_mobile">Mobile</string>
+  <string name="app_mobile">Mobile data</string>
   <string name="app_name_label">App</string>
   <string name="app_name_na">Data usage</string>
   <string name="app_not_found_dlg_text">The app wasn’t found in the list of installed apps.</string>
@@ -363,7 +363,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="apply_now_button_text">Update</string>
   <string name="apply_password_to_category_title">Require unlock</string>
   <string name="apply_update_fail">"Couldn't update"</string>
-  <string name="approve_title">Verification</string>
+  <string name="approve_title">Certification</string>
   <string name="apps_storage">Apps storage</string>
   <string name="apps_summary">%1$d apps installed</string>
   <string name="apps_summary_example">24 apps installed</string>
@@ -2070,6 +2070,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_vertical_clock_title">Vertical Clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
   <string name="keywords_all_apps">apps, download, applications, system</string>
@@ -2600,6 +2601,9 @@ There are other users present on this device.
   <string name="miui_lab_features">MIUI lab features</string>
   <string name="miui_lab_gallery_search_desc">Improved image search</string>
   <string name="miui_lab_gallery_search_title">Find photos in Gallery</string>
+  <string name="miui_lab_install_drive_mode_error">"Couldn't install, try again."</string>
+  <string name="miui_lab_install_drive_mode_summary">"Car mode is a system app. Installation doesn't require internet connection."</string>
+  <string name="miui_lab_install_drive_mode_title">Install Car mode</string>
   <string name="miui_lab_settings">MIUI lab</string>
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
   <string name="miui_lab_super_resolution_desc">Make images crisper</string>
