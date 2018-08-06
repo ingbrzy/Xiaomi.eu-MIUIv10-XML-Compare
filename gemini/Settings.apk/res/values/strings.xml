@@ -930,6 +930,8 @@ Sample rate"</string>
   <string name="bootloader_locked_answer_2">"1. Make sure you've already inserted a SIM card into your device.
 2. Tap \"Add account\" below to associate your Mi Account with this device.
 3. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
+  <string name="bootloader_locked_answer_2_no_sim">"1. Tap \"Add account\" below to associate your Mi Account with this device.
+2. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
   <string name="bootloader_locked_check_status">Add account and device</string>
   <string name="bootloader_locked_question_1">Why should devices be locked?</string>
   <string name="bootloader_locked_question_2">I understand the risks, but still want to unlock my device.</string>
@@ -4205,6 +4207,8 @@ To use screen pinning:
   <string name="security_encryption_progress_dialog_open">Encrypting…</string>
   <string name="security_encryption_rejected_via_home_manager">"This feature isn't supported in the demo version."</string>
   <string name="security_encryption_title">Encrypt device using Lock screen password</string>
+  <string name="security_input">Security input</string>
+  <string name="security_input_hint">Using security keyboard enter password</string>
   <string name="security_keyguard_category_name">Lock screen</string>
   <string name="security_password_category_name">Screen lock</string>
   <string name="security_passwords_title">Privacy</string>

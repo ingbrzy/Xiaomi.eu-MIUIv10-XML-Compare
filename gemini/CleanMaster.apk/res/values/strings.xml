@@ -120,6 +120,7 @@
   <string name="clean_content_three">3 items</string>
   <string name="clean_content_two">2 items</string>
   <string name="clean_content_zero">None</string>
+  <string name="clean_summary">Cleaned %1$s files</string>
   <string name="clear_bigfiles">Delete big files, duplicate photos, and other obsolete items</string>
   <string name="clear_immediately">Clean now</string>
   <string name="clear_safe_notify">Notification shade widget</string>
