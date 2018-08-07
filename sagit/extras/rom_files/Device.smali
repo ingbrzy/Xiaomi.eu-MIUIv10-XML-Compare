@@ -1924,6 +1924,20 @@
     return v0
 .end method
 
+.method public static isSupportGoogleLens()Z
+    .locals 2
+
+    const-string/jumbo v0, "camera_support_google_lens"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static isSupportGradienter()Z
     .locals 2
 
@@ -2060,6 +2074,20 @@
     return v0
 .end method
 
+.method public static isSupportVideoFrontMirror()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_video_front_mirror"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static isSupportVideoHighFrame()Z
     .locals 2
 
@@ -2078,20 +2106,6 @@
     .locals 2
 
     const-string/jumbo v0, "is_support_video_intelligent_switch"
-
-    const/4 v1, 0x0
-
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public static isSupportedAILens()Z
-    .locals 2
-
-    const-string/jumbo v0, "camera_support_ai_lens"
 
     const/4 v1, 0x0
 
@@ -2577,6 +2591,20 @@
     const-string/jumbo v0, "support_camera_manual_function_focus"
 
     const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupportedMiLens()Z
+    .locals 2
+
+    const-string/jumbo v0, "camera_support_ai_lens"
+
+    const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
@@ -3174,6 +3202,41 @@
     const/4 v0, 0x0
 
     goto :goto_0
+.end method
+
+.method public static supportAdvanceBeautyFrontBokeh()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_adv_beauty_front_bokeh"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static supportBeautyMenuInBackPortraitMode()Z
+    .locals 2
+
+    const/4 v0, 0x0
+
+    invoke-static {}, Lcom/android/camera/Device;->isSupportedSkinBeautify()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    const-string/jumbo v1, "support_camera_beauty_menu_in_back_portrait_mode"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :cond_0
+    return v0
 .end method
 
 .method public static supportCameraWBManualValue()Z

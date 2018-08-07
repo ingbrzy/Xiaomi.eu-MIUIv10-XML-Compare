@@ -2306,6 +2306,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_vertical_clock_title">Vertical Clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
   <string name="keywords_all_apps">apps, download, applications, system</string>
@@ -3110,7 +3111,7 @@ Select your operating system:"</string>
   <string name="notification_channel_badge_title">Show notification dot</string>
   <string name="notification_channel_sound_title">Sound</string>
   <string name="notification_channel_title">Notification category</string>
-  <string name="notification_channels">Categories</string>
+  <string name="notification_channels">Notification categories</string>
   <string name="notification_channels_other">Other</string>
   <string name="notification_content_block_summary">Never show notifications in the shade or on peripheral devices</string>
   <string name="notification_content_block_title">Show notifications</string>
@@ -3357,7 +3358,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="picture_in_picture_title">Picture-in-picture</string>
   <string name="pin_failed">SIM PIN operation failed!</string>
   <string name="ping_test_label">Run Ping Test</string>
-  <string name="play_pause_description">Play Pause Button</string>
+  <string name="play_pause_description">Play/Pause button</string>
   <string name="please_select_phase2">Phase 2 authentication</string>
   <string name="please_type_passphrase">Password</string>
   <string name="pointer_location">Pointer location</string>
