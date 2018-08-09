@@ -1167,7 +1167,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="oldman_airplane_mode_text">Airplane mode</string>
   <string name="oldman_incall_text">Back to call</string>
   <string name="open_camera_hint_text">Swipe left to open camera</string>
-  <string name="open_remote_center_hint_text">Swipe right to open Mi Remote</string>
+  <string name="open_remote_center_hint_text">Swipe right to open Shortcuts</string>
   <string name="other">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overview">Overview</string>
