@@ -892,7 +892,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gmscore_support_service">Google Services</string>
   <string name="go_to">Proceed</string>
   <string name="go_to_setting_fingerprint">Settings</string>
-  <string name="google_base_app_install_choice">\"%s\" requires Google Services Framework to work normally, download and install it?</string>
+  <string name="google_base_app_install_choice">The application requires Google Services Framework to work normally, download and install it?</string>
   <string name="group_have_hongbao">来自“%1$s”%2$d个红包</string>
   <string name="gs_anto_clean_memory_whitelist">Exceptions</string>
   <string name="gs_app_back_self_start">Battery saver</string>

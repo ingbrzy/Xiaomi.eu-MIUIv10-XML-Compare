@@ -2012,6 +2012,12 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget">Forget</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
+  <string name="forget_password_dialog_button_text">Back</string>
+  <string name="forget_password_dialog_content_four">&lt;Data&gt;2. Select &amp;lt;font color=#e6e6e6&amp;gt;[Wipe data]&amp;lt;/font&amp;gt;, and wait until your device reboots.&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_one">&lt;Data&gt;"If you forget your password, you won't be able to restore it. However, you can reset your password after you &amp;lt;font color=#ec2700&amp;gt;erase all data on your device&amp;lt;/font&amp;gt; (including photos, contacts, etc.). Back up all important data before this."&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_three">&lt;Data&gt;"1. Turn off your device. Press the &amp;lt;font color=#e6e6e6&amp;gt;[Power]&amp;lt;/font&amp;gt; button and the &amp;lt;font color=#e6e6e6&amp;gt;[Volume+]&amp;lt;/font&amp;gt; button simultaneously, and hold them until you see the &amp;lt;img src=''&amp;gt; icon."&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_two">Follow these steps to erase data:</string>
+  <string name="forget_password_dialog_title">Reset your password</string>
   <string name="forget_pattern">&lt;u&gt;Forgot pattern?&lt;/u&gt;</string>
   <string name="forget_privacy_password_setting">Add Mi Account</string>
   <string name="forget_privacy_password_summary">Use Mi Account to reset your password</string>
