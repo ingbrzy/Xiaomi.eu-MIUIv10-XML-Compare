@@ -356,6 +356,8 @@
         <item>cereus</item>
         <item>nitrogen</item>
         <item>platina</item>
+        <item>vince</item>
+        <item>tulip</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -375,6 +377,8 @@
         <item>cereus</item>
         <item>gemini</item>
         <item>platina</item>
+        <item>capricorn</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -387,6 +391,16 @@
         <item>sirius</item>
         <item>ursa</item>
         <item>beryllium</item>
+        <item>perseus</item>
+    </string-array>
+    <string-array name="device_support_screen_on_delayed">
+        <item>dipper</item>
+        <item>polaris</item>
+        <item>wayne</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>nitrogen</item>
+        <item>whyred</item>
     </string-array>
     <string-array name="device_use_cameraone">
         <item>jason</item>
@@ -402,6 +416,9 @@
         <item>cereus</item>
         <item>gemini</item>
         <item>platina</item>
+        <item>capricorn</item>
+        <item>vince</item>
+        <item>tulip</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
@@ -409,6 +426,7 @@
         <item>sirius</item>
         <item>ursa</item>
         <item>beryllium</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>None</item>
@@ -577,6 +595,7 @@
         <item>com.miui.voiceassist</item>
         <item>com.miui.securitycore</item>
         <item>com.wali.live</item>
+        <item>com.xiaomi.scanner</item>
     </string-array>
     <string-array name="multi_window_force_resize_pkgs">
         <item>com.tencent.mobileqq</item>
@@ -1165,6 +1184,7 @@
         <item>com.android.systemui</item>
         <item>com.miui.contentextension</item>
         <item>com.android.mms</item>
+        <item>com.miui.securitycore</item>
     </string-array>
     <string-array name="telephony_data_activity_1x_sim1">
         <item>0</item>

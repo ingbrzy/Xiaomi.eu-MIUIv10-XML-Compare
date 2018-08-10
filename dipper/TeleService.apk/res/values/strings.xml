@@ -534,7 +534,8 @@ Sample Rate"</string>
   <string name="cfnry_time_twenty_sec">20 sec</string>
   <string name="cfnry_title">Forward when unanswered</string>
   <string name="cfu_title">Always forward calls</string>
-  <string name="change_data_preference_4g_only_prompt">Looks like you have a 4G only SIM card. Set it as default for mobile data?</string>
+  <string name="change_data_preference_4g_only_prompt">Looks like you have a 4G only SIM card. To make sure it works normally, set it as default for mobile data. Set now?</string>
+  <string name="change_data_sim_4g_only_prompt">"SIM %1$s only supports 4G. When SIM %2$s isn't your default SIM for mobile data, SIM card might not work normally. Switch now?"</string>
   <string name="change_default_data_card">Default mobile data SIM</string>
   <string name="change_default_data_card_summary">Looks like you changed SIM cards. Set this card as your default SIM for your mobile data connection?</string>
   <string name="change_num">Update</string>
@@ -618,7 +619,7 @@ Sample Rate"</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
   <string name="data_enable_summary">Allow this device to use mobile data</string>
   <string name="data_enabled">Mobile data</string>
-  <string name="data_plan">mobile data plans</string>
+  <string name="data_plan">Mobile data plans</string>
   <string name="data_usage_disable_mobile">Turn off mobile data?</string>
   <string name="data_usage_template">%1$s mobile data used %2$s</string>
   <string name="data_usage_title">Data usage</string>
@@ -1049,7 +1050,7 @@ Switch to the new provider anyway?"</string>
   <string name="mobile_network_settings_class">com.android.phone.MobileNetworkSettings</string>
   <string name="mobile_network_settings_not_available">"Mobile network settings aren't available for this user"</string>
   <string name="mobile_network_settings_package">com.android.phone</string>
-  <string name="mobile_networks">Cellular network settings</string>
+  <string name="mobile_networks">Mobile network settings</string>
   <string name="mock_location_app">Select mock location app</string>
   <string name="mock_location_app_not_set">No mock location app set</string>
   <string name="mock_location_app_set">Mock location app: %1$s</string>
@@ -1173,6 +1174,8 @@ Contact your carrier."</string>
   <string name="onscreenSwapCallsText">Swap</string>
   <string name="onscreenVideoCallText">Video call</string>
   <string name="open_miui">Open</string>
+  <string name="opened_dual_4g_confirm_prompt">Looks like you have a 4G only SIM card. Dual 4G was turned on automatically.</string>
+  <string name="opened_dual_4g_confirm_prompt_with_sim">SIM %1$s only supports 4G. To make sure your SIM card works normally, dual 4G was turned on.</string>
   <string name="optional_summary">&lt;Optional&gt;</string>
   <string name="ota_activate">Activate</string>
   <string name="ota_call_end">Back</string>
