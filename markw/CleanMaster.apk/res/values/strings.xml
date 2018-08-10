@@ -120,6 +120,7 @@
   <string name="clean_content_three">3 items</string>
   <string name="clean_content_two">2 items</string>
   <string name="clean_content_zero">None</string>
+  <string name="clean_summary">Cleaned %1$s files</string>
   <string name="clear_bigfiles">Delete big files, duplicate photos, and other obsolete items</string>
   <string name="clear_immediately">Clean now</string>
   <string name="clear_safe_notify">Notification shade widget</string>
@@ -381,6 +382,8 @@
   <string name="mainbtn_text_quick_cleanup_default">Clean up</string>
   <string name="megabyteShort">MB</string>
   <string name="memeory_check_content">%1$d apps, memory %2$s</string>
+  <string name="memory_clean_icon_text">Clear memory</string>
+  <string name="memory_clean_no_trash_tip">Everything looks good</string>
   <string name="menu_add_to_white_list">Add to exceptions</string>
   <string name="menu_clear">Clear</string>
   <string name="menu_install">Install this app</string>
@@ -406,6 +409,12 @@
   <string name="notification_title_of_garbage_cleanup">%s of trash files</string>
   <string name="notify_when">Get a notification when trash size reaches 100MB</string>
   <string name="ok">OK</string>
+  <string name="onekeyclean_boost_available">%s available</string>
+  <string name="onekeyclean_boost_cleaned">%s Cleared</string>
+  <string name="onekeyclean_boosted_title">Cleared successfully</string>
+  <string name="onekeyclean_boosting_title">Boosting speed</string>
+  <string name="onekeyclean_card_btn">Clean now</string>
+  <string name="onekeyclean_card_summery">Clear trash to free up space</string>
   <string name="open">Turn on</string>
   <string name="open_app">Open</string>
   <string name="open_browser">Open in browser</string>
@@ -442,6 +451,7 @@
   <string name="pref_title_choose_engine">Definitions</string>
   <string name="pref_title_clean_alert">Remind to clean</string>
   <string name="pref_title_cleanup_white_list">Exceptions</string>
+  <string name="pref_title_create_onekeyclean_shortcut">Show Home screen shortcut</string>
   <string name="pref_title_expand_cache_group">Show cached items</string>
   <string name="pref_title_garbage_cleanup_check_size">Trash size limit</string>
   <string name="pref_title_garbage_cleanup_check_time">Schedule</string>
@@ -456,6 +466,7 @@
   <string name="preference_key_auto_clean_trigger">key_auto_clean_trigger</string>
   <string name="preference_key_auto_update_cleanup_db">key_auto_update_cleanup_db</string>
   <string name="preference_key_cleanup_white_list">key_cleanup_white_list</string>
+  <string name="preference_key_create_onekeyclean_shortcut">key_create_onekeyclean_shortcut</string>
   <string name="preference_key_default_expand_cache_group">key_default_expand_cache_group</string>
   <string name="preference_key_garbage_clean_alert">key_garbage_clean_alert</string>
   <string name="preference_key_garbage_cleanup_auto_check_size">key_garbage_cleanup_auto_check_size</string>
