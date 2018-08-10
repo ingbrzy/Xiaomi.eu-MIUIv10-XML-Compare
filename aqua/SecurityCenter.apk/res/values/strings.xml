@@ -892,7 +892,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gmscore_support_service">Google Services</string>
   <string name="go_to">Proceed</string>
   <string name="go_to_setting_fingerprint">Settings</string>
-  <string name="google_base_app_install_choice">\"%s\" requires Google Services Framework to work normally, download and install it?</string>
+  <string name="google_base_app_install_choice">The application requires Google Services Framework to work normally, download and install it?</string>
   <string name="group_have_hongbao">来自“%1$s”%2$d个红包</string>
   <string name="gs_anto_clean_memory_whitelist">Exceptions</string>
   <string name="gs_app_back_self_start">Battery saver</string>
@@ -1660,7 +1660,7 @@ This activity shortens battery life."</string>
   <string name="pref_key_tethering_setting">One-time data limit</string>
   <string name="pref_key_tethering_title">One-time data limit</string>
   <string name="pref_manual_adjust">Set data usage stats manually</string>
-  <string name="pref_mi_sim_settings">Mi SIM Settings</string>
+  <string name="pref_mi_sim_settings">%spackage settings</string>
   <string name="pref_more_settings">Additional settings</string>
   <string name="pref_new_installed_preconfig_title">"New apps' default settings"</string>
   <string name="pref_normal_traffic_limit">When data plan is used up</string>
@@ -1675,7 +1675,7 @@ This activity shortens battery life."</string>
   <string name="pref_roaming_setting_gategory">Settings</string>
   <string name="pref_special_package_setting">Custom data plan</string>
   <string name="pref_special_package_setting_summary">Manage off-peak data, top-up packages, daily data plans, and designated data</string>
-  <string name="pref_summary_upload_data_usage">Report your data usage stats to help us improve MIUI. Reporting is carried out in accordance with our Privacy Policy.</string>
+  <string name="pref_summary_upload_data_usage">Report your data usage info to help us improve MIUI services. The reporting process will be carried out in accordance with our Privacy Policy.</string>
   <string name="pref_title_declaration">Important disclaimer</string>
   <string name="pref_title_diagnostics_show_float_notification">Floating notifications</string>
   <string name="pref_title_manual_check_virus_db_update">Check for updates</string>
@@ -1683,7 +1683,7 @@ This activity shortens battery life."</string>
   <string name="pref_title_traffic_limit_number">Size</string>
   <string name="pref_title_traffic_speed_state">Show network speed</string>
   <string name="pref_title_update_notification">Data usage notifications</string>
-  <string name="pref_title_upload_data_usage">Report data usage stats</string>
+  <string name="pref_title_upload_data_usage">Report data usage info</string>
   <string name="pref_traffic_manage_title">Data usage</string>
   <string name="pref_warning_values">Data usage warning level</string>
   <string name="pref_whitelist_setting">Data roaming exceptions</string>
@@ -1783,6 +1783,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="report_success">Message reported</string>
   <string name="report_warning">"Report %1$s SMS to Mi? These messages and the phone numbers they were sent from will be uploaded to Mi's servers for review. Any personal info associated with these messages is always kept anonymous."</string>
   <string name="report_warning_title">Attention</string>
+  <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all imporant items and perform a facory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
+  <string name="reset_data_dialog_ok">Factory reset</string>
+  <string name="reset_data_title">"Can't restore password"</string>
   <string name="resource_antispam">Blocklist</string>
   <string name="resource_antivirus">Virus scan</string>
   <string name="resource_app_permissions">App permissions</string>
@@ -2070,6 +2073,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="start_game">Start</string>
   <string name="status_bar_network_flow_content">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Remaining: %2$s</string>
   <string name="status_bar_network_flow_content_not_setting">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;This month: %2$s</string>
+  <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
   <string name="status_bar_network_flow_exceed_content">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Plan exceeded: &lt;font color=%2$s&gt;%3$s&lt;/font&gt;</string>
   <string name="status_bar_network_flow_phone_balance">"   Phone balance:%1$s "</string>
   <string name="status_bar_network_flow_purchase">"   Purchase &gt;"</string>
