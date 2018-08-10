@@ -75,6 +75,7 @@
   <string name="preference_scenes">Recording type</string>
   <string name="preference_silent_mode">Mute ringer when recording</string>
   <string name="preference_tip_rename">Name recordings manually</string>
+  <string name="privacy_policy_title">Privacy Policy</string>
   <string name="recognition_error_cancel">Canceled</string>
   <string name="recognition_error_download_cancel">Later</string>
   <string name="recognition_error_download_fail">"Couldn't download. Check network settings and try again."</string>
