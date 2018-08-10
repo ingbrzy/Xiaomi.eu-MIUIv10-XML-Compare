@@ -74,12 +74,16 @@
     </array>
     <string-array name="pref_video_quality_entries">
         <item>@string/pref_video_quality_entry_4kuhd</item>
+        <item>@string/pref_video_quality_entry_4kuhd_60fps</item>
         <item>@string/pref_video_quality_entry_1080p</item>
+        <item>@string/pref_video_quality_entry_1080p_60fps</item>
         <item>@string/pref_video_quality_entry_720p</item>
     </string-array>
     <string-array name="pref_video_quality_entryvalues">
         <item>@string/pref_video_quality_entry_value_4kuhd</item>
+        <item>@string/pref_video_quality_entry_value_4kuhd_60fps</item>
         <item>6</item>
+        <item>@string/pref_video_quality_entry_value_1080p_60fps</item>
         <item>5</item>
     </string-array>
     <string-array name="pref_video_encoder_entries">

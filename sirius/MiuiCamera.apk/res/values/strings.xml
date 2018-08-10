@@ -41,8 +41,8 @@
   <string name="accessibility_shutter_button">Shutter button</string>
   <string name="accessibility_stereo_button">Focus adjustment</string>
   <string name="accessibility_zoom_button">Zoom mode</string>
-  <string name="ai_scene_mode_use_hint_text">"Open the Ai-Scene Camera, identify the picture scene for you 
- and optimize the picture based on the scene"</string>
+  <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
+and optimizes your photos based on this info"</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
@@ -129,8 +129,8 @@ and then create a shot where everyone looks best."</string>
   <string name="hunt_dual_water_mark">Dual camera watermark will be added automatically.</string>
   <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
   <string name="install_confirmed">Install</string>
-  <string name="lens_dirty_detected_content">"It is detected that your camera lens is dirty,
-please clean your camera lens for better picture."</string>
+  <string name="lens_dirty_detected_content">"Looks like your camera's lens is dirty.
+Clean the lens for better effect."</string>
   <string name="lens_dirty_detected_title_back">Rear camera lens is dirty</string>
   <string name="lens_dirty_detected_title_front">Front camera lens is dirty</string>
   <string name="lighting_hint_needed">Place your object in the spotlight</string>
@@ -187,7 +187,7 @@ and brings out the people in the front."</string>
   <string name="pref_advance_settings">Additional settings</string>
   <string name="pref_ai_detect">AI detection</string>
   <string name="pref_camcorder_settings">Video</string>
-  <string name="pref_camera_ai_scene_title">AI Camera</string>
+  <string name="pref_camera_ai_scene_title">AI camera</string>
   <string name="pref_camera_antibanding_default">1</string>
   <string name="pref_camera_antibanding_entry_0">Off</string>
   <string name="pref_camera_antibanding_entry_1">50 Hz</string>
@@ -429,11 +429,15 @@ and brings out the people in the front."</string>
   <string name="pref_video_hfr_entryvalue_default">1920x1080:120</string>
   <string name="pref_video_hfr_title">Video HFR</string>
   <string name="pref_video_quality_default">6</string>
-  <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
+  <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
+  <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
   <string name="pref_video_quality_entry_480p">SD 480P</string>
-  <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
+  <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
+  <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
   <string name="pref_video_quality_entry_720p">HD 720P</string>
+  <string name="pref_video_quality_entry_value_1080p_60fps">6,60</string>
   <string name="pref_video_quality_entry_value_4kuhd">8</string>
+  <string name="pref_video_quality_entry_value_4kuhd_60fps">8,60</string>
   <string name="pref_video_quality_summary">4K video cannot be supported in 120FPS mode</string>
   <string name="pref_video_quality_title">Video quality</string>
   <string name="pref_video_speed_fast_title">Time-lapse</string>
