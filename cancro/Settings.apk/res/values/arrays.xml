@@ -2827,6 +2827,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>gemini</item>
         <item>platina</item>
         <item>capricorn</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
@@ -2841,20 +2842,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>nitrogen</item>
         <item>platina</item>
         <item>vince</item>
-    </string-array>
-    <string-array name="standard_configuration_version">
-        <item>3.00GB</item>
-        <item>16GB</item>
-        <item>Quad-core Max 2.5GHz</item>
-    </string-array>
-    <string-array name="miracast_policies">
-        <item>Shorter delay</item>
-        <item>Standard</item>
-        <item>Better quality</item>
-    </string-array>
-    <string-array name="standard_configuration_version_mi3">
-        <item>3.00GB</item>
-        <item>16GB</item>
-        <item>Quad-core Max 2.5GHz</item>
+        <item>tulip</item>
     </string-array>
 </resources>

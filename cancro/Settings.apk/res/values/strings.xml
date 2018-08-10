@@ -720,6 +720,8 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bootloader_locked_answer_2">"1. Make sure you've already inserted a SIM card into your device.
 2. Tap \"Add account\" below to associate your Mi Account with this device.
 3. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
+  <string name="bootloader_locked_answer_2_no_sim">"1. Tap \"Add account\" below to associate your Mi Account with this device.
+2. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
   <string name="bootloader_locked_check_status">Add account and device</string>
   <string name="bootloader_locked_question_1">Why should devices be locked?</string>
   <string name="bootloader_locked_question_2">I understand the risks, but still want to unlock my device.</string>
@@ -1597,6 +1599,12 @@ Some apps may not work until updated by their developers."</string>
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget">Forget</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
+  <string name="forget_password_dialog_button_text">Back</string>
+  <string name="forget_password_dialog_content_four">&lt;Data&gt;2. Select &amp;lt;font color=#e6e6e6&amp;gt;[Wipe data]&amp;lt;/font&amp;gt;, and wait until your device reboots.&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_one">&lt;Data&gt;"If you forget your password, you won't be able to restore it. However, you can reset your password after you &amp;lt;font color=#ec2700&amp;gt;erase all data on your device&amp;lt;/font&amp;gt; (including photos, contacts, etc.). Back up all important data before this."&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_three">&lt;Data&gt;"1. Turn off your device. Press the &amp;lt;font color=#e6e6e6&amp;gt;[Power]&amp;lt;/font&amp;gt; button and the &amp;lt;font color=#e6e6e6&amp;gt;[Volume+]&amp;lt;/font&amp;gt; button simultaneously, and hold them until you see the &amp;lt;img src=''&amp;gt; icon."&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_two">Follow these steps to erase data:</string>
+  <string name="forget_password_dialog_title">Reset your password</string>
   <string name="forget_pattern">&lt;u&gt;Forgot pattern?&lt;/u&gt;</string>
   <string name="forget_privacy_password_setting">Add Mi Account</string>
   <string name="forget_privacy_password_summary">Use Mi Account to reset your password</string>
@@ -2312,35 +2320,6 @@ There are other users present on this device.
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
   <string name="mi_upi_settings">Mi Pay Account</string>
-  <string name="miracast_PC2THOR_streaming_on">Miracast is unavailable because a PC is streaming to this device</string>
-  <string name="miracast_cancelconnect_dialog">Cancel connection</string>
-  <string name="miracast_connection_failed_generic">"Can't connect to display"</string>
-  <string name="miracast_dialog_title">%1$s</string>
-  <string name="miracast_disable_dhcp">Disable HDCP</string>
-  <string name="miracast_display_category">Displays</string>
-  <string name="miracast_enable_dhcp">Enable HDCP</string>
-  <string name="miracast_error_already_streaming">Already streaming to another display</string>
-  <string name="miracast_error_cancelconnect">Connection is busy</string>
-  <string name="miracast_error_connection_in_progress">Connecting…</string>
-  <string name="miracast_menu_connect">Start streaming</string>
-  <string name="miracast_menu_disconnect">Stop streaming</string>
-  <string name="miracast_menu_forget">Forget display</string>
-  <string name="miracast_menu_rename">Rename display</string>
-  <string name="miracast_menu_search">Search</string>
-  <string name="miracast_menu_searching">Searching</string>
-  <string name="miracast_menu_teardown">Teardown</string>
-  <string name="miracast_nickname">Enter a new name:</string>
-  <string name="miracast_no_sinks_found">No displays available</string>
-  <string name="miracast_search_for_displays">Searching for wireless displays…</string>
-  <string name="miracast_settings_category">WLAN display settings</string>
-  <string name="miracast_setup_cancel">Cancel</string>
-  <string name="miracast_setup_save">Save</string>
-  <string name="miracast_sink_busy">Busy</string>
-  <string name="miracast_sink_connected">Connected</string>
-  <string name="miracast_sink_connecting">Connecting…</string>
-  <string name="miracast_sink_not_available">Not available</string>
-  <string name="miracast_sink_ready_to_connect">Ready to connect</string>
-  <string name="miracast_wifi_off">To use Miracast, enable WLAN</string>
   <string name="misc_files">Misc files</string>
   <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
   <string name="misc_files_selected_count_bytes">%1$s out of %2$s</string>
