@@ -1050,6 +1050,7 @@
         <item>gemini</item>
         <item>platina</item>
         <item>capricorn</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
@@ -1064,6 +1065,7 @@
         <item>nitrogen</item>
         <item>platina</item>
         <item>vince</item>
+        <item>tulip</item>
     </string-array>
     <string-array name="device_use_cameraone">
         <item>jason</item>
@@ -1081,6 +1083,7 @@
         <item>platina</item>
         <item>capricorn</item>
         <item>vince</item>
+        <item>tulip</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
@@ -1088,6 +1091,7 @@
         <item>sirius</item>
         <item>ursa</item>
         <item>beryllium</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="device_support_pickup_by_xiaomi">
         <item>polaris</item>
