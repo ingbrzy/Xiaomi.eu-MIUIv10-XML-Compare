@@ -60,7 +60,7 @@
   <string name="month_day_format">MMM dd</string>
   <string name="move_failed">"Can't cut"</string>
   <string name="move_failed_retry">"Can't cut, wait %1$s and try again"</string>
-  <string name="need_get_accounts_permission">Mi Drive needs to access your account to work normally.</string>
+  <string name="need_get_accounts_and_storage_permission">Mi Drive needs to access your account and external storage to work normally.</string>
   <string name="never_notify">"Don't show again"</string>
   <string name="no_app_found_to_open_file">No app was found to handle this action.</string>
   <string name="no_more_space">Not enough storage space.</string>
@@ -108,7 +108,7 @@
   <string name="quota_info">Mi Drive: %1$s available, %2$s total</string>
   <string name="rename_alert">"If you change this file's extension, you may not be able to open it."</string>
   <string name="rename_failed">A file with the same name already exists.</string>
-  <string name="request_permission_msg">Allow Mi Drive to access your account info so it could work normally.</string>
+  <string name="request_permission_msg">Allow Mi Drive to access your account info and external storage so it could work normally.</string>
   <string name="request_permission_title">Permissions are required</string>
   <string name="sd_full">Your SD card is full.</string>
   <string name="sd_invalid">Your SD card is corrupted.</string>
