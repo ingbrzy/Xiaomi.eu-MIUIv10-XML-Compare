@@ -928,6 +928,8 @@ Sample rate"</string>
   <string name="bootloader_locked_answer_2">"1. Make sure you've already inserted a SIM card into your device.
 2. Tap \"Add account\" below to associate your Mi Account with this device.
 3. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
+  <string name="bootloader_locked_answer_2_no_sim">"1. Tap \"Add account\" below to associate your Mi Account with this device.
+2. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
   <string name="bootloader_locked_check_status">Add account and device</string>
   <string name="bootloader_locked_question_1">Why should devices be locked?</string>
   <string name="bootloader_locked_question_2">I understand the risks, but still want to unlock my device.</string>
@@ -1147,7 +1149,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="condition_cellular_title">Mobile data is off</string>
   <string name="condition_expand_hide">Hide</string>
   <string name="condition_expand_show">Show</string>
-  <string name="condition_hotspot_summary">Portable WLAN hotspot %1$s is active, WLAN for this device is turned off.</string>
+  <string name="condition_hotspot_summary">Portable Wi-Fi hotspot %1$s is active, WLAN for this device is turned off.</string>
   <string name="condition_hotspot_title">Hotspot is on</string>
   <string name="condition_night_display_summary">Screen is tinted amber. This may help you fall asleep.</string>
   <string name="condition_night_display_title">Night Light is on</string>
@@ -2008,6 +2010,12 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget">Forget</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
+  <string name="forget_password_dialog_button_text">Back</string>
+  <string name="forget_password_dialog_content_four">&lt;Data&gt;2. Select &amp;lt;font color=#e6e6e6&amp;gt;[Wipe data]&amp;lt;/font&amp;gt;, and wait until your device reboots.&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_one">&lt;Data&gt;"If you forget your password, you won't be able to restore it. However, you can reset your password after you &amp;lt;font color=#ec2700&amp;gt;erase all data on your device&amp;lt;/font&amp;gt; (including photos, contacts, etc.). Back up all important data before this."&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_three">&lt;Data&gt;"1. Turn off your device. Press the &amp;lt;font color=#e6e6e6&amp;gt;[Power]&amp;lt;/font&amp;gt; button and the &amp;lt;font color=#e6e6e6&amp;gt;[Volume+]&amp;lt;/font&amp;gt; button simultaneously, and hold them until you see the &amp;lt;img src=''&amp;gt; icon."&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_two">Follow these steps to erase data:</string>
+  <string name="forget_password_dialog_title">Reset your password</string>
   <string name="forget_pattern">&lt;u&gt;Forgot pattern?&lt;/u&gt;</string>
   <string name="forget_privacy_password_setting">Add Mi Account</string>
   <string name="forget_privacy_password_summary">Use Mi Account to reset your password</string>
@@ -4203,6 +4211,8 @@ To use screen pinning:
   <string name="security_encryption_progress_dialog_open">Encrypting…</string>
   <string name="security_encryption_rejected_via_home_manager">"This feature isn't supported in the demo version."</string>
   <string name="security_encryption_title">Encrypt device using Lock screen password</string>
+  <string name="security_input">Security input</string>
+  <string name="security_input_hint">Using security keyboard enter password</string>
   <string name="security_keyguard_category_name">Lock screen</string>
   <string name="security_password_category_name">Screen lock</string>
   <string name="security_passwords_title">Privacy</string>
