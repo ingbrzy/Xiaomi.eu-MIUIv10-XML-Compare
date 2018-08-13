@@ -54,6 +54,7 @@
   <string name="camera_error_title">Camera error</string>
   <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
   <string name="camera_label">Camera</string>
+  <string name="camera_new_slow_motion_quality_default">6</string>
   <string name="camera_setting">Camera</string>
   <string name="camera_settings_label">Camera</string>
   <string name="camera_snap_mode_title">Quick snap mode</string>
@@ -151,6 +152,7 @@ in Portrait mode"</string>
   <string name="module_name_capture">Photo</string>
   <string name="module_name_fun">Short video</string>
   <string name="module_name_manual">Manual</string>
+  <string name="module_name_new_slow_motion">Slow motion</string>
   <string name="module_name_panorama">Panorama</string>
   <string name="module_name_portrait">Portrait</string>
   <string name="module_name_square">Square</string>
@@ -403,6 +405,9 @@ and brings out the people in the front."</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
+  <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720P videos with 240FPS</string>
+  <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080P</string>
+  <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720P</string>
   <string name="pref_priority_storage_title">Save to SD card</string>
   <string name="pref_qc_focus_position_title">F</string>
   <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
@@ -429,12 +434,15 @@ and brings out the people in the front."</string>
   <string name="pref_video_hfr_entryvalue_default">1920x1080:120</string>
   <string name="pref_video_hfr_title">Video HFR</string>
   <string name="pref_video_quality_default">6</string>
-  <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
+  <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
+  <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
   <string name="pref_video_quality_entry_480p">SD 480P</string>
-  <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
+  <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
+  <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
   <string name="pref_video_quality_entry_720p">HD 720P</string>
+  <string name="pref_video_quality_entry_value_1080p_60fps">6,60</string>
   <string name="pref_video_quality_entry_value_4kuhd">8</string>
-  <string name="pref_video_quality_summary">4K video cannot be supported in 120FPS mode</string>
+  <string name="pref_video_quality_entry_value_4kuhd_60fps">8,60</string>
   <string name="pref_video_quality_title">Video quality</string>
   <string name="pref_video_speed_fast_title">Time-lapse</string>
   <string name="pref_video_speed_slow_title">Slow-motion</string>
