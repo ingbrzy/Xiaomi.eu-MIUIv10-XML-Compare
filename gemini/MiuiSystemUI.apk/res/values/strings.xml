@@ -115,6 +115,9 @@
   <string name="accessibility_enter_lock_wallpaper">Tap to open Music</string>
   <string name="accessibility_ethernet_connected">Ethernet connected.</string>
   <string name="accessibility_ethernet_disconnected">Ethernet disconnected.</string>
+  <string name="accessibility_fingerprint_dialog_app_icon">Application icon</string>
+  <string name="accessibility_fingerprint_dialog_fingerprint_icon">Fingerprint icon</string>
+  <string name="accessibility_fingerprint_dialog_help_area">Help message area</string>
   <string name="accessibility_gps_acquiring">GPS acquiring.</string>
   <string name="accessibility_gps_enabled">GPS enabled.</string>
   <string name="accessibility_home">Home</string>
@@ -659,6 +662,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="fingerprint_add_text">The fingerprint interface was updated. Add your fingerprint again.</string>
   <string name="fingerprint_add_title">Add fingerprint</string>
   <string name="fingerprint_again_identified_msg">Your fingerprint is active now. Use it to unlock the device, or enter password.</string>
+  <string name="fingerprint_dialog_touch_sensor">Touch the fingerprint sensor</string>
   <string name="fingerprint_enter_second_psw_msg">Enter Second space password after rebooting device to be able to use fingerprint recognition</string>
   <string name="fingerprint_enter_second_psw_msg_oldman">"Can't enter Second space while in Lite mode"</string>
   <string name="fingerprint_enter_second_psw_title">Enter Second space password</string>
