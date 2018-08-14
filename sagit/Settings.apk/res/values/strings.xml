@@ -1963,10 +1963,6 @@ For more details, contact your organization's admin."</string>
   <string name="floating_window_switch_label_disable">Turn off floating windows</string>
   <string name="fluency_mode">System animations</string>
   <string name="fluency_mode_confirm_and_reboot">Reboot now</string>
-  <string name="fmt_time_24hour">"HH oclock"</string>
-  <string name="fmt_time_24hour_minute">HH:mm</string>
-  <string name="fmt_time_24hour_minute_second">HH:mm:ss</string>
-  <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
   <string name="font_size_exhuge">Extra Huge</string>
   <string name="font_size_huge">Huge</string>
   <string name="font_size_large">Larger</string>
