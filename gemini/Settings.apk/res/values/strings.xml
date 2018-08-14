@@ -4559,6 +4559,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
+  <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
