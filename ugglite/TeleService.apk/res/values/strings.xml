@@ -527,6 +527,8 @@
   <string name="data_usage_uninstalled_apps_users">Removed apps and users</string>
   <string name="dc_alert_dialog_message">Some apps require mobile data connection. You can contact your carrier to learn what %s are available to you.</string>
   <string name="dc_alert_dialog_title">Data usage warning</string>
+  <string name="dds_switch_warning_message_data_off">"Couldn't find SIM %1$s. SIM %2$s is set as your default mobile data card now. Mobile data is now turned off."</string>
+  <string name="dds_switch_warning_message_data_on">"Couldn't find SIM %1$s. SIM %2$s is set as your default mobile data card now. Mobile data is turned off to avoid unnecessary carrier fees."</string>
   <string name="deactivate_all">Cancel all</string>
   <string name="debug_app">Select debug app</string>
   <string name="debug_app_not_set">No debug application set</string>
