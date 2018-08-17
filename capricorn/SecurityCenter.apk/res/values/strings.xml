@@ -1189,6 +1189,7 @@ to respond"</string>
   <string name="menu_charge_traffic">Buy data</string>
   <string name="menu_edit">Edit</string>
   <string name="menu_item_about_content">Version %s</string>
+  <string name="menu_item_about_privacy_title">Privacy Policy</string>
   <string name="menu_item_about_summary">Version %s</string>
   <string name="menu_item_about_title">About</string>
   <string name="menu_item_app_details">Details</string>
@@ -1689,6 +1690,7 @@ This activity shortens battery life."</string>
   <string name="pref_whitelist_setting">Data roaming exceptions</string>
   <string name="preference_category_information_setting">category_information_setting</string>
   <string name="preference_category_key_antivirus_setting">key_category_antivirus_setting</string>
+  <string name="preference_key_about_privacy">key_about_privacy</string>
   <string name="preference_key_about_version">key_about_version</string>
   <string name="preference_key_antivirus_choose_engine">key_antivirus_choose_engine</string>
   <string name="preference_key_app_permission_control">key_app_permission_control</string>
