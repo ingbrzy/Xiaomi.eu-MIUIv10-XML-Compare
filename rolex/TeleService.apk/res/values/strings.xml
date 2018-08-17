@@ -330,6 +330,8 @@
   <string name="data_plan">Mobile data plans</string>
   <string name="dc_alert_dialog_message">Some apps require mobile data connection. You can contact your carrier to learn what %s are available to you.</string>
   <string name="dc_alert_dialog_title">Data usage warning</string>
+  <string name="dds_switch_warning_message_data_off">"Couldn't find SIM %1$s. SIM %2$s is set as your default mobile data card now. Mobile data is now turned off."</string>
+  <string name="dds_switch_warning_message_data_on">"Couldn't find SIM %1$s. SIM %2$s is set as your default mobile data card now. Mobile data is turned off to avoid unnecessary carrier fees."</string>
   <string name="deactivate_all">Cancel all</string>
   <string name="default_notification_description">Default sound (%1$s)</string>
   <string name="default_port">5060</string>
