@@ -262,6 +262,7 @@
   <string name="plus_one_submit_dialog_content">"Your feedback along with error logs will be sent to Mi's servers."</string>
   <string name="plus_one_submit_dialog_not_show_again">Remember preference</string>
   <string name="post_miui_bbs_failed">"Couldn't post to MIUI Forum"</string>
+  <string name="privacy_policy_title">Privacy policy</string>
   <string name="pull_to_refresh_pull_label">Pull down to refresh</string>
   <string name="pull_to_refresh_refreshing_label">Refreshing…</string>
   <string name="pull_to_refresh_release_label">Release to refresh</string>
@@ -294,6 +295,7 @@
   <string name="systemui">Notification shade</string>
   <string name="tab_title_chat">FAQ</string>
   <string name="tab_title_my_reports">My reports</string>
+  <string name="tab_title_preferences">Settings</string>
   <string name="tab_title_report">Feedback</string>
   <string name="time_in_justnow">Just now</string>
   <string name="title_answer_feedback_main">We found answers!</string>
