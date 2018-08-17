@@ -179,6 +179,7 @@ You can also download them separately."</string>
   <string name="loading_space">Just a sec…</string>
   <string name="loading_success">Loaded successfully</string>
   <string name="lock_screen_open_second_space">Enter Second space from Lock screen</string>
+  <string name="menu_item_about_privacy_title">Privacy Policy</string>
   <string name="messageData">Messages</string>
   <string name="msg_switch_file">Delete these files in First space after they are moved?</string>
   <string name="msg_switch_file_second">Delete these files in Second space after they are moved?</string>
