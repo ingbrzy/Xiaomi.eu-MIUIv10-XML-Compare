@@ -276,6 +276,7 @@ across all your devices with Xunlei"</string>
   <string name="pref_summary_no_limit_popup">Unlimited</string>
   <string name="pref_title_enable_max_bytes_popup">Show data usage prompt</string>
   <string name="preferences_title">Settings</string>
+  <string name="privacy_policy">Privacy Policy</string>
   <string name="privacy_tip_cancel">Cancel</string>
   <string name="privacy_tip_content">"Use Xunlei Accelerator to speed up downloads? The URL of the download's host will uploaded to Xunlei's servers. Your Mi Account details will also be uploaded to check if you have any active subscriptions to this service."</string>
   <string name="privacy_tip_ok">OK</string>
