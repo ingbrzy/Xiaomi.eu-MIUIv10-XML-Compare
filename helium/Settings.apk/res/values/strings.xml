@@ -1597,6 +1597,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="enter_password">To start Android, enter your password</string>
   <string name="enter_pattern">To start Android, draw your pattern</string>
   <string name="enter_pin">To start Android, enter your PIN</string>
+  <string name="enterprise_mode">Enterprise mode</string>
   <string name="eq_auto">Custom</string>
   <string name="eq_blues">Blues</string>
   <string name="eq_cancel">Cancel</string>
@@ -4220,6 +4221,8 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
+  <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
+  <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
