@@ -1461,6 +1461,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
   <string name="delete_rule">Remove rules</string>
   <string name="delete_saved_network">Delete saved networks</string>
+  <string name="delete_sound_effect">\"Delete\" sound</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="deletion_helper_automatic_title">Automatic</string>
   <string name="deletion_helper_manual_title">Manual</string>
@@ -2315,6 +2316,9 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_security_setting_others">Others</string>
+  <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
+  <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
   <string name="keyguard_vertical_clock_title">Vertical clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
