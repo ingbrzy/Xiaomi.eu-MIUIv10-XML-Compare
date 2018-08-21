@@ -115,6 +115,9 @@
   <string name="accessibility_enter_lock_wallpaper">Tap to open Music</string>
   <string name="accessibility_ethernet_connected">Ethernet connected.</string>
   <string name="accessibility_ethernet_disconnected">Ethernet disconnected.</string>
+  <string name="accessibility_fingerprint_dialog_app_icon">Application icon</string>
+  <string name="accessibility_fingerprint_dialog_fingerprint_icon">Fingerprint icon</string>
+  <string name="accessibility_fingerprint_dialog_help_area">Help message area</string>
   <string name="accessibility_gps_acquiring">GPS acquiring.</string>
   <string name="accessibility_gps_enabled">GPS enabled.</string>
   <string name="accessibility_home">Home</string>
@@ -659,6 +662,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="fingerprint_add_text">The fingerprint interface was updated. Add your fingerprint again.</string>
   <string name="fingerprint_add_title">Add fingerprint</string>
   <string name="fingerprint_again_identified_msg">Your fingerprint is active now. Use it to unlock the device, or enter password.</string>
+  <string name="fingerprint_dialog_touch_sensor">Touch the fingerprint sensor</string>
   <string name="fingerprint_enter_second_psw_msg">Enter Second space password after rebooting device to be able to use fingerprint recognition</string>
   <string name="fingerprint_enter_second_psw_msg_oldman">"Can't enter Second space while in Lite mode"</string>
   <string name="fingerprint_enter_second_psw_title">Enter Second space password</string>
@@ -1118,7 +1122,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="notification_default_channel_desc">"This app doesn't have notification categories"</string>
   <string name="notification_done">Done</string>
   <string name="notification_group_collapse_button_text">Fold</string>
-  <string name="notification_group_divider_symbol">" • "</string>
+  <string name="notification_group_divider_symbol">%1$s • %2$s</string>
   <string name="notification_group_overflow_indicator">+%s</string>
   <string name="notification_header_default_channel">Notifications</string>
   <string name="notification_header_title">Notifications</string>
@@ -1313,7 +1317,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_done">Done</string>
   <string name="quick_settings_drivemode_label">Car mode</string>
   <string name="quick_settings_dual_location_label">Dual GPS</string>
-  <string name="quick_settings_edit_label">Edit</string>
+  <string name="quick_settings_edit_label">More</string>
   <string name="quick_settings_flashlight_label">Flashlight</string>
   <string name="quick_settings_gps_label">GPS</string>
   <string name="quick_settings_hotspot_label">Hotspot</string>
