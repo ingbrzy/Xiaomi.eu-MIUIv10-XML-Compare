@@ -162,6 +162,8 @@
   <string name="search_title_notes">@string/app_name</string>
   <string name="select_account_prompt">Sync notes</string>
   <string name="set_alarm_description">Set alarm</string>
+  <string name="setting_other">OTHER</string>
+  <string name="setting_privacy">Privacy Policy</string>
   <string name="snippet_audio_stub">Voice note</string>
   <string name="snippet_image_stub">Image note</string>
   <string name="snippet_image_template">[Image %1$s]</string>
@@ -200,8 +202,9 @@
   <string name="toast_cancel_to_insert_image">"Couldn't add image."</string>
   <string name="toast_message_add_image_fail">"Couldn't add image"</string>
   <string name="toast_notes_delete_success">Deleted successfully</string>
-  <string name="toast_notes_hidden">Hidden successfully</string>
   <string name="toast_notes_hidden_count">Hid %1$s successfully</string>
+  <string name="toast_notes_hidden_edit">This note was hidden successfully. Pull down to see hidden notes.</string>
+  <string name="toast_notes_hidden_home">This note was hidden successfully. Pull down to see hidden notes.</string>
   <string name="toast_notes_unhidden">Unhidden successfully</string>
   <string name="toast_notes_unhidden_count">Unhid %1$s successfully</string>
   <string name="toast_reach_text_limit_attachment">"Can't add new attachments because note is too long"</string>

@@ -65,6 +65,8 @@
   <string name="asset_sync_power_alert_message">Connect charger to back up songs.</string>
   <string name="asset_sync_power_alert_title">Low battery</string>
   <string name="audio_picker_title">Choose a song</string>
+  <string name="auto_update">Update automatically</string>
+  <string name="auto_update_tip">You can update system apps using mobile data. This might generate additional data fees.</string>
   <string name="available_playlist_name_format">New playlist %d</string>
   <string name="avoid_to_use_traffic_summary">"Don't use mobile network to stream music"</string>
   <string name="avoid_to_use_traffic_title">Prompt when using mobile data to play songs</string>
@@ -93,7 +95,6 @@
   <string name="change_download_quality">Change download quality</string>
   <string name="checking_new_version">Checking for updates…</string>
   <string name="choose_download_quality">Choose download quality</string>
-  <string name="choose_language">Select language</string>
   <string name="choose_stream_quality">Choose streaming quality</string>
   <string name="click_to_shuffle">Tap to shuffle</string>
   <string name="close_music_time">"Time remaining: "</string>
@@ -111,7 +112,7 @@
   <string name="cloud_state_storage_full">Not enough phone storage, paused backup</string>
   <string name="cloud_welcome_message">Back up songs</string>
   <string name="cloud_welcome_summary">Back up your songs to Mi Cloud and listen to them on other devices</string>
-  <string name="com.crashlytics.android.build_id">de62d514-3e59-4aff-8fb2-9dea29c8a5a1</string>
+  <string name="com.crashlytics.android.build_id">b1490be1-18f2-41b0-85fb-8b9b1db7d23a</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -421,6 +422,9 @@ is mainly provided by Ultimate Inc."</string>
   <string name="home_tab_online">Online music</string>
   <string name="hot_icon_in_fast_indexer">H</string>
   <string name="hungama">Hungama</string>
+  <string name="hungama_category_playlist">Playlist</string>
+  <string name="hungama_category_radio">Radio</string>
+  <string name="hungama_category_video">Video</string>
   <string name="hungama_pro">Hungama Pro</string>
   <string name="hungama_subscribe_message">Buy PRO membership to download music in high quality.</string>
   <string name="hungama_subscribe_positive_button">Buy PRO membership</string>
@@ -437,7 +441,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="in_searching_please_wait">Searching…</string>
   <string name="inbox_keep_in_heap_limit">10</string>
   <string name="inbox_request_limit">3</string>
-  <string name="include_sensitive_extra">true</string>
+  <string name="include_sensitive_extra">false</string>
   <string name="individuation_recommend_message">Turn on recommendations to receive personalized suggestions based on your preferences.</string>
   <string name="individuation_recommend_switch_message">Turning this feature off will affect personalized Mi Music services. Turn off anyway?</string>
   <string name="individuation_recommend_title">Recommendations</string>
@@ -455,6 +459,10 @@ is mainly provided by Ultimate Inc."</string>
   <string name="karaoke_title">Introducing Karaoke</string>
   <string name="keep_queued_download">Keep</string>
   <string name="ktv_playlist">KTV playlist</string>
+  <string name="language_page_confirm">Confirm</string>
+  <string name="language_preference">Language preferences</string>
+  <string name="language_preference_desc">Select your preferred languages to receive more relevant recommendations</string>
+  <string name="languages">Languages</string>
   <string name="latest_song">Play history (%d)</string>
   <string name="lc_id">en-us</string>
   <string name="like">Like</string>
@@ -511,8 +519,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="miuishare_share_editor_title">Share</string>
   <string name="miuishare_title_more">More</string>
   <string name="miuishare_title_share">Share</string>
-  <string name="miuishare_wechat_timeline_title">WeChat Moments</string>
-  <string name="miuishare_weibo_title">Weibo</string>
   <string name="mobile_recommended_title">Mobile data usage</string>
   <string name="modify_lyric">Edit lyrics</string>
   <string name="modify_pic">Change cover</string>
@@ -522,14 +528,16 @@ is mainly provided by Ultimate Inc."</string>
   <string name="modify_song_info_success">Song info has been updated</string>
   <string name="more">More</string>
   <string name="more_add_song_list">Add songs to queue</string>
-  <string name="more_milink">MI Link</string>
+  <string name="more_milink">Mi Link</string>
   <string name="more_settings">Advanced settings</string>
-  <string name="more_settings_summary">Sleep timer, filters for files, etc.</string>
+  <string name="more_settings_summary">Sleep timer, filtering files, and more</string>
   <string name="more_share">Share</string>
   <string name="music_browser_label">Music</string>
   <string name="music_filter">Filter audio files</string>
   <string name="music_service">Music Service</string>
   <string name="music_settings">Music</string>
+  <string name="mv_metered_play_summary">"Don't show data usage warning​"</string>
+  <string name="mv_metered_play_title">Play online videos using mobile data</string>
   <string name="my_account">Mi Account</string>
   <string name="my_music_empty">Playlist is empty.</string>
   <string name="my_music_empty_goto_online">No songs found</string>
@@ -552,12 +560,13 @@ is mainly provided by Ultimate Inc."</string>
   <string name="no_online_song_selected">No songs selected</string>
   <string name="no_results_return">No search results</string>
   <string name="no_scanned_songs">Empty</string>
-  <string name="no_song_downloaded">"Couldn't connect to server"</string>
+  <string name="no_song_downloaded">"Couldn't find songs to download"</string>
   <string name="no_song_subtitle">Immerse yourself in sound</string>
   <string name="no_song_title">Mi Music</string>
   <string name="no_system_cropper_find">"System doesn't have cropper for image"</string>
   <string name="normal_quality">Good</string>
   <string name="not_login">Not signed in</string>
+  <string name="not_now">Not now</string>
   <string name="not_selected">Choose a song</string>
   <string name="nothing_changed_toast">"You haven't changed anything yet."</string>
   <string name="notif_title_file_size">%1$d total</string>
@@ -680,7 +689,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="s6">Allow Ad to create a calendar event?</string>
   <string name="s7">Test Ad</string>
   <string name="save_changes">Save changes</string>
-  <string name="sdk_ver">1.0.7.11</string>
+  <string name="sdk_ver">1.0.9.5</string>
   <string name="search_album_and_lyric">Search album covers and lyrics</string>
   <string name="search_empty">"Couldn't find any results"</string>
   <string name="search_for_album">Album</string>
@@ -691,12 +700,16 @@ is mainly provided by Ultimate Inc."</string>
   <string name="search_songs_count">Songs: %d</string>
   <string name="search_title">Search</string>
   <string name="second_symbol">s</string>
+  <string name="select">Select</string>
   <string name="select_all">Select all</string>
+  <string name="select_desc_sub">You can select up to 3 languages</string>
   <string name="select_device">Select device</string>
   <string name="select_displayed_folders">Choose folders to display</string>
   <string name="select_local_cover">Select local cover</string>
   <string name="select_local_lyric_file">Select local lyrics file</string>
   <string name="select_none">Deselect all</string>
+  <string name="select_one_language">Select at least 1 language</string>
+  <string name="select_three_languages">You can select up to 3 languages</string>
   <string name="selected_count">Selected %1$d out of %2$d</string>
   <string name="send_to_title">Send to (%1$s)</string>
   <string name="sender_id">XXXXX</string>
@@ -795,6 +808,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="talkback_search">Search</string>
   <string name="talkback_show_navigation_draw">Show drawer</string>
   <string name="terms_of_service">Terms of Service</string>
+  <string name="test_mode">Test mode</string>
   <string name="text_separator">|</string>
   <string name="ticket_summary">Buy tickets for shows, concerts, plays, and other events</string>
   <string name="ticket_title">Show tickets</string>
