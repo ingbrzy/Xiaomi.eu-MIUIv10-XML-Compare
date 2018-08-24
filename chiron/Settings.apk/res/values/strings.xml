@@ -1767,6 +1767,7 @@ This helps protect data on lost or stolen devices. Require PIN to start your dev
   <string name="enter_password">To start Android, enter your password</string>
   <string name="enter_pattern">To start Android, draw your pattern</string>
   <string name="enter_pin">To start Android, enter your PIN</string>
+  <string name="enterprise_mode">Enterprise mode</string>
   <string name="enterprise_privacy_always_on_vpn_device">Always-on VPN turned on</string>
   <string name="enterprise_privacy_always_on_vpn_personal">Always-on VPN turned on in your personal profile</string>
   <string name="enterprise_privacy_always_on_vpn_work">Always-on VPN turned on in your work profile</string>
@@ -4571,6 +4572,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
