@@ -491,4 +491,5 @@ and brings out the people in the front."</string>
   <string name="video_effect_entry_polaroid">Polaroid</string>
   <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
   <string name="video_reach_size_limit">Size limit reached.</string>
+  <string name="view_privacy_policy">View Privacy Policy</string>
 </resources>
