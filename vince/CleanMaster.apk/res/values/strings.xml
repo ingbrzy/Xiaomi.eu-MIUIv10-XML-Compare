@@ -425,6 +425,7 @@
   <string name="petabyteShort">PB</string>
   <string name="phone_search">Google Search</string>
   <string name="positive_confirm">OK</string>
+  <string name="pref_about_privacy_title">Privacy Policy</string>
   <string name="pref_category_title_auto_clean_config_settings">Automatic cleanups</string>
   <string name="pref_category_title_auto_clean_settings">Remind to clean</string>
   <string name="pref_category_title_auto_update_cleanup_db">Additional settings</string>
@@ -462,6 +463,7 @@
   <string name="preference_category_auto_clean_up">key_category_auto_clean_up</string>
   <string name="preference_category_information_setting">category_information_setting</string>
   <string name="preference_category_key_auto_update_cleanup_db">key_category_auto_update_cleanup_db</string>
+  <string name="preference_key_about_privacy">key_about_privacy</string>
   <string name="preference_key_auto_clean_operation">key_auto_clean_operation</string>
   <string name="preference_key_auto_clean_trigger">key_auto_clean_trigger</string>
   <string name="preference_key_auto_update_cleanup_db">key_auto_update_cleanup_db</string>
