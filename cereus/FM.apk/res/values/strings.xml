@@ -23,6 +23,7 @@
   <string name="menu_headset">Switch to headset</string>
   <string name="menu_label">Menu</string>
   <string name="menu_new_station">Add</string>
+  <string name="menu_privacy">Privacy Policy</string>
   <string name="menu_record_list">Recordings</string>
   <string name="menu_record_start">Start recording</string>
   <string name="menu_record_stop">Stop recording</string>
