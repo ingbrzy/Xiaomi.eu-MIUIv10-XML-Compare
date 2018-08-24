@@ -1316,6 +1316,7 @@ This setting affects all users on this phone."</string>
   <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
   <string name="delete_rule">Remove rules</string>
   <string name="delete_saved_network">Delete saved networks</string>
+  <string name="delete_sound_effect">\"Delete\" sound</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="demo_mode">Demo mode</string>
   <string name="demo_mode_summary">Show demo icon in the status bar</string>
@@ -1599,6 +1600,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="enter_password">To start Android, enter your password</string>
   <string name="enter_pattern">To start Android, draw your pattern</string>
   <string name="enter_pin">To start Android, enter your PIN</string>
+  <string name="enterprise_mode">Enterprise mode</string>
   <string name="eq_auto">Custom</string>
   <string name="eq_blues">Blues</string>
   <string name="eq_cancel">Cancel</string>
@@ -2078,7 +2080,10 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_vertical_clock_title">Vertical Clock</string>
+  <string name="keyguard_security_setting_others">Others</string>
+  <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
+  <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
+  <string name="keyguard_vertical_clock_title">Vertical clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
   <string name="keywords_all_apps">apps, download, applications, system</string>
@@ -3896,6 +3901,8 @@ To use screen pinning:
   <string name="security_encryption_progress_dialog_open">Encrypting…</string>
   <string name="security_encryption_rejected_via_home_manager">"This feature isn't supported in the demo version."</string>
   <string name="security_encryption_title">Encrypt device using Lock screen password</string>
+  <string name="security_input">Security input</string>
+  <string name="security_input_hint">Using security keyboard enter password</string>
   <string name="security_keyguard_category_name">Lock screen</string>
   <string name="security_password_category_name">Screen lock</string>
   <string name="security_passwords_title">Passwords</string>
@@ -4221,6 +4228,8 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
+  <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
+  <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
@@ -4232,6 +4241,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
