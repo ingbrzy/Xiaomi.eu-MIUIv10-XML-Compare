@@ -98,8 +98,13 @@ Make sure the name of your corporation is correct. Read and agree to the related
   <string name="ent_app_verified">Looks like there are enterprise apps installed on your device. Activate Enterprise mode?</string>
   <string name="ent_confirm_dialog_content">"You won't be able to go back to the present state of your system after you activate Enterprise mode. However, all your data will still be stored on this device. You'll have to reboot your device to activte Enterprise mode. Activate now?"</string>
   <string name="ent_disallow_running">The app is forbidden to run</string>
+  <string name="ent_download_install_dialog_content">You must install corporate apps to activate Enterprise mode. Install now?</string>
+  <string name="ent_download_install_dialog_title">Download corporate apps</string>
+  <string name="ent_downloading_message">Downloading %d%%</string>
   <string name="ent_error_dialog_content">At least one of the codes you entered was inorrect. Check your corporate and licence codes, and enter them again.</string>
   <string name="ent_get_code_hint">You can get corporate and licence codes from your supervisor</string>
+  <string name="ent_install_dialog_content">Install apps and reboot your device now?</string>
+  <string name="ent_installing">Installing…</string>
   <string name="ent_invalid_agency">Corporate code is invalid.</string>
   <string name="ent_invalid_qr">QR code is invalid.</string>
   <string name="ent_licence_code">Licence code</string>
@@ -171,6 +176,8 @@ You can also download them separately."</string>
   <string name="import_photo_suc">Imported photos</string>
   <string name="input_space_finger">Set now</string>
   <string name="input_space_password">Set now</string>
+  <string name="install">Install</string>
+  <string name="install_error">"Couldn't install. Try again."</string>
   <string name="invalid_qr_code">Invalid QR code</string>
   <string name="list_empty_text">Empty</string>
   <string name="list_empty_text_xspace">Install WeChat/QQ/Weibo, create dual apps, and try again.</string>
