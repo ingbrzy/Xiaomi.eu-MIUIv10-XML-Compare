@@ -1383,6 +1383,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_type_title">Preferred network type</string>
   <string name="preferred_phone_account">Preferred calling account</string>
   <string name="preferred_wificall_title">Network preferences</string>
+  <string name="privacy_policy_title">Privacy Policy</string>
   <string name="private_num">Private number</string>
   <string name="process_kernel_label">Android OS</string>
   <string name="progress_dialog_exiting_ecm">Exiting emergency callback mode</string>
