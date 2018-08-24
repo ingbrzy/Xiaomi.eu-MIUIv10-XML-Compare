@@ -1470,6 +1470,9 @@
         <item>11</item>
         <item>13</item>
     </string-array>
+    <string-array name="darkcode_device_list">
+        <item>clover</item>
+    </string-array>
     <string-array name="data_usage_data_range">
         <item>Last 30 days</item>
         <item>Set usage cycle...</item>
@@ -1563,6 +1566,7 @@
         <item>platina</item>
         <item>capricorn</item>
         <item>equuleus</item>
+        <item>natrium</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -1575,6 +1579,8 @@
         <item>sirius</item>
         <item>ursa</item>
         <item>beryllium</item>
+        <item>perseus</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="dirac_equalizer_preset_names">
         <item>@string/eq_flat</item>

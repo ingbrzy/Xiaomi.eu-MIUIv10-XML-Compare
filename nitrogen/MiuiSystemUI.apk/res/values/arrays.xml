@@ -379,6 +379,7 @@
         <item>platina</item>
         <item>capricorn</item>
         <item>equuleus</item>
+        <item>natrium</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -392,6 +393,7 @@
         <item>ursa</item>
         <item>beryllium</item>
         <item>perseus</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="device_support_screen_on_delayed">
         <item>dipper</item>
@@ -401,6 +403,7 @@
         <item>chiron</item>
         <item>nitrogen</item>
         <item>whyred</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="device_use_cameraone">
         <item>jason</item>
@@ -419,6 +422,7 @@
         <item>capricorn</item>
         <item>vince</item>
         <item>tulip</item>
+        <item>natrium</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>

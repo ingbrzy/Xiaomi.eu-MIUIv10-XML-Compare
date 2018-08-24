@@ -777,7 +777,7 @@ Last ran on %2$s"</string>
   <string name="bluetooth_notif_message">Tap to pair with %1$s.</string>
   <string name="bluetooth_notif_ticker">Bluetooth pairing request</string>
   <string name="bluetooth_notif_title">Pairing request</string>
-  <string name="bluetooth_on_time">Wi-Fi time on</string>
+  <string name="bluetooth_on_time">WLAN time on</string>
   <string name="bluetooth_only_visible_to_paired_devices">Only visible to paired devices</string>
   <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
   <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
@@ -1459,6 +1459,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
   <string name="delete_rule">Remove rules</string>
   <string name="delete_saved_network">Delete saved networks</string>
+  <string name="delete_sound_effect">\"Delete\" sound</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="deletion_helper_automatic_title">Automatic</string>
   <string name="deletion_helper_manual_title">Manual</string>
@@ -1765,6 +1766,7 @@ This helps protect data on lost or stolen devices. Require PIN to start your dev
   <string name="enter_password">To start Android, enter your password</string>
   <string name="enter_pattern">To start Android, draw your pattern</string>
   <string name="enter_pin">To start Android, enter your PIN</string>
+  <string name="enterprise_mode">Enterprise mode</string>
   <string name="enterprise_privacy_always_on_vpn_device">Always-on VPN turned on</string>
   <string name="enterprise_privacy_always_on_vpn_personal">Always-on VPN turned on in your personal profile</string>
   <string name="enterprise_privacy_always_on_vpn_work">Always-on VPN turned on in your work profile</string>
@@ -2312,7 +2314,10 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_vertical_clock_title">Vertical Clock</string>
+  <string name="keyguard_security_setting_others">Others</string>
+  <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
+  <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
+  <string name="keyguard_vertical_clock_title">Vertical clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
   <string name="keywords_all_apps">apps, download, applications, system</string>
@@ -3839,6 +3844,7 @@ This setting affects all users on this phone."</string>
   <string name="saved_wifi">Manage saved networks</string>
   <string name="saved_wifi_delete">Delete</string>
   <string name="scan_list_label">Scan results:</string>
+  <string name="sccret_code_error">The code you entered is incorrect.</string>
   <string name="screen">Screen</string>
   <string name="screen_button">Screen buttons</string>
   <string name="screen_button_tips">Swipe down to hide screen buttons</string>
@@ -4555,6 +4561,8 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
+  <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
+  <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
@@ -4566,6 +4574,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
@@ -4619,6 +4628,9 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_wimax_mac_address">4G MAC address</string>
   <string name="status_write_success">Success!</string>
   <string name="statusbar_permission_desc">The following permissions are only valid for important notifications.</string>
+  <string name="stop_upload_audio_log">Finish getting audio log</string>
+  <string name="stop_upload_gps_log">Finish getting GPS log</string>
+  <string name="stop_upload_modem_log">Finish getting modem log</string>
   <string name="storage_detail_apps">Apps</string>
   <string name="storage_detail_audio">Audio</string>
   <string name="storage_detail_cached">Cached data</string>
@@ -5137,8 +5149,11 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="untitled_apn">Untitled</string>
   <string name="update_new_version">Update is available</string>
   <string name="update_progress_for_updates">Updating (%s)</string>
+  <string name="upload_audio_log">Start getting audio log</string>
   <string name="upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
   <string name="upload_debug_log_title">Send diagnostic data automatically</string>
+  <string name="upload_gps_log">Start getting GPS log</string>
+  <string name="upload_modem_log">Start getting modem log</string>
   <string name="usage">Usage</string>
   <string name="usage_access">Usage access</string>
   <string name="usage_access_description">Usage access allows an app to track what other apps you’re using and how often, as well as your carrier, language settings, and other details.</string>
@@ -5759,7 +5774,7 @@ Tap the plus to add words."</string>
   <string name="wifi_off_airplane_on_content">You can turn on WLAN manually in Airplane mode.</string>
   <string name="wifi_off_airplane_on_not_remind">"Don't show again"</string>
   <string name="wifi_off_airplane_on_title">Attention</string>
-  <string name="wifi_on_time">WLAN on time</string>
+  <string name="wifi_on_time">Wi-Fi on time</string>
   <string name="wifi_other_connection_mode">Other connectivity options</string>
   <string name="wifi_p2p_cancel_connect_message">Do you want to cancel invitation to connect with %1$s?</string>
   <string name="wifi_p2p_cancel_connect_title">Cancel invitation?</string>
