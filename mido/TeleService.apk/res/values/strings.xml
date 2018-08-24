@@ -508,6 +508,8 @@
   <string name="data_usage_uninstalled_apps_users">Removed apps and users</string>
   <string name="dc_alert_dialog_message">Some apps require mobile data connection. You can contact your carrier to learn what %s are available to you.</string>
   <string name="dc_alert_dialog_title">Data usage warning</string>
+  <string name="dds_switch_warning_message_data_off">"Couldn't find SIM %1$s. SIM %2$s is set as your default mobile data card now. Mobile data is now turned off."</string>
+  <string name="dds_switch_warning_message_data_on">"Couldn't find SIM %1$s. SIM %2$s is set as your default mobile data card now. Mobile data is turned off to avoid unnecessary carrier fees."</string>
   <string name="deactivate_all">Cancel all</string>
   <string name="debug_app">Select debug app</string>
   <string name="debug_app_not_set">No debug application set</string>
@@ -1235,6 +1237,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_type_title">Preferred network type</string>
   <string name="preferred_phone_account">Preferred calling account</string>
   <string name="preferred_wificall_title">Network preferences</string>
+  <string name="privacy_policy_title">Privacy Policy</string>
   <string name="private_num">Private number</string>
   <string name="process_kernel_label">Android OS</string>
   <string name="progress_dialog_exiting_ecm">Exiting Emergency Callback mode</string>
