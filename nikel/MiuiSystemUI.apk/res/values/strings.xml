@@ -99,6 +99,9 @@
   <string name="accessibility_enter_lock_wallpaper">Tap to open Music</string>
   <string name="accessibility_ethernet_connected">Ethernet connected.</string>
   <string name="accessibility_ethernet_disconnected">Ethernet disconnected.</string>
+  <string name="accessibility_fingerprint_dialog_app_icon">Application icon</string>
+  <string name="accessibility_fingerprint_dialog_fingerprint_icon">Fingerprint icon</string>
+  <string name="accessibility_fingerprint_dialog_help_area">Help message area</string>
   <string name="accessibility_gps_acquiring">GPS acquiring.</string>
   <string name="accessibility_gps_enabled">GPS enabled.</string>
   <string name="accessibility_home">Home</string>
@@ -280,6 +283,7 @@
   <string name="available_via_passpoint">Available via %1$s</string>
   <string name="back">Back</string>
   <string name="battery">Battery</string>
+  <string name="battery_can_use_time">Approximately %s remaining</string>
   <string name="battery_detail_charging_summary">"Battery saver isn't available during charging"</string>
   <string name="battery_detail_switch_summary">Reduces performance and background data</string>
   <string name="battery_detail_switch_title">Battery saver</string>
@@ -432,10 +436,17 @@ If you resume, charges may apply for data usage."</string>
   <string name="divider_menu_close">Close</string>
   <string name="divider_menu_select_apps">Select</string>
   <string name="divider_menu_swap_task">Swap</string>
+  <string name="dlg_cancel">Cancel</string>
+  <string name="dlg_confirm">Turn on</string>
   <string name="dlg_confirm_kill_storage_users_text">If you turn on USB storage, some applications you are using will stop and may be unavailable until you turn off USB storage.</string>
   <string name="dlg_confirm_kill_storage_users_title">Turn on USB storage</string>
   <string name="dlg_error_title">USB operation unsuccessful</string>
   <string name="dlg_ok">OK</string>
+  <string name="dlg_summary_close_app">Restrict background activity and notifications</string>
+  <string name="dlg_summary_close_theme">Restrict animated themes</string>
+  <string name="dlg_summary_close_wifi">Turn off WLAN, Bluetooth, and portable hotspot</string>
+  <string name="dlg_summary_nfc">Turn off NFC</string>
+  <string name="dlg_summary_title">Extreme battery saver stops all background activity after you leave an app and go back to the Home screen. If you want an app to be running in the background, add it to background exceptions.</string>
   <string name="dnd_is_off">DND is off</string>
   <string name="do_disclosure_generic">This device is managed by your organization</string>
   <string name="do_disclosure_with_name">This device is managed by %s</string>
@@ -458,6 +469,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="enable_bluetooth_message">To connect keyboard to your tablet, turn on Bluetooth first.</string>
   <string name="enable_bluetooth_title">Turn on Bluetooth?</string>
   <string name="enable_demo_mode">Enable demo mode</string>
+  <string name="enable_extreme_power_save_mode">Extreme battery saver</string>
   <string name="enable_power_save_mode">Turn on Battery saver</string>
   <string name="ethernet_label">Ethernet</string>
   <string name="expanded_confirm_disable_notification">Hide</string>
@@ -535,6 +547,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="fingerprint_add_text">The fingerprint interface was updated. Add your fingerprint again.</string>
   <string name="fingerprint_add_title">Add fingerprint</string>
   <string name="fingerprint_again_identified_msg">Your fingerprint is active now. Use it to unlock the device, or enter password.</string>
+  <string name="fingerprint_dialog_touch_sensor">Touch the fingerprint sensor</string>
   <string name="fingerprint_enter_second_psw_msg">Enter Second space password after rebooting device to be able to use fingerprint recognition</string>
   <string name="fingerprint_enter_second_psw_msg_oldman">"Can't enter Second space while in Lite mode"</string>
   <string name="fingerprint_enter_second_psw_title">Enter Second space password</string>
@@ -955,7 +968,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="notification_default_channel_desc">"This app doesn't have notification categories"</string>
   <string name="notification_done">Done</string>
   <string name="notification_group_collapse_button_text">Fold</string>
-  <string name="notification_group_divider_symbol">" • "</string>
+  <string name="notification_group_divider_symbol">%1$s • %2$s</string>
   <string name="notification_group_overflow_indicator">+%s</string>
   <string name="notification_header_default_channel">Notifications</string>
   <string name="notification_header_title">Notifications</string>
@@ -1001,6 +1014,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="oldman_airplane_mode_text">Airplane mode</string>
   <string name="oldman_incall_text">Back to call</string>
   <string name="open_camera_hint_text">Swipe left to open camera</string>
+  <string name="open_extreme_power_save_mode_title">Turn on Extreme battery saver</string>
   <string name="open_remote_center_hint_text">Swipe right to open Shortcuts</string>
   <string name="other">Other</string>
   <string name="overview">Overview</string>
@@ -1129,7 +1143,8 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_done">Done</string>
   <string name="quick_settings_drivemode_label">Car mode</string>
   <string name="quick_settings_dual_location_label">Dual GPS</string>
-  <string name="quick_settings_edit_label">Edit</string>
+  <string name="quick_settings_edit_label">More</string>
+  <string name="quick_settings_extreme_batterysaver_label">Extreme battery saver</string>
   <string name="quick_settings_flashlight_label">Flashlight</string>
   <string name="quick_settings_gps_label">GPS</string>
   <string name="quick_settings_hotspot_label">Hotspot</string>
@@ -1171,7 +1186,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_tiles">default</string>
   <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit</string>
   <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
-  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit,gps,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver</string>
+  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit,gps,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver,extremebatterysaver</string>
   <string name="quick_settings_time_label">Time</string>
   <string name="quick_settings_user_label">Me</string>
   <string name="quick_settings_user_new_user">New user</string>
