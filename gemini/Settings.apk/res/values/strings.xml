@@ -1864,6 +1864,8 @@ For more details, contact your organization's admin."</string>
   <string name="factory_reset_summary">"Erase all data from your phone's internal storage"</string>
   <string name="failed_to_check_find_device_status_content">"Couldn't check find device status. Wait a minute or two and try again."</string>
   <string name="failed_to_check_find_device_status_title">"Couldn't check status"</string>
+  <string name="failed_to_erase_text">Please turn off lock screen password before performing 1217 operation.</string>
+  <string name="failed_to_erase_title">Forbidden operation</string>
   <string name="failed_to_open_app_settings_toast">"Couldn't open settings for %1$s"</string>
   <string name="failed_to_shut_down_find_device_content">"Couldn't turn off Find device. Wait a minute or two and try again."</string>
   <string name="failed_to_shut_down_find_device_title">"Couldn't turn off"</string>
@@ -2979,6 +2981,9 @@ Select your operating system:"</string>
   <string name="nature_color">Default</string>
   <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
+  <string name="navigation_guide_appswitch_anim_summary">Swipe across the screen starting from the edge to go back to previous app</string>
+  <string name="navigation_guide_appswitch_anim_title">Switch to previous app</string>
+  <string name="navigation_guide_appswitch_click">Turn on \"Go back to previous app\" first</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
   <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
@@ -3361,7 +3366,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="pick_up_gesture_wakeup_title">Raise to wake</string>
   <string name="picture_color_mode">Picture color mode</string>
   <string name="picture_color_mode_desc">Use sRGB</string>
-  <string name="picture_in_picture_app_detail_summary">"Allow this app to create a picture-in-picture window while the app is open or after you leave it (for example, to continue watching a video). This window displays on top of other apps "</string>
+  <string name="picture_in_picture_app_detail_summary">"Allow this app to create a picture-in-picture window while the app is open or after you leave it (for example, to continue watching a video). This window displays on top of other apps you're using."</string>
   <string name="picture_in_picture_app_detail_switch">Allow picture-in-picture</string>
   <string name="picture_in_picture_app_detail_title">Picture-in-picture</string>
   <string name="picture_in_picture_empty_text">No installed apps support Picture-in-picture</string>
@@ -5599,7 +5604,7 @@ Tap the plus to add words."</string>
   <string name="wifi_assistant_confirm_always">"Don't show again"</string>
   <string name="wifi_assistant_confirm_connection_title">Confirm</string>
   <string name="wifi_assistant_data_prompt">Show data usage warning</string>
-  <string name="wifi_assistant_data_prompt_summary">Show data usage warning when WLAN assistant switches to mobile data</string>
+  <string name="wifi_assistant_data_prompt_summary">Show data usage warning when Wi-Fi assistant switches to mobile data</string>
   <string name="wifi_assistant_description">"Here's how WLAN assistant works:
 1. When WLAN connection is poor, WLAN assistant will try to connect your device to other available WLAN networks.
 2. If all available WLAN connections turn out to be poor and mobile data is turned on, WLAN assistant will switch to mobile data."</string>
