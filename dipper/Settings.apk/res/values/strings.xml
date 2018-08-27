@@ -1459,6 +1459,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
   <string name="delete_rule">Remove rules</string>
   <string name="delete_saved_network">Delete saved networks</string>
+  <string name="delete_sound_effect">\"Delete\" sound</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="deletion_helper_automatic_title">Automatic</string>
   <string name="deletion_helper_manual_title">Manual</string>
@@ -2313,6 +2314,9 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_security_setting_others">Others</string>
+  <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
+  <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
   <string name="keyguard_vertical_clock_title">Vertical clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
@@ -3840,6 +3844,7 @@ This setting affects all users on this phone."</string>
   <string name="saved_wifi">Manage saved networks</string>
   <string name="saved_wifi_delete">Delete</string>
   <string name="scan_list_label">Scan results:</string>
+  <string name="sccret_code_error">The code you entered is incorrect.</string>
   <string name="screen">Screen</string>
   <string name="screen_button">Screen buttons</string>
   <string name="screen_button_tips">Swipe down to hide screen buttons</string>
@@ -4623,6 +4628,9 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_wimax_mac_address">4G MAC address</string>
   <string name="status_write_success">Success!</string>
   <string name="statusbar_permission_desc">The following permissions are only valid for important notifications.</string>
+  <string name="stop_upload_audio_log">Finish getting audio log</string>
+  <string name="stop_upload_gps_log">Finish getting GPS log</string>
+  <string name="stop_upload_modem_log">Finish getting modem log</string>
   <string name="storage_detail_apps">Apps</string>
   <string name="storage_detail_audio">Audio</string>
   <string name="storage_detail_cached">Cached data</string>
@@ -5141,8 +5149,11 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="untitled_apn">Untitled</string>
   <string name="update_new_version">Update is available</string>
   <string name="update_progress_for_updates">Updating (%s)</string>
+  <string name="upload_audio_log">Start getting audio log</string>
   <string name="upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
   <string name="upload_debug_log_title">Send diagnostic data automatically</string>
+  <string name="upload_gps_log">Start getting GPS log</string>
+  <string name="upload_modem_log">Start getting modem log</string>
   <string name="usage">Usage</string>
   <string name="usage_access">Usage access</string>
   <string name="usage_access_description">Usage access allows an app to track what other apps you’re using and how often, as well as your carrier, language settings, and other details.</string>
