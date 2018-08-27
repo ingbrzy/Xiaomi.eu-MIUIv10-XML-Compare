@@ -85,6 +85,8 @@
 
 .field public static final IS_E7S:Z
 
+.field public static final IS_E7T:Z
+
 .field public static final IS_H2XLTE:Z
 
 .field public static final IS_H2X_LC:Z
@@ -762,6 +764,16 @@
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_D2T:Z
 
+    const-string/jumbo v0, "tulip"
+
+    sget-object v1, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_E7T:Z
+
     sget-boolean v0, Lmiui/os/Build;->IS_STABLE_VERSION:Z
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_STABLE:Z
@@ -1131,11 +1143,9 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+    const-string/jumbo v0, "ro.miui.region"
 
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
+    invoke-static {v0}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

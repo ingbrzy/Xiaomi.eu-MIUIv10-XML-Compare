@@ -35,6 +35,7 @@
   <string name="accessibility_hdr_off">HDR is off</string>
   <string name="accessibility_hdr_on">HDR is on</string>
   <string name="accessibility_intent_done_apply">Done</string>
+  <string name="accessibility_intent_done_retry">Retake</string>
   <string name="accessibility_mode_dismiss_button">Close Mode Selection button</string>
   <string name="accessibility_more">More</string>
   <string name="accessibility_open">Turned on</string>
@@ -763,5 +764,6 @@ and brings out the people in the front."</string>
   <string name="video_effect_entry_polaroid">Polaroid</string>
   <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
   <string name="video_reach_size_limit">Size limit reached.</string>
+  <string name="view_privacy_policy">View Privacy Policy</string>
   <string name="wait">Just a sec…</string>
 </resources>
