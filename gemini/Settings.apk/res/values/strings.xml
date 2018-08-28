@@ -1080,7 +1080,8 @@ This feature can be turned off in [Settings]"</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="charging_sounds_title">Charging sounds</string>
   <string name="check_find_device_status_failure_confirm">OK</string>
-  <string name="check_importance">Mark as important?</string>
+  <string name="check_importance">Rules for grouped notifications</string>
+  <string name="check_importance_dialog_cancel">Cancel</string>
   <string name="check_update">Check for updates</string>
   <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
   <string name="checking_decryption">Checking…</string>
@@ -2119,6 +2120,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
   <string name="handy_mode_tips">Swipe left or right from the Home button to pull the screen closer to one side.</string>
+  <string name="handy_mode_tips_full_screen">"When you're using full screen gestures, you can turn on one-handed mode using Quick ball. You can also switch to using buttons instead of full screen gestures."</string>
   <string name="haptic_feedback_enable_title">Vibrate on tap</string>
   <string name="haptic_feedback_level">Vibration</string>
   <string name="hardkeyboard_category">Physical keyboard settings</string>
@@ -5604,7 +5606,7 @@ Tap the plus to add words."</string>
   <string name="wifi_assistant_confirm_always">"Don't show again"</string>
   <string name="wifi_assistant_confirm_connection_title">Confirm</string>
   <string name="wifi_assistant_data_prompt">Show data usage warning</string>
-  <string name="wifi_assistant_data_prompt_summary">Show data usage warning when Wi-Fi assistant switches to mobile data</string>
+  <string name="wifi_assistant_data_prompt_summary">Show data usage warning when WLAN assistant switches to mobile data</string>
   <string name="wifi_assistant_description">"Here's how WLAN assistant works:
 1. When WLAN connection is poor, WLAN assistant will try to connect your device to other available WLAN networks.
 2. If all available WLAN connections turn out to be poor and mobile data is turned on, WLAN assistant will switch to mobile data."</string>
