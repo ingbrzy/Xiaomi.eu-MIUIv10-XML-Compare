@@ -102,6 +102,7 @@
   <string name="camera_preview">preview</string>
   <string name="camera_zoom">Zoom</string>
   <string name="camerainfo">Camera information</string>
+  <string name="can_not_get_numbers_of_keys">can not get numbers of keys</string>
   <string name="cancel">Cancel</string>
   <string name="cancelEnrol">CancelEnrol</string>
   <string name="cancel_test">TEST CANCELED</string>
@@ -894,6 +895,7 @@ the specified position"</string>
   <string name="keyboard">KEY</string>
   <string name="keyboard_vibrator_test">Keyboard test</string>
   <string name="keyboard_vibrator_test_old">Keyboard and vibration test</string>
+  <string name="keys_times">Keys Times:</string>
   <string name="lastTestResult">Last Test Result:</string>
   <string name="last_time_test_result">LAST TIME TEST RESULT</string>
   <string name="launcher_d5x_sar_summary">The output data of each channel of the SAR sensor is displayed below. Please reverse the phone to the Sar calibration fixture, click Start calibration, display the calibration PASS, then indicate normal. Please note that the school is on time, and hands are not near the cell phone.</string>
@@ -1043,6 +1045,7 @@ Please plug out the charger and reverse plug in."</string>
   <string name="reboot_prompt">重启提示</string>
   <string name="reboot_prompt_detail">重启手机之后内存测试正常运行！</string>
   <string name="reboot_times">Reboot Times:</string>
+  <string name="refresh_number_of_keys">refresh number of keys</string>
   <string name="removeFingerprint">Remove Fingerprint</string>
   <string name="remove_headset_and_starttest">Please remove headset and press start to test</string>
   <string name="request_permission">This sample needs camera permission.</string>

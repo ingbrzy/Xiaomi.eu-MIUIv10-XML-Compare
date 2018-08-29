@@ -288,4 +288,11 @@
         <item>burst</item>
         <item>focus</item>
     </string-array>
+    <string-array name="beauty_level_list">
+        <item>@string/beauty_level_1</item>
+        <item>@string/beauty_level_2</item>
+        <item>@string/beauty_level_3</item>
+        <item>@string/beauty_level_4</item>
+        <item>@string/beauty_level_5</item>
+    </string-array>
 </resources>

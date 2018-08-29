@@ -334,8 +334,12 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
-  <string name="aod_mode_summary">Always show time, date and messages when the screen is off</string>
+  <string name="aod_mode_summary">Always show time, date and messages when screen off.</string>
+  <string name="aod_mode_time_summary">Schedule time to turn Always on mode on and off</string>
+  <string name="aod_mode_time_title">Schedule</string>
   <string name="aod_mode_title">Always on mode</string>
+  <string name="aod_mode_turn_off">Off</string>
+  <string name="aod_mode_turn_on">On</string>
   <string name="apn_apn">APN</string>
   <string name="apn_auth_type">Authentication type</string>
   <string name="apn_auth_type_chap">CHAP</string>
@@ -1111,6 +1115,17 @@ Selection"</string>
   <string name="bssid_label">BSSID:</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
   <string name="bt_hci_snoop_log_summary">Capture all Bluetooth HCI packets in a file</string>
+  <string name="bt_ldac_declaration">When the Bluetooth device supports LDAC, it will be connected by default. LDAC provides a high-quality audio experience and also brings higher power consumption. Playback may occur due to Bluetooth hardware limitations</string>
+  <string name="bt_ldac_dialog_summary">"LDAC provides a high-quality audio experience and also brings higher power consumption
+This feature can be turned off in [Settings]"</string>
+  <string name="bt_ldac_dialog_title">The current device supports LDAC, which has been connected by default:</string>
+  <string name="bt_ldac_open_dialog_summary">LDAC provides a high-quality audio experience and also brings higher power consumption. Playback may occur due to Bluetooth hardware limitations</string>
+  <string name="bt_ldac_open_dialog_title">Are you sure to turn on LDAC?</string>
+  <string name="bt_ldac_pre_summary">Provide a high-quality audio experience</string>
+  <string name="bt_ldac_pre_title">LDAC</string>
+  <string name="bt_ldac_property">Attributes</string>
+  <string name="bt_ldac_remember_choice">Remember choice</string>
+  <string name="bt_ldac_settings">Settings</string>
   <string name="bt_rarely_used_device_title">Rarely used devices (%d)</string>
   <string name="bt_trace_log">Bluetooth trace log</string>
   <string name="bt_trace_log_summary">Bluetooth trace log</string>
@@ -1256,8 +1271,11 @@ Selection"</string>
   <string name="clear_instant_app_data">Clear app</string>
   <string name="clear_uri_btn_text">Clear access</string>
   <string name="clear_user_data_text">Clear storage</string>
+  <string name="close_aod">"This feature can't be combined with \"Always on mode\". Turn off \"Always on mode\" first."</string>
   <string name="close_app">Close current app</string>
   <string name="close_demo_mode">Cancel</string>
+  <string name="close_fod">"You won't be able to unlock your device using your fingerprint when the screen is off. Fingerprint unlock will only work when the screen is on."</string>
+  <string name="close_fod_aod">"You won't be able to unlock your device using your fingerprint when the screen is off. \"Always on mode\" won't be available as well. Fingerprint unlock will only work when the screen is on."</string>
   <string name="close_gesture">Close using gesture</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
   <string name="close_optimization_message">Text layout, accounts, and other parts of MIUI might be affected after you turn this feature off.</string>
@@ -3337,6 +3355,9 @@ Select your operating system:"</string>
   <string name="nature_color">Default</string>
   <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
+  <string name="navigation_guide_appswitch_anim_summary">Swipe across the screen starting from the edge to go back to previous app</string>
+  <string name="navigation_guide_appswitch_anim_title">Switch to previous app</string>
+  <string name="navigation_guide_appswitch_click">Turn on \"Go back to previous app\" first</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
   <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
@@ -4996,6 +5017,8 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
+  <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
+  <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
@@ -5007,6 +5030,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
@@ -5407,6 +5431,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_hdmi_color_calibration">Color correction preset</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
+  <string name="to_close">Turn off</string>
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
   <string name="total">DND</string>

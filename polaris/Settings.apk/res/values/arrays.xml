@@ -1478,6 +1478,7 @@
     <array name="config_preinstalled_display_services" />
     <string-array name="config_preinstalled_interaction_control_services">
         <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
     </string-array>
     <string-array name="config_preinstalled_screen_reader_services">
         <item>com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</item>
@@ -1557,6 +1558,7 @@
         <item>nitrogen</item>
         <item>platina</item>
         <item>vince</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1577,6 +1579,7 @@
         <item>gemini</item>
         <item>platina</item>
         <item>capricorn</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -1590,6 +1593,7 @@
         <item>ursa</item>
         <item>beryllium</item>
         <item>perseus</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="dirac_equalizer_preset_names">
         <item>@string/eq_flat</item>

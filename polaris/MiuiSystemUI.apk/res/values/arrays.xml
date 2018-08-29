@@ -357,6 +357,7 @@
         <item>nitrogen</item>
         <item>platina</item>
         <item>vince</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -377,6 +378,7 @@
         <item>gemini</item>
         <item>platina</item>
         <item>capricorn</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -423,6 +425,7 @@
         <item>sirius</item>
         <item>ursa</item>
         <item>beryllium</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>None</item>
