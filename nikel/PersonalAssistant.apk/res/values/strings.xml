@@ -630,10 +630,12 @@ Check your tracking number."</string>
   <string name="express_schedule_delivery">预约取件</string>
   <string name="express_select_addressee">To</string>
   <string name="express_select_city">Choose city</string>
+  <string name="express_select_send_providers">选择快递服务商</string>
   <string name="express_select_sender">From</string>
   <string name="express_send">Ship</string>
   <string name="express_send_mms">Send</string>
   <string name="express_send_mms_format">Package delivered by %1$s | Tracking number: %2$s</string>
+  <string name="express_send_not_available">服务暂时不可用，请稍后再试</string>
   <string name="express_send_notice">Prohibited items</string>
   <string name="express_sender_info">Sender info</string>
   <string name="express_sender_name">Sender name</string>

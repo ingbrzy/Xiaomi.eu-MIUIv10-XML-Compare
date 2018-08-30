@@ -793,7 +793,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
 "&lt;li&gt;If you want an app to be running in the background, lock it in Recents, or add it to background exceptions below. Up to 4 apps can be running in the background when Extreme battery saver is on.&lt;/li&gt;"
 "&lt;li&gt;Extreme battery saver turns off NFC by default. You can change this in the Settings.&lt;/li&gt;"
 "&lt;li&gt;To make sure you can use all the features of your device normally, Extreme battery saver will be turned off automatically when your battery is 30% charged.&lt;/li&gt;</string>
-  <string name="extreme_power_save_mode_summary">Extreme battery saver restricts background activity, stops sync, and reduces display colors.</string>
+  <string name="extreme_power_save_mode_summary">Extreme battery saver restricts background activity, and stops sync.</string>
   <string name="extreme_power_save_mode_title">Extreme battery saver</string>
   <string name="fast_open">速抢模式</string>
   <string name="fast_open_dialog_message">开启速抢模式后，当您收到红包时，系统将自动打开抢红包页面，抢红包更快更方便。</string>
@@ -1844,7 +1844,7 @@ This activity shortens battery life."</string>
   <string name="privacy_apps_go_to_use">Start</string>
   <string name="privacy_apps_manage">Manage hidden apps</string>
   <string name="privacy_apps_manage_dialog_title">About hidden apps</string>
-  <string name="privacy_apps_manager_dialog_message">Hiding apps requires setting your App screen lock. Notifications for hidden apps will be turned off. Hide this app?</string>
+  <string name="privacy_apps_manager_dialog_message">"This app's icon won't be displayed on the Home screen after you hide this app. Hide this app now?"</string>
   <string name="privacy_apps_tutorial">Tutorial</string>
   <string name="privacy_apps_tutorial_prompt_pageone">"When you hide an app, it's moved to a hidden folder. Its Home screen shortcut is hidden is well.
 This feature isn't supported for system apps."</string>
@@ -1981,6 +1981,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="section_title_system">System security</string>
   <string name="security_scan_optimizing">Optimizing…</string>
   <string name="see_detail">Details</string>
+  <string name="see_more_content">Update game center to see more highlights</string>
   <string name="set_applock_password">Set password</string>
   <string name="set_mixed_password_name">Set password</string>
   <string name="set_numeric_password_name">Set PIN</string>
