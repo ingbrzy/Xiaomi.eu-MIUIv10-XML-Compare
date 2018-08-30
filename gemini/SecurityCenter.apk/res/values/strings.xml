@@ -1844,7 +1844,7 @@ This activity shortens battery life."</string>
   <string name="privacy_apps_go_to_use">Start</string>
   <string name="privacy_apps_manage">Manage hidden apps</string>
   <string name="privacy_apps_manage_dialog_title">About hidden apps</string>
-  <string name="privacy_apps_manager_dialog_message">Hiding apps requires setting your App screen lock. Notifications for hidden apps will be turned off. Hide this app?</string>
+  <string name="privacy_apps_manager_dialog_message">"This app's icon won't be displayed on the Home screen after you hide this app. Hide this app now?"</string>
   <string name="privacy_apps_tutorial">Tutorial</string>
   <string name="privacy_apps_tutorial_prompt_pageone">"When you hide an app, it's moved to a hidden folder. Its Home screen shortcut is hidden is well.
 This feature isn't supported for system apps."</string>
