@@ -122,7 +122,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
   <string name="hourly_forecast_date">M/d</string>
   <string name="hourly_forecast_title_24_hours_desc">24-hour forecast</string>
-  <string name="hourly_forecast_title_hourly_desc">hourly forecast</string>
+  <string name="hourly_forecast_title_hourly_desc">Hourly forecast</string>
   <string name="index_item_experience_now">Install now</string>
   <string name="index_item_install_dialog"/>
   <string name="index_item_install_dialog_cancel"/>
@@ -167,7 +167,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="network_unavailable">"Can't connect to the network."</string>
   <string name="night_not_disturb_settings_summary">Silence alerts coming between 23:00 and 07:00</string>
   <string name="night_not_disturb_settings_title">"Don't disturb at night"</string>
-  <string name="no_data">No Data</string>
+  <string name="no_data">No data</string>
   <string name="no_network_btn">Try again</string>
   <string name="no_vote_ratio">Against %1$s%%</string>
   <string name="open">Open</string>
