@@ -950,7 +950,8 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="charging_sounds_title">Charging sounds</string>
   <string name="check_find_device_status_failure_confirm">OK</string>
-  <string name="check_importance">Mark as important?</string>
+  <string name="check_importance">Rules for grouped notifications</string>
+  <string name="check_importance_dialog_cancel">Cancel</string>
   <string name="check_update">Check for updates</string>
   <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
   <string name="checking_decryption">Checking…</string>
@@ -1656,6 +1657,8 @@ This helps protect data on lost or stolen devices."</string>
   <string name="factory_reset_summary">"Erase all data from your phone's internal storage"</string>
   <string name="failed_to_check_find_device_status_content">"Couldn't check find device status. Wait a minute or two and try again."</string>
   <string name="failed_to_check_find_device_status_title">"Couldn't check status"</string>
+  <string name="failed_to_erase_text">Please turn off lock screen password before performing 1217 operation.</string>
+  <string name="failed_to_erase_title">Forbidden operation</string>
   <string name="failed_to_open_app_settings_toast">Failed to open settings for %1$s</string>
   <string name="failed_to_shut_down_find_device_content">"Couldn't turn off Find device. Wait a minute or two and try again."</string>
   <string name="failed_to_shut_down_find_device_title">"Couldn't turn off"</string>
@@ -2746,6 +2749,9 @@ Select your operating system:"</string>
   <string name="n_cacrts">%d CA certificates</string>
   <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
+  <string name="navigation_guide_appswitch_anim_summary">Swipe across the screen starting from the edge to go back to previous app</string>
+  <string name="navigation_guide_appswitch_anim_title">Switch to previous app</string>
+  <string name="navigation_guide_appswitch_click">Turn on \"Go back to previous app\" first</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
   <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
