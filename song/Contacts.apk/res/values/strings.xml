@@ -408,10 +408,11 @@ Contact cards are turned off"</string>
   <string name="dialer_menu_description">Show menus</string>
   <string name="dialer_menu_title">Menu options</string>
   <string name="dialer_returnToInCallScreen">Return to call in progress</string>
+  <string name="dialer_title_divider">" ｜ "</string>
   <string name="dialer_useDtmfDialpad">Use touch tone keypad</string>
   <string name="dialog_import">Import contacts</string>
   <string name="dialog_import_export">Import/export contacts</string>
-  <string name="dialog_new_contact_account">Create contact under account</string>
+  <string name="dialog_new_contact_account">Create contacts under account</string>
   <string name="dialog_new_group_account">Create group under account</string>
   <string name="dialog_phone_call_prohibited_message">Call not sent</string>
   <string name="dialog_sync_add">Add sync group</string>
