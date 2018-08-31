@@ -228,6 +228,8 @@
   <string name="preference_follow_wechat_title">WeChat</string>
   <string name="preference_follow_weibo_summary">\@MIUI</string>
   <string name="preference_follow_weibo_title">Sina Weibo</string>
+  <string name="preference_other">Other</string>
+  <string name="preference_privacy_title">Privacy Policy</string>
   <string name="preference_settings">Settings</string>
   <string name="preference_use_degress_summary">Substitute radians with angles in trigonometric functions</string>
   <string name="preference_use_degress_title">Use angles</string>
