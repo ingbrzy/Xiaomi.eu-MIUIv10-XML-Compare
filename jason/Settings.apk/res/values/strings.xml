@@ -1078,7 +1078,8 @@ This feature can be turned off in [Settings]"</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="charging_sounds_title">Charging sounds</string>
   <string name="check_find_device_status_failure_confirm">OK</string>
-  <string name="check_importance">Mark as important?</string>
+  <string name="check_importance">Rules for grouped notifications</string>
+  <string name="check_importance_dialog_cancel">Cancel</string>
   <string name="check_update">Check for updates</string>
   <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
   <string name="checking_decryption">Checking…</string>
@@ -1104,8 +1105,11 @@ This feature can be turned off in [Settings]"</string>
   <string name="clear_instant_app_data">Clear app</string>
   <string name="clear_uri_btn_text">Clear access</string>
   <string name="clear_user_data_text">Clear data</string>
+  <string name="close_aod">"This feature can't be combined with \"Always on mode\". Turn off \"Always on mode\" first."</string>
   <string name="close_app">Close current app</string>
   <string name="close_demo_mode">Cancel</string>
+  <string name="close_fod">"You won't be able to unlock your device using your fingerprint when the screen is off. Fingerprint unlock will only work when the screen is on."</string>
+  <string name="close_fod_aod">"You won't be able to unlock your device using your fingerprint when the screen is off. \"Always on mode\" won't be available as well. Fingerprint unlock will only work when the screen is on."</string>
   <string name="close_gesture">Close using gesture</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
   <string name="close_optimization_message">Text layout, accounts, and other parts of MIUI might be affected after you turn this feature off.</string>
@@ -1149,7 +1153,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="condition_cellular_title">Mobile data is off</string>
   <string name="condition_expand_hide">Hide</string>
   <string name="condition_expand_show">Show</string>
-  <string name="condition_hotspot_summary">Portable Wi-Fi hotspot %1$s is active, WLAN for this device is turned off.</string>
+  <string name="condition_hotspot_summary">Portable WLAN hotspot %1$s is active, WLAN for this device is turned off.</string>
   <string name="condition_hotspot_title">Hotspot is on</string>
   <string name="condition_night_display_summary">Screen is tinted amber. This may help you fall asleep.</string>
   <string name="condition_night_display_title">Night Light is on</string>
@@ -1862,6 +1866,8 @@ For more details, contact your organization's admin."</string>
   <string name="factory_reset_summary">"Erase all data from your phone's internal storage"</string>
   <string name="failed_to_check_find_device_status_content">"Couldn't check find device status. Wait a minute or two and try again."</string>
   <string name="failed_to_check_find_device_status_title">"Couldn't check status"</string>
+  <string name="failed_to_erase_text">Please turn off lock screen password before performing 1217 operation.</string>
+  <string name="failed_to_erase_title">Forbidden operation</string>
   <string name="failed_to_open_app_settings_toast">"Couldn't open settings for %1$s"</string>
   <string name="failed_to_shut_down_find_device_content">"Couldn't turn off Find device. Wait a minute or two and try again."</string>
   <string name="failed_to_shut_down_find_device_title">"Couldn't turn off"</string>
@@ -2115,6 +2121,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
   <string name="handy_mode_tips">Swipe left or right from the Home button to pull the screen closer to one side.</string>
+  <string name="handy_mode_tips_full_screen">"When you're using full screen gestures, you can turn on one-handed mode using Quick ball. You can also switch to using buttons instead of full screen gestures."</string>
   <string name="haptic_feedback_enable_title">Vibrate on tap</string>
   <string name="haptic_feedback_level">Vibration</string>
   <string name="hardkeyboard_category">Physical keyboard settings</string>
@@ -2977,6 +2984,9 @@ Select your operating system:"</string>
   <string name="nature_color">Default</string>
   <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
+  <string name="navigation_guide_appswitch_anim_summary">Swipe across the screen starting from the edge to go back to previous app</string>
+  <string name="navigation_guide_appswitch_anim_title">Switch to previous app</string>
+  <string name="navigation_guide_appswitch_click">Turn on \"Go back to previous app\" first</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
   <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
@@ -3359,7 +3369,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="pick_up_gesture_wakeup_title">Raise to wake</string>
   <string name="picture_color_mode">Picture color mode</string>
   <string name="picture_color_mode_desc">Use sRGB</string>
-  <string name="picture_in_picture_app_detail_summary">Allow this app to create a picture-in-picture window while the app is open or after you leave it (for example, to continue watching a video). This window displays on top of other apps you</string>
+  <string name="picture_in_picture_app_detail_summary">"Allow this app to create a picture-in-picture window while the app is open or after you leave it (for example, to continue watching a video). This window displays on top of other apps you're using."</string>
   <string name="picture_in_picture_app_detail_switch">Allow picture-in-picture</string>
   <string name="picture_in_picture_app_detail_title">Picture-in-picture</string>
   <string name="picture_in_picture_empty_text">No installed apps support Picture-in-picture</string>
@@ -4958,6 +4968,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_hdmi_color_calibration">Color correction preset</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
+  <string name="to_close">Turn off</string>
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
   <string name="total">DND</string>
@@ -5774,7 +5785,7 @@ Tap the plus to add words."</string>
   <string name="wifi_off_airplane_on_content">You can turn on WLAN manually in Airplane mode.</string>
   <string name="wifi_off_airplane_on_not_remind">"Don't show again"</string>
   <string name="wifi_off_airplane_on_title">Attention</string>
-  <string name="wifi_on_time">Wi-Fi on time</string>
+  <string name="wifi_on_time">WLAN on time</string>
   <string name="wifi_other_connection_mode">Other connectivity options</string>
   <string name="wifi_p2p_cancel_connect_message">Do you want to cancel invitation to connect with %1$s?</string>
   <string name="wifi_p2p_cancel_connect_title">Cancel invitation?</string>
@@ -5940,7 +5951,7 @@ Tap"&lt;b&gt; Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_suspend_efficiency_title">Improve efficiency</string>
   <string name="wifi_suspend_optimizations">WLAN optimization</string>
   <string name="wifi_suspend_optimizations_summary">Minimize battery usage when WLAN is on</string>
-  <string name="wifi_switch_away_when_unvalidated">Switch to mobile data if Wi‑Fi loses Internet access.</string>
+  <string name="wifi_switch_away_when_unvalidated">Switch to mobile data if WLAN loses Internet access.</string>
   <string name="wifi_switch_to_gsm_message">Lost connection to WLAN. Use mobile data connection instead?</string>
   <string name="wifi_switch_to_gsm_title">Use GSM?</string>
   <string name="wifi_tether_checkbox_text">Portable hotspot</string>
