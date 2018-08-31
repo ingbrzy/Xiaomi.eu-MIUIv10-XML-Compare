@@ -372,7 +372,6 @@ Contact cards are turned off"</string>
   <string name="device_import_progress_begin_message">Importing…</string>
   <string name="device_import_progress_end_message">Imported</string>
   <string name="device_import_progress_message">Importing…</string>
-  <string name="device_import_progress_toast">%1$d contacts imported</string>
   <string name="device_import_title">Import</string>
   <string name="device_list_title">Choose a device</string>
   <string name="device_other_guide">Other device supports bluetooth?</string>
@@ -409,10 +408,11 @@ Contact cards are turned off"</string>
   <string name="dialer_menu_description">Show menus</string>
   <string name="dialer_menu_title">Menu options</string>
   <string name="dialer_returnToInCallScreen">Return to call in progress</string>
+  <string name="dialer_title_divider">" ｜ "</string>
   <string name="dialer_useDtmfDialpad">Use touch tone keypad</string>
   <string name="dialog_import">Import contacts</string>
   <string name="dialog_import_export">Import/export contacts</string>
-  <string name="dialog_new_contact_account">Create contact under account</string>
+  <string name="dialog_new_contact_account">Create contacts under account</string>
   <string name="dialog_new_group_account">Create group under account</string>
   <string name="dialog_phone_call_prohibited_message">Call not sent</string>
   <string name="dialog_sync_add">Add sync group</string>
@@ -916,6 +916,7 @@ To add a contact to your list of favorites:
   <string name="preference_others">Other</string>
   <string name="preference_phone">Device</string>
   <string name="preference_phone_more_title">Call settings</string>
+  <string name="preference_privacy_policy_title">Privacy Policy</string>
   <string name="preference_remove_duplicate">Merge duplicate contacts</string>
   <string name="preference_show_firewall_calllog">Show blocked calls in call history</string>
   <string name="preference_show_yellowpage_tab_description">Yellow pages might not work properly when this feature is off.</string>
@@ -961,6 +962,7 @@ To add a contact to your list of favorites:
   <string name="quickcontact_missing_app">No app was found to handle this action</string>
   <string name="quit_dialog_confirm_message">"You haven't merged any contacts"</string>
   <string name="quit_dialog_confirm_title">Cancel merge contacts</string>
+  <string name="rcs_app_name">Mini app</string>
   <string name="readOnlyContactDeleteConfirmation">This contact contains information from multiple accounts. Information from read-only accounts will be hidden in your contacts lists, not deleted.</string>
   <string name="readOnlyContactWarning">"You can't delete contacts from read-only accounts, but you can hide them in your contacts lists."</string>
   <string name="readingSimContacts">Reading SIM card…</string>
@@ -1158,8 +1160,8 @@ To add a contact to your list of favorites:
   <string name="title_other_devices">Other available devices</string>
   <string name="title_paired_devices">Paired devices</string>
   <string name="toast_call_detail_error">"Couldn't read details for the requested call"</string>
-  <string name="toast_call_no_SoundRecorder">Recorder app not available</string>
-  <string name="toast_call_no_notes">Notes app not available</string>
+  <string name="toast_call_no_SoundRecorder">"Recorder isn't available"</string>
+  <string name="toast_call_no_notes">"Notes app isn't available"</string>
   <string name="toast_copy_done">Done</string>
   <string name="toast_copying">Copying…</string>
   <string name="toast_displaying_all_contacts">Displaying all contacts</string>

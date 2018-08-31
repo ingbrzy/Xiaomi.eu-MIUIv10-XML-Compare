@@ -846,7 +846,8 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="change_storage">Change storage</string>
   <string name="charging_sounds_title">Charging sounds</string>
   <string name="check_find_device_status_failure_confirm">OK</string>
-  <string name="check_importance">Mark as important?</string>
+  <string name="check_importance">Rules for grouped notifications</string>
+  <string name="check_importance_dialog_cancel">Cancel</string>
   <string name="check_update">Check for updates</string>
   <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
   <string name="checking_decryption">Checking…</string>
@@ -1157,6 +1158,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
   <string name="delete_rule">Remove rules</string>
   <string name="delete_saved_network">Delete saved networks</string>
+  <string name="delete_sound_effect">\"Delete\" sound</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="demo_mode">Demo mode</string>
   <string name="demo_mode_summary">Show demo icon in the status bar</string>
@@ -1871,7 +1873,10 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="keyboard_settings_category">Keyboard &amp; input methods</string>
   <string name="keyboard_settings_title">Android keyboard</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_vertical_clock_title">Vertical Clock</string>
+  <string name="keyguard_security_setting_others">Others</string>
+  <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
+  <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
+  <string name="keyguard_vertical_clock_title">Vertical clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
   <string name="keywords_all_apps">apps download applications system</string>
@@ -2463,6 +2468,9 @@ Select your operating system:"</string>
   <string name="my_device_disclaimer">Note: Hardware info, including CPU, battery capacity, screen size and resolution, and camera, is provided by Xiaomi labs, designers, and suppliers.</string>
   <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
+  <string name="navigation_guide_appswitch_anim_summary">Swipe across the screen starting from the edge to go back to previous app</string>
+  <string name="navigation_guide_appswitch_anim_title">Switch to previous app</string>
+  <string name="navigation_guide_appswitch_click">Turn on \"Go back to previous app\" first</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
   <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
@@ -3810,6 +3818,8 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
+  <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
+  <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
@@ -3821,6 +3831,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
