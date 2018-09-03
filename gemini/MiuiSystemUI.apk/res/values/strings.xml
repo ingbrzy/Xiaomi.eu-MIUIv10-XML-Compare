@@ -914,7 +914,7 @@ Use only the supplied charger."</string>
   <string name="kg_invalid_confirm_pin_hint">"PIN codes don't match"</string>
   <string name="kg_invalid_puk">Enter the correct PUK code again. Repeated attempts will permanently disable the SIM.</string>
   <string name="kg_invalid_sim_pin_hint">Enter a PIN that is 4 to 8 numbers.</string>
-  <string name="kg_invalid_sim_puk_hint">PUK code should be 8 numbers or more.</string>
+  <string name="kg_invalid_sim_puk_hint">PUK code should be 8 numbers.</string>
   <string name="kg_login_too_many_attempts">Too many pattern attempts</string>
   <string name="kg_password_instructions">Enter password</string>
   <string name="kg_password_pin_failed">"Couldn't unlock using SIM PIN"</string>

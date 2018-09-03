@@ -2260,7 +2260,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="install_no_market_app_summary">Allow installation of apps from sources other than the App Store</string>
   <string name="install_no_market_app_title">Unknown sources</string>
   <string name="install_other_apps">Install unknown apps</string>
-  <string name="install_preinstall_app">Loading apps…</string>
+  <string name="install_preinstall_app">Switching region…</string>
   <string name="install_text">Install</string>
   <string name="install_type_instant">Instant app</string>
   <string name="install_whole_rom">Download ROM</string>
@@ -4969,6 +4969,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_font_current2">System font</string>
   <string name="title_font_size">Font size</string>
   <string name="title_hdmi_color_calibration">Color correction preset</string>
+  <string name="title_jeejen">Jeejen Home screen</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
   <string name="to_close">Turn off</string>
@@ -5150,7 +5151,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter 4 numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary">Enter 4-16 numbers to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>

@@ -410,7 +410,7 @@
   <string name="notify_when">Get a notification when trash size reaches 100MB</string>
   <string name="ok">OK</string>
   <string name="onekeyclean_boost_available">%s available</string>
-  <string name="onekeyclean_boost_cleaned">%s Cleared</string>
+  <string name="onekeyclean_boost_cleaned">Cleared %s</string>
   <string name="onekeyclean_boosted_title">Cleared successfully</string>
   <string name="onekeyclean_boosting_title">Boosting speed</string>
   <string name="onekeyclean_card_btn">Clean now</string>
