@@ -1545,6 +1545,7 @@
         <item>platina</item>
         <item>vince</item>
         <item>tulip</item>
+        <item>sakura_india</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1567,6 +1568,7 @@
         <item>capricorn</item>
         <item>equuleus</item>
         <item>natrium</item>
+        <item>vince</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>

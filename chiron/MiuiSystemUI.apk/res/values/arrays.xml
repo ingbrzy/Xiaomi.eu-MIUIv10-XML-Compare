@@ -306,10 +306,10 @@
         <item>0</item>
     </integer-array>
     <integer-array name="config_input_face_unlock">
-        <item>-10</item>
-        <item>10</item>
-        <item>15</item>
-        <item>25</item>
+        <item>-8</item>
+        <item>8</item>
+        <item>-13</item>
+        <item>13</item>
     </integer-array>
     <string-array name="data_activity_sim1">
         <item>array/telephony_data_activity_unknown_sim1</item>
@@ -358,6 +358,7 @@
         <item>platina</item>
         <item>vince</item>
         <item>tulip</item>
+        <item>sakura_india</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -380,6 +381,7 @@
         <item>capricorn</item>
         <item>equuleus</item>
         <item>natrium</item>
+        <item>vince</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -423,6 +425,7 @@
         <item>vince</item>
         <item>tulip</item>
         <item>natrium</item>
+        <item>sakura_india</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
