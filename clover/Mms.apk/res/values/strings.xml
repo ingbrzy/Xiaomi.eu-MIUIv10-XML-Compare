@@ -33,7 +33,7 @@
   <string name="attach_sound">Audio</string>
   <string name="attach_subject">Subject</string>
   <string name="attach_take_photo">Take photo</string>
-  <string name="attach_transaction">Send money</string>
+  <string name="attach_transaction">Transfer money</string>
   <string name="attach_video">Video</string>
   <string name="audio_download_failed">"Couldn't download audio"</string>
   <string name="audio_message_expired">This voice message has expired.</string>
@@ -51,6 +51,16 @@
   <string name="bookmark_confirm_delete_message">Unstar selected messages?</string>
   <string name="bookmark_empty">No starred messages</string>
   <string name="bookmark_list_title">Starred</string>
+  <string name="button_emoji_creature">Animal emojis</string>
+  <string name="button_emoji_lifestyle">Lifestyle emojis</string>
+  <string name="button_emoji_smiley">Face emojis</string>
+  <string name="button_emoji_symbol">Symbol emojis</string>
+  <string name="button_emoji_text">Text emojis</string>
+  <string name="button_fold">Fold</string>
+  <string name="button_next_slide">Next</string>
+  <string name="button_pre_slide">Previous</string>
+  <string name="button_resend_message">Send again</string>
+  <string name="button_unfold">Unfold</string>
   <string name="call_sender">Call sender</string>
   <string name="cannot_add_picture_and_video">"Can't add video and picture to one slide."</string>
   <string name="cannot_add_slide_anymore">"Can't add more slides."</string>
@@ -129,7 +139,9 @@
   <string name="delete_wild_sims_title">Delete selected numbers</string>
   <string name="delivery_report_activity">Delivery report</string>
   <string name="delivery_toast_body">Message received by %s</string>
+  <string name="dialog_message_fake_cell_detect_error">Correct the info about this message? To do this, MIUI needs to upload the phone number (%1$s), the contents of the message, and the info about nearby location to its servers.</string>
   <string name="dialog_message_sms_report">"Spam messages and sender's info will be uploaded to MIUI when you report them. They will only be used to improve MIUI's spam filters."</string>
+  <string name="dialog_title_fake_cell_detect_error">Correction</string>
   <string name="disable_notifications_dialog_message">Stop duplicate text message notifications from default Messaging app?</string>
   <string name="disabled">Off</string>
   <string name="discard">Discard</string>
@@ -142,6 +154,7 @@
   <string name="download_later">"Can't download right now. Try again later."</string>
   <string name="downloading">Downloading</string>
   <string name="downloading_file_can_not_play">Wait until recording has finished downloading</string>
+  <string name="draft">Draft</string>
   <string name="duration_not_a_number">Duration must be a number</string>
   <string name="duration_sec">Duration (%s sec)</string>
   <string name="duration_selector_title">"Duration for slide "</string>
@@ -156,9 +169,8 @@
   <string name="enter_edit_mode">Edit messages</string>
   <string name="error_code_label">"Error code: "</string>
   <string name="error_state">Inconsistent state</string>
-  <string name="error_state_text">The state of threads and recipients is inconsistent. Please capture a bug report and report it via http://go/droidanizer</string>
+  <string name="error_state_text">The state of threads and recipients is inconsistent. Capture a bug report and report it via http://go/droidanizer</string>
   <string name="error_timed_msg">Invalid time.</string>
-  <string name="ex_type_guide">Information</string>
   <string name="ex_type_mx">Mi Message</string>
   <string name="ex_type_sms">SMS/MMS</string>
   <string name="exceed_message_size_limitation">Message size limit reached.</string>
@@ -170,9 +182,9 @@
   <string name="fail_to_view_attachment">"Attachment isn't available"</string>
   <string name="failed_to_add_media">"You can't add this %1$s to your message."</string>
   <string name="failed_to_resize_image">Picture not resized.</string>
+  <string name="fake_cell_alert_detect_error">"This wasn't sent from a fake base cell"</string>
   <string name="fake_cell_alert_hint">Looks like this message was sent from the phone number which is different from the one displayed. Be cautious of the SMS containing financial requests.</string>
   <string name="fake_cell_checking_hint">Checking safety…</string>
-  <string name="fake_cell_detection_entry">Fake base station detection</string>
   <string name="fake_cell_safe_hint">This message is safe</string>
   <string name="fake_cell_timeout_hint">"Couldn't check safety"</string>
   <string name="favorite_at_time">Starred at: %1s</string>
@@ -354,8 +366,18 @@
   <string name="no_subject_view">(No subject)</string>
   <string name="non_english_subject_limit">13 character limit</string>
   <string name="nosend_message">"Don't send"</string>
+  <string name="notification_channel_msg_description">Notifications about messages</string>
+  <string name="notification_channel_msg_name">Messages</string>
+  <string name="notification_channel_other_description">Other notifications</string>
+  <string name="notification_channel_other_name">Other</string>
+  <string name="notification_channel_sim1_description">Notifications about SIM 1 messages</string>
+  <string name="notification_channel_sim1_name">SIM 1 messages</string>
+  <string name="notification_channel_sim2_description">Notifications about SIM 2 messages</string>
+  <string name="notification_channel_sim2_name">SIM 2 messages</string>
+  <string name="notification_copy">Copy OTP</string>
   <string name="notification_failed_multiple">"%s messages couldn't be sent"</string>
   <string name="notification_failed_multiple_title">Messages not sent</string>
+  <string name="notification_group_name">Messaging</string>
   <string name="notification_multiple">[%s]</string>
   <string name="notification_multiple_title">New messages</string>
   <string name="number_add_hint">Enter phone number</string>
@@ -391,10 +413,10 @@
   <string name="pref_show_blocked_messages_summary">Show blocked SMS in conversations list</string>
   <string name="pref_show_list_avatar_summary">Show profile photos and contact info in list view</string>
   <string name="pref_show_photo_word_summary">Automatically assign a picture to contacts without one</string>
-  <string name="pref_show_sms_template_entry_summary">Detect one-time passwords in SMS</string>
+  <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
   <string name="pref_show_sms_template_in_summary">Automatically detect one-time passwords in SMS messages</string>
   <string name="pref_show_sms_template_summary">Turn on to use the smart features of Mi Message, such as copying codes, checking balance, etc.</string>
-  <string name="pref_smart_messages_settings">Smart messages</string>
+  <string name="pref_smart_messages_settings">Smart Messaging</string>
   <string name="pref_sms_storage_title">Storage</string>
   <string name="pref_sms_theme_title">Display</string>
   <string name="pref_summary_allow_si_sl_push">Allow messages to load content from websites</string>
@@ -458,7 +480,7 @@
   <string name="privacy_password_title4">Password upgraded</string>
   <string name="private_message">Private messaging</string>
   <string name="private_new_notification">Message notifications</string>
-  <string name="private_protect">Passwords</string>
+  <string name="private_protect">Privacy protection</string>
   <string name="private_settings">Private messaging settings</string>
   <string name="processing">Working…</string>
   <string name="prvate_contact">Private contacts</string>
@@ -586,6 +608,7 @@
   <string name="sp_mark_as_read_menu_title">Mark as read</string>
   <string name="sqlite_disk_full">Storage space on your device is full.</string>
   <string name="sqlite_low_memory">Not enough storage space</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="status_failed">Unsuccessful</string>
   <string name="status_label">"Status: "</string>
   <string name="status_pending">Pending</string>
@@ -621,13 +644,14 @@
   <string name="title_show_blocked_messages">Show blocked SMS</string>
   <string name="title_show_list_avatar">Show profile photos</string>
   <string name="title_show_photo_word">Assign contact photos</string>
-  <string name="title_show_sms_template">Check SMS for verification codes</string>
+  <string name="title_show_sms_template">Smart Messaging</string>
   <string name="title_show_sms_template_in">Check SMS for OTP</string>
   <string name="title_timed_message_dialog">Set timed message</string>
   <string name="title_use_gsm_alphabet">Use GSM alphabet</string>
   <string name="to_address_label">"To: "</string>
   <string name="to_label">"To "</string>
   <string name="to_send_wrapper">Will send at %s</string>
+  <string name="toast_pending_hangup_msg">Message will be sent after the call ends</string>
   <string name="today">Today</string>
   <string name="too_many_attachments">"Can't exceed %1$s attachments. Only the first %2$s will be added."</string>
   <string name="too_many_recipients">"Message has too many recipients (%1$s). You can't have more than %2$s recipients."</string>
@@ -649,14 +673,16 @@ Attempt made: %s."</string>
   <string name="unstick">Unpin</string>
   <string name="unstick_conversation">Unpin current conversation</string>
   <string name="unsticked_conversation">Conversation is already unpinned</string>
+  <string name="unsubscribe">Unsubscribe</string>
   <string name="unsupported_media_format">Unsupported %1$s format.</string>
   <string name="url_fraud_dangerous_alert">"The website you are trying to visit may be dangerous. It could possibly damage your device and data. Visit anyway?
 %s"</string>
-  <string name="url_fraud_risky_alert">"The website you are trying to visit may be dangerous. Visit anyway?
-%s"</string>
+  <string name="url_fraud_risky_alert">"The website %s you are trying to visit may be dangerous. Visit anyway?
+"</string>
   <string name="url_fraud_title">Website can be fake</string>
   <string name="url_fraud_visit">&lt;u&gt;Visit anyway&lt;/u&gt;</string>
   <string name="url_result_safe">This URL is safe</string>
+  <string name="url_scan_again">Check again</string>
   <string name="url_scanning">Checking URL…</string>
   <string name="verification_code_icon_name">V</string>
   <string name="verification_code_list_title">Verification codes</string>
