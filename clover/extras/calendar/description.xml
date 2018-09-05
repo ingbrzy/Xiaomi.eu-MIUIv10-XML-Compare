@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="calendar" size="4:4">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Calendar</title>
+	<titles>
+		<title locale="zh_CN">Calendar</title>
+		<title locale="zh_TW">日曆</title>
+		<title locale="cs_CZ">Kalendář</title>
+		<title locale="sk_SK">Kalendár</title>
+		<title locale="pl_PL">Kalendarz</title>
+		<title locale="fr_FR">Calendrier</title>
+		<title locale="hu_HU">Naptár</title>
+		<title locale="bg_BG">Календар</title>
+		<title locale="hr_HR">Kalendar</title>
+		<title locale="it_IT">Calendario</title>	
+		<title locale="pt_BR">Calendario</title>
+		<title locale="el_GR">Ημερολόγιο</title>
+		<title locale="es_ES">Calendario</title>
+	</titles>
+</MIUI-Theme>
