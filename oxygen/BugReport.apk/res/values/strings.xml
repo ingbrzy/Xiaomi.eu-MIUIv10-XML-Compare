@@ -256,7 +256,6 @@
   <string name="nothing">--</string>
   <string name="open_feedback_main">More</string>
   <string name="packaging_dialog_content">Creating report…</string>
-  <string name="permission_granted">%1$s permission granted</string>
   <string name="pic_not_exist">"This image doesn't exist"</string>
   <string name="pic_view_format">%1$s/%2$s</string>
   <string name="plus_one_submit_dialog_content">"Your feedback along with error logs will be sent to Mi's servers."</string>
@@ -298,9 +297,7 @@
   <string name="tab_title_my_reports">My reports</string>
   <string name="tab_title_preferences">Settings</string>
   <string name="tab_title_report">Feedback</string>
-  <string name="time_in_justnow">Just now</string>
   <string name="title_answer_feedback_main">We found answers!</string>
-  <string name="title_bbs_feedback_main">Learn more about Mi phones</string>
   <string name="title_customer_service">Customer service</string>
   <string name="title_frequent_question_feedback_main">FAQ</string>
   <string name="title_mi_family">Mi Homes nearby</string>
