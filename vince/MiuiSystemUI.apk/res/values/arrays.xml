@@ -1068,6 +1068,7 @@
         <item>platina</item>
         <item>vince</item>
         <item>tulip</item>
+        <item>sakura_india</item>
     </string-array>
     <string-array name="device_use_cameraone">
         <item>jason</item>
@@ -1087,6 +1088,7 @@
         <item>vince</item>
         <item>tulip</item>
         <item>natrium</item>
+        <item>sakura_india</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>

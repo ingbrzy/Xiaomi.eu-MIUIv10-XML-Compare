@@ -359,6 +359,7 @@
   <string name="auto_task_operation_sync">Sync</string>
   <string name="auto_task_operation_vibration">Vibration</string>
   <string name="auto_task_operation_wifi">WLAN</string>
+  <string name="auto_task_result_summary_text">Set automated tasks for Battery saver</string>
   <string name="back_app_name">Go back to App lock</string>
   <string name="back_description_securitycenter">Back</string>
   <string name="back_modifypassword">Go back to changing password</string>
@@ -793,7 +794,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
 "&lt;li&gt;If you want an app to be running in the background, lock it in Recents, or add it to background exceptions below. Up to 4 apps can be running in the background when Extreme battery saver is on.&lt;/li&gt;"
 "&lt;li&gt;Extreme battery saver turns off NFC by default. You can change this in the Settings.&lt;/li&gt;"
 "&lt;li&gt;To make sure you can use all the features of your device normally, Extreme battery saver will be turned off automatically when your battery is 30% charged.&lt;/li&gt;</string>
-  <string name="extreme_power_save_mode_summary">Extreme battery saver restricts background activity, stops sync, and reduces display colors.</string>
+  <string name="extreme_power_save_mode_card_summary">Turn on Extreme mode to save power when the battery is low.</string>
+  <string name="extreme_power_save_mode_summary">Extreme battery saver restricts background activity, and stops sync.</string>
   <string name="extreme_power_save_mode_title">Extreme battery saver</string>
   <string name="fast_open">速抢模式</string>
   <string name="fast_open_dialog_message">开启速抢模式后，当您收到红包时，系统将自动打开抢红包页面，抢红包更快更方便。</string>
@@ -1028,10 +1030,15 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="guide_wait_setting">Not now</string>
   <string name="handle_bar_summary_wifi_unknown">Unknown</string>
   <string name="handle_bar_title_system">System</string>
+  <string name="handle_title_abnormal">Draining battery</string>
+  <string name="handle_title_app">Apps</string>
+  <string name="handle_title_details">Battery usage details</string>
   <string name="handle_title_network">WLAN Security</string>
   <string name="handle_title_pay_env">Payment environment</string>
   <string name="handle_title_privacy">Privacy &amp; security</string>
+  <string name="handle_title_system">System battery usage</string>
   <string name="hide_mode_app_background_setting_text">App battery saver</string>
+  <string name="hide_mode_result_summary_text">Customize Battery saver settings for individual apps</string>
   <string name="hide_mode_summary_text">"Manage apps' background activity to save battery"</string>
   <string name="hide_system_app">Hide system apps</string>
   <string name="hint_antispam_mode_edit">Custom mode</string>
@@ -1632,6 +1639,8 @@ This activity shortens battery life."</string>
   <string name="pc_activity_title">Optimize battery</string>
   <string name="pc_battery_history_show_imei">IMEI:</string>
   <string name="pc_install_manager">Install via USB</string>
+  <string name="pc_main_activity_back">Back</string>
+  <string name="pc_settings_title">Battery usage settings</string>
   <string name="pc_to_phone_install">Blocked installation of %s via USB</string>
   <string name="per_month_pkg_traffic_settings">Set data limit</string>
   <string name="percent_formatted_text">%s%%</string>
@@ -1671,12 +1680,33 @@ This activity shortens battery life."</string>
   <string name="power_center_auto_shutdown">Schedule power on/off</string>
   <string name="power_center_back">Back</string>
   <string name="power_center_charge_time">%1$suntil full</string>
+  <string name="power_center_hints_scan_danger_result">You can fix battery issues now</string>
+  <string name="power_center_list_item_auto_brightness">Adjust screen brightness automatically</string>
+  <string name="power_center_list_item_battery_status_capacity">mAh</string>
+  <string name="power_center_list_item_battery_status_temperature">℃</string>
+  <string name="power_center_list_item_battery_status_time">h</string>
+  <string name="power_center_list_item_close_bluetooth">Turn off Bluetooth</string>
+  <string name="power_center_list_item_deep_save_title">Advanced settings</string>
+  <string name="power_center_list_item_set_lockscreen_time">Put screen to sleep after 30 seconds of inactivity</string>
   <string name="power_center_main_percent_formatted">%s%%</string>
   <string name="power_center_ontime_boot">Power on time</string>
   <string name="power_center_ontime_shutdown">Power off time</string>
   <string name="power_center_repeat">Repeat</string>
+  <string name="power_center_scan_item_title_GPS">Adjust GPS accuracy</string>
+  <string name="power_center_scan_item_title_abnormal">Battery issues</string>
+  <string name="power_center_scan_item_title_abnormal_apps">Abnormal power consumption application</string>
+  <string name="power_center_scan_item_title_auto_invoke">Chain start</string>
+  <string name="power_center_scan_item_title_auto_start">Autostart</string>
+  <string name="power_center_scan_item_title_battery_details">Battery usage details</string>
+  <string name="power_center_scan_item_title_brightness">Adjust screen brightness</string>
+  <string name="power_center_scan_item_title_clean_memory">Clear memory</string>
+  <string name="power_center_scan_item_title_hide">Manage battery usage</string>
+  <string name="power_center_scan_item_title_power_saver">Turn on Battery saver</string>
+  <string name="power_center_scan_item_title_running_app">Apps running in the background</string>
+  <string name="power_center_scan_result_safe">No battery issues found</string>
   <string name="power_center_state_off">Off</string>
   <string name="power_center_state_on">On</string>
+  <string name="power_center_stop_scan_title">Stop scanning</string>
   <string name="power_center_time_to_boot">Power on time</string>
   <string name="power_center_time_to_shutdown">Power off time</string>
   <string name="power_center_title">Battery usage</string>
@@ -1716,6 +1746,7 @@ This activity shortens battery life."</string>
   <string name="power_save_mode_summary">Monitor background processes and turn off sync.</string>
   <string name="power_save_on_time_end_time_summary_na">To</string>
   <string name="power_save_on_time_start_time_summary_na">From</string>
+  <string name="power_save_started_summary_text">"power_save_started_summary_text&gt;Battery saver is on. It reduces apps' background activity, stops sync, and minimizes system animations."</string>
   <string name="power_save_summary_text">"Turn on Battery saver to reduce apps' background activity, stop sync, and minimize system animations."</string>
   <string name="power_save_title_text">Battery saver</string>
   <string name="power_screen">Screen</string>
@@ -1844,7 +1875,7 @@ This activity shortens battery life."</string>
   <string name="privacy_apps_go_to_use">Start</string>
   <string name="privacy_apps_manage">Manage hidden apps</string>
   <string name="privacy_apps_manage_dialog_title">About hidden apps</string>
-  <string name="privacy_apps_manager_dialog_message">Hiding apps requires setting your App screen lock. Notifications for hidden apps will be turned off. Hide this app?</string>
+  <string name="privacy_apps_manager_dialog_message">"This app's icon won't be displayed on the Home screen after you hide this app. Hide this app now?"</string>
   <string name="privacy_apps_tutorial">Tutorial</string>
   <string name="privacy_apps_tutorial_prompt_pageone">"When you hide an app, it's moved to a hidden folder. Its Home screen shortcut is hidden is well.
 This feature isn't supported for system apps."</string>
