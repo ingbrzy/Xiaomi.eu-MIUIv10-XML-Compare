@@ -1,5 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="abc_action_bar_home_description">Navigate home</string>
+  <string name="abc_action_bar_up_description">Navigate up</string>
+  <string name="abc_action_menu_overflow_description">More options</string>
+  <string name="abc_action_mode_done">Done</string>
+  <string name="abc_activity_chooser_view_see_all">See all</string>
+  <string name="abc_activitychooserview_choose_application">Choose an app</string>
+  <string name="abc_capital_off">OFF</string>
+  <string name="abc_capital_on">ON</string>
+  <string name="abc_font_family_body_1_material">sans-serif</string>
+  <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+  <string name="abc_font_family_button_material">sans-serif-medium</string>
+  <string name="abc_font_family_caption_material">sans-serif</string>
+  <string name="abc_font_family_display_1_material">sans-serif</string>
+  <string name="abc_font_family_display_2_material">sans-serif</string>
+  <string name="abc_font_family_display_3_material">sans-serif</string>
+  <string name="abc_font_family_display_4_material">sans-serif-light</string>
+  <string name="abc_font_family_headline_material">sans-serif</string>
+  <string name="abc_font_family_menu_material">sans-serif</string>
+  <string name="abc_font_family_subhead_material">sans-serif</string>
+  <string name="abc_font_family_title_material">sans-serif-medium</string>
+  <string name="abc_search_hint">Search…</string>
+  <string name="abc_searchview_description_clear">Clear query</string>
+  <string name="abc_searchview_description_query">Search query</string>
+  <string name="abc_searchview_description_search">Search</string>
+  <string name="abc_searchview_description_submit">Submit query</string>
+  <string name="abc_searchview_description_voice">Voice search</string>
+  <string name="abc_shareactionprovider_share_with">Share with</string>
+  <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+  <string name="abc_toolbar_collapse_description">Collapse</string>
   <string name="account_and_cloud">Account</string>
   <string name="action_item_add">Add to</string>
   <string name="action_item_add_song">Add to playlist</string>
@@ -39,7 +68,7 @@
   <string name="api">0.45</string>
   <string name="app_code">MYPLAY-ANDROID-MIMUSIC</string>
   <string name="app_label">Downloads</string>
-  <string name="app_name">ACTIVITY_ENTRY_NAME</string>
+  <string name="app_name">SdkCommon</string>
   <string name="app_type">CMSDK</string>
   <string name="artist">Artists</string>
   <string name="artist_album">Albums</string>
@@ -77,10 +106,6 @@
   <string name="backup_song_title">Select songs to back up</string>
   <string name="bluetooth_device">Bluetooth audio device</string>
   <string name="browser_error">Temporarily unavailable, please try again soon</string>
-  <string name="btn_earlier_items">Load Recent Messages</string>
-  <string name="btn_earlier_items_progress">Loading Recent Messages…</string>
-  <string name="btn_more_items">Load More Messages</string>
-  <string name="btn_more_items_progress">Loading More Messages…</string>
   <string name="buffering">Buffering…</string>
   <string name="button_cancel_download">Cancel</string>
   <string name="button_download_now">Download now</string>
@@ -112,7 +137,7 @@
   <string name="cloud_state_storage_full">Not enough phone storage, paused backup</string>
   <string name="cloud_welcome_message">Back up songs</string>
   <string name="cloud_welcome_summary">Back up your songs to Mi Cloud and listen to them on other devices</string>
-  <string name="com.crashlytics.android.build_id">b1490be1-18f2-41b0-85fb-8b9b1db7d23a</string>
+  <string name="com.crashlytics.android.build_id">9a32f6c1-b60c-4e6f-83f3-6075a6bb8969</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -151,7 +176,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="data_usage_warning">Data usage</string>
   <string name="data_usage_warning_summary">Using your mobile data connection to stream high quality music may increase your data usage charges.</string>
   <string name="date_format_str">MM-dd-yyyy</string>
-  <string name="default_cmsdk_sender_id">XXXXX</string>
   <string name="default_placement_display_num">5</string>
   <string name="default_web_client_id">948829309969-vb4502m250c1iu8aqblkhmhrei9o83ib.apps.googleusercontent.com</string>
   <string name="delete">Delete</string>
@@ -183,6 +207,9 @@ is mainly provided by Ultimate Inc."</string>
   <string name="dialog_insufficient_space_on_external">"Can't finish download. Not enough space on the SD card."</string>
   <string name="dialog_media_not_found">"Can't download. SD card isn't available."</string>
   <string name="dialog_queued_body">This file is queued for future download.</string>
+  <string name="dialog_renew_failure">Sorry, action failed</string>
+  <string name="dialog_renew_positive_text">YEAH, I WANNA ROCK LIKE A PRO</string>
+  <string name="dialog_renew_success">Thanks for your confirmation</string>
   <string name="dialog_song_sort_type">Sort songs</string>
   <string name="dialog_song_sort_type_name">By name</string>
   <string name="dialog_song_sort_type_playing_times">By the number of times played</string>
@@ -225,6 +252,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_confirm_text">Mi Music will download and install \"%s\"</string>
   <string name="download_connect_wifi_dialog_message">You need Wi-Fi to download this song. Connect now?</string>
   <string name="download_connect_wifi_dialog_title">Connect to Wi-Fi</string>
+  <string name="download_dialog_fail">"Couldn't download"</string>
+  <string name="download_dialog_success">Downloaded successfully</string>
   <string name="download_done_btn">Downloaded</string>
   <string name="download_error">Failed</string>
   <string name="download_error_insufficient_space">Not enough space</string>
@@ -239,6 +268,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_paused_in_power_save_mode">Downloads are paused when Battery saver is on</string>
   <string name="download_percent">%d%%</string>
   <string name="download_processing">Downloading…</string>
+  <string name="download_progress">%d%%</string>
+  <string name="download_progress_detail" formatted="false">%.1fM/%.1fM</string>
   <string name="download_quality">Download quality</string>
   <string name="download_quality_summary">Additional settings for songs that you download</string>
   <string name="download_queued">Queued</string>
@@ -273,6 +304,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="downloading_apk">Downloading… View progress in the Notification shade.</string>
   <string name="downloading_empty">Empty</string>
   <string name="downloading_pause_apk">Paused. Resume download in the Notification shade.</string>
+  <string name="due_date">Due Date: %s</string>
   <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
   <string name="durationformatshort">%2$d:%5$02d</string>
   <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
@@ -280,6 +312,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="empty_page_no_album">No albums.</string>
   <string name="empty_page_no_artist">No artists.</string>
   <string name="enabled">Enabled</string>
+  <string name="enjoy_hungama_pro">Enjoy Hungama PRO</string>
   <string name="enter_garbage_clean">Clean up internal storage.</string>
   <string name="eq_auto">Custom</string>
   <string name="eq_blues">Blues</string>
@@ -299,8 +332,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="eq_preset_select">Choose a preset</string>
   <string name="eq_rock">Rock</string>
   <string name="equalizer">Equalizer</string>
-  <string name="err_media_handle">Sorry, we were unable to retrieve the media. Please try again.</string>
-  <string name="err_offline_on_playback">Sorry, you must be online in order to play this media.</string>
   <string name="error_forbidden">Sync has been turned off due to problems with your account.</string>
   <string name="error_not_acceptable">Sync is turned off.</string>
   <string name="error_title">"Can't sync with Mi Account"</string>
@@ -411,6 +442,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="google_crash_reporting_api_key">AIzaSyDtXevw-xV0_qPieue5APFY-mRmbt3lU8w</string>
   <string name="google_storage_bucket">mi-music-global.appspot.com</string>
   <string name="handle_later">Not now</string>
+  <string name="hd_quality_audio">HD quality audio</string>
   <string name="headset_and_audio_effect_category">Headphones &amp; audio effects</string>
   <string name="headset_and_audio_effect_summary">Headphones &amp; equalizer</string>
   <string name="headset_and_audio_effect_title">Headphones &amp; audio effects</string>
@@ -422,9 +454,11 @@ is mainly provided by Ultimate Inc."</string>
   <string name="home_tab_online">Online music</string>
   <string name="hot_icon_in_fast_indexer">H</string>
   <string name="hungama">Hungama</string>
+  <string name="hungama_batch_download_alert_summary">Only PRO members can download multiple songs. Get a PRO membership now?</string>
   <string name="hungama_category_playlist">Playlist</string>
   <string name="hungama_category_radio">Radio</string>
   <string name="hungama_category_video">Video</string>
+  <string name="hungama_free_download_out_summary">"You can't download more free songs. Get a PRO membership to download unlimited songs?"</string>
   <string name="hungama_pro">Hungama Pro</string>
   <string name="hungama_subscribe_message">Buy PRO membership to download music in high quality.</string>
   <string name="hungama_subscribe_positive_button">Buy PRO membership</string>
@@ -442,6 +476,10 @@ is mainly provided by Ultimate Inc."</string>
   <string name="inbox_keep_in_heap_limit">10</string>
   <string name="inbox_request_limit">3</string>
   <string name="include_sensitive_extra">false</string>
+  <string name="individuation_card_login_button">Sign in</string>
+  <string name="individuation_card_login_message">"Sign in to find more songs you'll love"</string>
+  <string name="individuation_card_title">For you</string>
+  <string name="individuation_cart_login_title">Want to see more recommendations?</string>
   <string name="individuation_recommend_message">Turn on recommendations to receive personalized suggestions based on your preferences.</string>
   <string name="individuation_recommend_switch_message">Turning this feature off will affect personalized Mi Music services. Turn off anyway?</string>
   <string name="individuation_recommend_title">Recommendations</string>
@@ -492,8 +530,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="menu_title_pause_all">Pause all</string>
   <string name="menu_title_resume_all">Start all</string>
   <string name="message_delete_playlist">Delete playlist %s?</string>
-  <string name="message_timestamp">MMM dd</string>
-  <string name="message_ws_response_error">There was a problem with processing your request and/or server response</string>
   <string name="metered_alert">Data usage warning</string>
   <string name="metered_alert_msg">"You're using mobile data to play songs. Play anyway?"</string>
   <string name="metered_alert_msg_with_data">You have %s of mobile data left. Use mobile data to play songs?</string>
@@ -551,7 +587,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="no_album_info">No album info</string>
   <string name="no_artist_info">No artist info</string>
   <string name="no_downloads">No downloads</string>
-  <string name="no_duration">--:--</string>
   <string name="no_favorites_songs">Empty</string>
   <string name="no_file_picker_find">"File Manager isn't installed."</string>
   <string name="no_local_songs">Empty</string>
@@ -648,6 +683,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="priority_storage_summary">Automatically download to external SD card if available</string>
   <string name="privacy_policy">Privacy Policy</string>
   <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
+  <string name="pro_member">PRO Member</string>
   <string name="project_device">Mi Phone</string>
   <string name="project_id">mi-music-global</string>
   <string name="prompt_grant_write_settings_permission">Allow changing system settings</string>
@@ -671,6 +707,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="recordForReadIntervalDelaySeconds">60</string>
   <string name="remove">Remove</string>
   <string name="remove_download">Remove</string>
+  <string name="renew_dialog_title">"Go Pro
+Be Happy"</string>
   <string name="repeat_all_notif">Repeating all songs.</string>
   <string name="repeat_current_notif">Repeating current song.</string>
   <string name="request_share_info">Just a sec…</string>
@@ -689,7 +727,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="s6">Allow Ad to create a calendar event?</string>
   <string name="s7">Test Ad</string>
   <string name="save_changes">Save changes</string>
-  <string name="sdk_ver">1.0.9.5</string>
+  <string name="sdk_ver">1.1.0.1</string>
   <string name="search_album_and_lyric">Search album covers and lyrics</string>
   <string name="search_empty">"Couldn't find any results"</string>
   <string name="search_for_album">Album</string>
@@ -697,6 +735,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="search_hint">Search for artists, songs, albums, and recommendations</string>
   <string name="search_history_clear_all">Clear</string>
   <string name="search_instant_online_music">Online</string>
+  <string name="search_menu_title">Search</string>
   <string name="search_songs_count">Songs: %d</string>
   <string name="search_title">Search</string>
   <string name="second_symbol">s</string>
@@ -712,8 +751,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="select_three_languages">You can select up to 3 languages</string>
   <string name="selected_count">Selected %1$d out of %2$d</string>
   <string name="send_to_title">Send to (%1$s)</string>
-  <string name="sender_id">XXXXX</string>
-  <string name="server_connection_failed">Sorry, you must be online to use this function</string>
   <string name="server_error">An error occurred, wait a minute or two and try again.</string>
   <string name="service_and_settings">Service and settings</string>
   <string name="session_create_error">Server returned SESSION CREATE ERROR code, please contact SDK developers!</string>
@@ -758,6 +795,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="sleep_mode_canceled">Sleep mode turned off</string>
   <string name="sleep_mode_summary">Stop player after a certain time</string>
   <string name="sleep_mode_title">Sleep timer</string>
+  <string name="sliding_pro_center">PRO Center</string>
   <string name="song_exist_in_playlist">This song is already in the queue</string>
   <string name="song_info">Song details</string>
   <string name="song_is_empty">Song name can not be empty.</string>
@@ -816,7 +854,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="title_online_fm_recommend">Featured FM</string>
   <string name="title_online_recommend">Featured playlists</string>
   <string name="title_search_history">Search history</string>
-  <string name="to_mi_pay">Mi Credits</string>
   <string name="toast_download_error_by_count_limit">You have used up your download quota for this month.</string>
   <string name="toast_download_error_by_not_login">Sign in to Mi Account and try again.</string>
   <string name="toast_download_error_by_vip_required">Get Premium Song Pack to download this song.</string>
@@ -831,6 +868,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="uninterruptedPlayIntervalSeconds">300</string>
   <string name="unknown_album_name">Unknown album</string>
   <string name="unknown_artist_name">Unknown artist</string>
+  <string name="unlimited_downloads">Unlimited downloads</string>
+  <string name="unlimited_offline_songs">Unlimited offline songs</string>
   <string name="update_now">UPDATE NOW</string>
   <string name="upgrade_music">Update Music</string>
   <string name="upgrade_music_message">Updates are ready. Restart to update.</string>
@@ -842,16 +881,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="video_replay_btn">Play again</string>
   <string name="video_retry_btn">Try again</string>
   <string name="view_album">View album</string>
-  <string name="vip_after_tomorrow_auto_renew_message">Your Music subscription will be renewed automatically the evening of day after tomorrow. Make sure you have enough Mi Credits in your account to complete this payment.</string>
-  <string name="vip_after_tomorrow_renew_message">"You won't be able to stream high quality audio, but some songs will be available in regular quality."</string>
-  <string name="vip_auto_renew_message">Your Music subscription will be renewed automatically this evening. Make sure you have enough Mi Credits in your account to complete this payment.</string>
-  <string name="vip_auto_renew_title">Subscription renewal</string>
-  <string name="vip_renew_message">"You won't be able to stream high quality audio, but some songs will be available in regular quality."</string>
-  <string name="vip_renew_title">Subscription expired</string>
   <string name="vip_required">Get Premium Song Pack to play this song. Skipped the song for now.</string>
-  <string name="vip_required_with_song">Get Premium Song Pack to play “%s”. Skipped the song for now.</string>
-  <string name="vip_tomorrow_auto_renew_message">Your Music subscription will be renewed automatically tomorrow evening. Make sure you have enough Mi Credits in your account to complete this payment.</string>
-  <string name="vip_tomorrow_renew_message">"You won't be able to stream high quality audio, but some songs will be available in regular quality."</string>
+  <string name="vip_required_with_song">%s is available to PRO members only. Skipped this song for now.</string>
   <string name="web_service_url">pa-spa.catchmedia.com</string>
   <string name="web_service_url_version">v47</string>
   <string name="wifi_required_body" formatted="false">"Connect to Wi-Fi to complete this %s download. 
