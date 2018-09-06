@@ -886,7 +886,7 @@ Use only the supplied charger."</string>
   <string name="kg_invalid_confirm_pin_hint">"PIN codes don't match"</string>
   <string name="kg_invalid_puk">Enter the correct PUK code again. Repeated attempts will permanently disable the SIM.</string>
   <string name="kg_invalid_sim_pin_hint">Enter a PIN that is 4 to 8 numbers.</string>
-  <string name="kg_invalid_sim_puk_hint">PUK code should be 8 numbers or more.</string>
+  <string name="kg_invalid_sim_puk_hint">PUK code should be 8 numbers.</string>
   <string name="kg_login_too_many_attempts">Too many pattern attempts</string>
   <string name="kg_password_instructions">Enter password</string>
   <string name="kg_password_pin_failed">"Couldn't unlock using SIM PIN"</string>
@@ -1002,6 +1002,7 @@ Try again in %2$d seconds."</string>
   <string name="miui_ringer_standard_description">Silence ringtones for incoming calls and notifications</string>
   <string name="miui_ringer_total">DND</string>
   <string name="miui_ringer_total_description">Silence sounds and turn off vibration for all items except the alarm clock</string>
+  <string name="miui_screen_rotation_freeze_message">Auto-rotate disabled.</string>
   <string name="miui_toast_zen_dnd_to_off">Sounds and vibration restored to normal</string>
   <string name="miui_toast_zen_standard_to_off">Ringtones restored to normal</string>
   <string name="miui_toast_zen_standard_to_off_when_shield_media">Ringtones, as well as notification and media sounds, will be played.</string>
@@ -1500,6 +1501,8 @@ be monitored"</string>
   <string name="status_bar_clear_all_button">Clear</string>
   <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
   <string name="status_bar_clock_date_format_12">EEEE, MMMM d</string>
+  <string name="status_bar_clock_date_time_format">H:mm MMMM d</string>
+  <string name="status_bar_clock_date_time_format_12">aah:mm MMMM d</string>
   <string name="status_bar_date_format">"EEEE
 MMMM d"</string>
   <string name="status_bar_date_format_12">"EEEE
