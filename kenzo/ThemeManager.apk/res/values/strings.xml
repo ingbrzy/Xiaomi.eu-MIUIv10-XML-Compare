@@ -102,6 +102,9 @@
   <string name="download_failed">"Couldn't download"</string>
   <string name="download_preview_failed">"Can't load preview"</string>
   <string name="download_success">Download finished</string>
+  <string name="exit_extreme_mode_dialog_agree">Agree</string>
+  <string name="exit_extreme_mode_dialog_cancel">Cancel</string>
+  <string name="exit_extreme_mode_dialog_title">Turn off Extreme mode</string>
   <string name="exo_controls_fastforward_description">Fast forward</string>
   <string name="exo_controls_fullscreen_description">Fullscreen mode</string>
   <string name="exo_controls_next_description">Next track</string>
@@ -134,6 +137,9 @@
   <string name="exo_track_surround_5_point_1">5.1 surround sound</string>
   <string name="exo_track_surround_7_point_1">7.1 surround sound</string>
   <string name="exo_track_unknown">Unknown</string>
+  <string name="extreme_mode_dialog_message">"This feature isn't available in Extreme mode. Turn off Extreme mode to be able to use it."</string>
+  <string name="extreme_mode_dialog_ok">Got it</string>
+  <string name="extreme_mode_dialog_title">Alert</string>
   <string name="fail_to_add_account">"Can't add account"</string>
   <string name="favorite_list">Favorites</string>
   <string name="favorite_list_format">Favorite %1$s</string>
