@@ -120,6 +120,14 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">Found %d battery issues, fix them</item>
         <item quantity="one">Found %d battery issue, fix it</item>
     </plurals>
+    <plurals name="power_center_menu_text">
+        <item quantity="other">items</item>
+        <item quantity="one">item</item>
+    </plurals>
+    <plurals name="power_center_list_item_optimize_button">
+        <item quantity="other">Add %d minutes</item>
+        <item quantity="one">Add %d minute</item>
+    </plurals>
     <plurals name="people">
         <item quantity="other">Downloaded by %1$d people</item>
     </plurals>
