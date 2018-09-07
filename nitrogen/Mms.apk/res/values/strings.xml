@@ -81,6 +81,7 @@
   <string name="cloud_state_sync_finished">Synced with Mi Cloud</string>
   <string name="cloud_state_syncing">Syncing with Mi Cloud…</string>
   <string name="cmcc_key">43a489fcb42b4372b10f0586fe6dbf88</string>
+  <string name="cmcc_privacy">China Mobile Carrier Privacy Agreement</string>
   <string name="compressing">Picture is too large. Compressing…</string>
   <string name="confirm">OK</string>
   <string name="confirm_add_blacklist_dialog_dspt">Add this number to your blocklist?</string>
@@ -98,8 +99,7 @@
   <string name="confirm_export_dialog_description">Previous conversations with this contact will no longer be hidden.</string>
   <string name="confirm_export_dialog_title">Remove from private contacts</string>
   <string name="confirm_no_block_positive">Unblock</string>
-  <string name="confirm_no_block_title">"Unblock and restore all messages sent from this number?
-(The number will be added to exceptions.)"</string>
+  <string name="confirm_no_block_title">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in Messaging inbox."</string>
   <string name="confirm_rate_limit">A large number of multimedia messages are being sent.</string>
   <string name="confirm_restore_all_title">Restore all messages sent from this number?</string>
   <string name="confirm_restore_checkbox">Restore blocked messages</string>
@@ -146,12 +146,8 @@
   <string name="delivery_toast_body_more">Message received by %1$s, and %2$d other people</string>
   <string name="dialog_message_fake_cell_detect_error">Correct the info about this message? To do this, MIUI needs to upload the phone number (%1$s), the contents of the message, and the info about nearby location to its servers.</string>
   <string name="dialog_message_mx">Mi Message allows you to send messages to other MIUI devices without incurring charges. An outgoing SMS message is required to activate Mi Message. Your carrier will charge you for this message. You must agree to our \"%1$s\" and \"%2$s\" before using Mi Message.</string>
-  <string name="dialog_message_mx_rcs">Mi Message allows you to send messages to other MIUI devices and China Mobile users without incurring charges. An outgoing SMS message is required to activate Mi Message. Your carrier will charge you for this message. You must agree to our \"%1$s\" and \"%2$s\" before using Mi Message. Agree?</string>
-  <string name="dialog_message_networking">Messaging needs to connect to the Internet and access your location in order to provide Smart Messaging, Sender ID recognition, and other services. You must agree to our \"%1$s\" and \"%2$s\" before using these services. Allow?</string>
-  <string name="dialog_message_networking_mx">Mi Message allows you to send messages to other MIUI devices without incurring charges. An outgoing SMS message is required to activate Mi Message. Your carrier will charge you for this message. You must agree to our \"%1$s\" and \"%2$s\" before using Mi Message. Messaging needs to connect to the Internet and access your location in order to provide Smart Messaging, Sender ID recognition, and other services. Allow?</string>
-  <string name="dialog_message_networking_mx_rcs">Mi Message allows you to send messages to other MIUI devices and China Mobile users without incurring charges. An outgoing SMS message is required to activate Mi Message. Your carrier will charge you for this message. You must agree to our \"%1$s\" and \"%2$s\" before using Mi Message. Messaging needs to connect to the Internet and access your location in order to provide Smart Messaging, Sender ID recognition, and other services. Allow?</string>
-  <string name="dialog_message_networking_rcs">China Mobile Messaging allows you to send messages to other China Mobile users without incurring charges. You must agree to \"%1$s\" and \"%2$s\" before using China Mobile Messaging. Messaging needs to connect to the Internet and access your location in order to provide Smart Messaging, Sender ID recognition, and other services. Allow?</string>
-  <string name="dialog_message_rcs">China Mobile Messaging allows you to send messages to other China Mobile users without incurring charges. You must agree to \"%1$s\" and \"%2$s\" before using China Mobile Messaging. Agree?</string>
+  <string name="dialog_message_networking">Messaging needs to connect to the internet and access your location in order to provide Smart Messaging, Sender ID recognition, and other services. Agree?</string>
+  <string name="dialog_message_rcs">China Mobile Messaging allows you to send messages to other China Mobile users without incurring charges. You must agree to \"%1$s\" before using China Mobile Messaging.</string>
   <string name="dialog_message_sms_report">"Spam messages and sender's info will be uploaded to MIUI when you report them. They will only be used to improve MIUI's spam filters."</string>
   <string name="dialog_title_fake_cell_detect_error">Correction</string>
   <string name="dialog_title_mx_rcs">Mi Message</string>
@@ -551,7 +547,7 @@
   <string name="recommend_bar_cancel">Ignore</string>
   <string name="recommend_bar_message_mx">Mi Message allows you to send messages to other MIUI devices without incurring charges.</string>
   <string name="recommend_bar_message_mx_rcs">Mi Message allows you to send messages to other MIUI devices and China Mobile users without incurring charges.</string>
-  <string name="recommend_bar_message_rcs">China Mobile Messaging allows you to send messages to other users without incurring charges.</string>
+  <string name="recommend_bar_message_rcs">China Mobile Messaging allows you to send messages to other China Mobile users without incurring charges.</string>
   <string name="recommend_bar_message_smart_message">Copy one-time passwords, track packages, use smart menus, and more</string>
   <string name="recommend_bar_ok">Turn on</string>
   <string name="recommend_bar_title_mx_rcs">Mi Message</string>
