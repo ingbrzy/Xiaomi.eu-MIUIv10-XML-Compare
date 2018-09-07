@@ -270,12 +270,15 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
+  <string name="aod_close_color_inversion">"This feature can't be combined with color inversion. Turn off color inversion first."</string>
+  <string name="aod_got_it">Got it</string>
   <string name="aod_mode_summary">Always show time, date and messages when the screen is off</string>
   <string name="aod_mode_time_summary">Schedule time when your device should switch to Always on mode</string>
   <string name="aod_mode_time_title">Schedule</string>
   <string name="aod_mode_title">Always on mode</string>
   <string name="aod_mode_turn_off">Off</string>
   <string name="aod_mode_turn_on">On</string>
+  <string name="aod_to_close">Turn off</string>
   <string name="apn_apn">APN</string>
   <string name="apn_auth_type">Authentication type</string>
   <string name="apn_auth_type_chap">CHAP</string>
@@ -337,9 +340,9 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="app_launch_open_domain_urls_title">Open supported links</string>
   <string name="app_launch_other_defaults_title">Other defaults</string>
   <string name="app_launch_supported_domain_urls_title">Supported links</string>
-  <string name="app_link_open_always">Open in this app</string>
+  <string name="app_link_open_always">Open</string>
   <string name="app_link_open_ask">Ask every time</string>
-  <string name="app_link_open_never">Don’t open in this app</string>
+  <string name="app_link_open_never">"Don't open"</string>
   <string name="app_list_memory_use">App usage</string>
   <string name="app_list_preference_none">None</string>
   <string name="app_memory_use">Memory use</string>
@@ -1441,8 +1444,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_app">(Default)</string>
   <string name="default_apps_title">Default</string>
   <string name="default_assist_title">Assist app</string>
-  <string name="default_browser_title">Browser app</string>
-  <string name="default_browser_title_none">No default Browser</string>
+  <string name="default_browser_title">Browser</string>
+  <string name="default_browser_title_none">Not selected</string>
   <string name="default_calendar_app_title">Calendar app</string>
   <string name="default_contacts_app_title">Contacts app</string>
   <string name="default_emergency_app">Emergency app</string>
@@ -1452,7 +1455,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_launcher_title">Default Launcher</string>
   <string name="default_map_app_title">Map app</string>
   <string name="default_notification_assistant">Notification assistant</string>
-  <string name="default_phone_title">Phone app</string>
+  <string name="default_phone_title">Dial</string>
   <string name="default_rule_name">Timer 1</string>
   <string name="default_sound">Default sound</string>
   <string name="default_spell_checker">Default spell checker</string>
@@ -1670,7 +1673,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="does_not_exist">App doesn’t exist.</string>
   <string name="domain_url_section_title">Installed apps</string>
   <string name="domain_urls_apps_summary_off">No app opening supported links</string>
-  <string name="domain_urls_summary_none">Don’t open supported links</string>
+  <string name="domain_urls_summary_none">"Don't open supported links"</string>
   <string name="domain_urls_summary_one">Open %s</string>
   <string name="domain_urls_summary_some">Open %s and other URLs</string>
   <string name="domain_urls_title">Opening links</string>
@@ -2211,7 +2214,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="high_power_system">Battery optimization not available</string>
   <string name="history_details_title">History details</string>
   <string name="home">Home screen settings</string>
-  <string name="home_app">Home app</string>
+  <string name="home_app">Launcher</string>
   <string name="home_key">Home</string>
   <string name="home_work_profile_not_supported">"Doesn't support work profiles"</string>
   <string name="http_invoke_app">Web apps</string>
@@ -2260,7 +2263,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="install_no_market_app_summary">Allow installation of apps from sources other than the App Store</string>
   <string name="install_no_market_app_title">Unknown sources</string>
   <string name="install_other_apps">Install unknown apps</string>
-  <string name="install_preinstall_app">Loading apps…</string>
+  <string name="install_preinstall_app">Switching region…</string>
   <string name="install_text">Install</string>
   <string name="install_type_instant">Instant app</string>
   <string name="install_whole_rom">Download ROM</string>
@@ -3101,7 +3104,7 @@ Select your operating system:"</string>
   <string name="no_connected_devices">No connected devices</string>
   <string name="no_data_usage">No data used</string>
   <string name="no_default_apps">No default Apps.</string>
-  <string name="no_default_home">No default Home</string>
+  <string name="no_default_home">Not selected</string>
   <string name="no_device_admins">No device admin apps available</string>
   <string name="no_internet_access_remember">Don’t ask again for this network</string>
   <string name="no_internet_access_text">WLAN network %1$s has no access to the internet. Stay connected?</string>
@@ -4502,7 +4505,7 @@ Possibly incorrect PIN."</string>
   <string name="smartcover_lock_or_unlock_screen_tittle">Smart cover mode</string>
   <string name="smartcover_sensitive_summary">Lock or unlock the phone automatically using smart cover</string>
   <string name="smartcover_sensitive_title">Smart cover</string>
-  <string name="sms_application_title">SMS app</string>
+  <string name="sms_application_title">Messaging</string>
   <string name="sms_change_default_dialog_text">Use %1$s instead of %2$s as your SMS app?</string>
   <string name="sms_change_default_dialog_title">Change SMS app?</string>
   <string name="sms_change_default_no_previous_dialog_text">Use %s as your SMS app?</string>
@@ -4573,9 +4576,11 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
+  <string name="status_bar_settings_customer_feedback">feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
+  <string name="status_bar_settings_function_description">About this feature</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
@@ -4606,6 +4611,11 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_toggle_collapse_after_clicked">Collapse after touch</string>
   <string name="status_bar_settings_toggle_position">Toggle positions</string>
   <string name="status_bar_settings_user_fold">Notifications folder</string>
+  <string name="status_bar_settings_user_fold_description1">Notifications folder was introduced in MIUI 9. This feature filters unimportant notifications and places them into a separate folder.</string>
+  <string name="status_bar_settings_user_fold_description2">MIUI will remember which notifications you tap, and then use multiple criteria to determine whether they are important.</string>
+  <string name="status_bar_settings_user_fold_description3">"If the notifications you consider important still go into the Notifications folder, make sure that you report such issues to us. We'd appreciate your feedback."</string>
+  <string name="status_bar_settings_user_fold_disable">Off</string>
+  <string name="status_bar_settings_user_fold_enable">On</string>
   <string name="status_bar_settings_user_fold_summary">All unimportant notifications will appear in a separate folder</string>
   <string name="status_bar_style_list">Combined</string>
   <string name="status_bar_style_page">Separate</string>
@@ -4969,6 +4979,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_font_current2">System font</string>
   <string name="title_font_size">Font size</string>
   <string name="title_hdmi_color_calibration">Color correction preset</string>
+  <string name="title_jeejen">Jeejen Home screen</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
   <string name="to_close">Turn off</string>
@@ -5150,7 +5161,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter 4 numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary">Enter 4-16 numbers to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
