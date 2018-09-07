@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="access_sd_fail">"Couldn't access USB storage."</string>
+  <string name="access_sd_fail">"Couldn't access SD card."</string>
   <string name="accessibility_ai_scene_off">AI camera is off</string>
   <string name="accessibility_ai_scene_on">AI camera is on</string>
   <string name="accessibility_back_preview_status">Rear camera preview</string>
@@ -43,6 +43,7 @@
   <string name="accessibility_zoom_button">Zoom mode</string>
   <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
 and optimizes your photos based on this info"</string>
+  <string name="app_name">algoengine</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
@@ -157,7 +158,7 @@ in Portrait mode"</string>
   <string name="module_name_video">Video</string>
   <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
   <string name="no_storage">Insert SD card before using camera</string>
-  <string name="not_enough_space">Internal storage is full</string>
+  <string name="not_enough_space">SD card is full</string>
   <string name="object_track_enable_toast">To select an object, simultaneously tap two diagonal points around its border.</string>
   <string name="pano_file_name_format">"'PANO'_yyyyMMdd_HHmmss"</string>
   <string name="pano_how_to_use_prompt_align_reference_line">Align the arrow with the reference line</string>
@@ -457,7 +458,8 @@ and brings out the people in the front."</string>
   <string name="pref_video_time_lapse_frame_interval_entry_90">90X (3-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
-  <string name="preparing_sd">Checking internal storage…</string>
+  <string name="preparing_sd">Checking SD card…</string>
+  <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
   <string name="record_back_pressed_hint">Touch again to stop recording</string>
   <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
   <string name="screen_on_proximity_sensor_summary">"Don't cover the earphone area"</string>

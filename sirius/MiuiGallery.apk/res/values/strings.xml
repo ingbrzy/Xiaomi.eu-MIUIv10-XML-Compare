@@ -637,6 +637,9 @@
   <string name="cloudfolder_name_reserved">Album name is reserved</string>
   <string name="collage__talkback_effect">%d effect</string>
   <string name="collage_choose">Select</string>
+  <string name="collage_drawable_normal_date_format">MM/dd/yyyy</string>
+  <string name="collage_drawable_rect_date_month_day">MMM dd</string>
+  <string name="collage_drawable_rect_date_year">yyyy</string>
   <string name="collage_margin_text">Margins</string>
   <string name="collage_mirror">Mirror</string>
   <string name="collage_poster_global_cat_text">PAWS</string>
@@ -1251,6 +1254,10 @@ to personalize Gallery"</string>
   <string name="play_gif_desc">Play GIF</string>
   <string name="play_video_desc">Play video</string>
   <string name="preparing_data">Just a sec…</string>
+  <string name="privacy_permission_request_message">Gallery needs access to %3$s. The information we collect will be used in accordance with our %1$s and %2$s. Allow?</string>
+  <string name="privacy_permission_request_negative">Restrict</string>
+  <string name="privacy_permission_request_positive">Allow</string>
+  <string name="privacy_permission_request_title">Permissions required</string>
   <string name="projection_cancel">Cancel</string>
   <string name="projection_checkbox_text">Remember this display</string>
   <string name="projection_device_connection_failed">"Couldn't connect projector"</string>
@@ -1559,10 +1566,15 @@ to personalize Gallery"</string>
   <string name="video_editor_auto_trim">Auto trim</string>
   <string name="video_editor_auto_trim_tip">Auto trimming…</string>
   <string name="video_editor_cancel">Cancel</string>
+  <string name="video_editor_cancel_download">Cancel</string>
   <string name="video_editor_done">Done</string>
   <string name="video_editor_down_load_later">Later</string>
   <string name="video_editor_down_load_no_wifi_tips">Connect to Wi-Fi to download</string>
   <string name="video_editor_down_load_now">Download</string>
+  <string name="video_editor_download">Download</string>
+  <string name="video_editor_download_failed_for_notwork">"Couldn't download. Connect to the network and try again."</string>
+  <string name="video_editor_download_without_wifi_msg">"Using mobile data connection to download files will increase your data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
+  <string name="video_editor_download_without_wifi_title">Data usage warning</string>
   <string name="video_editor_encode_video">Encoding video…</string>
   <string name="video_editor_encode_video_error">"Couldn't encode video"</string>
   <string name="video_editor_fatal_error">Unknown error</string>
@@ -1601,6 +1613,8 @@ to personalize Gallery"</string>
   <string name="video_editor_res_download_mobil_network_confirm_msg">Download soundtracks using mobile data?</string>
   <string name="video_editor_res_download_mobil_network_confirm_title">Using mobile data</string>
   <string name="video_editor_res_not_load_dialog_msg">Download soundtracks to use this feature (more than 20MB).</string>
+  <string name="video_editor_return">Back</string>
+  <string name="video_editor_save">Save</string>
   <string name="video_editor_smart_effect_beat">Beats</string>
   <string name="video_editor_smart_effect_big_film">Epic</string>
   <string name="video_editor_smart_effect_cadence">Rhythm</string>
