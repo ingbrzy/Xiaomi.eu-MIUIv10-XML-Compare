@@ -23,6 +23,7 @@
     <string-array name="thermal_summaries">
         <item>Prioritize temperature control</item>
         <item>Prioritize performance</item>
+        <item>Configuration disabled in extreme power mode</item>
     </string-array>
     <string-array name="power_mode_entries">
         <item>Performance</item>

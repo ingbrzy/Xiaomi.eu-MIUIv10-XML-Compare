@@ -13,6 +13,7 @@
         <item>com.android.providers.contacts</item>
         <item>com.miui.core</item>
         <item>com.android.providers.media</item>
+        <item>com.android.providers.downloads</item>
         <item>com.xiaomi.xmsf</item>
         <item>com.miui.sysbase</item>
         <item>com.lbe.security.miui</item>
