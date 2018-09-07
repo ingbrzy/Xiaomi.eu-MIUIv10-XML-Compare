@@ -1137,30 +1137,53 @@
 .end method
 
 .method public static isCameraSoundEnforced()Z
-    .locals 2
+    .locals 3
 
-    sget-boolean v0, Lmiui/os/Build;->IS_INTERNATIONAL_BUILD:Z
+    sget-boolean v1, Lmiui/os/Build;->IS_INTERNATIONAL_BUILD:Z
 
-    if-eqz v0, :cond_0
+    if-eqz v1, :cond_1
 
-    const-string/jumbo v0, "ro.miui.region"
+    const-string/jumbo v1, "ro.miui.region"
 
-    invoke-static {v0}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string/jumbo v2, "KR"
+
+    invoke-static {v1, v2}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    return v1
+
+    :cond_0
     const-string/jumbo v1, "KR"
 
     invoke-static {v0, v1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
-    move-result v0
+    move-result v1
 
-    return v0
+    return v1
 
-    :cond_0
-    const/4 v0, 0x0
+    :cond_1
+    const/4 v1, 0x0
 
-    return v0
+    return v1
 .end method
 
 .method public static isCaptureStopFaceDetection()Z
