@@ -13,4 +13,5 @@
   <string name="plugin_vendor_morpia">Mopria</string>
   <string name="plugin_vendor_samsung">Samsung</string>
   <string name="plugin_vendor_xerox">Xerox</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

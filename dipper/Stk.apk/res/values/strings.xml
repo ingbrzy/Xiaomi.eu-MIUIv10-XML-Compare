@@ -29,6 +29,5 @@
   <string name="stk_dialog_accept">YES</string>
   <string name="stk_dialog_reject">NO</string>
   <string name="stk_dialog_title">SIM toolkit</string>
-  <string name="stk_intent_permission">Permissions are required</string>
   <string name="stk_no_service">No service available</string>
 </resources>
