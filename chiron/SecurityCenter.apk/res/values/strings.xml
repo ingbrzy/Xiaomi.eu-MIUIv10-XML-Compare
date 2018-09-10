@@ -855,7 +855,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_card_consume_power_summary3">Turn off Bluetooth to save battery</string>
   <string name="first_aid_card_consume_power_summary4">Turn off GPS to save battery</string>
   <string name="first_aid_card_consume_power_title">Battery usage</string>
-  <string name="first_aid_card_float_window_button">Restrit</string>
+  <string name="first_aid_card_float_window_button">Restrict</string>
   <string name="first_aid_card_float_window_summary">%s may be displayed incorrectly. Restrict floating notifications.</string>
   <string name="first_aid_card_float_window_title">You allowed floating notifications</string>
   <string name="first_aid_card_kadun_button1">Free up space</string>
@@ -1796,7 +1796,7 @@ This activity shortens battery life."</string>
   <string name="pref_key_tethering_setting">One-time data limit</string>
   <string name="pref_key_tethering_title">One-time data limit</string>
   <string name="pref_manual_adjust">Set data usage stats manually</string>
-  <string name="pref_mi_sim_settings">%spackage settings</string>
+  <string name="pref_mi_sim_settings">%s package settings</string>
   <string name="pref_more_settings">Additional settings</string>
   <string name="pref_new_installed_preconfig_title">"New apps' default settings"</string>
   <string name="pref_normal_traffic_limit">When data plan is used up</string>
@@ -2012,7 +2012,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="section_title_system">System security</string>
   <string name="security_scan_optimizing">Optimizing…</string>
   <string name="see_detail">Details</string>
-  <string name="see_more_content">Update game center to see more highlights</string>
+  <string name="see_more_content">Update Games to see more highlights</string>
   <string name="set_applock_password">Set password</string>
   <string name="set_mixed_password_name">Set password</string>
   <string name="set_numeric_password_name">Set PIN</string>
