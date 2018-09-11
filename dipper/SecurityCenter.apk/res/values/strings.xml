@@ -638,6 +638,10 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="descx_quick_scan_preparation">Just a sec…</string>
   <string name="detail_app_button">App info</string>
   <string name="details_subtitle">Use details</string>
+  <string name="device_manager_apply_step_1">Activate device administrator for this app?</string>
+  <string name="device_manager_apply_step_2">"Activating device administrator for this app might lead to the exposure of your personal data.
+All data on your device might be erased and your Lock screen password might be reset."</string>
+  <string name="device_manager_apply_step_3">Make sure you understand all the possible risks before you proceed. Activate device administrator for this app now?</string>
   <string name="diagnostic_attention_dialog_message">"Diagnostics for %1$s is in progress. Wait until it's finished and try again."</string>
   <string name="dialog_app_roaming_message">"%1$s can't use mobile data when roaming. When you're roaming overseas, only apps you've added to exceptions can use mobile data."</string>
   <string name="dialog_app_roaming_title">"Overseas roaming isn't enabled for %1$s"</string>
@@ -1694,7 +1698,7 @@ This activity shortens battery life."</string>
   <string name="power_center_repeat">Repeat</string>
   <string name="power_center_scan_item_title_GPS">Adjust GPS accuracy</string>
   <string name="power_center_scan_item_title_abnormal">Battery issues</string>
-  <string name="power_center_scan_item_title_abnormal_apps">Abnormal power consumption application</string>
+  <string name="power_center_scan_item_title_abnormal_apps">Apps that drain battery</string>
   <string name="power_center_scan_item_title_auto_invoke">Chain start</string>
   <string name="power_center_scan_item_title_auto_start">Autostart</string>
   <string name="power_center_scan_item_title_battery_details">Battery usage details</string>
@@ -1746,7 +1750,7 @@ This activity shortens battery life."</string>
   <string name="power_save_mode_summary">Monitor background processes and turn off sync.</string>
   <string name="power_save_on_time_end_time_summary_na">To</string>
   <string name="power_save_on_time_start_time_summary_na">From</string>
-  <string name="power_save_started_summary_text">"power_save_started_summary_text&gt;Battery saver is on. It reduces apps' background activity, stops sync, and minimizes system animations."</string>
+  <string name="power_save_started_summary_text">"Battery saver is on. It reduces apps' background activity, stops sync, and minimizes system animations."</string>
   <string name="power_save_summary_text">"Turn on Battery saver to reduce apps' background activity, stop sync, and minimize system animations."</string>
   <string name="power_save_title_text">Battery saver</string>
   <string name="power_screen">Screen</string>
@@ -1934,7 +1938,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="report_success">Message reported</string>
   <string name="report_warning">"Report %1$s SMS to Mi? These messages and the phone numbers they were sent from will be uploaded to Mi's servers for review. Any personal info associated with these messages is always kept anonymous."</string>
   <string name="report_warning_title">Attention</string>
-  <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all imporant items and perform a facory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
+  <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all imporant items and perform a factory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
   <string name="reset_data_dialog_ok">Factory reset</string>
   <string name="reset_data_title">"Can't restore password"</string>
   <string name="resource_antispam">Blocklist</string>

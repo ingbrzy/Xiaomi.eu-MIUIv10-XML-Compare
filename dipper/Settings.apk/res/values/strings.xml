@@ -3369,7 +3369,7 @@ Select your operating system:"</string>
   <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
   <string name="navigation_guide_appswitch_anim_summary">Swipe across the screen starting from the edge to go back to previous app</string>
-  <string name="navigation_guide_appswitch_anim_title">Switch to previous app</string>
+  <string name="navigation_guide_appswitch_anim_title">Go back to previous app</string>
   <string name="navigation_guide_appswitch_click">Turn on \"Go back to previous app\" first</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
@@ -5029,7 +5029,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
-  <string name="status_bar_settings_customer_feedback">feedback</string>
+  <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>

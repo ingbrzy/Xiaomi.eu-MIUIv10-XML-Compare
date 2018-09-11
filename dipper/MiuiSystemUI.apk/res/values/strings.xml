@@ -695,7 +695,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_unlock_offset_top">Raise your phone a bit</string>
   <string name="face_unlock_open_eye">Open your eyes a bit wider</string>
   <string name="face_unlock_passwork">Use password</string>
-  <string name="face_unlock_passwork_and_fingerprint">Use password or face data</string>
+  <string name="face_unlock_passwork_and_fingerprint">Use password or fingerprint</string>
   <string name="face_unlock_quality">"Couldn't see your face clearly"</string>
   <string name="face_unlock_reenter_content">Face unlock algorithm is being updated. Tap to record face data again.</string>
   <string name="face_unlock_reenter_title">Record your face data again.</string>
@@ -802,7 +802,7 @@ Once your phone has cooled down, it will run normally."</string>
   <string name="incorrect_pukcode">Incorrect PUK code</string>
   <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
-  <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when FamilyGuard are on"</string>
+  <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
   <string name="input_password_handle_sdcard_fs">"Can't enter Second space from Lock screen. Enter from First space."</string>
   <string name="input_password_hint_text">Enter password</string>
@@ -883,7 +883,7 @@ Use only the supplied charger."</string>
   <string name="keyguard_accessibility_sim_puk_area">SIM PUK area</string>
   <string name="keyguard_carrier_default">No service</string>
   <string name="keyguard_charged">Charged</string>
-  <string name="keyguard_charging_back_to_lockscreen">Back to lock screen</string>
+  <string name="keyguard_charging_back_to_lockscreen">Back to Lock screen</string>
   <string name="keyguard_charging_info_battery_used_time_text">On battery</string>
   <string name="keyguard_charging_info_click_to_detail">View details</string>
   <string name="keyguard_charging_info_data_c">%s℃</string>
