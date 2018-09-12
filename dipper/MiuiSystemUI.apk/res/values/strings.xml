@@ -704,6 +704,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_unlock_rise">Lower your head</string>
   <string name="face_unlock_rotated_left">Turn your head to the right</string>
   <string name="face_unlock_rotated_right">Turn your head to the left</string>
+  <string name="face_unlock_sc_status">Push the screen down to open camera</string>
   <string name="face_unlock_stay_away_screen">Stay 25 to 40cm away from the screen</string>
   <string name="failed_to_open_app_settings_toast">Failed to open settings for %1$s</string>
   <string name="fingerprint_add_text">The fingerprint interface was updated. Add your fingerprint again.</string>

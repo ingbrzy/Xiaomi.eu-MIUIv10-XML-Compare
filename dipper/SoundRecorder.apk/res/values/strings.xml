@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="alert_message_clear_records">Delete selected recordings?</string>
+  <string name="alert_message_delete_local_record">Delete this record?</string>
   <string name="alert_message_delete_record">Deleting the recording from your device will also delete this recording from Mi Cloud. Delete now?</string>
   <string name="alert_message_delete_record_title">Delete recording?</string>
   <string name="app_name">Recorder</string>
