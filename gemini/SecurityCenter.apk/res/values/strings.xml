@@ -638,6 +638,10 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="descx_quick_scan_preparation">Just a sec…</string>
   <string name="detail_app_button">App info</string>
   <string name="details_subtitle">Use details</string>
+  <string name="device_manager_apply_step_1">Activate device administrator for this app?</string>
+  <string name="device_manager_apply_step_2">"Activating device administrator for this app might lead to the exposure of your personal data.
+All data on your device might be erased and your Lock screen password might be reset."</string>
+  <string name="device_manager_apply_step_3">Make sure you understand all the possible risks before you proceed. Activate device administrator for this app now?</string>
   <string name="diagnostic_attention_dialog_message">"Diagnostics for %1$s is in progress. Wait until it's finished and try again."</string>
   <string name="dialog_app_roaming_message">"%1$s can't use mobile data when roaming. When you're roaming overseas, only apps you've added to exceptions can use mobile data."</string>
   <string name="dialog_app_roaming_title">"Overseas roaming isn't enabled for %1$s"</string>
@@ -848,15 +852,10 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_card_apn_title">"Can't connect to the network"</string>
   <string name="first_aid_card_consume_power_button1">Restrict</string>
   <string name="first_aid_card_consume_power_button2">Turn off</string>
-  <string name="first_aid_card_consume_power_button3">Turn off</string>
-  <string name="first_aid_card_consume_power_button4">Turn off</string>
   <string name="first_aid_card_consume_power_summary1">More than 5 apps are allowed to autostart. Restrict to save battery.</string>
   <string name="first_aid_card_consume_power_summary2">Turn off portable hotspot to save battery</string>
-  <string name="first_aid_card_consume_power_summary3">Turn off Bluetooth to save battery</string>
-  <string name="first_aid_card_consume_power_summary4">Turn off GPS to save battery</string>
   <string name="first_aid_card_consume_power_title">Battery usage</string>
   <string name="first_aid_card_float_window_button">Restrict</string>
-  <string name="first_aid_card_float_window_summary">%s may be displayed incorrectly. Restrict floating notifications.</string>
   <string name="first_aid_card_float_window_title">You allowed floating notifications</string>
   <string name="first_aid_card_kadun_button1">Free up space</string>
   <string name="first_aid_card_kadun_button2">Restrict</string>
@@ -882,9 +881,10 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_item4_content">Battery</string>
   <string name="first_aid_item5_content">Other issues</string>
   <string name="first_aid_result_feedback_button">Submit</string>
-  <string name="first_aid_result_feedback_summary">"I can't solve issues on my device."</string>
+  <string name="first_aid_result_feedback_summary">"First aid scan couldn't find any problems. However, I spotted some."</string>
   <string name="first_aid_result_feedback_title">Feedback</string>
   <string name="first_aid_result_summary_normal">Everything looks good!</string>
+  <string name="first_aid_result_summary_not_finished">"Scan wan't complete. Some risks may be undetected."</string>
   <string name="first_aid_scanning_item1">Checking for performance issues…</string>
   <string name="first_aid_scanning_item2">Checking for network problems…</string>
   <string name="first_aid_scanning_item3">Checking for incorrect settings…</string>
@@ -1694,7 +1694,7 @@ This activity shortens battery life."</string>
   <string name="power_center_repeat">Repeat</string>
   <string name="power_center_scan_item_title_GPS">Adjust GPS accuracy</string>
   <string name="power_center_scan_item_title_abnormal">Battery issues</string>
-  <string name="power_center_scan_item_title_abnormal_apps">Abnormal power consumption application</string>
+  <string name="power_center_scan_item_title_abnormal_apps">Apps that drain battery</string>
   <string name="power_center_scan_item_title_auto_invoke">Chain start</string>
   <string name="power_center_scan_item_title_auto_start">Autostart</string>
   <string name="power_center_scan_item_title_battery_details">Battery usage details</string>
@@ -1746,7 +1746,7 @@ This activity shortens battery life."</string>
   <string name="power_save_mode_summary">Monitor background processes and turn off sync.</string>
   <string name="power_save_on_time_end_time_summary_na">To</string>
   <string name="power_save_on_time_start_time_summary_na">From</string>
-  <string name="power_save_started_summary_text">"power_save_started_summary_text&gt;Battery saver is on. It reduces apps' background activity, stops sync, and minimizes system animations."</string>
+  <string name="power_save_started_summary_text">"Battery saver is on. It reduces apps' background activity, stops sync, and minimizes system animations."</string>
   <string name="power_save_summary_text">"Turn on Battery saver to reduce apps' background activity, stop sync, and minimize system animations."</string>
   <string name="power_save_title_text">Battery saver</string>
   <string name="power_screen">Screen</string>
@@ -1877,7 +1877,7 @@ This activity shortens battery life."</string>
   <string name="privacy_apps_manage_dialog_title">About hidden apps</string>
   <string name="privacy_apps_manager_dialog_message">"This app's icon won't be displayed on the Home screen after you hide this app. Hide this app now?"</string>
   <string name="privacy_apps_tutorial">Tutorial</string>
-  <string name="privacy_apps_tutorial_prompt_pageone">"When you hide an app, it's moved to a hidden folder. Its Home screen shortcut is hidden is well.
+  <string name="privacy_apps_tutorial_prompt_pageone">"When you hide an app, it's moved to a hidden folder. Its Home screen shortcut is hidden as well.
 This feature isn't supported for system apps."</string>
   <string name="privacy_apps_tutorial_prompt_pagethree">After you enter your password, the folder with hidden apps will appear.</string>
   <string name="privacy_apps_tutorial_prompt_pagetwo">"Spread two fingers on the screen. You'll see a message asking you to enter your App lock password."</string>
@@ -1934,7 +1934,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="report_success">Message reported</string>
   <string name="report_warning">"Report %1$s SMS to Mi? These messages and the phone numbers they were sent from will be uploaded to Mi's servers for review. Any personal info associated with these messages is always kept anonymous."</string>
   <string name="report_warning_title">Attention</string>
-  <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all imporant items and perform a facory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
+  <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all imporant items and perform a factory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
   <string name="reset_data_dialog_ok">Factory reset</string>
   <string name="reset_data_title">"Can't restore password"</string>
   <string name="resource_antispam">Blocklist</string>

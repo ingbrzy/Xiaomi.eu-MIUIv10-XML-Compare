@@ -14,6 +14,7 @@
         <item>com.android.providers.contacts</item>
         <item>com.miui.core</item>
         <item>com.android.providers.media</item>
+        <item>com.android.providers.downloads</item>
         <item>com.xiaomi.xmsf</item>
         <item>com.miui.sysbase</item>
         <item>com.lbe.security.miui</item>
@@ -68,6 +69,9 @@
         <item>com.android.deskclock</item>
         <item>com.miui.voiceassist</item>
         <item>com.xiaomi.drivemode</item>
+    </string-array>
+    <string-array name="process_camera_boost_protect_list">
+        <item>android.process.media</item>
     </string-array>
     <item type="array" name="android_config_keyboardTapVibePattern">@android:array/config_keyboardTapVibePattern</item>
     <item type="array" name="android_config_longPressVibePattern">@android:array/config_longPressVibePattern</item>
@@ -182,6 +186,7 @@
         <item>com.kiteguard</item>
         <item>com.xiaomi.discover</item>
         <item>com.orange.phone</item>
+        <item>com.android.stk</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />

@@ -270,12 +270,15 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
+  <string name="aod_close_color_inversion">"This feature can't be combined with color inversion. Turn off color inversion first."</string>
+  <string name="aod_got_it">Got it</string>
   <string name="aod_mode_summary">Always show time, date and messages when the screen is off</string>
   <string name="aod_mode_time_summary">Schedule time when your device should switch to Always on mode</string>
   <string name="aod_mode_time_title">Schedule</string>
   <string name="aod_mode_title">Always on mode</string>
   <string name="aod_mode_turn_off">Off</string>
   <string name="aod_mode_turn_on">On</string>
+  <string name="aod_to_close">Turn off</string>
   <string name="apn_apn">APN</string>
   <string name="apn_auth_type">Authentication type</string>
   <string name="apn_auth_type_chap">CHAP</string>
@@ -337,9 +340,9 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="app_launch_open_domain_urls_title">Open supported links</string>
   <string name="app_launch_other_defaults_title">Other defaults</string>
   <string name="app_launch_supported_domain_urls_title">Supported links</string>
-  <string name="app_link_open_always">Open in this app</string>
+  <string name="app_link_open_always">Open</string>
   <string name="app_link_open_ask">Ask every time</string>
-  <string name="app_link_open_never">Don’t open in this app</string>
+  <string name="app_link_open_never">"Don't open"</string>
   <string name="app_list_memory_use">App usage</string>
   <string name="app_list_preference_none">None</string>
   <string name="app_memory_use">Memory use</string>
@@ -921,15 +924,19 @@ Sample rate"</string>
   <string name="bootloader_device_bind_fail">"Couldn't verify, wait a minute or two and try again"</string>
   <string name="bootloader_device_bind_msg">Preparing to add account and device…</string>
   <string name="bootloader_device_bind_no_account">Sign in to your Mi Account first</string>
+  <string name="bootloader_device_bind_no_data_network">Turn off WLAN and add your account and device using mobile data.</string>
   <string name="bootloader_device_bind_no_network">Connect to the network and try again</string>
   <string name="bootloader_device_bind_no_sim">Insert SIM card and try again.</string>
   <string name="bootloader_device_bind_server_code">"Couldn't add. Error code:"</string>
+  <string name="bootloader_device_bind_server_token_expired_1">"Couldn't verify. Try adding your account and device again."</string>
+  <string name="bootloader_device_bind_server_token_expired_2">"Couldn't verify. Sign in to your account again and start over."</string>
   <string name="bootloader_device_bind_sim_invalid">SIM card is invalid. Replace it and try again.</string>
   <string name="bootloader_locked_answer_1">"We lock devices to make sure they are secure and your personal info isn't disclosed to third parties. If you need to enter Fastboot mode and flash your device, you can unlock it."</string>
   <string name="bootloader_locked_answer_1_warning">"Remember: You won't be able to use \"Find device\" after the phone is unlocked."</string>
   <string name="bootloader_locked_answer_2">"1. Make sure you've already inserted a SIM card into your device.
-2. Tap \"Add account\" below to associate your Mi Account with this device.
-3. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
+2. Turn off WLAN and turn on mobile data. Make sure your device can connect to the internet using mobile data.
+3. Tap \"Add account\" below to associate your Mi Account with this device.
+4. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
   <string name="bootloader_locked_answer_2_no_sim">"1. Tap \"Add account\" below to associate your Mi Account with this device.
 2. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
   <string name="bootloader_locked_check_status">Add account and device</string>
@@ -1441,8 +1448,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_app">(Default)</string>
   <string name="default_apps_title">Default</string>
   <string name="default_assist_title">Assist app</string>
-  <string name="default_browser_title">Browser app</string>
-  <string name="default_browser_title_none">No default Browser</string>
+  <string name="default_browser_title">Browser</string>
+  <string name="default_browser_title_none">Not selected</string>
   <string name="default_calendar_app_title">Calendar app</string>
   <string name="default_contacts_app_title">Contacts app</string>
   <string name="default_emergency_app">Emergency app</string>
@@ -1452,7 +1459,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_launcher_title">Default Launcher</string>
   <string name="default_map_app_title">Map app</string>
   <string name="default_notification_assistant">Notification assistant</string>
-  <string name="default_phone_title">Phone app</string>
+  <string name="default_phone_title">Dial</string>
   <string name="default_rule_name">Timer 1</string>
   <string name="default_sound">Default sound</string>
   <string name="default_spell_checker">Default spell checker</string>
@@ -1670,7 +1677,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="does_not_exist">App doesn’t exist.</string>
   <string name="domain_url_section_title">Installed apps</string>
   <string name="domain_urls_apps_summary_off">No app opening supported links</string>
-  <string name="domain_urls_summary_none">Don’t open supported links</string>
+  <string name="domain_urls_summary_none">"Don't open supported links"</string>
   <string name="domain_urls_summary_one">Open %s</string>
   <string name="domain_urls_summary_some">Open %s and other URLs</string>
   <string name="domain_urls_title">Opening links</string>
@@ -1868,8 +1875,8 @@ For more details, contact your organization's admin."</string>
   <string name="factory_reset_summary">"Erase all data from your phone's internal storage"</string>
   <string name="failed_to_check_find_device_status_content">"Couldn't check find device status. Wait a minute or two and try again."</string>
   <string name="failed_to_check_find_device_status_title">"Couldn't check status"</string>
-  <string name="failed_to_erase_text">Please turn off lock screen password before performing 1217 operation.</string>
-  <string name="failed_to_erase_title">Forbidden operation</string>
+  <string name="failed_to_erase_text">Turn off your Lock screen password before entering the \"1217\" code.</string>
+  <string name="failed_to_erase_title">"Can't complete this action"</string>
   <string name="failed_to_open_app_settings_toast">"Couldn't open settings for %1$s"</string>
   <string name="failed_to_shut_down_find_device_content">"Couldn't turn off Find device. Wait a minute or two and try again."</string>
   <string name="failed_to_shut_down_find_device_title">"Couldn't turn off"</string>
@@ -1971,6 +1978,7 @@ For more details, contact your organization's admin."</string>
   <string name="floating_window_switch_label_disable">Turn off floating windows</string>
   <string name="fluency_mode">System animations</string>
   <string name="fluency_mode_confirm_and_reboot">Reboot now</string>
+  <string name="following_us_title">Follow us</string>
   <string name="font_size_exhuge">Extra Huge</string>
   <string name="font_size_huge">Huge</string>
   <string name="font_size_large">Larger</string>
@@ -2211,7 +2219,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="high_power_system">Battery optimization not available</string>
   <string name="history_details_title">History details</string>
   <string name="home">Home screen settings</string>
-  <string name="home_app">Home app</string>
+  <string name="home_app">Launcher</string>
   <string name="home_key">Home</string>
   <string name="home_work_profile_not_supported">"Doesn't support work profiles"</string>
   <string name="http_invoke_app">Web apps</string>
@@ -2987,7 +2995,7 @@ Select your operating system:"</string>
   <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
   <string name="navigation_guide_appswitch_anim_summary">Swipe across the screen starting from the edge to go back to previous app</string>
-  <string name="navigation_guide_appswitch_anim_title">Switch to previous app</string>
+  <string name="navigation_guide_appswitch_anim_title">Go back to previous app</string>
   <string name="navigation_guide_appswitch_click">Turn on \"Go back to previous app\" first</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
@@ -3101,7 +3109,7 @@ Select your operating system:"</string>
   <string name="no_connected_devices">No connected devices</string>
   <string name="no_data_usage">No data used</string>
   <string name="no_default_apps">No default Apps.</string>
-  <string name="no_default_home">No default Home</string>
+  <string name="no_default_home">Not selected</string>
   <string name="no_device_admins">No device admin apps available</string>
   <string name="no_internet_access_remember">Don’t ask again for this network</string>
   <string name="no_internet_access_text">WLAN network %1$s has no access to the internet. Stay connected?</string>
@@ -4229,8 +4237,8 @@ To use screen pinning:
   <string name="security_encryption_progress_dialog_open">Encrypting…</string>
   <string name="security_encryption_rejected_via_home_manager">"This feature isn't supported in the demo version."</string>
   <string name="security_encryption_title">Encrypt device using Lock screen password</string>
-  <string name="security_input">Security input</string>
-  <string name="security_input_hint">Using security keyboard enter password</string>
+  <string name="security_input">Secure keyboard</string>
+  <string name="security_input_hint">Use secure keyboard when you enter passwords</string>
   <string name="security_keyguard_category_name">Lock screen</string>
   <string name="security_password_category_name">Screen lock</string>
   <string name="security_passwords_title">Privacy</string>
@@ -4502,7 +4510,7 @@ Possibly incorrect PIN."</string>
   <string name="smartcover_lock_or_unlock_screen_tittle">Smart cover mode</string>
   <string name="smartcover_sensitive_summary">Lock or unlock the phone automatically using smart cover</string>
   <string name="smartcover_sensitive_title">Smart cover</string>
-  <string name="sms_application_title">SMS app</string>
+  <string name="sms_application_title">Messaging</string>
   <string name="sms_change_default_dialog_text">Use %1$s instead of %2$s as your SMS app?</string>
   <string name="sms_change_default_dialog_title">Change SMS app?</string>
   <string name="sms_change_default_no_previous_dialog_text">Use %s as your SMS app?</string>
@@ -4573,7 +4581,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
-  <string name="status_bar_settings_customer_feedback">feedback</string>
+  <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>

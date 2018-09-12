@@ -448,7 +448,7 @@
   <string name="operation_reply">Comment</string>
   <string name="operation_send">Send</string>
   <string name="operation_share">Share</string>
-  <string name="operation_show_privacy_policy">Show privacy policy</string>
+  <string name="operation_show_privacy_policy">Show Privacy Policy</string>
   <string name="operation_show_sys">Show hidden files</string>
   <string name="operation_unfavorite">Unfavorite</string>
   <string name="origin_name">%1$s: </string>

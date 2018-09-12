@@ -1546,6 +1546,8 @@
         <item>vince</item>
         <item>tulip</item>
         <item>sakura_india</item>
+        <item>equuleus</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1569,6 +1571,7 @@
         <item>equuleus</item>
         <item>natrium</item>
         <item>vince</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
