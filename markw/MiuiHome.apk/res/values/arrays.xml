@@ -120,6 +120,7 @@
     <string-array name="filter_prefix">
         <item>dyandex_yandex</item>
         <item>mipicks</item>
+        <item>yansearch</item>
         <item>dgoogle_islam</item>
         <item>dgoogle_islam_lowkeymidrop</item>
         <item>dgoogle_lowkeymidrop</item>
@@ -221,6 +222,7 @@
         <item>@array/islam_lowkeymidrop</item>
         <item>@array/yandex</item>
         <item>@array/mipicks</item>
+        <item>@array/yansearch</item>
     </array>
     <string-array name="transformation_values">
         <item>1</item>
@@ -257,5 +259,10 @@
     </string-array>
     <string-array name="yandex">
         <item>RU</item>
+    </string-array>
+    <string-array name="yansearch">
+        <item>KZ</item>
+        <item>BY</item>
+        <item>UZ</item>
     </string-array>
 </resources>
