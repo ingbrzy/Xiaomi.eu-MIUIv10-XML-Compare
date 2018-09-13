@@ -28,7 +28,7 @@
     </string-array>
     <string-array name="prefEntries_vibrateWhen">
         <item>Always</item>
-        <item>Only when silent</item>
+        <item>Only in Silent mode</item>
         <item>Never</item>
     </string-array>
     <string-array name="resent_via_entries_mms">
