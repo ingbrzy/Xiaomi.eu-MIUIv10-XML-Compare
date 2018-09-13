@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="alert_message_clear_records">Delete selected recordings?</string>
+  <string name="alert_message_delete_local_record">Delete this record?</string>
   <string name="alert_message_delete_record">Deleting the recording from your device will also delete this recording from Mi Cloud. Delete now?</string>
   <string name="alert_message_delete_record_title">Delete recording?</string>
   <string name="app_name">Recorder</string>
@@ -11,11 +12,11 @@
   <string name="clear_records">Delete synced recordings</string>
   <string name="cloud_record_open">Sync recordings</string>
   <string name="cloud_record_tip">Sync recordings with Mi Cloud.</string>
-  <string name="cloud_service_state_open_reminder">Turn on sync with Mi Cloud to sync recording files.</string>
+  <string name="cloud_service_state_open_reminder">Turn on sync with Mi Cloud to sync recordings.</string>
   <string name="cloud_status_full_dialog_cancel">Not now</string>
   <string name="cloud_status_full_dialog_msg">"Your cloud storage is full, can't sync recordings. Upgrade your account to get more storage space."</string>
   <string name="cloud_status_full_dialog_ok">Upgrade</string>
-  <string name="cloud_status_full_dialog_title">Mi Cloud storage full</string>
+  <string name="cloud_status_full_dialog_title">Mi Cloud storage is full</string>
   <string name="data_connection_body">Using your mobile data connection to download this file will increase your data usage. If you go over your plan’s data usage limit, your carrier could charge you additional fees.</string>
   <string name="data_connection_button_text">OK</string>
   <string name="data_connection_title">Data usage warning</string>
@@ -35,7 +36,7 @@
   <string name="error_file_access">"File doesn't exist or has been corrupted"</string>
   <string name="error_filename_illegal_char">Filename contains invalid characters.</string>
   <string name="error_filename_too_long">Filename is too long.</string>
-  <string name="error_sdcard_access">"Can't access storage"</string>
+  <string name="error_sdcard_access">"Can't access SD card"</string>
   <string name="error_sdcard_unmounted">Insert SD card now</string>
   <string name="export_to_note">Export</string>
   <string name="head_set_tip_dialog_msg">Disconnect your earphones to be able to record sound with specific presets (e.g., Music, Voice).</string>
