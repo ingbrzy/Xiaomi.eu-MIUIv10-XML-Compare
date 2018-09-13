@@ -30,7 +30,7 @@
   <string name="cancel_alarm_description">Cancel alarm</string>
   <string name="cloud_service_state_open_reminder">Turn on sync with Mi Cloud to sync notes.</string>
   <string name="cloud_trash_bin_title">Delete notes in Mi Cloud</string>
-  <string name="cta_reminder">This app needs to connect to the internet to back up notes to Mi Cloud, as well as read your contacts to label the notes you take during calls.</string>
+  <string name="cta_reminder">Notes need permissions to connect to the internet, record audio, and access your contacts to work normally. Allow?</string>
   <string name="date_time_picker_alarm_reminder">Alarm</string>
   <string name="date_time_picker_dialog_title">Set date and time</string>
   <string name="date_time_picker_has_not_set_alarm">"Alarm isn't set"</string>
@@ -202,8 +202,9 @@
   <string name="toast_cancel_to_insert_image">"Couldn't add image."</string>
   <string name="toast_message_add_image_fail">"Couldn't add image"</string>
   <string name="toast_notes_delete_success">Deleted successfully</string>
-  <string name="toast_notes_hidden">Hidden successfully</string>
   <string name="toast_notes_hidden_count">Hid %1$s successfully</string>
+  <string name="toast_notes_hidden_edit">This note was hidden successfully. Pull down to see hidden notes.</string>
+  <string name="toast_notes_hidden_home">This note was hidden successfully. Pull down to see hidden notes.</string>
   <string name="toast_notes_unhidden">Unhidden successfully</string>
   <string name="toast_notes_unhidden_count">Unhid %1$s successfully</string>
   <string name="toast_reach_text_limit_attachment">"Can't add new attachments because note is too long"</string>

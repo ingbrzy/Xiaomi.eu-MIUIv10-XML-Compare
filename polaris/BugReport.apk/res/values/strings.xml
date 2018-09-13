@@ -9,7 +9,7 @@
   <string name="app_search">Search apps</string>
   <string name="btn_send">Send</string>
   <string name="bugreport_dialog_not_show_again">"Don't show again"</string>
-  <string name="bugreport_dialog_submit_content">"You're saving software logs on this device now. Logs may contain personal info and your location data. Don't share logs with anyone else if you don't want this info to be exposed."</string>
+  <string name="bugreport_dialog_submit_content">&lt;Data&gt;"You're saving software logs on this device now. Logs may contain personal info and your location data. Don't share logs with anyone else if you don't want this info to be exposed. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="bugreport_dump_complete_notification_summary">Tap to view.</string>
   <string name="bugreport_dump_complete_notification_title">Created bug report</string>
   <string name="bugreport_dump_start_notification_summary">This might take several minutes.</string>
@@ -256,12 +256,13 @@
   <string name="nothing">--</string>
   <string name="open_feedback_main">More</string>
   <string name="packaging_dialog_content">Creating report…</string>
-  <string name="permission_granted">%1$s permission granted</string>
   <string name="pic_not_exist">"This image doesn't exist"</string>
   <string name="pic_view_format">%1$s/%2$s</string>
   <string name="plus_one_submit_dialog_content">"Your feedback along with error logs will be sent to Mi's servers."</string>
   <string name="plus_one_submit_dialog_not_show_again">Remember preference</string>
   <string name="post_miui_bbs_failed">"Couldn't post to MIUI Forum"</string>
+  <string name="privacy_category_title">Privacy</string>
+  <string name="privacy_policy_title">Privacy policy</string>
   <string name="pull_to_refresh_pull_label">Pull down to refresh</string>
   <string name="pull_to_refresh_refreshing_label">Refreshing…</string>
   <string name="pull_to_refresh_release_label">Release to refresh</string>
@@ -285,8 +286,8 @@
   <string name="select_system_app_tag">Select an issue</string>
   <string name="submit_dialog_cancel">"Don't agree"</string>
   <string name="submit_dialog_confirm">Agree</string>
-  <string name="submit_dialog_content">"Your feedback, along with attachments and logs, will be sent to MIUI's servers. It may contain personal info and your location data."</string>
-  <string name="submit_dialog_content_global">"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers. The information about your threads and forum activity will also be collected for analysis and further communication. Logs may contain personal info and your location data."</string>
+  <string name="submit_dialog_content">&lt;Data&gt;"Your feedback, along with attachments and logs, will be sent to MIUI's servers. It may contain personal info and your location data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
+  <string name="submit_dialog_content_global">&lt;Data&gt;"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers. The information about your threads and forum activity will also be collected for analysis and further communication. Logs may contain personal info and your location data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="submit_dialog_title">Send report</string>
   <string name="submit_feedback_info_failed">"Couldn't send report"</string>
   <string name="suggestion_description">Add description here</string>
@@ -294,10 +295,9 @@
   <string name="systemui">Notification shade</string>
   <string name="tab_title_chat">FAQ</string>
   <string name="tab_title_my_reports">My reports</string>
+  <string name="tab_title_preferences">Settings</string>
   <string name="tab_title_report">Feedback</string>
-  <string name="time_in_justnow">Just now</string>
   <string name="title_answer_feedback_main">We found answers!</string>
-  <string name="title_bbs_feedback_main">Learn more about Mi phones</string>
   <string name="title_customer_service">Customer service</string>
   <string name="title_frequent_question_feedback_main">FAQ</string>
   <string name="title_mi_family">Mi Homes nearby</string>

@@ -160,6 +160,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="accessibility_shortcut_description">When the shortcut is on, you can press both volume keys for 3 seconds to start an accessibility feature.</string>
   <string name="accessibility_shortcut_service_on_lock_screen_title">Allow from lock screen</string>
   <string name="accessibility_shortcut_service_title">Shortcut service</string>
+  <string name="accessibility_summary_source">Provided by %s</string>
   <string name="accessibility_summary_state_disabled">Off</string>
   <string name="accessibility_summary_state_enabled">On</string>
   <string name="accessibility_summary_state_stopped">Not working. Tap for info.</string>
@@ -334,12 +335,15 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
+  <string name="aod_close_color_inversion">"This feature can't be combined with color inversion. Turn off color inversion first."</string>
+  <string name="aod_got_it">Got it</string>
   <string name="aod_mode_summary">Always show time, date and messages when screen off.</string>
   <string name="aod_mode_time_summary">Schedule time to turn Always on mode on and off</string>
   <string name="aod_mode_time_title">Schedule</string>
   <string name="aod_mode_title">Always on mode</string>
   <string name="aod_mode_turn_off">Off</string>
   <string name="aod_mode_turn_on">On</string>
+  <string name="aod_to_close">Turn off</string>
   <string name="apn_apn">APN</string>
   <string name="apn_auth_type">Authentication type</string>
   <string name="apn_auth_type_chap">CHAP</string>
@@ -1077,15 +1081,21 @@ Selection"</string>
   <string name="bootloader_device_bind_fail">"Couldn't verify, wait a minute or two and try again"</string>
   <string name="bootloader_device_bind_msg">Preparing to add account and device…</string>
   <string name="bootloader_device_bind_no_account">Sign in to your Mi Account first</string>
+  <string name="bootloader_device_bind_no_data_network">Turn off WLAN and add your account and device using mobile data.</string>
   <string name="bootloader_device_bind_no_network">Connect to the network and try again</string>
   <string name="bootloader_device_bind_no_sim">Insert SIM card and try again.</string>
   <string name="bootloader_device_bind_server_code">"Couldn't add. Error code:"</string>
+  <string name="bootloader_device_bind_server_token_expired_1">"Couldn't verify. Try adding your account and device again."</string>
+  <string name="bootloader_device_bind_server_token_expired_2">"Couldn't verify. Sign in to your account again and start over."</string>
   <string name="bootloader_device_bind_sim_invalid">SIM card is invalid. Replace it and try again.</string>
   <string name="bootloader_locked_answer_1">"We lock devices to make sure they are secure and your personal info isn't disclosed to third parties. If you need to enter Fastboot mode and flash your device, you can unlock it."</string>
   <string name="bootloader_locked_answer_1_warning">"Remember: You won't be able to use \"Find device\" after the phone is unlocked."</string>
   <string name="bootloader_locked_answer_2">"1. Make sure you've already inserted a SIM card into your device.
-2. Tap \"Add account\" below to associate your Mi Account with this device.
-3. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
+2. Turn off WLAN and turn on mobile data. Make sure your device can connect to the internet using mobile data.
+3. Tap \"Add account\" below to associate your Mi Account with this device.
+4. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
+  <string name="bootloader_locked_answer_2_no_sim">"1. Tap \"Add account\" below to associate your Mi Account with this device.
+2. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
   <string name="bootloader_locked_check_status">Add account and device</string>
   <string name="bootloader_locked_question_1">Why should devices be locked?</string>
   <string name="bootloader_locked_question_2">I understand the risks, but still want to unlock my device.</string>
@@ -1247,7 +1257,8 @@ This feature can be turned off in [Settings]"</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="charging_sounds_title">Charging sounds</string>
   <string name="check_find_device_status_failure_confirm">OK</string>
-  <string name="check_importance">Mark as important?</string>
+  <string name="check_importance">Rules for grouped notifications</string>
+  <string name="check_importance_dialog_cancel">Cancel</string>
   <string name="check_update">Check for updates</string>
   <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
   <string name="checking_decryption">Checking…</string>
@@ -1436,6 +1447,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="credentials_reset_warning_plural">Incorrect password. You have %1$d more chances before credential storage is erased.</string>
   <string name="credentials_settings_not_available">Credentials are not available for this user</string>
   <string name="credentials_title">Credential storage</string>
+  <string name="credentials_title_verification">Verification</string>
   <string name="credentials_unlock"/>
   <string name="credentials_unlock_hint">Type the password for credential storage.</string>
   <string name="credentials_wrong_password">Incorrect password.</string>
@@ -2133,8 +2145,8 @@ For more details, contact your organization's admin."</string>
   <string name="factory_reset_summary">"Erase all data from your phone's internal storage"</string>
   <string name="failed_to_check_find_device_status_content">"Couldn't check find device status. Wait a minute or two and try again."</string>
   <string name="failed_to_check_find_device_status_title">"Couldn't check status"</string>
-  <string name="failed_to_erase_text">Please turn off lock screen password before performing 1217 operation.</string>
-  <string name="failed_to_erase_title">Forbidden operation</string>
+  <string name="failed_to_erase_text">Turn off your Lock screen password before entering the \"1217\" code.</string>
+  <string name="failed_to_erase_title">"Can't complete this action"</string>
   <string name="failed_to_open_app_settings_toast">Failed to open settings for %1$s</string>
   <string name="failed_to_shut_down_find_device_content">"Couldn't turn off Find device. Wait a minute or two and try again."</string>
   <string name="failed_to_shut_down_find_device_title">"Couldn't turn off"</string>
@@ -2290,11 +2302,11 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="forget">Forget</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
   <string name="forget_password_dialog_button_text">Back</string>
-  <string name="forget_password_dialog_content_four">&lt;Data&gt;Select &amp;lt;font color=#e6e6e6&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; and wait until the device reboots.&lt;/Data&gt;</string>
-  <string name="forget_password_dialog_content_one">&lt;Data&gt;Password can not be found.You have to &amp;lt;font color=#ec2700&amp;gt;erase all data &amp;lt;/font&amp;gt; (including photos and contacts) and then set a new Lock screen password.A back up is suggested for these important data&lt;/Data&gt;</string>
-  <string name="forget_password_dialog_content_three">&lt;Data&gt;Power off your device, press and hold the &amp;lt;font color=#e6e6e6&amp;gt;Power button&amp;lt;/font&amp;gt; and the &amp;lt;font color=#e6e6e6&amp;gt;Volume up button&amp;lt;/font&amp;gt; simultaneously until you see the Mi logo.&lt;/Data&gt;</string>
-  <string name="forget_password_dialog_content_two">How to erase data?</string>
-  <string name="forget_password_dialog_title">Reset Password</string>
+  <string name="forget_password_dialog_content_four">&lt;Data&gt;2. Select &amp;lt;font color=#e6e6e6&amp;gt;[Wipe data]&amp;lt;/font&amp;gt;, and wait until your device reboots.&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_one">&lt;Data&gt;"If you forget your password, you won't be able to restore it. However, you can reset your password after you &amp;lt;font color=#ec2700&amp;gt;erase all data on your device&amp;lt;/font&amp;gt; (including photos, contacts, etc.). Back up all important data before this."&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_three">&lt;Data&gt;"1. Turn off your device. Press the &amp;lt;font color=#e6e6e6&amp;gt;[Power]&amp;lt;/font&amp;gt; button and the &amp;lt;font color=#e6e6e6&amp;gt;[Volume+]&amp;lt;/font&amp;gt; button simultaneously, and hold them until you see the &amp;lt;img src=''&amp;gt; icon."&lt;/Data&gt;</string>
+  <string name="forget_password_dialog_content_two">Follow these steps to erase data:</string>
+  <string name="forget_password_dialog_title">Reset your password</string>
   <string name="forget_pattern">&lt;u&gt;Forgot pattern?&lt;/u&gt;</string>
   <string name="forget_privacy_password_setting">Add Mi Account</string>
   <string name="forget_privacy_password_summary">Use Mi Account to reset your password</string>
@@ -2394,6 +2406,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
   <string name="handy_mode_tips">Swipe left or right from the Home button to pull the screen closer to one side.</string>
+  <string name="handy_mode_tips_full_screen">"When you're using full screen gestures, you can turn on one-handed mode using Quick ball. You can also switch to using buttons instead of full screen gestures."</string>
   <string name="haptic_feedback_enable_title">Vibrate on tap</string>
   <string name="haptic_feedback_level">Vibration</string>
   <string name="hardkeyboard_category">Physical keyboard settings</string>
@@ -2634,6 +2647,9 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_security_setting_others">Others</string>
+  <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
+  <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
   <string name="keyguard_vertical_clock_title">Vertical clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
@@ -3359,7 +3375,7 @@ Select your operating system:"</string>
   <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
   <string name="navigation_guide_appswitch_anim_summary">Swipe across the screen starting from the edge to go back to previous app</string>
-  <string name="navigation_guide_appswitch_anim_title">Switch to previous app</string>
+  <string name="navigation_guide_appswitch_anim_title">Go back to previous app</string>
   <string name="navigation_guide_appswitch_click">Turn on \"Go back to previous app\" first</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
@@ -5019,9 +5035,11 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
+  <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
+  <string name="status_bar_settings_function_description">About this feature</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
@@ -5052,6 +5070,11 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_toggle_collapse_after_clicked">Collapse after touch</string>
   <string name="status_bar_settings_toggle_position">Toggle positions</string>
   <string name="status_bar_settings_user_fold">Notifications folder</string>
+  <string name="status_bar_settings_user_fold_description1">Notifications folder was introduced in MIUI 9. This feature filters unimportant notifications and places them into a separate folder.</string>
+  <string name="status_bar_settings_user_fold_description2">MIUI will remember which notifications you tap, and then use multiple criteria to determine whether they are important.</string>
+  <string name="status_bar_settings_user_fold_description3">"If the notifications you consider important still go into the Notifications folder, make sure that you report such issues to us. We'd appreciate your feedback."</string>
+  <string name="status_bar_settings_user_fold_disable">Off</string>
+  <string name="status_bar_settings_user_fold_enable">On</string>
   <string name="status_bar_settings_user_fold_summary">All unimportant notifications will appear in a separate folder</string>
   <string name="status_bar_style_list">Combined</string>
   <string name="status_bar_style_page">Separate</string>
@@ -5432,6 +5455,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_font_current2">System font</string>
   <string name="title_font_size">Font size</string>
   <string name="title_hdmi_color_calibration">Color correction preset</string>
+  <string name="title_jeejen">Jeejen Home screen</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
   <string name="to_close">Turn off</string>

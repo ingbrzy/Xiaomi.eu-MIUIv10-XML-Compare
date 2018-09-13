@@ -3,6 +3,7 @@
     <string-array name="process_static_white_list">
         <item>android</item>
         <item>com.miui.home</item>
+        <item>com.mi.android.globallauncher</item>
         <item>com.android.systemui</item>
         <item>com.xiaomi.joyose</item>
         <item>com.android.phone</item>
@@ -47,6 +48,7 @@
     </string-array>
     <string-array name="process_disable_trim_list">
         <item>com.miui.home</item>
+        <item>com.mi.android.globallauncher</item>
         <item>com.android.systemui</item>
     </string-array>
     <string-array name="process_disable_force_stop_list">
@@ -66,6 +68,11 @@
         <item>com.android.soundrecorder</item>
         <item>com.android.deskclock</item>
         <item>com.miui.voiceassist</item>
+        <item>com.xiaomi.drivemode</item>
+        <item>com.caiharbor.esim</item>
+    </string-array>
+    <string-array name="process_camera_boost_protect_list">
+        <item>android.process.media</item>
     </string-array>
     <item type="array" name="android_config_keyboardTapVibePattern">@android:array/config_keyboardTapVibePattern</item>
     <item type="array" name="android_config_longPressVibePattern">@android:array/config_longPressVibePattern</item>
@@ -180,6 +187,7 @@
         <item>com.kiteguard</item>
         <item>com.xiaomi.discover</item>
         <item>com.orange.phone</item>
+        <item>com.android.stk</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />

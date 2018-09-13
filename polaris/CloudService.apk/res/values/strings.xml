@@ -141,6 +141,7 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_dialog_sync_now_title">Connect to WLAN to sync</string>
   <string name="micloud_dspt">Use Mi Cloud to sync data, locate your device,</string>
   <string name="micloud_dspt_provision">Use Mi Cloud to sync data, locate your device, and share things with friends.</string>
+  <string name="micloud_dspt_provision_xms">Use Mi Cloud to sync data.</string>
   <string name="micloud_find_device_close_alert_content">"If you turn this feature off, you won't be able to locate your device in case it's lost."</string>
   <string name="micloud_find_device_close_alert_negtive">Turn off anyway</string>
   <string name="micloud_find_device_close_alert_positive">Keep on</string>
@@ -182,6 +183,7 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_main_button_authorize">Authorize</string>
   <string name="micloud_main_button_set_internet">Settings</string>
   <string name="micloud_main_cancel_sync">Cancel sync</string>
+  <string name="micloud_main_cancel_sync_now">Canceling…</string>
   <string name="micloud_main_clear_now">Clear</string>
   <string name="micloud_main_detail">View details</string>
   <string name="micloud_main_error_activated_fail">Activate your SIM card.</string>
@@ -209,6 +211,11 @@ Use a different account."</string>
   <string name="micloud_main_resume_sync_soon">Resume sync soon</string>
   <string name="micloud_main_see_unsynced_data">Check the data to be synced</string>
   <string name="micloud_main_set_internet">Network</string>
+  <string name="micloud_main_simple_last_sync_time">Last synced: %s</string>
+  <string name="micloud_main_simple_off">Sync is off</string>
+  <string name="micloud_main_simple_pending">Pending</string>
+  <string name="micloud_main_simple_synced">Synced</string>
+  <string name="micloud_main_simple_syncing">Syncing</string>
   <string name="micloud_main_space_full_message">Buy more storage space in Mi Cloud</string>
   <string name="micloud_main_space_full_title">Not enough storage space, syncing paused</string>
   <string name="micloud_main_space_low">Almost out of space</string>
@@ -279,6 +286,8 @@ Use a different account."</string>
   <string name="micloud_storage_expires_soon_title">Mi Cloud storage expires soon</string>
   <string name="micloud_storage_expires_very_soon_title">Mi Cloud storage expires soon</string>
   <string name="micloud_storage_full">Cloud is full</string>
+  <string name="micloud_storage_unit_gb">%sGB</string>
+  <string name="micloud_storage_unit_mb">%sMB</string>
   <string name="micloud_sync_alert_dialog_message">Sync your photos, contacts, notes, and more across all your devices.</string>
   <string name="micloud_sync_alert_dialog_negative">Cancel</string>
   <string name="micloud_sync_alert_dialog_positive">OK</string>
