@@ -12,7 +12,7 @@
     <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
     <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
     <string name="weather_type_null">'தரவு இல்லை'</string>
-    <string name="weather_type_0">தெளிவானது</string>
+    <string name="weather_type_0">தெளிவான வானிலை</string>
     <string name="weather_type_1">மேக மூட்டம்</string>
     <string name="weather_type_2">தெளிவற்றது</string>
     <string name="weather_type_3">மூடுபனி</string>
