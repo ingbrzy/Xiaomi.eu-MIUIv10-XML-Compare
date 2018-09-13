@@ -113,6 +113,7 @@
   <string name="cd_list_item_collapse">collapsed</string>
   <string name="cd_list_item_expanded">expanded</string>
   <string name="cd_percent">percent</string>
+  <string name="cd_scanning">scanning</string>
   <string name="cd_settings">settings</string>
   <string name="cd_sort_type">sort type</string>
   <string name="clean_content_all">All</string>
@@ -120,7 +121,7 @@
   <string name="clean_content_three">3 items</string>
   <string name="clean_content_two">2 items</string>
   <string name="clean_content_zero">None</string>
-  <string name="clean_summary">Cleaned %1$s files</string>
+  <string name="clean_summary">Cleared %1$s</string>
   <string name="clear_bigfiles">Delete big files, duplicate photos, and other obsolete items</string>
   <string name="clear_immediately">Clean now</string>
   <string name="clear_safe_notify">Notification shade widget</string>
