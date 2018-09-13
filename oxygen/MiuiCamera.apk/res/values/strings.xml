@@ -57,7 +57,7 @@
   <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
 and optimizes your photos based on this info"</string>
   <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
-  <string name="back_bokeh_use_hint">"Make sure the object isn't further than 1.5 meters."</string>
+  <string name="back_bokeh_use_hint">Keep your subject within 1.5 meters for best effect</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_makeup">Makeup</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
@@ -73,6 +73,7 @@ and optimizes your photos based on this info"</string>
   <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
   <string name="camera_label">Camera</string>
   <string name="camera_mode_options">Modes</string>
+  <string name="camera_new_slow_motion_quality_default">6</string>
   <string name="camera_setting">Camera</string>
   <string name="camera_settings_label">Camera</string>
   <string name="camera_snap_mode_title">Quick snap mode</string>
@@ -168,6 +169,7 @@ and optimizes your photos based on this info"</string>
   <string name="face_beauty_intelligent_level_3">High</string>
   <string name="face_beauty_smart">Smart</string>
   <string name="face_score_info">Score: %.1f</string>
+  <string name="fps960_toast">Slow-motion capture will start when the timer reaches the white dot</string>
   <string name="front_camera_hint_text_place">"Taking selfies will be easier
 if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>
@@ -206,6 +208,7 @@ in Portrait mode"</string>
   <string name="module_name_capture">Photo</string>
   <string name="module_name_fun">Short video</string>
   <string name="module_name_manual">Manual</string>
+  <string name="module_name_new_slow_motion">Slow motion</string>
   <string name="module_name_panorama">Panorama</string>
   <string name="module_name_portrait">Portrait</string>
   <string name="module_name_square">Square</string>
@@ -240,6 +243,8 @@ in Portrait mode"</string>
   <string name="portrait_mode_too_far_hint">Place object within 2 meters</string>
   <string name="portrait_mode_use_hint">"Portrait mode blurs the background
 and brings out the people in the front."</string>
+  <string name="portrait_mode_use_hint_for_bokeh">"Try Portrait mode.
+Keep the subject sharp while blurring the background."</string>
   <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
   <string name="pref_advance_settings">Additional settings</string>
   <string name="pref_ai_detect">AI detection</string>
@@ -634,6 +639,9 @@ and brings out the people in the front."</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
+  <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720P videos with 240FPS</string>
+  <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080P</string>
+  <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720P</string>
   <string name="pref_priority_storage_title">Save to SD card</string>
   <string name="pref_qc_focus_position_title">F</string>
   <string name="pref_qc_focus_position_value_default">0</string>
