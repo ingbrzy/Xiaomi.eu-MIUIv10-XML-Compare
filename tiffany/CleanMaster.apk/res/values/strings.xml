@@ -596,6 +596,8 @@
   <string name="toast_select_white_need_remove">Choose items to remove</string>
   <string name="toast_selecte_group_restore_succeed">Photos restored</string>
   <string name="toast_uninstall_success">Uninstall complete</string>
+  <string name="toast_updater_close_4g_text">"Apps won't be updated using mobile data (4G)"</string>
+  <string name="toast_updater_open_4g_text">Apps will be updated using mobile data (4G)</string>
   <string name="total_clean">Total cleaned: %s</string>
   <string name="total_clean_text">Clear</string>
   <string name="unlike">No thanks</string>
