@@ -1598,7 +1598,7 @@ be monitored"</string>
   <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
   <string name="status_bar_clock_date_format_12">EEEE, MMMM d</string>
   <string name="status_bar_clock_date_time_format">H:mm MMMM d</string>
-  <string name="status_bar_clock_date_time_format_12">aah:mm MMMM d</string>
+  <string name="status_bar_clock_date_time_format_12">h:mmaa MMMM d</string>
   <string name="status_bar_date_format">"EEEE
 MMMM d"</string>
   <string name="status_bar_date_format_12">"EEEE

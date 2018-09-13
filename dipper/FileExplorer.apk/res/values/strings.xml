@@ -123,10 +123,10 @@
   <string name="count_down">Countdown: %1$s</string>
   <string name="create_shortcut_success">Added shortcut successfully</string>
   <string name="daily_clockin">Check in</string>
-  <string name="data_consumption_cancel">Exit</string>
+  <string name="data_consumption_cancel">"Don't agree"</string>
   <string name="data_consumption_checkbox_hint">"Don't show again"</string>
   <string name="data_consumption_confirm">OK</string>
-  <string name="data_consumption_message">This app needs to connect to the internet using WLAN to work normally.</string>
+  <string name="data_consumption_message">"File Manager needs to connect to the network while you're using it. Agree?"</string>
   <string name="data_consumption_message1">File Manager needs to connect to the internet to make popular videos and stickers available.</string>
   <string name="data_consumption_title">Internet connection</string>
   <string name="decompress_cancel">Cancel</string>

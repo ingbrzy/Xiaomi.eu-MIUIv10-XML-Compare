@@ -884,7 +884,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_result_feedback_summary">"First aid scan couldn't find any problems. However, I spotted some."</string>
   <string name="first_aid_result_feedback_title">Feedback</string>
   <string name="first_aid_result_summary_normal">Everything looks good!</string>
-  <string name="first_aid_result_summary_not_finished">"Scan wan't complete. Some risks may be undetected."</string>
+  <string name="first_aid_result_summary_not_finished">"Scan wasn't completed. Some risks may be undetected."</string>
   <string name="first_aid_scanning_item1">Checking for performance issues…</string>
   <string name="first_aid_scanning_item2">Checking for network problems…</string>
   <string name="first_aid_scanning_item3">Checking for incorrect settings…</string>

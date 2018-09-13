@@ -21,6 +21,7 @@
   <string name="add_to_secret_successful">Added to hidden album</string>
   <string name="add_to_share_album_not_delete">"Can't delete photo from Shared Album"</string>
   <string name="added_to_favorites">Added to favorites</string>
+  <string name="added_to_favorites_desc">Added to favorites</string>
   <string name="added_to_favorites_tip">Added to \"Favorites\" album</string>
   <string name="adding">Adding…</string>
   <string name="adding_recipients">Adding recipients…</string>
@@ -98,7 +99,7 @@
   <string name="app_name_view_picture">View photos</string>
   <string name="app_name_view_video">View videos</string>
   <string name="apply">Apply</string>
-  <string name="assistant_page_label">Assistant</string>
+  <string name="assistant_page_label">Stories</string>
   <string name="associate_face_album">Choose an album</string>
   <string name="auto_backup_introduce">Back up photos and videos automatically (Mi Account is required)</string>
   <string name="auto_download_media_title">Download photos from Mi Cloud automatically</string>
@@ -203,6 +204,25 @@
   <string name="cannot_remove_creator">"Can't remove creator"</string>
   <string name="cannot_send_message">"Can't send message"</string>
   <string name="cannot_send_message_reason">No valid recipients</string>
+  <string name="card_delete_description">"This story won't appear again. Delete anyway?"</string>
+  <string name="card_delete_negative_text">Cancel</string>
+  <string name="card_delete_positive_text">Delete</string>
+  <string name="card_delete_title">Delete story</string>
+  <string name="card_title_annual_selection">Yearly recap</string>
+  <string name="card_title_from_to">%1$s - %2$s</string>
+  <string name="card_title_last2years_someone">BFFs</string>
+  <string name="card_title_last_week_end">Last weekend</string>
+  <string name="card_title_last_year_today">This day last year</string>
+  <string name="card_title_lastweek_meet">Together</string>
+  <string name="card_title_one_day">Unforgettable day</string>
+  <string name="card_title_past_year_today">This day through the years</string>
+  <string name="card_title_period_last_month">"Last month's recap"</string>
+  <string name="card_title_period_last_week">"Last week's recap"</string>
+  <string name="card_title_period_six_month">Last 6 months</string>
+  <string name="card_title_period_three_month">Last 3 months</string>
+  <string name="card_title_recent_place">%1$s recently</string>
+  <string name="card_title_someone">Friendship</string>
+  <string name="card_title_somewhere">%1$s</string>
   <string name="cast_devices_unavailable_desc">Make sure both this device and the projector are connected to the same Wi-Fi network</string>
   <string name="cast_devices_unavailable_title">"Couldn't find projector"</string>
   <string name="change_to_face_mode">Show face only</string>
@@ -602,7 +622,7 @@
   <string name="cleaner_screen_shot_action">Clear</string>
   <string name="cleaner_screen_shot_description">Delete the screenshots you no longer need.</string>
   <string name="cleaner_screen_shot_title">Delete screenshots</string>
-  <string name="cleaner_slim_action">Starting optimization…</string>
+  <string name="cleaner_slim_action">Start optimization</string>
   <string name="cleaner_slim_description">Keep optimized photos on your device. Original files will be stored in Mi Cloud.</string>
   <string name="cleaner_slim_start">Optimize</string>
   <string name="cleaner_slim_title">Optimize photos</string>
@@ -749,6 +769,7 @@
   <string name="empty_recommend_back">Back</string>
   <string name="empty_recommend_face_page_view">No more recommendations</string>
   <string name="empty_relation">"Group name can't be blank"</string>
+  <string name="empty_title_no_cards">Your stories will appear here.</string>
   <string name="empty_title_no_photos">No photos or videos</string>
   <string name="enable_auto_upload_tip">Turn on sync with Mi Cloud for this album?</string>
   <string name="enable_auto_upload_title">Turn on sync with Mi Cloud</string>
@@ -1033,6 +1054,7 @@ to personalize Gallery"</string>
   <string name="merge_album_title">Merge with a person</string>
   <string name="messagelist_sender_self">Me</string>
   <string name="micloud_introduce">Back up photos and videos automatically (Mi Account is required)</string>
+  <string name="more">More</string>
   <string name="more_album_hint">, etc.</string>
   <string name="more_face">More people who look alike</string>
   <string name="more_face_album_name">More people</string>
@@ -1083,6 +1105,7 @@ to personalize Gallery"</string>
   <string name="operation_edit_video">Edit</string>
   <string name="operation_enable_auto_upload">Turn on sync with Mi Cloud</string>
   <string name="operation_failed">"Couldn't complete operation"</string>
+  <string name="operation_favorites">Favorites</string>
   <string name="operation_force_top">Pin</string>
   <string name="operation_hide">Make invisible</string>
   <string name="operation_in_process">Processing…</string>
@@ -1305,6 +1328,7 @@ to personalize Gallery"</string>
   <string name="remove_from_secret_successful">Removed from hidden album</string>
   <string name="remove_to_album_title">Merge with</string>
   <string name="remove_to_other_album">Merge with a different person</string>
+  <string name="removed_from_favorites_desc">Removed from favorites</string>
   <string name="remover_edit_type_free">Objects</string>
   <string name="remover_edit_type_line">Lines</string>
   <string name="remover_erase_aera_too_big">The erase area is too big</string>
@@ -1313,6 +1337,8 @@ to personalize Gallery"</string>
   <string name="rename_album">Rename album</string>
   <string name="rename_album_failed">"Couldn't rename"</string>
   <string name="rename_album_succeeded">Renamed successfully</string>
+  <string name="rename_dialog_hint">Enter title</string>
+  <string name="rename_dialog_title">Rename story</string>
   <string name="rename_face_album">Change name</string>
   <string name="rename_fail_msg">"Couldn't change name"</string>
   <string name="rename_from_contact">Name from contacts</string>
@@ -1475,6 +1501,14 @@ to personalize Gallery"</string>
   <string name="storage_description_usb">USB storage</string>
   <string name="storage_description_xspace">Dual apps data</string>
   <string name="storage_no_space">Not enough space</string>
+  <string name="story_action_remove">Remove from story</string>
+  <string name="story_action_share">Share</string>
+  <string name="story_option_menu_rename">Rename</string>
+  <string name="story_remove_confirm_message">"Removed photos won't appear in this story again. You'll still be able to find them in Gallery."</string>
+  <string name="story_remove_confirm_positive">Remove</string>
+  <string name="story_remove_confirm_title">Removing photos</string>
+  <string name="story_rename_invalid_char">"Can't use \"%s\" in the title of the story. Use letters, digits, and Chinese characters."</string>
+  <string name="story_rename_invalid_prefix">"Can't start story titles with \".\" or \"_\""</string>
   <string name="sub_discard_confirm_message">Save changes?</string>
   <string name="sub_discard_negative_btn">Discard</string>
   <string name="sub_discard_positive_btn">Save</string>

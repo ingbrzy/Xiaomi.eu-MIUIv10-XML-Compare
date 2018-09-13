@@ -160,6 +160,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="accessibility_shortcut_description">When the shortcut is on, you can press both volume keys for 3 seconds to start an accessibility feature.</string>
   <string name="accessibility_shortcut_service_on_lock_screen_title">Allow from lock screen</string>
   <string name="accessibility_shortcut_service_title">Shortcut service</string>
+  <string name="accessibility_summary_source">Provided by %s</string>
   <string name="accessibility_summary_state_disabled">Off</string>
   <string name="accessibility_summary_state_enabled">On</string>
   <string name="accessibility_summary_state_stopped">Not working. Tap for info.</string>
@@ -1446,6 +1447,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="credentials_reset_warning_plural">Incorrect password. You have %1$d more chances before credential storage is erased.</string>
   <string name="credentials_settings_not_available">Credentials are not available for this user</string>
   <string name="credentials_title">Credential storage</string>
+  <string name="credentials_title_verification">Verification</string>
   <string name="credentials_unlock"/>
   <string name="credentials_unlock_hint">Type the password for credential storage.</string>
   <string name="credentials_wrong_password">Incorrect password.</string>
