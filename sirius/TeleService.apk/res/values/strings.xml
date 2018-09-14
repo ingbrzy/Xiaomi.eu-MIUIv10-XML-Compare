@@ -133,7 +133,6 @@
   <string name="abc_shareactionprovider_share_with">Share with</string>
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
-  <string name="access_information_discarded">LLAMADA TERMINADA -43-</string>
   <string name="accessibility_display_daltonizer_preference_subtitle">This feature is experimental and may affect performance.</string>
   <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
   <string name="accessibility_no_wifi">Wifi disconnected.</string>
@@ -145,7 +144,6 @@
   <string name="accessibility_wifi_signal_full">Wifi signal full.</string>
   <string name="accessibility_wifi_three_bars">Wifi three bars.</string>
   <string name="accessibility_wifi_two_bars">Wifi two bars.</string>
-  <string name="acm_equal_to_greater_than_acmmax">LLAMADA TERMINADA -68-</string>
   <string name="active_input_method_subtypes">Active input methods</string>
   <string name="adb_keys_warning_message">Revoke access to USB debugging from all computers you’ve previously authorized?</string>
   <string name="adb_warning_message">USB debugging is intended for development purposes only. Use it to copy data between your computer and your device, install apps on your device without notification, and read log data.</string>
@@ -253,9 +251,6 @@
   <string name="battery_info_status_not_charging">"Plugged in, can't charge right now"</string>
   <string name="battery_info_status_unknown">Unknown</string>
   <string name="battery_meter_very_low_overlay_symbol">!</string>
-  <string name="bearer_capability_not_authorized">LLAMADA TERMINADA -57-</string>
-  <string name="bearer_service_not_implemented">LLAMADA TERMINADA -65-</string>
-  <string name="beary_capatibility_not_presently">LLAMADA TERMINADA -58-</string>
   <string name="bf_news_settings">Business and financial news</string>
   <string name="bluetooth_a2dp_profile_summary_connected">Connected to media audio</string>
   <string name="bluetooth_a2dp_profile_summary_use_for">Use for media audio</string>
@@ -453,7 +448,6 @@ Sample Rate"</string>
   <string name="call_recording_notification_title_error">"Couldn't record call"</string>
   <string name="call_recording_notification_toggle_title">Call recording notification</string>
   <string name="call_recording_setting">Call recording</string>
-  <string name="call_rejected">USUARIO NO DISPONIBLE -21-</string>
   <string name="call_settings">Call settings</string>
   <string name="call_settings_admin_user_only">Call settings can only be changed by the admin user.</string>
   <string name="call_settings_primary_user_only">Call settings can only be changed by the primary user.</string>
@@ -560,7 +554,6 @@ Sample Rate"</string>
   <string name="change_pin_succeeded">Voicemail PIN updated</string>
   <string name="change_pin_system_error">"Can't set PIN"</string>
   <string name="change_pin_title">Change voicemail PIN</string>
-  <string name="channel_unacceptable">LLAMADA TERMINADA -6-</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="choose_profile">Choose profile</string>
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
@@ -576,7 +569,6 @@ Sample Rate"</string>
   <string name="cloud_sim_enabled_preferred_network_summary">"Can't change network preferences while using Mi Roaming"</string>
   <string name="cmcc_ut_data_enable_prompt">This service requires mobile data connection. Turn it on to continue.</string>
   <string name="command_error_fdn_failure">You need to turn off FDN first</string>
-  <string name="conditional_ie_error">LLAMADA TERMINADA -100-</string>
   <string name="config_default_data_sim">Settings</string>
   <string name="config_dialing_emergency_number_suffix"/>
   <string name="config_disable_cdma_activation_code">false</string>
@@ -681,7 +673,6 @@ Sample Rate"</string>
   <string name="description_image_button_two">two</string>
   <string name="description_image_button_zero">zero</string>
   <string name="description_voicemail_button">voicemail</string>
-  <string name="destination_out_of_order">USUARIO NO DISPONIBLE -27-</string>
   <string name="dev_logpersist_clear_warning_message">When we no longer are monitoring with the persistent logger, we are required to erase the logger data resident on your device.</string>
   <string name="dev_logpersist_clear_warning_title">Clear logger persistent storage?</string>
   <string name="dev_settings_warning_message">These settings are intended for development use only. They can cause your device and the applications on it to break or misbehave.</string>
@@ -837,7 +828,6 @@ Sample Rate"</string>
   <string name="exception_error">Network or SIM card error.</string>
   <string name="external_source_trusted">Allowed</string>
   <string name="external_source_untrusted">Not allowed</string>
-  <string name="facility_rejected">LLAMADA TERMINADA -29-</string>
   <string name="failedToImportSingleContactMsg">"Couldn't import contact"</string>
   <string name="failed_to_open_app_settings_toast">Failed to open settings for %1$s</string>
   <string name="fake_phone_activity_infoText_text">Incoming phone number</string>
@@ -927,27 +917,19 @@ Switch to the new provider anyway?"</string>
   <string name="incall_error_supp_service_unknown">"Service isn't supported"</string>
   <string name="incall_error_wfc_only_no_wireless_network">Connect to a wireless network to make a call.</string>
   <string name="incall_status_dialed_mmi">Starting MMI sequence…</string>
-  <string name="incoming_calls_barred_within_the_cug">LLAMADA TERMINADA -55-</string>
-  <string name="incompatible_destination">LLAMADA TERMINADA -88-</string>
-  <string name="information_element_non_existent_or">LLAMADA TERMINADA -99-</string>
   <string name="install_other_apps">Install unknown apps</string>
   <string name="international_disable">International news is off</string>
   <string name="international_enable">International news is on</string>
   <string name="international_roaming_setting">Data roaming</string>
   <string name="internet_phone">Internet call</string>
-  <string name="interworking_unspecified">LLAMADA TERMINADA -127-</string>
   <string name="invalidPin">Type a PIN that is 4 to 8 numbers.</string>
   <string name="invalidPin2">Enter a PIN2 that is 4 to 8 numbers.</string>
   <string name="invalidPuk2">Enter a PUK2 that is 8 numbers.</string>
-  <string name="invalid_mandatory_information">LLAMADA TERMINADA -96-</string>
   <string name="invalid_password">Enter a password that is 4 numbers long</string>
   <string name="invalid_pin">Type a PIN that is 4 to 8 numbers.</string>
   <string name="invalid_pin2">Type a PIN2 that is 4 to 8 numbers.</string>
   <string name="invalid_puk">Type a PUK that is 4 to 8 numbers.</string>
   <string name="invalid_puk2">Type a PUK2 that is 8 numbers.</string>
-  <string name="invalid_transaction_identifier_value">LLAMADA TERMINADA -81-</string>
-  <string name="invalid_transit_network_selection">LLAMADA TERMINADA -91-</string>
-  <string name="invalit_number_format">MARCACION NO DISPONIBLE -28-</string>
   <string name="ivr_mo_area_code_settings">Current area code</string>
   <string name="ivr_mo_area_code_settings_hint">Enter current area code</string>
   <string name="ivr_parameter_settings">IVR parameters settings</string>
@@ -1025,9 +1007,6 @@ Switch to the new provider anyway?"</string>
   <string name="messageCFNRy">Number when unanswered</string>
   <string name="messageCFU">Always use this number</string>
   <string name="message_decode_error">There was an error while decoding the message.</string>
-  <string name="message_not_compatible_with">LLAMADA TERMINADA -101-</string>
-  <string name="message_type_no_compatible_with">LLAMADA TERMINADA -98-</string>
-  <string name="message_type_non_compatible_with">LLAMADA TERMINADA -97-</string>
   <string name="mhh_disable">Medical, health, and hospitals are off</string>
   <string name="mhh_enable">Medical, health, and hospitals are on</string>
   <string name="mi_sim_settings_summary">Use mobile data without a SIM card</string>
@@ -1128,7 +1107,6 @@ Switch to the new provider anyway?"</string>
   <string name="network_message">Network message</string>
   <string name="network_operator_category">Network</string>
   <string name="network_operator_settings_class">com.android.phone.settings.MobileNetworkSetting</string>
-  <string name="network_out_of_order">LLAMADA TERMINADA -38-</string>
   <string name="network_query_error">Error while searching for networks.</string>
   <string name="network_select_title">Network</string>
   <string name="network_settings_auto_select_title">Choose network manually?</string>
@@ -1157,21 +1135,15 @@ Using preferred network instead."</string>
   <string name="no_application">Nothing</string>
   <string name="no_change">No changes were made.</string>
   <string name="no_checked_network">"You won't be able to connect to mobile network and make calls. Select another network?"</string>
-  <string name="no_circuit_no_channel_available">LLAMADA TERMINADA -34-</string>
   <string name="no_internet_available">To place a SIP call, check your Internet connection first.</string>
   <string name="no_mobile_data">Mobile data is not available</string>
   <string name="no_mobile_data_roaming">Data roaming is not available</string>
-  <string name="no_route_to_destination">USUARIO NO DISPONIBLE -03-</string>
   <string name="no_unlock_chance_hint">"You have no attempts left.
 Contact your carrier."</string>
-  <string name="no_user_responding">USUARIO NO RESPONDE -18-</string>
   <string name="no_vm_number">Missing voicemail number</string>
   <string name="no_vm_number_msg">No voicemail number is stored on the SIM card.</string>
   <string name="no_voip">SIP calling not supported</string>
   <string name="no_wifi_available">You need to be connected to a WLAN network for SIP calls (use the Wireless &amp; Network settings).</string>
-  <string name="non_select_user_clearing">LLAMADA TERMINADA -26-</string>
-  <string name="normal_call_clearing">sin texto</string>
-  <string name="normal_unspecified">LLAMADA TERMINADA -31-</string>
   <string name="not_a_valid_port">Port number should be within 1000 and 65534.</string>
   <string name="not_allowed">"Your SIM card doesn't allow a connection to this network."</string>
   <string name="not_voice_capable">"Voice calling isn't supported"</string>
@@ -1182,7 +1154,6 @@ Contact your carrier."</string>
   <string name="notification_voicemail_title">New voicemail</string>
   <string name="notification_voicemail_title_count">New voicemail (%d)</string>
   <string name="number">Number</string>
-  <string name="number_changed">MARCACION NO DISPONIBLE -22-</string>
   <string name="oem_preferred_feedback_reporter"/>
   <string name="oem_unlock_enable">OEM unlocking</string>
   <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
@@ -1193,7 +1164,6 @@ Contact your carrier."</string>
   <string name="old_pin2_label">PIN2</string>
   <string name="old_pin_label">Old PIN</string>
   <string name="onHold">On hold</string>
-  <string name="only_restricted_digital_information">LLAMADA TERMINADA -70-</string>
   <string name="onscreenAddCallText">Add call</string>
   <string name="onscreenAudioText">Audio</string>
   <string name="onscreenEndCallText">End</string>
@@ -1208,7 +1178,6 @@ Contact your carrier."</string>
   <string name="open_miui">Open</string>
   <string name="opened_dual_4g_confirm_prompt">Looks like you have a 4G only SIM card. Dual 4G was turned on automatically.</string>
   <string name="opened_dual_4g_confirm_prompt_with_sim">SIM %1$s only supports 4G. To make sure your SIM card works normally, dual 4G was turned on.</string>
-  <string name="operator_determined_barring">USUARIO NO DISPONIBLE -08-</string>
   <string name="optional_summary">&lt;Optional&gt;</string>
   <string name="ota_activate">Activate</string>
   <string name="ota_call_end">Back</string>
@@ -1340,7 +1309,6 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="power_remaining_duration_only_enhanced">About ^1 left based on your usage</string>
   <string name="power_remaining_duration_only_short">^1 left</string>
   <string name="power_remaining_duration_only_short_enhanced">^1 left based on your usage</string>
-  <string name="pre_emption">LLAMADA TERMINADA -25-</string>
   <string name="prefered_network_type_3g_promp">You should turn off VoLTE before seleсting 3G as your preferred network type. Turn off now?</string>
   <string name="preference_auto_ip_summary_disable">Off</string>
   <string name="preference_category_ringtone">Ringtone &amp; vibrate</string>
@@ -1423,7 +1391,6 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="prompt_to_turnoff_volte_when_supp_service">"Service isn't available. Turn off VoLTE in the Settings."</string>
   <string name="prompt_when_turnon_volte_on_3g_prefered">Select LTE as your preferred network type before turning on VoLTE.</string>
   <string name="prompt_when_turnon_volte_without_lte">"VoLTE networks aren't available now. Turning on VoLTE may prevent you from making regular calls."</string>
-  <string name="protocol_error_unspecified">LLAMADA TERMINADA -111-</string>
   <string name="proxy_address">ProxyAddress</string>
   <string name="proxy_address_title">Outbound proxy address</string>
   <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
@@ -1440,12 +1407,10 @@ Your phone will be locked automatically after another failed attempt"</string>
 Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="puk_requested">Password incorrect. PIN now blocked. PUK requested.</string>
   <string name="puk_unlocked">Your SIM card has been unblocked. Your phone is unlocking…</string>
-  <string name="quality_of_service_no_available">LLAMADA TERMINADA -49-</string>
   <string name="quick_dial_setting_title">Quick dial</string>
   <string name="radio_off_during_emergency_call">"Can't turn on Airplane mode during an emergency call."</string>
   <string name="radio_off_error">Turn on the radio before viewing these settings.</string>
   <string name="reading_settings">Reading settings…</string>
-  <string name="recovery_on_timer_expiry">LLAMADA TERMINADA -102-</string>
   <string name="regional_disable">Regional news is off</string>
   <string name="regional_enable">Regional news is on</string>
   <string name="register_automatically">Automatic registration…</string>
@@ -1469,10 +1434,6 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="remove">Remove</string>
   <string name="remove_sip_account">Remove account</string>
   <string name="removing_account">Removing the account…</string>
-  <string name="request_facility_not_subscribedr">LLAMADA TERMINADA -50-</string>
-  <string name="requested_circuit_channel_not_available">LLAMADA TERMINADA -44-</string>
-  <string name="requested_facility_not_implemented">LLAMADA TERMINADA -69-</string>
-  <string name="resources_unavailable_unspecified">LLAMADA TERMINADA -47-</string>
   <string name="respond_via_sms_canned_response_1">"Can't talk now. Call me later?"</string>
   <string name="respond_via_sms_canned_response_2">"I'll call you right back."</string>
   <string name="respond_via_sms_canned_response_3">"I'll call you later."</string>
@@ -1484,7 +1445,6 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="respond_via_sms_setting_summary">Edit pre-written text responses</string>
   <string name="respond_via_sms_setting_title">Quick responses</string>
   <string name="response_error">Unexpected response from network.</string>
-  <string name="response_to_status_enquiry">LLAMADA TERMINADA -30-</string>
   <string name="restaurants_disable">Restaurants are off</string>
   <string name="restaurants_enable">Restaurants are on</string>
   <string name="retail_demo_reset_message">Enter password to perform factory reset in demo mode</string>
@@ -1564,12 +1524,9 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="select_webview_provider_dialog_title">Set WebView implementation</string>
   <string name="select_webview_provider_title">WebView implementation</string>
   <string name="select_webview_provider_toast_text">This choice is no longer valid. Try again.</string>
-  <string name="semantically_incorrect_message">LLAMADA TERMINADA -95-</string>
   <string name="send_button">Send</string>
   <string name="send_keepalive">SendKeepAlive</string>
   <string name="send_keepalive_title">Send keep-alive</string>
-  <string name="service_or_option_not_available">LLAMADA TERMINADA -63-</string>
-  <string name="service_or_option_not_implemented">LLAMADA TERMINADA -79-</string>
   <string name="set_primary">SetPrimary</string>
   <string name="set_primary_summary">Used for outbound calls</string>
   <string name="set_primary_title">Set as primary account</string>
@@ -1688,7 +1645,6 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="sum_show_caller_id">Number displayed in outgoing calls</string>
   <string name="sum_voicemail_choose_provider">Choose voicemail service</string>
   <string name="switch_dds_to_sub_alert">Set this card as your default data card.</string>
-  <string name="switching_equipment_congestion">LLAMADA TERMINADA -42-</string>
   <string name="system_visual_voicemail_client"/>
   <string name="t9_indexing_method_pinyin">Pinyin</string>
   <string name="t9_indexing_method_title">T9 search input</string>
@@ -1727,7 +1683,6 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="telocation_number_type_tel">Landline</string>
   <string name="telocation_setting">Location settings</string>
   <string name="telocation_show_settings">Display settings</string>
-  <string name="temporary_failure">LLAMADA TERMINADA -41-</string>
   <string name="tether_settings_title_all">Tethering &amp; portable hotspot</string>
   <string name="tether_settings_title_bluetooth">Bluetooth tethering</string>
   <string name="tether_settings_title_usb">USB tethering</string>
@@ -1809,7 +1764,6 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="turnover_mute_summary">When phone is on a horizontal surface with screen facing up, flip it over to silence ringer.</string>
   <string name="turnover_mute_title">Flip to silence ringer</string>
   <string name="ui_default_package">com.android.dialer</string>
-  <string name="unassigned_number">MARCACION NO DISPONIBLE -01-</string>
   <string name="undefined">None</string>
   <string name="unknown">Unknown</string>
   <string name="unlock_chances_left">Attempts left:</string>
@@ -1822,10 +1776,7 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="usb_audio_disable_routing">Disable USB audio routing</string>
   <string name="usb_audio_disable_routing_summary">Disable automatic routing to USB audio peripherals</string>
   <string name="use_system_language_to_select_input_method_subtypes">Use system languages</string>
-  <string name="user_alerting_no_answer">USUARIO NO RESPONDE -19-</string>
-  <string name="user_busy">USUARIO OCUPADO</string>
   <string name="user_guest">Guest</string>
-  <string name="user_not_member_of_cug">LLAMADA TERMINADA -87-</string>
   <string name="username">UserName</string>
   <string name="username_title">Username</string>
   <string name="ussdRunning">USSD code running…</string>

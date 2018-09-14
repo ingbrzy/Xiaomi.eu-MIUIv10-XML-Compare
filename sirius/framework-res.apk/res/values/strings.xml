@@ -304,6 +304,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_inCallNotificationSound">/system/media/audio/ui/InCallNotification.ogg</string>
   <string name="config_isoImagePath"/>
   <string name="config_keyguardComponent">com.android.systemui/com.android.systemui.keyguard.KeyguardService</string>
+  <string name="config_mainBuiltInDisplayCutout">M265,27 L267,38 C272.029,66.428 281.499,85 321,85 L759,85 C798.501,85 807.971,66.428 813,38 L815,27 C818.312,8.531 828.613,3.53 833,2 C838.735,-0.000999999003 843.336,9.96807785e-10 848,-1.98951966e-13 L232,-1.98951966e-13 C236.665,9.96807785e-10 241.265,-0.000999999003 247,2 C251.387,3.53 261.688,8.531 265,27 Z</string>
   <string name="config_mms_user_agent">Android-Mms/2.0</string>
   <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
   <string name="config_mobile_hotspot_provision_app_no_ui"/>

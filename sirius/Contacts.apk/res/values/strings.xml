@@ -55,7 +55,6 @@
   <string name="btn_split_contact">Separate</string>
   <string name="button_cancel_scan">Stop</string>
   <string name="button_join_service_number">Add service number</string>
-  <string name="button_my_center">Profile</string>
   <string name="button_scan">Rescan</string>
   <string name="caching_vcard_message">Caching vCard to device…</string>
   <string name="caching_vcard_title">Caching</string>
@@ -192,6 +191,7 @@
   <string name="composer_failed_to_get_database_infomation">"Couldn't get database information."</string>
   <string name="composer_has_no_exportable_contact">There are no exportable contacts. If you do have contacts on your device, some data providers may not allow the contacts to be exported from the device.</string>
   <string name="composer_not_initialized">"The vCard composer didn't start properly."</string>
+  <string name="conference_call_disable_tip">"Can't make calls. Make sure your device is connected to a 4G network with VoLTE support."</string>
   <string name="config_export_dir">/mnt/sdcard</string>
   <string name="config_export_extensions_to_consider"/>
   <string name="config_export_file_extension">vcf</string>
@@ -496,7 +496,6 @@ Reason: \"%s\""</string>
   <string name="firewall_setting">Blocklist</string>
   <string name="force_touch_miprofile">Contact card</string>
   <string name="force_touch_new_contact">New contact</string>
-  <string name="foundTooManyContacts">More than %d found.</string>
   <string name="frequentList">Frequent</string>
   <string name="from_account_format">%1$s</string>
   <string name="full_name">Name</string>
@@ -580,7 +579,6 @@ Reason: \"%s\""</string>
   <string name="keep_local">"Don't sync"</string>
   <string name="keep_local_btn">"Use device's internal storage"</string>
   <string name="label_custom_type">Custom</string>
-  <string name="label_duplicate_count">(%1$d)</string>
   <string name="label_no_duplicate_contacts">No duplicates found</string>
   <string name="label_notes">Notes</string>
   <string name="label_sip_address">Internet call</string>
@@ -612,7 +610,6 @@ Reason: \"%s\""</string>
   <string name="lunarBirthdayLabelsGroup">Lunar birthday</string>
   <string name="lunar_calendar">农历</string>
   <string name="lunar_leap">闰</string>
-  <string name="lunar_yue">月</string>
   <string name="make_primary">Remember this choice</string>
   <string name="map_custom">View %s address</string>
   <string name="map_home">View home address</string>
@@ -673,7 +670,6 @@ Reason: \"%s\""</string>
   <string name="menu_splitAggregate">Separate</string>
   <string name="menu_sync_remove">Remove sync group</string>
   <string name="menu_viewContact">View contact</string>
-  <string name="merge_contact_message">%1$d contacts with partially identical info</string>
   <string name="messageShortcutActivityTitle">Choose a number to message</string>
   <string name="miprofile_account_type">Contact cards</string>
   <string name="miprofile_alertdialog_edit">Enter name</string>
@@ -1041,8 +1037,6 @@ To add a contact to your list of favorites:
   <string name="search_wipe_data">Organize;Contacts</string>
   <string name="searching_vcard_message">Searching for vCard data from device…</string>
   <string name="select_all">Select all</string>
-  <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
-  <string name="select_exceed">Select no more than %1$d</string>
   <string name="select_groups">Select groups</string>
   <string name="select_none">No selected items</string>
   <string name="select_show_contacts">Contact list</string>
