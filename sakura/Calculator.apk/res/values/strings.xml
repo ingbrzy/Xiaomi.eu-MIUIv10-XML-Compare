@@ -304,6 +304,8 @@
   <string name="tax_social_insurance">Social insurance</string>
   <string name="tax_thershold_foreign">%s (Foreign nationals)</string>
   <string name="tax_thershold_native">%s (Mainland China)</string>
+  <string name="tax_thershold_native_new">%s (new)</string>
+  <string name="tax_thershold_native_new_description">Taxes will be calculated according to the new tax law starting from October 1, 2018</string>
   <string name="tax_threshold">Tax-free threshold</string>
   <string name="tax_title_primary"/>
   <string name="tax_title_secondary"/>
@@ -396,7 +398,7 @@
   <string name="unit_data_display_currency_nok">Norwegian krone</string>
   <string name="unit_data_display_currency_nzd">New Zealand dollar</string>
   <string name="unit_data_display_currency_omr">Omani rial</string>
-  <string name="unit_data_display_currency_php">Philippine piso</string>
+  <string name="unit_data_display_currency_php">Philippine peso</string>
   <string name="unit_data_display_currency_pln">Polish złoty</string>
   <string name="unit_data_display_currency_qar">Qatari riyal</string>
   <string name="unit_data_display_currency_ron">Romanian leu</string>
@@ -501,8 +503,8 @@
   <string name="unit_data_display_weight_uk.cwt">UK hundredweight</string>
   <string name="unit_data_display_weight_uk.st">Stone</string>
   <string name="unit_data_display_weight_us.cwt">US hundredweight</string>
-  <string name="unit_data_short_area_acre">acre</string>
-  <string name="unit_data_short_area_are">are</string>
+  <string name="unit_data_short_area_acre">ac</string>
+  <string name="unit_data_short_area_are">a</string>
   <string name="unit_data_short_area_ha">ha</string>
   <string name="unit_data_short_area_mu">mu</string>
   <string name="unit_data_short_area_qing">qing</string>
@@ -526,7 +528,7 @@
   <string name="unit_data_short_length_cun">cun</string>
   <string name="unit_data_short_length_dm">dm</string>
   <string name="unit_data_short_length_fen">fen</string>
-  <string name="unit_data_short_length_fm">fm</string>
+  <string name="unit_data_short_length_fm">ftm</string>
   <string name="unit_data_short_length_ft">ft</string>
   <string name="unit_data_short_length_fur">fur</string>
   <string name="unit_data_short_length_gongli">gongli</string>
