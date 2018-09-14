@@ -5,6 +5,14 @@
   <string name="agree_terms">"I've read and agree to the Terms of Service and Privacy Policy."</string>
   <string name="agree_terms_input_method_facemoji">"I've read and agreed to Facemoji Privacy Policy."</string>
   <string name="agree_terms_input_method_kika">"I've read and agreed to Kika Privacy Policy."</string>
+  <string name="ai_button_desc">Use this button to trigger Mi AI and complete tasks on your phone using just your voice</string>
+  <string name="ai_button_double_press">Double press</string>
+  <string name="ai_button_double_press_desc">Set up Mi AI features</string>
+  <string name="ai_button_long_press">Press and hold</string>
+  <string name="ai_button_long_press_desc">Say your command and release the button</string>
+  <string name="ai_button_single_press">Press</string>
+  <string name="ai_button_single_press_desc">Trigger Mi AI</string>
+  <string name="ai_button_title">About AI button</string>
   <string name="app_name">Provision</string>
   <string name="application_permissions">App permissions</string>
   <string name="back">Back</string>
@@ -57,6 +65,7 @@
   <string name="other_settings_user_experience">User Experience Program</string>
   <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats with us. View details</string>
   <string name="other_settings_user_experience_summary_index">View details</string>
+  <string name="poco_agree_terms_other">(Including POCO Launcher Privacy Policy and User Agreement)</string>
   <string name="pref_title_data_slot">Preferred data SIM card</string>
   <string name="pref_title_voice_slot">Preferred voice SIM card</string>
   <string name="privacy_policy">Privacy Policy</string>

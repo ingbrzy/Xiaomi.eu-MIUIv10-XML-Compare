@@ -1546,6 +1546,8 @@
         <item>vince</item>
         <item>tulip</item>
         <item>sakura_india</item>
+        <item>equuleus</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1569,6 +1571,7 @@
         <item>equuleus</item>
         <item>natrium</item>
         <item>vince</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -1952,6 +1955,22 @@
         <item>@string/wifi_security_eap</item>
         <item>WAPI PSK</item>
         <item>WAPI CERT</item>
+    </string-array>
+    <string-array name="mi_stat_cancel_survey_key">
+        <item>transfer_takes_too_long</item>
+        <item>connection_was_interrupted</item>
+        <item>i_selected_wrong_items_to_transfer</item>
+        <item>too_many_steps</item>
+        <item>my_phone_battery_is_low</item>
+        <item>transferred_items_are_corrupted</item>
+        <item>i_started_the_transfer_accidentally</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="mi_stat_success_survey_key">
+        <item>overall_rating</item>
+        <item>duration_of_transfer</item>
+        <item>simplicity_of_the_process</item>
+        <item>clarity_of_instructions</item>
     </string-array>
     <string-array name="miui_entries_font_size">
         <item>S</item>
@@ -2676,6 +2695,44 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>region</item>
         <item>highlight</item>
     </string-array>
+    <string-array name="show_verification_device_list">
+        <item>land</item>
+        <item>markw</item>
+        <item>nikel</item>
+        <item>kenzo</item>
+        <item>kate</item>
+        <item>prada</item>
+        <item>helium</item>
+        <item>hydrogen</item>
+        <item>natrium</item>
+        <item>mido</item>
+        <item>capricorn</item>
+        <item>rolex</item>
+        <item>ugglite</item>
+        <item>santoni</item>
+        <item>ugg</item>
+        <item>oxygen</item>
+        <item>jason</item>
+        <item>rosy</item>
+        <item>riva</item>
+        <item>polaris</item>
+        <item>chiron</item>
+        <item>sagit</item>
+        <item>gemini</item>
+        <item>whyred</item>
+        <item>vince</item>
+        <item>lithium</item>
+        <item>scorpio</item>
+        <item>ysl</item>
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>sakura_india</item>
+        <item>beryllium</item>
+        <item>nitrogen</item>
+        <item>dipper</item>
+        <item>tulip</item>
+        <item>equuleus</item>
+    </string-array>
     <string-array name="silent_entries">
         <item>@string/standard</item>
         <item>@string/total</item>
@@ -2799,6 +2856,29 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="traffic_type">
         <item>"Mobile usage "</item>
         <item>"WLAN usage "</item>
+    </string-array>
+    <string-array name="trans_cancel_survey_title">
+        <item>Transfer takes too long</item>
+        <item>Connection was interrupted</item>
+        <item>I selected wrong items to transfer</item>
+        <item>Too many steps</item>
+        <item>"My phone's battery is low"</item>
+        <item>Transferred items are corrupted</item>
+        <item>I started the transfer accidentally</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="trans_succeed_rating_hint">
+        <item>Very dissatisfied</item>
+        <item>Somewhat dissatisfied</item>
+        <item>Neutral</item>
+        <item>Somewhat satisfied</item>
+        <item>Very satisfied</item>
+    </string-array>
+    <string-array name="trans_succeed_survey_title">
+        <item>Overall rating</item>
+        <item>Duration of transfer</item>
+        <item>Simplicity of the process</item>
+        <item>Clarity of instructions</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animation off</item>
