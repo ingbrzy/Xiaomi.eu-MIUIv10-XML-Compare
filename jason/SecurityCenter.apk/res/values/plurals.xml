@@ -292,8 +292,8 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="one">%d app found</item>
     </plurals>
     <plurals name="reset_data_dialog_ok_tick">
-        <item quantity="other">Factory reset(%ds)</item>
-        <item quantity="one">Factory reset(%ds)</item>
+        <item quantity="other">Factory reset (%ds)</item>
+        <item quantity="one">Factory reset (%ds)</item>
     </plurals>
     <plurals name="section_clear_acc_item_right_tips">
         <item quantity="other">%d locked apps are waiting to be cleared</item>
@@ -362,6 +362,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d apps are hidden</item>
         <item quantity="one">%d app is hidden</item>
+    </plurals>
+    <plurals name="first_aid_card_float_window_summary">
+        <item quantity="other">%d apps may be displayed incorrectly. Restrict floating notifications.</item>
+        <item quantity="one">%d app may be displayed incorrectly. Restrict floating notifications.</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d issues require optimization</item>

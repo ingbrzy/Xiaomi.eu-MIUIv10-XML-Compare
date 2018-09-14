@@ -1547,6 +1547,8 @@
         <item>vince</item>
         <item>tulip</item>
         <item>sakura_india</item>
+        <item>equuleus</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1570,6 +1572,7 @@
         <item>equuleus</item>
         <item>natrium</item>
         <item>vince</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -2670,6 +2673,44 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>hide</item>
         <item>region</item>
         <item>highlight</item>
+    </string-array>
+    <string-array name="show_verification_device_list">
+        <item>land</item>
+        <item>markw</item>
+        <item>nikel</item>
+        <item>kenzo</item>
+        <item>kate</item>
+        <item>prada</item>
+        <item>helium</item>
+        <item>hydrogen</item>
+        <item>natrium</item>
+        <item>mido</item>
+        <item>capricorn</item>
+        <item>rolex</item>
+        <item>ugglite</item>
+        <item>santoni</item>
+        <item>ugg</item>
+        <item>oxygen</item>
+        <item>jason</item>
+        <item>rosy</item>
+        <item>riva</item>
+        <item>polaris</item>
+        <item>chiron</item>
+        <item>sagit</item>
+        <item>gemini</item>
+        <item>whyred</item>
+        <item>vince</item>
+        <item>lithium</item>
+        <item>scorpio</item>
+        <item>ysl</item>
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>sakura_india</item>
+        <item>beryllium</item>
+        <item>nitrogen</item>
+        <item>dipper</item>
+        <item>tulip</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="silent_entries">
         <item>@string/standard</item>
