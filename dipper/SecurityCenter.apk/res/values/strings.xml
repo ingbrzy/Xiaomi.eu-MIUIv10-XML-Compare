@@ -508,10 +508,12 @@
   <string name="card_main_deepclean_wechat_action">Clear</string>
   <string name="card_main_deepclean_wechat_summary">Clear WeChat cache to free up storage space</string>
   <string name="card_main_deepclean_wechat_title">WeChat cache</string>
+  <string name="card_main_deepclean_whatsapp_title">WhatsApp cleaner</string>
   <string name="card_main_gamebooster_summary">Boost connection stability for games</string>
   <string name="card_main_gamebooster_title">Game speed booster</string>
   <string name="card_main_hbassistant_summary">Use this tool to grab the envelopes faster</string>
   <string name="card_main_hbassistant_title">Red envelope assistant</string>
+  <string name="card_main_hwtest_title">Hardware test</string>
   <string name="card_main_monthreport_action">View</string>
   <string name="card_main_netcheck_action">Test</string>
   <string name="card_main_netcheck_summary">Test connection for networking issues</string>
