@@ -508,10 +508,12 @@
   <string name="card_main_deepclean_wechat_action">Clear</string>
   <string name="card_main_deepclean_wechat_summary">Clear WeChat cache to free up storage space</string>
   <string name="card_main_deepclean_wechat_title">WeChat cache</string>
+  <string name="card_main_deepclean_whatsapp_title">WhatsApp cleaner</string>
   <string name="card_main_gamebooster_summary">Boost connection stability for games</string>
   <string name="card_main_gamebooster_title">Game speed booster</string>
   <string name="card_main_hbassistant_summary">Use this tool to grab the envelopes faster</string>
   <string name="card_main_hbassistant_title">Red envelope assistant</string>
+  <string name="card_main_hwtest_title">Hardware test</string>
   <string name="card_main_monthreport_action">View</string>
   <string name="card_main_netcheck_action">Test</string>
   <string name="card_main_netcheck_summary">Test connection for networking issues</string>
@@ -1913,7 +1915,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="read_all_sms">Read all</string>
   <string name="receive_now">Receive</string>
   <string name="recently_reject_message">Rejected installation of %1$s and %2$d other apps</string>
-  <string name="recently_reject_message_one">Rejected %1$s installation requests</string>
+  <string name="recently_reject_message_one">Rejected %1$s installation request</string>
   <string name="recommend_news">Receive recommendations</string>
   <string name="recommended">Featured</string>
   <string name="reject_all">Restrict all</string>
