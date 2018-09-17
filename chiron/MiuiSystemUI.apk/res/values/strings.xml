@@ -657,7 +657,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_unlock_offset_top">Raise your phone a bit</string>
   <string name="face_unlock_open_eye">Open your eyes a bit wider</string>
   <string name="face_unlock_passwork">Use password</string>
-  <string name="face_unlock_passwork_and_fingerprint">Use password or face data</string>
+  <string name="face_unlock_passwork_and_fingerprint">Use password or fingerprint</string>
   <string name="face_unlock_quality">"Couldn't see your face clearly"</string>
   <string name="face_unlock_reenter_content">Face unlock algorithm is being updated. Tap to record face data again.</string>
   <string name="face_unlock_reenter_title">Record your face data again.</string>
@@ -666,6 +666,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_unlock_rise">Lower your head</string>
   <string name="face_unlock_rotated_left">Turn your head to the right</string>
   <string name="face_unlock_rotated_right">Turn your head to the left</string>
+  <string name="face_unlock_sc_status">Push the screen down to open camera</string>
   <string name="face_unlock_stay_away_screen">Stay 25 to 40cm away from the screen</string>
   <string name="failed_to_open_app_settings_toast">"Couldn't open settings for %1$s"</string>
   <string name="fingerprint_add_text">The fingerprint interface was updated. Add your fingerprint again.</string>
@@ -761,7 +762,7 @@ Once your phone has cooled down, it will run normally."</string>
   <string name="incorrect_pukcode">Incorrect PUK code</string>
   <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
-  <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when FamilyGuard are on"</string>
+  <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
   <string name="input_password_handle_sdcard_fs">"Can't enter Second space from Lock screen. Enter from First space."</string>
   <string name="input_password_hint_text">Enter password</string>
@@ -842,7 +843,7 @@ Use only the supplied charger."</string>
   <string name="keyguard_accessibility_sim_puk_area">SIM PUK area</string>
   <string name="keyguard_carrier_default">No service</string>
   <string name="keyguard_charged">Charged</string>
-  <string name="keyguard_charging_back_to_lockscreen">Back to lock screen</string>
+  <string name="keyguard_charging_back_to_lockscreen">Back to Lock screen</string>
   <string name="keyguard_charging_info_battery_used_time_text">On battery</string>
   <string name="keyguard_charging_info_click_to_detail">View details</string>
   <string name="keyguard_charging_info_data_c">%s℃</string>
@@ -1530,7 +1531,7 @@ be monitored"</string>
   <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
   <string name="status_bar_clock_date_format_12">EEEE, MMMM d</string>
   <string name="status_bar_clock_date_time_format">H:mm MMMM d</string>
-  <string name="status_bar_clock_date_time_format_12">aah:mm MMMM d</string>
+  <string name="status_bar_clock_date_time_format_12">h:mmaa MMMM d</string>
   <string name="status_bar_date_format">"EEEE
 MMMM d"</string>
   <string name="status_bar_date_format_12">"EEEE
@@ -1750,7 +1751,6 @@ Your phone may get too hot if you:
   <string name="usb_debugging_title">Allow USB debugging?</string>
   <string name="usb_device_confirm_prompt">Open %1$s when this USB device is connected?</string>
   <string name="usb_device_permission_prompt">Allow the app %1$s to access the USB device?</string>
-  <string name="usb_function_charging_text">Connected in charging mode</string>
   <string name="usb_mode_dont_ask">Remember this choice</string>
   <string name="usb_mode_mount_storage_title">Open USB storage?</string>
   <string name="usb_mode_notification">USB Storage</string>
