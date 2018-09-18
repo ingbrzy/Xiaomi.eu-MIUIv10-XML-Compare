@@ -960,8 +960,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_first_window_antimsg_summary_quick_answer">Use quick replies</string>
   <string name="gb_first_window_antimsg_summary_transparent_show">See text on transparent background</string>
   <string name="gb_first_window_antimsg_title">Convenient notifications</string>
-  <string name="gb_first_window_gamebox_summary_four">Use quick replies, make screen recordings and screenshots</string>
-  <string name="gb_first_window_gamebox_summary_six">Clear cache, make screen recordings and screenshots</string>
+  <string name="gb_first_window_gamebox_summary_four">Clear cache, make screen recordings and screenshots</string>
+  <string name="gb_first_window_gamebox_summary_six">Use quick replies, make screen recordings and screenshots</string>
   <string name="gb_first_window_handsfree_summary">Turn on speaker automatically</string>
   <string name="gb_first_window_handsfree_title">Hands-free calls</string>
   <string name="gb_first_window_start">Start playing</string>
