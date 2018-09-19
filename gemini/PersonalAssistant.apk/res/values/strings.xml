@@ -1047,6 +1047,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="miot_device_all_device">全部设备</string>
   <string name="miot_device_cancel">取消</string>
   <string name="miot_device_card_title">mi home</string>
+  <string name="miot_device_click_show_detail">点击了解智能家居</string>
   <string name="miot_device_cta_and">及</string>
   <string name="miot_device_cta_message">将智能设备添加至此，实现快捷操控。如您点击“授权开启”则表示您同意米家APP</string>
   <string name="miot_device_cta_priv">隐私协议</string>
