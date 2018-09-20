@@ -39,6 +39,8 @@ Battery saver will treat important apps selectively."</string>
   <string name="failure">Error</string>
   <string name="hide_mode_desc">&lt;font color="#000000"&gt;When an app runs in the background, its activities will be monitored to reduce battery usage. This function will get and use user data according to %s&lt;/font&gt;</string>
   <string name="hide_system_app">Hide system apps</string>
+  <string name="high_temp_state">High temperature</string>
+  <string name="high_temp_state_message">High temperature protection,data,wifiap,gps,camera etc. will be restricted</string>
   <string name="hints_loading_text">Just a sec…</string>
   <string name="important_warning">Attention</string>
   <string name="lasttime_applist_cloud">Updated apps:</string>
