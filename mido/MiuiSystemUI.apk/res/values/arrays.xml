@@ -1191,6 +1191,9 @@
         <item>nitrogen</item>
         <item>whyred</item>
         <item>equuleus</item>
+        <item>perseus</item>
+        <item>platina</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="lockscreen_sc_slide_not_open_camera">
         <item>com.android.camera</item>
