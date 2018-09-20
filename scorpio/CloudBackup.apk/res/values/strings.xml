@@ -93,7 +93,6 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="desktop_wait_wifi">Waiting</string>
   <string name="desktop_waiting">Waiting</string>
   <string name="device_delete_prompt">Delete backup of %s?</string>
-  <string name="device_xiaomi">Mi Phone</string>
   <string name="dialog_btn_next">Next</string>
   <string name="dialog_btn_restore_skip">Restore later</string>
   <string name="dialog_cancel_backup_cancel">Cancel</string>
@@ -110,9 +109,11 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="download_meta_failed">"Couldn't load data."</string>
   <string name="download_settings">Downloading Home screen settings %s%%</string>
   <string name="download_settings_fail">"Couldn't download Home screen settings"</string>
+  <string name="error_retry_later">Failed, retry later please.</string>
   <string name="error_unknown">Something went wrong</string>
   <string name="get_device_id_error">"Couldn't get device ID"</string>
   <string name="home_hint_global_launcher">Poco Home screen</string>
+  <string name="home_hint_other_launcher">Other Home screen</string>
   <string name="home_restore_error">"Couldn't restore Home screen"</string>
   <string name="lack_of_storage">Not enough storage space</string>
   <string name="latest_backup_time_loading">Loading…</string>
@@ -124,7 +125,6 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="miui_device_name">Android</string>
   <string name="msg_alert_cancel_restore">Restoring items. Stop now?</string>
   <string name="msg_alert_restore_error">"Couldn't restore items from Mi Cloud. Try again."</string>
-  <string name="name_model">"%1$s's %2$s"</string>
   <string name="network_error">Connect to network</string>
   <string name="no_account">Not signed in to Mi Account.</string>
   <string name="no_backup">No backups in Mi Cloud.</string>
@@ -171,6 +171,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="title_alert_restore_error">"Couldn't restore"</string>
   <string name="total_space">Total space: %s</string>
   <string name="try_again">Tap to try again</string>
+  <string name="unsupported_home">Please update to latest OS.</string>
   <string name="wait_icon_download">Downloading app icons</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
 </resources>
