@@ -1974,6 +1974,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="emergency_address_title">Emergency Address</string>
   <string name="emergency_info_summary">Info &amp; contacts for %1$s</string>
   <string name="emergency_info_title">Emergency information</string>
+  <string name="emergency_sos_title">Emergency SOS</string>
   <string name="emergency_tone_alert">Tones</string>
   <string name="emergency_tone_silent">Silence</string>
   <string name="emergency_tone_summary">Set behavior when an emergency call is placed</string>

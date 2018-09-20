@@ -63,7 +63,7 @@ and optimizes your photos based on this info"</string>
   <string name="camera_error_title">Camera error</string>
   <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
   <string name="camera_label">Camera</string>
-  <string name="camera_new_slow_motion_quality_default">6</string>
+  <string name="camera_new_slow_motion_quality_default">5</string>
   <string name="camera_setting">Camera</string>
   <string name="camera_settings_label">Camera</string>
   <string name="camera_snap_mode_title">Quick snap mode</string>
@@ -138,7 +138,7 @@ and optimizes your photos based on this info"</string>
   <string name="face_age_info">Age: %d</string>
   <string name="face_beauty_close">Off</string>
   <string name="face_score_info">Score: %.1f</string>
-  <string name="fps960_toast">Slow-motion capture will start when the timer reaches fourth quarter</string>
+  <string name="fps960_toast">Slow-motion capture will start at the last quarter of the recording</string>
   <string name="front_camera_hint_text_place">"Taking selfies will be easier
 if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>

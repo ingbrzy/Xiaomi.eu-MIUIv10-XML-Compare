@@ -1246,6 +1246,14 @@
         <item>com.google.android.dialer</item>
         <item>com.google.android.apps.messaging</item>
     </string-array>
+    <string-array name="webview_list">
+        <item>com.tencent.tbs.core.webkit.WebView</item>
+        <item>com.miui.webkit.WebView</item>
+        <item>com.uc.webkit.bf</item>
+        <item>com.baidu.webkit.sdk.WebView</item>
+        <item>com.sogou.webkit.WebView</item>
+        <item>com.qihoo.webkit.WebView</item>
+    </string-array>
     <string-array name="wfcOperatorErrorAlertMessages">
         <item>To make calls and send messages over WLAN, first ask your carrier to set up this service. Then turn on WLAN calling again from Settings. (Error code: %1$s)</item>
     </string-array>
