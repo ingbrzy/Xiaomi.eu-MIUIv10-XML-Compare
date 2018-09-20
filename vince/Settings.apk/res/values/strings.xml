@@ -112,6 +112,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="accessibility_services_title">Services</string>
   <string name="accessibility_settings">Accessibility</string>
   <string name="accessibility_settings_title">Accessibility settings</string>
+  <string name="accessibility_summary_source">Provided by %s</string>
   <string name="accessibility_sync_disabled">Sync disabled</string>
   <string name="accessibility_sync_enabled">Sync enabled</string>
   <string name="accessibility_sync_error">Sync error.</string>
@@ -800,15 +801,19 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bootloader_device_bind_fail">"Couldn't verify, wait a minute or two and try again"</string>
   <string name="bootloader_device_bind_msg">Preparing to add account and device…</string>
   <string name="bootloader_device_bind_no_account">Sign in to your Mi Account first</string>
+  <string name="bootloader_device_bind_no_data_network">Turn off WLAN and add your account and device using mobile data.</string>
   <string name="bootloader_device_bind_no_network">Connect to the network and try again</string>
   <string name="bootloader_device_bind_no_sim">Insert SIM card and try again.</string>
   <string name="bootloader_device_bind_server_code">"Couldn't add. Error code:"</string>
+  <string name="bootloader_device_bind_server_token_expired_1">"Couldn't verify. Try adding your account and device again."</string>
+  <string name="bootloader_device_bind_server_token_expired_2">"Couldn't verify. Sign in to your account again and start over."</string>
   <string name="bootloader_device_bind_sim_invalid">SIM card is invalid. Replace it and try again.</string>
   <string name="bootloader_locked_answer_1">"We lock devices to make sure they are secure and your personal info isn't disclosed to third parties. If you need to enter Fastboot mode and flash your device, you can unlock it."</string>
   <string name="bootloader_locked_answer_1_warning">"Remember: You won't be able to use \"Find device\" after the phone is unlocked."</string>
   <string name="bootloader_locked_answer_2">"1. Make sure you've already inserted a SIM card into your device.
-2. Tap \"Add account\" below to associate your Mi Account with this device.
-3. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
+2. Turn off WLAN and turn on mobile data. Make sure your device can connect to the internet using mobile data.
+3. Tap \"Add account\" below to associate your Mi Account with this device.
+4. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
   <string name="bootloader_locked_answer_2_no_sim">"1. Tap \"Add account\" below to associate your Mi Account with this device.
 2. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
   <string name="bootloader_locked_check_status">Add account and device</string>
@@ -1097,6 +1102,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="credentials_reset_warning_plural">Incorrect password. You have %1$d more chances before credential storage is erased.</string>
   <string name="credentials_settings_not_available">Credentials are not available for this user</string>
   <string name="credentials_title">Credential storage</string>
+  <string name="credentials_title_verification">Verification</string>
   <string name="credentials_unlock"/>
   <string name="credentials_unlock_hint">Type the password for credential storage.</string>
   <string name="credentials_wrong_password">Incorrect password.</string>
@@ -1655,8 +1661,8 @@ This helps protect data on lost or stolen devices."</string>
   <string name="factory_reset_summary">"Erase all data from your phone's internal storage"</string>
   <string name="failed_to_check_find_device_status_content">"Couldn't check find device status. Wait a minute or two and try again."</string>
   <string name="failed_to_check_find_device_status_title">"Couldn't check status"</string>
-  <string name="failed_to_erase_text">Please turn off lock screen password before performing 1217 operation.</string>
-  <string name="failed_to_erase_title">Forbidden operation</string>
+  <string name="failed_to_erase_text">Turn off your Lock screen password before entering the \"1217\" code.</string>
+  <string name="failed_to_erase_title">"Can't complete this action"</string>
   <string name="failed_to_open_app_settings_toast">Failed to open settings for %1$s</string>
   <string name="failed_to_shut_down_find_device_content">"Couldn't turn off Find device. Wait a minute or two and try again."</string>
   <string name="failed_to_shut_down_find_device_title">"Couldn't turn off"</string>
@@ -2595,6 +2601,7 @@ There are other users present on this device.
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
   <string name="mi_upi_settings">Mi Pay Account</string>
+  <string name="mipush_fake_channel_group_name">Mi Push</string>
   <string name="misc_files">Misc files</string>
   <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
   <string name="misc_files_selected_count_bytes">%1$s out of %2$s</string>
@@ -2749,7 +2756,7 @@ Select your operating system:"</string>
   <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
   <string name="navigation_guide_app_title">"Trigger app's action"</string>
   <string name="navigation_guide_appswitch_anim_summary">Swipe across the screen starting from the edge to go back to previous app</string>
-  <string name="navigation_guide_appswitch_anim_title">Switch to previous app</string>
+  <string name="navigation_guide_appswitch_anim_title">Go back to previous app</string>
   <string name="navigation_guide_appswitch_click">Turn on \"Go back to previous app\" first</string>
   <string name="navigation_guide_appswitch_summary">Swipe left or right from the edge of the screen and hold for a while</string>
   <string name="navigation_guide_appswitch_title">Switch to previous app</string>
@@ -3906,8 +3913,8 @@ To use screen pinning:
   <string name="security_encryption_progress_dialog_open">Encrypting…</string>
   <string name="security_encryption_rejected_via_home_manager">"This feature isn't supported in the demo version."</string>
   <string name="security_encryption_title">Encrypt device using Lock screen password</string>
-  <string name="security_input">Security input</string>
-  <string name="security_input_hint">Using security keyboard enter password</string>
+  <string name="security_input">Secure keyboard</string>
+  <string name="security_input_hint">Use secure keyboard when you enter passwords</string>
   <string name="security_keyguard_category_name">Lock screen</string>
   <string name="security_password_category_name">Screen lock</string>
   <string name="security_passwords_title">Passwords</string>
@@ -4232,7 +4239,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
-  <string name="status_bar_settings_customer_feedback">feedback</string>
+  <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
