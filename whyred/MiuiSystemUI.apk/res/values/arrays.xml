@@ -409,6 +409,9 @@
         <item>nitrogen</item>
         <item>whyred</item>
         <item>equuleus</item>
+        <item>perseus</item>
+        <item>platina</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="device_use_cameraone">
         <item>jason</item>
@@ -718,6 +721,7 @@
         <item>VN</item>
         <item>AE</item>
         <item>QA</item>
+        <item>UA</item>
     </string-array>
     <string-array name="region_global_support_face_sensetime">
         <item>IN</item>
