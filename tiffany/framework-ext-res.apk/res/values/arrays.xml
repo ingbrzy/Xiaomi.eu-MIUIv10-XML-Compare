@@ -69,6 +69,7 @@
         <item>com.android.deskclock</item>
         <item>com.miui.voiceassist</item>
         <item>com.xiaomi.drivemode</item>
+        <item>com.caiharbor.esim</item>
     </string-array>
     <string-array name="process_camera_boost_protect_list">
         <item>android.process.media</item>
@@ -186,6 +187,7 @@
         <item>com.kiteguard</item>
         <item>com.xiaomi.discover</item>
         <item>com.orange.phone</item>
+        <item>com.android.stk</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />
