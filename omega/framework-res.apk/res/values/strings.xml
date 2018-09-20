@@ -1328,6 +1328,7 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="system_ui_date_pattern">@string/icu_abbrev_wday_month_day_no_year</string>
   <string name="terabyteShort">TB</string>
   <string name="tethered_notification_message">Touch to set up.</string>
+  <string name="tethered_notification_no_device_message">No connected device</string>
   <string name="tethered_notification_title">Tethering or hotspot active</string>
   <string name="textSelectionCABTitle">Text selection</string>
   <string name="text_copied">Text copied to clipboard.</string>
