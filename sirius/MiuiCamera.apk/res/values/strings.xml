@@ -63,7 +63,7 @@ and optimizes your photos based on this info"</string>
   <string name="camera_error_title">Camera error</string>
   <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
   <string name="camera_label">Camera</string>
-  <string name="camera_new_slow_motion_quality_default">6</string>
+  <string name="camera_new_slow_motion_quality_default">5</string>
   <string name="camera_setting">Camera</string>
   <string name="camera_settings_label">Camera</string>
   <string name="camera_snap_mode_title">Quick snap mode</string>
@@ -138,7 +138,7 @@ and optimizes your photos based on this info"</string>
   <string name="face_age_info">Age: %d</string>
   <string name="face_beauty_close">Off</string>
   <string name="face_score_info">Score: %.1f</string>
-  <string name="fps960_toast">Slow-motion capture will start when the timer reaches the white dot</string>
+  <string name="fps960_toast">Slow-motion capture will start at the last quarter of the recording</string>
   <string name="front_camera_hint_text_place">"Taking selfies will be easier
 if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>
@@ -431,9 +431,9 @@ and brings out the people in the front."</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
-  <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720P videos with 240FPS</string>
-  <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080P</string>
-  <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720P</string>
+  <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720p videos with 240fps</string>
+  <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
+  <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
   <string name="pref_priority_storage_title">Save to SD card</string>
   <string name="pref_qc_focus_position_title">F</string>
   <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
@@ -460,12 +460,12 @@ and brings out the people in the front."</string>
   <string name="pref_video_hfr_entryvalue_default">1920x1080:120</string>
   <string name="pref_video_hfr_title">Video HFR</string>
   <string name="pref_video_quality_default">6</string>
-  <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
-  <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
-  <string name="pref_video_quality_entry_480p">SD 480P</string>
+  <string name="pref_video_quality_entry_1080p">FHD 1080p, 30fps</string>
+  <string name="pref_video_quality_entry_1080p_60fps">FHD 1080p, 60fps</string>
+  <string name="pref_video_quality_entry_480p">SD 480p</string>
   <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
   <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
-  <string name="pref_video_quality_entry_720p">HD 720P</string>
+  <string name="pref_video_quality_entry_720p">HD 720p</string>
   <string name="pref_video_quality_entry_value_1080p_60fps">6,60</string>
   <string name="pref_video_quality_entry_value_4kuhd">8</string>
   <string name="pref_video_quality_entry_value_4kuhd_60fps">8,60</string>
@@ -502,6 +502,7 @@ and brings out the people in the front."</string>
   <string name="start_capture">OK</string>
   <string name="sticker_tab1">Cute</string>
   <string name="sticker_tab2">Funny</string>
+  <string name="super_night_toast">Taking a photo, please hold your phone</string>
   <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
   <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
   <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
