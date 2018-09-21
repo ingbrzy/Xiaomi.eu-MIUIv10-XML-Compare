@@ -1459,6 +1459,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
   <string name="delete_rule">Remove rules</string>
   <string name="delete_saved_network">Delete saved networks</string>
+  <string name="delete_sound_effect">\"Delete\" sound</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="deletion_helper_automatic_title">Automatic</string>
   <string name="deletion_helper_manual_title">Manual</string>

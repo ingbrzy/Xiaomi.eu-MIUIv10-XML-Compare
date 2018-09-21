@@ -692,6 +692,7 @@
         <item>SG</item>
         <item>MY</item>
         <item>VN</item>
+        <item>UA</item>
     </string-array>
     <string-array name="region_global_support_face_sensetime">
         <item>IN</item>
