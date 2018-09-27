@@ -131,7 +131,7 @@ and optimizes your photos based on this info"</string>
   <string name="eye_light_comic">Comic eye light</string>
   <string name="eye_light_crescent">Crescent eye light</string>
   <string name="eye_light_nature">Nature eye light</string>
-  <string name="eye_light_off">Eye light is off</string>
+  <string name="eye_light_off"/>
   <string name="eye_light_rainbow">Rainbow eye light</string>
   <string name="eye_light_star">Star eye light</string>
   <string name="eye_light_window">Window eye light</string>

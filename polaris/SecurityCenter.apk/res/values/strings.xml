@@ -1352,8 +1352,8 @@ to respond"</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_service_traffic_detail">Framework details</string>
   <string name="mian_page_primary_txt">Overseas roaming</string>
-  <string name="midrop_post_notification_contentText">"Try Mi Drop. It's fast and ad-free."</string>
-  <string name="midrop_post_notification_contentTitle">Need to transfer files?</string>
+  <string name="midrop_post_notification_contentText">Try out Mi drop, with transfer speed upto 50M/s.</string>
+  <string name="midrop_post_notification_contentTitle">Files share?</string>
   <string name="miliao_lucky_warning">米聊红包</string>
   <string name="mixed_need_to_confirm">Enter again to confirm</string>
   <string name="mixed_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>

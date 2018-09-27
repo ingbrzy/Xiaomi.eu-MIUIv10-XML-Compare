@@ -1804,6 +1804,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="dialog_title_hdmi_color_calibration">Color correction preset</string>
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
+  <string name="digital_clock_dot">:</string>
   <string name="direct_boot_unaware_dialog_message">"Note: You'll be able to use this keyboard after a reboot only if you unlock your device."</string>
   <string name="directory_access">Directory access</string>
   <string name="directory_on_volume">%1$s (%2$s)</string>
@@ -2211,6 +2212,7 @@ For more details, contact your organization's admin."</string>
   <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_recognized">Not recognized</string>
+  <string name="fingerprint_others_title">Other</string>
   <string name="fingerprint_payment">Fingerprint payments</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
   <string name="fingerprint_swipe_for_notifications_suggestion_title">See notifications quickly</string>
@@ -2403,6 +2405,11 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_message">Press the screen and lift your finger after you feel vibration. Repeat several times.</string>
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
+  <string name="gxzw_anim_light">Neon</string>
+  <string name="gxzw_anim_metal">Metal</string>
+  <string name="gxzw_anim_pulse">Pulse</string>
+  <string name="gxzw_anim_rhythm">Rhythm</string>
+  <string name="gxzw_anim_title">Fingerprint animation</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -2950,7 +2957,7 @@ as your First space PIN."</string>
   <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
  for Second space"</string>
   <string name="lockpassword_choose_your_pin_message">For security, set PIN</string>
-  <string name="lockpassword_choose_your_pin_title">Enter 4-16 digits</string>
+  <string name="lockpassword_choose_your_pin_title" formatted="false">Enter %d-%d digits</string>
   <string name="lockpassword_choose_your_screen_lock_header">Set screen lock</string>
   <string name="lockpassword_clear_label">Clear</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
@@ -3220,6 +3227,7 @@ There are other users present on this device.
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_pay">Mi Wallet</string>
   <string name="mi_pay_summary">Bus Card/Mi Pay/Card Emulator</string>
+  <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
   <string name="mi_upi_settings">Mi Pay Account</string>
@@ -4722,6 +4730,8 @@ To use screen pinning:
   <string name="security_encryption_progress_dialog_open">Encrypting…</string>
   <string name="security_encryption_rejected_via_home_manager">"This feature isn't supported in the demo version."</string>
   <string name="security_encryption_title">Encrypt device using Lock screen password</string>
+  <string name="security_input">Security input</string>
+  <string name="security_input_hint">Using security keyboard enter password</string>
   <string name="security_keyguard_category_name">Lock screen</string>
   <string name="security_password_category_name">Screen lock</string>
   <string name="security_passwords_title">Privacy</string>
@@ -5696,7 +5706,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter 4-16 numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary" formatted="false">Enter %d-%d numbers to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
