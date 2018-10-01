@@ -1080,7 +1080,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="miuishare_share_editor_title">Share</string>
   <string name="miuishare_title_more">More</string>
   <string name="miuishare_title_share">Share</string>
-  <string name="miuishare_wechat_timeline_title">WeChat Moments</string>
+  <string name="miuishare_wechat_timeline_title">WeChat Battery</string>
   <string name="miuishare_weibo_title">Weibo</string>
   <string name="month_day_format">MM/dd</string>
   <string name="month_day_hour_minute_format_en">MM/dd HH:mm</string>
@@ -1620,7 +1620,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="wx_paycode">Payment</string>
   <string name="wx_photo">Photo</string>
   <string name="wx_scan">Scanner</string>
-  <string name="wx_timeline">Moments</string>
+  <string name="wx_timeline">Battery</string>
   <string name="xiaomi_search_label">Search</string>
   <string name="xspace_resolver_activity_title">Select app</string>
   <string name="year_month_day_all_format_en">MM/dd/yyyy HH:mm:ss</string>
