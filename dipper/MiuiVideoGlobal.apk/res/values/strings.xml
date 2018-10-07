@@ -2,7 +2,7 @@
 <resources>
   <string name="CAST_ID">9790E03C</string>
   <string name="CM_append_value"/>
-  <string name="PLAYABLE_URL">https://n-pvt.hungama.com/v2/movieapp/playable_client.php?id=@CONTENT_ID@&amp;action=ww</string>
+  <string name="PLAYABLE_URL">http://mapi.hungama.com/v2/movieapp/playable_client.php?id=@CONTENT_ID@&amp;action=ww</string>
   <string name="abc_action_bar_home_description">Navigate home</string>
   <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
   <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -61,13 +61,15 @@
   <string name="cast_casting_to_device">Casting to %1$s</string>
   <string name="cast_closed_captions">Closed captions</string>
   <string name="cast_closed_captions_unavailable">Closed captions unavailable</string>
+  <string name="cast_connecting_to_device">Connecting to %1$s</string>
   <string name="cast_disconnect">Disconnect</string>
   <string name="cast_expanded_controller_ad_image_description">Image displayed while the cast receiver is playing an ad</string>
   <string name="cast_expanded_controller_ad_in_progress">Ad in progress…</string>
   <string name="cast_expanded_controller_background_image">Album art</string>
   <string name="cast_expanded_controller_live_stream_indicator">Live stream</string>
   <string name="cast_expanded_controller_loading">Loading…</string>
-  <string name="cast_expanded_controller_skip_ad_label">Skip</string>
+  <string name="cast_expanded_controller_skip_ad_label">Skip Ad</string>
+  <string name="cast_expanded_controller_skip_ad_text">You can skip ad in %1$d…</string>
   <string name="cast_forward">Forward</string>
   <string name="cast_forward_10">Forward ten seconds</string>
   <string name="cast_forward_30">Forward thirty seconds</string>
@@ -77,6 +79,7 @@
   <string name="cast_mute">Mute</string>
   <string name="cast_notification_connected_message">Connected to %1$s</string>
   <string name="cast_notification_connecting_message">Connecting to %1$s</string>
+  <string name="cast_notification_default_channel_name">Cast</string>
   <string name="cast_notification_disconnect">Disconnect</string>
   <string name="cast_pause">Pause</string>
   <string name="cast_play">Play</string>
@@ -107,6 +110,7 @@
   <string name="common_google_play_services_install_button">Install</string>
   <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
   <string name="common_google_play_services_install_title">Get Google Play services</string>
+  <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
   <string name="common_google_play_services_notification_ticker">Google Play services error</string>
   <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
   <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
@@ -152,7 +156,7 @@
   <string name="exo_controls_previous_description">Previous track</string>
   <string name="exo_controls_rewind_description">Rewind</string>
   <string name="exo_controls_stop_description">Stop</string>
-  <string name="explore_On">Explore On</string>
+  <string name="explore_on_mi_video">Find more on Mi Video</string>
   <string name="finish">Done</string>
   <string name="flush_period">120000</string>
   <string name="for_you">For you</string>
@@ -177,6 +181,8 @@
   <string name="logging_verbose">Verbose</string>
   <string name="login">Sign in</string>
   <string name="lp_base_folder">SD card</string>
+  <string name="lp_speed_title">Playback speed</string>
+  <string name="lp_speed_toast">Playing at %sX speed…</string>
   <string name="lp_videoView_error_button">Got it</string>
   <string name="lp_videoView_error_text_unknown">"Can't play this video."</string>
   <string name="lp_videoView_error_title">"Can't play"</string>
@@ -404,8 +410,8 @@
   <string name="pull_to_refresh_pull_label">Pull down to refresh…</string>
   <string name="pull_to_refresh_refreshing_label">Just a sec…</string>
   <string name="pull_to_refresh_release_label">Release to refresh…</string>
-  <string name="push_message_switch">Push message</string>
-  <string name="push_message_tips">Turn on to get push message</string>
+  <string name="push_message_switch">Push notifications</string>
+  <string name="push_message_tips">Turn on to receive push notifications</string>
   <string name="pw_category">Categories</string>
   <string name="pw_click_channel_scrol_to_top">Tap again to go back on top</string>
   <string name="pw_comment_back">Back</string>
@@ -447,8 +453,8 @@ Check out other videos!"</string>
   <string name="pw_video_history">Playback history</string>
   <string name="pw_video_mine">My videos</string>
   <string name="pw_video_offline">Local videos</string>
-  <string name="recommend_online_switch">Online recommendation</string>
-  <string name="recommend_online_tips">Turn on to get recommended online video</string>
+  <string name="recommend_online_switch">Online recommendations</string>
+  <string name="recommend_online_tips">Turn on to receive online video recommendations</string>
   <string name="recommend_page_replay">REPLAY</string>
   <string name="recordForReadIntervalDelaySeconds">60</string>
   <string name="retry">Try again</string>
@@ -459,6 +465,7 @@ Check out other videos!"</string>
   <string name="s4">Decline</string>
   <string name="s5">Create calendar event</string>
   <string name="s6">Allow Ad to create a calendar event?</string>
+  <string name="s7">Test Ad</string>
   <string name="save">Save</string>
   <string name="screenrecord_cancel">Compatibility issues</string>
   <string name="screenrecord_nosupport_record">"Screen recorder isn't currently supported on this device."</string>
@@ -469,11 +476,16 @@ Check out other videos!"</string>
   <string name="selectnull">Deselect all</string>
   <string name="sender_id">XXXXX</string>
   <string name="session_create_error">Server returned SESSION CREATE ERROR code, please contact SDK developers!</string>
+  <string name="share">Share</string>
+  <string name="share_ugc_content">Take a look at %1$s! #%2$s (%3$s)</string>
+  <string name="share_ugc_join">Join In</string>
+  <string name="share_ugc_waitting">Generating link…</string>
   <string name="signup_type_silent_default">silent</string>
   <string name="signup_type_user_default">LoginSDK consumer</string>
   <string name="silent_username_limit">50</string>
   <string name="status_bar_notification_info_overflow">999+</string>
   <string name="storage_permission_denied">Permission to access storage was denied</string>
+  <string name="switch_ratio_pause">Playback speed is unstable. Switching back to the default speed…</string>
   <string name="symbol_rmb">¥</string>
   <string name="t_downloading">Downloading:</string>
   <string name="t_exit_app">Tap again to exit.</string>
@@ -489,7 +501,7 @@ Check out other videos!"</string>
   <string name="t_lv_subtitle_padding_default_hint">Adjusting subtitles…</string>
   <string name="t_network_error">A network error occurred.</string>
   <string name="t_ovp_check_delete_favor">Select items to remove</string>
-  <string name="t_start_download">Start downloading:</string>
+  <string name="t_start_download">Starting to download:</string>
   <string name="tag_index">tag_index</string>
   <string name="tag_key">tag_key</string>
   <string name="tag_object">tag_object</string>
