@@ -1804,6 +1804,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="dialog_title_hdmi_color_calibration">Color correction preset</string>
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
+  <string name="digital_clock_dot">:</string>
   <string name="direct_boot_unaware_dialog_message">"Note: You'll be able to use this keyboard after a reboot only if you unlock your device."</string>
   <string name="directory_access">Directory access</string>
   <string name="directory_on_volume">%1$s (%2$s)</string>
@@ -2210,6 +2211,7 @@ For more details, contact your organization's admin."</string>
   <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_recognized">Not recognized</string>
+  <string name="fingerprint_others_title">Other</string>
   <string name="fingerprint_payment">Fingerprint payments</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
   <string name="fingerprint_swipe_for_notifications_suggestion_title">See notifications quickly</string>
@@ -2402,6 +2404,11 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_message">Press the screen and lift your finger after you feel vibration. Repeat several times.</string>
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
+  <string name="gxzw_anim_light">Neon</string>
+  <string name="gxzw_anim_metal">Metal</string>
+  <string name="gxzw_anim_pulse">Pulse</string>
+  <string name="gxzw_anim_rhythm">Rhythm</string>
+  <string name="gxzw_anim_title">Fingerprint animation</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>

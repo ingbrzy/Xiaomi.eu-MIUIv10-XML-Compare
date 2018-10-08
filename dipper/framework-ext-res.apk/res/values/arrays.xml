@@ -73,6 +73,8 @@
     </string-array>
     <string-array name="process_camera_boost_protect_list">
         <item>android.process.media</item>
+        <item>com.miui.gallery</item>
+        <item>com.android.systemui:sliderview</item>
     </string-array>
     <item type="array" name="android_config_keyboardTapVibePattern">@android:array/config_keyboardTapVibePattern</item>
     <item type="array" name="android_config_longPressVibePattern">@android:array/config_longPressVibePattern</item>

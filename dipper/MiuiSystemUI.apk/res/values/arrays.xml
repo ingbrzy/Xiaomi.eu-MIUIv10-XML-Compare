@@ -723,8 +723,16 @@
         <item>HK</item>
         <item>TW</item>
         <item>SG</item>
-        <item>VN</item>
         <item>MY</item>
+        <item>VN</item>
+        <item>TH</item>
+        <item>IT</item>
+        <item>FR</item>
+        <item>NP</item>
+        <item>LK</item>
+        <item>BD</item>
+        <item>QA</item>
+        <item>BE</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>
