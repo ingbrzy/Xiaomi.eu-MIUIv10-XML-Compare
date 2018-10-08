@@ -287,6 +287,11 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="agps_roaming_dia_title">Use A-GPS when roaming</string>
   <string name="agps_roaming_summary">Use mobile data to assist GPS while roaming</string>
   <string name="ai_button_title">Mi AI button</string>
+  <string name="ai_settings_double_click_category">Double press AI button</string>
+  <string name="ai_settings_double_click_title">Double press</string>
+  <string name="ai_settings_long_press_des">长按AI键和谷歌语音助手讲话,松手可得到答案</string>
+  <string name="ai_settings_single_click_category">Press AI button</string>
+  <string name="ai_settings_single_click_title">Press</string>
   <string name="airplane_mode">Airplane mode</string>
   <string name="alarm_ringtone_title">Default alarm sound</string>
   <string name="alarm_sound_dialog_title">Choose alarm sound</string>
@@ -2410,6 +2415,10 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_anim_pulse">Pulse</string>
   <string name="gxzw_anim_rhythm">Rhythm</string>
   <string name="gxzw_anim_title">Fingerprint animation</string>
+  <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
+  <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
+  <string name="gxzw_dialog_ok">Got it</string>
+  <string name="gxzw_dialog_title">About in-screen fingerprint sensor</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -3060,6 +3069,7 @@ as your First space PIN."</string>
   <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with Mi Cloud.</string>
   <string name="login_account_dialog_title">Sign in with Mi Account</string>
   <string name="login_action">Sign in</string>
+  <string name="long_press_AI_button">Press and hold AI button</string>
   <string name="long_press_back_key">Long press the Back button</string>
   <string name="long_press_buttom_key">Long press Home on the Lock screen</string>
   <string name="long_press_home_key">Long press the Home button</string>

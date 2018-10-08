@@ -40,6 +40,15 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+    <string-array name="ai_key_item_name">
+        <item>唤醒谷歌语音助手</item>
+        <item>开启相机-后摄</item>
+        <item>开启相机-前摄</item>
+        <item>打开上一个应用</item>
+        <item>打开手电筒</item>
+        <item>打开夜间模式</item>
+        <item>无</item>
+    </string-array>
     <string-array name="alarm_repeat_type">
         <item>Every day</item>
         <item>Weeknights</item>
@@ -2586,13 +2595,19 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Standard</item>
     </string-array>
     <integer-array name="screen_resolution">
-        <item>3686400</item>
-        <item>2073600</item>
+        <item>1440</item>
+        <item>1080</item>
+        <item>720</item>
     </integer-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
         <item>@string/screen_resolution_high_format</item>
         <item>@string/screen_resolution_normal_format</item>
+    </string-array>
+    <string-array name="screen_resolution_text">
+        <item>2K</item>
+        <item>1080P</item>
+        <item>720P</item>
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Brilliant</item>

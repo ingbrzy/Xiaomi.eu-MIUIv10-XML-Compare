@@ -405,6 +405,7 @@ When calibrating, make sure there's nothing between the sensor and your hand (e.
   <string name="cit_proximity_us_sensitivity">Sensitivity:</string>
   <string name="cit_proximity_us_summary">Ultrasound Proximity Sensor Calibration</string>
   <string name="cit_rear_dual_camera_check_title">Rear dual camera</string>
+  <string name="cit_rear_dual_second_camera_check_title">dual second camera</string>
   <string name="cit_rear_sub_camera_check_summary">"Test instructions:
 
 1.Tap the Camera button below to enter rear sub Camera interface
@@ -412,6 +413,7 @@ When calibrating, make sure there's nothing between the sensor and your hand (e.
 3.System will save the photo automatically after capture
 4.The photo you took must be displayed on the screen, Tap Delete to complete the test."</string>
   <string name="cit_rear_sub_camera_check_title">Rear sub camera</string>
+  <string name="cit_rear_sub_second_camera_check_title">rear sub second camera</string>
   <string name="cit_recovery_signature_failed">recovery signature FAILED</string>
   <string name="cit_recovery_signature_passed">recovery signature PASSED</string>
   <string name="cit_reset_check_summary">This test will reboot the device. All previous test data will be lost.</string>
