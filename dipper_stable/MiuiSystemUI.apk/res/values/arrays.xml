@@ -357,6 +357,7 @@
         <item>nitrogen</item>
         <item>platina</item>
         <item>vince</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -377,6 +378,7 @@
         <item>gemini</item>
         <item>platina</item>
         <item>capricorn</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -399,6 +401,9 @@
         <item>chiron</item>
         <item>nitrogen</item>
         <item>whyred</item>
+        <item>equuleus</item>
+        <item>platina</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="device_use_cameraone">
         <item>jason</item>
@@ -423,6 +428,7 @@
         <item>sirius</item>
         <item>ursa</item>
         <item>beryllium</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>None</item>
@@ -699,8 +705,11 @@
         <item>HK</item>
         <item>TW</item>
         <item>SG</item>
-        <item>VN</item>
         <item>MY</item>
+        <item>VN</item>
+        <item>TH</item>
+        <item>IT</item>
+        <item>FR</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>
