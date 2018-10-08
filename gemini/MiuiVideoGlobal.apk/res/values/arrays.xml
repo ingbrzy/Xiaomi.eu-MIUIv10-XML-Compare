@@ -77,6 +77,14 @@
         <item>@array/Feedback</item>
         <item>@array/Setting</item>
     </array>
+    <array name="navigation_menu_items_without_feedback">
+        <item>@array/home</item>
+        <item>@array/history</item>
+        <item>@array/MyFavorites</item>
+        <item>@array/LocalVideo</item>
+        <item>@array/Category</item>
+        <item>@array/Setting</item>
+    </array>
     <string-array name="playback_streaming_quality">
         <item>Auto</item>
         <item>Low</item>
