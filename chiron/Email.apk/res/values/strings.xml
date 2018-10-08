@@ -172,6 +172,7 @@
   <string name="add_account_keywords">Add account;add mail account</string>
   <string name="add_attachment">Add attachment</string>
   <string name="add_calendar">Remind</string>
+  <string name="add_file_exception">Add exception. Please try adding from other paths.</string>
   <string name="add_label">Add folder</string>
   <string name="add_pre_message_attachments">Add the attachments of pre-message?</string>
   <string name="add_pre_message_attachments_no">"Don't add"</string>
