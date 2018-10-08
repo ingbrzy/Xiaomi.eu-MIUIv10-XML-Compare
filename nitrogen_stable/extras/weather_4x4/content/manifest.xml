@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gadget version="1" resDensity="480" extraResources="sw1440-den640::1.222" extraScaleByDensity="640:1.222" useVariableUpdater="DateTime.Hour">
+    <Var name="hour_counter" expression="#hour12" threshold="1">
+        <Trigger>
+            <BinderCommand name="weather_provider" command="refresh"/>
+        </Trigger>
+    </Var>
+    <VariableBinders>
+         <ContentProviderBinder
+            name="weather_provider"
+            uri="content://weather/weather"
+            columns="city_id,city_name,weather_type,forecast_type,aqilevel,temperature,tmphighs,tmplows"
+            countName="hasweather">
+             <Variable name="weather_location_id" type="string" column="city_id"/>
+             <Variable name="weather_location" type="string" column="city_name"/>
+             <Variable name="weather_id" type="int" column="weather_type"/>
+             <Variable name="weather_id1" type="int" column="weather_type" row="1"/>
+             <Variable name="weather_id2" type="int" column="weather_type" row="2"/>
+             <Variable name="weather_id3" type="int" column="weather_type" row="3"/>
+			 
+             <Variable name="weather_forecast_id" type="int" column="forecast_type"/>
+             <Variable name="weather_aqilevel" type="int" column="aqilevel"/>
+             <Variable name="weather_temperature" type="int" column="temperature"/>
+             <Variable name="weather_temphigh" type="int" column="tmphighs"/>
+             <Variable name="weather_templow" type="int" column="tmplows"/>
+             <Variable name="weather_forecast_id1" type="int" column="forecast_type" row="1"/>
+             <Variable name="weather_temphigh1" type="int" column="tmphighs" row="1"/>
+             <Variable name="weather_templow1" type="int" column="tmplows" row="1"/>
+             <Variable name="weather_forecast_id2" type="int" column="forecast_type" row="2"/>
+             <Variable name="weather_temphigh2" type="int" column="tmphighs" row="2"/>
+             <Variable name="weather_templow2" type="int" column="tmplows" row="2"/>
+             <Variable name="weather_forecast_id3" type="int" column="forecast_type" row="3"/>
+             <Variable name="weather_temphigh3" type="int" column="tmphighs" row="3"/>
+             <Variable name="weather_templow3" type="int" column="tmplows" row="3"/>
+         </ContentProviderBinder>
+         <ContentProviderBinder
+            uri="content://weather/selected_city"
+            columns="flag"
+            whereFormat="posID='%s'" whereParas="@weather_location_id"
+            dependency="weather_provider">
+             <Variable name="is_location_city" type="int" column="flag"/>
+         </ContentProviderBinder>
+    </VariableBinders>
+    <Var name="weather_description" expression="eval('@weather_type_'+#weather_id)" type="string"/>
+    <Var name="weather_description1" expression="eval('@weather_type_'+#weather_id1)" type="string"/>
+    <Var name="weather_description2" expression="eval('@weather_type_'+#weather_id2)" type="string"/>
+    <Var name="weather_description3" expression="eval('@weather_type_'+#weather_id3)" type="string"/>
+	<Var name="weather_description_null" expression="eval(@weather_type_null)" type="string"/>
+	
+    <Var name="weather_aqi" expression="eval(ifelse(le(#weather_aqilevel,0),@aqi_pure,le(#weather_aqilevel,50),@aqi_good,le(#weather_aqilevel,100),@aqi_moderate,le(#weather_aqilevel,150),@aqi_pollution,le(#weather_aqilevel,200),@aqi_unhealthy,le(#weather_aqilevel,300),@aqi_dangerous,lt(#weather_aqilevel,500),@aqi_hazardous,@aqi_break))" type="string"/>
+
+    <!--debug-->
+    <!--<Text format="weather_id: %d\nweather_forecast_id: %d\nweather_location: %s\nweather_description: %s\nweather_aqilevel: %d\nweather_temperature: %d\nweather_templow: %d\nweather_temphigh: %d" paras="#weather_id,#weather_forecast_id,@weather_location,@weather_description,#weather_aqilevel,#weather_temperature,#weather_templow,#weather_temphigh" size="30" color="#00ff00" multiLine="true"/>-->
+
+    <Var name="datetime2" type="string" expression="formatDate('M月d日',#time_sys+86400000*2)"/>
+    <Var name="datetime3" type="string" expression="formatDate('M月d日',#time_sys+86400000*3)"/>
+    <Var name="color" type="string" expression="ifelse(#applied_light_wallpaper,'#88000000','#ffffffff')"/>
+    <Var name="light_color" type="string" expression="ifelse(#applied_light_wallpaper,'#50000000','#80ffffff')"/>
+    <Var name="line_color" type="string" expression="ifelse(#applied_light_wallpaper,'#33000000','#80ffffff')"/>
+	
+    <!-- top fragment -->
+    <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/weather.png'" srcid="ifelse(gt(#weather_id,24)+lt(#weather_id,0),10000,#weather_id)" x="#view_width/2" y="235" align="center" alignV="center" visibility="#hasweather"/>
+    <Text enableFontScale="true" textExp="@weather_description+' '+eval(ifelse(le(#weather_aqilevel,0),@aqi_pure,le(#weather_aqilevel,50),@aqi_good,le(#weather_aqilevel,100),@aqi_moderate,le(#weather_aqilevel,150),@aqi_pollution,le(#weather_aqilevel,200),@aqi_unhealthy,le(#weather_aqilevel,300),@aqi_dangerous,lt(#weather_aqilevel,500),@aqi_hazardous,@aqi_break))" x="#view_width/2"  y="375" align="center" size="48" color="@color" visibility="#hasweather"/>
+    <Text enableFontScale="true" textExp="@weather_description_null" x="#view_width/2"  y="375" align="center" size="48" color="@color" visibility="1-#hasweather"/>
+    <!-- based on first horizontal line -->
+    <Group y="#view_height-467" visibility="#hasweather">
+        <!-- center fragment -->
+        <DateTime enableFontScale="true" format="@date_format" x="72" y="-104" alignV="bottom" size="38" color="@color"/>
+        <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/location.png'" x="77" y="-45" alignV="bottom" visibility="#is_location_city"/>
+        <Text text="@weather_location" x="ifelse(#is_location_city,116,72)" y="-50" alignV="bottom" size="38" color="@light_color"/>
+        <ImageNumber number="#weather_temperature" srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/temp.png'" x="#view_width-82" align="right" y="-50" alignV="bottom"/>
+        <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/temp_degree.png'" x="#view_width-82" y="-50" alignV="bottom"/>
+
+        <Line x="50" x1="#view_width-50" strokeColor="@line_color" weight="2"/>
+
+        <!-- bottom fragment -->
+        <Var name="padding" expression="109" const="true"/>
+        <Var name="interval" expression="(#view_width-#padding*2)/3"/>
+        <Group x="#padding">
+            <Text enableFontScale="true" text="@today" align="center" y="50" size="38" color="@color"/>
+            <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/small_weather.png'" srcid="ifelse(gt(#weather_forecast_id,24)+lt(#weather_forecast_id,0),10000,#weather_forecast_id)" align="center" y="160" alignV="center"/>
+            <Text enableFontScale="true" format="%d&#xb0;/%d&#xb0;" paras="#weather_temphigh,#weather_templow" align="center" y="226" alignV="center" size="38" color="@color"/>
+        </Group>
+        <Group x="#padding+#interval">
+            <Text enableFontScale="true" text="@tomorrow" align="center" y="50" size="38" color="@color"/>
+            <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/small_weather.png'" srcid="ifelse(gt(#weather_forecast_id1,24)+lt(#weather_forecast_id1,0),10000,#weather_forecast_id1)" align="center" y="160" alignV="center"/>
+            <Text enableFontScale="true" format="%d&#xb0;/%d&#xb0;" paras="#weather_temphigh1,#weather_templow1" align="center" y="226" alignV="center" size="38" color="@color"/>
+        </Group>
+        <Group x="#padding+#interval*2">
+            <DateTime enableFontScale="true" value="#time_sys+86400000*2" format="dd/MM" align="center" y="50" size="38" color="@color"/>
+            <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/small_weather.png'" srcid="ifelse(gt(#weather_forecast_id2,24)+lt(#weather_forecast_id2,0),10000,#weather_forecast_id2)" align="center" y="160" alignV="center"/>
+            <Text enableFontScale="true" format="%d&#xb0;/%d&#xb0;" paras="#weather_temphigh2,#weather_templow2" align="center" y="226" alignV="center" size="38" color="@color"/>
+        </Group>
+        <Group x="#view_width-#padding">
+            <DateTime enableFontScale="true" value="#time_sys+86400000*3" format="dd/MM" align="center" y="50" size="38" color="@color"/>
+            <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/small_weather.png'" srcid="ifelse(gt(#weather_forecast_id3,24)+lt(#weather_forecast_id3,0),10000,#weather_forecast_id3)" align="center" y="160" alignV="center"/>
+            <Text enableFontScale="true" format="%d&#xb0;/%d&#xb0;" paras="#weather_temphigh3,#weather_templow3" align="center" y="226" alignV="center" size="38" color="@color"/>
+        </Group>
+
+        <Line x="50" y="305" x1="#view_width-50" y1="305" strokeColor="@line_color" weight="2"/>
+		<Button x="#view_width/2" y="467-#view_height" w="#view_width" h="650" align="center" contentDescriptionExp="eval(@desc_weather)"/>
+		<Button x="#view_width/8" y="467-#view_height+650" w="#view_width/4" h="300" align="center" contentDescriptionExp="eval(@desc_weather_1)"/>
+		<Button x="#view_width/8*3" y="467-#view_height+650" w="#view_width/4" h="300" align="center" contentDescriptionExp="eval(@desc_weather_2)"/>
+		<Button x="#view_width/8*5" y="467-#view_height+650" w="#view_width/4" h="300" align="center" contentDescriptionExp="eval(@desc_weather_3)"/>
+		<Button x="#view_width/8*7" y="467-#view_height+650" w="#view_width/4" h="300" align="center" contentDescriptionExp="eval(@desc_weather_4)"/>
+    </Group>
+    
+	<Group y="#view_height-467" visibility="1-#hasweather">
+	    <DateTime enableFontScale="true" format="@date_format" x="72" y="-104" alignV="bottom" size="38" color="@color"/>
+		<Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/weather_null.png'" x="#view_width-82" align="right" y="-77" alignV="bottom"/>
+		<Line x="50" x1="#view_width-50" strokeColor="@line_color" weight="2"/>
+		<Text enableFontScale="true" textExp="@weather_description_null" align="center" x="#view_width/2" y="160" alignV="center" size="38" color="@color"/>
+        <Line x="50" y="305" x1="#view_width-50" y1="305" strokeColor="@line_color" weight="2"/>
+		<Button x="#view_width/2" y="#view_height/2+467-#view_height" w="#view_width" h="#view_height" align="center" alignV="center" contentDescriptionExp="eval(@desc_weather_null)"/>
+	</Group>
+	
+    <Button x="#view_width/2" y="255" w="380" h="460" align="center" alignV="center">
+        <Triggers>
+            <Trigger action="up">
+                <IntentCommand action="android.intent.action.MAIN" package="com.miui.weather2" class="com.miui.weather2.ActivityWeatherMain"/>
+            </Trigger>
+        </Triggers>
+    </Button>
+    <Button x="#view_width/2" y="485" w="#view_width" h="510" align="center">
+        <Triggers>
+            <Trigger action="up">
+                <IntentCommand action="android.intent.action.MAIN" package="com.miui.weather2" class="com.miui.weather2.ActivityWeatherMain"/>
+            </Trigger>
+        </Triggers>
+    </Button>
+	
+</Gadget>
+
