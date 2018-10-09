@@ -1159,6 +1159,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="no_tiles_add">No tiles to add</string>
   <string name="no_weather_description">Get weather info &gt;</string>
   <string name="not_support_multi_window">"Current app doesn't support Split screen"</string>
+  <string name="notch_sos_status_bar_title">SOS</string>
   <string name="notification_all_categories">All categories</string>
   <string name="notification_app_settings">Customize: %1$s</string>
   <string name="notification_channel_alerts">Alerts</string>
@@ -1581,6 +1582,8 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="snooze_option_30_min">30 minutes</string>
   <string name="snooze_undo">UNDO</string>
   <string name="snoozed_for_time">Snoozed for %1$s</string>
+  <string name="sos_status_bar_summary">click to exit</string>
+  <string name="sos_status_bar_title">SOS</string>
   <string name="speed_bump_explanation">Less urgent notifications below</string>
   <string name="speed_label_fast">Fast</string>
   <string name="speed_label_medium">Medium</string>
