@@ -13,6 +13,8 @@
   <string name="bugreport_info_dialog_title">Bug report #%d details</string>
   <string name="bugreport_info_name">Filename</string>
   <string name="bugreport_info_title">Bug title</string>
+  <string name="bugreport_intent_chooser_title">Share Bug report</string>
+  <string name="bugreport_notification_channel">Bug reports</string>
   <string name="bugreport_screenshot_action">Screenshot</string>
   <string name="bugreport_screenshot_failed">Screenshot could not be taken.</string>
   <string name="bugreport_screenshot_taken">Screenshot taken successfully.</string>
