@@ -103,6 +103,10 @@
         <item quantity="other">%d working days</item>
         <item quantity="one">%d working day</item>
     </plurals>
+    <plurals name="event_reminders_to_max">
+        <item quantity="other">Can set up to %d reminders</item>
+        <item quantity="one">Can set up to %d reminder</item>
+    </plurals>
     <plurals name="Ndays_after">
         <item quantity="other">%1$d天后</item>
         <item quantity="one">%1$d天后</item>

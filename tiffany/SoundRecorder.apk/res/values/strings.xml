@@ -52,8 +52,8 @@
   <string name="mark_point_list_title">Marks</string>
   <string name="menu">Menu</string>
   <string name="message_file_size_error">Recording has reached the maximum length supported by %s</string>
-  <string name="network_tip_dialog_cancel">Cancel</string>
-  <string name="network_tip_dialog_content">Recorder needs to connect to the internet, as well as read your contacts to work normally. Agree?</string>
+  <string name="network_tip_dialog_cancel">"Don't agree"</string>
+  <string name="network_tip_dialog_content">Recorder needs to connect to the internet to work normally. Agree?</string>
   <string name="network_tip_dialog_ok">Agree</string>
   <string name="network_tip_dialog_title">Internet connection is required</string>
   <string name="new_record_name">New recording</string>
