@@ -247,8 +247,8 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="one">%d risk,</item>
     </plurals>
     <plurals name="hints_handle_item_text_virus_number">
-        <item quantity="other">%d trojans,</item>
-        <item quantity="one">%d trojan,</item>
+        <item quantity="other">%d trojans</item>
+        <item quantity="one">%d trojan</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Dangerous apps: %d</item>
