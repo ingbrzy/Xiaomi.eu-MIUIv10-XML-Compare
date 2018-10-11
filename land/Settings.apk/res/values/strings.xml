@@ -346,7 +346,6 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="auto_rule">Timer</string>
   <string name="auto_silent">Schedule turn on time</string>
   <string name="auto_startup_application_manage">Autostart</string>
-  <string name="auto_startup_count">%d apps are allowed to autostart</string>
   <string name="automatic_brightness">Automatic brightness</string>
   <string name="available_size">%s available</string>
   <string name="available_via_passpoint">Available via %1$s</string>
@@ -1239,6 +1238,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dialog_title_hdmi_color_calibration">Color correction preset</string>
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
+  <string name="digital_clock_dot">:</string>
   <string name="disableNetwork">disableNetwork</string>
   <string name="disable_overlays">Disable HW overlays</string>
   <string name="disable_overlays_summary">Always use GPU for screen compositing</string>
@@ -1536,6 +1536,7 @@ Some apps may not work until updated by their developers."</string>
   <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_recognized">Not recognized</string>
+  <string name="fingerprint_others_title">Other</string>
   <string name="fingerprint_payment">Fingerprint payments</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
   <string name="fingerprint_usage_category_title">Use fingerprint for</string>
@@ -1631,7 +1632,6 @@ Some apps may not work until updated by their developers."</string>
   <string name="free_wifi_connect_summary">Tap to connect to %1$s.</string>
   <string name="free_wifi_connect_title">WLAN available</string>
   <string name="free_wifi_connected">Connected to free WLAN</string>
-  <string name="free_wifi_connected_count">%1$d people connected</string>
   <string name="free_wifi_connected_time">Duration: %1$s</string>
   <string name="free_wifi_connecting">Connecting…</string>
   <string name="free_wifi_login_again">Sign in again</string>
@@ -1699,6 +1699,15 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_message">Press the screen and lift your finger after you feel vibration. Repeat several times.</string>
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
+  <string name="gxzw_anim_light">Neon</string>
+  <string name="gxzw_anim_metal">Metal</string>
+  <string name="gxzw_anim_pulse">Pulse</string>
+  <string name="gxzw_anim_rhythm">Rhythm</string>
+  <string name="gxzw_anim_title">Fingerprint animation</string>
+  <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
+  <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
+  <string name="gxzw_dialog_ok">Got it</string>
+  <string name="gxzw_dialog_title">About in-screen fingerprint sensor</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -2096,7 +2105,7 @@ as your First space PIN."</string>
   <string name="lockpassword_choose_your_pin_header">Set your PIN</string>
   <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
  for Second space"</string>
-  <string name="lockpassword_choose_your_pin_title">Enter 4-16 digits</string>
+  <string name="lockpassword_choose_your_pin_title" formatted="false">Enter %d-%d digits</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
   <string name="lockpassword_confirm_passwords_dont_match">Passwords don’t match</string>
   <string name="lockpassword_confirm_pins_dont_match">"PINs don't match"</string>
@@ -2125,7 +2134,6 @@ as your First space PIN."</string>
   <string name="lockpassword_password_too_short">Password must be at least %d characters</string>
   <string name="lockpassword_pattern_set_toast">Pattern has been set</string>
   <string name="lockpassword_pin_contains_non_digits">PIN can only contain numbers</string>
-  <string name="lockpassword_pin_fixed_length">PIN must be %d digits</string>
   <string name="lockpassword_pin_no_sequential_digits">An ascending, descending or repeated sequence of digits is forbidden</string>
   <string name="lockpassword_pin_recently_used">"Device administrator doesn't allow PIN unlock"</string>
   <string name="lockpassword_pin_set_toast">PIN set</string>
@@ -2328,6 +2336,7 @@ There are other users present on this device.
   <string name="menu_stats_total">Usage totals</string>
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
+  <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
   <string name="mi_upi_settings">Mi Pay Account</string>
@@ -2474,11 +2483,15 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_general">General</string>
   <string name="music_dirac_mode_general_earbuds">General</string>
   <string name="music_dirac_mode_general_inear">General In-Ear</string>
+  <string name="music_dirac_mode_half_in_ear">Mi Half in Ear</string>
   <string name="music_dirac_mode_headset">Mi Headphones</string>
   <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
   <string name="music_dirac_mode_in_ear">Mi In-Ear</string>
+  <string name="music_dirac_mode_in_ear2">Mi In-Ear 2</string>
   <string name="music_dirac_mode_in_ear_2013">Mi In-Ear (2013)</string>
   <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
+  <string name="music_dirac_mode_india_earphones">Mi Earphones</string>
+  <string name="music_dirac_mode_india_earphones_basic">Mi Earphones Basic</string>
   <string name="music_dirac_mode_off">Dirac off</string>
   <string name="music_dirac_mode_piston_1">Mi Piston-1</string>
   <string name="music_dirac_mode_piston_100">Mi Piston</string>
@@ -3880,7 +3893,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
-  <string name="status_bar_settings_customer_feedback">Feedback</string>
+  <string name="status_bar_settings_customer_feedback">feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
@@ -4153,6 +4166,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_ui_settings">Show SystemUI Tuner</string>
   <string name="system_update_settings_list_item_summary"/>
   <string name="system_update_settings_list_item_title">System updates</string>
+  <string name="talkback_watermark_enable">TalkBack watermark</string>
   <string name="tap_to_wake">Tap to wake</string>
   <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
   <string name="taplus_title">Taplus</string>
@@ -4363,7 +4377,7 @@ Your saved fingerprints will also be removed from this device and you won't be a
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter 4-16 numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary" formatted="false">Enter %d-%d numbers to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
@@ -4564,7 +4578,6 @@ Tap the plus to add words."</string>
   <string name="virtual_sim_title">Roaming data network</string>
   <string name="virus_scan">Virus scan</string>
   <string name="virus_scan_app_continue">Continue scan</string>
-  <string name="virus_scan_app_find_risk">%d risks found</string>
   <string name="virus_scan_app_finish">Scan complete</string>
   <string name="virus_scan_app_force_stop">Scan paused</string>
   <string name="virus_scan_app_is_stop_scan">Stop scan?</string>
@@ -4984,7 +4997,6 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_share_connect">Connect</string>
   <string name="wifi_share_connected_summary">"You're connected to a public WLAN network that has been shared by another user."</string>
   <string name="wifi_share_connected_title">MIUI shared WLAN</string>
-  <string name="wifi_share_count">Shared %d networks</string>
   <string name="wifi_share_current_network">Current network</string>
   <string name="wifi_share_know">OK</string>
   <string name="wifi_share_list_empty">No shared networks found.</string>
