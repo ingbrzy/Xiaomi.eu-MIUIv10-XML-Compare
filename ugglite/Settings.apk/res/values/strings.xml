@@ -962,6 +962,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="checking_decryption">Checking…</string>
   <string name="checking_find_device_status">Checking Find device status…</string>
   <string name="checking_for_updates">Checking for updates…</string>
+  <string name="child_mode_settings">Parental controls</string>
   <string name="choose_a_card_to_reset">Select SIM card to reset</string>
   <string name="choose_assist_title">Choose Assist app</string>
   <string name="choose_profile">Choose profile</string>
@@ -1398,6 +1399,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dialog_title_hdmi_color_calibration">Color correction preset</string>
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
+  <string name="digital_clock_dot">:</string>
   <string name="disableNetwork">disableNetwork</string>
   <string name="disable_overlays">Disable HW overlay</string>
   <string name="disable_overlays_summary">Always use GPU for screen rendering</string>
@@ -1715,6 +1717,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_recognized">Not recognized</string>
+  <string name="fingerprint_others_title">Other</string>
   <string name="fingerprint_payment">Fingerprint payments</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
   <string name="fingerprint_unlock_set_unlock_password">Fingerprint + Password</string>
@@ -1894,6 +1897,15 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_message">Press the screen and lift your finger after you feel vibration. Repeat several times.</string>
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
+  <string name="gxzw_anim_light">Neon</string>
+  <string name="gxzw_anim_metal">Metal</string>
+  <string name="gxzw_anim_pulse">Pulse</string>
+  <string name="gxzw_anim_rhythm">Rhythm</string>
+  <string name="gxzw_anim_title">Fingerprint animation</string>
+  <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
+  <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
+  <string name="gxzw_dialog_ok">Got it</string>
+  <string name="gxzw_dialog_title">About in-screen fingerprint sensor</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -2340,7 +2352,7 @@ as your First space PIN."</string>
   <string name="lockpassword_choose_your_pin_header">Set your PIN</string>
   <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
  for Second space"</string>
-  <string name="lockpassword_choose_your_pin_title">Enter 4-16 digits</string>
+  <string name="lockpassword_choose_your_pin_title" formatted="false">Enter %d-%d digits</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
   <string name="lockpassword_confirm_passwords_dont_match">Passwords don’t match</string>
   <string name="lockpassword_confirm_pins_dont_match">"PINs don't match"</string>
@@ -2599,6 +2611,7 @@ There are other users present on this device.
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_pay">Mi Wallet</string>
   <string name="mi_pay_summary">Bus Card/Mi Pay/Card Emulator</string>
+  <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
   <string name="mi_upi_settings">Mi Pay Account</string>
@@ -2752,11 +2765,15 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_general">General</string>
   <string name="music_dirac_mode_general_earbuds">General</string>
   <string name="music_dirac_mode_general_inear">General In-Ear</string>
+  <string name="music_dirac_mode_half_in_ear">Mi Half in Ear</string>
   <string name="music_dirac_mode_headset">Mi Headphones</string>
   <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
   <string name="music_dirac_mode_in_ear">Mi In-Ear</string>
+  <string name="music_dirac_mode_in_ear2">Mi In-Ear 2</string>
   <string name="music_dirac_mode_in_ear_2013">Mi In-Ear (2013)</string>
   <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
+  <string name="music_dirac_mode_india_earphones">Mi Earphones</string>
+  <string name="music_dirac_mode_india_earphones_basic">Mi Earphones Basic</string>
   <string name="music_dirac_mode_off">Dirac off</string>
   <string name="music_dirac_mode_piston_1">Mi Piston-1</string>
   <string name="music_dirac_mode_piston_100">Mi Piston</string>
@@ -4294,7 +4311,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
-  <string name="status_bar_settings_customer_feedback">Feedback</string>
+  <string name="status_bar_settings_customer_feedback">feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
@@ -4585,6 +4602,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_update_settings_list_item_title">System updates</string>
   <string name="talkback_summary">Screen reader primarily for people with blindness and low vision</string>
   <string name="talkback_title">Talkback</string>
+  <string name="talkback_watermark_enable">TalkBack watermark</string>
   <string name="tap_to_wake">Tap to wake</string>
   <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
   <string name="taplus_title">Taplus</string>
@@ -4823,7 +4841,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter 4-16 numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary" formatted="false">Enter %d-%d numbers to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
