@@ -213,6 +213,7 @@
   <string name="edit_event_confirm_message">Discard changes?</string>
   <string name="edit_event_countdown_name_empty_hint">Enter event name</string>
   <string name="edit_event_countdown_name_hint">Event</string>
+  <string name="edit_event_dislike_title">Why did you cancel?</string>
   <string name="edit_event_from_label">From</string>
   <string name="edit_event_input_year">Enter year</string>
   <string name="edit_event_label">Details</string>
@@ -261,7 +262,6 @@
   <string name="event_lunar_month">月</string>
   <string name="event_reminder_allday_day_zero">On that day at %2$s</string>
   <string name="event_reminder_value_zero">Before the event</string>
-  <string name="event_reminders_to_max">Can set up to %d reminders</string>
   <string name="event_title">Title</string>
   <string name="event_view">View event</string>
   <string name="every_weekday">Every weekday (Mon–Fri)</string>

@@ -87,6 +87,8 @@
 
 .field public static final IS_E7T:Z
 
+.field public static final IS_F9:Z
+
 .field public static final IS_H2XLTE:Z
 
 .field public static final IS_H2X_LC:Z
@@ -773,6 +775,16 @@
     move-result v0
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_E7T:Z
+
+    const-string/jumbo v0, "lotus"
+
+    sget-object v1, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_F9:Z
 
     sget-boolean v0, Lmiui/os/Build;->IS_STABLE_VERSION:Z
 
