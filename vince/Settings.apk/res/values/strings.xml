@@ -962,6 +962,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="checking_decryption">Checking…</string>
   <string name="checking_find_device_status">Checking Find device status…</string>
   <string name="checking_for_updates">Checking for updates…</string>
+  <string name="child_mode_settings">Parental controls</string>
   <string name="choose_a_card_to_reset">Select SIM card to reset</string>
   <string name="choose_assist_title">Choose Assist app</string>
   <string name="choose_profile">Choose profile</string>
@@ -1398,6 +1399,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dialog_title_hdmi_color_calibration">Color correction preset</string>
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
+  <string name="digital_clock_dot">:</string>
   <string name="disableNetwork">disableNetwork</string>
   <string name="disable_overlays">Disable HW overlay</string>
   <string name="disable_overlays_summary">Always use GPU for screen rendering</string>
@@ -1536,6 +1538,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="edit_rules">Edit</string>
   <string name="eighthours">8 hours</string>
   <string name="emergency_info_title">Emergency information</string>
+  <string name="emergency_sos_title">Emergency SOS</string>
   <string name="emergency_tone_alert">Alert</string>
   <string name="emergency_tone_silent">Silent</string>
   <string name="emergency_tone_summary">Set behavior when an emergency call is placed</string>
@@ -1714,6 +1717,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_recognized">Not recognized</string>
+  <string name="fingerprint_others_title">Other</string>
   <string name="fingerprint_payment">Fingerprint payments</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
   <string name="fingerprint_unlock_set_unlock_password">Fingerprint + Password</string>
@@ -1893,6 +1897,15 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_message">Press the screen and lift your finger after you feel vibration. Repeat several times.</string>
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
+  <string name="gxzw_anim_light">Neon</string>
+  <string name="gxzw_anim_metal">Metal</string>
+  <string name="gxzw_anim_pulse">Pulse</string>
+  <string name="gxzw_anim_rhythm">Rhythm</string>
+  <string name="gxzw_anim_title">Fingerprint animation</string>
+  <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
+  <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
+  <string name="gxzw_dialog_ok">Got it</string>
+  <string name="gxzw_dialog_title">About in-screen fingerprint sensor</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -2339,7 +2352,7 @@ as your First space PIN."</string>
   <string name="lockpassword_choose_your_pin_header">Set your PIN</string>
   <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
  for Second space"</string>
-  <string name="lockpassword_choose_your_pin_title">Enter 4-16 digits</string>
+  <string name="lockpassword_choose_your_pin_title" formatted="false">Enter %d-%d digits</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
   <string name="lockpassword_confirm_passwords_dont_match">Passwords don’t match</string>
   <string name="lockpassword_confirm_pins_dont_match">"PINs don't match"</string>
@@ -2598,6 +2611,7 @@ There are other users present on this device.
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_pay">Mi Wallet</string>
   <string name="mi_pay_summary">Bus Card/Mi Pay/Card Emulator</string>
+  <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
   <string name="mi_upi_settings">Mi Pay Account</string>
@@ -2630,6 +2644,54 @@ There are other users present on this device.
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
   <string name="miui_lab_super_resolution_desc">Make images crisper</string>
   <string name="miui_lab_super_resolution_title">Super resolution</string>
+  <string name="miui_sos_audio_summary">Play SOS message after emergency contact picks up</string>
+  <string name="miui_sos_audio_title">SOS voice message</string>
+  <string name="miui_sos_call_log_duration">Duration</string>
+  <string name="miui_sos_call_log_min">min</string>
+  <string name="miui_sos_call_log_none">I have no call history for the last hour.</string>
+  <string name="miui_sos_call_log_sec">s</string>
+  <string name="miui_sos_call_log_stranger">Stranger</string>
+  <string name="miui_sos_call_log_summary">Send the call history for the last 1 hour to your emergency contact</string>
+  <string name="miui_sos_call_log_title">Send call history</string>
+  <string name="miui_sos_call_warning_sim_unable">"No signal. Can't send SMS."</string>
+  <string name="miui_sos_calling_summary">Your device will make automatic calls to your emergency contacts playing the SOS voice message you recorded. The call will be ended after your message is finished playing. Auto call will stop after the first successful attempt.</string>
+  <string name="miui_sos_calling_title">Auto call</string>
+  <string name="miui_sos_contacts_add">Emergency contacts</string>
+  <string name="miui_sos_contacts_category">Emergency contacts</string>
+  <string name="miui_sos_emergency_contacts">Emergency contacts</string>
+  <string name="miui_sos_emergency_contacts_quantity">%dadded</string>
+  <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s(%2s)has already accepted</string>
+  <string name="miui_sos_emergency_delivered_sms_noname">%1shas already accepted</string>
+  <string name="miui_sos_emergency_failed_sms" formatted="false">%1s(%2s)sos message sending failed.</string>
+  <string name="miui_sos_emergency_failed_sms_noname">%1ssos message sending failed.</string>
+  <string name="miui_sos_enable_switch_summary">Rapidly press the Power button 5 times to send a SOS text message with your location to your emergency contacts</string>
+  <string name="miui_sos_enable_switch_title">Emergency SOS</string>
+  <string name="miui_sos_exit_dialog_cancel">Cancel</string>
+  <string name="miui_sos_exit_dialog_message">You activated Emergency SOS. Your location info is being sent to your emergency contacts. Turn off anyway?</string>
+  <string name="miui_sos_exit_dialog_ok">OK</string>
+  <string name="miui_sos_exit_dialog_title">Turning off Emergency SOS</string>
+  <string name="miui_sos_green_guard_summary">Share location info in real time</string>
+  <string name="miui_sos_green_guard_title">Parental controls</string>
+  <string name="miui_sos_launch_error">"Couldn't activate Emergency SOS"</string>
+  <string name="miui_sos_launch_error_confirm">Got it</string>
+  <string name="miui_sos_launch_error_message">"Can't connect to the mobile network. Can't use Emergency SOS."</string>
+  <string name="miui_sos_launching_summary">Activating Emergency SOS in %ds</string>
+  <string name="miui_sos_launching_title">SOS</string>
+  <string name="miui_sos_menu_add">Add</string>
+  <string name="miui_sos_menu_edit">Edit</string>
+  <string name="miui_sos_msg_call_log_prefix">"Here's my call history for the last hour:"</string>
+  <string name="miui_sos_play_voice">Play SOS message</string>
+  <string name="miui_sos_remind_add">Add</string>
+  <string name="miui_sos_remind_infocontent">"I added you as my emergency contact. You'll receive a message with my location info in case I'm in danger. [Mi Emergency SOS]"</string>
+  <string name="miui_sos_remind_open">Emergency SOS needs at least 1 emergency contact to work normally.</string>
+  <string name="miui_sos_remind_sendinfo">"Don't forget to tell these people that they are your emergency contacts now. Thus, they will be able to help you faster in case of emergency."</string>
+  <string name="miui_sos_remind_sendnow">Send now</string>
+  <string name="miui_sos_remind_title">Attention</string>
+  <string name="miui_sos_settings_alert_contacts_repeat">"Can't add duplicate contacts."</string>
+  <string name="miui_sos_settings_alert_contacts_too_many">You can add up to 3 emergency contacts.</string>
+  <string name="miui_sos_settings_category">SOS settings</string>
+  <string name="miui_sos_statusbar_summary">Tap to turn off</string>
+  <string name="miui_sos_statusbar_title">Emergency SOS is activated</string>
   <string name="miui_updater">System update</string>
   <string name="miui_userguide">User guide</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
@@ -4188,6 +4250,12 @@ Possibly incorrect PIN."</string>
   <string name="sort_max_use">Sort by max use</string>
   <string name="sort_order_alpha">Sort by name</string>
   <string name="sort_order_size">Sort by size</string>
+  <string name="sos_privacy_and_content_policy">User Agreement and Privacy Policy</string>
+  <string name="sos_privacy_dialog_button_cancel">Cancel</string>
+  <string name="sos_privacy_dialog_button_ok">Continue</string>
+  <string name="sos_privacy_dialog_message">"Enable the SOS emergency help function, please confirm and read the %s. 
+ In order to ensure the normal use of the SOS emergency help function, it may need to obtain your location, use the mobile network, and read your address book, do you confirm?"</string>
+  <string name="sos_privacy_dialog_title">Terms and Conditions</string>
   <string name="sound_category_call_ringtone_vibrate_title">Ringtone &amp; notification sounds</string>
   <string name="sound_category_sound_title">General</string>
   <string name="sound_category_system_title">System</string>
@@ -4530,6 +4598,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_update_settings_list_item_title">System updates</string>
   <string name="talkback_summary">Screen reader primarily for people with blindness and low vision</string>
   <string name="talkback_title">Talkback</string>
+  <string name="talkback_watermark_enable">TalkBack watermark</string>
   <string name="tap_to_wake">Tap to wake</string>
   <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
   <string name="taplus_title">Taplus</string>
@@ -4768,7 +4837,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter 4-16 numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary" formatted="false">Enter %d-%d numbers to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>

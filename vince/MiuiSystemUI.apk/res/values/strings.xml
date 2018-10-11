@@ -545,7 +545,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="dock_non_resizeble_failed_to_dock_text">"App doesn't support Split screen."</string>
   <string name="doze_brightness_sensor_type"/>
   <string name="doze_pickup_subtype_performs_proximity_check"/>
-  <string name="drag_to_add_tiles">Drag to add tiles</string>
+  <string name="drag_to_add_tiles">Press and hold to add or rearrange items</string>
   <string name="drag_to_remove_tiles">Drag here to remove</string>
   <string name="drive_mode_tip">Car mode is on</string>
   <string name="drive_mode_tip_idle">Car mode is on</string>
@@ -943,9 +943,11 @@ Try again in %2$d seconds."</string>
   <string name="local_backup_password_toast_confirmation_mismatch">Passwords don’t match</string>
   <string name="local_backup_password_toast_success">New backup password set</string>
   <string name="local_backup_password_toast_validation_failure">"Couldn't set backup password"</string>
+  <string name="lock_screen_carrier_airplane_mode_on">Airplane mode</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
-  <string name="lock_screen_no_sim_card">No SIM card</string>
+  <string name="lock_screen_no_sim_card_emergency_only">Emergency call only</string>
+  <string name="lock_screen_no_sim_card_no_service">No service</string>
   <string name="lock_wallpaper_enter">Enter</string>
   <string name="lock_wallpaper_learn_more">More</string>
   <string name="lockscreen_access_pattern_area">Pattern area.</string>
@@ -1354,6 +1356,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
   <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit,gps,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver,extremebatterysaver</string>
   <string name="quick_settings_time_label">Time</string>
+  <string name="quick_settings_toast_drag_to_enable_custom_tile">To add an item, press and hold it, and then drag it to the upper part of the panel.</string>
   <string name="quick_settings_user_label">Me</string>
   <string name="quick_settings_user_new_user">New user</string>
   <string name="quick_settings_user_title">User</string>
@@ -1381,7 +1384,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="recents_accessibility_split_screen_top">Split screen to the top</string>
   <string name="recents_app_info_button_label">App info</string>
   <string name="recents_caption_resize">Select new task layout</string>
-  <string name="recents_drag_hint_message">Drag here to use Split screen</string>
+  <string name="recents_drag_hint_message">Press and hold an app, then drag it here.</string>
   <string name="recents_empty_message">No recent items</string>
   <string name="recents_empty_message_dismissed_all">"You've cleared everything"</string>
   <string name="recents_empty_message_multi_window">Open apps from the Home screen</string>
@@ -1517,7 +1520,7 @@ MMMM d"</string>
   <string name="status_bar_network_flow_limit">"   Monthly limit: %1$s   "</string>
   <string name="status_bar_network_flow_purchase">"   Purchase &gt;"</string>
   <string name="status_bar_network_flow_today">Today: %1$s</string>
-  <string name="status_bar_network_name_separator">|</string>
+  <string name="status_bar_network_name_separator">-</string>
   <string name="status_bar_no_notifications_title">No notifications</string>
   <string name="status_bar_no_recent_apps">Your recent screens appear here</string>
   <string name="status_bar_notification_app_settings_title">%s settings</string>
@@ -1643,6 +1646,7 @@ Your phone may get too hot if you:
   <string name="torch_activity_hint">Hold [icon] to turn on torch at the lock screen</string>
   <string name="torch_activity_name">Torch</string>
   <string name="torch_closed">Torch off</string>
+  <string name="torch_high_temperature_warning">"Your device is overheated. Can't use torch now."</string>
   <string name="torch_opened">Torch on</string>
   <string name="track_frame_time">Profile GPU rendering</string>
   <string name="transition_animation_scale_title">Transition animation scale</string>
@@ -1846,6 +1850,8 @@ Any user can update apps for all other users."</string>
   <string name="wireless_charge_reset_device_detail">Make sure the position of your device on the charging base is correct</string>
   <string name="wireless_charge_stop">Stopped wireless charging</string>
   <string name="wrong_password">Incorrect password</string>
+  <string name="yoigo_mcc ">214</string>
+  <string name="yoigo_mnc ">04</string>
   <string name="zen_alarm_warning">"You won't hear your next alarm %1$s"</string>
   <string name="zen_alarm_warning_indef">"You won't hear your next alarm %1$s unless you turn this off before then"</string>
   <string name="zen_alarms_introduction">"You won’t be disturbed by sounds and vibrations, except from alarms. You'll still hear anything you choose to play including music, videos, and games."</string>
