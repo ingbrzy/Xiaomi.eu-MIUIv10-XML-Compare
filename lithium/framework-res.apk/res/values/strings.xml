@@ -277,7 +277,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_demoModeLauncherComponent">com.android.retaildemo/.DemoPlayer</string>
   <string name="config_deviceProvisioningPackage"/>
   <string name="config_doubleTouchGestureEnableFile"/>
-  <string name="config_dozeComponent">com.android.systemui/com.android.keyguard.doze.DozeService</string>
+  <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
   <string name="config_dozeDoubleTapSensorType"/>
   <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
   <string name="config_emergency_call_number">112</string>
@@ -1001,6 +1001,7 @@ Try again in %2$d seconds."</string>
   <string name="notification_channel_voice_mail">Voicemail messages</string>
   <string name="notification_channel_vpn">VPN status</string>
   <string name="notification_channel_wfc">WLAN calling</string>
+  <string name="notification_description">Voice call status</string>
   <string name="notification_header_divider_symbol">•</string>
   <string name="notification_header_divider_symbol_with_spaces">" • "</string>
   <string name="notification_hidden_by_policy_text">Contents hidden by policy</string>
@@ -1536,6 +1537,8 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="status_bar_volume">volume</string>
   <string name="status_bar_wifi">wifi</string>
   <string name="status_bar_zen">zen</string>
+  <string name="status_communication_speaker_summary">A hands-free call is in progress. Audio will still be played through the speaker when headphones are connected.</string>
+  <string name="status_communication_summary">A call is in progress. You can only adjust call volume now.</string>
   <string name="stk_cc_ss_to_dial">SS request is modified to DIAL request.</string>
   <string name="stk_cc_ss_to_dial_video">SS request is modified to Video DIAL request.</string>
   <string name="stk_cc_ss_to_ss">SS request is modified to new SS request.</string>
