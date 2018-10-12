@@ -70,9 +70,12 @@
         <item>com.miui.voiceassist</item>
         <item>com.xiaomi.drivemode</item>
         <item>com.caiharbor.esim</item>
+        <item>com.miui.backup</item>
     </string-array>
     <string-array name="process_camera_boost_protect_list">
         <item>android.process.media</item>
+        <item>com.miui.gallery</item>
+        <item>com.android.systemui:sliderview</item>
     </string-array>
     <item type="array" name="android_config_keyboardTapVibePattern">@android:array/config_keyboardTapVibePattern</item>
     <item type="array" name="android_config_longPressVibePattern">@android:array/config_longPressVibePattern</item>
@@ -1362,6 +1365,9 @@
         <item>22210</item>
         <item>26806</item>
         <item>45006</item>
+        <item>20810</item>
+        <item>20811</item>
+        <item>20813</item>
     </string-array>
     <array name="config_crossSpaceNotificationPackageNames" />
     <string-array name="config_sysBrightnessFileArray">

@@ -90,28 +90,4 @@
         <item>0,4,2,0,-2,-2,4</item>
         <item>2,0,0,-2,-4,0,0</item>
     </string-array>
-    <array name="number_value_entries_dark">
-        <item>@drawable/theme_dark_number_0</item>
-        <item>@drawable/theme_dark_number_1</item>
-        <item>@drawable/theme_dark_number_2</item>
-        <item>@drawable/theme_dark_number_3</item>
-        <item>@drawable/theme_dark_number_4</item>
-        <item>@drawable/theme_dark_number_5</item>
-        <item>@drawable/theme_dark_number_6</item>
-        <item>@drawable/theme_dark_number_7</item>
-        <item>@drawable/theme_dark_number_8</item>
-        <item>@drawable/theme_dark_number_9</item>
-    </array>
-    <array name="number_value_entries_light">
-        <item>@drawable/theme_light_number_0</item>
-        <item>@drawable/theme_light_number_1</item>
-        <item>@drawable/theme_light_number_2</item>
-        <item>@drawable/theme_light_number_3</item>
-        <item>@drawable/theme_light_number_4</item>
-        <item>@drawable/theme_light_number_5</item>
-        <item>@drawable/theme_light_number_6</item>
-        <item>@drawable/theme_light_number_7</item>
-        <item>@drawable/theme_light_number_8</item>
-        <item>@drawable/theme_light_number_9</item>
-    </array>
 </resources>
