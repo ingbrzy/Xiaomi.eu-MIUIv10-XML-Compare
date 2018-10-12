@@ -237,6 +237,10 @@ in Portrait mode"</string>
   <string name="portait_effect_entry_riddle">Riddle</string>
   <string name="portait_effect_entry_romance">Romantic</string>
   <string name="portait_effect_entry_story">Story</string>
+  <string name="portrait_bokeh_first_tips">"Use Portrait mode to blur
+the background on your photos"</string>
+  <string name="portrait_bokeh_text">Portrait mode</string>
+  <string name="portrait_bokeh_tips">Place object within 1.5 meters</string>
   <string name="portrait_india_effect_entry_memory">Memory</string>
   <string name="portrait_india_effect_entry_mono">Mono</string>
   <string name="portrait_india_effect_entry_pink">Pink</string>
