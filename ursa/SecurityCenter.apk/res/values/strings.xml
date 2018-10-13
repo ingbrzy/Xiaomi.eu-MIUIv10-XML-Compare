@@ -359,6 +359,7 @@
   <string name="auto_task_operation_sync">Sync</string>
   <string name="auto_task_operation_vibration">Vibration</string>
   <string name="auto_task_operation_wifi">WLAN</string>
+  <string name="auto_task_result_summary_text">Set automated tasks for Battery saver</string>
   <string name="back_app_name">Go back to App lock</string>
   <string name="back_description_securitycenter">Back</string>
   <string name="back_modifypassword">Go back to changing password</string>
@@ -507,10 +508,12 @@
   <string name="card_main_deepclean_wechat_action">Clear</string>
   <string name="card_main_deepclean_wechat_summary">Clear WeChat cache to free up storage space</string>
   <string name="card_main_deepclean_wechat_title">WeChat cache</string>
+  <string name="card_main_deepclean_whatsapp_title">WhatsApp cleaner</string>
   <string name="card_main_gamebooster_summary">Boost connection stability for games</string>
   <string name="card_main_gamebooster_title">Game speed booster</string>
   <string name="card_main_hbassistant_summary">Use this tool to grab the envelopes faster</string>
   <string name="card_main_hbassistant_title">Red envelope assistant</string>
+  <string name="card_main_hwtest_title">Hardware test</string>
   <string name="card_main_monthreport_action">View</string>
   <string name="card_main_netcheck_action">Test</string>
   <string name="card_main_netcheck_summary">Test connection for networking issues</string>
@@ -637,6 +640,10 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="descx_quick_scan_preparation">Just a sec…</string>
   <string name="detail_app_button">App info</string>
   <string name="details_subtitle">Use details</string>
+  <string name="device_manager_apply_step_1">Activate device administrator for this app?</string>
+  <string name="device_manager_apply_step_2">"Activating device administrator for this app might lead to the exposure of your personal data.
+All data on your device might be erased and your Lock screen password might be reset."</string>
+  <string name="device_manager_apply_step_3">Make sure you understand all the possible risks before you proceed. Activate device administrator for this app now?</string>
   <string name="diagnostic_attention_dialog_message">"Diagnostics for %1$s is in progress. Wait until it's finished and try again."</string>
   <string name="dialog_app_roaming_message">"%1$s can't use mobile data when roaming. When you're roaming overseas, only apps you've added to exceptions can use mobile data."</string>
   <string name="dialog_app_roaming_title">"Overseas roaming isn't enabled for %1$s"</string>
@@ -793,6 +800,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
 "&lt;li&gt;If you want an app to be running in the background, lock it in Recents, or add it to background exceptions below. Up to 4 apps can be running in the background when Extreme battery saver is on.&lt;/li&gt;"
 "&lt;li&gt;Extreme battery saver turns off NFC by default. You can change this in the Settings.&lt;/li&gt;"
 "&lt;li&gt;To make sure you can use all the features of your device normally, Extreme battery saver will be turned off automatically when your battery is 30% charged.&lt;/li&gt;</string>
+  <string name="extreme_power_save_mode_card_summary">Turn on Extreme mode to save power when the battery is low.</string>
   <string name="extreme_power_save_mode_summary">Extreme battery saver restricts background activity, and stops sync.</string>
   <string name="extreme_power_save_mode_title">Extreme battery saver</string>
   <string name="fast_open">速抢模式</string>
@@ -846,15 +854,10 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_card_apn_title">"Can't connect to the network"</string>
   <string name="first_aid_card_consume_power_button1">Restrict</string>
   <string name="first_aid_card_consume_power_button2">Turn off</string>
-  <string name="first_aid_card_consume_power_button3">Turn off</string>
-  <string name="first_aid_card_consume_power_button4">Turn off</string>
   <string name="first_aid_card_consume_power_summary1">More than 5 apps are allowed to autostart. Restrict to save battery.</string>
   <string name="first_aid_card_consume_power_summary2">Turn off portable hotspot to save battery</string>
-  <string name="first_aid_card_consume_power_summary3">Turn off Bluetooth to save battery</string>
-  <string name="first_aid_card_consume_power_summary4">Turn off GPS to save battery</string>
   <string name="first_aid_card_consume_power_title">Battery usage</string>
-  <string name="first_aid_card_float_window_button">Restrit</string>
-  <string name="first_aid_card_float_window_summary">%s may be displayed incorrectly. Restrict floating notifications.</string>
+  <string name="first_aid_card_float_window_button">Restrict</string>
   <string name="first_aid_card_float_window_title">You allowed floating notifications</string>
   <string name="first_aid_card_kadun_button1">Free up space</string>
   <string name="first_aid_card_kadun_button2">Restrict</string>
@@ -880,9 +883,10 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_item4_content">Battery</string>
   <string name="first_aid_item5_content">Other issues</string>
   <string name="first_aid_result_feedback_button">Submit</string>
-  <string name="first_aid_result_feedback_summary">"I can't solve issues on my device."</string>
+  <string name="first_aid_result_feedback_summary">"First aid scan couldn't find any problems. However, I spotted some."</string>
   <string name="first_aid_result_feedback_title">Feedback</string>
   <string name="first_aid_result_summary_normal">Everything looks good!</string>
+  <string name="first_aid_result_summary_not_finished">"Scan wasn't completed. Some risks may be undetected."</string>
   <string name="first_aid_scanning_item1">Checking for performance issues…</string>
   <string name="first_aid_scanning_item2">Checking for network problems…</string>
   <string name="first_aid_scanning_item3">Checking for incorrect settings…</string>
@@ -1028,10 +1032,15 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="guide_wait_setting">Not now</string>
   <string name="handle_bar_summary_wifi_unknown">Unknown</string>
   <string name="handle_bar_title_system">System</string>
+  <string name="handle_title_abnormal">Draining battery</string>
+  <string name="handle_title_app">Apps</string>
+  <string name="handle_title_details">Battery usage details</string>
   <string name="handle_title_network">WLAN Security</string>
   <string name="handle_title_pay_env">Payment environment</string>
   <string name="handle_title_privacy">Privacy &amp; security</string>
+  <string name="handle_title_system">System battery usage</string>
   <string name="hide_mode_app_background_setting_text">App battery saver</string>
+  <string name="hide_mode_result_summary_text">Customize Battery saver settings for individual apps</string>
   <string name="hide_mode_summary_text">"Manage apps' background activity to save battery"</string>
   <string name="hide_system_app">Hide system apps</string>
   <string name="hint_antispam_mode_edit">Custom mode</string>
@@ -1632,6 +1641,8 @@ This activity shortens battery life."</string>
   <string name="pc_activity_title">Optimize battery</string>
   <string name="pc_battery_history_show_imei">IMEI:</string>
   <string name="pc_install_manager">Install via USB</string>
+  <string name="pc_main_activity_back">Back</string>
+  <string name="pc_settings_title">Battery usage settings</string>
   <string name="pc_to_phone_install">Blocked installation of %s via USB</string>
   <string name="per_month_pkg_traffic_settings">Set data limit</string>
   <string name="percent_formatted_text">%s%%</string>
@@ -1671,12 +1682,33 @@ This activity shortens battery life."</string>
   <string name="power_center_auto_shutdown">Schedule power on/off</string>
   <string name="power_center_back">Back</string>
   <string name="power_center_charge_time">%1$suntil full</string>
+  <string name="power_center_hints_scan_danger_result">You can fix battery issues now</string>
+  <string name="power_center_list_item_auto_brightness">Adjust screen brightness automatically</string>
+  <string name="power_center_list_item_battery_status_capacity">mAh</string>
+  <string name="power_center_list_item_battery_status_temperature">℃</string>
+  <string name="power_center_list_item_battery_status_time">h</string>
+  <string name="power_center_list_item_close_bluetooth">Turn off Bluetooth</string>
+  <string name="power_center_list_item_deep_save_title">Advanced settings</string>
+  <string name="power_center_list_item_set_lockscreen_time">Put screen to sleep after 30 seconds of inactivity</string>
   <string name="power_center_main_percent_formatted">%s%%</string>
   <string name="power_center_ontime_boot">Power on time</string>
   <string name="power_center_ontime_shutdown">Power off time</string>
   <string name="power_center_repeat">Repeat</string>
+  <string name="power_center_scan_item_title_GPS">Adjust GPS accuracy</string>
+  <string name="power_center_scan_item_title_abnormal">Battery issues</string>
+  <string name="power_center_scan_item_title_abnormal_apps">Apps that drain battery</string>
+  <string name="power_center_scan_item_title_auto_invoke">Chain start</string>
+  <string name="power_center_scan_item_title_auto_start">Autostart</string>
+  <string name="power_center_scan_item_title_battery_details">Battery usage details</string>
+  <string name="power_center_scan_item_title_brightness">Adjust screen brightness</string>
+  <string name="power_center_scan_item_title_clean_memory">Clear memory</string>
+  <string name="power_center_scan_item_title_hide">Manage battery usage</string>
+  <string name="power_center_scan_item_title_power_saver">Turn on Battery saver</string>
+  <string name="power_center_scan_item_title_running_app">Apps running in the background</string>
+  <string name="power_center_scan_result_safe">No battery issues found</string>
   <string name="power_center_state_off">Off</string>
   <string name="power_center_state_on">On</string>
+  <string name="power_center_stop_scan_title">Stop scanning</string>
   <string name="power_center_time_to_boot">Power on time</string>
   <string name="power_center_time_to_shutdown">Power off time</string>
   <string name="power_center_title">Battery usage</string>
@@ -1716,6 +1748,7 @@ This activity shortens battery life."</string>
   <string name="power_save_mode_summary">Monitor background processes and turn off sync.</string>
   <string name="power_save_on_time_end_time_summary_na">To</string>
   <string name="power_save_on_time_start_time_summary_na">From</string>
+  <string name="power_save_started_summary_text">"Battery saver is on. It reduces apps' background activity, stops sync, and minimizes system animations."</string>
   <string name="power_save_summary_text">"Turn on Battery saver to reduce apps' background activity, stop sync, and minimize system animations."</string>
   <string name="power_save_title_text">Battery saver</string>
   <string name="power_screen">Screen</string>
@@ -1765,7 +1798,7 @@ This activity shortens battery life."</string>
   <string name="pref_key_tethering_setting">One-time data limit</string>
   <string name="pref_key_tethering_title">One-time data limit</string>
   <string name="pref_manual_adjust">Set data usage stats manually</string>
-  <string name="pref_mi_sim_settings">%spackage settings</string>
+  <string name="pref_mi_sim_settings">%s package settings</string>
   <string name="pref_more_settings">Additional settings</string>
   <string name="pref_new_installed_preconfig_title">"New apps' default settings"</string>
   <string name="pref_normal_traffic_limit">When data plan is used up</string>
@@ -1846,7 +1879,7 @@ This activity shortens battery life."</string>
   <string name="privacy_apps_manage_dialog_title">About hidden apps</string>
   <string name="privacy_apps_manager_dialog_message">"This app's icon won't be displayed on the Home screen after you hide this app. Hide this app now?"</string>
   <string name="privacy_apps_tutorial">Tutorial</string>
-  <string name="privacy_apps_tutorial_prompt_pageone">"When you hide an app, it's moved to a hidden folder. Its Home screen shortcut is hidden is well.
+  <string name="privacy_apps_tutorial_prompt_pageone">"When you hide an app, it's moved to a hidden folder. Its Home screen shortcut is hidden as well.
 This feature isn't supported for system apps."</string>
   <string name="privacy_apps_tutorial_prompt_pagethree">After you enter your password, the folder with hidden apps will appear.</string>
   <string name="privacy_apps_tutorial_prompt_pagetwo">"Spread two fingers on the screen. You'll see a message asking you to enter your App lock password."</string>
@@ -1903,7 +1936,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="report_success">Message reported</string>
   <string name="report_warning">"Report %1$s SMS to Mi? These messages and the phone numbers they were sent from will be uploaded to Mi's servers for review. Any personal info associated with these messages is always kept anonymous."</string>
   <string name="report_warning_title">Attention</string>
-  <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all imporant items and perform a facory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
+  <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all imporant items and perform a factory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
   <string name="reset_data_dialog_ok">Factory reset</string>
   <string name="reset_data_title">"Can't restore password"</string>
   <string name="resource_antispam">Blocklist</string>
@@ -1981,7 +2014,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="section_title_system">System security</string>
   <string name="security_scan_optimizing">Optimizing…</string>
   <string name="see_detail">Details</string>
-  <string name="see_more_content">Update game center to see more highlights</string>
+  <string name="see_more_content">Update Games to see more highlights</string>
   <string name="set_applock_password">Set password</string>
   <string name="set_mixed_password_name">Set password</string>
   <string name="set_numeric_password_name">Set PIN</string>

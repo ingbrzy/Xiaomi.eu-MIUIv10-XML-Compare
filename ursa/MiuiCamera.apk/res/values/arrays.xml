@@ -106,6 +106,14 @@
         <item>1280x720:240</item>
         <item>1920x1080:240</item>
     </string-array>
+    <string-array name="pref_video_new_slow_motion_entries">
+        <item>@string/pref_new_slow_motion_video_quality_entry_1080p</item>
+        <item>@string/pref_new_slow_motion_video_quality_entry_720p</item>
+    </string-array>
+    <string-array name="pref_video_new_slow_motion_entryvalues">
+        <item>6</item>
+        <item>5</item>
+    </string-array>
     <string-array name="pref_video_quality_default_values">
         <item>@string/pref_video_quality_default</item>
         <item>@string/pref_mtk_video_quality_default</item>
@@ -279,5 +287,12 @@
     <string-array name="pref_camera_long_press_shutter_feature_entryvalues">
         <item>burst</item>
         <item>focus</item>
+    </string-array>
+    <string-array name="beauty_level_list">
+        <item>@string/beauty_level_1</item>
+        <item>@string/beauty_level_2</item>
+        <item>@string/beauty_level_3</item>
+        <item>@string/beauty_level_4</item>
+        <item>@string/beauty_level_5</item>
     </string-array>
 </resources>

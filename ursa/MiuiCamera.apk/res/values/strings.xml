@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="access_sd_fail">"Couldn't access USB storage."</string>
+  <string name="access_sd_fail">"Couldn't access SD card."</string>
   <string name="accessibility_ai_scene_off">AI camera is off</string>
   <string name="accessibility_ai_scene_on">AI camera is on</string>
   <string name="accessibility_back_preview_status">Rear camera preview</string>
@@ -43,10 +43,19 @@
   <string name="accessibility_zoom_button">Zoom mode</string>
   <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
 and optimizes your photos based on this info"</string>
+  <string name="app_name">algoengine</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
+  <string name="beauty_fragment_tab_name_3d_makeup">美妆</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
+  <string name="beauty_level_1">1</string>
+  <string name="beauty_level_2">2</string>
+  <string name="beauty_level_3">3</string>
+  <string name="beauty_level_4">4</string>
+  <string name="beauty_level_5">5</string>
+  <string name="beauty_mode_reset_toast">Removed remodeling effects</string>
+  <string name="beauty_reset">Reset</string>
   <string name="button_fisheye_camera_title">Fisheye</string>
   <string name="button_front_camera_title">Make a selfie</string>
   <string name="button_normal_video_title">Record video</string>
@@ -54,6 +63,7 @@ and optimizes your photos based on this info"</string>
   <string name="camera_error_title">Camera error</string>
   <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
   <string name="camera_label">Camera</string>
+  <string name="camera_new_slow_motion_quality_default">6</string>
   <string name="camera_setting">Camera</string>
   <string name="camera_settings_label">Camera</string>
   <string name="camera_snap_mode_title">Quick snap mode</string>
@@ -62,6 +72,7 @@ and optimizes your photos based on this info"</string>
   <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your device."</string>
   <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
+  <string name="capture_back_pressed_hint">Touch again to exit</string>
   <string name="color_effect_entry_berry">Berries</string>
   <string name="color_effect_entry_blackwhite">B&amp;W</string>
   <string name="color_effect_entry_cookie">Cookie</string>
@@ -99,21 +110,35 @@ and optimizes your photos based on this info"</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
   <string name="dual_camera_too_close_toast">The camera is too close to the object.</string>
   <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
+  <string name="edit_blusher">腮红</string>
   <string name="edit_chin">Chin</string>
   <string name="edit_eye_large">Big eyes</string>
+  <string name="edit_eyebrow_dye">染眉</string>
   <string name="edit_face_slender">Slender</string>
+  <string name="edit_jelly_lips">果冻唇</string>
   <string name="edit_lips">Lips</string>
   <string name="edit_neck">Neck</string>
   <string name="edit_nose">Nose</string>
+  <string name="edit_pupil_line">美瞳线</string>
   <string name="edit_risorius">Risorius</string>
   <string name="edit_skin_smooth">Smooth</string>
   <string name="edit_skin_white">Tone</string>
   <string name="edit_slim_nose">Nose</string>
   <string name="edit_smile">Smile</string>
   <string name="empty">" "</string>
+  <string name="eye_light">Eye light</string>
+  <string name="eye_light_angel">Angel eye light</string>
+  <string name="eye_light_comic">Comic eye light</string>
+  <string name="eye_light_crescent">Crescent eye light</string>
+  <string name="eye_light_nature">Nature eye light</string>
+  <string name="eye_light_off">Eye light is off</string>
+  <string name="eye_light_rainbow">Rainbow eye light</string>
+  <string name="eye_light_star">Star eye light</string>
+  <string name="eye_light_window">Window eye light</string>
   <string name="face_age_info">Age: %d</string>
   <string name="face_beauty_close">Off</string>
   <string name="face_score_info">Score: %.1f</string>
+  <string name="fps960_toast">Slow-motion capture will start when the timer reaches the white dot</string>
   <string name="front_camera_hint_text_place">"Taking selfies will be easier
 if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>
@@ -121,6 +146,7 @@ if you rotate your phone"</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
   <string name="hint_ae_af_lock">Auto focus / auto exposure has been locked</string>
+  <string name="hint_eye_light">Eye light will be better when flash is on</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
   <string name="hint_groupshot">"Camera will take multiple photos
 and then create a shot where everyone looks best."</string>
@@ -146,18 +172,20 @@ in Portrait mode"</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
+  <string name="makeup_reset_toast">Removed makeup effects</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="module_name_beauty">Beauty</string>
   <string name="module_name_capture">Photo</string>
   <string name="module_name_fun">Short video</string>
   <string name="module_name_manual">Manual</string>
+  <string name="module_name_new_slow_motion">Slow motion</string>
   <string name="module_name_panorama">Panorama</string>
   <string name="module_name_portrait">Portrait</string>
   <string name="module_name_square">Square</string>
   <string name="module_name_video">Video</string>
   <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
   <string name="no_storage">Insert SD card before using camera</string>
-  <string name="not_enough_space">Internal storage is full</string>
+  <string name="not_enough_space">SD card is full</string>
   <string name="object_track_enable_toast">To select an object, simultaneously tap two diagonal points around its border.</string>
   <string name="pano_file_name_format">"'PANO'_yyyyMMdd_HHmmss"</string>
   <string name="pano_how_to_use_prompt_align_reference_line">Align the arrow with the reference line</string>
@@ -403,6 +431,9 @@ and brings out the people in the front."</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
+  <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720P videos with 240FPS</string>
+  <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080P</string>
+  <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720P</string>
   <string name="pref_priority_storage_title">Save to SD card</string>
   <string name="pref_qc_focus_position_title">F</string>
   <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
@@ -457,7 +488,8 @@ and brings out the people in the front."</string>
   <string name="pref_video_time_lapse_frame_interval_entry_90">90X (3-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
-  <string name="preparing_sd">Checking internal storage…</string>
+  <string name="preparing_sd">Checking SD card…</string>
+  <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
   <string name="record_back_pressed_hint">Touch again to stop recording</string>
   <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
   <string name="screen_on_proximity_sensor_summary">"Don't cover the earphone area"</string>
