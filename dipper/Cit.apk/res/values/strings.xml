@@ -532,8 +532,10 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_bluetooth_le_rx_num">rx packets num:</string>
   <string name="cit_tool_bluetooth_le_tx_4x">TX: BLE 4.x</string>
   <string name="cit_tool_bluetooth_le_tx_4x_channel">channel:</string>
+  <string name="cit_tool_bluetooth_le_tx_4x_payload">payload:</string>
   <string name="cit_tool_bluetooth_le_tx_50">TX: BLE 5.0</string>
   <string name="cit_tool_bluetooth_le_tx_50_channel">channel:</string>
+  <string name="cit_tool_bluetooth_le_tx_50_payload">payload:</string>
   <string name="cit_tool_bluetooth_le_tx_50_phy">PHY:</string>
   <string name="cit_tool_bluetooth_le_tx_ch0">Enter Bluetooth LE 2.402GHz Freq TX Test Mode</string>
   <string name="cit_tool_bluetooth_le_tx_ch1">Enter Bluetooth LE 2.404GHz Freq TX Test Mode</string>
@@ -582,6 +584,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_bluetooth_on">Enable Bluetooth</string>
   <string name="cit_tool_bluetooth_tx_h">Enter Bluetooth BR/EDR 2.480GHz Freq Test Mode</string>
   <string name="cit_tool_bluetooth_tx_l">Enter Bluetooth BR/EDR 2.402GHz Freq Test Mode</string>
+  <string name="cit_tool_bluetooth_tx_m">Enter Bluetooth BR/EDR 2.441GHz Freq Test Mode</string>
   <string name="cit_tool_cal_accelerometer">Acc Calibration Tool</string>
   <string name="cit_tool_cal_camera">Camera Calibration Tool</string>
   <string name="cit_tool_cal_gyroscope">gyro Calibration Tool</string>
