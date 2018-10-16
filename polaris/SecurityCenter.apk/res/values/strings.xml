@@ -2255,6 +2255,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="summary_permission">Avoid unwanted payments and protect personal data</string>
   <string name="summary_permission_root">Looks like this device has root access. It may damage the security of your device.</string>
   <string name="summary_power_optimizer">"Reduce your device's performance when battery is low"</string>
+  <string name="summary_rcs_switch">Send SMS to China Mobile users without incurring charges</string>
   <string name="summary_realname_verify">Verify your identity to make payments more secure.</string>
   <string name="summary_restrict_data_usage">You restricted data usage for this app.</string>
   <string name="summary_show_notification">Clear cache, view battery status, and block items in Notification shade</string>
@@ -2442,6 +2443,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_permission_root">Root access</string>
   <string name="title_permission_yes">Permission manager on</string>
   <string name="title_power_optimizer">Battery saver</string>
+  <string name="title_rcs_switch">Turn on China Mobile Messaging</string>
   <string name="title_realname_verify">ID verification</string>
   <string name="title_reply">Comment</string>
   <string name="title_restrict_data_usage">"%s can't connect to the internet?"</string>
