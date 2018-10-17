@@ -1796,6 +1796,18 @@
         <item>key_combination_power_back</item>
         <item>key_none</item>
     </string-array>
+    <string-array name="key_slider_voice_choice">
+        <item>slide_keji_open.ogg</item>
+        <item>slide_keji_close.ogg</item>
+        <item>slide_jianghu_open.ogg</item>
+        <item>slide_jianghu_close.ogg</item>
+        <item>slide_jiguan_open.ogg</item>
+        <item>slide_jiguan_close.ogg</item>
+        <item>slide_lingdong_open.ogg</item>
+        <item>slide_lingdong_close.ogg</item>
+        <item>slide_zippo_open.ogg</item>
+        <item>slide_zippo_close.ogg</item>
+    </string-array>
     <string-array name="led_color_entries">
         <item>Blue</item>
         <item>Red</item>
