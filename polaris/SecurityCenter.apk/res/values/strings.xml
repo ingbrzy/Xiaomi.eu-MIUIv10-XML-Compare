@@ -935,6 +935,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gamebooster_main_activity_back">Back</string>
   <string name="gamebooster_network_dialog_message">Allow Security to connect to the network in order to use all features of the Game speed booster?</string>
   <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
+  <string name="gamebox_app_not_find">Install the app first.</string>
   <string name="gamebox_qq_not_find">Install QQ and try again.</string>
   <string name="gamebox_type_close">"Don't show"</string>
   <string name="gamebox_type_float">Fixed shortcut</string>
@@ -1011,6 +1012,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gs_game_shortcut">Improve your gaming experience</string>
   <string name="gs_gamebox">In-game shortcuts</string>
   <string name="gs_gamebox_detail">Show in-game shortcut panel</string>
+  <string name="gs_gamebox_slip">Push the screen down to open</string>
   <string name="gs_only_self_start_for_list">Restrict background processes to save battery for gaming</string>
   <string name="gs_open_game_booster">Boost speed</string>
   <string name="gs_open_game_booster_summary">Boost network speed for games</string>
