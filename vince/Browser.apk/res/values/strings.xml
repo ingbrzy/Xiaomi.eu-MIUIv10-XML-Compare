@@ -792,7 +792,7 @@ to view open tabs from other devices."</string>
   <string name="mw_copy_to_clipboard_failure_message">Failed to copy to the clipboard</string>
   <string name="mw_data_traffic_prompt_change">"Using your mobile data connection to watch videos will increase your data usage. If you go over your plan’s data usage limit, y    our carrier could charge you additional fees."</string>
   <string name="mw_data_traffic_prompt_message">"Using your mobile data connection to browse videos will increase your data usage. If you go over your plan’s data usage limit,     your carrier could charge you additional fees."</string>
-  <string name="mw_data_traffic_prompt_message_short">Using mobile data to stream video may cause you to go over your plans data usage limit.</string>
+  <string name="mw_data_traffic_prompt_message_short">Using mobile data to stream video may cause you to go over your plan’s data usage limit.</string>
   <string name="mw_data_traffic_prompt_title">Data usage warning</string>
   <string name="mw_date_picker_dialog_clear">Clear</string>
   <string name="mw_date_picker_dialog_other_button_label">Other</string>
