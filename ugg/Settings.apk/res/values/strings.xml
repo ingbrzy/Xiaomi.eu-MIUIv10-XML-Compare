@@ -885,6 +885,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="calls_title">Calls</string>
   <string name="camera_double_tap_power_gesture_desc">Quickly open camera without unlocking your screen</string>
   <string name="camera_double_tap_power_gesture_title">Press power button twice for camera</string>
+  <string name="camera_front">Front %s</string>
   <string name="camera_gesture_desc">Open the camera app by twisting your wrist twice</string>
   <string name="camera_gesture_title">Double twist for camera</string>
   <string name="camera_key_action_app_title">Open app</string>
@@ -899,6 +900,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="camera_key_action_shortcut_wake">Lock device</string>
   <string name="camera_key_action_title">Mi Button</string>
   <string name="camera_key_action_toggle_title">Trigger toggle</string>
+  <string name="camera_rear">Rear %s</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_action">Cancel</string>
   <string name="cancel_alert">Discard your changes?</string>
@@ -1348,6 +1350,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_available_memory">Available storage</string>
   <string name="device_battery">Battery</string>
   <string name="device_build_id">Version number</string>
+  <string name="device_camera">Camera</string>
   <string name="device_complete_parameters">All specs</string>
   <string name="device_cpu">CPU</string>
   <string name="device_cpu10_info">Deca-core</string>
@@ -4329,6 +4332,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
+  <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
   <string name="status_bar_settings_show_carrier_under_keyguard">Show carrier when device is locked</string>
