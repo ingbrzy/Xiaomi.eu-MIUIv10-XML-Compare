@@ -187,6 +187,10 @@
   <string name="timer_alarm_cancel_pad">Tap on the screen to stop ringing</string>
   <string name="timer_alarm_dot_matrix_label">TIMER</string>
   <string name="timer_alert_alert_silenced">Timer silenced after %d minutes.</string>
+  <string name="timer_alert_mute_off">Alarm will sound when timer stops</string>
+  <string name="timer_alert_mute_on">"Alarm won't sound when timer stops"</string>
+  <string name="timer_alert_mute_remind">Tap to mute alarm</string>
+  <string name="timer_alert_mute_switch">Switch for muting timer alarms</string>
   <string name="timer_alert_type_beach">Beach</string>
   <string name="timer_alert_type_forest">Forest</string>
   <string name="timer_alert_type_mute">Default</string>
@@ -230,7 +234,7 @@
   <string name="volume_button_setting_title">Volume buttons</string>
   <string name="workday_alarm_clock">Workday alarm</string>
   <string name="worldclock_empty_text">No clocks</string>
-  <string name="worldclock_input_hint_text">Enter city</string>
+  <string name="worldclock_input_hint_text">Search for country or city</string>
   <string name="worldclock_search_city">Select city</string>
   <string name="worldclock_title">Clock</string>
   <string name="worldclock_world_time">Time zones</string>
