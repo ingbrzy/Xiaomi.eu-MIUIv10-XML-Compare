@@ -362,6 +362,8 @@
   <string name="cannot_get_download_url">获取不到安全服务下载地址</string>
   <string name="card_agenda_settings">Settings</string>
   <string name="card_already_fly">Took off</string>
+  <string name="card_banner_close_never">不再提示</string>
+  <string name="card_banner_close_tomorrow">明天提醒我</string>
   <string name="card_book_all">All bookings</string>
   <string name="card_book_nodata">No bookings</string>
   <string name="card_bookall_flight">Plane tickets</string>
