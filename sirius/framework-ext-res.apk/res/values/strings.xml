@@ -179,6 +179,7 @@
   <string name="security_permission_denied_text">Access denied</string>
   <string name="security_permission_failed_text">An error occurred, try again later</string>
   <string name="security_permission_network_failed_text">"Couldn't connect to the network. Check your network settings and try again."</string>
+  <string name="security_permission_open_wifi_settings">Open WLAN settings</string>
   <string name="security_permission_validate_warning">Thank you for helping make MIUI better!</string>
   <string name="security_permission_wifi_and_data_opened_text">WLAN and mobile data turned on</string>
   <string name="security_permission_xiaomi_account_missed_text">Enter your Mi Account ID</string>

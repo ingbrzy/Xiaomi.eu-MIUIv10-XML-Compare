@@ -8,9 +8,16 @@
   <string name="accessibility_beauty_panel_open">Beautify menu is opened</string>
   <string name="accessibility_beauty_switch_closed">Beautify is off</string>
   <string name="accessibility_beauty_switch_open">Beautify is on</string>
+  <string name="accessibility_camera_lighting_close_panel">Closed lighting menu</string>
+  <string name="accessibility_camera_lighting_open_panel">Opened lighting menu</string>
   <string name="accessibility_camera_picker">Front and rear camera switch</string>
   <string name="accessibility_camera_picker_finish">Switched cameras successfully</string>
   <string name="accessibility_camera_shutter_finish">Took a photo successfully</string>
+  <string name="accessibility_camera_video_960fps_120">120FPS</string>
+  <string name="accessibility_camera_video_960fps_240">240FPS</string>
+  <string name="accessibility_camera_video_960fps_960">960FPS</string>
+  <string name="accessibility_camera_video_fps_120">120FPS</string>
+  <string name="accessibility_camera_video_fps_30">30FPS</string>
   <string name="accessibility_closed">Turned off</string>
   <string name="accessibility_effect_mode_button">Effect button</string>
   <string name="accessibility_filter_close_panel">Closed filter menu</string>
@@ -107,6 +114,7 @@ and optimizes your photos based on this info"</string>
   <string name="confirm_restore_message">"Restore Camera's default settings?"</string>
   <string name="confirm_restore_title">Restore default settings</string>
   <string name="dialog_ok">OK</string>
+  <string name="dialog_ok_time">OK (&lt;g id="NUMBER"&gt;%d&lt;/g&gt;s)</string>
   <string name="do_not_remind_me">"Don't show again"</string>
   <string name="dual_camera_lens_covered_toast">The lens is covered.</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
@@ -171,6 +179,7 @@ in Portrait mode"</string>
   <string name="lighting_pattern_leaf">Leaves</string>
   <string name="lighting_pattern_movie">Movie</string>
   <string name="lighting_pattern_nature">Natural</string>
+  <string name="lighting_pattern_null">Null</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
@@ -512,6 +521,7 @@ and brings out the people in the front."</string>
   <string name="toast_saving">Saving photos…</string>
   <string name="ubi_focus_capture_fail">"Couldn't take photo"</string>
   <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
+  <string name="ultra_wide_mode">超广角</string>
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
   <string name="user_agreement4">Privacy Policy</string>
