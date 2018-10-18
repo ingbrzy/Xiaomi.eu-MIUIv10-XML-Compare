@@ -1506,14 +1506,14 @@ be monitored"</string>
   <string name="status_bar_airplane">Airplane mode</string>
   <string name="status_bar_alarm">Alarm</string>
   <string name="status_bar_clear_all_button">Clear</string>
-  <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
-  <string name="status_bar_clock_date_format_12">EEEE, MMMM d</string>
-  <string name="status_bar_clock_date_time_format">H:mm MMMM d</string>
-  <string name="status_bar_clock_date_time_format_12">h:mmaa MMMM d</string>
-  <string name="status_bar_date_format">"EEEE
-MMMM d"</string>
-  <string name="status_bar_date_format_12">"EEEE
-MMMM d"</string>
+  <string name="status_bar_clock_date_format">E, MMM d</string>
+  <string name="status_bar_clock_date_format_12">E, MMM d</string>
+  <string name="status_bar_clock_date_time_format">H:mm MMM d</string>
+  <string name="status_bar_clock_date_time_format_12">h:mm aa,MMM d</string>
+  <string name="status_bar_date_format">"E
+MMM d"</string>
+  <string name="status_bar_date_format_12">"E
+MMM d"</string>
   <string name="status_bar_ethernet">Ethernet</string>
   <string name="status_bar_input_method_settings_configure_input_methods">Set up input methods</string>
   <string name="status_bar_latest_events_title">Notifications</string>
