@@ -601,6 +601,8 @@ to view open tabs from other devices."</string>
   <string name="guide_motor_text">motor</string>
   <string name="guide_politics_text">politics</string>
   <string name="guide_skip">Skip</string>
+  <string name="guide_slide_down">Please slide down</string>
+  <string name="guide_slide_up">Please slide up</string>
   <string name="guide_sports_text">sports</string>
   <string name="guide_start_experience">Start</string>
   <string name="guide_tech_text">tech</string>
