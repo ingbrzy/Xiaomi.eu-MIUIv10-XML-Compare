@@ -541,6 +541,7 @@
   <string name="rcs_summary_auto_resend_mms">"Convert China Mobile multimedia messages to SMS after the original message couldn't be sent. Your carrier will charge you for this message."</string>
   <string name="rcs_summary_auto_resend_sms">"Convert China Mobile text messages to SMS after the original message couldn't be sent. Your carrier will charge you for this message."</string>
   <string name="rcs_summary_silence_message">Silence message notifications when desktop client is working</string>
+  <string name="rcs_unavailable">"Can't use China Mobile Messaging now. China Mobile SIM card isn't your default data card."</string>
   <string name="rcs_wait_for_retry_text">Waiting…</string>
   <string name="received_at_time">Received at: %1s</string>
   <string name="received_label">"Received: "</string>

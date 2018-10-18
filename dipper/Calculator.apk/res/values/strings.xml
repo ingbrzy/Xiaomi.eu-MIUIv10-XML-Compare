@@ -202,6 +202,7 @@
   <string name="negDesc">Switch between temperatures below and above zero</string>
   <string name="network_confirm_content">Currency converter, tax and mortgage calculators need to connect to the internet and access location services to work normally.</string>
   <string name="network_confirm_title">Permissions required</string>
+  <string name="not_supported_due_to_language">This feature is only available for the Chinese language</string>
   <string name="percent"/>
   <string name="percentDesc">percent</string>
   <string name="percentage">%</string>
