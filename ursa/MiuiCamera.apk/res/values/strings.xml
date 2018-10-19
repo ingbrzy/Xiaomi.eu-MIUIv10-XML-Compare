@@ -8,9 +8,16 @@
   <string name="accessibility_beauty_panel_open">Beautify menu is opened</string>
   <string name="accessibility_beauty_switch_closed">Beautify is off</string>
   <string name="accessibility_beauty_switch_open">Beautify is on</string>
+  <string name="accessibility_camera_lighting_close_panel">Closed lighting menu</string>
+  <string name="accessibility_camera_lighting_open_panel">Opened lighting menu</string>
   <string name="accessibility_camera_picker">Front and rear camera switch</string>
   <string name="accessibility_camera_picker_finish">Switched cameras successfully</string>
   <string name="accessibility_camera_shutter_finish">Took a photo successfully</string>
+  <string name="accessibility_camera_video_960fps_120">120FPS</string>
+  <string name="accessibility_camera_video_960fps_240">240FPS</string>
+  <string name="accessibility_camera_video_960fps_960">960FPS</string>
+  <string name="accessibility_camera_video_fps_120">120FPS</string>
+  <string name="accessibility_camera_video_fps_30">30FPS</string>
   <string name="accessibility_closed">Turned off</string>
   <string name="accessibility_effect_mode_button">Effect button</string>
   <string name="accessibility_filter_close_panel">Closed filter menu</string>
@@ -169,6 +176,7 @@ in Portrait mode"</string>
   <string name="lighting_pattern_leaf">Leaves</string>
   <string name="lighting_pattern_movie">Movie</string>
   <string name="lighting_pattern_nature">Natural</string>
+  <string name="lighting_pattern_null">Null</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
