@@ -301,6 +301,7 @@
   <string name="ball_hupu">HuPu</string>
   <string name="ball_net_errot">"Couldn't connect to the network."</string>
   <string name="ball_recent_no_data">No info about the coming matches.</string>
+  <string name="battery_history">Battery</string>
   <string name="beijing">Beijing</string>
   <string name="bicycle">Cycle</string>
   <string name="bl_open_failed">手环开通失败,你可以点击其它手环再试</string>

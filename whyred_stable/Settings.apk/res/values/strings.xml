@@ -1234,6 +1234,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="credentials_reset_warning_plural">Incorrect password. You have %1$d more chances before credential storage is erased.</string>
   <string name="credentials_settings_not_available">Credentials are not available for this user</string>
   <string name="credentials_title">Credential storage</string>
+  <string name="credentials_title_verification">Verification</string>
   <string name="credentials_unlock"/>
   <string name="credentials_unlock_hint">Type the password for credential storage.</string>
   <string name="credentials_wrong_password">Incorrect password.</string>
@@ -1457,6 +1458,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
   <string name="delete_rule">Remove rules</string>
   <string name="delete_saved_network">Delete saved networks</string>
+  <string name="delete_sound_effect">\"Delete\" sound</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="deletion_helper_automatic_title">Automatic</string>
   <string name="deletion_helper_manual_title">Manual</string>
@@ -1859,6 +1861,8 @@ For more details, contact your organization's admin."</string>
   <string name="factory_reset_summary">"Erase all data from your phone's internal storage"</string>
   <string name="failed_to_check_find_device_status_content">"Couldn't check find device status. Wait a minute or two and try again."</string>
   <string name="failed_to_check_find_device_status_title">"Couldn't check status"</string>
+  <string name="failed_to_erase_text">Please turn off lock screen password before performing 1217 operation.</string>
+  <string name="failed_to_erase_title">Forbidden operation</string>
   <string name="failed_to_open_app_settings_toast">"Couldn't open settings for %1$s"</string>
   <string name="failed_to_shut_down_find_device_content">"Couldn't turn off Find device. Wait a minute or two and try again."</string>
   <string name="failed_to_shut_down_find_device_title">"Couldn't turn off"</string>
@@ -5753,7 +5757,7 @@ Tap the plus to add words."</string>
   <string name="wifi_off_airplane_on_content">You can turn on WLAN manually in Airplane mode.</string>
   <string name="wifi_off_airplane_on_not_remind">"Don't show again"</string>
   <string name="wifi_off_airplane_on_title">Attention</string>
-  <string name="wifi_on_time">Wi-Fi on time</string>
+  <string name="wifi_on_time">WLAN on time</string>
   <string name="wifi_other_connection_mode">Other connectivity options</string>
   <string name="wifi_p2p_cancel_connect_message">Do you want to cancel invitation to connect with %1$s?</string>
   <string name="wifi_p2p_cancel_connect_title">Cancel invitation?</string>

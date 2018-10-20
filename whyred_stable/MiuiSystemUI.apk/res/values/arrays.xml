@@ -357,6 +357,7 @@
         <item>nitrogen</item>
         <item>platina</item>
         <item>vince</item>
+        <item>tulip</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -416,6 +417,7 @@
         <item>platina</item>
         <item>capricorn</item>
         <item>vince</item>
+        <item>tulip</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
@@ -692,6 +694,8 @@
         <item>SG</item>
         <item>MY</item>
         <item>VN</item>
+        <item>AE</item>
+        <item>QA</item>
     </string-array>
     <string-array name="region_global_support_face_sensetime">
         <item>IN</item>
