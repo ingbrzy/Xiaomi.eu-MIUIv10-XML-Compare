@@ -605,7 +605,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="dock_non_resizeble_failed_to_dock_text">"App doesn't support Split screen."</string>
   <string name="doze_brightness_sensor_type"/>
   <string name="doze_pickup_subtype_performs_proximity_check"/>
-  <string name="drag_to_add_tiles">Drag to add tiles</string>
+  <string name="drag_to_add_tiles">Press and hold to add or rearrange items</string>
   <string name="drag_to_remove_tiles">Drag here to remove</string>
   <string name="drive_mode_tip">Car mode is on</string>
   <string name="drive_mode_tip_idle">Car mode is on</string>
@@ -1159,6 +1159,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="no_tiles_add">No tiles to add</string>
   <string name="no_weather_description">Get weather info &gt;</string>
   <string name="not_support_multi_window">"Current app doesn't support Split screen"</string>
+  <string name="notch_sos_status_bar_title">SOS</string>
   <string name="notification_all_categories">All categories</string>
   <string name="notification_app_settings">Customize: %1$s</string>
   <string name="notification_channel_alerts">Alerts</string>
@@ -1437,6 +1438,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
   <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,gps,drivemode,rotation,edit,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver,extremebatterysaver,screenlock</string>
   <string name="quick_settings_time_label">Time</string>
+  <string name="quick_settings_toast_drag_to_enable_custom_tile">To add an item, press and hold it, and then drag it to the upper part of the panel.</string>
   <string name="quick_settings_user_label">Me</string>
   <string name="quick_settings_user_new_user">New user</string>
   <string name="quick_settings_user_title">User</string>
@@ -1464,7 +1466,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="recents_accessibility_split_screen_top">Split screen to the top</string>
   <string name="recents_app_info_button_label">App info</string>
   <string name="recents_caption_resize">Select new task layout</string>
-  <string name="recents_drag_hint_message">Drag here to use Split screen</string>
+  <string name="recents_drag_hint_message">Press and hold an app, then drag it here.</string>
   <string name="recents_empty_message">No recent items</string>
   <string name="recents_empty_message_dismissed_all">"You've cleared everything"</string>
   <string name="recents_empty_message_multi_window">Open apps from the Home screen</string>
@@ -1580,6 +1582,8 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="snooze_option_30_min">30 minutes</string>
   <string name="snooze_undo">UNDO</string>
   <string name="snoozed_for_time">Snoozed for %1$s</string>
+  <string name="sos_status_bar_summary">click to exit</string>
+  <string name="sos_status_bar_title">SOS</string>
   <string name="speed_bump_explanation">Less urgent notifications below</string>
   <string name="speed_label_fast">Fast</string>
   <string name="speed_label_medium">Medium</string>
@@ -1597,14 +1601,14 @@ be monitored"</string>
   <string name="status_bar_airplane">Airplane mode</string>
   <string name="status_bar_alarm">Alarm</string>
   <string name="status_bar_clear_all_button">Clear</string>
-  <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
-  <string name="status_bar_clock_date_format_12">EEEE, MMMM d</string>
-  <string name="status_bar_clock_date_time_format">H:mm MMMM d</string>
-  <string name="status_bar_clock_date_time_format_12">h:mmaa MMMM d</string>
-  <string name="status_bar_date_format">"EEEE
-MMMM d"</string>
-  <string name="status_bar_date_format_12">"EEEE
-MMMM d"</string>
+  <string name="status_bar_clock_date_format">E, MMM d</string>
+  <string name="status_bar_clock_date_format_12">E, MMM d</string>
+  <string name="status_bar_clock_date_time_format">H:mm MMM d</string>
+  <string name="status_bar_clock_date_time_format_12">h:mm aa,MMM d</string>
+  <string name="status_bar_date_format">"E
+MMM d"</string>
+  <string name="status_bar_date_format_12">"E
+MMM d"</string>
   <string name="status_bar_ethernet">Ethernet</string>
   <string name="status_bar_input_method_settings_configure_input_methods">Set up input methods</string>
   <string name="status_bar_latest_events_title">Notifications</string>
@@ -1745,6 +1749,7 @@ Your phone may get too hot if you:
   <string name="torch_activity_hint">Hold [icon] to turn on torch at the lock screen</string>
   <string name="torch_activity_name">Torch</string>
   <string name="torch_closed">Torch off</string>
+  <string name="torch_high_temperature_warning">"Your device is overheated. Can't use torch now."</string>
   <string name="torch_opened">Torch on</string>
   <string name="track_frame_time">Profile GPU rendering</string>
   <string name="transition_animation_scale_title">Transition animation scale</string>
