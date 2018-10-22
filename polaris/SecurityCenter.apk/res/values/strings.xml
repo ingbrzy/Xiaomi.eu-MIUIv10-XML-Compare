@@ -57,6 +57,7 @@
   <string name="activity_title_virus_settings">Settings</string>
   <string name="activity_title_white_list">Exceptions</string>
   <string name="ad_btn_default_text">Learn more</string>
+  <string name="ad_split_screen_title">Please switch to full screen mode to unlock</string>
   <string name="ad_update_time">Last updated %s</string>
   <string name="ad_update_time_unKnown">Last update unknown</string>
   <string name="adb_install_no_network">Connect to the network and try again</string>
@@ -841,9 +842,6 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_card_airplane_button">Turn off</string>
   <string name="first_aid_card_airplane_summary">Turn off Airplane mode to be able to make calls and connect to the network</string>
   <string name="first_aid_card_airplane_title">"Can't make calls or connect to the network"</string>
-  <string name="first_aid_card_apn_button">Fix</string>
-  <string name="first_aid_card_apn_summary">APNs were changed. Fix to be able to connect to the network.</string>
-  <string name="first_aid_card_apn_title">"Can't connect to the network"</string>
   <string name="first_aid_card_consume_power_button1">Restrict</string>
   <string name="first_aid_card_consume_power_button2">Turn off</string>
   <string name="first_aid_card_consume_power_summary1">More than 5 apps are allowed to autostart. Restrict to save battery.</string>

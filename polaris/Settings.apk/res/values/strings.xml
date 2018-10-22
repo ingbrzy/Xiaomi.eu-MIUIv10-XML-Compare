@@ -1813,7 +1813,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
   <string name="digital_clock_dot">:</string>
-  <string name="direct_boot_unaware_dialog_message">"Note: You'll be able to use this keyboard after a reboot only if you unlock your device."</string>
+  <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app can't start until you unlock your phone"</string>
   <string name="directory_access">Directory access</string>
   <string name="directory_on_volume">%1$s (%2$s)</string>
   <string name="disableNetwork">disableNetwork</string>
@@ -5024,14 +5024,16 @@ Possibly incorrect PIN."</string>
   <string name="skip_lock_screen_confirm_msg">"Notifications, music player controls, and shortcuts won't be displayed on the Lock screen."</string>
   <string name="skip_step">Skip</string>
   <string name="slider_app_open">Open app</string>
-  <string name="slider_app_open_name">Open</string>
+  <string name="slider_app_open_name">Open %1$s</string>
   <string name="slider_app_open_none">None</string>
   <string name="slider_button_title">Change</string>
   <string name="slider_choose_app">Select app</string>
   <string name="slider_game_page_code">00008</string>
   <string name="slider_game_tool_summary">Push the screen down to view available shortcuts while playing a game</string>
   <string name="slider_game_tool_tilte">Gaming shortcuts</string>
-  <string name="slider_global_summary">Push the screen down to perform a custom action</string>
+  <string name="slider_global_summary_app">Push the screen down to launch the app</string>
+  <string name="slider_global_summary_drawer">Push the screen down to open tools</string>
+  <string name="slider_global_summary_selfie">Push the screen down to take a selfie</string>
   <string name="slider_global_title">Slider shortcut</string>
   <string name="slider_high_grade_summary">Push the screen down to perform a custom action under specified circumstances</string>
   <string name="slider_high_grade_title">Additional slider settings</string>
@@ -5044,6 +5046,7 @@ Possibly incorrect PIN."</string>
   <string name="slider_title_zippo">ZIPPO</string>
   <string name="slider_tool_drawer">Open tools</string>
   <string name="slider_tool_none">None</string>
+  <string name="slider_tool_none_summary">Push the screen down, no response function</string>
   <string name="slider_video_tool_summary">Push the screen down to view available shortcuts while watching a video</string>
   <string name="slider_video_tool_title">Video shortcuts</string>
   <string name="slider_vocie_click_too_often">Too fast! Wait a minute or two and try again.</string>
