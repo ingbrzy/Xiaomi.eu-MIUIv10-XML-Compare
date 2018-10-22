@@ -1020,6 +1020,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="calls_title">Calls</string>
   <string name="camera_double_tap_power_gesture_desc">Quickly open camera without unlocking your screen</string>
   <string name="camera_double_tap_power_gesture_title">Press power button twice for camera</string>
+  <string name="camera_front">Front %s</string>
   <string name="camera_gesture_desc">Open the camera app by twisting your wrist twice</string>
   <string name="camera_gesture_title">Double twist for camera</string>
   <string name="camera_key_action_app_title">Open app</string>
@@ -1034,6 +1035,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="camera_key_action_shortcut_wake">Lock device</string>
   <string name="camera_key_action_title">Mi Button</string>
   <string name="camera_key_action_toggle_title">Trigger toggle</string>
+  <string name="camera_rear">Rear %s</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_action">Cancel</string>
   <string name="cancel_alert">Discard your changes?</string>
@@ -1314,6 +1316,7 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="dangerous_option">High-risk developer options</string>
   <string name="dangerous_option_hint">%1$s is enabled. Tap to change settings.</string>
   <string name="dangerous_option_hint_title">High-risk feature enabled</string>
+  <string name="dangerous_option_switch_title">Notify about high-risk features</string>
   <string name="dashboard_title">Settings</string>
   <string name="data_limit">Data limit</string>
   <string name="data_saver_off">Off</string>
@@ -1508,6 +1511,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_available_memory">Available storage</string>
   <string name="device_battery">Battery</string>
   <string name="device_build_id">Version number</string>
+  <string name="device_camera">Camera</string>
   <string name="device_cellular_network">Mobile network scanning</string>
   <string name="device_complete_parameters">All specs</string>
   <string name="device_cpu">CPU</string>
@@ -1564,7 +1568,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
   <string name="digital_clock_dot">:</string>
-  <string name="direct_boot_unaware_dialog_message">"Note: You'll be able to use this keyboard after a reboot only if you unlock your device."</string>
+  <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app can't start until you unlock your phone"</string>
   <string name="disableNetwork">disableNetwork</string>
   <string name="disable_overlays">Disable HW overlay</string>
   <string name="disable_overlays_summary">Always use GPU for screen rendering</string>
@@ -3010,11 +3014,15 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_general">General</string>
   <string name="music_dirac_mode_general_earbuds">General</string>
   <string name="music_dirac_mode_general_inear">General In-Ear</string>
+  <string name="music_dirac_mode_half_in_ear">Mi Half in Ear</string>
   <string name="music_dirac_mode_headset">Mi Headphones</string>
   <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
   <string name="music_dirac_mode_in_ear">Mi In-Ear</string>
+  <string name="music_dirac_mode_in_ear2">Mi In-Ear 2</string>
   <string name="music_dirac_mode_in_ear_2013">Mi In-Ear (2013)</string>
   <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
+  <string name="music_dirac_mode_india_earphones">Mi Earphones</string>
+  <string name="music_dirac_mode_india_earphones_basic">Mi Earphones Basic</string>
   <string name="music_dirac_mode_off">Dirac off</string>
   <string name="music_dirac_mode_piston_1">Mi Piston-1</string>
   <string name="music_dirac_mode_piston_100">Mi Piston</string>
@@ -4657,7 +4665,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
-  <string name="status_bar_settings_customer_feedback">Feedback</string>
+  <string name="status_bar_settings_customer_feedback">feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
@@ -4675,6 +4683,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
+  <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
   <string name="status_bar_settings_show_carrier_under_keyguard">Show carrier when device is locked</string>
