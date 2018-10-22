@@ -6,8 +6,6 @@
 Messages will only appear in Second space."</string>
   <string name="PrivacyContactDes2">"If you used private messages in First space,
 this feature will be added to Second space automatically."</string>
-  <string name="about_ent_mode">About Enterprise mode</string>
-  <string name="activate_ent_mode">Activate Enterprise mode</string>
   <string name="add_finger_print">Add fingerprint</string>
   <string name="air_space_created">Created Work space successfully</string>
   <string name="air_space_deleted">Deleted Work space successfully</string>
@@ -45,6 +43,8 @@ this feature will be added to Second space automatically."</string>
   <string name="confirmDelete">Delete</string>
   <string name="confirmSecondSpacePassword">Confirm Second space password</string>
   <string name="confirm_airspace_password">Confirm %s password</string>
+  <string name="confirm_close_password_desc">"You won't be able to enter Second space from the Lock screen after you turn the password off. Turn off anyway?"</string>
+  <string name="confirm_close_password_title">Turning off password</string>
   <string name="confirm_main_space_password">Confirm First space password</string>
   <string name="confirm_restore">"Don't show"</string>
   <string name="contactData">Contacts</string>
@@ -86,36 +86,7 @@ to be able to view them anytime"</string>
   <string name="encrypt_space_delete_dialog_title">Attention</string>
   <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
   <string name="encrypt_space_delete_notification_title">Second space</string>
-  <string name="ent_activating">Activating…</string>
-  <string name="ent_activation">Activate</string>
-  <string name="ent_activation_hint">Enter your corporate code along with the licence code to activate Enterprise mode. After this, custom enterprise services will be enabled.</string>
-  <string name="ent_activation_hint_whit_licence">"Activate Enterprise mode to enable custom enterprise services.
-Make sure the name of your corporation is correct. Read and agree to the related privacy policies before activating."</string>
-  <string name="ent_agency_code">Corporate code</string>
-  <string name="ent_agency_code_hint">Enter corporate code</string>
-  <string name="ent_agency_code_invalid">The corporate code you entered is invalid.</string>
-  <string name="ent_agree_privacy_policy">"I've read and agree to Privacy Policy"</string>
-  <string name="ent_app_verified">Looks like there are enterprise apps installed on your device. Activate Enterprise mode?</string>
-  <string name="ent_confirm_dialog_content">"You won't be able to go back to the present state of your system after you activate Enterprise mode. However, all your data will still be stored on this device. You'll have to reboot your device to activte Enterprise mode. Activate now?"</string>
-  <string name="ent_disallow_running">The app is forbidden to run</string>
-  <string name="ent_download_install_dialog_content">You must install corporate apps to activate Enterprise mode. Install now?</string>
-  <string name="ent_download_install_dialog_title">Download corporate apps</string>
-  <string name="ent_downloading_message">Downloading %d%%</string>
-  <string name="ent_error_dialog_content">At least one of the codes you entered was inorrect. Check your corporate and licence codes, and enter them again.</string>
-  <string name="ent_get_code_hint">You can get corporate and licence codes from your supervisor</string>
-  <string name="ent_install_dialog_content">Install apps and reboot your device now?</string>
-  <string name="ent_installing">Installing…</string>
-  <string name="ent_invalid_agency">Corporate code is invalid.</string>
-  <string name="ent_invalid_qr">QR code is invalid.</string>
-  <string name="ent_licence_code">Licence code</string>
-  <string name="ent_licence_code_hint">Enter licence code</string>
-  <string name="ent_licence_code_invalid">The licence code you entered is invalid.</string>
-  <string name="ent_mode_activated">Enterprise mode is activated</string>
-  <string name="ent_network_error">"Couldn't connect to the network. Check your network settings and try gain."</string>
-  <string name="ent_next_step">Next</string>
-  <string name="ent_privacy_policy_notice">* Personal data in this mode is collected according to the policies established by your corporation. Xiaomi does not collect personal data in this mode.</string>
   <string name="enter_air_space">Go to Work space</string>
-  <string name="enterprise_mode">Enterprise mode</string>
   <string name="entrance_reopen_toast_msg">Showing Second space shortcut due to different password types</string>
   <string name="err_copy_contacts">"Couldn't copy contacts"</string>
   <string name="err_copy_files">"Couldn't copy files"</string>
@@ -176,8 +147,6 @@ You can also download them separately."</string>
   <string name="import_photo_suc">Imported photos</string>
   <string name="input_space_finger">Set now</string>
   <string name="input_space_password">Set now</string>
-  <string name="install">Install</string>
-  <string name="install_error">"Couldn't install. Try again."</string>
   <string name="invalid_qr_code">Invalid QR code</string>
   <string name="list_empty_text">Empty</string>
   <string name="list_empty_text_xspace">Install WeChat/QQ/Weibo, create dual apps, and try again.</string>
