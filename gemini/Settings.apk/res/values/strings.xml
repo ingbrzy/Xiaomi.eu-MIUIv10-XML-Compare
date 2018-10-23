@@ -1735,6 +1735,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="enableNetwork">enableNetwork</string>
   <string name="enable_adb">USB debugging</string>
   <string name="enable_adb_summary">Debug mode when USB is connected</string>
+  <string name="enable_atrace">Turn on ATrace</string>
+  <string name="enable_atrace_summary">Capture kernel events using ATrace</string>
   <string name="enable_compatibility">Scale app</string>
   <string name="enable_freeform_support">Enable freeform windows</string>
   <string name="enable_freeform_support_summary">Enable support for experimental freeform windows.</string>
@@ -4681,6 +4683,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_style">Notification style</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>
