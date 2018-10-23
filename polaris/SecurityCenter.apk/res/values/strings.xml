@@ -1444,7 +1444,6 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="note_call_none">No calls</string>
   <string name="note_list_none">List is empty</string>
   <string name="note_sms_none">No messages</string>
-  <string name="notification_battery_consume_abnormal_summary">Drained %2$s of the battery during last %1$d minutes</string>
   <string name="notification_battery_consume_abnormal_title">Battery is being drained too fast</string>
   <string name="notification_exit_extreme_mode_text">Battery is more than %s charged</string>
   <string name="notification_exit_extreme_mode_title">Turned off Extreme battery saver</string>
@@ -1668,6 +1667,9 @@ This activity shortens battery life."</string>
   <string name="power_center_charge_time">%1$suntil full</string>
   <string name="power_center_hints_scan_danger_result">You can fix battery issues now</string>
   <string name="power_center_list_item_auto_brightness">Adjust screen brightness automatically</string>
+  <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+  <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+  <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
   <string name="power_center_list_item_battery_status_capacity">mAh</string>
   <string name="power_center_list_item_battery_status_temperature">℃</string>
   <string name="power_center_list_item_battery_status_time">h</string>

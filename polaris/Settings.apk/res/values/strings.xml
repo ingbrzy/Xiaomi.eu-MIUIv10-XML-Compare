@@ -5031,8 +5031,8 @@ Possibly incorrect PIN."</string>
   <string name="slider_game_page_code">00008</string>
   <string name="slider_game_tool_summary">Push the screen down to view available shortcuts while playing a game</string>
   <string name="slider_game_tool_tilte">Gaming shortcuts</string>
-  <string name="slider_global_summary_app">Push the screen down to launch the app</string>
-  <string name="slider_global_summary_drawer">Push the screen down to open tools</string>
+  <string name="slider_global_summary_app">Push the screen down to open an app</string>
+  <string name="slider_global_summary_drawer">Push the screen down to view available shortcuts</string>
   <string name="slider_global_summary_selfie">Push the screen down to take a selfie</string>
   <string name="slider_global_title">Slider shortcut</string>
   <string name="slider_high_grade_summary">Push the screen down to perform a custom action under specified circumstances</string>
@@ -5043,10 +5043,10 @@ Possibly incorrect PIN."</string>
   <string name="slider_title_jixie">Mechanics</string>
   <string name="slider_title_keji">Hi-tech</string>
   <string name="slider_title_lingdong">Intellect</string>
-  <string name="slider_title_zippo">ZIPPO</string>
+  <string name="slider_title_zippo">Lighter</string>
   <string name="slider_tool_drawer">Open tools</string>
   <string name="slider_tool_none">None</string>
-  <string name="slider_tool_none_summary">Push the screen down, no response function</string>
+  <string name="slider_tool_none_summary">No slider shortcut assigned</string>
   <string name="slider_video_tool_summary">Push the screen down to view available shortcuts while watching a video</string>
   <string name="slider_video_tool_title">Video shortcuts</string>
   <string name="slider_vocie_click_too_often">Too fast! Wait a minute or two and try again.</string>
@@ -5167,6 +5167,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_style">Notification style</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>

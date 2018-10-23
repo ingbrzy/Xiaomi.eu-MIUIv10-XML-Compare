@@ -120,6 +120,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">Found %d battery issues, fix them</item>
         <item quantity="one">Found %d battery issue, fix it</item>
     </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">Drained %2$d%% of the battery during last %1$d minutes</item>
+        <item quantity="one">Drained %2$d%% of the battery during last %1$d minute</item>
+    </plurals>
     <plurals name="power_center_menu_text">
         <item quantity="other">items</item>
         <item quantity="one">item</item>
