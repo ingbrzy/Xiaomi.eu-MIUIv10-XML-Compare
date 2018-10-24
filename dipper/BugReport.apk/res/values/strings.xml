@@ -297,8 +297,8 @@
   <string name="related_question_answer_details">Related issue</string>
   <string name="reply">Reply</string>
   <string name="reply_failed">"Couldn't reply"</string>
-  <string name="reply_option_log_hint">可选</string>
-  <string name="reply_select_log_hint">选择日志文件</string>
+  <string name="reply_option_log_hint">Optional</string>
+  <string name="reply_select_log_hint">Select log</string>
   <string name="reply_successful">Replied successfully</string>
   <string name="report_miui">Report bug</string>
   <string name="request_empty_data">No data</string>

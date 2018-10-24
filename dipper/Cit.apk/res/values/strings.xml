@@ -342,6 +342,7 @@ Touch the screen to start GPS…"</string>
   <string name="cit_headset_pull_detect_summary">When headphones are disconnected, the text \"Headphones have been disconnected\" should be displayed below</string>
   <string name="cit_headset_pull_detect_title">Headphone detection (disconnect)</string>
   <string name="cit_headset_pull_finish">Headphones have been disconnected</string>
+  <string name="cit_headset_pull_finish_test">Disconnected headphones,finished test</string>
   <string name="cit_headset_pull_hint">Disconnect headphones now</string>
   <string name="cit_hide_menu">Hide menu</string>
   <string name="cit_hvdcp_charger_in">Charging via (USB_HVDCP)</string>

@@ -361,6 +361,8 @@
         <item>sakura_india</item>
         <item>equuleus</item>
         <item>perseus</item>
+        <item>onc</item>
+        <item>lavender</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -385,6 +387,7 @@
         <item>natrium</item>
         <item>vince</item>
         <item>perseus</item>
+        <item>lavender</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -432,6 +435,8 @@
         <item>tulip</item>
         <item>natrium</item>
         <item>sakura_india</item>
+        <item>onc</item>
+        <item>lavender</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
