@@ -538,7 +538,7 @@ the background on your photos"</string>
   <string name="simple_mode_button_text_tilt_shift">Turn off Tilt-shift</string>
   <string name="simple_mode_button_text_ubifocus">Turn off Refocus</string>
   <string name="snap_cancel">Cancel</string>
-  <string name="snap_confirmed">Replace</string>
+  <string name="snap_confirmed">Done</string>
   <string name="spaceIsLow_content_external_storage_priority">SD card is running out of space</string>
   <string name="spaceIsLow_content_primary_storage_priority">USB storage is running out of space</string>
   <string name="start_capture">OK</string>
