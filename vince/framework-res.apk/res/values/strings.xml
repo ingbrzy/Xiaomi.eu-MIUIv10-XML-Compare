@@ -237,14 +237,14 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_demoModeLauncherComponent">com.android.retaildemo/.DemoPlayer</string>
   <string name="config_deviceProvisioningPackage"/>
   <string name="config_doubleTouchGestureEnableFile"/>
-  <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+  <string name="config_dozeComponent">com.android.systemui/com.android.keyguard.doze.DozeService</string>
   <string name="config_dozeDoubleTapSensorType"/>
   <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
   <string name="config_emergency_call_number">112</string>
   <string name="config_ethernet_iface_regex">eth\\d</string>
   <string name="config_ethernet_tcp_buffers">524288,1048576,3145728,524288,1048576,2097152</string>
   <string name="config_forceVoiceInteractionServicePackage"/>
-  <string name="config_fusedLocationProviderPackageName">com.qualcomm.location</string>
+  <string name="config_fusedLocationProviderPackageName">com.xiaomi.location.fused</string>
   <string name="config_geocoderProviderPackageName">com.xiaomi.metoknlp</string>
   <string name="config_geofenceProviderPackageName">@null</string>
   <string name="config_hardwareFlpPackageName">com.android.location.fused</string>
