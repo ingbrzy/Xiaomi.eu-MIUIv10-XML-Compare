@@ -339,6 +339,14 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+    <string-array name="status_bar_settings_notification_style_entries">
+        <item>MIUI</item>
+        <item>Android</item>
+    </string-array>
+    <string-array name="status_bar_settings_notification_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="check_importance_entries">
         <item>Recommended</item>
         <item>Important</item>
@@ -3004,6 +3012,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>natrium</item>
         <item>vince</item>
         <item>perseus</item>
+        <item>lavender</item>
     </string-array>
     <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
@@ -3022,5 +3031,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>sakura_india</item>
         <item>equuleus</item>
         <item>perseus</item>
+        <item>onc</item>
+        <item>lavender</item>
     </string-array>
 </resources>
