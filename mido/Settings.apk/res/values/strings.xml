@@ -225,6 +225,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="allow_bind_app_widget_activity_allow_bind_title">Create widget and allow access?</string>
   <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
   <string name="allow_data_usage_title">Allow data usage when roaming</string>
+  <string name="allow_device_id_access">Apps with device identification</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
   <string name="allow_overlay_description">This permission allows an app to display on top of other apps you’re using and may interfere with your use of the interface in other applications, or change what you think you are seeing in other applications.</string>
@@ -1363,6 +1364,7 @@ This setting affects all users on this phone."</string>
   <string name="device_display_layout_title">Mi 5 Features</string>
   <string name="device_edit_title">Rename phone</string>
   <string name="device_feedback">Send feedback about this device</string>
+  <string name="device_id">Device identification</string>
   <string name="device_info_default">Unknown</string>
   <string name="device_info_label">Device info</string>
   <string name="device_info_not_available">Not available</string>
@@ -3224,6 +3226,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="pref_manage_bg_network">"Manage apps' background network connection"</string>
   <string name="pref_new_installed_preconfig_title">"New apps' default settings"</string>
   <string name="pref_operational_key">Navigation buttons</string>
+  <string name="pref_show_lunar_calendar_title">Show traditional Chinese calendar on Lock screen</string>
   <string name="pref_title_lang_selection">Language preferences</string>
   <string name="pref_title_update_notification">Data usage notifications</string>
   <string name="pref_volume_launch_camera_summary">Press Volume down twice to launch Camera</string>
@@ -3547,6 +3550,11 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="resource_ringtone_volume_mute">Your ringer is currently silenced</string>
   <string name="restore_default_apn">Restoring default APN settings.</string>
   <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
+  <string name="restore_device_id_content">Reset personalized recommendation</string>
+  <string name="restore_device_id_title">Restore device identification</string>
+  <string name="restore_dialog_content">Restoring device identification will reset your personalized recommendation.</string>
+  <string name="restore_dialog_positive">Restore</string>
+  <string name="restore_dialog_title">Reminder</string>
   <string name="restr_pin_enter_admin_pin">Enter administrator PIN</string>
   <string name="restrict_background_blacklisted">Background data is turned off</string>
   <string name="restrict_bg_app">Restrict</string>
@@ -4311,7 +4319,6 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_advanced">Additional settings</string>
   <string name="status_bar_settings_all_app_display_loading">Just a sec…</string>
   <string name="status_bar_settings_app_notification_preferences">App settings</string>
-  <string name="status_bar_settings_basic_settings">Basic settings</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
@@ -4331,6 +4338,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_style">Notification style</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>
