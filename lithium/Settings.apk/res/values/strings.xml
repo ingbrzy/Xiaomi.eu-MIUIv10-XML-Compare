@@ -246,6 +246,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_bind_app_widget_activity_allow_bind_title">Create widget and allow access?</string>
   <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
   <string name="allow_data_usage_title">Allow data usage when roaming</string>
+  <string name="allow_device_id_access">Apps with device identification</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
   <string name="allow_overlay_description">Allow this app to display on top of other apps you’re using. It may interfere with your use of those apps or change the way they seem to appear or behave.</string>
@@ -1523,6 +1524,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_display_layout_title">Mi 5 Features</string>
   <string name="device_edit_title">Rename phone</string>
   <string name="device_feedback">Send feedback about this device</string>
+  <string name="device_id">Device identification</string>
   <string name="device_info_default">Unknown</string>
   <string name="device_info_label">Device info</string>
   <string name="device_info_not_available">Not available</string>
@@ -1568,7 +1570,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
   <string name="digital_clock_dot">:</string>
-  <string name="direct_boot_unaware_dialog_message">"Note: You'll be able to use this keyboard after a reboot only if you unlock your device."</string>
+  <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app can't start until you unlock your phone"</string>
   <string name="disableNetwork">disableNetwork</string>
   <string name="disable_overlays">Disable HW overlay</string>
   <string name="disable_overlays_summary">Always use GPU for screen rendering</string>
@@ -1735,6 +1737,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="enableNetwork">enableNetwork</string>
   <string name="enable_adb">USB debugging</string>
   <string name="enable_adb_summary">Debug mode when USB is connected</string>
+  <string name="enable_atrace">Turn on ATrace</string>
+  <string name="enable_atrace_summary">Capture kernel events using ATrace</string>
   <string name="enable_compatibility">Scale app</string>
   <string name="enable_freeform_support">Enable freeform windows</string>
   <string name="enable_freeform_support_summary">Enable support for experimental freeform windows.</string>
@@ -3528,6 +3532,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="pref_manage_bg_network">"Manage apps' background network connection"</string>
   <string name="pref_new_installed_preconfig_title">"New apps' default settings"</string>
   <string name="pref_operational_key">Navigation buttons</string>
+  <string name="pref_show_lunar_calendar_title">Show traditional Chinese calendar on Lock screen</string>
   <string name="pref_title_lang_selection">Language preferences</string>
   <string name="pref_title_update_notification">Data usage notifications</string>
   <string name="pref_volume_launch_camera_summary">Press Volume down twice to launch Camera</string>
@@ -3869,6 +3874,11 @@ UT Interface: %5$s"</string>
   <string name="resolver_settings_label">Sort</string>
   <string name="restore_default_apn">Restoring default APN settings.</string>
   <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
+  <string name="restore_device_id_content">Reset personalized recommendation</string>
+  <string name="restore_device_id_title">Restore device identification</string>
+  <string name="restore_dialog_content">Restoring device identification will reset your personalized recommendation.</string>
+  <string name="restore_dialog_positive">Restore</string>
+  <string name="restore_dialog_title">Reminder</string>
   <string name="restr_pin_enter_admin_pin">Enter admin PIN</string>
   <string name="restrict_background_blacklisted">Background data is turned off</string>
   <string name="restrict_bg_app">Restrict</string>
@@ -4669,7 +4679,6 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
-  <string name="status_bar_settings_function_description">About this feature</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
@@ -4681,6 +4690,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_style">Notification style</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>
