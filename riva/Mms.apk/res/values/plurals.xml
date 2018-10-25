@@ -22,6 +22,10 @@
         <item quantity="zero">Select items</item>
         <item quantity="one">%d selected</item>
     </plurals>
+    <plurals name="delivery_toast_body_more_plurals">
+        <item quantity="other">Message received by %1$s and %2$d other people</item>
+        <item quantity="one">Message received by %1$s and %2$d other person</item>
+    </plurals>
     <plurals name="group_message_failed_title">
         <item quantity="other">"Couldn't send to %d contacts"</item>
         <item quantity="one">"Couldn't send to %d contact"</item>
