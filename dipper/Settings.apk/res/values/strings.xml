@@ -1176,6 +1176,12 @@ This feature can be turned off in [Settings]"</string>
   <string name="call_manager_enable_title">Enable Call Manager</string>
   <string name="call_manager_summary">%1$s</string>
   <string name="call_manager_title">Call Manager</string>
+  <string name="call_records_name_1">Debbie Smith</string>
+  <string name="call_records_name_2">Jason Lee</string>
+  <string name="call_records_name_3">Tom Fowles</string>
+  <string name="call_records_summary_1">9:35 AM | 26 seconds | China Unicom</string>
+  <string name="call_records_summary_2">August 16 | 1m 16s | China Mobile</string>
+  <string name="call_records_summary_3">August 16 | 2m 24s | China Unicom</string>
   <string name="call_settings_primary_user_only">Change call settings in First space</string>
   <string name="call_settings_summary">Set up voicemail, call forwarding, call waiting, caller ID</string>
   <string name="call_settings_title">Call settings</string>
@@ -1515,6 +1521,10 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="daltonizer_mode_tritanomaly">Tritanomaly (blue-yellow)</string>
   <string name="daltonizer_type">Correction mode</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
+  <string name="dangerous_option">High-risk developer options</string>
+  <string name="dangerous_option_hint">%1$s is enabled. Tap to change settings.</string>
+  <string name="dangerous_option_hint_title">High-risk feature enabled</string>
+  <string name="dangerous_option_switch_title">Notify about high-risk features</string>
   <string name="dark_ui_mode">Night mode</string>
   <string name="dark_ui_mode_title">Set Night mode</string>
   <string name="dashboard_suggestion_condition_footer_content_description">Collapse</string>
@@ -2780,6 +2790,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="launch_recents">Launch Recents</string>
   <string name="launch_voice_assistant">Launch Voice assistant</string>
   <string name="launch_wifi_text">View details</string>
+  <string name="launcher_icon">Icons</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
   <string name="launching_cit">Launching CIT</string>
   <string name="launching_pho">Launching phone info…</string>
@@ -3273,6 +3284,7 @@ There are other users present on this device.
   <string name="miui_lab_settings">MIUI lab</string>
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
   <string name="miui_master_clear_summary">Erases all data on phone</string>
+  <string name="miui_optimization_disabled">Turn off MIUI optimization</string>
   <string name="miui_sos_audio_summary">Play SOS message after emergency contact picks up</string>
   <string name="miui_sos_audio_title">SOS voice message</string>
   <string name="miui_sos_call_log_duration">Duration</string>
@@ -3786,6 +3798,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="page_layout_31">Jack Tang</string>
   <string name="page_layout_32">Play Store</string>
   <string name="page_layout_33">Google</string>
+  <string name="page_layout_34">Phone</string>
+  <string name="page_layout_35">Notes</string>
   <string name="page_layout_4">Music</string>
   <string name="page_layout_5">Video</string>
   <string name="page_layout_6">Apps</string>
@@ -5064,6 +5078,7 @@ Possibly incorrect PIN."</string>
   <string name="slider_vocie_online_title">Online sounds</string>
   <string name="slider_voice_summary">Play sounds when you slide the screen up and down</string>
   <string name="slider_voice_title">Sounds</string>
+  <string name="slight_pause">,</string>
   <string name="slot_number">(Slot%1$d)</string>
   <string name="slot_status_title">IMEI info</string>
   <string name="smallwindow_smartcover_title">Small window front cover</string>
@@ -5472,6 +5487,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
   <string name="swipe_up_to_switch_apps_suggestion_title">Try the new Home button</string>
   <string name="swipe_up_to_switch_apps_summary">To switch apps, swipe up on the Home button. Swipe up again to see all apps. Works from any screen. You’ll no longer have an Overview button on the bottom right of your screen.</string>
   <string name="swipe_up_to_switch_apps_title">Swipe up on Home button</string>
+  <string name="switch_access_service_on">Switch Access</string>
   <string name="switch_off_text">Off</string>
   <string name="switch_on_text">On</string>
   <string name="switch_screen_button_order">Mirror buttons</string>
@@ -6734,6 +6750,7 @@ Credential storage might not enable"</string>
   <string name="wizard_back">Back</string>
   <string name="wizard_finish">Finish</string>
   <string name="wizard_next">Next</string>
+  <string name="words_title">Text</string>
   <string name="work_alarm_ringtone_title">Default work alarm sound</string>
   <string name="work_mode_label">Work profile</string>
   <string name="work_mode_off_summary">Apps and notifications are off</string>
