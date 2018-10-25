@@ -1,8 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="activity_not_found">No app was found to handle this action</string>
+  <string name="allow_network_hint">Please turn on network access</string>
+  <string name="already_updated">It is up to date</string>
   <string name="back_to_message_list">Back to message list</string>
   <string name="button_close">Close</string>
+  <string name="click_to_update">Click to check update</string>
   <string name="cm_privacy_dialog_allow">Agree</string>
   <string name="cm_privacy_dialog_cancel">Cancel</string>
   <string name="cm_privacy_dialog_spannable_tips">Privacy Policy</string>
@@ -16,6 +19,7 @@
   <string name="confirm_dialog_title">Delete?</string>
   <string name="copy_message_text">Copy</string>
   <string name="copy_message_text_success">Copied successfully</string>
+  <string name="current_data_version">Current data version</string>
   <string name="delete">Delete</string>
   <string name="delete_message">Delete</string>
   <string name="from_label">"From: "</string>
@@ -54,5 +58,6 @@
   <string name="summary_pref_cm_smart_sms">Card templates, SMS service numbers, and more.</string>
   <string name="text_message">Text message</string>
   <string name="title_pref_cm_smart_sms">China Mobile Smart SMS</string>
+  <string name="updating">Updating</string>
   <string name="view_message_details">View details</string>
 </resources>
