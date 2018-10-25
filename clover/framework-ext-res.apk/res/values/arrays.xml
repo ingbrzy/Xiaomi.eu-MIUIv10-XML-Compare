@@ -141,6 +141,7 @@
         <item>com.kiteguard</item>
         <item>com.xiaomi.discover</item>
         <item>com.orange.phone</item>
+        <item>com.miui.userguide</item>
     </string-array>
     <string-array name="keyguard_whitelist">
         <item>com.google.android.talk</item>
@@ -187,10 +188,12 @@
         <item>com.android.cellbroadcastreceiver</item>
         <item>com.android.htmlviewer</item>
         <item>com.miui.greenguard</item>
+        <item>com.xiaomi.mipicks</item>
         <item>com.kiteguard</item>
         <item>com.xiaomi.discover</item>
         <item>com.orange.phone</item>
         <item>com.android.stk</item>
+        <item>com.miui.userguide</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />
