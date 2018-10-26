@@ -285,7 +285,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_feedbackIntentExtraKey"/>
   <string name="config_feedbackIntentNameKey"/>
   <string name="config_forceVoiceInteractionServicePackage"/>
-  <string name="config_fusedLocationProviderPackageName">com.android.location.fused</string>
+  <string name="config_fusedLocationProviderPackageName">com.xiaomi.location.fused</string>
   <string name="config_geocoderProviderPackageName">com.xiaomi.metoknlp</string>
   <string name="config_geofenceProviderPackageName">@null</string>
   <string name="config_hardwareFlpPackageName">com.android.location.fused</string>
@@ -985,6 +985,7 @@ Try again in %2$d seconds."</string>
   <string name="notification_channel_voice_mail">Voicemail messages</string>
   <string name="notification_channel_vpn">VPN status</string>
   <string name="notification_channel_wfc">WLAN calling</string>
+  <string name="notification_description">Voice call status</string>
   <string name="notification_header_divider_symbol">•</string>
   <string name="notification_header_divider_symbol_with_spaces">" • "</string>
   <string name="notification_hidden_text">New notification</string>
@@ -1523,6 +1524,8 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="status_bar_vpn">vpn</string>
   <string name="status_bar_wifi">wifi</string>
   <string name="status_bar_zen">zen</string>
+  <string name="status_communication_speaker_summary">A hands-free call is in progress. Audio will still be played through the speaker when headphones are connected.</string>
+  <string name="status_communication_summary">A call is in progress. You can only adjust call volume now.</string>
   <string name="stk_cc_ss_to_dial">SS request is modified to DIAL request.</string>
   <string name="stk_cc_ss_to_ss">SS request is modified to new SS request.</string>
   <string name="stk_cc_ss_to_ussd">SS request is modified to USSD request.</string>
@@ -1548,6 +1551,7 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="system_ui_date_pattern">@string/icu_abbrev_wday_month_day_no_year</string>
   <string name="taking_remote_bugreport_notification_title">Taking bug report…</string>
   <string name="tethered_notification_message">Tap to set up.</string>
+  <string name="tethered_notification_no_device_message">No connected device</string>
   <string name="tethered_notification_title">Tethering or hotspot active</string>
   <string name="textSelectionCABTitle">Text selection</string>
   <string name="text_copied">Text copied to clipboard.</string>
