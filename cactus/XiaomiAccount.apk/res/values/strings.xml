@@ -18,6 +18,7 @@
   <string name="account_error_user_name">The name you entered is invalid</string>
   <string name="account_global_region">Overseas</string>
   <string name="account_has_been_set">Change</string>
+  <string name="account_invalid_user_avatar">This photo is invalid. Try a different one.</string>
   <string name="account_limit_update_birthday">"Can't update birthday right now"</string>
   <string name="account_mibi_center">Mi Credits</string>
   <string name="account_mibi_charge">Top up</string>
@@ -364,7 +365,7 @@ To activate your account, follow the
   <string name="passport_skip_login">Skip</string>
   <string name="passport_skip_register">Skip sign-up</string>
   <string name="passport_skip_setup_account_msg">You can set up a Mi Account later in Settings.</string>
-  <string name="passport_skip_setup_account_title">Skip setup</string>
+  <string name="passport_skip_setup_account_title">"Don't use Mi Cloud?"</string>
   <string name="passport_sms_send_success">Sent</string>
   <string name="passport_sms_verification_code_login">Sign in using SMS</string>
   <string name="passport_sync_account_data">Syncing account info…</string>

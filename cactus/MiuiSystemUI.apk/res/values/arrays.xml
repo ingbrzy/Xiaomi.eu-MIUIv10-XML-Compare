@@ -358,6 +358,11 @@
         <item>platina</item>
         <item>vince</item>
         <item>tulip</item>
+        <item>sakura_india</item>
+        <item>equuleus</item>
+        <item>perseus</item>
+        <item>onc</item>
+        <item>lavender</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -381,6 +386,8 @@
         <item>equuleus</item>
         <item>natrium</item>
         <item>vince</item>
+        <item>perseus</item>
+        <item>lavender</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -405,6 +412,9 @@
         <item>nitrogen</item>
         <item>whyred</item>
         <item>equuleus</item>
+        <item>perseus</item>
+        <item>platina</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="device_use_cameraone">
         <item>jason</item>
@@ -424,6 +434,9 @@
         <item>vince</item>
         <item>tulip</item>
         <item>natrium</item>
+        <item>sakura_india</item>
+        <item>onc</item>
+        <item>lavender</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
@@ -432,6 +445,7 @@
         <item>ursa</item>
         <item>beryllium</item>
         <item>equuleus</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>None</item>
@@ -488,6 +502,14 @@
         <item>PQRS</item>
         <item>TUV</item>
         <item>WXYZ</item>
+    </string-array>
+    <string-array name="lockscreen_sc_slide_not_open_camera">
+        <item>com.android.camera</item>
+        <item>com.android.phone</item>
+        <item>com.android.incallui</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.tencent.qqlite</item>
+        <item>com.tencent.mm</item>
     </string-array>
     <array name="miui_volume_progress_dragging_corners">
         <item>@dimen/miui_volume_timer_corner_radius</item>
@@ -585,6 +607,7 @@
     </string-array>
     <string-array name="multi_window_force_not_resize_pkgs">
         <item>com.miui.home</item>
+        <item>com.mi.android.globallauncher</item>
         <item>com.android.contacts</item>
         <item>com.android.incallui</item>
         <item>com.android.phone</item>
@@ -713,6 +736,16 @@
         <item>TH</item>
         <item>RU</item>
         <item>IT</item>
+        <item>PL</item>
+        <item>FR</item>
+        <item>QA</item>
+        <item>NP</item>
+        <item>LK</item>
+        <item>BD</item>
+        <item>BH</item>
+        <item>OM</item>
+        <item>KW</item>
+        <item>AE</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>
@@ -1181,6 +1214,7 @@
     <string-array name="system_foreground_notification_whitelist">
         <item>com.xiaomi.joyose</item>
         <item>com.miui.home</item>
+        <item>com.mi.android.globallauncher</item>
         <item>com.android.providers.contacts</item>
         <item>com.android.updater</item>
         <item>com.miui.gallery</item>
