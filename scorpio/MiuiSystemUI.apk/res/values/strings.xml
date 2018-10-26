@@ -580,6 +580,8 @@ If you resume, charges may apply for data usage."</string>
   <string name="empty_shade_text">No notifications</string>
   <string name="enable_adb">USB debugging</string>
   <string name="enable_adb_summary">Debug mode when USB is connected</string>
+  <string name="enable_atrace">Turn on ATrace</string>
+  <string name="enable_atrace_summary">Capture kernel events using ATrace</string>
   <string name="enable_bluetooth_confirmation_ok">Turn on</string>
   <string name="enable_bluetooth_message">To connect keyboard to your tablet, turn on Bluetooth first.</string>
   <string name="enable_bluetooth_title">Turn on Bluetooth?</string>
@@ -1630,8 +1632,8 @@ Slide down to lock"</string>
   <string name="structure_face_delete_data_dialog_msg_retry">Try again</string>
   <string name="structure_face_delete_data_dialog_title">"Couldn't launch Camera"</string>
   <string name="structure_face_hardware_abnormal_btn">Got it</string>
-  <string name="structure_face_hardware_abnormal_msg">"Can't record face data due to a laser error. Contact customer service to get help."</string>
-  <string name="structure_face_hardware_abnormal_title">Laser error</string>
+  <string name="structure_face_hardware_abnormal_msg">"A hardware error occurred. Reboot your device. If this doesn't help, call 400–100–5678 to get help."</string>
+  <string name="structure_face_hardware_abnormal_title">Hardware error</string>
   <string name="structure_face_modules_abnormal_btn">Reboot</string>
   <string name="structure_face_modules_abnormal_msg">"Can't record face data due to an optical module error. Reboot your device and try again."</string>
   <string name="structure_face_modules_abnormal_title">Optical module error</string>
@@ -1649,6 +1651,7 @@ Slide down to lock"</string>
   <string name="structure_face_unlock_model_other_title">Face recognition</string>
   <string name="structure_face_unlock_not_same_person">"You have to complete all the steps yourself. Don't switch places with anyone."</string>
   <string name="structure_face_unlock_really_person">"Looks like you've replaced your face with an object."</string>
+  <string name="structure_face_unlock_tof_covered">"Couldn't add face data. Move farther away from the screen."</string>
   <string name="switch_bar_off">Off</string>
   <string name="switch_bar_on">On</string>
   <string name="switch_system_user">Open First space</string>
