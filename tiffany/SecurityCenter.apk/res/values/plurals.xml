@@ -371,4 +371,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">%1$d issues require optimization</item>
         <item quantity="one">%1$d issue requires optimization</item>
     </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+    </plurals>
 </resources>
