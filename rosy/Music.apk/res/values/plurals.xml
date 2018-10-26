@@ -102,6 +102,10 @@ Note: File will be deleted from this device as well."</item>
         <item quantity="other">%d songs</item>
         <item quantity="one">%d song</item>
     </plurals>
+    <plurals name="video_count">
+        <item quantity="other">Videos</item>
+        <item quantity="one">Video</item>
+    </plurals>
     <plurals name="video_play_count">
         <item quantity="other">%1$s views</item>
         <item quantity="one">%1$s view</item>
