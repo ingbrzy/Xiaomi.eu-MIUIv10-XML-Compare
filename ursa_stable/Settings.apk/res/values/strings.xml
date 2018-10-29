@@ -1234,6 +1234,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="credentials_reset_warning_plural">Incorrect password. You have %1$d more chances before credential storage is erased.</string>
   <string name="credentials_settings_not_available">Credentials are not available for this user</string>
   <string name="credentials_title">Credential storage</string>
+  <string name="credentials_title_verification">Verification</string>
   <string name="credentials_unlock"/>
   <string name="credentials_unlock_hint">Type the password for credential storage.</string>
   <string name="credentials_wrong_password">Incorrect password.</string>
@@ -1457,6 +1458,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
   <string name="delete_rule">Remove rules</string>
   <string name="delete_saved_network">Delete saved networks</string>
+  <string name="delete_sound_effect">\"Delete\" sound</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="deletion_helper_automatic_title">Automatic</string>
   <string name="deletion_helper_manual_title">Manual</string>
@@ -1541,6 +1543,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dialog_title_hdmi_color_calibration">Color correction preset</string>
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
+  <string name="digital_clock_dot">:</string>
   <string name="direct_boot_unaware_dialog_message">"Note: You'll be able to use this keyboard after a reboot only if you unlock your device."</string>
   <string name="disableNetwork">disableNetwork</string>
   <string name="disable_overlays">Disable HW overlay</string>
@@ -1920,6 +1923,7 @@ For more details, contact your organization's admin."</string>
   <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_recognized">Not recognized</string>
+  <string name="fingerprint_others_title">Other</string>
   <string name="fingerprint_payment">Fingerprint payments</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
   <string name="fingerprint_swipe_for_notifications_summary">To check your notifications, swipe down on the fingerprint sensor on the back of your phone.</string>
@@ -2104,6 +2108,15 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_message">Press the screen and lift your finger after you feel vibration. Repeat several times.</string>
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
+  <string name="gxzw_anim_light">Neon</string>
+  <string name="gxzw_anim_metal">Metal</string>
+  <string name="gxzw_anim_pulse">Pulse</string>
+  <string name="gxzw_anim_rhythm">Rhythm</string>
+  <string name="gxzw_anim_title">Fingerprint animation</string>
+  <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
+  <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
+  <string name="gxzw_dialog_ok">Got it</string>
+  <string name="gxzw_dialog_title">About in-screen fingerprint sensor</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -5577,7 +5590,7 @@ Tap the plus to add words."</string>
   <string name="wifi_assistant_confirm_always">"Don't show again"</string>
   <string name="wifi_assistant_confirm_connection_title">Confirm</string>
   <string name="wifi_assistant_data_prompt">Show data usage warning</string>
-  <string name="wifi_assistant_data_prompt_summary">Show data usage warning when Wi-Fi assistant switches to mobile data</string>
+  <string name="wifi_assistant_data_prompt_summary">Show data usage warning when WLAN assistant switches to mobile data</string>
   <string name="wifi_assistant_description">"Here's how WLAN assistant works:
 1. When WLAN connection is poor, WLAN assistant will try to connect your device to other available WLAN networks.
 2. If all available WLAN connections turn out to be poor and mobile data is turned on, WLAN assistant will switch to mobile data."</string>
