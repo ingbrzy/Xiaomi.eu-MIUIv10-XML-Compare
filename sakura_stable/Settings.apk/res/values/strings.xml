@@ -1234,6 +1234,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="credentials_reset_warning_plural">Incorrect password. You have %1$d more chances before credential storage is erased.</string>
   <string name="credentials_settings_not_available">Credentials are not available for this user</string>
   <string name="credentials_title">Credential storage</string>
+  <string name="credentials_title_verification">Verification</string>
   <string name="credentials_unlock"/>
   <string name="credentials_unlock_hint">Type the password for credential storage.</string>
   <string name="credentials_wrong_password">Incorrect password.</string>
@@ -5578,7 +5579,7 @@ Tap the plus to add words."</string>
   <string name="wifi_assistant_confirm_always">"Don't show again"</string>
   <string name="wifi_assistant_confirm_connection_title">Confirm</string>
   <string name="wifi_assistant_data_prompt">Show data usage warning</string>
-  <string name="wifi_assistant_data_prompt_summary">Show data usage warning when Wi-Fi assistant switches to mobile data</string>
+  <string name="wifi_assistant_data_prompt_summary">Show data usage warning when WLAN assistant switches to mobile data</string>
   <string name="wifi_assistant_description">"Here's how WLAN assistant works:
 1. When WLAN connection is poor, WLAN assistant will try to connect your device to other available WLAN networks.
 2. If all available WLAN connections turn out to be poor and mobile data is turned on, WLAN assistant will switch to mobile data."</string>

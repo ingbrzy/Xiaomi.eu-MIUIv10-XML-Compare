@@ -65,6 +65,8 @@
         <item>com.android.soundrecorder</item>
         <item>com.android.deskclock</item>
         <item>com.miui.voiceassist</item>
+        <item>com.xiaomi.drivemode</item>
+        <item>com.caiharbor.esim</item>
     </string-array>
     <item type="array" name="android_config_keyboardTapVibePattern">@android:array/config_keyboardTapVibePattern</item>
     <item type="array" name="android_config_longPressVibePattern">@android:array/config_longPressVibePattern</item>
