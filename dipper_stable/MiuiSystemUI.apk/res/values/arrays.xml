@@ -392,6 +392,7 @@
         <item>ursa</item>
         <item>beryllium</item>
         <item>perseus</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="device_support_screen_on_delayed">
         <item>dipper</item>
@@ -710,6 +711,11 @@
         <item>TH</item>
         <item>IT</item>
         <item>FR</item>
+        <item>NP</item>
+        <item>LK</item>
+        <item>BD</item>
+        <item>QA</item>
+        <item>BE</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>

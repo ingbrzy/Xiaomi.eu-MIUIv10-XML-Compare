@@ -1575,6 +1575,7 @@
         <item>sirius</item>
         <item>ursa</item>
         <item>beryllium</item>
+        <item>equuleus</item>
     </string-array>
     <string-array name="dirac_equalizer_preset_names">
         <item>@string/eq_flat</item>
@@ -2495,6 +2496,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>TH</item>
         <item>IT</item>
         <item>FR</item>
+        <item>NP</item>
+        <item>LK</item>
+        <item>BD</item>
+        <item>QA</item>
+        <item>BE</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
