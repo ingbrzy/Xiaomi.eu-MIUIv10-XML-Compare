@@ -91,6 +91,11 @@
         <item>Rain</item>
         <item>Snow</item>
     </string-array>
+    <string-array name="pref_tab_restore_array">
+        <item>Always asking</item>
+        <item>Open</item>
+        <item>Close</item>
+    </string-array>
     <string-array name="baidu">
         <item>百度</item>
         <item>baidu.com</item>
@@ -277,6 +282,11 @@
     <string-array name="pref_navscreen_layoutstate_values">
         <item>0</item>
         <item>1</item>
+    </string-array>
+    <string-array name="pref_restore_tabs_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="pref_text_zoom_values">
         <item>70</item>
