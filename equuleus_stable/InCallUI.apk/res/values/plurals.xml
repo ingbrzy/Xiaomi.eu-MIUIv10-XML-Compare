@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="call_recording_notification_complete">
-        <item quantity="other">Recorded %d calls.</item>
-        <item quantity="one">Recorded %d call.</item>
-    </plurals>
-</resources>
