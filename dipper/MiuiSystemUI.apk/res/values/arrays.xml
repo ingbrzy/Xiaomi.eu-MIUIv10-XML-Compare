@@ -742,6 +742,26 @@
         <item>BD</item>
         <item>QA</item>
         <item>BE</item>
+        <item>DK</item>
+        <item>GR</item>
+        <item>UK</item>
+        <item>GB</item>
+        <item>PL</item>
+        <item>RU</item>
+        <item>ES</item>
+        <item>KR</item>
+        <item>BY</item>
+        <item>KZ</item>
+        <item>KG</item>
+        <item>TJ</item>
+        <item>UZ</item>
+        <item>TM</item>
+        <item>GE</item>
+        <item>AM</item>
+        <item>AZ</item>
+        <item>MD</item>
+        <item>MN</item>
+        <item>NL</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>
