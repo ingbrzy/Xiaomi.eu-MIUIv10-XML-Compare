@@ -64,6 +64,14 @@
         <item quantity="other">Try again in %d minutes</item>
         <item quantity="one">Try again in %d minute</item>
     </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="other">Entering the password is required after %d hours of inactivity</item>
+        <item quantity="one">Entering the password is required after %d hour of inactivity</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="other">Drawing the pattern is required after %d hours of inactivity</item>
+        <item quantity="one">Drawing the pattern is required after %d hour of inactivity</item>
+    </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d new notifications</item>
         <item quantity="one">%d new notification</item>
