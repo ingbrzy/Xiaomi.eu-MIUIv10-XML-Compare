@@ -28,6 +28,14 @@
         <item quantity="other">Incorrect PUK code, %d attempts remaining</item>
         <item quantity="one">Incorrect PUK code, %d attempt remaining</item>
     </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="other">Entering the password is required after %d hours of inactivity</item>
+        <item quantity="one">Entering the password is required after %d hour of inactivity</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="other">Drawing the pattern is required after %d hours of inactivity</item>
+        <item quantity="one">Drawing the pattern is required after %d hour of inactivity</item>
+    </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">About %d hours left</item>
         <item quantity="one">About %d hour left</item>
@@ -131,5 +139,9 @@
     <plurals name="view_realtime_clear">
         <item quantity="other">Clear</item>
         <item quantity="one">Clear</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d devices connected</item>
+        <item quantity="one">%1$d device connected</item>
     </plurals>
 </resources>
