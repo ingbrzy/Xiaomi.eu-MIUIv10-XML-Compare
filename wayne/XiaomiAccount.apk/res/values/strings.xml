@@ -273,9 +273,11 @@ To activate your account, follow the
   <string name="passport_input_password_for_login">This number is associated with an existing account, enter your password</string>
   <string name="passport_input_password_hint">Enter password</string>
   <string name="passport_input_phone_hint">Enter phone number</string>
+  <string name="passport_input_phone_password">Please enter the password for the mobile number%s</string>
   <string name="passport_input_vcode_hint">Enter verification code</string>
   <string name="passport_input_voice_captcha_hint">Enter voice verification code</string>
   <string name="passport_input_voice_hint">Enter voice code</string>
+  <string name="passport_international_register_by_email">Create an account using email address</string>
   <string name="passport_license_host_unreachable">"Can't connect to the network. You can view this page at %s."</string>
   <string name="passport_license_info_collapse">Collapse</string>
   <string name="passport_license_info_open">Details</string>
@@ -368,6 +370,7 @@ To activate your account, follow the
   <string name="passport_skip_setup_account_title">"Don't use Mi Cloud?"</string>
   <string name="passport_sms_send_success">Sent</string>
   <string name="passport_sms_verification_code_login">Sign in using SMS</string>
+  <string name="passport_sms_verification_code_login_or_register">Sign or register in using SMS</string>
   <string name="passport_sync_account_data">Syncing account info…</string>
   <string name="passport_sync_account_data_failed_warning">Your account info is being synced now, you can sign in using your Mi Account ID. If you want to sign in using your phone or email, wait until the info is fully synced.</string>
   <string name="passport_talkback_image_captcha">Image verification code</string>
