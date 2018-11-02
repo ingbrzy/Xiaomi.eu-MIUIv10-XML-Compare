@@ -1766,6 +1766,16 @@
         <item>key_combination_power_back</item>
         <item>key_none</item>
     </string-array>
+    <string-array name="keyguard_notification_status_entries">
+        <item>Wake screen</item>
+        <item>Show animation</item>
+        <item>"Don't wake screen"</item>
+    </string-array>
+    <string-array name="keyguard_notification_status_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
     <string-array name="led_color_entries">
         <item>Blue</item>
         <item>Red</item>
@@ -2508,6 +2518,21 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>TH</item>
         <item>RU</item>
         <item>PL</item>
+        <item>UA</item>
+        <item>ES</item>
+        <item>UK</item>
+        <item>GB</item>
+        <item>BY</item>
+        <item>KZ</item>
+        <item>KG</item>
+        <item>TJ</item>
+        <item>UZ</item>
+        <item>TM</item>
+        <item>GE</item>
+        <item>AM</item>
+        <item>AZ</item>
+        <item>MD</item>
+        <item>MN</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>

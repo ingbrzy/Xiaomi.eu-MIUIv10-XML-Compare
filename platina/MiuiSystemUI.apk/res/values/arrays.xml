@@ -402,6 +402,7 @@
         <item>beryllium</item>
         <item>perseus</item>
         <item>equuleus</item>
+        <item>cepheus</item>
     </string-array>
     <string-array name="device_support_screen_on_delayed">
         <item>dipper</item>
@@ -727,6 +728,7 @@
     </string-array>
     <string-array name="region_global_support_face_sensetime">
         <item>ID</item>
+        <item>HK</item>
         <item>TW</item>
         <item>SG</item>
         <item>VN</item>
@@ -734,7 +736,21 @@
         <item>TH</item>
         <item>RU</item>
         <item>PL</item>
-        <item>HK</item>
+        <item>UA</item>
+        <item>ES</item>
+        <item>UK</item>
+        <item>GB</item>
+        <item>BY</item>
+        <item>KZ</item>
+        <item>KG</item>
+        <item>TJ</item>
+        <item>UZ</item>
+        <item>TM</item>
+        <item>GE</item>
+        <item>AM</item>
+        <item>AZ</item>
+        <item>MD</item>
+        <item>MN</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>
