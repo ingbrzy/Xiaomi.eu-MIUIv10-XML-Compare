@@ -51,6 +51,8 @@
 
 .field public static final IS_C3A:Z
 
+.field public static final IS_C3B:Z
+
 .field public static final IS_C3C:Z
 
 .field public static final IS_C3D:Z
@@ -62,6 +64,8 @@
 .field public static final IS_C8:Z
 
 .field public static final IS_CM_TEST:Z
+
+.field public static final IS_D1:Z
 
 .field public static final IS_D2:Z
 
@@ -590,6 +594,16 @@
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_C2Q:Z
 
+    const-string/jumbo v0, "riva"
+
+    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_C3B:Z
+
     const-string/jumbo v0, "cactus"
 
     sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
@@ -619,6 +633,16 @@
     move-result v0
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_C8:Z
+
+    const-string/jumbo v0, "rosy"
+
+    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_D1:Z
 
     const-string/jumbo v0, "tiffany"
 
@@ -1106,46 +1130,6 @@
     move-result v0
 
     return v0
-.end method
-
-.method public static isBackFingerSensor()Z
-    .locals 2
-
-    const/4 v1, 0x0
-
-    invoke-static {}, Lcom/android/camera/Device;->isFrontFingerSensor()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    return v1
-
-    :cond_0
-    invoke-static {}, Lcom/android/camera/Device;->getFpNavEventNameList()Ljava/util/ArrayList;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_1
-
-    invoke-static {}, Lcom/android/camera/Device;->getFpNavEventNameList()Ljava/util/ArrayList;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
-
-    move-result v0
-
-    xor-int/lit8 v0, v0, 0x1
-
-    if-eqz v0, :cond_1
-
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_1
-    return v1
 .end method
 
 .method public static isCameraSoundEnforced()Z
@@ -3468,6 +3452,24 @@
     move-result v0
 
     return v0
+.end method
+
+.method public static useOldMetaDataTypeForASD()Z
+    .locals 1
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_D1:Z
+
+    if-nez v0, :cond_0
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_C3B:Z
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
 .end method
 
 .method public static useStartupTimeOptimize()Z
