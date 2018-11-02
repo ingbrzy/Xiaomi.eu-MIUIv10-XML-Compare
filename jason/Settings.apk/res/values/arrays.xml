@@ -1767,6 +1767,16 @@
         <item>key_combination_power_back</item>
         <item>key_none</item>
     </string-array>
+    <string-array name="keyguard_notification_status_entries">
+        <item>Wake screen</item>
+        <item>Show animation</item>
+        <item>"Don't wake screen"</item>
+    </string-array>
+    <string-array name="keyguard_notification_status_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
     <string-array name="led_color_entries">
         <item>Blue</item>
         <item>Red</item>
