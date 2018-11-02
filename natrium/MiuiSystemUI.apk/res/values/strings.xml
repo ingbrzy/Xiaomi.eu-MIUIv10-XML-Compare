@@ -570,7 +570,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="dock_non_resizeble_failed_to_dock_text">"App doesn't support Split screen."</string>
   <string name="doze_brightness_sensor_type"/>
   <string name="doze_pickup_subtype_performs_proximity_check"/>
-  <string name="drag_to_add_tiles">Drag to add tiles</string>
+  <string name="drag_to_add_tiles">Press and hold to add or rearrange items</string>
   <string name="drag_to_remove_tiles">Drag here to remove</string>
   <string name="drive_mode_tip">Car mode is on</string>
   <string name="drive_mode_tip_idle">Car mode is on</string>
@@ -580,6 +580,8 @@ If you resume, charges may apply for data usage."</string>
   <string name="empty_shade_text">No notifications</string>
   <string name="enable_adb">USB debugging</string>
   <string name="enable_adb_summary">Debug mode when USB is connected</string>
+  <string name="enable_atrace">Turn on ATrace</string>
+  <string name="enable_atrace_summary">Capture kernel events using ATrace</string>
   <string name="enable_bluetooth_confirmation_ok">Turn on</string>
   <string name="enable_bluetooth_message">To connect keyboard to your tablet, turn on Bluetooth first.</string>
   <string name="enable_bluetooth_title">Turn on Bluetooth?</string>
@@ -764,7 +766,6 @@ Once your phone has cooled down, it will run normally."</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
-  <string name="input_password_handle_sdcard_fs">"Can't enter Second space from Lock screen. Enter from First space."</string>
   <string name="input_password_hint_text">Enter password</string>
   <string name="input_pattern_hint_text">Draw your unlock pattern</string>
   <string name="input_pin_code">Enter PIN</string>
@@ -970,9 +971,11 @@ Try again in %2$d seconds."</string>
   <string name="local_backup_password_toast_confirmation_mismatch">Passwords don’t match</string>
   <string name="local_backup_password_toast_success">New backup password set</string>
   <string name="local_backup_password_toast_validation_failure">"Couldn't set backup password"</string>
+  <string name="lock_screen_carrier_airplane_mode_on">Airplane mode</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
-  <string name="lock_screen_no_sim_card">No SIM card</string>
+  <string name="lock_screen_no_sim_card_emergency_only">Emergency call only</string>
+  <string name="lock_screen_no_sim_card_no_service">No service</string>
   <string name="lock_wallpaper_enter">Enter</string>
   <string name="lock_wallpaper_learn_more">More</string>
   <string name="lockscreen_access_pattern_area">Pattern area.</string>
@@ -1116,6 +1119,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="no_tiles_add">No tiles to add</string>
   <string name="no_weather_description">Get weather info &gt;</string>
   <string name="not_support_multi_window">"Current app doesn't support Split screen"</string>
+  <string name="notch_sos_status_bar_title">SOS</string>
   <string name="notification_all_categories">All categories</string>
   <string name="notification_app_settings">Customize: %1$s</string>
   <string name="notification_channel_alerts">Alerts</string>
@@ -1376,6 +1380,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
   <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit,gps,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver,extremebatterysaver</string>
   <string name="quick_settings_time_label">Time</string>
+  <string name="quick_settings_toast_drag_to_enable_custom_tile">To add an item, press and hold it, and then drag it to the upper part of the panel.</string>
   <string name="quick_settings_user_label">Me</string>
   <string name="quick_settings_user_new_user">New user</string>
   <string name="quick_settings_user_title">User</string>
@@ -1403,7 +1408,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="recents_accessibility_split_screen_top">Split screen to the top</string>
   <string name="recents_app_info_button_label">App info</string>
   <string name="recents_caption_resize">Select new task layout</string>
-  <string name="recents_drag_hint_message">Drag here to use Split screen</string>
+  <string name="recents_drag_hint_message">Press and hold an app, then drag it here.</string>
   <string name="recents_empty_message">No recent items</string>
   <string name="recents_empty_message_dismissed_all">"You've cleared everything"</string>
   <string name="recents_empty_message_multi_window">Open apps from the Home screen</string>
@@ -1518,6 +1523,8 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="snooze_option_30_min">30 minutes</string>
   <string name="snooze_undo">UNDO</string>
   <string name="snoozed_for_time">Snoozed for %1$s</string>
+  <string name="sos_status_bar_summary">click to exit</string>
+  <string name="sos_status_bar_title">SOS</string>
   <string name="speed_bump_explanation">Less urgent notifications below</string>
   <string name="ssl_ca_cert_warning">"Network may
 be monitored"</string>
@@ -1528,14 +1535,14 @@ be monitored"</string>
   <string name="status_bar_airplane">Airplane mode</string>
   <string name="status_bar_alarm">Alarm</string>
   <string name="status_bar_clear_all_button">Clear</string>
-  <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
-  <string name="status_bar_clock_date_format_12">EEEE, MMMM d</string>
-  <string name="status_bar_clock_date_time_format">H:mm MMMM d</string>
-  <string name="status_bar_clock_date_time_format_12">h:mmaa MMMM d</string>
-  <string name="status_bar_date_format">"EEEE
-MMMM d"</string>
-  <string name="status_bar_date_format_12">"EEEE
-MMMM d"</string>
+  <string name="status_bar_clock_date_format">E, MMM d</string>
+  <string name="status_bar_clock_date_format_12">E, MMM d</string>
+  <string name="status_bar_clock_date_time_format">H:mm MMM d</string>
+  <string name="status_bar_clock_date_time_format_12">h:mm aa,MMM d</string>
+  <string name="status_bar_date_format">"E
+MMM d"</string>
+  <string name="status_bar_date_format_12">"E
+MMM d"</string>
   <string name="status_bar_ethernet">Ethernet</string>
   <string name="status_bar_input_method_settings_configure_input_methods">Set up input methods</string>
   <string name="status_bar_latest_events_title">Notifications</string>
@@ -1544,7 +1551,7 @@ MMMM d"</string>
   <string name="status_bar_network_flow_limit">"   Monthly limit: %1$s   "</string>
   <string name="status_bar_network_flow_purchase">"   Purchase &gt;"</string>
   <string name="status_bar_network_flow_today">Today: %1$s</string>
-  <string name="status_bar_network_name_separator">|</string>
+  <string name="status_bar_network_name_separator">-</string>
   <string name="status_bar_no_notifications_title">No notifications</string>
   <string name="status_bar_no_recent_apps">Your recent screens appear here</string>
   <string name="status_bar_notification_app_settings_title">%s settings</string>
@@ -1624,8 +1631,8 @@ Slide down to lock"</string>
   <string name="structure_face_delete_data_dialog_msg_retry">Try again</string>
   <string name="structure_face_delete_data_dialog_title">"Couldn't launch Camera"</string>
   <string name="structure_face_hardware_abnormal_btn">Got it</string>
-  <string name="structure_face_hardware_abnormal_msg">"Can't record face data due to a laser error. Contact customer service to get help."</string>
-  <string name="structure_face_hardware_abnormal_title">Laser error</string>
+  <string name="structure_face_hardware_abnormal_msg">"A hardware error occurred. Reboot your device. If this doesn't help, call 400–100–5678 to get help."</string>
+  <string name="structure_face_hardware_abnormal_title">Hardware error</string>
   <string name="structure_face_modules_abnormal_btn">Reboot</string>
   <string name="structure_face_modules_abnormal_msg">"Can't record face data due to an optical module error. Reboot your device and try again."</string>
   <string name="structure_face_modules_abnormal_title">Optical module error</string>
@@ -1643,6 +1650,7 @@ Slide down to lock"</string>
   <string name="structure_face_unlock_model_other_title">Face recognition</string>
   <string name="structure_face_unlock_not_same_person">"You have to complete all the steps yourself. Don't switch places with anyone."</string>
   <string name="structure_face_unlock_really_person">"Looks like you've replaced your face with an object."</string>
+  <string name="structure_face_unlock_tof_covered">"Couldn't add face data. Move farther away from the screen."</string>
   <string name="switch_bar_off">Off</string>
   <string name="switch_bar_on">On</string>
   <string name="switch_system_user">Open First space</string>
@@ -1673,6 +1681,7 @@ Your phone may get too hot if you:
   <string name="torch_activity_hint">Hold [icon] to turn on torch at the lock screen</string>
   <string name="torch_activity_name">Torch</string>
   <string name="torch_closed">Torch off</string>
+  <string name="torch_high_temperature_warning">"Your device is overheated. Can't use torch now."</string>
   <string name="torch_opened">Torch on</string>
   <string name="track_frame_time">Profile GPU rendering</string>
   <string name="transition_animation_scale_title">Transition animation scale</string>
@@ -1751,7 +1760,6 @@ Your phone may get too hot if you:
   <string name="usb_debugging_title">Allow USB debugging?</string>
   <string name="usb_device_confirm_prompt">Open %1$s when this USB device is connected?</string>
   <string name="usb_device_permission_prompt">Allow the app %1$s to access the USB device?</string>
-  <string name="usb_function_charging_text">Connected in charging mode</string>
   <string name="usb_mode_dont_ask">Remember this choice</string>
   <string name="usb_mode_mount_storage_title">Open USB storage?</string>
   <string name="usb_mode_notification">USB Storage</string>
@@ -1880,6 +1888,8 @@ Any user can update apps for all other users."</string>
   <string name="wireless_charge_reset_device_detail">Make sure the position of your device on the charging base is correct</string>
   <string name="wireless_charge_stop">Stopped wireless charging</string>
   <string name="wrong_password">Incorrect password</string>
+  <string name="yoigo_mcc">214</string>
+  <string name="yoigo_mnc">04</string>
   <string name="zen_alarm_warning">"You won't hear your next alarm %1$s"</string>
   <string name="zen_alarm_warning_indef">"You won't hear your next alarm %1$s unless you turn this off before then"</string>
   <string name="zen_alarms_introduction">"You won’t be disturbed by sounds and vibrations, except from alarms. You'll still hear anything you choose to play including music, videos, and games."</string>

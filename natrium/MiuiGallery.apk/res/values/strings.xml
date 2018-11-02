@@ -670,6 +670,7 @@
   <string name="collage_poster_global_summer_flower_text">SUMMER</string>
   <string name="collage_poster_global_tea_text">TEA BREAK</string>
   <string name="collage_rotate">Rotate</string>
+  <string name="collage_select_image_range">Collages can contain 1-4 photos</string>
   <string name="collage_title_layout">Layout</string>
   <string name="collage_title_poster">Poster</string>
   <string name="collaps_people">Hide</string>
@@ -938,6 +939,7 @@ are available"</string>
   <string name="finish_fill_baby">Create</string>
   <string name="flash_off">No flash</string>
   <string name="flash_on">Flash used</string>
+  <string name="frame_not_support_image_ratio">"This aspect ratio isn't supported"</string>
   <string name="free_view_desc">3D view</string>
   <string name="gallery_setting">Settings</string>
   <string name="gallery_sync_disable_toast">Sync is off for Gallery</string>
@@ -1111,6 +1113,7 @@ to personalize Gallery"</string>
   <string name="operation_in_process">Processing…</string>
   <string name="operation_move_to_other_albums">Move to other albums</string>
   <string name="operation_not_show_in_photos_tab">"Don't show in Photos"</string>
+  <string name="operation_produce">Creativity</string>
   <string name="operation_projection">Cast</string>
   <string name="operation_remove_face">Remove</string>
   <string name="operation_remove_from_face_album">Remove from album</string>
@@ -1120,6 +1123,7 @@ to personalize Gallery"</string>
   <string name="operation_save">Save</string>
   <string name="operation_send">Send</string>
   <string name="operation_set_contact_photo">Set as contact photo</string>
+  <string name="operation_set_slide_wallpaper">Set as slideshow wallpaper</string>
   <string name="operation_set_wallpaper">Set as wallpaper</string>
   <string name="operation_share">Share</string>
   <string name="operation_show_in_photos_tab">Show in Photos</string>
@@ -1154,10 +1158,12 @@ to personalize Gallery"</string>
   <string name="photo_editor_beauty_compare">Original</string>
   <string name="photo_editor_crop_and_rotate">Crop</string>
   <string name="photo_editor_crop_auto">Auto</string>
+  <string name="photo_editor_crop_auto_tips">Cropped automatically</string>
   <string name="photo_editor_crop_reset">Reset</string>
   <string name="photo_editor_crop_rotation_format">%d°</string>
   <string name="photo_editor_doodle">Doodle</string>
   <string name="photo_editor_filter">Filter</string>
+  <string name="photo_editor_frame">Frame</string>
   <string name="photo_editor_label">Edit</string>
   <string name="photo_editor_long_crop">Crop</string>
   <string name="photo_editor_miui_beauty">Beautify</string>
@@ -1214,6 +1220,7 @@ to personalize Gallery"</string>
   <string name="photo_editor_text">Text</string>
   <string name="photo_editor_transition_image_view">photo_view</string>
   <string name="photo_editor_transition_menu_view">menu_view</string>
+  <string name="photo_movie_select_image_range">Clips can contain 3-6 photos</string>
   <string name="photo_page_save_uri_image_fail">"Couldn't save to Gallery"</string>
   <string name="photo_page_save_uri_image_ok">Photo saved to Gallery</string>
   <string name="photo_print_menu_loading">Loading plug-in…</string>
@@ -1266,6 +1273,7 @@ to personalize Gallery"</string>
   <string name="picker_image_will_download">"%d of the selected photos aren't on device. They will be downloaded."</string>
   <string name="picker_no_network_message">Connect to the network to download</string>
   <string name="picker_origin_need_download">"%1$d of the selected photos (%2$dMB) aren't on device. Download using mobile data?"</string>
+  <string name="picker_origin_request_progress_fail">"Couldn't download the original image due to a network error."</string>
   <string name="picker_origin_request_progress_message">Preparing original files (%1$d/%2$d)…</string>
   <string name="picker_title_format">Select %1$d to %2$d photos</string>
   <string name="picker_title_selection_format">Selected photos: %d</string>
@@ -1429,6 +1437,7 @@ to personalize Gallery"</string>
   <string name="secret_reason_unknow_reasons">Unknown error</string>
   <string name="secret_reason_video_not_support">"Can't add videos to hidden album"</string>
   <string name="see_ignore_faces">"View people you've ignored"</string>
+  <string name="select_image_operation">Adding photos</string>
   <string name="select_item_face">"Is this '%s'?"</string>
   <string name="select_origin_tip">Original file (%s)</string>
   <string name="send_file_beautify_failed">"Couldn't share"</string>
@@ -1438,6 +1447,8 @@ to personalize Gallery"</string>
   <string name="send_secret_file_space_low">Not enough storage space</string>
   <string name="send_too_many_files_error">Can send up to %d items at a time</string>
   <string name="set_as_baby_lock_wallpaper">Set as Lock screen wallpaper</string>
+  <string name="set_as_slide_wallpaper_description">This image is a thumbnail, download the original?</string>
+  <string name="set_as_slide_wallpaper_title">Set as slideshow wallpaper</string>
   <string name="set_as_wallpaper_description">This image is a thumbnail, download the original?</string>
   <string name="set_as_wallpaper_title">Set as wallpaper</string>
   <string name="set_face_group_toast_msg_new_user">Hold a person to merge or ignore them.</string>
@@ -1577,6 +1588,7 @@ to personalize Gallery"</string>
   <string name="unpublish_failed">"Couldn't unpublish"</string>
   <string name="unpublish_succeeded">Album unpublished</string>
   <string name="unpublishing">Canceling…</string>
+  <string name="unsupport_video">"%s doesn't work with videos"</string>
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
   <string name="user_agreement4">Privacy Policy</string>
