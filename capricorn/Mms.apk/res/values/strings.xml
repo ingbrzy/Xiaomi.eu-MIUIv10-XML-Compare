@@ -6,7 +6,7 @@
   <string name="addBlackList">Block</string>
   <string name="add_attachment">Add attachments</string>
   <string name="add_contact">vCard</string>
-  <string name="add_miui_contact">Mi Card</string>
+  <string name="add_miui_contact">Contact</string>
   <string name="add_music">Add music</string>
   <string name="add_number_to_sender">Add number to %s</string>
   <string name="add_picture">Add picture</string>
@@ -143,7 +143,6 @@
   <string name="delete_wild_sims_title">Delete selected numbers</string>
   <string name="delivery_report_activity">Delivery report</string>
   <string name="delivery_toast_body">Message received by %s</string>
-  <string name="delivery_toast_body_more">Message received by %1$s, and %2$d other people</string>
   <string name="dialog_message_fake_cell_detect_error">Correct the info about this message? To do this, MIUI needs to upload the phone number (%1$s), the contents of the message, and the info about nearby location to its servers.</string>
   <string name="dialog_message_mx">Mi Message allows you to send messages to other MIUI users without incurring charges. An outgoing SMS message is required to activate Mi Message. Your carrier will charge you for this message. You must agree to our \"%1$s\" and \"%2$s\" before using Mi Message.</string>
   <string name="dialog_message_networking">Messaging needs to use Yellow pages to be able to provide Sender ID recognition. Messaging and Yellow pages need to connect to the internet and access your location to work normally. Allow?</string>
@@ -538,7 +537,7 @@
   <string name="rcs_service_agreement">Service Agreement</string>
   <string name="rcs_setting">China Mobile Messaging settings</string>
   <string name="rcs_silence_message">Silence message notifications</string>
-  <string name="rcs_summary_auto_resend_mms">"Convert China Mobile multimedia messages to SMS after the original message couldn't be sent. Your carrier will charge you for this message."</string>
+  <string name="rcs_summary_auto_resend_mms">"Convert China Mobile multimedia messages to MMS after the original message couldn't be sent. Your carrier will charge you for this message."</string>
   <string name="rcs_summary_auto_resend_sms">"Convert China Mobile text messages to SMS after the original message couldn't be sent. Your carrier will charge you for this message."</string>
   <string name="rcs_summary_silence_message">Silence message notifications when desktop client is working</string>
   <string name="rcs_unavailable">"Can't use China Mobile Messaging now. China Mobile SIM card isn't your default data card."</string>
