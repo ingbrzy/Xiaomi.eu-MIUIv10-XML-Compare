@@ -402,6 +402,7 @@
         <item>beryllium</item>
         <item>perseus</item>
         <item>equuleus</item>
+        <item>cepheus</item>
     </string-array>
     <string-array name="device_support_screen_on_delayed">
         <item>dipper</item>
