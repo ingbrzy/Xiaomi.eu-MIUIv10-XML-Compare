@@ -315,7 +315,6 @@
   <string name="mr_system_route_name">System</string>
   <string name="mr_user_route_category_name">Devices</string>
   <string name="need_update_app">Update Mi Video to use all its features</string>
-  <string name="network_connect_info">"Couldn't connect to the network. Check your network settings and try again."</string>
   <string name="network_failed">"Couldn't connect to the network"</string>
   <string name="next">Next</string>
   <string name="no_recommend_data">no recommended video now</string>
@@ -361,7 +360,6 @@
   <string name="ovp_home_item_camera">Gallery</string>
   <string name="ovp_home_item_download">Downloads</string>
   <string name="ovp_home_item_folder">Files</string>
-  <string name="ovp_home_no_data_callback">"Couldn't load info. Pull down to refresh."</string>
   <string name="ovp_home_online_content_title">Online</string>
   <string name="ovp_info_video_loading">Just a sec…</string>
   <string name="ovp_load_playinfo_failure">"Couldn't get info"</string>
