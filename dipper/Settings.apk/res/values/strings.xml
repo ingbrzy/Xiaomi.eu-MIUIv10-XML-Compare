@@ -3770,6 +3770,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="other_relative">Other</string>
   <string name="other_sound_category_preference_title">Other sounds and vibrations</string>
   <string name="other_sound_settings">Other sounds</string>
+  <string name="others">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overlay_settings">Display over other apps</string>
   <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Android.</string>
@@ -5078,6 +5079,7 @@ Possibly incorrect PIN."</string>
   <string name="slider_vocie_online_close">Slide up</string>
   <string name="slider_vocie_online_default">None</string>
   <string name="slider_vocie_online_open">Slide down</string>
+  <string name="slider_vocie_online_theme">Slide online sound</string>
   <string name="slider_vocie_online_title">Online sounds</string>
   <string name="slider_voice_summary">Play sounds when you slide the screen up and down</string>
   <string name="slider_voice_title">Sounds</string>
@@ -5124,6 +5126,8 @@ Possibly incorrect PIN."</string>
   <string name="sound_settings_summary">Ring volume at %1$s</string>
   <string name="sound_settings_summary_silent">Ringer set to silent</string>
   <string name="sound_settings_summary_vibrate">Ringer set to vibrate</string>
+  <string name="sound_stereo_mode_summary">Only available when you play sound with speaker</string>
+  <string name="sound_stereo_mode_title">Stereo sound</string>
   <string name="sound_vibrate_settings">Sound &amp; vibration</string>
   <string name="sound_work_settings">Work profile sounds</string>
   <string name="special_access">Special app access</string>
