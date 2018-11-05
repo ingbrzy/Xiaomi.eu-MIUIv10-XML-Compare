@@ -399,6 +399,9 @@
         <item>chiron</item>
         <item>nitrogen</item>
         <item>whyred</item>
+        <item>equuleus</item>
+        <item>platina</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="device_use_cameraone">
         <item>jason</item>

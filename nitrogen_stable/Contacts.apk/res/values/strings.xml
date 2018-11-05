@@ -55,7 +55,6 @@
   <string name="btn_split_contact">Separate</string>
   <string name="button_cancel_scan">Stop</string>
   <string name="button_join_service_number">Add service number</string>
-  <string name="button_my_center">Profile</string>
   <string name="button_scan">Rescan</string>
   <string name="caching_vcard_message">Caching vCard to device…</string>
   <string name="caching_vcard_title">Caching</string>
@@ -409,6 +408,7 @@ Contact cards are turned off"</string>
   <string name="dialer_menu_description">Show menus</string>
   <string name="dialer_menu_title">Menu options</string>
   <string name="dialer_returnToInCallScreen">Return to call in progress</string>
+  <string name="dialer_title_divider">" ｜ "</string>
   <string name="dialer_useDtmfDialpad">Use touch tone keypad</string>
   <string name="dialog_import">Import contacts</string>
   <string name="dialog_import_export">Import/export contacts</string>
