@@ -2067,6 +2067,7 @@ This helps protect data on lost or stolen devices. Require PIN to start your dev
   <string name="enter_password">To start Android, enter your password</string>
   <string name="enter_pattern">To start Android, draw your pattern</string>
   <string name="enter_pin">To start Android, enter your PIN</string>
+  <string name="enterprise_mode">Enterprise mode</string>
   <string name="enterprise_privacy_always_on_vpn_device">Always-on VPN turned on</string>
   <string name="enterprise_privacy_always_on_vpn_personal">Always-on VPN turned on in your personal profile</string>
   <string name="enterprise_privacy_always_on_vpn_work">Always-on VPN turned on in your work profile</string>
@@ -2611,6 +2612,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="input_methods_and_subtype_enabler_title">Choose active input methods</string>
   <string name="input_methods_settings_label_format">%1$s settings</string>
   <string name="input_methods_settings_title">Text input</string>
+  <string name="input_pattern_hint_text">Draw your unlock pattern</string>
   <string name="input_settings">Input settings</string>
   <string name="install_all_warning">Your phone and personal data are more vulnerable to attack by unknown apps. By installing apps from this source, you agree that you are responsible for any damage to your phone or loss of data that may result from their use.</string>
   <string name="install_applications">Unknown sources</string>
@@ -5079,8 +5081,8 @@ Possibly incorrect PIN."</string>
   <string name="slider_vocie_online_close">Slide up</string>
   <string name="slider_vocie_online_default">None</string>
   <string name="slider_vocie_online_open">Slide down</string>
-  <string name="slider_vocie_online_theme">Slide online sound</string>
   <string name="slider_vocie_online_title">Online sounds</string>
+  <string name="slider_voice_online_theme">Online sounds</string>
   <string name="slider_voice_summary">Play sounds when you slide the screen up and down</string>
   <string name="slider_voice_title">Sounds</string>
   <string name="slight_pause">,</string>

@@ -527,7 +527,9 @@ and brings out the people in the front."</string>
   <string name="toast_saving">Saving photos…</string>
   <string name="ubi_focus_capture_fail">"Couldn't take photo"</string>
   <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
+  <string name="ultra_wide_close_tip">超广角模式已关闭</string>
   <string name="ultra_wide_mode">超广角</string>
+  <string name="ultra_wide_open_tip">超广角模式</string>
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
   <string name="user_agreement4">Privacy Policy</string>
