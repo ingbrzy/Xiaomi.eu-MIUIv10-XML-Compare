@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="abc_action_bar_home_description">Navigate home</string>
+  <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+  <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+  <string name="abc_action_bar_up_description">Navigate up</string>
+  <string name="abc_action_menu_overflow_description">More options</string>
+  <string name="abc_action_mode_done">Done</string>
+  <string name="abc_activity_chooser_view_see_all">See all</string>
+  <string name="abc_activitychooserview_choose_application">Choose an app</string>
+  <string name="abc_search_hint">Search…</string>
+  <string name="abc_searchview_description_clear">Clear query</string>
+  <string name="abc_searchview_description_query">Search query</string>
+  <string name="abc_searchview_description_search">Search</string>
+  <string name="abc_searchview_description_submit">Submit query</string>
+  <string name="abc_searchview_description_voice">Voice search</string>
+  <string name="abc_shareactionprovider_share_with">Share with</string>
+  <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+  <string name="abc_toolbar_collapse_description">Collapse</string>
+  <string name="act_set_pref_btsc_cust_path_summary">%1$s</string>
+  <string name="act_set_pref_btsc_cust_path_title">Stack Cust Config</string>
+  <string name="act_set_pref_systool_open_engmode_summary">Speech VM: Hardware Testing &gt; Audio &gt; Speech Logger</string>
+  <string name="act_set_pref_systool_open_engmode_title">Open EngineerMode</string>
+  <string name="act_set_pref_systool_open_mtklogger_summary">go to MtkLogger home screen</string>
+  <string name="act_set_pref_systool_open_mtklogger_title">Open MtkLogger</string>
+  <string name="act_set_pref_test_situation_dialog_title">Test Situation</string>
+  <string name="act_set_pref_test_situation_title">Test Situation: %1$s</string>
+  <string name="act_set_prefs_bluetooth">Bluetooth Log Tool</string>
+  <string name="act_set_prefs_systool">MTK System Tool</string>
+  <string name="app_name">BT Tool</string>
+  <string name="app_version">0.9.6</string>
+  <string name="loading">Loading</string>
+  <string name="nnf_create_folder_error">Failed to create folder</string>
+  <string name="nnf_name">Name</string>
+  <string name="nnf_new_folder">New folder</string>
+  <string name="nnf_permission_external_write_denied">Permisson to access filesystem denied</string>
+  <string name="nnf_select_something_first">Please select something first</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
+</resources>
