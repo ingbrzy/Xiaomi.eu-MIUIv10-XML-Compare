@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="notes" size="2:2">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Notes</title>
+	<titles>
+		<title locale="zh_CN">Notes</title>
+		<title locale="zh_TW">便條</title>
+		<title locale="cs_CZ">Poznámky</title>
+		<title locale="sk_SK">Poznámky</title>
+		<title locale="pl_PL">Notatki</title>
+		<title locale="fr_FR">Notes</title>
+		<title locale="hu_HU">Jegyzetek</title>
+		<title locale="bg_BG">Бележки</title>
+		<title locale="hr_HR">Bilješke</title>	
+		<title locale="it_IT">Note</title>
+		<title locale="pt_BR">Notas</title>
+		<title locale="el_GR">Σημειώσεις</title>
+		<title locale="es_ES">Notas</title>
+		<title locale="de_DE">Notizen</title>
+		<title locale="vi_VN">Ghi chú</title>
+		<title locale="tr_TR">Notlar</title>
+		<title locale="pt_PT">Notas</title>
+		</titles>
+</MIUI-Theme>
