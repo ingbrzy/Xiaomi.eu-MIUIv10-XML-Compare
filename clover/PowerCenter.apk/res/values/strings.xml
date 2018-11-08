@@ -26,6 +26,9 @@
   <string name="battery_stats_wake_lock_label">Awake</string>
   <string name="battery_stats_wifi_running_label">WLAN</string>
   <string name="cpu_usage_android_system">Android system</string>
+  <string name="create_table_aaid">CREATE TABLE AAID( _id INTEGER PRIMARY KEY AUTOINCREMENT, package_name TEXT NOT NULL, aaid TEXT NOT NULL );</string>
+  <string name="create_table_oaid">CREATE TABLE OAID( _id INTEGER PRIMARY KEY AUTOINCREMENT, oaid TEXT NOT NULL );</string>
+  <string name="create_table_vaid">CREATE TABLE VAID( _id INTEGER PRIMARY KEY AUTOINCREMENT, package_name TEXT NOT NULL, vaid TEXT NOT NULL );</string>
   <string name="details_subtitle">Use details</string>
   <string name="enter_gamemode_tip">Opening game…</string>
   <string name="firewall_network_allow">Allowed %1$s to use %2$s connection</string>
