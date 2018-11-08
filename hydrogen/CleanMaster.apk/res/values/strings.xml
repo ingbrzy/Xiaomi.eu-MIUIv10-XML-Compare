@@ -34,6 +34,10 @@
   <string name="apk_status_installed_old">Old version</string>
   <string name="apk_status_uninstalled">Not installed</string>
   <string name="apk_title_alipay_plugin">支付宝插件</string>
+  <string name="app_clean_group_document_recv">Received files</string>
+  <string name="app_clean_group_document_send">Sent files</string>
+  <string name="app_clean_group_image_recv">Received images</string>
+  <string name="app_clean_group_image_send">Sent images</string>
   <string name="app_description_content">Cleaner finds trash on your device and frees up storage space. Make sure you can do without these features before you uninstall the app.</string>
   <string name="app_description_title">About Cleaner</string>
   <string name="app_name">JunkEngine</string>
@@ -209,6 +213,15 @@
   <string name="engine_cm">Clean Master</string>
   <string name="engine_init">Initializing…</string>
   <string name="engine_tm">Tencent</string>
+  <string name="facebook_clean_exit_confirm_cancel">Keep scanning</string>
+  <string name="facebook_clean_exit_confirm_msg">"Haven't finished scanning Facebook yet. Stop scanning now?"</string>
+  <string name="facebook_clean_exit_confirm_ok">Stop</string>
+  <string name="facebook_clean_exit_confirm_title">Stop scanning?</string>
+  <string name="facebook_cleaner">Facebook Cleaner</string>
+  <string name="facebook_group_cache">Cache files</string>
+  <string name="facebook_group_gif">GIFs</string>
+  <string name="facebook_group_image">Images</string>
+  <string name="facebook_group_video">Videos</string>
   <string name="file">Files</string>
   <string name="file_not_found">File not found</string>
   <string name="flow_rank_title">Data usage</string>
@@ -665,10 +678,6 @@
   <string name="whatsapp_group_voice">Voice messages</string>
   <string name="whatsapp_group_wallpaper">Wallpapers</string>
   <string name="whatsapp_title">WhatsApp cleaner</string>
-  <string name="whatsapp_type_document_recv">Received files</string>
-  <string name="whatsapp_type_document_send">Sent files</string>
-  <string name="whatsapp_type_image_recv">Received images</string>
-  <string name="whatsapp_type_image_send">Sent images</string>
   <string name="white_list_ad_header">Obsolete files: %d</string>
   <string name="white_list_apk_header">Install packages: %d</string>
   <string name="white_list_cache_header">Cached files: %d</string>
