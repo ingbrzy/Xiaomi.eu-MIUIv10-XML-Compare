@@ -896,7 +896,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="fod_finger_notice_title">Place your finger on the screen</string>
   <string name="fod_finger_windows_tips">Verify your fingerprint</string>
   <string name="fod_tips_split_screen_more_than_half">Enter password</string>
-  <string name="forbid_autobright_summary">"Screen brightness will stay the same when you're playing games"</string>
+  <string name="forbid_autobright_summary">"Auto brightness will be turned off while you're playing and restored after you finish"</string>
   <string name="forbid_autobright_title">Fix screen brightness</string>
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
@@ -1020,6 +1020,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gs_performance_mode">Performance mode</string>
   <string name="gs_performance_mode_detail">Increase CPU usage to ensure seamless performance</string>
   <string name="gs_sign_notification">Remind to check in at 8 PM daily</string>
+  <string name="gs_slip_gamebox_detail">Use slider to make the shortcut panel appear. Quick replies and screen recording options are available.</string>
   <string name="guide_get_operator_error">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Wrong carrier?&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="guide_operator_text">"Your current carrier: "</string>
   <string name="guide_quck_open">Turn on</string>
