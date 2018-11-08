@@ -74,6 +74,7 @@
   <string name="show_screen_touch_summary">Visualize gestures using a white dot</string>
   <string name="sound_source">Sound source</string>
   <string name="sound_source_summary">System sounds or microphone</string>
+  <string name="sound_source_summary_without_system_sounds">Use microphone or mute sound</string>
   <string name="start">Start</string>
   <string name="start_recording">Start recording</string>
   <string name="stop_by_second_space">Switching spaces will stop the recording</string>
