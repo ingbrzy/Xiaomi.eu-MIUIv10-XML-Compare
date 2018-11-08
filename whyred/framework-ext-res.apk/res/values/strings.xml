@@ -264,5 +264,6 @@
   <string name="voice_input_error_other">An error occurred. Wait a minute or two and try again.</string>
   <string name="wifi_assistant_wifi_no_internet">This WLAN network has no access to the internet</string>
   <string name="wifi_assistant_wifi_no_internet_detail">Tap to view details</string>
+  <string name="xspace_head">Dual app</string>
   <string name="xspace_resolver_activity_title">Select app</string>
 </resources>
