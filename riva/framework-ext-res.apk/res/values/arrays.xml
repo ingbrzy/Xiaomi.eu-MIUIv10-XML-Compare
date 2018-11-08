@@ -1412,4 +1412,5 @@
         <item>120</item>
         <item>255</item>
     </integer-array>
+    <array name="screen_resolution_supported" />
 </resources>

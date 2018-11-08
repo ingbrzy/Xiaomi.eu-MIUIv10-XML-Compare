@@ -11,7 +11,7 @@
   <string name="cannot_add_printer">Cannot add printers</string>
   <string name="collapse_handle">Collapse handle</string>
   <string name="could_not_create_file">Could not create file</string>
-  <string name="current_page_template">%1$d /%2$d</string>
+  <string name="current_page_template">%1$d/%2$d</string>
   <string name="destination_default_text">Select a printer</string>
   <string name="disabled_services_title">Disabled services</string>
   <string name="enable_print_service">Select to enable</string>
@@ -37,6 +37,8 @@
   <string name="mediasize_standard_north_america">1</string>
   <string name="more_options_button">More options</string>
   <string name="no_connection_to_printer">No connection to printer</string>
+  <string name="notification_channel_failure">Failed print jobs</string>
+  <string name="notification_channel_progress">Running print jobs</string>
   <string name="page_description_template">Page %1$d of %2$d</string>
   <string name="pages_range_example">e.g. 1—5,8,11—13</string>
   <string name="print_add_printer">Add printer</string>
