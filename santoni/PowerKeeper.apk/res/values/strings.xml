@@ -8,6 +8,9 @@
   <string name="app_preload_policies_summary">"Use machine learning to predict the apps you're most likely to use, and load resources in advance."</string>
   <string name="app_preload_policies_title">AI pre-loading</string>
   <string name="appconfig_active_app_dialog_title">Manage active apps</string>
+  <string name="atrace_saved">Saved successfully</string>
+  <string name="atrace_saving">Saving atrace log…</string>
+  <string name="atrace_start">Recording atrace log…</string>
   <string name="base_info">Base info</string>
   <string name="cloud_addr_info">Cloud info</string>
   <string name="cloud_china_addr">Update Chinese server data</string>
