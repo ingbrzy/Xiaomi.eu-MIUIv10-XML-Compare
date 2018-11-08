@@ -2845,6 +2845,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Español (América)</item>
         <item>Português (Brasil)</item>
     </string-array>
+    <string-array name="device_support_pickup_by_MTK">
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>lotus</item>
+    </string-array>
     <string-array name="show_verification_device_list">
         <item>land</item>
         <item>markw</item>
