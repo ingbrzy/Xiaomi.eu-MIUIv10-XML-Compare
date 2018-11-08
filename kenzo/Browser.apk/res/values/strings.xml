@@ -585,6 +585,8 @@ to view open tabs from other devices."</string>
   <string name="google_bookmarks">Google</string>
   <string name="green_kid_block_request">Access to this website is restricted.</string>
   <string name="guide_chosen_type_main_title">Tell us what you like</string>
+  <string name="guide_chosen_type_main_title_behind">what you like</string>
+  <string name="guide_chosen_type_main_title_front">Tell us</string>
   <string name="guide_chosen_type_subtitle">Tag your interests to get relevant recommendations</string>
   <string name="guide_entertainment_text">amuse</string>
   <string name="guide_fashion_text">fashion</string>
