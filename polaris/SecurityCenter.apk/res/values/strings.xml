@@ -225,12 +225,12 @@
   <string name="app_manager_reset_app_preferences_button">Reset apps</string>
   <string name="app_manager_reset_app_preferences_desc">"This will reset all preferences for:
 
- "&lt;li&gt;Disabled apps&lt;/li&gt;"
- "&lt;li&gt;Disabled app notifications&lt;/li&gt;"
- "&lt;li&gt;Default apps&lt;/li&gt;"
- "&lt;li&gt;Background data restrictions for apps&lt;/li&gt;"
+"&lt;li&gt;Disabled apps&lt;/li&gt;"
+"&lt;li&gt;Disabled app notifications&lt;/li&gt;"
+"&lt;li&gt;Default apps&lt;/li&gt;"
+"&lt;li&gt;Background data restrictions for apps&lt;/li&gt;"
 
- You will not lose any app data."</string>
+You will not lose any app data."</string>
   <string name="app_manager_reset_app_preferences_title">Reset app preferences?</string>
   <string name="app_manager_search_prompt">"Couldn't find results? Try showing results from all apps."</string>
   <string name="app_manager_show_all_apps">Show all apps</string>
@@ -584,6 +584,13 @@
   <string name="current_network_state_not_need_diagnose">Internet connection is normal.</string>
   <string name="customize_limit_pkg">%s (custom)</string>
   <string name="customizer_mode_user_define_name">My rules</string>
+  <string name="daily_card_setting_fragment_daily_card_brand">Carrier</string>
+  <string name="daily_card_setting_fragment_daily_card_brand_value">Select carrier</string>
+  <string name="daily_card_setting_fragment_daily_card_setting">Daily data plan settings</string>
+  <string name="daily_card_setting_fragment_daily_card_summary">"MIUI will set data limits and apps with unlimited data according to the carrier you select. If your carrier isn't listed, select \"Other\" and set up your daily data plan manually."</string>
+  <string name="daily_card_setting_fragment_daily_package">Daily data limit</string>
+  <string name="daily_card_setting_fragment_month_package">Monthly data package</string>
+  <string name="daily_card_setting_fragment_package_summary">If your daily data plan contains a monthly data package, it will be used before the daily package.</string>
   <string name="daily_limit_and_lock_screen">Data usage warning</string>
   <string name="daily_limit_network_available_body">Tap to view data usage stats.</string>
   <string name="daily_limit_over_message">"You've exceeded your daily data limit."</string>
@@ -634,6 +641,8 @@ All data on your device might be erased and your Lock screen password might be r
   <string name="diagnostic_attention_dialog_message">"Diagnostics for %1$s is in progress. Wait until it's finished and try again."</string>
   <string name="dialog_app_roaming_message">"%1$s can't use mobile data when roaming. When you're roaming overseas, only apps you've added to exceptions can use mobile data."</string>
   <string name="dialog_app_roaming_title">"Overseas roaming isn't enabled for %1$s"</string>
+  <string name="dialog_change_package_type_summary">Changing data plan type will reset all data usage settings (e.g. data limits) to their default values. Change data plan type now?</string>
+  <string name="dialog_change_package_type_title">Changing data plan type</string>
   <string name="dialog_msg_auto_start_declare">Some apps may incorrectly indicate that MIUI has prevented them from starting. Check permissions that have been granted to individual apps in Settings &gt; Apps.</string>
   <string name="dialog_msg_stop_virus_scan">"Stop security scan before it's finished?"</string>
   <string name="dialog_no_longer_alert">"Don't show again"</string>
@@ -1189,6 +1198,9 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="main_button_usage_adjusting">Changing…</string>
   <string name="main_button_usage_adjusting_bill">Changing…</string>
   <string name="main_button_usage_package_setting">Set data usage limit</string>
+  <string name="main_daily_card_guide_dialog_ok">Set</string>
+  <string name="main_daily_card_guide_dialog_summary">You can choose between daily, monthly, and unlimited plans. Set data plan type now?</string>
+  <string name="main_daily_card_guide_dialog_title">Set data plan type</string>
   <string name="main_daily_package">Daily data plan</string>
   <string name="main_indicator_title">Activation</string>
   <string name="main_leisure_remained">Off-peak data remaining</string>
@@ -1214,6 +1226,7 @@ to respond"</string>
   <string name="main_toolbar_firewall">Restrict data usage</string>
   <string name="main_toolbar_purchase">Top up</string>
   <string name="main_toolbar_statistic">Data usage stats</string>
+  <string name="main_traffic_detail">Data usage</string>
   <string name="man_add_application">Add autostart apps manually</string>
   <string name="manage_hybrid_permissions">"Manage app's permissions"</string>
   <string name="managed_user_title">All work apps</string>
@@ -1421,6 +1434,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="no_game">"Couldn't find games"</string>
   <string name="no_lucky_money">尚未收到红包</string>
   <string name="not_available">暂无</string>
+  <string name="not_limited_brand">Unlimited</string>
   <string name="note">Note</string>
   <string name="note_call_none">No calls</string>
   <string name="note_list_none">List is empty</string>
@@ -1704,6 +1718,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="pref_category_daily_package_tile">Daily data plan</string>
   <string name="pref_category_extra_package_tile">Top-up package</string>
   <string name="pref_category_half_year_package_tile">Half-year data package</string>
+  <string name="pref_category_package_type_title">Data plan type</string>
   <string name="pref_category_title_module_settings">Feature settings</string>
   <string name="pref_category_title_other">Additional settings</string>
   <string name="pref_category_title_securitycenter_settings">General</string>
@@ -1743,17 +1758,23 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="pref_roaming_daily_limit_setting_cat_title">Daily data limit</string>
   <string name="pref_roaming_setting_gategory">Settings</string>
   <string name="pref_special_package_setting">Custom data plan</string>
-  <string name="pref_special_package_setting_summary">Manage off-peak data, top-up packages, daily data plans, and designated data</string>
+  <string name="pref_special_package_setting_summary">Manage off-peak data, top-up packages, and designated data</string>
   <string name="pref_summary_upload_data_usage">Report your data usage info to help us improve MIUI services. The reporting process will be carried out in accordance with our Privacy Policy.</string>
   <string name="pref_title_declaration">Important disclaimer</string>
   <string name="pref_title_diagnostics_show_float_notification">Floating notifications</string>
   <string name="pref_title_manual_check_virus_db_update">Check for updates</string>
   <string name="pref_title_over_traffic_limit_warning">When exceeded</string>
   <string name="pref_title_traffic_limit_number">Size</string>
+  <string name="pref_title_traffic_package_type">Data plan type</string>
   <string name="pref_title_traffic_speed_state">Show network speed</string>
   <string name="pref_title_update_notification">Data usage notifications</string>
   <string name="pref_title_upload_data_usage">Report data usage info</string>
+  <string name="pref_traffic_daily_package">Daily data plan</string>
+  <string name="pref_traffic_daily_package_brand">Daily data plan provider</string>
   <string name="pref_traffic_manage_title">Data usage</string>
+  <string name="pref_traffic_monthly_package">Monthly data plan</string>
+  <string name="pref_traffic_package_type_summary">Monthly/Daily/Unlimited</string>
+  <string name="pref_traffic_unlimited_package">Unlimited data plan</string>
   <string name="pref_warning_values">Data usage warning level</string>
   <string name="pref_whitelist_setting">Data roaming exceptions</string>
   <string name="preference_category_information_setting">category_information_setting</string>
@@ -2468,10 +2489,18 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="traffic_setting_fragment_button1_text">Cancel</string>
   <string name="traffic_setting_fragment_button2_text">Save</string>
   <string name="traffic_setting_fragment_city">City</string>
+  <string name="traffic_setting_fragment_daily_summary">Mobile data is updated daily</string>
+  <string name="traffic_setting_fragment_daily_title">Daily data plan</string>
   <string name="traffic_setting_fragment_default">Select</string>
   <string name="traffic_setting_fragment_loacation_alert_nomore">"Don't show again"</string>
+  <string name="traffic_setting_fragment_month_summary">Mobile data and call minutes are updated monthly</string>
+  <string name="traffic_setting_fragment_month_title">Monthly data plan</string>
+  <string name="traffic_setting_fragment_next">Next</string>
+  <string name="traffic_setting_fragment_not_limited_summary">Unlimited mobile data options</string>
+  <string name="traffic_setting_fragment_not_limited_title">Unlimited data plan</string>
   <string name="traffic_setting_fragment_operator">Carrier</string>
   <string name="traffic_setting_fragment_operator_setting">Carrier settings</string>
+  <string name="traffic_setting_fragment_packege_type">Data plan settings</string>
   <string name="traffic_setting_fragment_province">Province</string>
   <string name="traffic_setting_fragment_send_num">Carrier phone number</string>
   <string name="traffic_setting_fragment_send_num_tips">Enter phone number</string>
