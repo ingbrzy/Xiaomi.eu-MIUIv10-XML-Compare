@@ -42,6 +42,7 @@
     </string-array>
     <string-array name="ai_key_item_name">
         <item>Talk to Google Assistant</item>
+        <item>Open Google search</item>
         <item>Open rear camera</item>
         <item>Open front camera</item>
         <item>Open previous app</item>
