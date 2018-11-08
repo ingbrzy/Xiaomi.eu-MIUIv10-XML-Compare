@@ -1854,6 +1854,20 @@
     return v0
 .end method
 
+.method public static isSupportFaceBeautyMakeup()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_face_beauty_makeup"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static isSupportFakeThumbnail()Z
     .locals 2
 
@@ -3470,12 +3484,4 @@
     const/4 v0, 0x1
 
     goto :goto_0
-.end method
-
-.method public static useStartupTimeOptimize()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
 .end method
