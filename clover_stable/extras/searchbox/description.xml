@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="tools" size="2:1">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Search</title>
+	<titles>
+		<title locale="zh_CN">搜索</title>
+		<title locale="zh_TW">搜尋</title>
+		<title locale="cs_CZ">Vyhľadať</title>
+		<title locale="sk_SK">Vyhledat</title>
+		<title locale="pl_PL">Search</title>
+		<title locale="fr_FR">Search</title>
+		<title locale="hu_HU">Search</title>
+		<title locale="bg_BG">Search</title>
+		<title locale="hr_HR">Search</title>	
+		<title locale="it_IT">Search</title>
+		<title locale="es_ES">Search</title>
+	</titles>
+</MIUI-Theme>

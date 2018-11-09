@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="tools" size="4:2">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Music</title>
+	<titles>
+		<title locale="zh_CN">Music</title>
+		<title locale="zh_TW">音樂</title>
+		<title locale="cs_CZ">Hudba</title>
+		<title locale="sk_SK">Hudba</title>
+		<title locale="pl_PL">Muzyka</title>
+		<title locale="fr_FR">Musique</title>
+		<title locale="hu_HU">Zene</title>
+		<title locale="bg_BG">Музика</title>
+		<title locale="hr_HR">Glazba</title>	
+		<title locale="it_IT">Musica</title>
+		<title locale="pt_BR">Musica</title>
+		<title locale="el_GR">Μουσική</title>
+		<title locale="es_ES">Música</title>
+		<title locale="de_DE">Musik</title>
+		<title locale="tr_TR">Müzik</title>
+		<title locale="vi_VN">Nhạc</title>
+		<title locale="pt_PT">Música</title>
+		</titles>
+</MIUI-Theme>
