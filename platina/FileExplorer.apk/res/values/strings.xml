@@ -535,6 +535,7 @@
   <string name="rename_alert">"If you change this file's extension, you may not be able to open it."</string>
   <string name="rename_alert2">The file will be hidden after you change its extension.</string>
   <string name="rename_failed">"Can't rename %1$s"</string>
+  <string name="rename_input_null">Enter new filename</string>
   <string name="repair_done">Restored</string>
   <string name="repair_error">"Couldn't restore"</string>
   <string name="repair_file">Restore encrypted files</string>
