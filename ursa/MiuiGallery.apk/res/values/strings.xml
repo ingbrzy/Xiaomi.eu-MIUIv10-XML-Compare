@@ -98,7 +98,6 @@
   <string name="app_name">Gallery</string>
   <string name="app_name_view_picture">View photos</string>
   <string name="app_name_view_video">View videos</string>
-  <string name="apply">Apply</string>
   <string name="assistant_page_label">Stories</string>
   <string name="associate_face_album">Choose an album</string>
   <string name="auto_backup_introduce">Back up photos and videos automatically (Mi Account is required)</string>
@@ -124,10 +123,6 @@
   <string name="baby_album_sharers_page_title">Share with family</string>
   <string name="baby_birthday">Birthday</string>
   <string name="baby_face_desc">Baby album</string>
-  <string name="baby_lock_wallpaper">Lock screen wallpaper</string>
-  <string name="baby_lock_wallpaper_cancelled">Switched to default Lock screen wallpaper</string>
-  <string name="baby_lock_wallpaper_save_settings_msg">Apply current settings?</string>
-  <string name="baby_lock_wallpaper_title">"Use baby photos as Lock screen's wallpaper"</string>
   <string name="baby_name_cannot_empty">Enter name</string>
   <string name="baby_name_cannot_start_with">"Name can't begin with '%s'"</string>
   <string name="baby_name_contain_invalidate_char">"Name can't contain '%s'"</string>
@@ -198,7 +193,6 @@
   <string name="camera_needs_auto_backup_tip">Camera album must be backed up</string>
   <string name="camera_path">/DCIM/Camera</string>
   <string name="cancel">Cancel</string>
-  <string name="cancel_baby_lock_wallpaper_confirm_msg">Switch to default Lock screen wallpaper?</string>
   <string name="cancel_download_btn_text">Stop</string>
   <string name="cancel_hint">Operation canceled</string>
   <string name="cannot_remove_creator">"Can't remove creator"</string>
@@ -745,6 +739,11 @@
   <string name="disable_auto_upload_tip">Turn off sync with Mi Cloud for this album?</string>
   <string name="disable_auto_upload_title">Turn off sync with Mi Cloud</string>
   <string name="do_not_remind_me">"Don't show again"</string>
+  <string name="document_provider_guide_step_1">1. Tap the \"More\" button.</string>
+  <string name="document_provider_guide_step_2">2. Tap \"Show internal storage\".</string>
+  <string name="document_provider_guide_step_3">3. Tap the side menu button.</string>
+  <string name="document_provider_guide_step_4">4. Select \"SD card\".</string>
+  <string name="document_provider_guide_step_5">5. Tap \"Select\".</string>
   <string name="double_tap_to_higher_definition">Double tap again for the HD preview</string>
   <string name="download_canceled">Download canceled</string>
   <string name="download_error_format">"Couldn't download %s"</string>
@@ -849,6 +848,18 @@
   <string name="exit_video_play">Exit</string>
   <string name="expand_desc">More</string>
   <string name="expand_people">Show more people</string>
+  <string name="ext_sdcard_first_entrance_request_failed_text">Gallery will save items to internal storage instead. You can change this in Settings &gt; Storage &gt; Storage settings.</string>
+  <string name="ext_sdcard_first_entrance_request_failed_title">"Couldn't give permissions."</string>
+  <string name="ext_sdcard_guide_first_page_button_text">Next</string>
+  <string name="ext_sdcard_guide_last_page_button_text">Give permissions</string>
+  <string name="ext_sdcard_guide_text">"Gallery needs your permission to access SD card. Here's what you can do:"</string>
+  <string name="ext_sdcard_operation_failed_text">Gallery needs permissions to access SD card.</string>
+  <string name="ext_sdcard_operation_failed_title">"Couldn't complete this action"</string>
+  <string name="ext_sdcard_permission_request_button_text">Got it</string>
+  <string name="ext_sdcard_permission_request_reason">Gallery needs your permission to access SD card. It will allow you to delete and edit photos and videos that are stored on your SD card.</string>
+  <string name="ext_sdcard_permission_request_title">Allow Gallery to access SD card</string>
+  <string name="ext_sdcard_request_failed_button_text">OK</string>
+  <string name="ext_sdcard_request_succeed_toast_text">"You're ready to rock!"</string>
   <string name="face_album_empty">"Not enough photos to recognize people.
 Take more photos of your friends!"</string>
   <string name="face_album_empty_syncing">Syncing data, come back in a while</string>
@@ -1123,6 +1134,7 @@ to personalize Gallery"</string>
   <string name="operation_save">Save</string>
   <string name="operation_send">Send</string>
   <string name="operation_set_contact_photo">Set as contact photo</string>
+  <string name="operation_set_slide_wallpaper">Set as slideshow wallpaper</string>
   <string name="operation_set_wallpaper">Set as wallpaper</string>
   <string name="operation_share">Share</string>
   <string name="operation_show_in_photos_tab">Show in Photos</string>
@@ -1272,6 +1284,7 @@ to personalize Gallery"</string>
   <string name="picker_image_will_download">"%d of the selected photos aren't on device. They will be downloaded."</string>
   <string name="picker_no_network_message">Connect to the network to download</string>
   <string name="picker_origin_need_download">"%1$d of the selected photos (%2$dMB) aren't on device. Download using mobile data?"</string>
+  <string name="picker_origin_request_progress_fail">"Couldn't download the original image due to a network error."</string>
   <string name="picker_origin_request_progress_message">Preparing original files (%1$d/%2$d)…</string>
   <string name="picker_title_format">Select %1$d to %2$d photos</string>
   <string name="picker_title_selection_format">Selected photos: %d</string>
@@ -1444,7 +1457,8 @@ to personalize Gallery"</string>
   <string name="send_secret_file_failed">"Couldn't share"</string>
   <string name="send_secret_file_space_low">Not enough storage space</string>
   <string name="send_too_many_files_error">Can send up to %d items at a time</string>
-  <string name="set_as_baby_lock_wallpaper">Set as Lock screen wallpaper</string>
+  <string name="set_as_slide_wallpaper_description">This image is a thumbnail, download the original?</string>
+  <string name="set_as_slide_wallpaper_title">Set as slideshow wallpaper</string>
   <string name="set_as_wallpaper_description">This image is a thumbnail, download the original?</string>
   <string name="set_as_wallpaper_title">Set as wallpaper</string>
   <string name="set_face_group_toast_msg_new_user">Hold a person to merge or ignore them.</string>

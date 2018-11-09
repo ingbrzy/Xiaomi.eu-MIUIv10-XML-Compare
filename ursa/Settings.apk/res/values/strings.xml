@@ -287,11 +287,12 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="agps_roaming_dia_title">Use A-GPS when roaming</string>
   <string name="agps_roaming_summary">Use mobile data to assist GPS while roaming</string>
   <string name="ai_button_title">Mi AI button</string>
+  <string name="ai_button_title_global">AI button</string>
   <string name="ai_settings_double_click_category">Double press AI button</string>
   <string name="ai_settings_double_click_title">Double press</string>
-  <string name="ai_settings_long_press_des">Press and hold AI button to talk to Google Assistant, then release to get the answer.</string>
-  <string name="ai_settings_single_click_category">Press AI button</string>
-  <string name="ai_settings_single_click_title">Press</string>
+  <string name="ai_settings_long_click_category">Press and hold AI button</string>
+  <string name="ai_settings_long_click_title">Press and hold</string>
+  <string name="ai_settings_single_press_des">Press the AI button to talk to Google Assistant, then release to get the answer.</string>
   <string name="airplane_mode">Airplane mode</string>
   <string name="alarm_ringtone_title">Default alarm sound</string>
   <string name="alarm_sound_dialog_title">Choose alarm sound</string>
@@ -1118,6 +1119,8 @@ Selection"</string>
   <string name="bootloader_status_unlocked">Unlocked</string>
   <string name="bootloader_status_unlocked_info">This device is unlocked</string>
   <string name="bootloader_summary">Flash your device via USB</string>
+  <string name="bootloader_tips">"After you add your Mi Account, don't sign out of it, perform a factory reset, or clear system apps' data. If you do any of the above, add your account again or you won't be able to unlock your device."</string>
+  <string name="bootloader_tips_ok">Got it</string>
   <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
   <string name="breathing_light_color_menu_title">Light color</string>
   <string name="breathing_light_color_summary">Light color when receiving new notification</string>
@@ -2065,6 +2068,7 @@ This helps protect data on lost or stolen devices. Require PIN to start your dev
   <string name="enter_password">To start Android, enter your password</string>
   <string name="enter_pattern">To start Android, draw your pattern</string>
   <string name="enter_pin">To start Android, enter your PIN</string>
+  <string name="enterprise_mode">Enterprise mode</string>
   <string name="enterprise_privacy_always_on_vpn_device">Always-on VPN turned on</string>
   <string name="enterprise_privacy_always_on_vpn_personal">Always-on VPN turned on in your personal profile</string>
   <string name="enterprise_privacy_always_on_vpn_work">Always-on VPN turned on in your work profile</string>
@@ -2609,6 +2613,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="input_methods_and_subtype_enabler_title">Choose active input methods</string>
   <string name="input_methods_settings_label_format">%1$s settings</string>
   <string name="input_methods_settings_title">Text input</string>
+  <string name="input_pattern_hint_text">Draw your unlock pattern</string>
   <string name="input_settings">Input settings</string>
   <string name="install_all_warning">Your phone and personal data are more vulnerable to attack by unknown apps. By installing apps from this source, you agree that you are responsible for any damage to your phone or loss of data that may result from their use.</string>
   <string name="install_applications">Unknown sources</string>
@@ -2679,6 +2684,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_notification_status_title">Notifications</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
   <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
@@ -3085,7 +3091,6 @@ as your First space PIN."</string>
   <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with Mi Cloud.</string>
   <string name="login_account_dialog_title">Sign in with Mi Account</string>
   <string name="login_action">Sign in</string>
-  <string name="long_press_AI_button">Press and hold AI button</string>
   <string name="long_press_back_key">Long press the Back button</string>
   <string name="long_press_buttom_key">Long press Home on the Lock screen</string>
   <string name="long_press_home_key">Long press the Home button</string>
@@ -3288,11 +3293,10 @@ There are other users present on this device.
   <string name="miui_sos_audio_summary">Play SOS message after emergency contact picks up</string>
   <string name="miui_sos_audio_title">SOS voice message</string>
   <string name="miui_sos_call_log_duration">Duration</string>
-  <string name="miui_sos_call_log_min">min</string>
   <string name="miui_sos_call_log_none">I have no call history for the last hour.</string>
-  <string name="miui_sos_call_log_sec">s</string>
   <string name="miui_sos_call_log_stranger">Stranger</string>
   <string name="miui_sos_call_log_summary">Send the call history for the last 1 hour to your emergency contact</string>
+  <string name="miui_sos_call_log_time_unit">%1$dm %2$ds</string>
   <string name="miui_sos_call_log_title">Send call history</string>
   <string name="miui_sos_call_warning_sim_unable">"No signal. Can't send SMS."</string>
   <string name="miui_sos_calling_summary">Your device will make automatic calls to your emergency contacts playing the SOS voice message you recorded. The call will be ended after your message is finished playing. Auto call will stop after the first successful attempt.</string>
@@ -3767,6 +3771,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="other_relative">Other</string>
   <string name="other_sound_category_preference_title">Other sounds and vibrations</string>
   <string name="other_sound_settings">Other sounds</string>
+  <string name="others">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overlay_settings">Display over other apps</string>
   <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Android.</string>
@@ -5034,6 +5039,7 @@ Possibly incorrect PIN."</string>
   <string name="simulate_color_space">Simulate color space</string>
   <string name="single_key_use">Single button</string>
   <string name="single_key_use_summary">Use the Home button for functions performed by the other 2 buttons</string>
+  <string name="single_press_AI_button">Press AI button</string>
   <string name="size_byte">B</string>
   <string name="size_giga_byte">GB</string>
   <string name="size_kilo_byte">KB</string>
@@ -5076,6 +5082,7 @@ Possibly incorrect PIN."</string>
   <string name="slider_vocie_online_default">None</string>
   <string name="slider_vocie_online_open">Slide down</string>
   <string name="slider_vocie_online_title">Online sounds</string>
+  <string name="slider_voice_online_theme">Online sounds</string>
   <string name="slider_voice_summary">Play sounds when you slide the screen up and down</string>
   <string name="slider_voice_title">Sounds</string>
   <string name="slight_pause">,</string>
@@ -5121,6 +5128,8 @@ Possibly incorrect PIN."</string>
   <string name="sound_settings_summary">Ring volume at %1$s</string>
   <string name="sound_settings_summary_silent">Ringer set to silent</string>
   <string name="sound_settings_summary_vibrate">Ringer set to vibrate</string>
+  <string name="sound_stereo_mode_summary">Only available when you play sound with speaker</string>
+  <string name="sound_stereo_mode_title">Stereo sound</string>
   <string name="sound_vibrate_settings">Sound &amp; vibration</string>
   <string name="sound_work_settings">Work profile sounds</string>
   <string name="special_access">Special app access</string>
