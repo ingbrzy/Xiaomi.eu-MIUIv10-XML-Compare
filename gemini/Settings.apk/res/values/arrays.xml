@@ -1575,20 +1575,12 @@
         <item>vince</item>
         <item>perseus</item>
         <item>lavender</item>
+        <item>lotus</item>
     </string-array>
-    <string-array name="device_support_new_pickup_by_xiaomi">
-        <item>jason</item>
-        <item>nitrogen</item>
-        <item>platina</item>
-    </string-array>
-    <string-array name="device_support_pickup_by_xiaomi">
-        <item>polaris</item>
-        <item>dipper</item>
-        <item>sirius</item>
-        <item>ursa</item>
-        <item>beryllium</item>
-        <item>perseus</item>
-        <item>equuleus</item>
+    <string-array name="device_support_pickup_by_MTK">
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>lotus</item>
     </string-array>
     <string-array name="dirac_equalizer_preset_names">
         <item>@string/eq_flat</item>

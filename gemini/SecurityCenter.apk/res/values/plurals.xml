@@ -76,9 +76,9 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> apps"</item>
         <item quantity="one">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> app"</item>
     </plurals>
-    <plurals name="om_ill_proc_multi_app_title">
-        <item quantity="other">"%d apps don't work properly and drain battery"</item>
-        <item quantity="one">"%d app doesn't work properly and drains battery"</item>
+    <plurals name="om_locked_apps_title">
+        <item quantity="other">%d locked apps</item>
+        <item quantity="one">%d locked app</item>
     </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d days "</item>
