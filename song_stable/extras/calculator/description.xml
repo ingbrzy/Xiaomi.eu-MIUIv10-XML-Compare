@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="calculator" size="4:4">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Calculator</title>
+	<titles>
+		<title locale="zh_CN">Calculator</title>
+		<title locale="zh_TW">計算機</title>
+		<title locale="cs_CZ">Kalkulačka</title>
+		<title locale="sk_SK">Kalkulačka</title>
+		<title locale="pl_PL">Kalkulator</title>
+		<title locale="fr_FR">Calculatrice</title>
+		<title locale="hu_HU">Számológép</title>
+		<title locale="bg_BG">Калкулатор </title>
+		<title locale="hr_HR">Kalkulator</title>
+		<title locale="it_IT">Calcolatrice</title>
+		<title locale="pt_BR">Calculadora</title>
+		<title locale="el_GR">Αριθμομηχανή</title>
+		<title locale="es_ES">Calculadora</title>
+		<title locale="de_DE">Rechner</title>
+		<title locale="tr_TR">Hesap makinesi</title>
+		<title locale="vi_VN">Máy tính</title>
+		<title locale="pt_PT">Calculadora</title>
+	</titles>
+</MIUI-Theme>
