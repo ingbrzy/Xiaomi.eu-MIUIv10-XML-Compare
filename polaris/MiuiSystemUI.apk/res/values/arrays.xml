@@ -388,6 +388,8 @@
         <item>vince</item>
         <item>perseus</item>
         <item>lavender</item>
+        <item>lotus</item>
+        <item>onc</item>
     </string-array>
     <string-array name="device_support_pickup_by_MTK">
         <item>cactus</item>
@@ -428,6 +430,7 @@
         <item>sakura_india</item>
         <item>onc</item>
         <item>lavender</item>
+        <item>lotus</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
@@ -716,6 +719,8 @@
         <item>MY</item>
         <item>VN</item>
         <item>UA</item>
+        <item>DK</item>
+        <item>SE</item>
     </string-array>
     <string-array name="region_global_support_face_sensetime">
         <item>IN</item>
