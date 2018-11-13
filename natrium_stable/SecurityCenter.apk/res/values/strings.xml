@@ -400,7 +400,7 @@
   <string name="battery_stats_phone_signal_label">Mobile network signal</string>
   <string name="battery_stats_screen_on_label">Screen on</string>
   <string name="battery_stats_wake_lock_label">Awake</string>
-  <string name="battery_stats_wifi_running_label">Wi‑Fi</string>
+  <string name="battery_stats_wifi_running_label">WLAN</string>
   <string name="battery_status_good">Working normally</string>
   <string name="battery_status_overheat">Overheated</string>
   <string name="battery_status_unknown">Unknown error</string>
@@ -960,8 +960,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_first_window_antimsg_summary_quick_answer">Use quick replies</string>
   <string name="gb_first_window_antimsg_summary_transparent_show">See text on transparent background</string>
   <string name="gb_first_window_antimsg_title">Convenient notifications</string>
-  <string name="gb_first_window_gamebox_summary_four">Use quick replies, make screen recordings and screenshots</string>
-  <string name="gb_first_window_gamebox_summary_six">Clear cache, make screen recordings and screenshots</string>
+  <string name="gb_first_window_gamebox_summary_four">Clear cache, make screen recordings and screenshots</string>
+  <string name="gb_first_window_gamebox_summary_six">Use quick replies, make screen recordings and screenshots</string>
   <string name="gb_first_window_handsfree_summary">Turn on speaker automatically</string>
   <string name="gb_first_window_handsfree_title">Hands-free calls</string>
   <string name="gb_first_window_start">Start playing</string>
@@ -1417,20 +1417,20 @@ to respond"</string>
   <string name="network_roaming_exception_tips">"Can't use mobile data while roaming to connect to the network."</string>
   <string name="network_route_exception_detail">"There may be a problem with the router you're connected to:
 
- "&lt;b&gt;1. Public WLAN network issues&lt;/b&gt;"
-If you're connected to a public WLAN network, the number of users connected to that network may be slowing it down or creating connectivity problems. Switch to another network and try again.
+ "&lt;b&gt;"1. Public WLAN network issues
+"&lt;/b&gt;"If you're connected to a public WLAN network, the number of users connected to that network may be slowing it down or creating connectivity problems. Switch to another network and try again.
 
- "&lt;b&gt;2. Internet service provider issues&lt;/b&gt;"
-Make sure that your account is in good standing with your Internet service provider.
+ 2."&lt;b&gt;" Internet service provider issues
+M"&lt;/b&gt;"ake sure that your account is in good standing with your Internet service provider.
 
- "&lt;b&gt;3. Router hardware issues&lt;/b&gt;"
-Try rebooting your router or checking the admin settings for your router.
+ 3."&lt;b&gt;" Router hardware issues
+T"&lt;/b&gt;"ry rebooting your router or checking the admin settings for your router.
 
- "&lt;b&gt;4. Other router issues&lt;/b&gt;"
-Read the instructions that came with your router and restore your router to its factory settings.
+ 4."&lt;b&gt;" Other router issues
+R"&lt;/b&gt;"ead the instructions that came with your router and restore your router to its factory settings.
 
- "&lt;b&gt;5. Make sure your router is connected properly&lt;/b&gt;"
-Try using another Ethernet cable to connect your router. If you suspect there's an issue with the connection in your home, contact your Internet service provider."</string>
+ 5."&lt;b&gt;" Make sure your router is connected properly
+T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you suspect there's an issue with the connection in your home, contact your Internet service provider."</string>
   <string name="network_sim_exception_detail">"There may be a problem with your SIM card:
 
 1. Make sure your account is in good standing with your carrier. Try using a friend's SIM card and see if you're able to connect normally.
@@ -2272,6 +2272,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="summary_permission">Avoid unwanted payments and protect personal data</string>
   <string name="summary_permission_root">Looks like this device has root access. It may damage the security of your device.</string>
   <string name="summary_power_optimizer">"Reduce your device's performance when battery is low"</string>
+  <string name="summary_rcs_switch">Send SMS to China Mobile users without incurring charges</string>
   <string name="summary_realname_verify">Verify your identity to make payments more secure.</string>
   <string name="summary_restrict_data_usage">You restricted data usage for this app.</string>
   <string name="summary_show_notification">Clear cache, view battery status, and block items in Notification shade</string>
@@ -2459,6 +2460,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_permission_root">Root access</string>
   <string name="title_permission_yes">Permission manager on</string>
   <string name="title_power_optimizer">Battery saver</string>
+  <string name="title_rcs_switch">Turn on China Mobile Messaging</string>
   <string name="title_realname_verify">ID verification</string>
   <string name="title_reply">Comment</string>
   <string name="title_restrict_data_usage">"%s can't connect to the internet?"</string>

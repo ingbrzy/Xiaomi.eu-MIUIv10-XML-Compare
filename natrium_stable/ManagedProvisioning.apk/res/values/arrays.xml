@@ -10,6 +10,7 @@
         <item>com.android.settings</item>
         <item>com.android.contacts</item>
         <item>com.android.dialer</item>
+        <item>com.android.stk</item>
         <item>com.android.providers.downloads</item>
         <item>com.android.providers.downloads.ui</item>
         <item>com.android.documentsui</item>
@@ -25,6 +26,7 @@
         <item>com.android.settings</item>
         <item>com.android.contacts</item>
         <item>com.android.dialer</item>
+        <item>com.android.stk</item>
         <item>com.android.providers.downloads</item>
         <item>com.android.providers.downloads.ui</item>
         <item>com.android.documentsui</item>

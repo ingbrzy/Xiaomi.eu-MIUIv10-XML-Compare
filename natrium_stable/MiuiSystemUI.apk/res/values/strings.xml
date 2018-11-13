@@ -139,7 +139,7 @@
   <string name="accessibility_no_signal">No signal.</string>
   <string name="accessibility_no_sim">No SIM.</string>
   <string name="accessibility_no_sims">No SIM card.</string>
-  <string name="accessibility_no_wifi">Wifi disconnected.</string>
+  <string name="accessibility_no_wifi">Disconnected from WLAN.</string>
   <string name="accessibility_no_wimax">No WiMAX.</string>
   <string name="accessibility_not_connected">Not connected.</string>
   <string name="accessibility_notification_dismissed">Notification dismissed.</string>
@@ -263,11 +263,11 @@
   <string name="accessibility_vpn_on">VPN on.</string>
   <string name="accessibility_waiting_for_fingerprint">Waiting for fingerprint</string>
   <string name="accessibility_wifi_name">Connected to %s.</string>
-  <string name="accessibility_wifi_off">Wifi off.</string>
-  <string name="accessibility_wifi_one_bar">Wifi one bar.</string>
-  <string name="accessibility_wifi_signal_full">Wifi signal full.</string>
-  <string name="accessibility_wifi_three_bars">Wifi three bars.</string>
-  <string name="accessibility_wifi_two_bars">Wifi two bars.</string>
+  <string name="accessibility_wifi_off">WLAN is off.</string>
+  <string name="accessibility_wifi_one_bar">WLAN one bar.</string>
+  <string name="accessibility_wifi_signal_full">WLAN signal full.</string>
+  <string name="accessibility_wifi_three_bars">WLAN three bars.</string>
+  <string name="accessibility_wifi_two_bars">WLAN two bars.</string>
   <string name="accessibility_wimax_one_bar">WiMAX one bar.</string>
   <string name="accessibility_wimax_signal_full">WiMAX signal full.</string>
   <string name="accessibility_wimax_three_bars">WiMAX three bars.</string>
@@ -277,6 +277,7 @@
   <string name="account_info">Not logged in</string>
   <string name="activate_usb_message">To activate this feature, insert your SIM card.</string>
   <string name="activate_usb_title">Activate USB</string>
+  <string name="active_input_method_subtypes">Active input methods</string>
   <string name="activity_launch_on_secondary_display_failed_text">"App doesn't support launch on secondary displays."</string>
   <string name="activity_not_found">Application is not installed on your device</string>
   <string name="adb_keys_warning_message">Revoke access to USB debugging from all computers you’ve previously authorized?</string>
@@ -312,12 +313,7 @@
   <string name="battery_detail_switch_summary">Reduces performance and background data</string>
   <string name="battery_detail_switch_title">Battery saver</string>
   <string name="battery_info_status_charging">Charging</string>
-  <string name="battery_info_status_charging_ac">Charging on AC</string>
-  <string name="battery_info_status_charging_ac_short">Charging</string>
-  <string name="battery_info_status_charging_usb">Charging over USB</string>
-  <string name="battery_info_status_charging_usb_short">Charging</string>
-  <string name="battery_info_status_charging_wireless">Charging wirelessly</string>
-  <string name="battery_info_status_charging_wireless_short">Charging</string>
+  <string name="battery_info_status_charging_lower">Charging</string>
   <string name="battery_info_status_discharging">Not charging</string>
   <string name="battery_info_status_full">Full</string>
   <string name="battery_info_status_not_charging">Not charging</string>
@@ -326,6 +322,7 @@
   <string name="battery_low_percent_format_saver_started">%s remaining. Battery saver is on.</string>
   <string name="battery_low_title">Battery is low</string>
   <string name="battery_low_why">Settings</string>
+  <string name="battery_meter_very_low_overlay_symbol">!</string>
   <string name="battery_panel_title">Battery usage</string>
   <string name="battery_profiles">Use battery profiles</string>
   <string name="battery_saver_confirmation_ok">Turn on</string>
@@ -352,8 +349,10 @@
   <string name="bluetooth_disable_absolute_volume_summary">Disable absolute volume for Bluetooth in case of volume issues with remote devices, such as unacceptably loud volume or inability to control it.</string>
   <string name="bluetooth_disconnected">Disconnected</string>
   <string name="bluetooth_disconnecting">Disconnecting…</string>
-  <string name="bluetooth_dun_profile_summary_connected">Connected to DUN Server</string>
+  <string name="bluetooth_dun_profile_summary_connected">Connected to DUN server</string>
   <string name="bluetooth_dun_profile_summary_use_for">Use for dial-up network access</string>
+  <string name="bluetooth_enable_inband_ringing">Enable in-band ringing</string>
+  <string name="bluetooth_enable_inband_ringing_summary">Allow ringtones on the phone to be played on Bluetooth headsets</string>
   <string name="bluetooth_headset_profile_summary_connected">Connected to phone audio</string>
   <string name="bluetooth_headset_profile_summary_use_for">Use for phone audio</string>
   <string name="bluetooth_hid_profile_summary_connected">Connected to input device</string>
@@ -372,28 +371,47 @@
   <string name="bluetooth_pairing_pin_error_message">"Couldn't pair with %1$s because of an incorrect PIN or passkey."</string>
   <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by %1$s.</string>
   <string name="bluetooth_pairing_will_share_phonebook">Pairing grants access to your contacts and call history when connected.</string>
-  <string name="bluetooth_pan_nap_profile_summary_connected">Sharing local internet connection with device</string>
+  <string name="bluetooth_pan_nap_profile_summary_connected">Sharing local Internet connection with device</string>
   <string name="bluetooth_pan_profile_summary_use_for">Use for internet access</string>
   <string name="bluetooth_pan_user_profile_summary_connected">Connected to device for internet access</string>
   <string name="bluetooth_profile_a2dp">Media audio</string>
-  <string name="bluetooth_profile_dun">Used for accessing dial-up networks</string>
+  <string name="bluetooth_profile_a2dp_high_quality">Use high quality audio: %1$s</string>
+  <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">Use high quality audio</string>
+  <string name="bluetooth_profile_dun">Used for accessing network via dial-up</string>
   <string name="bluetooth_profile_headset">Phone audio</string>
   <string name="bluetooth_profile_hid">Input device</string>
   <string name="bluetooth_profile_map">Used for accessing messages</string>
   <string name="bluetooth_profile_opp">File transfer</string>
   <string name="bluetooth_profile_pan">Internet access</string>
-  <string name="bluetooth_profile_pan_nap">Used for sharing internet connection</string>
+  <string name="bluetooth_profile_pan_nap">Internet connection sharing</string>
   <string name="bluetooth_profile_pbap">Contact sharing</string>
-  <string name="bluetooth_profile_pbap_summary">Used for sharing contacts</string>
+  <string name="bluetooth_profile_pbap_summary">Use for contact sharing</string>
   <string name="bluetooth_profile_sap">Used for accessing SIM</string>
   <string name="bluetooth_sap_profile_summary_connected">Connected to SAP</string>
   <string name="bluetooth_sap_profile_summary_use_for">Use for SIM access</string>
+  <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bluetooth audio bits per sample</string>
+  <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">"Select Bluetooth audio codec:
+Bits per sample"</string>
+  <string name="bluetooth_select_a2dp_codec_channel_mode">Bluetooth audio channel mode</string>
+  <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"Select Bluetooth audio codec:
+Channel mode"</string>
+  <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Bluetooth audio LDAC codec: Playback quality</string>
+  <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Select Bluetooth audio LDAC codec:
+Playback quality"</string>
+  <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth audio sample rate</string>
+  <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Select Bluetooth audio codec:
+Sample rate"</string>
+  <string name="bluetooth_select_a2dp_codec_streaming_label">Streaming: %1$s</string>
+  <string name="bluetooth_select_a2dp_codec_type">Bluetooth audio codec</string>
+  <string name="bluetooth_select_a2dp_codec_type_dialog_title">Select Bluetooth audio codec</string>
+  <string name="bluetooth_select_avrcp_version_dialog_title">Select Bluetooth AVRCP version</string>
+  <string name="bluetooth_select_avrcp_version_string">Bluetooth AVRCP version</string>
   <string name="bluetooth_tethered">Bluetooth tethered</string>
   <string name="branded_monitoring_description_app_personal">"You're connected to %1$s, which can monitor your personal network activity, including emails, apps, and websites."</string>
   <string name="branded_vpn_footer">Network may be monitored</string>
   <string name="broadcast_tile">Broadcast tile</string>
   <string name="bt_hci_snoop_log">Enable Bluetooth HCI snoop log</string>
-  <string name="bt_hci_snoop_log_summary">Capture all bluetooth HCI packets in a file</string>
+  <string name="bt_hci_snoop_log_summary">Capture all Bluetooth HCI packets in a file</string>
   <string name="bt_is_off">Bluetooth is off</string>
   <string name="btn_camera">Enter your face</string>
   <string name="bugreport_in_power">Bug report shortcut</string>
@@ -450,8 +468,10 @@
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
   <string name="confirm_pin_msg">Enter PIN again</string>
+  <string name="connected_via_network_scorer">Automatically connected via %1$s</string>
+  <string name="connected_via_network_scorer_default">Automatically connected via network rating provider</string>
   <string name="connected_via_passpoint">Connected via %1$s</string>
-  <string name="connected_via_wfa">Connected via Wi‑Fi assistant</string>
+  <string name="content_description_menu_button">Menu</string>
   <string name="convert_to_fbe_warning">"Convert data partition to file based encryption.
  Warning: This will erase all your data.
  This feature is being developed, and may not work correctly.
@@ -489,6 +509,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="debug_drawing_category">Drawing</string>
   <string name="debug_hw_drawing_category">Hardware accelerated rendering</string>
   <string name="debug_hw_overdraw">Debug GPU overdraw</string>
+  <string name="debug_hw_renderer">Set GPU Renderer</string>
   <string name="debug_input_category">Input</string>
   <string name="debug_layout">Show layout boundaries</string>
   <string name="debug_layout_summary">Show clip boundaries, margins, etc.</string>
@@ -505,6 +526,8 @@ If you resume, charges may apply for data usage."</string>
   <string name="description_image_button_reject">Decline</string>
   <string name="description_target_search">Search</string>
   <string name="dessert_case">Dessert Case</string>
+  <string name="dev_logpersist_clear_warning_message">"When we're no longer monitoring using the persistent logger, we are required to erase the logger data resident on your device."</string>
+  <string name="dev_logpersist_clear_warning_title">Clear persistent logger storage?</string>
   <string name="dev_settings_warning_message">These settings are intended for developers only. Enabling these features may make your device and the apps on it misbehave or cause errors.</string>
   <string name="dev_settings_warning_title">Allow development settings?</string>
   <string name="development_settings_enable">Enable developer options</string>
@@ -512,12 +535,14 @@ If you resume, charges may apply for data usage."</string>
   <string name="development_settings_summary">Set options for app development</string>
   <string name="development_settings_title">Developer options</string>
   <string name="digital_clock_dot">:</string>
+  <string name="direct_boot_unaware_dialog_message">"Note: You'll be able to use this keyboard after a reboot only if you unlock your device."</string>
   <string name="disable_notification_summary">Never show notifications from selected apps</string>
   <string name="disable_notification_title">Hide notifications</string>
   <string name="disable_overlays">Disable HW overlay</string>
   <string name="disable_overlays_summary">Always use GPU for screen rendering</string>
   <string name="disable_vpn">Disable VPN</string>
-  <string name="disabled_by_admin">Disabled by administrator</string>
+  <string name="disabled">Disabled</string>
+  <string name="disabled_by_admin">Disabled by admin</string>
   <string name="disabled_by_admin_summary_text">Controlled by admin</string>
   <string name="disconnect_vpn">Disconnect VPN</string>
   <string name="dismount_storage">No</string>
@@ -566,9 +591,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="enable_power_save_mode">Turn on Battery saver</string>
   <string name="enable_terminal_summary">Enable terminal app that offers local shell access</string>
   <string name="enable_terminal_title">Local terminal</string>
-  <string name="enable_webview_multiprocess">Multiprocess WebView</string>
-  <string name="enable_webview_multiprocess_desc">Run WebView renderers separately</string>
-  <string name="enabled_by_admin">Enabled by administrator</string>
+  <string name="enabled_by_admin">Enabled by admin</string>
   <string name="ethernet_label">Ethernet</string>
   <string name="expanded_confirm_disable_notification">Hide</string>
   <string name="expanded_header_battery_charged">Charged</string>
@@ -592,6 +615,8 @@ If you resume, charges may apply for data usage."</string>
   <string name="ext_media_safe_unmount_notification_title">USB storage safe to remove</string>
   <string name="ext_media_unmountable_notification_message">USB storage damaged. You may have to reformat it.</string>
   <string name="ext_media_unmountable_notification_title">Damaged USB storage</string>
+  <string name="external_source_trusted">Allowed</string>
+  <string name="external_source_untrusted">Not allowed</string>
   <string name="face_data_input_camera_fail">"Couldn't load camera"</string>
   <string name="face_data_input_camera_ok">Loading camera…</string>
   <string name="face_data_input_cancel">Cancel</string>
@@ -643,6 +668,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_unlock_rotated_right">Turn your head to the left</string>
   <string name="face_unlock_sc_status">Push the screen down to open camera</string>
   <string name="face_unlock_stay_away_screen">Stay 25 to 40cm away from the screen</string>
+  <string name="failed_to_open_app_settings_toast">"Couldn't open settings for %1$s"</string>
   <string name="fingerprint_add_text">The fingerprint interface was updated. Add your fingerprint again.</string>
   <string name="fingerprint_add_title">Add fingerprint</string>
   <string name="fingerprint_again_identified_msg">Your fingerprint is active now. Use it to unlock the device, or enter password.</string>
@@ -718,13 +744,14 @@ If you resume, charges may apply for data usage."</string>
 Once your phone has cooled down, it will run normally."</string>
   <string name="high_temp_notif_message">Some features limited while phone cools down</string>
   <string name="high_temp_title">Phone is getting warm</string>
-  <string name="home">Settings Home</string>
+  <string name="home">Home screen settings</string>
   <string name="hour_minute_time_format">HH:mm</string>
   <string name="how_to_back_home">Go to Home screen</string>
   <string name="how_to_switch_recents">Open Recents</string>
   <string name="how_to_use_drawer">How to open slide menu</string>
   <string name="how_to_use_drawer_summary">Swipe right in the upper part of the screen</string>
   <string name="how_to_use_fsg">You can perform these actions using gestures:</string>
+  <string name="ime_security_warning">%1$s can record everything you type, including passwords, credit card numbers, and other personal data.</string>
   <string name="immediately_destroy_activities">Don’t keep activities</string>
   <string name="immediately_destroy_activities_summary">End every activity as soon as the user leaves it</string>
   <string name="important_desc">All important notifications will appear directly on the Notification shade.</string>
@@ -742,6 +769,7 @@ Once your phone has cooled down, it will run normally."</string>
   <string name="input_pattern_hint_text">Draw your unlock pattern</string>
   <string name="input_pin_code">Enter PIN</string>
   <string name="input_puk_code">Input PUK</string>
+  <string name="install_other_apps">Install unknown apps</string>
   <string name="installer_cd_button_title">Install Android File Transfer app for Mac</string>
   <string name="instant_apps">Instant apps</string>
   <string name="instant_apps_message">"Instant apps don't require installation."</string>
@@ -934,12 +962,11 @@ Try again in %2$d seconds."</string>
   <string name="left_icon">Left icon</string>
   <string name="left_keycode">Left keycode</string>
   <string name="left_nav_bar_button_type">Extra left button type</string>
-  <string name="legacy_dhcp_client_summary">Use the DHCP client from Lollipop instead of the new Android DHCP client.</string>
   <string name="legacy_vpn_name">VPN</string>
   <string name="list_delimeter">", "</string>
-  <string name="local_backup_password_summary_change">Tap to change or remove the password for desktop full backups</string>
-  <string name="local_backup_password_summary_none">Desktop full backups aren’t currently protected</string>
-  <string name="local_backup_password_title">Desktop backup password</string>
+  <string name="local_backup_password_summary_change">Tap to change or remove the password for full Home screen backups</string>
+  <string name="local_backup_password_summary_none">Full Home screen backups aren’t currently protected</string>
+  <string name="local_backup_password_title">Home screen backup password</string>
   <string name="local_backup_password_toast_confirmation_mismatch">Passwords don’t match</string>
   <string name="local_backup_password_toast_success">New backup password set</string>
   <string name="local_backup_password_toast_validation_failure">"Couldn't set backup password"</string>
@@ -1012,8 +1039,8 @@ Try again in %2$d seconds."</string>
   <string name="miui_toast_zen_to_standard_when_shield_media">Ringtones, as well as notification and media sounds, will be silenced.</string>
   <string name="mland">Marshmallow Land</string>
   <string name="mobile_data">Mobile data</string>
-  <string name="mobile_data_always_on">Cellular data always active</string>
-  <string name="mobile_data_always_on_summary">Always keep mobile data active, even when Wi‑Fi is active (for fast network switching).</string>
+  <string name="mobile_data_always_on">Mobile data always active</string>
+  <string name="mobile_data_always_on_summary">Always keep mobile data active, even when WLAN is active (for fast network switching).</string>
   <string name="mock_location_app">Select mock location app</string>
   <string name="mock_location_app_not_set">No mock location app set</string>
   <string name="mock_location_app_set">Mock location app: %1$s</string>
@@ -1197,15 +1224,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="pointer_location">Pointer location</string>
   <string name="pointer_location_summary">Screen overlay showing current touch data</string>
   <string name="power_charging">%1$s - %2$s</string>
-  <string name="power_charging_duration">%1$s - %2$s until full</string>
-  <string name="power_charging_duration_ac">%1$s - %2$s until full on AC</string>
-  <string name="power_charging_duration_ac_short">%1$s - %2$s</string>
+  <string name="power_charging_duration">%1$s - %2$s until fully charged</string>
   <string name="power_charging_duration_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_usb">%1$s - %2$s until full over USB</string>
-  <string name="power_charging_duration_usb_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_wireless">%1$s - %2$s until full from wireless</string>
-  <string name="power_charging_duration_wireless_short">%1$s - %2$s</string>
-  <string name="power_discharging_duration">%1$s - approx. %2$s left</string>
+  <string name="power_discharging_duration">%1$s - about %2$s left</string>
   <string name="power_discharging_duration_short">%1$s - %2$s left</string>
   <string name="power_notification_controls_description">"With power notification controls, you can set an importance level from 0 to 5 for an app's notifications. 
 
@@ -1235,8 +1256,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
 - Show at the bottom of the notification list 
 
 "&lt;b&gt;Level 0&lt;/b&gt;" 
-- Block all notifications from the app "</string>
-  <string name="power_remaining_duration_only">Approx. %1$s left</string>
+- Block all notifications from the app"</string>
+  <string name="power_remaining_charging_duration_only">%1$s left until fully charged</string>
+  <string name="power_remaining_duration_only">About %1$s left</string>
   <string name="power_remaining_duration_only_short">%1$s left</string>
   <string name="process_kernel_label">Android OS</string>
   <string name="profile_owned_footer">Profile may be monitored</string>
@@ -1403,6 +1425,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="remove_from_settings_prompt">Remove System UI Tuner from Settings and stop using all of its features?</string>
   <string name="report_rejected_touch">Report rejected touch</string>
   <string name="reset">Reset</string>
+  <string name="retail_demo_reset_message">Enter password to perform factory reset in demo mode</string>
+  <string name="retail_demo_reset_next">Next</string>
+  <string name="retail_demo_reset_title">Password required</string>
   <string name="return_to_incall_screen">Return to call</string>
   <string name="rgb_face_data_introduction_title">Add 2D face data</string>
   <string name="rgb_face_data_manage_delete_msg">Delete 2D face data</string>
@@ -1450,10 +1475,13 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="screenshot_saving_title">Saving screenshot…</string>
   <string name="screenshot_send">Send</string>
   <string name="search_hint">Search for websites, apps, contacts, and videos…</string>
+  <string name="search_menu_title">Search</string>
   <string name="select_application">Select application</string>
   <string name="select_logd_level">Select log level</string>
   <string name="select_logd_size_dialog_title">Select size for log buffers</string>
   <string name="select_logd_size_title">Log buffer sizes</string>
+  <string name="select_logpersist_dialog_title">Select log buffers to store persistently on device</string>
+  <string name="select_logpersist_title">Store logger data persistently on device</string>
   <string name="select_usb_configuration_dialog_title">Select USB configuration</string>
   <string name="select_usb_configuration_title">Select USB configuration</string>
   <string name="select_webview_provider_dialog_title">Set WebView implementation</string>
@@ -1470,14 +1498,14 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="show_battery_percentage">Show embedded battery percentage</string>
   <string name="show_battery_percentage_summary">Show battery level percentage inside the status bar icon when not charging</string>
   <string name="show_brightness">Show brightness in Quick settings</string>
-  <string name="show_cpu_usage">Show CPU usage</string>
-  <string name="show_cpu_usage_summary">Show CPU usage using screen overlay</string>
   <string name="show_demo_mode">Show demo mode</string>
   <string name="show_hw_layers_updates">Show hardware level updates</string>
   <string name="show_hw_layers_updates_summary">Hardware items that are being updated will flash green</string>
   <string name="show_hw_screen_updates">Visualize GPU rendering</string>
   <string name="show_hw_screen_updates_summary">Flash windows where videos are being rendered by GPU</string>
   <string name="show_non_rect_clip">Debug non-rectangular clip operations</string>
+  <string name="show_notification_channel_warnings">Show notification channel warnings</string>
+  <string name="show_notification_channel_warnings_summary">Displays on-screen warning when an app posts a notification without a valid channel</string>
   <string name="show_screen_updates">Show surface updates</string>
   <string name="show_screen_updates_summary">Flash entire window surfaces when they update</string>
   <string name="show_silently">Show notifications silently</string>
@@ -1622,6 +1650,8 @@ Slide down to lock"</string>
   <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
   <string name="system_ui_tuner">System UI Tuner</string>
   <string name="task_access_locked_app_msg">Turned on app lock</string>
+  <string name="telephony_monitor_switch">Telephony monitor</string>
+  <string name="telephony_monitor_switch_summary">Telephony monitor will collect logs when it detects a problem with telephony/modem functionality and prompt the user to report a bug.</string>
   <string name="tether_settings_title_all">Tethering &amp; portable hotspot</string>
   <string name="tether_settings_title_bluetooth">Bluetooth tethering</string>
   <string name="tether_settings_title_usb">USB tethering</string>
@@ -1637,7 +1667,8 @@ Your phone may get too hot if you:
 \u0009• Use your phone in high temperatures"</string>
   <string name="thermal_shutdown_message">Your phone is now running normally</string>
   <string name="thermal_shutdown_title">Phone turned off due to heat</string>
-  <string name="title_convert_fbe">Converting to file based encryption…</string>
+  <string name="time_zone_gmt">GMT</string>
+  <string name="title_convert_fbe">Converting to file based encryption</string>
   <string name="title_usb_accessory">USB accessory</string>
   <string name="torch_activity_hint">Hold [icon] to turn on torch at the lock screen</string>
   <string name="torch_activity_name">Torch</string>
@@ -1645,7 +1676,7 @@ Your phone may get too hot if you:
   <string name="torch_opened">Torch on</string>
   <string name="track_frame_time">Profile GPU rendering</string>
   <string name="transition_animation_scale_title">Transition animation scale</string>
-  <string name="tts_default_lang_summary">Set the default language for text-to-speech output</string>
+  <string name="tts_default_lang_summary">Sets the language-specific voice for the spoken text</string>
   <string name="tts_default_lang_title">Language</string>
   <string name="tts_default_pitch_summary">Affects the tone of the synthesized speech</string>
   <string name="tts_default_pitch_title">Pitch</string>
@@ -1654,7 +1685,7 @@ Your phone may get too hot if you:
   <string name="tts_default_sample_string">This is an example of speech synthesis</string>
   <string name="tts_engine_network_required">This language requires a working network connection for text-to-speech output.</string>
   <string name="tts_engine_preference_section_title">Preferred engine</string>
-  <string name="tts_engine_security_warning">This voice engine may be able to record and collect everything you say, including personal data like passwords and credit card numbers. This voice engine is provided by %s. Turn on voice engine?</string>
+  <string name="tts_engine_security_warning">This speech synthesis engine may be able to collect all the text that will be spoken, including personal data like passwords and credit card numbers. It comes from the %s engine. Enable the use of this speech synthesis engine?</string>
   <string name="tts_engine_settings_button">Launch engine settings</string>
   <string name="tts_engine_settings_title">Settings for %s</string>
   <string name="tts_general_section_title">General</string>
@@ -1745,6 +1776,7 @@ Your phone may get too hot if you:
   <string name="usb_storage_title">USB connected</string>
   <string name="use_mtp_button_title">Mount as a media player (MTP)</string>
   <string name="use_ptp_button_title">Mount as a camera (PTP)</string>
+  <string name="use_system_language_to_select_input_method_subtypes">Use system language</string>
   <string name="user_add_user">Add user</string>
   <string name="user_add_user_message_short">"When you add a new user, that person needs to set up their space.
 
@@ -1796,11 +1828,12 @@ Any user can update apps for all other users."</string>
   <string name="wallpaper_global_des_drop_down_notify_text">Release to view details</string>
   <string name="weather_description_no_aqi">%1$s</string>
   <string name="weather_publish_time">Updated %1$s</string>
-  <string name="wifi_aggressive_handover">Automatic Wi‑Fi to Cellular handover</string>
-  <string name="wifi_aggressive_handover_summary">When enabled, connection will switch to mobile data more actively when Wi‑Fi signal is low.</string>
-  <string name="wifi_allow_scan_with_traffic">Always allow Wi‑Fi roam scans</string>
-  <string name="wifi_allow_scan_with_traffic_summary">Allow or restrict Wi‑Fi roam scans based on the amount of data traffic present in the interface.</string>
+  <string name="wifi_aggressive_handover">Aggressive WLAN to mobile handover</string>
+  <string name="wifi_aggressive_handover_summary">When enabled, connection will switch to mobile data more actively when WLAN signal is low.</string>
+  <string name="wifi_allow_scan_with_traffic">Always allow WLAN roam scans</string>
+  <string name="wifi_allow_scan_with_traffic_summary">Allow or restrict WLAN roam scans based on the amount of data traffic present in the interface.</string>
   <string name="wifi_connected_no_internet">Connected, no internet</string>
+  <string name="wifi_disabled_by_recommendation_provider">Not connected due to low quality network</string>
   <string name="wifi_disabled_generic">Disabled</string>
   <string name="wifi_disabled_network_failure">"Couldn't configure IP"</string>
   <string name="wifi_disabled_password_failure">Authentication problem</string>
@@ -1815,6 +1848,7 @@ Any user can update apps for all other users."</string>
   <string name="wifi_is_off">WLAN is off</string>
   <string name="wifi_network_prefix_length_hint">24</string>
   <string name="wifi_no_internet">"Can't connect to the internet"</string>
+  <string name="wifi_no_internet_no_reconnect">"Can't connect to the internet"</string>
   <string name="wifi_not_in_range">Not in range</string>
   <string name="wifi_remembered">Saved</string>
   <string name="wifi_security_WAPI_CERT">WAPI CERT</string>
@@ -1835,8 +1869,8 @@ Any user can update apps for all other users."</string>
   <string name="wifi_security_wpa">WPA PSK</string>
   <string name="wifi_security_wpa2">WPA2 PSK</string>
   <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
-  <string name="wifi_verbose_logging">Enable Wi‑Fi verbose logging</string>
-  <string name="wifi_verbose_logging_summary">Increase Wi‑Fi logging level, show RSSI for every SSID in the list of Wi‑Fi networks.</string>
+  <string name="wifi_verbose_logging">Enable WLAN Verbose Logging</string>
+  <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show RSSI for every SSID in the list of WLAN networks.</string>
   <string name="window_animation_scale_title">Window animation scale</string>
   <string name="wireless_change_to_ac_charging">Switched to wired charging</string>
   <string name="wireless_charge_current">Charging</string>
