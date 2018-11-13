@@ -34,6 +34,7 @@
   <string name="abc_shareactionprovider_share_with">Share with</string>
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
+  <string name="ad_tag_url" formatted="false">https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&amp;iu=/21633895671/video/android_mobile_web&amp;impl=s&amp;gdfp_req=1&amp;env=vp&amp;output=vmap&amp;unviewed_position_start=1&amp;ad_rule=1&amp;cmsid=2467608&amp;vid=%1$s&amp;cust_params=sample_ar%3Dskippablelinear%26TPDevice%3DMi%20Mobile&amp;ppid=%2$s&amp;correlator=%3$s</string>
   <string name="affelite_id">1268</string>
   <string name="agree">Agree</string>
   <string name="alert_dialog_download">"You've already downloaded this app."</string>
@@ -102,6 +103,11 @@
   <string name="character_counter_pattern">%1$d / %2$d</string>
   <string name="click_to_reload_more">Tap to load more</string>
   <string name="click_to_retry">Try again</string>
+  <string name="com_mixpanel_android_close">Close</string>
+  <string name="com_mixpanel_android_done">Done</string>
+  <string name="com_mixpanel_android_exit">Exit</string>
+  <string name="com_mixpanel_android_logo">By Mixpanel</string>
+  <string name="com_mixpanel_android_notification_image">Image not displayed</string>
   <string name="com_permission_desc">"Mi Video can't access videos on your device. Allow access in the Settings."</string>
   <string name="com_permission_title">Permissions required</string>
   <string name="common_google_play_services_enable_button">Enable</string>
@@ -157,6 +163,7 @@
   <string name="exo_controls_rewind_description">Rewind</string>
   <string name="exo_controls_stop_description">Stop</string>
   <string name="explore_on_mi_video">Find more on Mi Video</string>
+  <string name="failed_to_fetch_data">"Couldn't load info."</string>
   <string name="finish">Done</string>
   <string name="flush_period">120000</string>
   <string name="for_you">For you</string>
@@ -292,6 +299,7 @@
   <string name="lv_volume">Volume</string>
   <string name="media_event_api">http://ping.hungama.com/mediaEvent.py?</string>
   <string name="mi_video">Mi Video</string>
+  <string name="mock_url">12345</string>
   <string name="more">More</string>
   <string name="mr_button_content_description">Cast button</string>
   <string name="mr_cast_button_connected">Cast button. Connected</string>
@@ -315,6 +323,7 @@
   <string name="mr_system_route_name">System</string>
   <string name="mr_user_route_category_name">Devices</string>
   <string name="need_update_app">Update Mi Video to use all its features</string>
+  <string name="network_connect_info">"Couldn't connect to the network. Check your network settings and try again."</string>
   <string name="network_failed">"Couldn't connect to the network"</string>
   <string name="next">Next</string>
   <string name="no_recommend_data">no recommended video now</string>
@@ -360,6 +369,7 @@
   <string name="ovp_home_item_camera">Gallery</string>
   <string name="ovp_home_item_download">Downloads</string>
   <string name="ovp_home_item_folder">Files</string>
+  <string name="ovp_home_no_data_callback">"Couldn't load info. Pull down to refresh."</string>
   <string name="ovp_home_online_content_title">Online</string>
   <string name="ovp_info_video_loading">Just a sec…</string>
   <string name="ovp_load_playinfo_failure">"Couldn't get info"</string>
