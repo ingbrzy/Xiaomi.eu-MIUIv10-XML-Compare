@@ -300,7 +300,9 @@
   <string name="airplane_mode">Airplane mode</string>
   <string name="alarm_template">at %1$s</string>
   <string name="alarm_template_far">on %1$s</string>
+  <string name="alipay_description_talkback">Alipay payment</string>
   <string name="alipay_title">Payment</string>
+  <string name="alipayscan_description_talkback">Alipay scanner</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
   <string name="always_use_accessory">Use by default for this USB accessory</string>
@@ -453,9 +455,11 @@ Selection"</string>
   <string name="bugreport_in_power">Bug report shortcut</string>
   <string name="bugreport_in_power_summary">Show a button in the power menu for taking a bug report</string>
   <string name="button_convert_fbe">Wipe and convert…</string>
+  <string name="calculator_description_talkback">Calculator</string>
   <string name="call_status_dialing">Dialing</string>
   <string name="call_status_holding">Holding</string>
   <string name="call_status_ringing">Ringing</string>
+  <string name="camera_description_talkback">Camera</string>
   <string name="camera_hint">Swipe from icon for Camera</string>
   <string name="camera_key_action_app_title">Open application</string>
   <string name="camera_key_action_category_title">"Use if the Camera app isn't open"</string>
@@ -484,12 +488,14 @@ Selection"</string>
   <string name="click_to_enter_text">Tap to view</string>
   <string name="click_to_return_multi_window">Tap to return to Split screen</string>
   <string name="click_to_return_multi_window_of_notch">Back to Split screen</string>
+  <string name="click_widget_description_talkback">Open %s</string>
   <string name="clipboard">Clipboard</string>
   <string name="clock">Clock</string>
   <string name="clock_12hr_format">hm</string>
   <string name="clock_24hr_format">Hm</string>
   <string name="clock_seconds">Show clock seconds</string>
   <string name="clock_seconds_desc">Show clock seconds in the status bar. May impact battery life.</string>
+  <string name="close_torch_description_talkback">Turn off flashlight</string>
   <string name="compat_mode_off">Stretch to fill screen</string>
   <string name="compat_mode_on">Zoom to fill screen</string>
   <string name="config_navBarLayout">left,back;home;recent,right</string>
@@ -516,6 +522,7 @@ Selection"</string>
   <string name="convert_to_file_encryption">Convert to file encryption</string>
   <string name="convert_to_file_encryption_done">Already file encrypted</string>
   <string name="convert_to_file_encryption_enabled">Convert…</string>
+  <string name="counter_description_talkback">Timer</string>
   <string name="counter_time">00:00:00</string>
   <string name="counter_title">Timer</string>
   <string name="custom_lock_wallpaper_enter">Enter</string>
@@ -606,6 +613,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="dock_forced_resizable">App may not work with split-screen.</string>
   <string name="dock_keyguard_locked_failed_to_dock_text">"Split screen isn't supported on the Lock screen."</string>
   <string name="dock_non_resizeble_failed_to_dock_text">"App doesn't support Split screen."</string>
+  <string name="download_lock_wallpaper">Double tap to download Music</string>
   <string name="doze_brightness_sensor_type"/>
   <string name="doze_pickup_subtype_performs_proximity_check"/>
   <string name="drag_to_add_tiles">Press and hold to add or rearrange items</string>
@@ -633,6 +641,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="enable_terminal_title">Local terminal</string>
   <string name="enabled_by_admin">Enabled by admin</string>
   <string name="ethernet_label">Ethernet</string>
+  <string name="exit_sliderpanel_description_talkback">Close toolbox</string>
   <string name="expand_button_title">Advanced</string>
   <string name="expanded_confirm_disable_notification">Hide</string>
   <string name="expanded_header_battery_charged">Charged</string>
@@ -808,7 +817,6 @@ Once your phone has cooled down, it will run normally."</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
-  <string name="input_password_handle_sdcard_fs">"Can't enter Second space from Lock screen. Enter from First space."</string>
   <string name="input_password_hint_text">Enter password</string>
   <string name="input_pattern_hint_text">Draw your unlock pattern</string>
   <string name="input_pin_code">Enter PIN</string>
@@ -1163,6 +1171,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="no_weather_description">Get weather info &gt;</string>
   <string name="not_support_multi_window">"Current app doesn't support Split screen"</string>
   <string name="notch_sos_status_bar_title">SOS</string>
+  <string name="note_description_talkback">Notes</string>
   <string name="notification_all_categories">All categories</string>
   <string name="notification_app_settings">Customize: %1$s</string>
   <string name="notification_channel_alerts">Alerts</string>
@@ -1234,6 +1243,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="open_camera_hint_text">Swipe left to open camera</string>
   <string name="open_extreme_power_save_mode_title">Turn on Extreme battery saver</string>
   <string name="open_remote_center_hint_text">Swipe right to open Shortcuts</string>
+  <string name="open_torch_description_talkback">Turn on flashlight</string>
   <string name="other">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overview">Overview</string>
@@ -1484,9 +1494,10 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="recents_multistack_add_stack_dialog_split_vertical">Split vertically</string>
   <string name="recents_search_bar_label">Search</string>
   <string name="recents_stack_action_button_label">Clear all</string>
+  <string name="recorder_description_talkback">Recorder</string>
   <string name="recorder_time">00:00:00</string>
   <string name="recorder_title">Recorder</string>
-  <string name="refresh_weather">Click to get weather</string>
+  <string name="refresh_weather">Tap to get weather info</string>
   <string name="regrettable_lack_of_easter_egg">¯\\_(ツ)_/¯</string>
   <string name="reject_call">Rejecting call</string>
   <string name="remaining_length_format">%1$s left</string>
@@ -1511,6 +1522,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="save">Save</string>
   <string name="save_mode_btn_ok">OK</string>
   <string name="saved_network">Saved by %1$s</string>
+  <string name="scanner_description_talkback">Scanner</string>
   <string name="screen_button_notification_text">To turn them on, press the Home and Power buttons simultaneously.</string>
   <string name="screen_button_notification_title">Navigation buttons are turned off</string>
   <string name="screen_pinning_description">This keeps it in view until you unpin. Press &amp; hold Back and Overview to unpin.</string>
@@ -1584,6 +1596,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="simulate_color_space">Simulate color space</string>
   <string name="slider_second_tip_text">Push the screen down to open camera</string>
   <string name="slider_text">Push the screen down to open camera</string>
+  <string name="sliderpanel_description">Toolbox</string>
   <string name="snooze_option_15_min">15 minutes</string>
   <string name="snooze_option_1_hour">1 hour</string>
   <string name="snooze_option_2_hour">2 hours</string>
@@ -1758,6 +1771,7 @@ Your phone may get too hot if you:
   <string name="torch_activity_hint">Hold [icon] to turn on torch at the lock screen</string>
   <string name="torch_activity_name">Torch</string>
   <string name="torch_closed">Torch off</string>
+  <string name="torch_description_talkback">Flashlight</string>
   <string name="torch_high_temperature_warning">"Your device is overheated. Can't use torch now."</string>
   <string name="torch_opened">Torch on</string>
   <string name="track_frame_time">Profile GPU rendering</string>
@@ -1929,8 +1943,11 @@ Any user can update apps for all other users."</string>
   <string name="wapi_password_length_is_min_to_max">The password must be: 8-64 characters</string>
   <string name="wapi_yes">yes</string>
   <string name="weather_description_no_aqi">%1$s</string>
+  <string name="weather_description_talkback">Weather</string>
   <string name="weather_publish_time">Updated %1$s</string>
+  <string name="wechatpay_description_talkback">WeChat payment</string>
   <string name="wechatpay_title">Payment</string>
+  <string name="wechatscan_description_talkback">Wechat scanner</string>
   <string name="wifi_ap_unable_to_handle_new_sta">Access point temporarily full</string>
   <string name="wifi_auto_sel_wapi_cert">Select automatically</string>
   <string name="wifi_cant_connect">"Can't connect"</string>

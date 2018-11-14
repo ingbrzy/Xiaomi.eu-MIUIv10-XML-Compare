@@ -55,7 +55,33 @@
         <item>com.tencent.mm</item>
     </string-array>
     <array name="config_autoBrightnessButtonBacklightValues" />
-    <array name="config_autoBrightnessDisplayValuesNits" />
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>13</item>
+        <item>22</item>
+        <item>34</item>
+        <item>43</item>
+        <item>57</item>
+        <item>71</item>
+        <item>78</item>
+        <item>78</item>
+        <item>78</item>
+        <item>80</item>
+        <item>86</item>
+        <item>100</item>
+        <item>108</item>
+        <item>116</item>
+        <item>124</item>
+        <item>156</item>
+        <item>172</item>
+        <item>195</item>
+        <item>361</item>
+        <item>431</item>
+        <item>445</item>
+    </integer-array>
     <array name="config_autoBrightnessKeyboardBacklightValues" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>22</item>
@@ -235,7 +261,7 @@
         <item>SUPL_PORT=7275</item>
         <item>SUPL_VER=0x20000</item>
         <item>SUPL_MODE=1</item>
-        <item>SUPL_ES=0</item>
+        <item>SUPL_ES=1</item>
         <item>LPP_PROFILE=0</item>
         <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
         <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
