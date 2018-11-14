@@ -8,6 +8,9 @@
   <string name="app_preload_policies_summary">"Use machine learning to predict the apps you're most likely to use, and load resources in advance."</string>
   <string name="app_preload_policies_title">AI pre-loading</string>
   <string name="appconfig_active_app_dialog_title">Manage active apps</string>
+  <string name="atrace_saved">Saved successfully</string>
+  <string name="atrace_saving">Saving atrace log…</string>
+  <string name="atrace_start">Recording atrace log…</string>
   <string name="base_info">Base info</string>
   <string name="cloud_addr_info">Cloud info</string>
   <string name="cloud_china_addr">Update Chinese server data</string>
@@ -39,8 +42,8 @@ Battery saver will treat important apps selectively."</string>
   <string name="failure">Error</string>
   <string name="hide_mode_desc">&lt;font color="#000000"&gt;When an app runs in the background, its activities will be monitored to reduce battery usage. This function will get and use user data according to %s&lt;/font&gt;</string>
   <string name="hide_system_app">Hide system apps</string>
-  <string name="high_temp_state">High temperature</string>
-  <string name="high_temp_state_message">High temperature protection,data,wifiap,gps,camera etc. will be restricted</string>
+  <string name="high_temp_state">Overheating</string>
+  <string name="high_temp_state_message">Your device is overheating. Mobile data, WLAN hotspots, GPS, and camera will be restricted.</string>
   <string name="hints_loading_text">Just a sec…</string>
   <string name="important_warning">Attention</string>
   <string name="lasttime_applist_cloud">Updated apps:</string>
