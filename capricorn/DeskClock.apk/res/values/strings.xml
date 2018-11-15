@@ -155,7 +155,7 @@
   <string name="settings">Settings</string>
   <string name="shut_down_keep_screen">"Screen won't be kept on"</string>
   <string name="shutdown_alarm_disable_summary">Alarm will not ring after powered off</string>
-  <string name="shutdown_alarm_enable_summary">Alarm will ring after powered off</string>
+  <string name="shutdown_alarm_enable_summary">"Alarm will go off if it's set for at least 5 minutes after you power off your device"</string>
   <string name="shutdown_alarm_title">Shutdown alarm</string>
   <string name="silent_alarm_summary">Silent</string>
   <string name="skip_alarm_date_format">%1$s (%2$s)</string>
