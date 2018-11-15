@@ -2869,6 +2869,7 @@ There are other users present on this device.
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_pay">Mi Wallet</string>
+  <string name="mi_pay_indonesia">Akun Mi Pay</string>
   <string name="mi_pay_summary">Bus Card/Mi Pay/Card Emulator</string>
   <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
@@ -3360,7 +3361,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="other_relative">Other</string>
   <string name="other_sound_category_preference_title">Other sounds and vibrations</string>
   <string name="other_sound_settings">Other sounds</string>
-  <string name="others">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overlay_settings">Display over other apps</string>
   <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Android.</string>
@@ -4685,7 +4685,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
-  <string name="status_bar_settings_customer_feedback">feedback</string>
+  <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
