@@ -110,18 +110,18 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="download_settings">Downloading Home screen settings %s%%</string>
   <string name="download_settings_fail">"Couldn't download Home screen settings"</string>
   <string name="error_num_placeholder">--</string>
-  <string name="error_retry_later">Failed, retry later please.</string>
+  <string name="error_retry_later">"Couldn't complete action. Wait a minute or two and try again.."</string>
   <string name="error_unknown">Something went wrong</string>
   <string name="get_device_id_error">"Couldn't get device ID"</string>
-  <string name="home_hint_global_launcher">Poco Home screen</string>
-  <string name="home_hint_other_launcher">Other Home screen</string>
+  <string name="home_hint_global_launcher">POCO Launcher</string>
+  <string name="home_hint_other_launcher">Other launcher</string>
   <string name="home_restore_error">"Couldn't restore Home screen"</string>
   <string name="lack_of_storage">Not enough storage space</string>
   <string name="latest_backup_time_loading">Loading…</string>
-  <string name="load_backup_failed">Load backups failed</string>
+  <string name="load_backup_failed">"Couldn't load backups"</string>
   <string name="loading_progress_num">(%s%%)</string>
   <string name="loading_user_backup">Loading user backups…</string>
-  <string name="main_space">Main space</string>
+  <string name="main_space">First space</string>
   <string name="managespace_delete_backup">Delete</string>
   <string name="menu_item_managespace">Manage space</string>
   <string name="menu_item_sort">Sort by</string>
@@ -179,7 +179,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="total_space">Total space: %s</string>
   <string name="try_again">Tap to try again</string>
   <string name="try_continue">Tap to continue</string>
-  <string name="unsupported_home">Please update to latest OS.</string>
+  <string name="unsupported_home">Update MIUI to the latest version.</string>
   <string name="wait_icon_download">Downloading app icons</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
 </resources>
