@@ -2531,6 +2531,34 @@
     return v0
 .end method
 
+.method public static isSupportedFastMotion()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_fast_motion"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupportedFun()Z
+    .locals 2
+
+    const-string/jumbo v0, "is_support_fun"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static isSupportedGPS()Z
     .locals 2
 
