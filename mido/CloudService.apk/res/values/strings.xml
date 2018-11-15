@@ -257,7 +257,7 @@ Use a different account."</string>
   <string name="micloud_privacy_cloud_off">Sync is off</string>
   <string name="micloud_privacy_cloud_sync">Turn on Mi Cloud services</string>
   <string name="micloud_privacy_explanation">Grant authorization to turn on Mi Cloud services</string>
-  <string name="micloud_privacy_licence_agreed">Agree to Mi Cloud Privacy Policy.</string>
+  <string name="micloud_privacy_licence_agreed">Agree to Mi Cloud &lt;a href=app://com.miui.cloudservice.gdpr.license&gt;&lt;u&gt;Privacy Policy&lt;/u&gt;&lt;/a&gt;.</string>
   <string name="micloud_privacy_licence_privacy_policy">Privacy Policy</string>
   <string name="micloud_privacy_progress_content">Granting authorization…</string>
   <string name="micloud_privacy_warning_button">Back</string>
