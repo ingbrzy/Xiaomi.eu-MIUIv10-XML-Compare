@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="antispam_local_marked">Marked locally</string>
-  <string name="antispam_marked_count">Reported by %1$d MIUI users</string>
   <string name="antispam_notification_title">Unknown number</string>
   <string name="antispam_provider">Identified by %s</string>
   <string name="callFailed_cb_enabled">"You can't make outgoing calls while call barring is on."</string>
@@ -46,7 +45,6 @@
   <string name="call_recording_notification_message_sd_unmounted">SD card has been removed.</string>
   <string name="call_recording_notification_title">Call recorded</string>
   <string name="call_recording_notification_title_error">"Couldn't record call"</string>
-  <string name="call_title_redialing_with_times">Redialed %d times</string>
   <string name="caller_manage_header">Conference call %s</string>
   <string name="can_not_use">"Can't use"</string>
   <string name="cancel">Cancel</string>
@@ -77,7 +75,6 @@
   <string name="close_camera_failed">"Couldn't turn off camera…"</string>
   <string name="close_camera_requesting">Turning off camera…</string>
   <string name="conference_call_description" formatted="false">%s,%s etc. total %s</string>
-  <string name="conference_call_number">%s people</string>
   <string name="conference_call_recorder_title">Conference call</string>
   <string name="conference_call_single_description" formatted="false">%s etc. total %s</string>
   <string name="conference_caller_info_name">"%1$s's conference call"</string>
