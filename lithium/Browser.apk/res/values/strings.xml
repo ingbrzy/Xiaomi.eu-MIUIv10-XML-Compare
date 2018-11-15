@@ -68,6 +68,8 @@
   <string name="action_menu_text_share">Share</string>
   <string name="action_menu_text_snapshot">Save page</string>
   <string name="action_menu_text_video">Video</string>
+  <string name="action_menu_toast_incognito_off">Turn off incognito mode</string>
+  <string name="action_menu_toast_incognito_on">Turn on incognito mode</string>
   <string name="action_menu_toolbox">Tools</string>
   <string name="action_menu_useful_page">Add shortcut</string>
   <string name="action_menu_useful_page_added">Added to start page</string>
@@ -272,6 +274,7 @@
   <string name="alisdk_message_952_name">JS_BRIDGE_ANNOTATION_NOT_PRESENT</string>
   <string name="alisdk_message_952_type">E</string>
   <string name="allow">Allow</string>
+  <string name="app_download_market_text">Use Mi Market to download, faster and safer</string>
   <string name="app_new_version">The latest version of this app is already installed</string>
   <string name="app_update_install">Ready to install update.</string>
   <string name="application_name">Browser</string>
@@ -413,6 +416,7 @@
   <string name="contextmenu_dial_dot">Dial…</string>
   <string name="contextmenu_download_image">Save image</string>
   <string name="contextmenu_download_image_as">Save image</string>
+  <string name="contextmenu_incognito">Incognito mode</string>
   <string name="contextmenu_manually_block_ad">Label as ad</string>
   <string name="contextmenu_map">Map</string>
   <string name="contextmenu_openlink">Open</string>
@@ -472,8 +476,11 @@
   <string name="document_download_background_btn">Download in background</string>
   <string name="document_download_cancel_btn">Cancel</string>
   <string name="document_download_failed">"Couldn't download"</string>
+  <string name="document_download_immediate">Download immediately</string>
+  <string name="document_download_normal">Normal download</string>
   <string name="document_download_official">Download official version</string>
   <string name="document_download_open_direct">Open directly</string>
+  <string name="document_download_recommending">Safe download(Recommending)</string>
   <string name="document_download_title">Downloading</string>
   <string name="document_open_file">Open %s</string>
   <string name="document_open_message">To improve your reading experience and ensure security, use WPS customized version</string>
@@ -486,10 +493,9 @@
   <string name="download_completed">Downloaded</string>
   <string name="download_default_path_txt">Remember this choice</string>
   <string name="download_dialog_default_path_invalid">"The download location you've selected is invalid. Saving to default location…"</string>
-  <string name="download_dialog_file_length_hint_txt">"File size: "</string>
+  <string name="download_dialog_file_length_default_txt">Just a sec…</string>
   <string name="download_dialog_file_length_lessthan1kb">Less than 1KB</string>
   <string name="download_dialog_file_length_nolength_error_txt">"Couldn't download"</string>
-  <string name="download_dialog_file_length_nolength_txt">Just a sec…</string>
   <string name="download_failed">"Couldn't complete download"</string>
   <string name="download_filter_all">All</string>
   <string name="download_filter_apk">APK</string>
@@ -585,6 +591,8 @@ to view open tabs from other devices."</string>
   <string name="google_bookmarks">Google</string>
   <string name="green_kid_block_request">Access to this website is restricted.</string>
   <string name="guide_chosen_type_main_title">Tell us what you like</string>
+  <string name="guide_chosen_type_main_title_behind">what you like</string>
+  <string name="guide_chosen_type_main_title_front">Tell us</string>
   <string name="guide_chosen_type_subtitle">Tag your interests to get relevant recommendations</string>
   <string name="guide_entertainment_text">amuse</string>
   <string name="guide_fashion_text">fashion</string>
@@ -1118,6 +1126,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="not_now">Not now</string>
   <string name="not_remind_again">Remember my choice</string>
   <string name="notif_install_successful">Download complete</string>
+  <string name="novel_toast_hint">This website has been added to the bookshelf</string>
   <string name="ok">OK</string>
   <string name="open_app_confirm_message">Allow this page to open %s?</string>
   <string name="open_cloud_sync">Turn on sync with Mi Cloud</string>
@@ -1197,8 +1206,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="pref_file_downlaod_save_reset_default_settings">Restore default location</string>
   <string name="pref_file_download_default_path_prefix">Default location: %s</string>
   <string name="pref_file_download_save_modify_default_path">Downloads location</string>
-  <string name="pref_fling_on_border">Swipe from edge</string>
-  <string name="pref_fling_on_border_title_summary">Swipe from the left or right edge</string>
+  <string name="pref_fling_gesture">Swipe gesture</string>
   <string name="pref_font_size_category">Webpage text size</string>
   <string name="pref_force_userscalable">Force zoom</string>
   <string name="pref_force_userscalable_summary">"Override a website's request to control zoom behavior"</string>
@@ -1259,7 +1267,6 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="pref_security_show_security_warning">Show security warnings</string>
   <string name="pref_security_show_security_warning_summary">"Show warning if there's a problem with a site's certificate"</string>
   <string name="pref_set_homepage_to">Set to</string>
-  <string name="pref_slide_back_forward">Slide back or forward</string>
   <string name="pref_tab_restore">Recover the last open page at startup</string>
   <string name="pref_ua_string">User agent string</string>
   <string name="pref_version_info">Version info</string>
@@ -1269,6 +1276,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="pref_video_preload_value_wifi_only">WIFI_ONLY</string>
   <string name="pref_volume_key_action">Scroll using volume buttons</string>
   <string name="progress_dialog_setting_wallpaper">Setting wallpaper…</string>
+  <string name="publish_to_topic">publish to topic</string>
   <string name="pull_to_refresh_pull_label">Pull to refresh</string>
   <string name="pull_to_refresh_release_label">Release to recommend and refresh</string>
   <string name="pwa_app_name">Web apps</string>
@@ -1473,6 +1481,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="suggestion_more_news">MORE NEWS</string>
   <string name="suggestion_more_news_start_title_text">Related News</string>
   <string name="suggestion_sliding_ads_info_mark_text">ADS</string>
+  <string name="suggestion_sliding_item_more_text">SEE MORE</string>
   <string name="suggestion_topic_subtitle_hyphen">Focus</string>
   <string name="suggestion_topic_subtitle_navtitle_hyphen">·</string>
   <string name="suggestion_translation_more">VIEW MORE</string>

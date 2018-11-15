@@ -342,8 +342,8 @@ Contact cards are turned off"</string>
   <string name="description_image_button_plus">Plus</string>
   <string name="description_image_button_pound">Pound</string>
   <string name="description_image_button_seven">seven</string>
-  <string name="description_image_button_sim1_dial">Dial using SIM1</string>
-  <string name="description_image_button_sim2_dial">Dial using SIM2</string>
+  <string name="description_image_button_sim1_named_dial">Dial using SIM1 %s</string>
+  <string name="description_image_button_sim2_named_dial">Dial using SIM2 %s</string>
   <string name="description_image_button_six">six</string>
   <string name="description_image_button_star">star</string>
   <string name="description_image_button_three">three</string>
@@ -999,6 +999,8 @@ To add a contact to your list of favorites:
   <string name="savingContact">Saving contact…</string>
   <string name="savingDisplayGroups">Saving display options…</string>
   <string name="scan">Scan</string>
+  <string name="scan_business_card">Scan business card</string>
+  <string name="scan_bussiness_card_merge_tip">Conflicting data has been replaced</string>
   <string name="scan_duplicate_message">%1$d contacts with identical info</string>
   <string name="scan_merge">Searching for duplicate contacts…</string>
   <string name="scan_qrcode_card_hint1">Scan the QR code above</string>
