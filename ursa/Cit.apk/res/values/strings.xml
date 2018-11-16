@@ -141,6 +141,7 @@ Before you calibrate the device, place it on a flat surface."</string>
   <string name="cit_audio_cali_TEMP">Temp:</string>
   <string name="cit_audio_cali_done">Calibration Done!</string>
   <string name="cit_audio_cali_failed">Calibration Failed, please Retry!</string>
+  <string name="cit_audio_cali_fast_test_title">Speaker amplifier calibration fast test</string>
   <string name="cit_audio_cali_file_existed">Music file do not exist,can not do calibration!</string>
   <string name="cit_audio_cali_playing">Check Calibrated Data</string>
   <string name="cit_audio_cali_q">Q:</string>
@@ -263,6 +264,7 @@ and reverse plug in the charger"</string>
   <string name="cit_exit_test_summary">When you exit, all related text data will be erased.</string>
   <string name="cit_exit_test_title">Exit test</string>
   <string name="cit_fail">Fail</string>
+  <string name="cit_fast_screen_touch_check_title">Fast touch screen check test</string>
   <string name="cit_finger_check_title">Finger Print Test</string>
   <string name="cit_flash_life_check_summary">Device flash life time estimation</string>
   <string name="cit_flash_life_check_title">Flash life</string>
