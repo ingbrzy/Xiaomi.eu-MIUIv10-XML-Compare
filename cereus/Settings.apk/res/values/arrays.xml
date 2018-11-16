@@ -1575,6 +1575,8 @@
         <item>vince</item>
         <item>perseus</item>
         <item>lavender</item>
+        <item>lotus</item>
+        <item>onc</item>
     </string-array>
     <string-array name="device_support_pickup_by_MTK">
         <item>cactus</item>
@@ -2520,6 +2522,10 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>OM</item>
         <item>KW</item>
         <item>AE</item>
+        <item>ES</item>
+        <item>GB</item>
+        <item>UK</item>
+        <item>DK</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
