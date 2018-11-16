@@ -51,12 +51,12 @@
   <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
 and optimizes your photos based on this info"</string>
   <string name="app_name">algoengine</string>
-  <string name="beauty_body">美体</string>
+  <string name="beauty_body">塑型</string>
   <string name="beauty_body_body">瘦身</string>
-  <string name="beauty_body_head">瘦头</string>
+  <string name="beauty_body_head">头部</string>
   <string name="beauty_body_legged">长腿</string>
   <string name="beauty_body_reset_tip">美体效果已清除</string>
-  <string name="beauty_body_shoulder">瘦肩</string>
+  <string name="beauty_body_shoulder">肩部</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_makeup">美妆</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
