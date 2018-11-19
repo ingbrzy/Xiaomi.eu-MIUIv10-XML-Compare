@@ -10,6 +10,8 @@
   <string name="accessibility_beauty_switch_open">Beautify is on</string>
   <string name="accessibility_camera_lighting_close_panel">Closed lighting menu</string>
   <string name="accessibility_camera_lighting_open_panel">Opened lighting menu</string>
+  <string name="accessibility_camera_liveshot_off">动态照片模式已关闭</string>
+  <string name="accessibility_camera_liveshot_on">动态照片模式已开启</string>
   <string name="accessibility_camera_picker">Front and rear camera switch</string>
   <string name="accessibility_camera_picker_finish">Switched cameras successfully</string>
   <string name="accessibility_camera_shutter_finish">Took a photo successfully</string>
@@ -421,6 +423,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_whitebalance_entry_auto">AUTO</string>
   <string name="pref_camera_whitebalance_title">WB</string>
   <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
+  <string name="pref_camera_zoom_mode_entry_ultra">ULTRA</string>
   <string name="pref_camera_zoom_mode_entry_wide">WIDE</string>
   <string name="pref_camera_zoom_mode_title">LENS</string>
   <string name="pref_camera_zoom_value_title">Zoom</string>
@@ -530,6 +533,7 @@ and brings out the people in the front."</string>
   <string name="ultra_wide_close_tip">超广角模式已关闭</string>
   <string name="ultra_wide_mode">超广角</string>
   <string name="ultra_wide_open_tip">超广角模式</string>
+  <string name="ultra_wide_recommend_tip_hint">建议开启超广角模式</string>
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
   <string name="user_agreement4">Privacy Policy</string>
