@@ -160,6 +160,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="accessibility_shortcut_description">When the shortcut is on, you can press both volume keys for 3 seconds to start an accessibility feature.</string>
   <string name="accessibility_shortcut_service_on_lock_screen_title">Allow from lock screen</string>
   <string name="accessibility_shortcut_service_title">Shortcut service</string>
+  <string name="accessibility_summary_default_combination">%1$s / %2$s</string>
   <string name="accessibility_summary_source">Provided by %s</string>
   <string name="accessibility_summary_state_disabled">Off</string>
   <string name="accessibility_summary_state_enabled">On</string>
@@ -2471,7 +2472,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="header_category_device">Device</string>
   <string name="header_category_personal">Personal</string>
   <string name="header_category_system">System</string>
-  <string name="header_category_wireless_networks">Network</string>
+  <string name="header_category_wireless_networks">Wireless &amp; networks</string>
   <string name="header_data_and_synchronization">Data &amp; synchronization</string>
   <string name="heavy_weight_stop_description">This app can’t safely be stopped. If you stop it, you may lose some of your current work.</string>
   <string name="help_feedback_label">Help &amp; feedback</string>
@@ -3096,6 +3097,7 @@ as your First space PIN."</string>
   <string name="long_press_home_key">Long press the Home button</string>
   <string name="long_press_menu_key">Long press the Menu button</string>
   <string name="long_press_menu_key_when_lock">Long press Menu on the Lock screen</string>
+  <string name="long_press_power_key_half_of_second">Press and hold the power button for 0.5s to turn on Google Assistant</string>
   <string name="long_press_volume_down">Long press Volume down</string>
   <string name="lost_internet_access_cancel">Stay on WLAN</string>
   <string name="lost_internet_access_persist">Never show again</string>
@@ -3918,6 +3920,14 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="power_hide_mode_title">Manage apps battery usage</string>
   <string name="power_high_usage_title">High usage</string>
   <string name="power_idle">Phone idle</string>
+  <string name="power_key_how_power_force_off">How to force reboot your device</string>
+  <string name="power_key_how_power_force_off_detail">Press and hold the Power button until your device reboots</string>
+  <string name="power_key_how_power_off">How to open the shutdown page</string>
+  <string name="power_key_how_power_off_detail">Press and hold the Power button for 3s</string>
+  <string name="power_key_how_start">How to wake Google Assistant</string>
+  <string name="power_key_how_start_detail">Press and hold the Power button for 0.5s. Release to talk.</string>
+  <string name="power_key_start_enjoy">Got it, Learn more about google assistant</string>
+  <string name="power_key_start_guide">Waking Google Assistant using the Power button on full display devices</string>
   <string name="power_mgr">Battery</string>
   <string name="power_mode">Power settings</string>
   <string name="power_mode_balanced_title">Balance Power</string>
@@ -5590,6 +5600,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="tethering_hardware_offload_summary">Use tethering hardware acceleration if available</string>
   <string name="tethering_help_button_text">Help</string>
   <string name="tethering_settings_not_available">Change tethering settings in First space</string>
+  <string name="the_way_of_wakeup_voice_assistant_summary">Wake up voice assistant in full screen mode (no virtual buttons)</string>
   <string name="theme_settings_title">Themes</string>
   <string name="thememanager_not_found">"Couldn't open Themes. Make sure the app is installed."</string>
   <string name="three_gesture_down">Slide 3 fingers down</string>
