@@ -1523,7 +1523,7 @@ MMMM d"</string>
   <string name="status_bar_network_flow_limit">"   Monthly limit: %1$s   "</string>
   <string name="status_bar_network_flow_purchase">"   Purchase &gt;"</string>
   <string name="status_bar_network_flow_today">Today: %1$s</string>
-  <string name="status_bar_network_name_separator">|</string>
+  <string name="status_bar_network_name_separator">-</string>
   <string name="status_bar_no_notifications_title">No notifications</string>
   <string name="status_bar_no_recent_apps">Your recent screens appear here</string>
   <string name="status_bar_notification_app_settings_title">%s settings</string>
@@ -1857,6 +1857,8 @@ Any user can update apps for all other users."</string>
   <string name="wireless_charge_reset_device_detail">Make sure the position of your device on the charging base is correct</string>
   <string name="wireless_charge_stop">Stopped wireless charging</string>
   <string name="wrong_password">Incorrect password</string>
+  <string name="yoigo_mcc">214</string>
+  <string name="yoigo_mnc">04</string>
   <string name="zen_alarm_warning">"You won't hear your next alarm %1$s"</string>
   <string name="zen_alarm_warning_indef">"You won't hear your next alarm %1$s unless you turn this off before then"</string>
   <string name="zen_alarms_introduction">"You won’t be disturbed by sounds and vibrations, except from alarms. You'll still hear anything you choose to play including music, videos, and games."</string>
