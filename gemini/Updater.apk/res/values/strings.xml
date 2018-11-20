@@ -13,6 +13,8 @@
   <string name="btn_share">Share</string>
   <string name="btn_stop">Stop</string>
   <string name="btn_yes">Yes</string>
+  <string name="channel_downloading">Downloading progress</string>
+  <string name="channel_update">New version available</string>
   <string name="check_new_version">Check</string>
   <string name="chengelog">%1$s</string>
   <string name="dialog_3g_desc">Be aware that using Mobile Data to download ROMs might take significant quota of your packet.</string>
