@@ -824,16 +824,16 @@ Apps:
   <string name="bluetooth_confirm_passkey_msg">To pair with:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;Make sure it is showing this passkey:&lt;br&gt;&lt;b&gt;%2$s&lt;/b&gt;</string>
   <string name="bluetooth_connect_failed">"Couldn't connect. Try again."</string>
   <string name="bluetooth_connect_specific_profiles_title">Connect to…</string>
-  <string name="bluetooth_connected">Connected%1$s</string>
+  <string name="bluetooth_connected">Connected %1$s</string>
   <string name="bluetooth_connected_battery_level">Connected, battery %1$s%2$s</string>
   <string name="bluetooth_connected_multiple_devices_summary">Connected to multiple devices</string>
-  <string name="bluetooth_connected_no_a2dp">Connected (no media)%1$s</string>
+  <string name="bluetooth_connected_no_a2dp">Connected (no media) %1$s</string>
   <string name="bluetooth_connected_no_a2dp_battery_level">Connected (no media), battery %1$s%2$s</string>
-  <string name="bluetooth_connected_no_headset">Connected (no phone)%1$s</string>
+  <string name="bluetooth_connected_no_headset">Connected (no phone) %1$s</string>
   <string name="bluetooth_connected_no_headset_battery_level">Connected (no phone), battery %1$s%2$s</string>
-  <string name="bluetooth_connected_no_headset_no_a2dp">Connected (no phone or media)%1$s</string>
+  <string name="bluetooth_connected_no_headset_no_a2dp">Connected (no phone or media) %1$s</string>
   <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Connected (no phone or media), battery %1$s%2$s</string>
-  <string name="bluetooth_connected_no_map">Connected (no message access)%1$s</string>
+  <string name="bluetooth_connected_no_map">Connected (no message access) %1$s</string>
   <string name="bluetooth_connected_summary">Connected to %1$s</string>
   <string name="bluetooth_connecting">Connecting…</string>
   <string name="bluetooth_connecting_error_message">Couldn’t connect to %1$s.</string>
@@ -887,8 +887,8 @@ Apps:
   <string name="bluetooth_dock_settings_headset">As speaker phone</string>
   <string name="bluetooth_dock_settings_remember">Remember settings</string>
   <string name="bluetooth_dock_settings_title">Use dock for audio</string>
-  <string name="bluetooth_dun_profile_summary_connected">Connected to Dun Server</string>
-  <string name="bluetooth_dun_profile_summary_use_for">Use for Dial-up Network access</string>
+  <string name="bluetooth_dun_profile_summary_connected">Connected to DUN Server</string>
+  <string name="bluetooth_dun_profile_summary_use_for">Use for dial-up network access</string>
   <string name="bluetooth_empty_list_bluetooth_off">When Bluetooth is turned on, your device can communicate with other nearby Bluetooth devices.</string>
   <string name="bluetooth_empty_list_user_restricted">You don’t have permission to change Bluetooth settings.</string>
   <string name="bluetooth_enable">Bluetooth</string>
@@ -900,8 +900,8 @@ Apps:
   <string name="bluetooth_footer_mac_message">"Phone's Bluetooth address: %1$s"</string>
   <string name="bluetooth_headset_profile_summary_connected">Connected to phone audio</string>
   <string name="bluetooth_headset_profile_summary_use_for">Use for phone audio</string>
-  <string name="bluetooth_hearing_aid_profile_summary_connected">Connected to Hearing Aid</string>
-  <string name="bluetooth_hearing_aid_profile_summary_use_for">Use for Hearing Aid</string>
+  <string name="bluetooth_hearing_aid_profile_summary_connected">Connected to hearing aid</string>
+  <string name="bluetooth_hearing_aid_profile_summary_use_for">Use for hearing aid</string>
   <string name="bluetooth_hearingaid_left_battery_level">Left - %1$s battery</string>
   <string name="bluetooth_hearingaid_left_pairing_message">Pairing left hearing aid…</string>
   <string name="bluetooth_hearingaid_right_battery_level">Right - %1$s battery</string>
@@ -980,17 +980,17 @@ Apps:
   <string name="bluetooth_profile_a2dp_high_quality">HD audio: %1$s</string>
   <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">HD audio</string>
   <string name="bluetooth_profile_details">Profile settings</string>
-  <string name="bluetooth_profile_dun">Dial-up Network Access</string>
+  <string name="bluetooth_profile_dun">Dial-up network access</string>
   <string name="bluetooth_profile_headset">Phone calls</string>
-  <string name="bluetooth_profile_hearing_aid">Hearing Aid</string>
+  <string name="bluetooth_profile_hearing_aid">Hearing aid</string>
   <string name="bluetooth_profile_hid">Input device</string>
-  <string name="bluetooth_profile_map">Text Messages</string>
+  <string name="bluetooth_profile_map">Text messages</string>
   <string name="bluetooth_profile_opp">File transfer</string>
   <string name="bluetooth_profile_pan">Internet access</string>
   <string name="bluetooth_profile_pan_nap">Internet connection sharing</string>
   <string name="bluetooth_profile_pbap">Contact sharing</string>
   <string name="bluetooth_profile_pbap_summary">Use for contact sharing</string>
-  <string name="bluetooth_profile_sap">SIM Access</string>
+  <string name="bluetooth_profile_sap">SIM access</string>
   <string name="bluetooth_quick_toggle_summary">Turn on Bluetooth</string>
   <string name="bluetooth_quick_toggle_title">Bluetooth</string>
   <string name="bluetooth_remember_choice">Don’t ask again</string>
@@ -1013,8 +1013,8 @@ Selection: Bits Per Sample"</string>
   <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"Trigger Bluetooth Audio Codec
 Selection: Channel Mode"</string>
   <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Bluetooth Audio LDAC Codec: Playback Quality</string>
-  <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Trigger Bluetooth Audio LDAC
-Codec Selection: Playback Quality"</string>
+  <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Select Bluetooth audio LDAC codec:
+Playback quality"</string>
   <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth Audio Sample Rate</string>
   <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Trigger Bluetooth Audio Codec
 Selection: Sample Rate"</string>
@@ -4860,7 +4860,7 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="select_sim_for_data">Select a SIM for data</string>
   <string name="select_ssid_type_title">Select SSID</string>
   <string name="select_to_speak_summary">Tap items on your screen to hear them read aloud</string>
-  <string name="select_usb_configuration_dialog_title">Select USB Configuration</string>
+  <string name="select_usb_configuration_dialog_title">Select USB configuration</string>
   <string name="select_usb_configuration_title">Select USB Configuration</string>
   <string name="select_webview_provider_dialog_title">Set WebView implementation</string>
   <string name="select_webview_provider_title">WebView implementation</string>
@@ -6203,32 +6203,32 @@ Tap the plus to add words."</string>
   <string name="wallpaper_settings_title">Wallpaper</string>
   <string name="wallpaper_suggestion_summary">Personalize your screen</string>
   <string name="wallpaper_suggestion_title">Change wallpaper</string>
-  <string name="wapi_all_sel_mode">Select mode</string>
+  <string name="wapi_all_sel_mode">Select</string>
   <string name="wapi_auto_sel_cert">Select automatically</string>
-  <string name="wapi_auto_sel_cert_fail">Can not select certificate automatically. Please select a certificate from the list, and then try to connect.</string>
-  <string name="wapi_cert_is_not_exist">No available certificate, please install the certificate first</string>
-  <string name="wapi_cert_is_not_selected">Please select the certificate first</string>
-  <string name="wapi_cert_manage_error">Faild to setting the WAPI certificate.</string>
+  <string name="wapi_auto_sel_cert_fail">"Can't select certificates automatically. Select a certificate from the list, and then try to connect."</string>
+  <string name="wapi_cert_is_not_exist">No available certificates. Add one first.</string>
+  <string name="wapi_cert_is_not_selected">Select the certificate first</string>
+  <string name="wapi_cert_manage_error">"Couldn't set WAPI certificate."</string>
   <string name="wapi_cert_manage_summary">Add or delete the WAPI certificate</string>
   <string name="wapi_cert_manage_title">WAPI certificate management</string>
   <string name="wapi_cert_roaming">Connecting…</string>
   <string name="wapi_cert_select">WAPI certificate</string>
-  <string name="wapi_no">no</string>
-  <string name="wapi_no_vaild_cert">No available certificates, install it now?</string>
+  <string name="wapi_no">No</string>
+  <string name="wapi_no_vaild_cert">"Looks like required certificates aren't installed. Install now?"</string>
   <string name="wapi_password_empty">Please input the password</string>
-  <string name="wapi_password_hex_format_add">The count of hexadecimal characters can not be odd number</string>
+  <string name="wapi_password_hex_format_add">You must use an even number of hexadecimal characters</string>
   <string name="wapi_password_hex_format_invalid">Invalid hexadecimal characters</string>
   <string name="wapi_password_hex_length_invalid">The count of hexadecimal characters must be even number</string>
-  <string name="wapi_password_is_empty">Password field can not be left blank</string>
+  <string name="wapi_password_is_empty">"Password can't be blank"</string>
   <string name="wapi_password_is_not_hex_format">Invalid hexadecimal characters</string>
   <string name="wapi_password_length_invalid">The password must be: 8-64 characters</string>
-  <string name="wapi_password_length_is_max">Password can not exceed 64 characters in length</string>
-  <string name="wapi_password_length_is_min">Password can not less than 8 characters in length</string>
-  <string name="wapi_password_length_is_min_to_max">The password must be: 8-64 characters</string>
+  <string name="wapi_password_length_is_max">Password can be up to 64 characters long</string>
+  <string name="wapi_password_length_is_min">Password must be at least 8 characters long</string>
+  <string name="wapi_password_length_is_min_to_max">Password must contain 8-64 characters</string>
   <string name="wapi_psk_type">Password type</string>
   <string name="wapi_psk_type_ascii">ASCII</string>
   <string name="wapi_psk_type_hex">Hexadecimal</string>
-  <string name="wapi_yes">yes</string>
+  <string name="wapi_yes">Yes</string>
   <string name="warm_color">Warm</string>
   <string name="web_action_enable_summary">Open links in apps, even if they’re not installed</string>
   <string name="web_action_enable_title">Instant apps</string>
@@ -6346,7 +6346,7 @@ Tap the plus to add words."</string>
   <string name="wifi_connect_cmcc_dialog_not_remind">"Don't show again"</string>
   <string name="wifi_connect_cmcc_dialog_title">CMCC connected</string>
   <string name="wifi_connect_failed_message">"Couldn't connect to WLAN network"</string>
-  <string name="wifi_connected_mac_randomization">Connected MAC Randomization</string>
+  <string name="wifi_connected_mac_randomization">Connected MAC randomization</string>
   <string name="wifi_connected_mac_randomization_summary">Randomize MAC address when connecting to WLAN networks</string>
   <string name="wifi_connected_no_internet">Connected, no internet</string>
   <string name="wifi_connection_management">WLAN connection management</string>
@@ -6354,8 +6354,8 @@ Tap the plus to add words."</string>
   <string name="wifi_context_menu_change_wapi_certificate">Change WAPI certificate</string>
   <string name="wifi_context_menu_connect">Connect</string>
   <string name="wifi_context_menu_forget">Forget</string>
-  <string name="wifi_coverage_extend">Enable WLAN Coverage Extend Feature</string>
-  <string name="wifi_coverage_extend_summary">Enable extending WLAN coverage using Hotspot</string>
+  <string name="wifi_coverage_extend">Turn on WLAN coverage extension</string>
+  <string name="wifi_coverage_extend_summary">Extend WLAN coverage using hotspot</string>
   <string name="wifi_data_template">^1 WLAN data</string>
   <string name="wifi_data_usage">WLAN data usage</string>
   <string name="wifi_datanetwork_switch_not_remind">"Don't show again"</string>
@@ -6667,8 +6667,8 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_speed">Link speed</string>
   <string name="wifi_ssid">SSID</string>
   <string name="wifi_ssid_hint">Enter the SSID</string>
-  <string name="wifi_ssid_is_empty">Ssid field can not be left blank</string>
-  <string name="wifi_ssid_length_is_max">Ssid can not exceed 32 characters in length</string>
+  <string name="wifi_ssid_is_empty">"SSID can't be blank"</string>
+  <string name="wifi_ssid_length_is_max">SSID can be up to 32 characters long</string>
   <string name="wifi_ssid_too_long">Network name is too long.</string>
   <string name="wifi_starting">Turning WLAN on…</string>
   <string name="wifi_state_disabled">Disabled</string>
@@ -6719,7 +6719,7 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_unspecified">Please select</string>
   <string name="wifi_update">Refresh stats</string>
   <string name="wifi_use_system_certs">Use system certificates</string>
-  <string name="wifi_verbose_logging">Enable WLAN Verbose Logging</string>
+  <string name="wifi_verbose_logging">Turn on WLAN verbose logging</string>
   <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show per SSID RSSI in WLAN Picker</string>
   <string name="wifi_wakeup">Turn on WLAN automatically</string>
   <string name="wifi_wakeup_summary">WLAN will turn back on near high‑quality saved networks, like your home network</string>
@@ -6743,14 +6743,14 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_wapi_cert_mgmt_user_dont_exist">Enter user certificate name</string>
   <string name="wifi_wapi_cert_mgmt_user_format_is_wrong">User certificate format is incorrect.</string>
   <string name="wifi_wapi_cert_mgmt_user_name_is_empty">Enter user certificate name</string>
-  <string name="wifi_wapi_cert_mode_hand_text">Hand select the certificate</string>
+  <string name="wifi_wapi_cert_mode_hand_text">Select manually</string>
   <string name="wifi_wapi_cert_uninstall">Uninstall WAPI certificate</string>
   <string name="wifi_wapi_cert_uninstall_button">Uninstall</string>
   <string name="wifi_wapi_certification_dont_exist">The network password you entered is incorrect.</string>
-  <string name="wifi_wapi_fail_to_auth">"WAPI authentication failed
-Please check validity of certificates"</string>
-  <string name="wifi_wapi_fail_to_init">"Unable to open WAPI certificates
-Credential storage might not enable"</string>
+  <string name="wifi_wapi_fail_to_auth">"Couldn't complete WAPI authentication.
+Make sure your certificates are valid."</string>
+  <string name="wifi_wapi_fail_to_init">"Can't open WAPI certificates.
+Looks like credential storage isn't enabled."</string>
   <string name="wifi_wapi_psk_type">Password type</string>
   <string name="wifi_wapi_user_cert">User certificate</string>
   <string name="wifi_wapi_user_certificate">User certificate</string>
