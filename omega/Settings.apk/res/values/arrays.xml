@@ -2878,6 +2878,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>vince</item>
         <item>perseus</item>
         <item>lavender</item>
+        <item>lotus</item>
+        <item>onc</item>
     </string-array>
     <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
@@ -2908,5 +2910,20 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1</item>
         <item>2</item>
         <item>0</item>
+    </string-array>
+    <string-array name="standard_configuration_version">
+        <item>3.00GB</item>
+        <item>32GB</item>
+        <item>Deca-core Max 2.11GHz</item>
+    </string-array>
+    <string-array name="high_configuration_version">
+        <item>3.00GB</item>
+        <item>64GB</item>
+        <item>Deca-core Max 2.52GHz</item>
+    </string-array>
+    <string-array name="enjoy_version">
+        <item>4.00GB</item>
+        <item>128GB</item>
+        <item>Deca-core Max 2.52GHz</item>
     </string-array>
 </resources>
