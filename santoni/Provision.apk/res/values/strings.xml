@@ -115,4 +115,5 @@ You must agree to Kika Privacy Policy before using this feature."</string>
   <string name="voice_assist_title">Wake with voice</string>
   <string name="welcome">Welcome</string>
   <string name="wizard_script_uri">android.resource://com.android.provision/raw/wizard_script</string>
+  <string name="zone_picker_title">Choose time zone</string>
 </resources>
