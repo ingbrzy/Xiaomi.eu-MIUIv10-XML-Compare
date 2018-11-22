@@ -1430,6 +1430,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="sim_service_setting">Mi SIM &amp; Mi Roaming</string>
   <string name="simulate_color_space">Simulate color space</string>
   <string name="singleContactImportedMsg">Imported contact</string>
+  <string name="sip_account_disable">"The account isn't active. Can't accept calls."</string>
   <string name="sip_account_list">SIP accounts</string>
   <string name="sip_accounts">SIP accounts</string>
   <string name="sip_accounts_title">Accounts</string>
@@ -1450,6 +1451,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="sip_menu_discard">Discard</string>
   <string name="sip_menu_save">Save</string>
   <string name="sip_profile_create_error">"Couldn't create a new SIP profile"</string>
+  <string name="sip_receive_call_disable">"Can't accept calls. Allow accepting calls first."</string>
   <string name="sip_receive_calls">Receive incoming calls</string>
   <string name="sip_receive_calls_summary">Uses more battery life</string>
   <string name="sip_save_register_error">"Couldn't register and save a new SIP profile"</string>
