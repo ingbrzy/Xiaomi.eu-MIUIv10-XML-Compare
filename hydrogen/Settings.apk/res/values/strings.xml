@@ -1949,7 +1949,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="header_category_device">Device</string>
   <string name="header_category_personal">Personal</string>
   <string name="header_category_system">System</string>
-  <string name="header_category_wireless_networks">Network</string>
+  <string name="header_category_wireless_networks">Wireless &amp; networks</string>
   <string name="header_data_and_synchronization">Data &amp; synchronization</string>
   <string name="heavy_weight_stop_description">This app can’t safely be stopped. If you stop it, you may lose some of your current work.</string>
   <string name="help_feedback_label">Help &amp; feedback</string>
@@ -2626,6 +2626,7 @@ There are other users present on this device.
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_pay">Mi Wallet</string>
+  <string name="mi_pay_indonesia">Akun Mi Pay</string>
   <string name="mi_pay_summary">Bus Card/Mi Pay/Card Emulator</string>
   <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
@@ -4334,7 +4335,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
-  <string name="status_bar_settings_customer_feedback">feedback</string>
+  <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
