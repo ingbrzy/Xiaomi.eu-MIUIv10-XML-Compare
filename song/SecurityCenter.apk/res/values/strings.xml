@@ -57,7 +57,7 @@
   <string name="activity_title_virus_settings">Settings</string>
   <string name="activity_title_white_list">Exceptions</string>
   <string name="ad_btn_default_text">Learn more</string>
-  <string name="ad_split_screen_title">Please switch to full screen mode to unlock</string>
+  <string name="ad_split_screen_title">Exit Split screen to unlock</string>
   <string name="ad_update_time">Last updated %s</string>
   <string name="ad_update_time_unKnown">Last update unknown</string>
   <string name="adb_install_no_network">Connect to the network and try again</string>
@@ -363,7 +363,7 @@ You will not lose any app data."</string>
   <string name="auto_task_result_summary_text">Set automated tasks for Battery saver</string>
   <string name="back_app_name">Go back to App lock</string>
   <string name="back_description_securitycenter">Back</string>
-  <string name="back_modifypassword">Go back to changing password</string>
+  <string name="back_modifypassword">Go back to changing password type</string>
   <string name="back_sound_data">Turn on mobile data and try again.</string>
   <string name="back_sound_fail">"Couldn't set. Carrier settings changed. Set the current SIM card as your data card, connect to the network, and try again."</string>
   <string name="back_sound_success">Set successfully</string>
@@ -1358,7 +1358,7 @@ to respond"</string>
   <string name="mixed_retry_button_text">Cancel</string>
   <string name="mixed_settings_help_how_to_record">How to set password</string>
   <string name="modify_password_mode">&lt;u&gt;Change password type&lt;/u&gt;</string>
-  <string name="modifypassword">Change password</string>
+  <string name="modifypassword">Change password type</string>
   <string name="monitor_app_add">Add</string>
   <string name="monitor_app_more">More</string>
   <string name="monitor_requests_from_pc">Manage installation of the apps via USB</string>
@@ -1463,7 +1463,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="numeric_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
   <string name="numeric_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
   <string name="numeric_pattern_entered_header">Set PIN successfully</string>
-  <string name="numeric_recording_incorrect_too_short">Enter at least %d digit.</string>
+  <string name="numeric_recording_incorrect_too_short">Enter at least %d digits.</string>
   <string name="numeric_recording_intro_header">Enter password</string>
   <string name="numeric_retry_button_text">Cancel</string>
   <string name="numeric_settings_help_how_to_record">How to set PIN</string>
