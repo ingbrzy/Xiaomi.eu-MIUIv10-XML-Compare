@@ -48,10 +48,10 @@
   <string name="cloud_app_restore_wifi_prompt">Restore from a Mi Cloud backup.</string>
   <string name="cloud_back_up_date_format">HH:mm MM/dd/yyyy</string>
   <string name="cloud_back_up_detail_discription">"These items will be backed up to Mi Cloud when your device is connected to WLAN: 
-*  Apps, Home screen layout, and wallpapers 
-*  Alarm, clock, and time settings 
-*  Notification settings 
-*  MIUI and system settings 
+*\u0009\u0009\u0009\u0009Apps, Home screen layout, and wallpapers 
+*\u0009\u0009\u0009\u0009Alarm, clock, and time settings 
+*\u0009\u0009\u0009\u0009Notification settings 
+*\u0009\u0009\u0009\u0009MIUI and system settings 
 Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="cloud_back_up_frequence_choice_title">Backup schedule</string>
   <string name="cloud_back_up_frequence_long">Every 7 days</string>
@@ -93,6 +93,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="desktop_wait_wifi">Waiting</string>
   <string name="desktop_waiting">Waiting</string>
   <string name="device_delete_prompt">Delete backup of %s?</string>
+  <string name="device_xiaomi">Mi Phone</string>
   <string name="dialog_btn_next">Next</string>
   <string name="dialog_btn_restore_skip">Restore later</string>
   <string name="dialog_cancel_backup_cancel">Cancel</string>
@@ -109,19 +110,12 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="download_meta_failed">"Couldn't load data."</string>
   <string name="download_settings">Downloading Home screen settings %s%%</string>
   <string name="download_settings_fail">"Couldn't download Home screen settings"</string>
-  <string name="error_num_placeholder">--</string>
-  <string name="error_retry_later">Failed, retry later please.</string>
   <string name="error_unknown">Something went wrong</string>
   <string name="get_device_id_error">"Couldn't get device ID"</string>
   <string name="home_hint_global_launcher">Poco Home screen</string>
-  <string name="home_hint_other_launcher">Other Home screen</string>
   <string name="home_restore_error">"Couldn't restore Home screen"</string>
   <string name="lack_of_storage">Not enough storage space</string>
   <string name="latest_backup_time_loading">Loading…</string>
-  <string name="load_backup_failed">Load backups failed</string>
-  <string name="loading_progress_num">(%s%%)</string>
-  <string name="loading_user_backup">Loading user backups…</string>
-  <string name="main_space">Main space</string>
   <string name="managespace_delete_backup">Delete</string>
   <string name="menu_item_managespace">Manage space</string>
   <string name="menu_item_sort">Sort by</string>
@@ -130,6 +124,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="miui_device_name">Android</string>
   <string name="msg_alert_cancel_restore">Restoring items. Stop now?</string>
   <string name="msg_alert_restore_error">"Couldn't restore items from Mi Cloud. Try again."</string>
+  <string name="name_model">"%1$s's %2$s"</string>
   <string name="network_error">Connect to network</string>
   <string name="no_account">Not signed in to Mi Account.</string>
   <string name="no_backup">No backups in Mi Cloud.</string>
@@ -139,8 +134,6 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="open_wifi">Turn WLAN on now</string>
   <string name="open_wifi_description">Connect to a WLAN network to restore app</string>
   <string name="open_wifi_setting">WLAN settings</string>
-  <string name="pattern_backup_name_with_home">%1$s (%2$s%3$s: %4$s)</string>
-  <string name="pattern_backup_name_without_home">%1$s (%2$s%3$s)</string>
   <string name="process_whole_recovery">Restoring \"%s\"</string>
   <string name="provision_error_connect_msg">"Test network and try again. Backups aren't available when your device is offline."</string>
   <string name="provision_error_connect_title">"Can't connect"</string>
@@ -167,8 +160,8 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="restore_task_in_process">Restoring…</string>
   <string name="restore_unfinished">Restoring, try again later</string>
   <string name="retry">Retry</string>
-  <string name="second_space">Second space</string>
-  <string name="self_device">"This phone's "</string>
+  <string name="self_phone">This phone</string>
+  <string name="self_phone_home">This phone: %s</string>
   <string name="settings_backup">System settings</string>
   <string name="size_unknown">Unknown size</string>
   <string name="start_backup_to_micloud">Back up apps to Mi Cloud</string>
@@ -178,8 +171,6 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="title_alert_restore_error">"Couldn't restore"</string>
   <string name="total_space">Total space: %s</string>
   <string name="try_again">Tap to try again</string>
-  <string name="try_continue">Tap to continue</string>
-  <string name="unsupported_home">Please update to latest OS.</string>
   <string name="wait_icon_download">Downloading app icons</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
 </resources>
