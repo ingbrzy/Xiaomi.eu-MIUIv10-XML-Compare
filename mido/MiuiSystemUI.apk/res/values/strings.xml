@@ -946,7 +946,7 @@ Try again in %2$d seconds."</string>
   <string name="lock_screen_carrier_airplane_mode_on">Airplane mode</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
-  <string name="lock_screen_no_sim_card_emergency_only">Emergency call only</string>
+  <string name="lock_screen_no_sim_card_emergency_only">Emergency calls only</string>
   <string name="lock_screen_no_sim_card_no_service">No service</string>
   <string name="lock_wallpaper_enter">Enter</string>
   <string name="lock_wallpaper_learn_more">More</string>
@@ -1494,7 +1494,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="snooze_option_30_min">30 minutes</string>
   <string name="snooze_undo">UNDO</string>
   <string name="snoozed_for_time">Snoozed for %1$s</string>
-  <string name="sos_status_bar_summary">click to exit</string>
+  <string name="sos_status_bar_summary">Tap to exit</string>
   <string name="sos_status_bar_title">SOS</string>
   <string name="speed_bump_explanation">Less urgent notifications below</string>
   <string name="ssl_ca_cert_warning">"Network may
@@ -1509,7 +1509,7 @@ be monitored"</string>
   <string name="status_bar_clock_date_format">E, MMM d</string>
   <string name="status_bar_clock_date_format_12">E, MMM d</string>
   <string name="status_bar_clock_date_time_format">H:mm MMM d</string>
-  <string name="status_bar_clock_date_time_format_12">h:mm aa,MMM d</string>
+  <string name="status_bar_clock_date_time_format_12">h:mm aa, MMM d</string>
   <string name="status_bar_date_format">"E
 MMM d"</string>
   <string name="status_bar_date_format_12">"E
@@ -1706,7 +1706,7 @@ Your phone may get too hot if you:
   <string name="unimportant_desc">All unimportant notifications will appear in a separate folder.</string>
   <string name="unimportant_title">Unimportant</string>
   <string name="unknown">Unknown</string>
-  <string name="unlock_camera_steady">Please keep steady</string>
+  <string name="unlock_camera_steady">"Don't move your phone"</string>
   <string name="unlock_failed">Internal error</string>
   <string name="unlock_failed_face_not_found">Detecting</string>
   <string name="unlock_label">Unlock</string>
