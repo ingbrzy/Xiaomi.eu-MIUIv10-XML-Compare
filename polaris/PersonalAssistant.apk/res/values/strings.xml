@@ -337,6 +337,7 @@
   <string name="book_add_dialog_exit">Exit</string>
   <string name="book_add_dialog_save">Discard changes and exit now?</string>
   <string name="book_arr_city">目的地</string>
+  <string name="book_arr_station">添加到达站</string>
   <string name="book_assistant">Book a trip</string>
   <string name="book_assistant_empty">No bookings yet.</string>
   <string name="book_assistant_go">Departure |  </string>

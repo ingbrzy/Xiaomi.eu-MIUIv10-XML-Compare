@@ -58,9 +58,9 @@
   <string name="other_settings_ad_enable_summary">Receive personalized ads based on your behavior data</string>
   <string name="other_settings_auto_update">Update automatically</string>
   <string name="other_settings_auto_update_summary">MIUI will select the best moment to install updates</string>
-  <string name="other_settings_enhanced_lockscreen">Get Enhanced Lockscreen experience</string>
-  <string name="other_settings_enhanced_lockscreen_summary">Get photos and stories on your lockscreen. T&amp;C</string>
-  <string name="other_settings_enhanced_lockscreen_summary_index">T&amp;C</string>
+  <string name="other_settings_enhanced_lockscreen">Wallpaper Carousel</string>
+  <string name="other_settings_enhanced_lockscreen_summary">Get curated images and stories delivered to your Lock screen daily. Terms and conditions apply.</string>
+  <string name="other_settings_enhanced_lockscreen_summary_index">Terms and conditions</string>
   <string name="other_settings_location">Location</string>
   <string name="other_settings_location_summary">Allow apps to access your location</string>
   <string name="other_settings_upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
