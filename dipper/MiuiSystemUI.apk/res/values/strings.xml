@@ -1488,6 +1488,12 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="recents_multistack_add_stack_dialog_split_vertical">Split vertically</string>
   <string name="recents_search_bar_label">Search</string>
   <string name="recents_stack_action_button_label">Clear all</string>
+  <string name="recents_title_app_manager">Manage apps</string>
+  <string name="recents_title_game">Games</string>
+  <string name="recents_title_garbage_cleanup">Cleaner</string>
+  <string name="recents_title_garbage_deepclean">Deep clean</string>
+  <string name="recents_title_market">Find apps</string>
+  <string name="recents_title_security_scan">Security scan</string>
   <string name="regrettable_lack_of_easter_egg">¯\\_(ツ)_/¯</string>
   <string name="reject_call">Rejecting call</string>
   <string name="remaining_length_format">%1$s left</string>

@@ -2276,6 +2276,8 @@ For more details, contact your organization's admin."</string>
   <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off."</string>
   <string name="firmware_title">Android</string>
   <string name="firmware_version">Android version</string>
+  <string name="flash_drive_backup_restore">Back up or restore using USB</string>
+  <string name="flash_drive_backup_restore_summary">Connect a USB drive</string>
   <string name="floating_window_switch_label">Turn on floating windows</string>
   <string name="floating_window_switch_label_disable">Turn off floating windows</string>
   <string name="fluency_mode">System animations</string>
@@ -5488,6 +5490,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
   <string name="summary_divider_text">", "</string>
   <string name="summary_empty"/>
   <string name="summary_font_size">%1$s</string>
+  <string name="summary_font_size_v2">Adjust size for text, images, and icons</string>
   <string name="summary_placeholder"> </string>
   <string name="summary_range_symbol_combination">%1$s - %2$s</string>
   <string name="summary_range_verbal_combination">%1$s to %2$s</string>
@@ -5617,10 +5620,12 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_font_current">System font</string>
   <string name="title_font_current2">System font</string>
   <string name="title_font_size">Font size</string>
+  <string name="title_font_v2">Text &amp; UI elements</string>
   <string name="title_hdmi_color_calibration">Color correction preset</string>
   <string name="title_jeejen">Jeejen Home screen</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
+  <string name="title_layout_v2">Text size &amp; scaling</string>
   <string name="to_close">Turn off</string>
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
