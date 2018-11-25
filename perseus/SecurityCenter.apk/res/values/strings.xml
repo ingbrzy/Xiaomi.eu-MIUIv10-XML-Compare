@@ -503,6 +503,7 @@ You will not lose any app data."</string>
   <string name="card_main_applock_summary">Protect selected apps with a password.</string>
   <string name="card_main_applock_title">App lock</string>
   <string name="card_main_deepclean_action">Clear</string>
+  <string name="card_main_deepclean_facebook_title">Facebook cleaner</string>
   <string name="card_main_deepclean_qq_title">QQ cleaner</string>
   <string name="card_main_deepclean_summary">Delete unnecessary files</string>
   <string name="card_main_deepclean_title">Deep clean</string>
@@ -2185,7 +2186,6 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="status_bar_network_flow_purchase">"   Purchase &gt;"</string>
   <string name="status_bar_network_flow_setup_data_plan">"   Setup data plan &gt;"</string>
   <string name="still_retain_btn">Keep</string>
-  <string name="string/card_main_deepclean_facebook_title">Facebook cleaner</string>
   <string name="suggest_app_tolock">Suggestions</string>
   <string name="suggest_app_tolock_masked">Hidden</string>
   <string name="suggest_app_tolock_unmasked">Visible notifications</string>
