@@ -83,7 +83,7 @@
   <string name="change_password">Change password</string>
   <string name="change_phone_number">Change phone number</string>
   <string name="cloud_service">Mi Cloud</string>
-  <string name="collect_diagnosis_log">Collect diagnosis log</string>
+  <string name="collect_diagnosis_log">Generate diagnostic log</string>
   <string name="completed">All set!</string>
   <string name="confirm_activate_email">Verified</string>
   <string name="confirm_bundled_phone_dialog_title">Confirm associated phone number</string>
@@ -112,10 +112,10 @@
   <string name="device_list_title">My devices</string>
   <string name="device_name">Device name</string>
   <string name="device_trust_info">Trusted device</string>
-  <string name="diagnosis_log_send_failed">Diagnosis log sent failed.</string>
-  <string name="diagnosis_log_sent_format">"Diagnosis log has been sent.
+  <string name="diagnosis_log_send_failed">"Couldn't send log."</string>
+  <string name="diagnosis_log_sent_format">"Sent log successfully.
 ID:%s
-Please send this code to the technician."</string>
+Send this code to the supervisor."</string>
   <string name="empty_device_list_notice">No devices</string>
   <string name="error_dup_binded_email">This email address is already associated with another Mi Account.</string>
   <string name="error_invalid_bind_address">The email address you entered is invalid.</string>
@@ -143,7 +143,7 @@ Please send this code to the technician."</string>
   <string name="find_device_request_prepare_error">"Can't get status, try again later"</string>
   <string name="find_device_unknown_error">"Can't get device status, wait a minute or two and try again"</string>
   <string name="first_login_time">First sign in attempt: %s</string>
-  <string name="for_diagnosis_usage_only">Use this info for diagnosis only.</string>
+  <string name="for_diagnosis_usage_only">Used only for locating issues.</string>
   <string name="get_back_pwd">Resetting password</string>
   <string name="get_device_list_failed">"Can't get devices"</string>
   <string name="get_phone_bind_exceed_limit">"You can associate up to 3 Mi Accounts with a phone number. Can't add new accounts."</string>
@@ -280,7 +280,7 @@ To activate your account, follow the
   <string name="passport_input_password_for_login">This number is associated with an existing account, enter your password</string>
   <string name="passport_input_password_hint">Enter password</string>
   <string name="passport_input_phone_hint">Enter phone number</string>
-  <string name="passport_input_phone_password">Please enter the password for the mobile number%s</string>
+  <string name="passport_input_phone_password">Enter the password for %s</string>
   <string name="passport_input_vcode_hint">Enter verification code</string>
   <string name="passport_input_voice_captcha_hint">Enter voice verification code</string>
   <string name="passport_input_voice_hint">Enter voice code</string>
@@ -377,7 +377,7 @@ To activate your account, follow the
   <string name="passport_skip_setup_account_title">"Don't use Mi Cloud?"</string>
   <string name="passport_sms_send_success">Sent</string>
   <string name="passport_sms_verification_code_login">Sign in using SMS</string>
-  <string name="passport_sms_verification_code_login_or_register">Sign or register in using SMS</string>
+  <string name="passport_sms_verification_code_login_or_register">Sign or create account using SMS</string>
   <string name="passport_sync_account_data">Syncing account info…</string>
   <string name="passport_sync_account_data_failed_warning">Your account info is being synced now, you can sign in using your Mi Account ID. If you want to sign in using your phone or email, wait until the info is fully synced.</string>
   <string name="passport_talkback_image_captcha">Image verification code</string>
@@ -453,7 +453,7 @@ To activate your account, follow the
   <string name="select_location_title">Select your location</string>
   <string name="send_diagnosis_log">Send diagnosis log</string>
   <string name="send_email_activate_message">Verification email sent</string>
-  <string name="sending">Sending...</string>
+  <string name="sending">Sending…</string>
   <string name="service_error">Service error</string>
   <string name="set_success">Changed successfully</string>
   <string name="sign_in">Signing in</string>
@@ -463,7 +463,7 @@ To activate your account, follow the
   <string name="sms_send_success">Sent</string>
   <string name="sns_access_token_expired_warning">Account sign-in has expired. Sign in again to reconnect this account.</string>
   <string name="talkback_scan_barcode">Scan QR code</string>
-  <string name="temporary_not_available">temporary not available</string>
+  <string name="temporary_not_available">"This feature isn't available yet."</string>
   <string name="trusted_browsers">Trusted browsers</string>
   <string name="trusted_browsers_prompt">The browser will no longer be trusted if you delete cookies.</string>
   <string name="turn_off_find_device_failed_title">"Can't turn off Find device"</string>
