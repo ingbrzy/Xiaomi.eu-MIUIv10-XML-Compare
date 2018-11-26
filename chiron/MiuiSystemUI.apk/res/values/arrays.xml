@@ -306,10 +306,10 @@
         <item>0</item>
     </integer-array>
     <integer-array name="config_input_face_unlock">
-        <item>-8</item>
-        <item>8</item>
-        <item>-13</item>
-        <item>13</item>
+        <item>-10</item>
+        <item>10</item>
+        <item>15</item>
+        <item>25</item>
     </integer-array>
     <string-array name="data_activity_sim1">
         <item>array/telephony_data_activity_unknown_sim1</item>
