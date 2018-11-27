@@ -4726,6 +4726,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_show_home_message">App icon badge</string>
   <string name="status_bar_settings_show_keyguard_notification">Lock screen notifications</string>
   <string name="status_bar_settings_show_keyguard_notification_summary">Allow important notifications on the Lock screen</string>
+  <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
   <string name="status_bar_settings_show_network_speed">Show connection speed</string>
   <string name="status_bar_settings_show_notification_icon">Show notification icons</string>
   <string name="status_bar_settings_show_wifi_name">Show WLAN</string>
@@ -4949,6 +4950,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="summary_divider_text">", "</string>
   <string name="summary_empty"/>
   <string name="summary_font_size">%1$s</string>
+  <string name="summary_font_size_v2">Adjust size for text, images, and icons</string>
   <string name="summary_placeholder"> </string>
   <string name="summary_range_symbol_combination">%1$s - %2$s</string>
   <string name="summary_range_verbal_combination">%1$s to %2$s</string>
@@ -5104,10 +5106,12 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_font_current">System font</string>
   <string name="title_font_current2">System font</string>
   <string name="title_font_size">Font size</string>
+  <string name="title_font_v2">Text &amp; UI elements</string>
   <string name="title_hdmi_color_calibration">Color correction preset</string>
   <string name="title_jeejen">Jeejen Home screen</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
+  <string name="title_layout_v2">Text size &amp; scaling</string>
   <string name="to_close">Turn off</string>
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
