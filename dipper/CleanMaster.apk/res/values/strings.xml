@@ -368,7 +368,7 @@
   <string name="label_image_list_none">None</string>
   <string name="label_preserve_the_best_image">Save the sharpest photos</string>
   <string name="last_check_canceled">Previous scan was canceled</string>
-  <string name="load_only_under_wlan">Load using only WLAN</string>
+  <string name="load_only_under_wlan">Load using only Wi-Fi</string>
   <string name="location_not_found">"Couldn't find file"</string>
   <string name="login_immediately">Sign in</string>
   <string name="long_click_dialog_summary">Long press to add to exceptions.</string>

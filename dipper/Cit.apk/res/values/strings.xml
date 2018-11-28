@@ -1070,6 +1070,9 @@ Please plug out the charger and reverse plug in."</string>
   <string name="sar_sensor_calibrate">Start Calibrate</string>
   <string name="sar_sensor_calibrate_fail">Sar Sensor calibrate fail</string>
   <string name="sar_sensor_calibrate_success">Sar Sensor calibrate success</string>
+  <string name="sar_sensor_data_check_description">Sar Sensor Data Collect</string>
+  <string name="sar_sensor_data_check_summary">"Rotate the phone, put it to the fixture
+Control the fixture close and away from the phone"</string>
   <string name="sar_sensor_test_description">Sar Sensor Calibrate and Data Collect</string>
   <string name="sar_sensor_test_summary">"Rotate the phone, put it to the fixture
 Click the Start Calibrate button
