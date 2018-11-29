@@ -337,6 +337,7 @@
   <string name="book_add_dialog_exit">Exit</string>
   <string name="book_add_dialog_save">Discard changes and exit now?</string>
   <string name="book_arr_city">目的地</string>
+  <string name="book_arr_station">添加到达站</string>
   <string name="book_assistant">Book a trip</string>
   <string name="book_assistant_empty">No bookings yet.</string>
   <string name="book_assistant_go">Departure |  </string>
@@ -576,7 +577,6 @@
   <string name="express_inquiry">Tracking</string>
   <string name="express_inquiry_all_logistics">All</string>
   <string name="express_inquiry_and_send">Tracking and sending</string>
-  <string name="express_inquiry_button_text">Track</string>
   <string name="express_inquiry_clipboard_number_message">Track copied number?</string>
   <string name="express_inquiry_data_owner_prefix">"Tracking info provided by "</string>
   <string name="express_inquiry_data_owner_suffix"/>
@@ -653,6 +653,8 @@ Check your tracking number."</string>
   <string name="express_provider_cainiao">Cainiao</string>
   <string name="express_provider_jingdong">Jingdong</string>
   <string name="express_provider_shunfeng">Shunfeng</string>
+  <string name="express_query">Track</string>
+  <string name="express_query_more">Track more</string>
   <string name="express_region_pick_title">Choose region</string>
   <string name="express_schedule_delivery">预约取件</string>
   <string name="express_select_addressee">To</string>
