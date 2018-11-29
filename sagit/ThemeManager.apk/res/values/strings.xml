@@ -521,7 +521,7 @@
   <string name="show_free">Show free %1$s</string>
   <string name="show_incompatible">Show incompatible %1$s</string>
   <string name="status_bar_notification_info_overflow">999+</string>
-  <string name="swipe_find_more">swipe up</string>
+  <string name="swipe_find_more">Swipe up to view more</string>
   <string name="system_precust">Pre-installed</string>
   <string name="tag_ad">Ad</string>
   <string name="the_picture_is_not_support">"The image isn't supported"</string>
@@ -567,7 +567,7 @@
   <string name="theme_description_title_default">Default</string>
   <string name="theme_detail_tab_comment">Comments</string>
   <string name="theme_detail_tab_recommend">Recommended</string>
-  <string name="theme_detail_tab_theme">Themes</string>
+  <string name="theme_detail_tab_theme">Details</string>
   <string name="theme_empty_redirect">Back to Themes</string>
   <string name="theme_favorite_add_fail">"Couldn't add to favorites"</string>
   <string name="theme_favorite_add_success">Added to favorites</string>
