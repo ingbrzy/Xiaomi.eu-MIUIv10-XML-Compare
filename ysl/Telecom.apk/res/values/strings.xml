@@ -165,7 +165,7 @@ Sample Rate"</string>
   <string name="can_not_dial_vt_while_voice_prompt">"Can't make a video call while a voice call is in progress"</string>
   <string name="can_not_dial_while_vt_prompt">"Can't dial while a video call in process"</string>
   <string name="cant_call_due_to_ongoing_call">"Can't place a call. %1$s other call is ongoing."</string>
-  <string name="cant_call_due_to_ongoing_calls">"Can't place a call. %1$s other calls are ongoing."</string>
+  <string name="cant_call_due_to_ongoing_calls">"Can't place a call. End your %1$s call first."</string>
   <string name="cant_call_due_to_ongoing_unknown_call">"Can't place a call due to a call in another app."</string>
   <string name="category_personal">Personal</string>
   <string name="category_work">Work</string>

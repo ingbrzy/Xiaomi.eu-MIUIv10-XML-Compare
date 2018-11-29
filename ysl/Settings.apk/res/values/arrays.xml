@@ -16,7 +16,7 @@
     </string-array>
     <string-array name="agps_network_entries">
         <item>Home network</item>
-        <item>All network</item>
+        <item>All networks</item>
     </string-array>
     <string-array name="agps_network_values">
         <item>0</item>
@@ -2015,7 +2015,7 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
-        <item>Reinstall MiPhoneManager.</item>
+        <item>Reinstall Mi PC Suite</item>
     </string-array>
     <string-array name="mvno_type_entries">
         <item>None</item>
@@ -2583,8 +2583,8 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="screen_resolution_text">
         <item>2K</item>
-        <item>1080P</item>
-        <item>720P</item>
+        <item>1080p</item>
+        <item>720p</item>
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Brilliant</item>
@@ -3257,4 +3257,4 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>5</item>
         <item>10</item>
     </string-array>
-</resources>
+<string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array><string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array></resources>
