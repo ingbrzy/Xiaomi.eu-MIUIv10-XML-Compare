@@ -225,7 +225,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="allow_bind_app_widget_activity_allow_bind_title">Create widget and allow access?</string>
   <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
   <string name="allow_data_usage_title">Allow data usage when roaming</string>
-  <string name="allow_device_id_access">Apps with device identification</string>
+  <string name="allow_device_id_access">Apps with access to Device ID</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
   <string name="allow_overlay_description">This permission allows an app to display on top of other apps you’re using and may interfere with your use of the interface in other applications, or change what you think you are seeing in other applications.</string>
@@ -1326,6 +1326,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_sound">Default sound</string>
   <string name="default_spell_checker">Default spell checker</string>
   <string name="default_usb_mode">USB connection</string>
+  <string name="default_vol_stream_title">Default volume control stream</string>
   <string name="delete">Delete</string>
   <string name="delete_fingerprint_confirm_msg">Remove fingerprint?</string>
   <string name="delete_fingerprint_text">Remove fingerprint</string>
@@ -1370,7 +1371,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_display_layout_title">Mi 5 Features</string>
   <string name="device_edit_title">Rename phone</string>
   <string name="device_feedback">Send feedback about this device</string>
-  <string name="device_id">Device identification</string>
+  <string name="device_id">Device ID</string>
   <string name="device_info_default">Unknown</string>
   <string name="device_info_label">Device info</string>
   <string name="device_info_not_available">Not available</string>
@@ -1769,7 +1770,11 @@ This helps protect data on lost or stolen devices."</string>
   <string name="floating_window_switch_label_disable">Turn off floating windows</string>
   <string name="fluency_mode">System animations</string>
   <string name="fluency_mode_confirm_and_reboot">Reboot now</string>
+  <string name="following_us_facebook">facebook</string>
+  <string name="following_us_instagram">instagram</string>
+  <string name="following_us_linkedin">linkedin</string>
   <string name="following_us_title">Follow us</string>
+  <string name="following_us_twitter">twitter</string>
   <string name="font_size_exhuge">Extra Huge</string>
   <string name="font_size_huge">Huge</string>
   <string name="font_size_large">Larger</string>
@@ -1949,7 +1954,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="header_category_device">Device</string>
   <string name="header_category_personal">Personal</string>
   <string name="header_category_system">System</string>
-  <string name="header_category_wireless_networks">Network</string>
+  <string name="header_category_wireless_networks">Wireless &amp; networks</string>
   <string name="header_data_and_synchronization">Data &amp; synchronization</string>
   <string name="heavy_weight_stop_description">This app can’t safely be stopped. If you stop it, you may lose some of your current work.</string>
   <string name="help_feedback_label">Help &amp; feedback</string>
@@ -2626,7 +2631,7 @@ There are other users present on this device.
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_pay">Mi Wallet</string>
-  <string name="mi_pay_indonesia">Akun Mi Pay</string>
+  <string name="mi_pay_indonesia">Mi Pay Account</string>
   <string name="mi_pay_summary">Bus Card/Mi Pay/Card Emulator</string>
   <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
@@ -2675,11 +2680,11 @@ There are other users present on this device.
   <string name="miui_sos_contacts_add">Emergency contacts</string>
   <string name="miui_sos_contacts_category">Emergency contacts</string>
   <string name="miui_sos_emergency_contacts">Emergency contacts</string>
-  <string name="miui_sos_emergency_contacts_quantity">%dadded</string>
-  <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s(%2s)has already accepted</string>
-  <string name="miui_sos_emergency_delivered_sms_noname">%1shas already accepted</string>
-  <string name="miui_sos_emergency_failed_sms" formatted="false">%1s(%2s)sos message sending failed.</string>
-  <string name="miui_sos_emergency_failed_sms_noname">%1ssos message sending failed.</string>
+  <string name="miui_sos_emergency_contacts_quantity">%d added</string>
+  <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s (%2s) has already accepted.</string>
+  <string name="miui_sos_emergency_delivered_sms_noname">%1s has already accepted</string>
+  <string name="miui_sos_emergency_failed_sms" formatted="false">"Couldn't send message to %1s (%2s)."</string>
+  <string name="miui_sos_emergency_failed_sms_noname">"Couldn't send message to %1s."</string>
   <string name="miui_sos_enable_switch_summary">Rapidly press the Power button 5 times to send a SOS text message with your location to your emergency contacts</string>
   <string name="miui_sos_enable_switch_title">Emergency SOS</string>
   <string name="miui_sos_exit_dialog_cancel">Cancel</string>
@@ -2781,7 +2786,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_general">General</string>
   <string name="music_dirac_mode_general_earbuds">General</string>
   <string name="music_dirac_mode_general_inear">General In-Ear</string>
-  <string name="music_dirac_mode_half_in_ear">Mi Half in Ear</string>
+  <string name="music_dirac_mode_half_in_ear">Mi Half In-Ear</string>
   <string name="music_dirac_mode_headset">Mi Headphones</string>
   <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
   <string name="music_dirac_mode_in_ear">Mi In-Ear</string>
@@ -2936,7 +2941,7 @@ Select your operating system:"</string>
   <string name="no_nearby_wifi">No networks detected</string>
   <string name="no_notification_listeners">No installed apps have requested notification access.</string>
   <string name="no_running_services">Nothing running.</string>
-  <string name="no_services">Not active services</string>
+  <string name="no_services">No active services</string>
   <string name="no_trust_agents">No available trust agents</string>
   <string name="no_update_found">"You're running the latest version of MIUI"</string>
   <string name="no_updates_found">"You're running the latest version of MIUI"</string>
@@ -3561,11 +3566,11 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="resource_ringtone_volume_mute">Your ringer is currently silenced</string>
   <string name="restore_default_apn">Restoring default APN settings.</string>
   <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
-  <string name="restore_device_id_content">Reset personalized recommendation</string>
-  <string name="restore_device_id_title">Restore device identification</string>
-  <string name="restore_dialog_content">Restoring device identification will reset your personalized recommendation.</string>
+  <string name="restore_device_id_content">Reset personalized recommendations</string>
+  <string name="restore_device_id_title">Restore Device ID</string>
+  <string name="restore_dialog_content">Restoring Device ID will reset your personalized recommendations.</string>
   <string name="restore_dialog_positive">Restore</string>
-  <string name="restore_dialog_title">Reminder</string>
+  <string name="restore_dialog_title">Attention</string>
   <string name="restr_pin_enter_admin_pin">Enter administrator PIN</string>
   <string name="restrict_background_blacklisted">Background data is turned off</string>
   <string name="restrict_bg_app">Restrict</string>
@@ -4280,9 +4285,9 @@ Possibly incorrect PIN."</string>
   <string name="sort_order_size">Sort by size</string>
   <string name="sos_privacy_and_content_policy">User Agreement and Privacy Policy</string>
   <string name="sos_privacy_dialog_button_cancel">Cancel</string>
-  <string name="sos_privacy_dialog_button_ok">Continue</string>
-  <string name="sos_privacy_dialog_message">"Enable the SOS emergency help function, please confirm and read the %s. 
- In order to ensure the normal use of the SOS emergency help function, it may need to obtain your location, use the mobile network, and read your address book, do you confirm?"</string>
+  <string name="sos_privacy_dialog_button_ok">Agree</string>
+  <string name="sos_privacy_dialog_message">"Read and agree to our %s before using this feature.
+This feature needs permissions to access your location, use mobile networks, and read your contacts. Agree?"</string>
   <string name="sos_privacy_dialog_title">Terms and Conditions</string>
   <string name="sound_category_call_ringtone_vibrate_title">Ringtone &amp; notification sounds</string>
   <string name="sound_category_sound_title">General</string>
@@ -4363,6 +4368,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_show_home_message">App icon badge</string>
   <string name="status_bar_settings_show_keyguard_notification">Lock screen notifications</string>
   <string name="status_bar_settings_show_keyguard_notification_summary">Allow important notifications on the Lock screen</string>
+  <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
   <string name="status_bar_settings_show_network_speed">Show connection speed</string>
   <string name="status_bar_settings_show_notification_icon">Show notification icons</string>
   <string name="status_bar_settings_show_wifi_name">Show WLAN</string>
@@ -4564,6 +4570,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="sum_carrier_select">Choose a network operator</string>
   <string name="summary_divider_text">", "</string>
   <string name="summary_font_size">%1$s</string>
+  <string name="summary_font_size_v2">Adjust size for text, images, and icons</string>
   <string name="summary_range_symbol_combination">%1$s - %2$s</string>
   <string name="summary_range_verbal_combination">%1$s to %2$s</string>
   <string name="super_resolution_access_title">Accessible apps</string>
@@ -4695,9 +4702,11 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_font_current">System font</string>
   <string name="title_font_current2">System font</string>
   <string name="title_font_size">Font size</string>
+  <string name="title_font_v2">Text &amp; UI elements</string>
   <string name="title_hdmi_color_calibration">Color correction preset</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
+  <string name="title_layout_v2">Text size &amp; scaling</string>
   <string name="title_local_resource">Local resources</string>
   <string name="title_system_resource">System resources</string>
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>

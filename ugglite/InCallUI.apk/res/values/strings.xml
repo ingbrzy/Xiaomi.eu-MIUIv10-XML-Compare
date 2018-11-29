@@ -195,6 +195,7 @@
   <string name="sim1_description">SIM1</string>
   <string name="sim2_description">SIM2</string>
   <string name="sip_call_not_support_record">"Can't record SIP calls"</string>
+  <string name="supp_service_notification_call_waiting">The number you dialed is busy. Please hold…</string>
   <string name="suspect_info">Be careful with your personal information.</string>
   <string name="unknown">Unknown</string>
   <string name="unlock_phone">Unlock device</string>
