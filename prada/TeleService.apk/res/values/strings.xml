@@ -512,7 +512,7 @@
   <string name="fdn_list_with_label">FDN list (%s)</string>
   <string name="fdn_summary">Restrict outgoing calls to listed FDNs or to numbers with certain prefixes</string>
   <string name="fdn_with_label">Fixed Dialing Numbers (%s)</string>
-  <string name="flash_when_ring_summary">Flash notification light for incoming calls</string>
+  <string name="flash_when_ring_summary">Use flash to notify about incoming calls</string>
   <string name="flash_when_ring_title">Flash when ringing</string>
   <string name="fw_change_failed">"Couldn't change the forwarding number.
 Contact your carrier if this problem persists."</string>
@@ -526,8 +526,8 @@ Switch to the new provider anyway?"</string>
   <string name="goPrivate">Go private</string>
   <string name="go_to_virtual_sim_title">Virtual SIM</string>
   <string name="got_it">OK</string>
-  <string name="gsm_umts_network_preferences_dialogtitle">Network Mode</string>
-  <string name="gsm_umts_network_preferences_title">Network Mode</string>
+  <string name="gsm_umts_network_preferences_dialogtitle">Network mode</string>
+  <string name="gsm_umts_network_preferences_title">Network mode</string>
   <string name="gsm_umts_options">GSM/UMTS Options</string>
   <string name="hac_mode_summary">Turn on hearing aid compatibility</string>
   <string name="hac_mode_title">Hearing aids</string>
@@ -666,7 +666,7 @@ Switch to the new provider anyway?"</string>
   <string name="missed_call_notify_once">1 time</string>
   <string name="missed_call_notify_ten_times">10 times</string>
   <string name="missed_call_notify_thrice">3 times</string>
-  <string name="missed_call_notify_times_summary">reminders are separated by 5 minute intervals</string>
+  <string name="missed_call_notify_times_summary">Reminders are separated by 5 minute intervals</string>
   <string name="missed_call_notify_times_title">Missed call reminders</string>
   <string name="missed_call_notify_twice">2 times</string>
   <string name="miui_network_selection_reset_text">Reset</string>
@@ -1060,7 +1060,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="respond_via_sms_canned_response_2">"I'll call you right back."</string>
   <string name="respond_via_sms_canned_response_3">"I'll call you later."</string>
   <string name="respond_via_sms_canned_response_4">"Can't talk now. What's up?"</string>
-  <string name="respond_via_sms_cannot_empty">Reject messages can not be empty</string>
+  <string name="respond_via_sms_cannot_empty">"Message can't be empty"</string>
   <string name="respond_via_sms_confirmation_format">Message sent to %s.</string>
   <string name="respond_via_sms_edittext_dialog_title">Quick response</string>
   <string name="respond_via_sms_menu_reset_default_activity">Restore defaults</string>
