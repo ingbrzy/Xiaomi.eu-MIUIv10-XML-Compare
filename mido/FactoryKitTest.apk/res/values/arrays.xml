@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color">
+        <item>green</item>
+        <item>@string/LED_OFF</item>
+        <item>blue</item>
+        <item>@string/LED_OFF</item>
+        <item>red</item>
+        <item>@string/LED_OFF</item>
+    </string-array>
+    <string-array name="dir">
+        <item>/sys/class/leds/green/brightness</item>
+        <item>/sys/class/leds/blue/brightness</item>
+        <item>/sys/class/leds/red/brightness</item>
+    </string-array>
+    <string-array name="htccolor">
+        <item>green</item>
+        <item>@string/LED_OFF</item>
+        <item>red</item>
+        <item>@string/LED_OFF</item>
+    </string-array>
+    <string-array name="htcdir">
+        <item>/sys/class/leds/green/brightness</item>
+        <item>/sys/class/leds/red/brightness</item>
+    </string-array>
+</resources>
