@@ -123,7 +123,8 @@
   <string name="accessibility_home">Home</string>
   <string name="accessibility_ime_switch_button">Switch input method button.</string>
   <string name="accessibility_key">Custom navigation button</string>
-  <string name="accessibility_left_button">Shortcut</string>
+  <string name="accessibility_left_control_center_button">Shortcut</string>
+  <string name="accessibility_left_lock_screen_magazine_button">Music</string>
   <string name="accessibility_location_active">Location requests active</string>
   <string name="accessibility_managed_profile">Work profile</string>
   <string name="accessibility_menu">Menu</string>
@@ -434,6 +435,7 @@
   <string name="clock">Clock</string>
   <string name="clock_12hr_format">hm</string>
   <string name="clock_24hr_format">Hm</string>
+  <string name="clock_city_name_local">Local</string>
   <string name="clock_seconds">Show clock seconds</string>
   <string name="clock_seconds_desc">Show clock seconds in the status bar. May impact battery life.</string>
   <string name="compat_mode_off">Stretch to fill screen</string>
@@ -613,6 +615,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_data_manage_delete_sure">"You won't be able to unlock device using your face data after you delete it."</string>
   <string name="face_data_manage_delete_title">Face data</string>
   <string name="face_data_manage_unlock_msg">Unlock device using your face data</string>
+  <string name="face_data_manage_unlock_slide_msg">Replace slider shortcuts with face unlock</string>
   <string name="face_data_manage_unlock_title">Unlock using face data</string>
   <string name="face_data_siggesstion_next">Next</string>
   <string name="face_data_siggesstion_next_time">Next (%ds)</string>
@@ -946,6 +949,9 @@ Try again in %2$d seconds."</string>
   <string name="lock_screen_carrier_airplane_mode_on">Airplane mode</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
+  <string name="lock_screen_magazine_default_content">Daily portion of fresh images</string>
+  <string name="lock_screen_magazine_default_entry_title">Wallpaper details</string>
+  <string name="lock_screen_magazine_default_title">Music</string>
   <string name="lock_screen_no_sim_card_emergency_only">Emergency calls only</string>
   <string name="lock_screen_no_sim_card_no_service">No service</string>
   <string name="lock_wallpaper_enter">Enter</string>
@@ -1161,6 +1167,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="oldman_incall_text">Back to call</string>
   <string name="open_camera_hint_text">Swipe left to open camera</string>
   <string name="open_extreme_power_save_mode_title">Turn on Extreme battery saver</string>
+  <string name="open_lock_screen_magazine_hint_text">Swipe right for more options</string>
   <string name="open_remote_center_hint_text">Swipe right to open Shortcuts</string>
   <string name="other">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
@@ -1353,9 +1360,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_sync_label">Sync</string>
   <string name="quick_settings_tethering_label">Tethering</string>
   <string name="quick_settings_tiles">default</string>
-  <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit</string>
+  <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,edit</string>
   <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
-  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,drivemode,rotation,edit,gps,vibrate,hotspot,papermode,sync,quietmode,powermode,screenbutton,batterysaver,extremebatterysaver</string>
+  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,edit,papermode,quietmode,batterysaver,extremebatterysaver,drivemode,powermode,vibrate,hotspot,sync,screenbutton</string>
   <string name="quick_settings_time_label">Time</string>
   <string name="quick_settings_toast_drag_to_enable_custom_tile">To add an item, press and hold it, and then drag it to the upper part of the panel.</string>
   <string name="quick_settings_user_label">Me</string>
@@ -1400,6 +1407,12 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="recents_multistack_add_stack_dialog_split_vertical">Split vertically</string>
   <string name="recents_search_bar_label">Search</string>
   <string name="recents_stack_action_button_label">Clear all</string>
+  <string name="recents_title_app_manager">Manage apps</string>
+  <string name="recents_title_game">Games</string>
+  <string name="recents_title_garbage_cleanup">Cleaner</string>
+  <string name="recents_title_garbage_deepclean">Deep clean</string>
+  <string name="recents_title_market">Find apps</string>
+  <string name="recents_title_security_scan">Security scan</string>
   <string name="regrettable_lack_of_easter_egg">¯\\_(ツ)_/¯</string>
   <string name="reject_call">Rejecting call</string>
   <string name="remaining_length_format">%1$s left</string>

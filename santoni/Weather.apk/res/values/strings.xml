@@ -21,6 +21,7 @@
   <string name="activity_find_city_dialog_title">Location access</string>
   <string name="activity_main_clickable">&gt;</string>
   <string name="activity_main_one_alert"/>
+  <string name="activity_main_pub_time">Published at %1$s</string>
   <string name="activity_main_time_format">E</string>
   <string name="activity_main_update_time">Updated %1$s</string>
   <string name="activity_main_update_time_expire">Data expired</string>
@@ -146,7 +147,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="install">Install</string>
   <string name="install_progress">%1$s%%</string>
   <string name="international_details_pressure_title">PRESSURE</string>
-  <string name="international_details_real_feel_title">REAL FEEL®</string>
+  <string name="international_details_real_feel_title">@string/indices_title_feel</string>
   <string name="international_details_title">Details</string>
   <string name="international_details_uv_index_title">UV INDEX</string>
   <string name="international_details_wind_connect">%1$s %2$s</string>
@@ -203,6 +204,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="pull_fresh_updated">Updated successfully</string>
   <string name="pull_fresh_updating">Updating…</string>
   <string name="radar_cloud_image_title">Radar map</string>
+  <string name="radar_cloud_update_time">Before %1$s</string>
   <string name="rainfall_settings_summary">Rainfall alerts</string>
   <string name="rainfall_settings_title">Rainfall</string>
   <string name="real_time_sunrise">Sunrise %1$s</string>
