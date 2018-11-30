@@ -3391,4 +3391,4 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>zen_mode_from_starred</item>
         <item>zen_mode_from_none</item>
     </string-array>
-</resources>
+<string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array><string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array></resources>
