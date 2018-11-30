@@ -585,13 +585,13 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_video_duration_entry_30">30 minutes</string>
   <string name="pref_camera_video_duration_entry_mms">30 seconds (MMS)</string>
   <string name="pref_camera_video_flashmode_default">off</string>
-  <string name="pref_camera_volumekey_function_default">shutter</string>
-  <string name="pref_camera_volumekey_function_entry_exposure">Exposure</string>
+  <string name="pref_camera_volumekey_function_default">timer</string>
   <string name="pref_camera_volumekey_function_entry_shutter">Shutter</string>
+  <string name="pref_camera_volumekey_function_entry_timer">Shutter countdown</string>
   <string name="pref_camera_volumekey_function_entry_volume">Volume</string>
   <string name="pref_camera_volumekey_function_entry_zoom">Zoom</string>
-  <string name="pref_camera_volumekey_function_entryvalue_exposure">exposure</string>
   <string name="pref_camera_volumekey_function_entryvalue_shutter">shutter</string>
+  <string name="pref_camera_volumekey_function_entryvalue_timer">timer</string>
   <string name="pref_camera_volumekey_function_entryvalue_volume">volume</string>
   <string name="pref_camera_volumekey_function_entryvalue_zoom">zoom</string>
   <string name="pref_camera_volumekey_function_title">Volume buttons function</string>
@@ -729,6 +729,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_video_time_lapse_frame_interval_entry_90">90X (3-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
+  <string name="pref_video_volumekey_function_default">shutter</string>
   <string name="preparing_sd">Checking SD card…</string>
   <string name="record_back_pressed_hint">Touch again to stop recording</string>
   <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
