@@ -209,6 +209,7 @@ in Portrait mode"</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
+  <string name="live_sticker_fragment_tab_name">Magic</string>
   <string name="local_music">本地音乐</string>
   <string name="makeup_reset_toast">Removed makeup effects</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
@@ -431,11 +432,13 @@ and brings out the people in the front."</string>
   <string name="pref_camera_ultra_wide_ldc_title">超广角畸变矫正</string>
   <string name="pref_camera_video_bokeh_off">Video bokeh is closed</string>
   <string name="pref_camera_video_bokeh_on">Video bokeh</string>
-  <string name="pref_camera_volumekey_function_default">shutter</string>
+  <string name="pref_camera_volumekey_function_default">timer</string>
   <string name="pref_camera_volumekey_function_entry_shutter">Shutter</string>
+  <string name="pref_camera_volumekey_function_entry_timer">Shutter countdown</string>
   <string name="pref_camera_volumekey_function_entry_volume">Volume</string>
   <string name="pref_camera_volumekey_function_entry_zoom">Zoom</string>
   <string name="pref_camera_volumekey_function_entryvalue_shutter">shutter</string>
+  <string name="pref_camera_volumekey_function_entryvalue_timer">timer</string>
   <string name="pref_camera_volumekey_function_entryvalue_volume">volume</string>
   <string name="pref_camera_volumekey_function_entryvalue_zoom">zoom</string>
   <string name="pref_camera_volumekey_function_title">Volume buttons function</string>
@@ -530,6 +533,7 @@ and brings out the people in the front."</string>
   <string name="pref_video_time_lapse_frame_interval_entry_90">90X (3-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
+  <string name="pref_video_volumekey_function_default">shutter</string>
   <string name="preparing_sd">Checking SD card…</string>
   <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
   <string name="record_back_pressed_hint">Touch again to stop recording</string>
