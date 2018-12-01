@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gadget version="1" resDensity="320">
+	<Image x="#view_width/2" y="#view_height/2" w="456" h="226" align="center" alignV="center" src="search_bg.png"/>
+	<Image x="#view_width/2" y="#view_height/2" w="379" h="60" align="center" alignV="center" src="search_edittext.9.png"/>
+	<Button w="#view_width" h="#view_height" visibility="true">
+		<Triggers>
+			<Trigger action="up">
+				<IntentCommand action="android.search.action.GLOBAL_SEARCH"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+</Gadget>

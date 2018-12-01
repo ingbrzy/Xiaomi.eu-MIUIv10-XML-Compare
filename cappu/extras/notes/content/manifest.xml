@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Gadget version="1" resDensity="320">
+	<VariableBinders>
+		<ContentProviderBinder uri="content://notes/note/widget?keepStyle=false" columns="modified_date,snippet,_id" order="modified_date DESC LIMIT 5" where="type=0 AND (parent_id>=0 OR parent_id=-2) AND snippet IS NOT NULL and snippet!=''" countName="note_count">
+			<Variable name="note_date_0" type="long" column="modified_date" row="0"/>
+			<Variable name="note_date_1" type="long" column="modified_date" row="1"/>
+			<Variable name="note_date_2" type="long" column="modified_date" row="2"/>
+			<Variable name="note_date_3" type="long" column="modified_date" row="3"/>
+			<Variable name="note_date_4" type="long" column="modified_date" row="4"/>
+			<Variable name="note_snippet_0" type="string" column="snippet" row="0"/>
+			<Variable name="note_snippet_1" type="string" column="snippet" row="1"/>
+			<Variable name="note_snippet_2" type="string" column="snippet" row="2"/>
+			<Variable name="note_snippet_3" type="string" column="snippet" row="3"/>
+			<Variable name="note_snippet_4" type="string" column="snippet" row="4"/>
+			<Variable name="id_0" type="long" column="_id" row="0"/>
+			<Variable name="id_1" type="long" column="_id" row="1"/>
+			<Variable name="id_2" type="long" column="_id" row="2"/>
+			<Variable name="id_3" type="long" column="_id" row="3"/>
+			<Variable name="id_4" type="long" column="_id" row="4"/>
+		</ContentProviderBinder>
+	</VariableBinders>
+	<Image x="#view_width/2" y="#view_height/2" align="center" alignV="center" src="notes_bg.png"/>
+	<Text enableFontScale="true" x="#view_width/2-195" y="#view_height/2-289" color="#000000" alpha="204" size="34" text="@title_name" />
+	<Button y="132" w="#view_width" h="#view_height-130" visibility="not(#note_count)">
+        <Triggers>
+            <Trigger action="up">
+                <IntentCommand action="android.intent.action.MAIN" package="com.miui.notes" class="com.miui.notes.ui.NotesListActivity" />
+            </Trigger>
+        </Triggers>
+    </Button>
+	<Group visibility="ge(#note_count,1)">
+		<Button name="list_0" x="#view_width/2-228" y="#view_height/2-213" w="456" h="100">
+			<Triggers>
+				<Trigger action="up">
+					<IntentCommand action="android.intent.action.VIEW" type="vnd.android.cursor.item/text_note">
+						<Extra name="android.intent.extra.UID" type="long" expression="#id_0" />
+					</IntentCommand>
+				</Trigger>
+			</Triggers>
+			<Normal>
+				<Image x="#view_width/2-194" y="#view_height/2-113" w="390" src="list_normal.png" />
+			</Normal>
+			<Pressed>
+				<Image x="#view_width/2-228" y="#view_height/2-214" w="456" src="list_pressed.png" />
+			</Pressed>
+		</Button>
+		<Text enableFontScale="true" x="#view_width/2-194" y="#view_height/2-179" w="313" h="45" color="#000000" alpha="178" size="26" textExp="strTrim(@note_snippet_0)" spacingMult="10" multiLine="true" />
+		<DateTime x="#view_width/2+194" y="#view_height/2-179" align="right" color="#000000" alpha="102" size="26" value="#note_date_0" format="MM/dd" />
+	</Group>
+	<Group visibility="ge(#note_count,2)">
+		<Button name="list_1" x="#view_width/2-228" y="#view_height/2-112" w="456" h="100">
+			<Triggers>
+				<Trigger action="up">
+					<IntentCommand action="android.intent.action.VIEW" type="vnd.android.cursor.item/text_note">
+						<Extra name="android.intent.extra.UID" type="long" expression="#id_1" />
+					</IntentCommand>
+				</Trigger>
+			</Triggers>
+			<Normal>
+				<Image x="#view_width/2-194" y="#view_height/2-12" w="390" src="list_normal.png" />
+			</Normal>
+			<Pressed>
+				<Image x="#view_width/2-228" y="#view_height/2-113" w="456" src="list_pressed.png" />
+			</Pressed>
+		</Button>
+		<Text enableFontScale="true" x="#view_width/2-194" y="#view_height/2-79" w="313" h="45" color="#000000" alpha="178" size="26" textExp="strTrim(@note_snippet_1)" spacingMult="10" multiLine="true" />
+		<DateTime x="#view_width/2+194" y="#view_height/2-79" align="right" color="#000000" alpha="102" size="26" value="#note_date_1" format="MM/dd" />
+	</Group>
+	<Group visibility="ge(#note_count,3)">
+		<Button name="list_2" x="#view_width/2-228" y="#view_height/2-11" w="456" h="100">
+			<Triggers>
+				<Trigger action="up">
+					<IntentCommand action="android.intent.action.VIEW" type="vnd.android.cursor.item/text_note">
+						<Extra name="android.intent.extra.UID" type="long" expression="#id_2" />
+					</IntentCommand>
+				</Trigger>
+			</Triggers>
+			<Normal>
+				<Image x="#view_width/2-194" y="#view_height/2+89" w="390" src="list_normal.png" />
+			</Normal>
+			<Pressed>
+				<Image x="#view_width/2-228" y="#view_height/2-12" w="456" src="list_pressed.png" />
+			</Pressed>
+		</Button>
+		<Text enableFontScale="true" x="#view_width/2-194" y="#view_height/2+21" w="313" h="45" color="#000000" alpha="178" size="26" textExp="strTrim(@note_snippet_2)" spacingMult="10" multiLine="true" />
+		<DateTime x="#view_width/2+194" y="#view_height/2+21" align="right" color="#000000" alpha="102" size="26" value="#note_date_2" format="MM/dd"  />
+	</Group>
+	<Group  visibility="ge(#note_count,4)">
+		<Button name="list_3" x="#view_width/2-228" y="#view_height/2+90" w="456" h="100">
+			<Triggers>
+				<Trigger action="up">
+					<IntentCommand action="android.intent.action.VIEW" type="vnd.android.cursor.item/text_note">
+						<Extra name="android.intent.extra.UID" type="long" expression="#id_3" />
+					</IntentCommand>
+				</Trigger>
+			</Triggers>
+			<Normal>
+				<Image x="#view_width/2-194" y="#view_height/2+190" w="390" src="list_normal.png" />
+			</Normal>
+			<Pressed>
+				<Image x="#view_width/2-228" y="#view_height/2+91" w="456" src="list_pressed.png" />
+			</Pressed>
+		</Button>
+		<Text enableFontScale="true" x="#view_width/2-194" y="#view_height/2+121" w="313" h="45" color="#000000" alpha="178" size="26" textExp="strTrim(@note_snippet_3)" spacingMult="10" multiLine="true" />
+		<DateTime x="#view_width/2+194" y="#view_height/2+121" align="right" color="#000000" alpha="102" size="26" value="#note_date_3" format="MM/dd" />
+	</Group>
+	<Group  visibility="ge(#note_count,5)">
+		<Button name="list_4" x="#view_width/2-228" y="#view_height/2+191" w="456" h="100">
+			<Triggers>
+				<Trigger action="up">
+					<IntentCommand action="android.intent.action.VIEW" type="vnd.android.cursor.item/text_note">
+						<Extra name="android.intent.extra.UID" type="long" expression="#id_4" />
+					</IntentCommand>
+				</Trigger>
+			</Triggers>
+			<Normal>
+				<Image x="#view_width/2-194" y="#view_height/2+291" w="390" src="list_normal.png" />
+			</Normal>
+			<Pressed>
+				<Image x="#view_width/2-228" y="#view_height/2+190" w="456" src="list_pressed.png" />
+			</Pressed>
+		</Button>
+		<Text enableFontScale="true" x="#view_width/2-194" y="#view_height/2+221" w="313" h="45" color="#000000" alpha="178" size="26" textExp="strTrim(@note_snippet_4)" spacingMult="10" multiLine="true" />
+		<DateTime x="#view_width/2+194" y="#view_height/2+221" align="right" color="#000000" alpha="102" size="26" value="#note_date_4" format="MM/dd"  />
+	</Group>
+	<Button x="#view_width/2+130" y="#view_height/2-313" w="90" h="90">
+		<Triggers>
+			<Trigger action="up">
+				<IntentCommand action="android.intent.action.INSERT_OR_EDIT" type="vnd.android.cursor.item/text_note"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button y="#view_height/2-313" w="140" h="90">
+        <Triggers>
+            <Trigger action="up">
+                <IntentCommand action="android.intent.action.MAIN" package="com.miui.notes" class="com.miui.notes.ui.NotesListActivity" />
+            </Trigger>
+        </Triggers>
+    </Button>
+</Gadget>

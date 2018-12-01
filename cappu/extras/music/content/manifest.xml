@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Gadget version="1" resDensity="320">
+	<MusicControl name="music_control" x="#view_width/2-228" y="#view_height/2-343" autoShow="true" defAlbumCover="default_album_cover.png" enableProgress="true" systemPlayer="true" frameRate="1">
+		<Image x="0" y="0" src="music_bg.png" />
+		<Group x="0" y="0" w="456" h="686" clip="true" >
+			<Image name="music_album_cover" x="230" y="346" w="700" h="700" align="center" alignV="center" antiAlias="true"/>
+			<Image x="230" y="346" w="700" h="700" align="center" alignV="center" antiAlias="true" src="album_overlay.png"/>
+		</Group>
+		<Text enableFontScale="true" name="music_title" x="230" y="55" w="400" marqueeSpeed="30" size="28" color="#ffffffff" align="center" format="%s" paras="@music_control.title"/>
+		<Text enableFontScale="true" x="230" y="67+#music_title.text_height" w="200" marqueeSpeed="30" size="28" color="#99ffffff" align="center" format="%s" paras="@music_control.artist"/>
+		<Button name="music_prev" x="47" y="525" w="90" h="90" >
+			<Normal>
+				<Image src="music_pre_n.png" x="47" y="525" />
+			</Normal>
+			<Pressed>
+				<Image src="music_pre_p.png" x="47" y="525" /> 
+			</Pressed>
+			<Triggers>
+				<Trigger action="up">
+					<ExternCommand command="track_music_prev" strPara="@music_control.package"/>
+				</Trigger>
+			 </Triggers>
+		</Button>
+
+		<Button name="music_next" x="331" y="525" w="90" h="90" >
+			<Normal>
+				<Image src="music_next_n.png" x="331" y="525" />
+			</Normal>
+			<Pressed>
+				<Image src="music_next_p.png" x="331" y="525" /> 
+			</Pressed>
+			<Triggers>
+				<Trigger action="up">
+					<ExternCommand command="track_music_next" strPara="@music_control.package"/>
+				</Trigger>
+			 </Triggers>
+		</Button>
+
+		<Button name="music_play" x="167" y="504" w="132" h="132" >
+			<Normal>
+				<Image src="music_play_n.png" x="167" y="504" />
+			</Normal>
+			<Pressed>
+				<Image src="music_play_p.png" x="167" y="504" /> 
+			</Pressed>
+			<Triggers>
+				<Trigger action="up">
+					<ExternCommand command="track_music_play" strPara="@music_control.package"/>
+				</Trigger>
+			 </Triggers>
+		</Button>
+
+		<Button name="music_pause" x="167" y="504" w="132" h="132" >
+			<Normal>
+				<Image src="music_pause_n.png" x="167" y="504" />
+			</Normal>
+			<Pressed>
+				<Image src="music_pause_p.png" x="167" y="504" /> 
+			</Pressed>
+			<Triggers>
+				<Trigger action="up">
+					<ExternCommand command="track_music_pause" strPara="@music_control.package"/>
+				</Trigger>
+			 </Triggers>
+		</Button>
+
+        <Var name="progress" expression="ifelse(#music_control.music_duration,#music_control.music_position/#music_control.music_duration,0)" />
+		<Group x="154" y="490" w="159" h="159" layered="true">
+			<Image x="0" y="0" src="play_progress.png" />
+			<Arc x="79.5" y="79.5" w="159" h="159" startAngle="-90" sweep="-360*(1-#progress)" close="true" fillColor="#ff000000" xfermode="clear"/>
+		</Group>
+	</MusicControl>	
+
+	<Button w="#view_width" h="500" visibility="or(eqs(@music_control.package,'com.miui.player'), isnull(@music_control.package))">
+		<Triggers>
+			<Trigger action="up">
+				<IntentCommand action="android.intent.action.MAIN" package="com.miui.player" class="com.miui.player.pad.ui.MusicMainActivity" condition="isnull(@music_control.title)">
+				    <Extra name="intent_sender" type="string" expression="'home_widget'"/>
+				</IntentCommand>
+				<IntentCommand action="com.miui.player.PLAYBACK_VIEWER" category="android.intent.category.DEFAULT" condition="not(isnull(@music_control.title))">
+				    <Extra name="intent_sender" type="string" expression="'home_widget'"/>
+				</IntentCommand>
+				<ExternCommand command="track_music_enter" strPara="@music_control.package"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+</Gadget>

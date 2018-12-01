@@ -1,0 +1,1109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Gadget version="1" resDensity="320" useVariableUpdater="DateTime.Second"> 
+	<ExternalCommands>
+		<Trigger action="resume">
+			<Command target="fc.animation" value="play"/>
+			<Command target="graduation_0.animation" value="play" delay="0"/>
+			<Command target="graduation_1.animation" value="play" delay="10"/>
+			<Command target="graduation_2.animation" value="play" delay="20"/>
+			<Command target="graduation_3.animation" value="play" delay="30"/>
+			<Command target="graduation_4.animation" value="play" delay="40"/>
+			<Command target="graduation_5.animation" value="play" delay="50"/>
+			<Command target="graduation_6.animation" value="play" delay="60"/>
+			<Command target="graduation_7.animation" value="play" delay="70"/>
+			<Command target="graduation_8.animation" value="play" delay="80"/>
+			<Command target="graduation_9.animation" value="play" delay="90"/>
+			<Command target="graduation_10.animation" value="play" delay="100"/>
+			<Command target="graduation_11.animation" value="play" delay="110"/>
+			<Command target="graduation_12.animation" value="play" delay="120"/>
+			<Command target="graduation_13.animation" value="play" delay="130"/>
+			<Command target="graduation_14.animation" value="play" delay="140"/>
+			<Command target="graduation_15.animation" value="play" delay="150"/>
+			<Command target="graduation_16.animation" value="play" delay="160"/>
+			<Command target="graduation_17.animation" value="play" delay="170"/>
+			<Command target="graduation_18.animation" value="play" delay="180"/>
+			<Command target="graduation_19.animation" value="play" delay="190"/>
+			<Command target="graduation_20.animation" value="play" delay="200"/>
+			<Command target="graduation_21.animation" value="play" delay="210"/>
+			<Command target="graduation_22.animation" value="play" delay="220"/>
+			<Command target="graduation_23.animation" value="play" delay="230"/>
+			<Command target="graduation_24.animation" value="play" delay="240"/>
+			<Command target="graduation_25.animation" value="play" delay="250"/>
+			<Command target="graduation_26.animation" value="play" delay="260"/>
+			<Command target="graduation_27.animation" value="play" delay="270"/>
+			<Command target="graduation_28.animation" value="play" delay="280"/>
+			<Command target="graduation_29.animation" value="play" delay="290"/>
+			<Command target="graduation_30.animation" value="play" delay="300"/>
+			<Command target="graduation_31.animation" value="play" delay="310"/>
+			<Command target="graduation_32.animation" value="play" delay="320"/>
+			<Command target="graduation_33.animation" value="play" delay="330"/>
+			<Command target="graduation_34.animation" value="play" delay="340"/>
+			<Command target="graduation_35.animation" value="play" delay="350"/>
+			<Command target="graduation_36.animation" value="play" delay="360"/>
+			<Command target="graduation_37.animation" value="play" delay="370"/>
+			<Command target="graduation_38.animation" value="play" delay="380"/>
+			<Command target="graduation_39.animation" value="play" delay="390"/>
+			<Command target="graduation_40.animation" value="play" delay="400"/>
+			<Command target="graduation_41.animation" value="play" delay="410"/>
+			<Command target="graduation_42.animation" value="play" delay="420"/>
+			<Command target="graduation_43.animation" value="play" delay="430"/>
+			<Command target="graduation_44.animation" value="play" delay="440"/>
+			<Command target="graduation_45.animation" value="play" delay="450"/>
+			<Command target="graduation_46.animation" value="play" delay="460"/>
+			<Command target="graduation_47.animation" value="play" delay="470"/>
+			<Command target="graduation_48.animation" value="play" delay="480"/>
+			<Command target="graduation_49.animation" value="play" delay="490"/>
+			<Command target="graduation_50.animation" value="play" delay="500"/>
+			<Command target="graduation_51.animation" value="play" delay="510"/>
+			<Command target="graduation_52.animation" value="play" delay="520"/>
+			<Command target="graduation_53.animation" value="play" delay="530"/>
+			<Command target="graduation_54.animation" value="play" delay="540"/>
+			<Command target="graduation_55.animation" value="play" delay="550"/>
+			<Command target="graduation_56.animation" value="play" delay="560"/>
+			<Command target="graduation_57.animation" value="play" delay="570"/>
+			<Command target="graduation_58.animation" value="play" delay="580"/>
+			<Command target="graduation_59.animation" value="play" delay="590"/>
+			<Command target="graduation_0.visibility" value="true" delay="0"/>
+			<Command target="graduation_1.visibility" value="true" delay="10"/>
+			<Command target="graduation_2.visibility" value="true" delay="20"/>
+			<Command target="graduation_3.visibility" value="true" delay="30"/>
+			<Command target="graduation_4.visibility" value="true" delay="40"/>
+			<Command target="graduation_5.visibility" value="true" delay="50"/>
+			<Command target="graduation_6.visibility" value="true" delay="60"/>
+			<Command target="graduation_7.visibility" value="true" delay="70"/>
+			<Command target="graduation_8.visibility" value="true" delay="80"/>
+			<Command target="graduation_9.visibility" value="true" delay="90"/>
+			<Command target="graduation_10.visibility" value="true" delay="100"/>
+			<Command target="graduation_11.visibility" value="true" delay="110"/>
+			<Command target="graduation_12.visibility" value="true" delay="120"/>
+			<Command target="graduation_13.visibility" value="true" delay="130"/>
+			<Command target="graduation_14.visibility" value="true" delay="140"/>
+			<Command target="graduation_15.visibility" value="true" delay="150"/>
+			<Command target="graduation_16.visibility" value="true" delay="160"/>
+			<Command target="graduation_17.visibility" value="true" delay="170"/>
+			<Command target="graduation_18.visibility" value="true" delay="180"/>
+			<Command target="graduation_19.visibility" value="true" delay="190"/>
+			<Command target="graduation_20.visibility" value="true" delay="200"/>
+			<Command target="graduation_21.visibility" value="true" delay="210"/>
+			<Command target="graduation_22.visibility" value="true" delay="220"/>
+			<Command target="graduation_23.visibility" value="true" delay="230"/>
+			<Command target="graduation_24.visibility" value="true" delay="240"/>
+			<Command target="graduation_25.visibility" value="true" delay="250"/>
+			<Command target="graduation_26.visibility" value="true" delay="260"/>
+			<Command target="graduation_27.visibility" value="true" delay="270"/>
+			<Command target="graduation_28.visibility" value="true" delay="280"/>
+			<Command target="graduation_29.visibility" value="true" delay="290"/>
+			<Command target="graduation_30.visibility" value="true" delay="300"/>
+			<Command target="graduation_31.visibility" value="true" delay="310"/>
+			<Command target="graduation_32.visibility" value="true" delay="320"/>
+			<Command target="graduation_33.visibility" value="true" delay="330"/>
+			<Command target="graduation_34.visibility" value="true" delay="340"/>
+			<Command target="graduation_35.visibility" value="true" delay="350"/>
+			<Command target="graduation_36.visibility" value="true" delay="360"/>
+			<Command target="graduation_37.visibility" value="true" delay="370"/>
+			<Command target="graduation_38.visibility" value="true" delay="380"/>
+			<Command target="graduation_39.visibility" value="true" delay="390"/>
+			<Command target="graduation_40.visibility" value="true" delay="400"/>
+			<Command target="graduation_41.visibility" value="true" delay="410"/>
+			<Command target="graduation_42.visibility" value="true" delay="420"/>
+			<Command target="graduation_43.visibility" value="true" delay="430"/>
+			<Command target="graduation_44.visibility" value="true" delay="440"/>
+			<Command target="graduation_45.visibility" value="true" delay="450"/>
+			<Command target="graduation_46.visibility" value="true" delay="460"/>
+			<Command target="graduation_47.visibility" value="true" delay="470"/>
+			<Command target="graduation_48.visibility" value="true" delay="480"/>
+			<Command target="graduation_49.visibility" value="true" delay="490"/>
+			<Command target="graduation_50.visibility" value="true" delay="500"/>
+			<Command target="graduation_51.visibility" value="true" delay="510"/>
+			<Command target="graduation_52.visibility" value="true" delay="520"/>
+			<Command target="graduation_53.visibility" value="true" delay="530"/>
+			<Command target="graduation_54.visibility" value="true" delay="540"/>
+			<Command target="graduation_55.visibility" value="true" delay="550"/>
+			<Command target="graduation_56.visibility" value="true" delay="560"/>
+			<Command target="graduation_57.visibility" value="true" delay="570"/>
+			<Command target="graduation_58.visibility" value="true" delay="580"/>
+			<Command target="graduation_59.visibility" value="true" delay="590"/>
+			<Command target="second.visibility" value="true"/>
+			<Command target="minute.visibility" value="true" delay="200"/>
+			<Command target="hour.visibility" value="true" delay="400"/>
+			<Command target="second.animation" value="play" delay="0"/>
+			<Command target="minute.animation" value="play" delay="200"/>
+			<Command target="hour.animation" value="play" delay="400"/>
+		</Trigger>
+		<Trigger action="pause">
+			<Command target="graduation_0.visibility" value="false"/>
+			<Command target="graduation_1.visibility" value="false"/>
+			<Command target="graduation_2.visibility" value="false"/>
+			<Command target="graduation_3.visibility" value="false"/>
+			<Command target="graduation_4.visibility" value="false"/>
+			<Command target="graduation_5.visibility" value="false"/>
+			<Command target="graduation_6.visibility" value="false"/>
+			<Command target="graduation_7.visibility" value="false"/>
+			<Command target="graduation_8.visibility" value="false"/>
+			<Command target="graduation_9.visibility" value="false"/>
+			<Command target="graduation_10.visibility" value="false"/>
+			<Command target="graduation_11.visibility" value="false"/>
+			<Command target="graduation_12.visibility" value="false"/>
+			<Command target="graduation_13.visibility" value="false"/>
+			<Command target="graduation_14.visibility" value="false"/>
+			<Command target="graduation_15.visibility" value="false"/>
+			<Command target="graduation_16.visibility" value="false"/>
+			<Command target="graduation_17.visibility" value="false"/>
+			<Command target="graduation_18.visibility" value="false"/>
+			<Command target="graduation_19.visibility" value="false"/>
+			<Command target="graduation_20.visibility" value="false"/>
+			<Command target="graduation_21.visibility" value="false"/>
+			<Command target="graduation_22.visibility" value="false"/>
+			<Command target="graduation_23.visibility" value="false"/>
+			<Command target="graduation_24.visibility" value="false"/>
+			<Command target="graduation_25.visibility" value="false"/>
+			<Command target="graduation_26.visibility" value="false"/>
+			<Command target="graduation_27.visibility" value="false"/>
+			<Command target="graduation_28.visibility" value="false"/>
+			<Command target="graduation_29.visibility" value="false"/>
+			<Command target="graduation_30.visibility" value="false"/>
+			<Command target="graduation_31.visibility" value="false"/>
+			<Command target="graduation_32.visibility" value="false"/>
+			<Command target="graduation_33.visibility" value="false"/>
+			<Command target="graduation_34.visibility" value="false"/>
+			<Command target="graduation_35.visibility" value="false"/>
+			<Command target="graduation_36.visibility" value="false"/>
+			<Command target="graduation_37.visibility" value="false"/>
+			<Command target="graduation_38.visibility" value="false"/>
+			<Command target="graduation_39.visibility" value="false"/>
+			<Command target="graduation_40.visibility" value="false"/>
+			<Command target="graduation_41.visibility" value="false"/>
+			<Command target="graduation_42.visibility" value="false"/>
+			<Command target="graduation_43.visibility" value="false"/>
+			<Command target="graduation_44.visibility" value="false"/>
+			<Command target="graduation_45.visibility" value="false"/>
+			<Command target="graduation_46.visibility" value="false"/>
+			<Command target="graduation_47.visibility" value="false"/>
+			<Command target="graduation_48.visibility" value="false"/>
+			<Command target="graduation_49.visibility" value="false"/>
+			<Command target="graduation_50.visibility" value="false"/>
+			<Command target="graduation_51.visibility" value="false"/>
+			<Command target="graduation_52.visibility" value="false"/>
+			<Command target="graduation_53.visibility" value="false"/>
+			<Command target="graduation_54.visibility" value="false"/>
+			<Command target="graduation_55.visibility" value="false"/>
+			<Command target="graduation_56.visibility" value="false"/>
+			<Command target="graduation_57.visibility" value="false"/>
+			<Command target="graduation_58.visibility" value="false"/>
+			<Command target="graduation_59.visibility" value="false"/>
+			<Command target="second.visibility" value="false"/>
+			<Command target="minute.visibility" value="false"/>
+			<Command target="hour.visibility" value="false"/>
+		</Trigger>
+	</ExternalCommands>
+	<FramerateController name="fc" loop="false">
+		<ControlPoint time="0" frameRate="100"/>
+		<ControlPoint time="1500" frameRate="0"/>
+	</FramerateController>
+	<Image x="#view_width/2" y="#view_height/2" align="center" alignV="center" src="bg.png"/>
+	<!--时钟大刻度-->
+	<Group name="graduation_00">
+		<Rectangle name="graduation_0" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="0" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(0/180*3.1415926)" y="30*cos(0/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(0/180*3.1415926)*2/3" y="30*cos(0/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(0/180*3.1415926)*1/3" y="30*cos(0/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_5" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="30" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(30/180*3.1415926)" y="30*cos(30/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(30/180*3.1415926)*2/3" y="30*cos(30/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(30/180*3.1415926)*1/3" y="30*cos(30/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_10" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="60" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(60/180*3.1415926)" y="30*cos(60/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(60/180*3.1415926)*2/3" y="30*cos(60/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(60/180*3.1415926)*1/3" y="30*cos(60/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_15" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="90" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(90/180*3.1415926)" y="30*cos(90/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(90/180*3.1415926)*2/3" y="30*cos(90/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(90/180*3.1415926)*1/3" y="30*cos(90/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_20" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="120" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(120/180*3.1415926)" y="30*cos(120/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(120/180*3.1415926)*2/3" y="30*cos(120/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(120/180*3.1415926)*1/3" y="30*cos(120/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_25" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="150" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(150/180*3.1415926)" y="30*cos(150/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(150/180*3.1415926)*2/3" y="30*cos(150/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(150/180*3.1415926)*1/3" y="30*cos(150/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_30" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="180" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(180/180*3.1415926)" y="30*cos(180/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(180/180*3.1415926)*2/3" y="30*cos(180/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(180/180*3.1415926)*1/3" y="30*cos(180/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_35" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="210" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(210/180*3.1415926)" y="30*cos(210/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(210/180*3.1415926)*2/3" y="30*cos(210/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(210/180*3.1415926)*1/3" y="30*cos(210/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_40" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="240" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(240/180*3.1415926)" y="30*cos(240/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(240/180*3.1415926)*2/3" y="30*cos(240/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(240/180*3.1415926)*1/3" y="30*cos(240/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_45" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="270" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(270/180*3.1415926)" y="30*cos(270/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(270/180*3.1415926)*2/3" y="30*cos(270/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(270/180*3.1415926)*1/3" y="30*cos(270/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_50" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="300" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(300/180*3.1415926)" y="30*cos(300/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(300/180*3.1415926)*2/3" y="30*cos(300/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(300/180*3.1415926)*1/3" y="30*cos(300/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_55" x="#view_width/2" y="#view_height/2-177" w="4" h="29" align="center" centerX="2" centerY="177" fillColor="#ff4fa5f0" angle="330" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(330/180*3.1415926)" y="30*cos(330/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(330/180*3.1415926)*2/3" y="30*cos(330/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(330/180*3.1415926)*1/3" y="30*cos(330/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<!--时钟小刻度-->
+	</Group>
+	<Group name="graduation_02">
+		<Rectangle name="graduation_1" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="6" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(6/180*3.1415926)" y="30*cos(6/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(6/180*3.1415926)*2/3" y="30*cos(6/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(6/180*3.1415926)*1/3" y="30*cos(6/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_2" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="12" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(12/180*3.1415926)" y="30*cos(12/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(12/180*3.1415926)*2/3" y="30*cos(12/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(12/180*3.1415926)*1/3" y="30*cos(12/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_3" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="18" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(18/180*3.1415926)" y="30*cos(18/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(18/180*3.1415926)*2/3" y="30*cos(18/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(18/180*3.1415926)*1/3" y="30*cos(18/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_4" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="24" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(24/180*3.1415926)" y="30*cos(24/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(24/180*3.1415926)*2/3" y="30*cos(24/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(24/180*3.1415926)*1/3" y="30*cos(24/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_6" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="36" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(36/180*3.1415926)" y="30*cos(36/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(36/180*3.1415926)*2/3" y="30*cos(36/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(36/180*3.1415926)*1/3" y="30*cos(36/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_7" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="42" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(42/180*3.1415926)" y="30*cos(42/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(42/180*3.1415926)*2/3" y="30*cos(42/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(42/180*3.1415926)*1/3" y="30*cos(42/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_8" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="48" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(48/180*3.1415926)" y="30*cos(48/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(48/180*3.1415926)*2/3" y="30*cos(48/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(48/180*3.1415926)*1/3" y="30*cos(48/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_9" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="54" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(54/180*3.1415926)" y="30*cos(54/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(54/180*3.1415926)*2/3" y="30*cos(54/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(54/180*3.1415926)*1/3" y="30*cos(54/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_11" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="66" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(66/180*3.1415926)" y="30*cos(66/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(66/180*3.1415926)*2/3" y="30*cos(66/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(66/180*3.1415926)*1/3" y="30*cos(66/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_12" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="72" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(72/180*3.1415926)" y="30*cos(72/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(72/180*3.1415926)*2/3" y="30*cos(72/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(72/180*3.1415926)*1/3" y="30*cos(72/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_13" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="78" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(78/180*3.1415926)" y="30*cos(78/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(78/180*3.1415926)*2/3" y="30*cos(78/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(78/180*3.1415926)*1/3" y="30*cos(78/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_14" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="84" antiAlias="true">
+		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(84/180*3.1415926)" y="30*cos(84/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(84/180*3.1415926)*2/3" y="30*cos(84/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(84/180*3.1415926)*1/3" y="30*cos(84/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_16" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="96" antiAlias="true">
+		    <AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(96/180*3.1415926)" y="30*cos(96/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(96/180*3.1415926)*2/3" y="30*cos(96/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(96/180*3.1415926)*1/3" y="30*cos(96/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_17" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="102" antiAlias="true">
+     		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(102/180*3.1415926)" y="30*cos(102/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(102/180*3.1415926)*2/3" y="30*cos(102/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(102/180*3.1415926)*1/3" y="30*cos(102/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_18" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="108" antiAlias="true">
+    		<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(108/180*3.1415926)" y="30*cos(108/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(108/180*3.1415926)*2/3" y="30*cos(108/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(108/180*3.1415926)*1/3" y="30*cos(108/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_19" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="114" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(114/180*3.1415926)" y="30*cos(114/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(114/180*3.1415926)*2/3" y="30*cos(114/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(114/180*3.1415926)*1/3" y="30*cos(114/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_21" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="126" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(126/180*3.1415926)" y="30*cos(126/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(126/180*3.1415926)*2/3" y="30*cos(126/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(126/180*3.1415926)*1/3" y="30*cos(126/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_22" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="132" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(132/180*3.1415926)" y="30*cos(132/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(132/180*3.1415926)*2/3" y="30*cos(132/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(132/180*3.1415926)*1/3" y="30*cos(132/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_23" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="138" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(138/180*3.1415926)" y="30*cos(138/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(138/180*3.1415926)*2/3" y="30*cos(138/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(138/180*3.1415926)*1/3" y="30*cos(138/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_24" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="144" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(144/180*3.1415926)" y="30*cos(144/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(144/180*3.1415926)*2/3" y="30*cos(144/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(144/180*3.1415926)*1/3" y="30*cos(144/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_26" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="156" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(156/180*3.1415926)" y="30*cos(156/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(156/180*3.1415926)*2/3" y="30*cos(156/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(156/180*3.1415926)*1/3" y="30*cos(156/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_27" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="162" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(162/180*3.1415926)" y="30*cos(162/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(162/180*3.1415926)*2/3" y="30*cos(162/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(162/180*3.1415926)*1/3" y="30*cos(162/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_28" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="168" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(168/180*3.1415926)" y="30*cos(168/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(168/180*3.1415926)*2/3" y="30*cos(168/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(168/180*3.1415926)*1/3" y="30*cos(168/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_29" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="174" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(174/180*3.1415926)" y="30*cos(174/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(174/180*3.1415926)*2/3" y="30*cos(174/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(174/180*3.1415926)*1/3" y="30*cos(174/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_31" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="186" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(186/180*3.1415926)" y="30*cos(186/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(186/180*3.1415926)*2/3" y="30*cos(186/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(186/180*3.1415926)*1/3" y="30*cos(186/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_32" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="192" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(192/180*3.1415926)" y="30*cos(192/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(192/180*3.1415926)*2/3" y="30*cos(192/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(192/180*3.1415926)*1/3" y="30*cos(192/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_33" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="198" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(198/180*3.1415926)" y="30*cos(198/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(198/180*3.1415926)*2/3" y="30*cos(198/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(198/180*3.1415926)*1/3" y="30*cos(198/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_34" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="204" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(204/180*3.1415926)" y="30*cos(204/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(204/180*3.1415926)*2/3" y="30*cos(204/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(204/180*3.1415926)*1/3" y="30*cos(204/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_36" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="216" antiAlias="true">
+		    <AlphaAnimation>
+		    	<Alpha a="0" time="0"/>
+		    	<Alpha a="255" time="400"/>
+		    	<Alpha a="255" time="9999999999"/>
+		    </AlphaAnimation>
+		    <PositionAnimation>
+		    	<Position x="-30*sin(216/180*3.1415926)" y="30*cos(216/180*3.1415926)" time="0"/>
+		    	<Position x="-30*sin(216/180*3.1415926)*2/3" y="30*cos(216/180*3.1415926)*2/3" time="50"/>
+		    	<Position x="-30*sin(216/180*3.1415926)*1/3" y="30*cos(216/180*3.1415926)*1/3" time="150"/>
+		    	<Position x="0" y="0" time="400"/>
+		    	<Position x="0" y="0" time="9999999999"/>
+		    </PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_37" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="222" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(222/180*3.1415926)" y="30*cos(222/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(222/180*3.1415926)*2/3" y="30*cos(222/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(222/180*3.1415926)*1/3" y="30*cos(222/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_38" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="228" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(228/180*3.1415926)" y="30*cos(228/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(228/180*3.1415926)*2/3" y="30*cos(228/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(228/180*3.1415926)*1/3" y="30*cos(228/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_39" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="234" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(234/180*3.1415926)" y="30*cos(234/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(234/180*3.1415926)*2/3" y="30*cos(234/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(234/180*3.1415926)*1/3" y="30*cos(234/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_41" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="246" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(246/180*3.1415926)" y="30*cos(246/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(246/180*3.1415926)*2/3" y="30*cos(246/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(246/180*3.1415926)*1/3" y="30*cos(246/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_42" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="252" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(252/180*3.1415926)" y="30*cos(252/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(252/180*3.1415926)*2/3" y="30*cos(252/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(252/180*3.1415926)*1/3" y="30*cos(252/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_43" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="258" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(258/180*3.1415926)" y="30*cos(258/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(258/180*3.1415926)*2/3" y="30*cos(258/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(258/180*3.1415926)*1/3" y="30*cos(258/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_44" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="264" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(264/180*3.1415926)" y="30*cos(264/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(264/180*3.1415926)*2/3" y="30*cos(264/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(264/180*3.1415926)*1/3" y="30*cos(264/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_46" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="276" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(276/180*3.1415926)" y="30*cos(276/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(276/180*3.1415926)*2/3" y="30*cos(276/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(276/180*3.1415926)*1/3" y="30*cos(276/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_47" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="282" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(282/180*3.1415926)" y="30*cos(282/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(282/180*3.1415926)*2/3" y="30*cos(282/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(282/180*3.1415926)*1/3" y="30*cos(282/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_48" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="288" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(288/180*3.1415926)" y="30*cos(288/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(288/180*3.1415926)*2/3" y="30*cos(288/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(288/180*3.1415926)*1/3" y="30*cos(288/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_49" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="294" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(294/180*3.1415926)" y="30*cos(294/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(294/180*3.1415926)*2/3" y="30*cos(294/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(294/180*3.1415926)*1/3" y="30*cos(294/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_51" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="306" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(306/180*3.1415926)" y="30*cos(306/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(306/180*3.1415926)*2/3" y="30*cos(306/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(306/180*3.1415926)*1/3" y="30*cos(306/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_52" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="312" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(312/180*3.1415926)" y="30*cos(312/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(312/180*3.1415926)*2/3" y="30*cos(312/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(312/180*3.1415926)*1/3" y="30*cos(312/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_53" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="318" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(318/180*3.1415926)" y="30*cos(318/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(318/180*3.1415926)*2/3" y="30*cos(318/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(318/180*3.1415926)*1/3" y="30*cos(318/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_54" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="324" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(324/180*3.1415926)" y="30*cos(324/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(324/180*3.1415926)*2/3" y="30*cos(324/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(324/180*3.1415926)*1/3" y="30*cos(324/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_56" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="336" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(336/180*3.1415926)" y="30*cos(336/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(336/180*3.1415926)*2/3" y="30*cos(336/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(336/180*3.1415926)*1/3" y="30*cos(336/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_57" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="342" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(342/180*3.1415926)" y="30*cos(342/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(342/180*3.1415926)*2/3" y="30*cos(342/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(342/180*3.1415926)*1/3" y="30*cos(342/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_58" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="348" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(348/180*3.1415926)" y="30*cos(348/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(348/180*3.1415926)*2/3" y="30*cos(348/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(348/180*3.1415926)*1/3" y="30*cos(348/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+		<Rectangle name="graduation_59" x="#view_width/2" y="#view_height/2-177" w="2" h="18" align="center" centerX="1" centerY="177" fillColor="#ffffffff" alpha="63.75" angle="354" antiAlias="true">
+			<AlphaAnimation>
+				<Alpha a="0" time="0"/>
+				<Alpha a="255" time="400"/>
+				<Alpha a="255" time="9999999999"/>
+			</AlphaAnimation>
+			<PositionAnimation>
+				<Position x="-30*sin(354/180*3.1415926)" y="30*cos(354/180*3.1415926)" time="0"/>
+				<Position x="-30*sin(354/180*3.1415926)*2/3" y="30*cos(354/180*3.1415926)*2/3" time="50"/>
+				<Position x="-30*sin(354/180*3.1415926)*1/3" y="30*cos(354/180*3.1415926)*1/3" time="150"/>
+				<Position x="0" y="0" time="400"/>
+				<Position x="0" y="0" time="9999999999"/>
+			</PositionAnimation>
+		</Rectangle>
+	</Group>
+	<!--时针 (x,y)图片左上角的绝对位置，(centerX,centerY)图片旋转时相对于自身的圆心-->
+	
+	<Rectangle name="second" x="#view_width/2" y="#view_height/2-61" w="5" h="186" align="center" alignV="center" centerX="2.5" centerY="154" fillColor="#ff4fa5f0" angle="#second*6" antiAlias="true">
+		<AlphaAnimation>
+			<Alpha a="0" time="0"/>
+			<Alpha a="255" time="1000"/>
+			<Alpha a="255" time="9999999999"/>
+		</AlphaAnimation>
+		<RotationAnimation>
+			<Rotation angle="-60" time="0"/>
+			<Rotation angle="-30" time="200"/>
+			<Rotation angle="-15" time="400"/>
+			<Rotation angle="-8" time="600"/>
+			<Rotation angle="-4" time="800"/>
+			<Rotation angle="-0" time="1000"/>
+			<Rotation angle="0" time="9999999999"/>
+		</RotationAnimation>
+	</Rectangle>
+	<!--分针-->
+	<Rectangle name="minute" x="#view_width/2" y="#view_height/2-76" w="6" h="204" align="center" alignV="center" centerX="3" centerY="178" fillColor="#ff9ecbf2" angle="#minute*6" antiAlias="true">
+		<AlphaAnimation>
+			<Alpha a="0" time="0"/>
+			<Alpha a="255" time="1000"/>
+			<Alpha a="255" time="9999999999"/>
+		</AlphaAnimation>
+		<RotationAnimation>
+			<Rotation angle="-60" time="0"/>
+			<Rotation angle="-30" time="200"/>
+			<Rotation angle="-15" time="400"/>
+			<Rotation angle="-8" time="600"/>
+			<Rotation angle="-4" time="800"/>
+			<Rotation angle="-0" time="1000"/>
+			<Rotation angle="0" time="9999999999"/>
+		</RotationAnimation>
+    </Rectangle>
+	<!--时针-->
+	<Rectangle name="hour" x="#view_width/2" y="#view_height/2-42" w="10" h="134" align="center" alignV="center" centerX="5" centerY="109" fillColor="#ffcee6fc" angle="#hour12*30+#minute/2" antiAlias="true">
+		<AlphaAnimation>
+			<Alpha a="0" time="0"/>
+			<Alpha a="255" time="1000"/>
+			<Alpha a="255" time="9999999999"/>
+		</AlphaAnimation>
+		<RotationAnimation>
+			<Rotation angle="-60" time="0"/>
+			<Rotation angle="-30" time="200"/>
+			<Rotation angle="-15" time="400"/>
+			<Rotation angle="-8" time="600"/>
+			<Rotation angle="-4" time="800"/>
+			<Rotation angle="-0" time="1000"/>
+			<Rotation angle="0" time="9999999999"/>
+		</RotationAnimation>
+	</Rectangle>
+	<Button w="#view_width" h="#view_height">
+		<Triggers>
+			<Trigger action="up">
+				<IntentCommand action="android.intent.action.MAIN" package="com.android.deskclock" class="com.android.deskclock.DeskClockTabActivity"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+</Gadget>

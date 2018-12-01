@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gadget version="1" resDensity="320" useVariableUpdater="DateTime.Day">
+	<Var name="grid_x" expression="#view_width/2-262"  />
+	<Var name="grid_y" expression="#view_height/2-70" />
+	<Var name="grid_w" expression="87" const="true"/>
+	<Var name="grid_h" expression="71" const="true"/>
+	<!-- 每月第一天是周几 -->
+	<Var name="day_of_week1" expression="ifelse(le(#day_of_week-1,0),7,#day_of_week-1))"/>
+	<Var name="day1_week" expression="#day_of_week1+(1-#date)%7"/>
+	<Var name="day1_week" expression="ifelse(le(#day1_week,0),7+#day1_week,#day1_week)"/>
+	<!--第n号的位置-->
+	<Var name="x1" expression="#grid_x+(#day1_week+1+5)%7*#grid_w"/>
+	<Var name="y1" expression="#grid_y+int((1+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x2" expression="#grid_x+(#day1_week+2+5)%7*#grid_w"/>
+	<Var name="y2" expression="#grid_y+int((2+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x3" expression="#grid_x+(#day1_week+3+5)%7*#grid_w"/>
+	<Var name="y3" expression="#grid_y+int((3+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x4" expression="#grid_x+(#day1_week+4+5)%7*#grid_w"/>
+	<Var name="y4" expression="#grid_y+int((4+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x5" expression="#grid_x+(#day1_week+5+5)%7*#grid_w"/>
+	<Var name="y5" expression="#grid_y+int((5+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x6" expression="#grid_x+(#day1_week+6+5)%7*#grid_w"/>
+	<Var name="y6" expression="#grid_y+int((6+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x7" expression="#grid_x+(#day1_week+7+5)%7*#grid_w"/>
+	<Var name="y7" expression="#grid_y+int((7+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x8" expression="#grid_x+(#day1_week+8+5)%7*#grid_w"/>
+	<Var name="y8" expression="#grid_y+int((8+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x9" expression="#grid_x+(#day1_week+9+5)%7*#grid_w"/>
+	<Var name="y9" expression="#grid_y+int((9+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x10" expression="#grid_x+(#day1_week+10+5)%7*#grid_w"/>
+	<Var name="y10" expression="#grid_y+int((10+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x11" expression="#grid_x+(#day1_week+11+5)%7*#grid_w"/>
+	<Var name="y11" expression="#grid_y+int((11+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x12" expression="#grid_x+(#day1_week+12+5)%7*#grid_w"/>
+	<Var name="y12" expression="#grid_y+int((12+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x13" expression="#grid_x+(#day1_week+13+5)%7*#grid_w"/>
+	<Var name="y13" expression="#grid_y+int((13+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x14" expression="#grid_x+(#day1_week+14+5)%7*#grid_w"/>
+	<Var name="y14" expression="#grid_y+int((14+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x15" expression="#grid_x+(#day1_week+15+5)%7*#grid_w"/>
+	<Var name="y15" expression="#grid_y+int((15+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x16" expression="#grid_x+(#day1_week+16+5)%7*#grid_w"/>
+	<Var name="y16" expression="#grid_y+int((16+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x17" expression="#grid_x+(#day1_week+17+5)%7*#grid_w"/>
+	<Var name="y17" expression="#grid_y+int((17+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x18" expression="#grid_x+(#day1_week+18+5)%7*#grid_w"/>
+	<Var name="y18" expression="#grid_y+int((18+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x19" expression="#grid_x+(#day1_week+19+5)%7*#grid_w"/>
+	<Var name="y19" expression="#grid_y+int((19+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x20" expression="#grid_x+(#day1_week+20+5)%7*#grid_w"/>
+	<Var name="y20" expression="#grid_y+int((20+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x21" expression="#grid_x+(#day1_week+21+5)%7*#grid_w"/>
+	<Var name="y21" expression="#grid_y+int((21+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x22" expression="#grid_x+(#day1_week+22+5)%7*#grid_w"/>
+	<Var name="y22" expression="#grid_y+int((22+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x23" expression="#grid_x+(#day1_week+23+5)%7*#grid_w"/>
+	<Var name="y23" expression="#grid_y+int((23+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x24" expression="#grid_x+(#day1_week+24+5)%7*#grid_w"/>
+	<Var name="y24" expression="#grid_y+int((24+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x25" expression="#grid_x+(#day1_week+25+5)%7*#grid_w"/>
+	<Var name="y25" expression="#grid_y+int((25+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x26" expression="#grid_x+(#day1_week+26+5)%7*#grid_w"/>
+	<Var name="y26" expression="#grid_y+int((26+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x27" expression="#grid_x+(#day1_week+27+5)%7*#grid_w"/>
+	<Var name="y27" expression="#grid_y+int((27+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x28" expression="#grid_x+(#day1_week+28+5)%7*#grid_w"/>
+	<Var name="y28" expression="#grid_y+int((28+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x29" expression="#grid_x+(#day1_week+29+5)%7*#grid_w"/>
+	<Var name="y29" expression="#grid_y+int((29+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x30" expression="#grid_x+(#day1_week+30+5)%7*#grid_w"/>
+	<Var name="y30" expression="#grid_y+int((30+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="x31" expression="#grid_x+(#day1_week+31+5)%7*#grid_w"/>
+	<Var name="y31" expression="#grid_y+int((31+#day1_week-1.1)/7)*#grid_h"/>
+	<!-- 判断29号-31号的是否显示 -->
+	<Var name="leap_year" expression="eq((#year%4),0)*ne((#year%100),0)+eq((#year%400),0)"/>
+	<Var name="display29" expression="#leap_year+ne((#month+1),2)"/>
+	<Var name="display30" expression="ne((#month+1),2)"/>
+	<Var name="display31" expression="eq((#month+1),1)+eq((#month+1),3)+eq((#month+1),5)+eq((#month+1),7)+eq((#month+1),8)+eq((#month+1),10)+eq((#month+1),12)"/>
+	<!-- 当月最大天数 -->
+	<Var name="month_max_day" expression="ifelse((eq((#month+1),1)+eq((#month+1),3)+eq((#month+1),5)+eq((#month+1),7)+eq((#month+1),8)+eq((#month+1),10)+eq((#month+1),12)),31,(eq((#month+1),4)+eq((#month+1),6)+eq((#month+1),9)+eq((#month+1),11)),30,eq((#month+1),2)*#leap_year,29,28)"/>
+	<!-- 上个月最大天数 -->
+	<Var name="last_month" expression="ifelse(#month,#month,12)"/>
+	<Var name="last_month_max_day" expression="ifelse((eq(#last_month,1)+eq(#last_month,3)+eq(#last_month,5)+eq(#last_month,7)+eq(#last_month,8)+eq(#last_month,10)+eq(#last_month,12)),31,(eq(#last_month,4)+eq(#last_month,6)+eq(#last_month,9)+eq(#last_month,11)),30,eq(#last_month,2)*#leap_year,29,28)"/>
+	<!-- 过去的x坐标 -->
+	<Var name="last_date1_x" expression="#x1-#grid_w"/>
+	<Var name="last_date2_x" expression="#x1-2*#grid_w"/>
+	<Var name="last_date3_x" expression="#x1-3*#grid_w"/>
+	<Var name="last_date4_x" expression="#x1-4*#grid_w"/>
+	<Var name="last_date5_x" expression="#x1-5*#grid_w"/>
+	<Var name="last_date6_x" expression="#x1-6*#grid_w"/>
+	<!-- 将来的x y坐标 -->
+	<Var name="next_x1" expression="#grid_x+(#day1_week+#month_max_day+1+5)%7*#grid_w"/>
+	<Var name="next_y1" expression="#grid_y+int((#month_max_day+1+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x2" expression="#grid_x+(#day1_week+#month_max_day+2+5)%7*#grid_w"/>
+	<Var name="next_y2" expression="#grid_y+int((#month_max_day+2+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x3" expression="#grid_x+(#day1_week+#month_max_day+3+5)%7*#grid_w"/>
+	<Var name="next_y3" expression="#grid_y+int((#month_max_day+3+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x4" expression="#grid_x+(#day1_week+#month_max_day+4+5)%7*#grid_w"/>
+	<Var name="next_y4" expression="#grid_y+int((#month_max_day+4+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x5" expression="#grid_x+(#day1_week+#month_max_day+5+5)%7*#grid_w"/>
+	<Var name="next_y5" expression="#grid_y+int((#month_max_day+5+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x6" expression="#grid_x+(#day1_week+#month_max_day+6+5)%7*#grid_w"/>
+	<Var name="next_y6" expression="#grid_y+int((#month_max_day+6+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x7" expression="#grid_x+(#day1_week+#month_max_day+7+5)%7*#grid_w"/>
+	<Var name="next_y7" expression="#grid_y+int((#month_max_day+7+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x8" expression="#grid_x+(#day1_week+#month_max_day+8+5)%7*#grid_w"/>
+	<Var name="next_y8" expression="#grid_y+int((#month_max_day+8+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x9" expression="#grid_x+(#day1_week+#month_max_day+9+5)%7*#grid_w"/>
+	<Var name="next_y9" expression="#grid_y+int((#month_max_day+9+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x10" expression="#grid_x+(#day1_week+#month_max_day+10+5)%7*#grid_w"/>
+	<Var name="next_y10" expression="#grid_y+int((#month_max_day+10+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x11" expression="#grid_x+(#day1_week+#month_max_day+11+5)%7*#grid_w"/>
+	<Var name="next_y11" expression="#grid_y+int((#month_max_day+11+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x12" expression="#grid_x+(#day1_week+#month_max_day+12+5)%7*#grid_w"/>
+	<Var name="next_y12" expression="#grid_y+int((#month_max_day+12+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x13" expression="#grid_x+(#day1_week+#month_max_day+13+5)%7*#grid_w"/>
+	<Var name="next_y13" expression="#grid_y+int((#month_max_day+13+#day1_week-1.1)/7)*#grid_h"/>
+	<Var name="next_x14" expression="#grid_x+(#day1_week+#month_max_day+14+5)%7*#grid_w"/>
+	<Var name="next_y14" expression="#grid_y+int((#month_max_day+14+#day1_week-1.1)/7)*#grid_h"/>
+	<!-- 当前日期坐标 -->
+	<Var name="date_current_x" expression="#grid_x+(#day1_week+#date+5)%7*#grid_w"/>
+	<Var name="date_current_y" expression="#grid_y+int((#date+#day1_week-1.1)/7)*#grid_h"/>
+	<!-- y方向上越界（超过6行的部分不再显示 ） -->
+	<Var name="transboundary_y" expression="#grid_y+5*#grid_h+10"/>
+	<Wallpaper/>
+	<!-- 日历 -->
+	<Group x="0" y="0">
+		<Image x="#view_width/2" y="#view_height/2" align="center" alignV="center" src="bg.9.png" w="686" h="686"/>
+		<ImageNumber name="current_date" x="#view_width/2-270" y="#view_height/2-295" number="#date" src="date_large.png"/>
+		<DateTime x="#view_width/2-270+#current_date.bmp_width+26" y="#view_height/2-280" format="EEEE" size="29" color="#000000" alpha="179"/>
+		<DateTime x="#view_width/2-270+#current_date.bmp_width+26" y="#view_height/2-243" format="yyyy/MM" size="29" color="#000000" alpha="179"/>
+		<Image x="#view_width/2" y="#view_height/2-179" alpha="70" align="center" src="line.9.png" w="550"/>
+		<!-- 星期指示 -->
+		<Image x="#grid_x+0*#grid_w" y="#grid_y-64" src="week_2.png" align="center" alignV="center" alpha="180"/>
+		<Image x="#grid_x+1*#grid_w" y="#grid_y-64" src="week_3.png" align="center" alignV="center" alpha="180"/>
+		<Image x="#grid_x+2*#grid_w" y="#grid_y-64" src="week_4.png" align="center" alignV="center" alpha="180"/>
+		<Image x="#grid_x+3*#grid_w" y="#grid_y-64" src="week_5.png" align="center" alignV="center" alpha="180"/>
+		<Image x="#grid_x+4*#grid_w" y="#grid_y-64" src="week_6.png" align="center" alignV="center" alpha="180"/>
+		<Image x="#grid_x+5*#grid_w" y="#grid_y-64" src="week_7.png" align="center" alignV="center" alpha="180"/>
+		<Image x="#grid_x+6*#grid_w" y="#grid_y-64" src="week_1.png" align="center" alignV="center" alpha="180"/>
+		<!-- 隐约可见的过去 -->
+		<ImageNumber x="#last_date1_x" y="#y1" align="center" alignV="center" number="#last_month_max_day" alpha="60" src="date_small_black.png" visibility="#day1_week-1"/>
+		<ImageNumber x="#last_date2_x" y="#y1" align="center" alignV="center" number="#last_month_max_day-1" alpha="60" src="date_small_black.png" visibility="#day1_week-2"/>
+		<ImageNumber x="#last_date3_x" y="#y1" align="center" alignV="center" number="#last_month_max_day-2" alpha="60" src="date_small_black.png" visibility="#day1_week-3"/>
+		<ImageNumber x="#last_date4_x" y="#y1" align="center" alignV="center" number="#last_month_max_day-3" alpha="60" src="date_small_black.png" visibility="#day1_week-4"/>
+		<ImageNumber x="#last_date5_x" y="#y1" align="center" alignV="center" number="#last_month_max_day-4" alpha="60" src="date_small_black.png" visibility="#day1_week-5"/>
+		<ImageNumber x="#last_date6_x" y="#y1" align="center" alignV="center" number="#last_month_max_day-5" alpha="60" src="date_small_black.png" visibility="#day1_week-6"/>
+		<!-- 触手可及的将来 -->
+		<ImageNumber x="#next_x1" y="#next_y1" align="center" alignV="center" number="1" src="date_small_black.png" alpha="60" visibility="le(#next_y1,#transboundary_y)"/>
+		<ImageNumber x="#next_x2" y="#next_y2" align="center" alignV="center" number="2" src="date_small_black.png" alpha="60" visibility="le(#next_y2,#transboundary_y)"/>
+		<ImageNumber x="#next_x3" y="#next_y3" align="center" alignV="center" number="3" src="date_small_black.png" alpha="60" visibility="le(#next_y3,#transboundary_y)"/>
+		<ImageNumber x="#next_x4" y="#next_y4" align="center" alignV="center" number="4" src="date_small_black.png" alpha="60" visibility="le(#next_y4,#transboundary_y)"/>
+		<ImageNumber x="#next_x5" y="#next_y5" align="center" alignV="center" number="5" src="date_small_black.png" alpha="60" visibility="le(#next_y5,#transboundary_y)"/>
+		<ImageNumber x="#next_x6" y="#next_y6" align="center" alignV="center" number="6" src="date_small_black.png" alpha="60" visibility="le(#next_y6,#transboundary_y)"/>
+		<ImageNumber x="#next_x7" y="#next_y7" align="center" alignV="center" number="7" src="date_small_black.png" alpha="60" visibility="le(#next_y7,#transboundary_y)"/>
+		<ImageNumber x="#next_x8" y="#next_y8" align="center" alignV="center" number="8" src="date_small_black.png" alpha="60" visibility="le(#next_y8,#transboundary_y)"/>
+		<ImageNumber x="#next_x9" y="#next_y9" align="center" alignV="center" number="9" src="date_small_black.png" alpha="60" visibility="le(#next_y9,#transboundary_y)"/>
+		<ImageNumber x="#next_x10" y="#next_y10" align="center" alignV="center" number="10" src="date_small_black.png" alpha="60" visibility="le(#next_y10,#transboundary_y)"/>
+		<ImageNumber x="#next_x11" y="#next_y11" align="center" alignV="center" number="11" src="date_small_black.png" alpha="60" visibility="le(#next_y11,#transboundary_y)"/>
+		<ImageNumber x="#next_x12" y="#next_y12" align="center" alignV="center" number="12" src="date_small_black.png" alpha="60" visibility="le(#next_y12,#transboundary_y)"/>
+		<ImageNumber x="#next_x13" y="#next_y13" align="center" alignV="center" number="13" src="date_small_black.png" alpha="60" visibility="le(#next_y13,#transboundary_y)"/>
+		<ImageNumber x="#next_x14" y="#next_y14" align="center" alignV="center" number="14" src="date_small_black.png" alpha="60" visibility="le(#next_y14,#transboundary_y)"/>
+		<!--第n号-->
+		<ImageNumber x="#x1" y="#y1" align="center" alignV="center" number="1" src="date_small_black.png" visibility="not(eq(#date,1))"/>
+		<ImageNumber x="#x2" y="#y2" align="center" alignV="center" number="2" src="date_small_black.png" visibility="not(eq(#date,2))"/>
+		<ImageNumber x="#x3" y="#y3" align="center" alignV="center" number="3" src="date_small_black.png" visibility="not(eq(#date,3))"/>
+		<ImageNumber x="#x4" y="#y4" align="center" alignV="center" number="4" src="date_small_black.png" visibility="not(eq(#date,4))"/>
+		<ImageNumber x="#x5" y="#y5" align="center" alignV="center" number="5" src="date_small_black.png" visibility="not(eq(#date,5))"/>
+		<ImageNumber x="#x6" y="#y6" align="center" alignV="center" number="6" src="date_small_black.png" visibility="not(eq(#date,6))"/>
+		<ImageNumber x="#x7" y="#y7" align="center" alignV="center" number="7" src="date_small_black.png" visibility="not(eq(#date,7))"/>
+		<ImageNumber x="#x8" y="#y8" align="center" alignV="center" number="8" src="date_small_black.png" visibility="not(eq(#date,8))"/>
+		<ImageNumber x="#x9" y="#y9" align="center" alignV="center" number="9" src="date_small_black.png" visibility="not(eq(#date,9))"/>
+		<ImageNumber x="#x10" y="#y10" align="center" alignV="center" number="10" src="date_small_black.png" visibility="not(eq(#date,10))"/>
+		<ImageNumber x="#x11" y="#y11" align="center" alignV="center" number="11" src="date_small_black.png" visibility="not(eq(#date,11))"/>
+		<ImageNumber x="#x12" y="#y12" align="center" alignV="center" number="12" src="date_small_black.png" visibility="not(eq(#date,12))"/>
+		<ImageNumber x="#x13" y="#y13" align="center" alignV="center" number="13" src="date_small_black.png" visibility="not(eq(#date,13))"/>
+		<ImageNumber x="#x14" y="#y14" align="center" alignV="center" number="14" src="date_small_black.png" visibility="not(eq(#date,14))"/>
+		<ImageNumber x="#x15" y="#y15" align="center" alignV="center" number="15" src="date_small_black.png" visibility="not(eq(#date,15))"/>
+		<ImageNumber x="#x16" y="#y16" align="center" alignV="center" number="16" src="date_small_black.png" visibility="not(eq(#date,16))"/>
+		<ImageNumber x="#x17" y="#y17" align="center" alignV="center" number="17" src="date_small_black.png" visibility="not(eq(#date,17))"/>
+		<ImageNumber x="#x18" y="#y18" align="center" alignV="center" number="18" src="date_small_black.png" visibility="not(eq(#date,18))"/>
+		<ImageNumber x="#x19" y="#y19" align="center" alignV="center" number="19" src="date_small_black.png" visibility="not(eq(#date,19))"/>
+		<ImageNumber x="#x20" y="#y20" align="center" alignV="center" number="20" src="date_small_black.png" visibility="not(eq(#date,20))"/>
+		<ImageNumber x="#x21" y="#y21" align="center" alignV="center" number="21" src="date_small_black.png" visibility="not(eq(#date,21))"/>
+		<ImageNumber x="#x22" y="#y22" align="center" alignV="center" number="22" src="date_small_black.png" visibility="not(eq(#date,22))"/>
+		<ImageNumber x="#x23" y="#y23" align="center" alignV="center" number="23" src="date_small_black.png" visibility="not(eq(#date,23))"/>
+		<ImageNumber x="#x24" y="#y24" align="center" alignV="center" number="24" src="date_small_black.png" visibility="not(eq(#date,24))"/>
+		<ImageNumber x="#x25" y="#y25" align="center" alignV="center" number="25" src="date_small_black.png" visibility="not(eq(#date,25))"/>
+		<ImageNumber x="#x26" y="#y26" align="center" alignV="center" number="26" src="date_small_black.png" visibility="not(eq(#date,26))"/>
+		<ImageNumber x="#x27" y="#y27" align="center" alignV="center" number="27" src="date_small_black.png" visibility="not(eq(#date,27))"/>
+		<ImageNumber x="#x28" y="#y28" align="center" alignV="center" number="28" src="date_small_black.png" visibility="not(eq(#date,28))"/>
+		<ImageNumber x="#x29" y="#y29" align="center" alignV="center" number="29" src="date_small_black.png" visibility="not(eq(#date,29))*#display29"/>
+		<ImageNumber x="#x30" y="#y30" align="center" alignV="center" number="30" src="date_small_black.png" visibility="not(eq(#date,30))*#display30"/>
+		<ImageNumber x="#x31" y="#y31" align="center" alignV="center" number="31" src="date_small_black.png" visibility="not(eq(#date,31))*#display31"/>
+		<!-- 当前日期 -->
+		<Image x="#date_current_x" y="#date_current_y" align="center" alignV="center" src="current_date_bg.png"/>
+		<ImageNumber x="#date_current_x" y="#date_current_y" align="center" alignV="center" number="#date" src="date_small_white.png"/>
+	</Group>
+
+	<Button w="#view_width" h="#view_height">
+		<Triggers>
+			<Trigger action="up">
+				<IntentCommand action="android.intent.action.MAIN" package="com.android.calendar" class="com.android.calendar.AllInOneActivity"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+</Gadget>
