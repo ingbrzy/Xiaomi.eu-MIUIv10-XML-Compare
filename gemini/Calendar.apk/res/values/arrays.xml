@@ -32,39 +32,6 @@
         <item>Forwards</item>
         <item>Backwards</item>
     </string-array>
-    <string-array name="dates">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
-    </string-array>
     <string-array name="default_reminder_labels">
         <item>At event time</item>
         <item>5 minutes before</item>
@@ -80,6 +47,13 @@
         <item>Only this event</item>
         <item>This and future events</item>
         <item>All events</item>
+    </string-array>
+    <string-array name="edit_event_dislike">
+        <item>No event type I want to create</item>
+        <item>More Settings</item>
+        <item>Some Settings cannot be determined</item>
+        <item>Just look around</item>
+        <item>"Don't tell you"</item>
     </string-array>
     <string-array name="english_premium_league">
         <item>4</item>
@@ -410,26 +384,6 @@
         <item>#ffe9f5f5</item>
         <item>#ff349a97</item>
     </array>
-    <array name="action_bar_colors">
-        <item>#ff1daba7</item>
-        <item>#ff34abd7</item>
-        <item>#ff429bd9</item>
-        <item>#ff5e84da</item>
-        <item>#ff747bd1</item>
-        <item>#ff8979cd</item>
-        <item>#ff747bd1</item>
-        <item>#ff5e84da</item>
-        <item>#ff429bd9</item>
-        <item>#ff34abd7</item>
-        <item>#ff1daba7</item>
-        <item>#ff39af81</item>
-        <item>#ff49b46c</item>
-        <item>#ff6ab157</item>
-        <item>#ff81ba51</item>
-        <item>#ff6ab157</item>
-        <item>#ff49b46c</item>
-        <item>#ff39af81</item>
-    </array>
     <integer-array name="allday_reminder_minutes_values">
         <item>0</item>
         <item>1440</item>
@@ -466,6 +420,18 @@
         <item>1</item>
         <item>2</item>
     </integer-array>
+    <string-array name="di_zhi">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>甲</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
     <string-array name="entryvalues_settings_debug">
         <item>无</item>
         <item>导出并发送日志</item>
@@ -505,46 +471,68 @@
         <item>宋小宝</item>
         <item>郭德纲</item>
     </string-array>
-    <string-array name="global_criket_match">
-        <item>International</item>
-        <item>IPL</item>
-        <item>Domestic</item>
-        <item>T20 Leagues</item>
+    <string-array name="jia_zi">
+        <item>甲子</item>
+        <item>乙丑</item>
+        <item>丙寅</item>
+        <item>丁卯</item>
+        <item>戊辰</item>
+        <item>己巳</item>
+        <item>庚午</item>
+        <item>辛未</item>
+        <item>壬申</item>
+        <item>癸酉</item>
+        <item>甲戌</item>
+        <item>乙亥</item>
+        <item>丙子</item>
+        <item>丁丑</item>
+        <item>戊寅</item>
+        <item>己卯</item>
+        <item>庚辰</item>
+        <item>辛巳</item>
+        <item>壬午</item>
+        <item>癸未</item>
+        <item>甲申</item>
+        <item>乙酉</item>
+        <item>丙戌</item>
+        <item>丁亥</item>
+        <item>戊子</item>
+        <item>己丑</item>
+        <item>庚寅</item>
+        <item>辛卯</item>
+        <item>壬辰</item>
+        <item>癸巳</item>
+        <item>甲午</item>
+        <item>乙未</item>
+        <item>丙申</item>
+        <item>丁酉</item>
+        <item>戊戌</item>
+        <item>己亥</item>
+        <item>庚子</item>
+        <item>辛丑</item>
+        <item>壬寅</item>
+        <item>癸卯</item>
+        <item>甲辰</item>
+        <item>乙巳</item>
+        <item>丙午</item>
+        <item>丁未</item>
+        <item>戊申</item>
+        <item>己酉</item>
+        <item>庚戌</item>
+        <item>辛亥</item>
+        <item>壬子</item>
+        <item>癸丑</item>
+        <item>甲寅</item>
+        <item>乙卯</item>
+        <item>丙辰</item>
+        <item>丁巳</item>
+        <item>戊午</item>
+        <item>己未</item>
+        <item>庚申</item>
+        <item>辛酉</item>
+        <item>壬戌</item>
+        <item>癸亥</item>
     </string-array>
-    <string-array name="hindi_horoscope_names">
-        <item>Mesha</item>
-        <item>Vrishabha</item>
-        <item>Mithun</item>
-        <item>Karka</item>
-        <item>Sinh</item>
-        <item>Kanya</item>
-        <item>Tula</item>
-        <item>Vruschika</item>
-        <item>Dhanu</item>
-        <item>Makar</item>
-        <item>Kumbha</item>
-        <item>Meena</item>
-    </string-array>
-    <array name="month_today_colors">
-        <item>#ff1db3af</item>
-        <item>#ff37b0dd</item>
-        <item>#ff45a4e6</item>
-        <item>#ff6089e7</item>
-        <item>#ff7d84df</item>
-        <item>#ff9583e2</item>
-        <item>#ff7d84df</item>
-        <item>#ff6089e7</item>
-        <item>#ff45a4e6</item>
-        <item>#ff37b0dd</item>
-        <item>#ff1db3af</item>
-        <item>#ff29b981</item>
-        <item>#ff4dbf72</item>
-        <item>#ff72bd5d</item>
-        <item>#ff92c765</item>
-        <item>#ff72bd5d</item>
-        <item>#ff4dbf72</item>
-        <item>#ff29b981</item>
-    </array>
     <string-array name="prefValues_alerts_vibrateWhen">
         <item>always</item>
         <item>silent</item>
@@ -578,6 +566,20 @@
         <item>2880</item>
         <item>10080</item>
     </integer-array>
+    <string-array name="tian_gan">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
     <string-array name="timezone_values">
         <item>Pacific/Majuro</item>
         <item>Pacific/Midway</item>

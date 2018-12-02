@@ -29,5 +29,5 @@
   <string name="title_activity_add_printer">Manually Added Printers</string>
   <string name="unreadable_input">Could not read document</string>
   <string name="waiting_to_send">Waiting to send</string>
-  <string name="wifi_not_connected">Wi-Fi not connected</string>
+  <string name="wifi_not_connected">WLAN not connected</string>
 </resources>

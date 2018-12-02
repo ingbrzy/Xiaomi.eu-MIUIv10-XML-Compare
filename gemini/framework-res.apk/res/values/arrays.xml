@@ -241,9 +241,7 @@
         <item>404</item>
         <item>405</item>
     </integer-array>
-    <string-array name="config_ephemeralResolverPackage">
-        <item>com.google.android.gms</item>
-    </string-array>
+    <array name="config_ephemeralResolverPackage" />
     <string-array name="config_globalActionsList">
         <item>power</item>
         <item>restart</item>
@@ -522,7 +520,7 @@
     </string-array>
     <string-array name="network_switch_type_name">
         <item>mobile data</item>
-        <item>Wi-Fi</item>
+        <item>WLAN</item>
         <item>Bluetooth</item>
         <item>Ethernet</item>
         <item>VPN</item>
@@ -1140,28 +1138,14 @@
         <item>zh-Hant-TW</item>
         <item>zu-ZA</item>
     </string-array>
-    <string-array name="vendor_required_apps_managed_device">
-        <item>com.android.vending</item>
-        <item>com.google.android.gms</item>
-        <item>com.google.android.contacts</item>
-        <item>com.google.android.googlequicksearchbox</item>
-        <item>com.google.android.launcher</item>
-        <item>com.android.launcher</item>
-        <item>com.google.android.dialer</item>
-        <item>com.google.android.apps.messaging</item>
-        <item>com.google.android.setupwizard</item>
-        <item>com.android.contacts</item>
-        <item>com.miui.home</item>
-        <item>com.mi.android.globallauncher</item>
-    </string-array>
     <string-array name="wfcOperatorErrorAlertMessages">
-        <item>To make calls and send messages over Wi-Fi, first ask your carrier to set up this service. Then turn on Wi-Fi calling again from Settings.</item>
+        <item>To make calls and send messages over WLAN, first ask your carrier to set up this service. Then turn on WLAN calling again from Settings.</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
         <item>Register with your carrier</item>
     </string-array>
     <string-array name="wfcSpnFormats">
         <item>%s</item>
-        <item>%s Wi-Fi Calling</item>
+        <item>%s WLAN Calling</item>
     </string-array>
 </resources>
