@@ -9,8 +9,8 @@
         <item quantity="one">In %1$d day at %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d days before at %2$s</item>
-        <item quantity="one">%1$d day before at %2$s</item>
+        <item quantity="other">%1$d days ago at %2$s</item>
+        <item quantity="one">%1$d day ago at %2$s</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="other">%d hours before</item>

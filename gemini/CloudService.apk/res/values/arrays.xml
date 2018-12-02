@@ -9,7 +9,7 @@
     <string-array name="micloud_entrance_subtitleArray">
         <item>Sync your contacts, messages, notes, calendar, and more</item>
         <item>Back up apps, Home screen layout, and wallpaper</item>
-        <item>Back up important settings, including WLAN and display</item>
+        <item>Back up important settings, including Wi-Fi and display</item>
         <item>"Lock your device remotely if it's lost"</item>
     </string-array>
 </resources>
