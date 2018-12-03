@@ -14,6 +14,8 @@
   <string name="backup_finished_notification_content">Backed up Home screen apps, system settings, etc.</string>
   <string name="backup_now">Back up now</string>
   <string name="backup_size">Size: %s</string>
+  <string name="backup_stopped_msg">Continue backup will cover the cloud existing backup, click to view.</string>
+  <string name="backup_stopped_title">Cloud backup has stopped</string>
   <string name="backup_success">Backed up successfully</string>
   <string name="backup_successfully">Backed up successfully</string>
   <string name="backup_to_cloud">Back up app</string>
@@ -93,12 +95,15 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="desktop_wait_wifi">Waiting</string>
   <string name="desktop_waiting">Waiting</string>
   <string name="device_delete_prompt">Delete backup of %s?</string>
+  <string name="dialog_btn_cancel_backup">Cancel</string>
   <string name="dialog_btn_next">Next</string>
+  <string name="dialog_btn_overwrite_backup">Overwrite</string>
   <string name="dialog_btn_restore_skip">Restore later</string>
   <string name="dialog_cancel_backup_cancel">Cancel</string>
   <string name="dialog_cancel_backup_confirm">OK</string>
   <string name="dialog_cancel_backup_msg">Toggling the switch will terminate ongoing backups.</string>
   <string name="dialog_cancel_backup_title">Cancel the ongoing backup?</string>
+  <string name="dialog_msg_overwrite_backup">The difference between local and cloud backup is large, continuing backup will overwrite the existing one.</string>
   <string name="dialog_msg_restore_require_wlan">Restoring backups requires connecting to WLAN.</string>
   <string name="dialog_title_require_wlan">Connect to WLAN</string>
   <string name="dir_date_format">HHmmss_MMddyyyy</string>

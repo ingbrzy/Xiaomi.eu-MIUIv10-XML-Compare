@@ -1709,6 +1709,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_spell_checker">Default spell checker</string>
   <string name="default_theme">Default</string>
   <string name="default_usb_mode">USB connection</string>
+  <string name="default_vol_stream_title">Default volume control stream</string>
   <string name="delete">Delete</string>
   <string name="delete_fingerprint_confirm_msg">Remove fingerprint?</string>
   <string name="delete_fingerprint_text">Remove fingerprint</string>
@@ -3655,7 +3656,7 @@ Select your operating system:"</string>
   <string name="notification_importance_low_title">Medium</string>
   <string name="notification_importance_min">Show silently and minimize</string>
   <string name="notification_importance_min_title">Low</string>
-  <string name="notification_importance_title">Behavior</string>
+  <string name="notification_importance_title">Importance</string>
   <string name="notification_importance_unspecified">Allow sound</string>
   <string name="notification_listener_disable_warning_cancel">Cancel</string>
   <string name="notification_listener_disable_warning_confirm">Turn off</string>
