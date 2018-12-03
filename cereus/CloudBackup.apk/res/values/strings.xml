@@ -110,7 +110,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="download_settings">Downloading Home screen settings %s%%</string>
   <string name="download_settings_fail">"Couldn't download Home screen settings"</string>
   <string name="error_num_placeholder">--</string>
-  <string name="error_retry_later">"Couldn't complete action. Wait a minute or two and try again.."</string>
+  <string name="error_retry_later">"Couldn't complete action. Wait a minute or two and try again…"</string>
   <string name="error_unknown">Something went wrong</string>
   <string name="get_device_id_error">"Couldn't get device ID"</string>
   <string name="home_hint_global_launcher">POCO Launcher</string>
