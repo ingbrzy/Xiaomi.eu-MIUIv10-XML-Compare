@@ -1555,11 +1555,6 @@
         <item>show</item>
         <item>show_deuteranomaly</item>
     </string-array>
-    <string-array name="device_global_support_face_facejiajia">
-        <item>whyred</item>
-        <item>polaris</item>
-        <item>ysl</item>
-    </string-array>
     <string-array name="device_global_support_face_sensetime">
         <item>dipper</item>
         <item>beryllium</item>
@@ -1576,18 +1571,9 @@
         <item>lavender</item>
     </string-array>
     <string-array name="device_support_face">
-        <item>jason</item>
-        <item>polaris</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>whyred</item>
-        <item>nitrogen</item>
         <item>wayne</item>
-        <item>ysl</item>
-        <item>sakura</item>
         <item>clover</item>
         <item>dipper</item>
-        <item>sirius</item>
         <item>ursa</item>
         <item>cactus</item>
         <item>cereus</item>
@@ -3099,7 +3085,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/wifi_ap_choose_5G</item>
     </string-array>
     <string-array name="wifi_ap_band_config_2G_only">
-        <item>@string/wifi_ap_choose_auto</item>
         <item>@string/wifi_ap_choose_2G</item>
     </string-array>
     <string-array name="wifi_ap_band_config_full">
