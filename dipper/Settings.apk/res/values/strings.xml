@@ -466,12 +466,12 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="application_item_disable">Deny</string>
   <string name="application_item_permission">Allow</string>
   <string name="application_lock_name">App lock</string>
-  <string name="application_manager_section_title">App settings</string>
+  <string name="application_manager_section_title">Apps</string>
   <string name="application_permission_manager">App permissions</string>
   <string name="application_permissions">App permissions</string>
   <string name="application_restrictions">Allow apps and content</string>
   <string name="application_size_label">App size</string>
-  <string name="applications_settings">Installed apps</string>
+  <string name="applications_settings">Manage apps</string>
   <string name="applications_settings_header">App settings</string>
   <string name="applications_settings_summary">Manage apps, set up quick launch shortcuts</string>
   <string name="apply">Apply</string>
@@ -5547,7 +5547,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_alert_window_summary">%1$d of %2$d apps allowed to display over other apps</string>
   <string name="system_and_device_section_title">System &amp; device</string>
   <string name="system_app">(System)</string>
-  <string name="system_app_settings">System apps</string>
+  <string name="system_app_settings">System app settings</string>
   <string name="system_apps_updater">System apps updater</string>
   <string name="system_backup_section_title">Backup</string>
   <string name="system_dashboard_summary">Languages, time, backup, updates</string>
