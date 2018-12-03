@@ -744,6 +744,18 @@
         <item>GB</item>
         <item>UK</item>
         <item>DK</item>
+        <item>BY</item>
+        <item>KZ</item>
+        <item>KG</item>
+        <item>TJ</item>
+        <item>UZ</item>
+        <item>TM</item>
+        <item>GE</item>
+        <item>AM</item>
+        <item>AZ</item>
+        <item>MD</item>
+        <item>MN</item>
+        <item>SE</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>
