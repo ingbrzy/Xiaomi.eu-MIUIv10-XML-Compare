@@ -637,6 +637,9 @@
   <string name="cloudfolder_name_reserved">Album name is reserved</string>
   <string name="collage__talkback_effect">%d effect</string>
   <string name="collage_choose">Select</string>
+  <string name="collage_drawable_normal_date_format">MM/dd/yyyy</string>
+  <string name="collage_drawable_rect_date_month_day">MMM dd</string>
+  <string name="collage_drawable_rect_date_year">yyyy</string>
   <string name="collage_margin_text">Margins</string>
   <string name="collage_mirror">Mirror</string>
   <string name="collage_poster_global_cat_text">PAWS</string>
@@ -1250,6 +1253,10 @@ to personalize Gallery"</string>
   <string name="play_gif_desc">Play GIF</string>
   <string name="play_video_desc">Play video</string>
   <string name="preparing_data">Just a sec…</string>
+  <string name="privacy_permission_request_message">Gallery needs access to %3$s. The information we collect will be used in accordance with our %1$s and %2$s. Allow?</string>
+  <string name="privacy_permission_request_negative">Restrict</string>
+  <string name="privacy_permission_request_positive">Allow</string>
+  <string name="privacy_permission_request_title">Permissions required</string>
   <string name="projection_cancel">Cancel</string>
   <string name="projection_checkbox_text">Remember this display</string>
   <string name="projection_device_connection_failed">"Couldn't connect projector"</string>
