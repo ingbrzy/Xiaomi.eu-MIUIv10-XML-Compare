@@ -1075,10 +1075,10 @@ Please plug out the charger and reverse plug in."</string>
 Make sure the real time Angle is about 45 degrees
 Keep the other hand away from the phone
 Look at the value of CS0
-After the value of CS0 is less than 500
+After the value of CS0 is less than 500 and the value of CS2 greater than 10000 
 Hold the other hand close to the bottom of the phone
 Look at the value of CS0
-The value of CS0 ranges from 3000 to 30000 and the pass button is highlight"</string>
+The value of CS0 ranges from 3000 to 30000 , the pass button is highlight"</string>
   <string name="sar_sensor_test_description">Sar Sensor Calibrate and Data Collect</string>
   <string name="sar_sensor_test_summary">"Rotate the phone, put it to the fixture
 Click the Start Calibrate button
