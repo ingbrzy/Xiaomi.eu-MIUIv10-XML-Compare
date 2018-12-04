@@ -57,6 +57,8 @@
 
 .field public static final IS_C3D:Z
 
+.field public static final IS_C3G:Z
+
 .field public static final IS_C5:Z
 
 .field public static final IS_C6:Z
@@ -623,6 +625,16 @@
     move-result v0
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_C3D:Z
+
+    const-string/jumbo v0, "tiare"
+
+    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_C3G:Z
 
     const-string/jumbo v0, "jason"
 
