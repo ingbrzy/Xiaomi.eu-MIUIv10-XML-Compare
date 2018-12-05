@@ -224,7 +224,6 @@
   <string name="michat_pull_to_refresh_pull_label">Pull down to view history</string>
   <string name="michat_pull_to_refresh_refreshing_label">Loading history…</string>
   <string name="michat_pull_to_refresh_release_label">Release to view history</string>
-  <string name="michat_queue_pos_update">There are %1$d people in front of you, wait a moment…</string>
   <string name="michat_return_to_outside">Exit</string>
   <string name="michat_service_unavailiable">"Couldn't get info, try again later"</string>
   <string name="michat_skillset_business_type_title">Select service</string>
