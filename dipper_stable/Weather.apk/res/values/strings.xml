@@ -47,7 +47,9 @@
   <string name="aqi_quality_ambient_air_quality">Air quality nearby</string>
   <string name="aqi_quality_co_desc">Carbon monoxide</string>
   <string name="aqi_quality_detail_15_days">15-day forecast</string>
+  <string name="aqi_quality_detail_24_hours">24-hour forecast</string>
   <string name="aqi_quality_detail_48_hours">48-hour forecast</string>
+  <string name="aqi_quality_detail_5_days">5-day forecast</string>
   <string name="aqi_quality_major_pollutants">Major pollutants</string>
   <string name="aqi_quality_map_title">Air quality map</string>
   <string name="aqi_quality_no2_desc">Nitrogen dioxide</string>
@@ -72,7 +74,7 @@
   <string name="button_sure_abandon">Discard changes?</string>
   <string name="card_vote_item_vs">VS</string>
   <string name="change_alert">Check your network connection and try again</string>
-  <string name="china_version_first_start_network_msg">"By using this product, you agree to Xiaomi's %1$s and %2$s. This app needs to connect to the internet and access your location to work normally."</string>
+  <string name="china_version_first_start_network_msg">"By using this product, you agree to Xiaomi's %1$s and %2$s. To help you get more accurate weather information, the weather will get your location information and deal with it, and it need to connect the network. Do you agree?"</string>
   <string name="city_exceeded_warning">You can add up to 10 cities</string>
   <string name="clear_net_mock_success">Net mock clear success</string>
   <string name="common_loading_text">Just a sec…</string>
@@ -103,7 +105,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="data_source_timezone">GMT%1$s</string>
   <string name="edit_city">Manage city</string>
   <string name="empty">" "</string>
-  <string name="eu_region_version_first_start_network_msg">"By using this product, you agree that Xiaomi will collect, process, and use you personal information, including the coordinates of the cities you search, and other types of data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we collect and process information. By tapping \"Agree\", you agree to Xiaomi's %1$s and %2$s."</string>
+  <string name="eu_region_version_first_start_network_msg">"By using this product, you agree that this product will connect the network, collect, process, and use you personal information, including the coordinates of the cities you search, and other types of data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we collect and process information. By tapping \"Agree\", you agree to Xiaomi's %1$s and %2$s."</string>
   <string name="feedback_heavy_rain">Heavy rain</string>
   <string name="feedback_heavy_snow">Snow</string>
   <string name="feedback_light_rain">Light rain</string>
@@ -119,6 +121,8 @@ Pull down to refresh or check the network settings"</string>
   <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
   <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
   <string name="hourly_forecast_date">M/d</string>
+  <string name="hourly_forecast_title_24_hours_desc">24-hour forecast</string>
+  <string name="hourly_forecast_title_hourly_desc">Hourly forecast</string>
   <string name="index_item_experience_now">Install now</string>
   <string name="index_item_install_dialog"/>
   <string name="index_item_install_dialog_cancel"/>
@@ -163,7 +167,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="network_unavailable">"Can't connect to the network."</string>
   <string name="night_not_disturb_settings_summary">Silence alerts coming between 23:00 and 07:00</string>
   <string name="night_not_disturb_settings_title">"Don't disturb at night"</string>
-  <string name="no_data">No Data</string>
+  <string name="no_data">No data</string>
   <string name="no_network_btn">Try again</string>
   <string name="no_vote_ratio">Against %1$s%%</string>
   <string name="open">Open</string>
@@ -184,6 +188,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="privacy_grant_failed">"Couldn't grant authorization. Wait a minute or two and try again."</string>
   <string name="privacy_grant_or_revoke_settings">Granting &amp; revoking authorization</string>
   <string name="privacy_grant_success">Granted authorization successfully</string>
+  <string name="privacy_policy">Privacy Policy</string>
   <string name="privacy_revoke_failed">"Couldn't revoke authorization. Wait a minute or two and try again."</string>
   <string name="privacy_revoke_success">Revoked authorization successfully</string>
   <string name="privacy_settings">Privacy Policy</string>
@@ -250,6 +255,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="update_setting_title_text">Update weather info</string>
   <string name="updated_a_moment_ago">Updated a moment ago</string>
   <string name="updating">Updating…</string>
+  <string name="user_agreement">Terms of Service</string>
   <string name="video_dialog_no_play"/>
   <string name="video_dialog_play"/>
   <string name="video_dialog_subtitle"/>
