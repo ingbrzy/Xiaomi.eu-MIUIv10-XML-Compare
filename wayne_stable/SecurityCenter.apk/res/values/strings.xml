@@ -494,16 +494,19 @@
   <string name="card_main_applock_summary">Protect selected apps with a password.</string>
   <string name="card_main_applock_title">App lock</string>
   <string name="card_main_deepclean_action">Clear</string>
+  <string name="card_main_deepclean_facebook_title">Facebook cleaner</string>
   <string name="card_main_deepclean_qq_title">QQ cleaner</string>
   <string name="card_main_deepclean_summary">Delete unnecessary files</string>
   <string name="card_main_deepclean_title">Deep clean</string>
   <string name="card_main_deepclean_wechat_action">Clear</string>
   <string name="card_main_deepclean_wechat_summary">Clear WeChat cache to free up storage space</string>
   <string name="card_main_deepclean_wechat_title">WeChat cache</string>
+  <string name="card_main_deepclean_whatsapp_title">WhatsApp cleaner</string>
   <string name="card_main_gamebooster_summary">Boost connection stability for games</string>
   <string name="card_main_gamebooster_title">Game speed booster</string>
   <string name="card_main_hbassistant_summary">Use this tool to grab the envelopes faster</string>
   <string name="card_main_hbassistant_title">Red envelope assistant</string>
+  <string name="card_main_hwtest_title">Hardware test</string>
   <string name="card_main_monthreport_action">View</string>
   <string name="card_main_netcheck_action">Test</string>
   <string name="card_main_netcheck_summary">Test connection for networking issues</string>
@@ -2113,6 +2116,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="summary_permission">Avoid unwanted payments and protect personal data</string>
   <string name="summary_permission_root">Looks like this device has root access. It may damage the security of your device.</string>
   <string name="summary_power_optimizer">"Reduce your device's performance when battery is low"</string>
+  <string name="summary_rcs_switch">Send SMS to China Mobile users without incurring charges</string>
   <string name="summary_realname_verify">Verify your identity to make payments more secure.</string>
   <string name="summary_restrict_data_usage">You restricted data usage for this app. Tap to fix.</string>
   <string name="summary_show_notification">Clear cache, view battery status, and block items in Notification shade</string>
@@ -2298,6 +2302,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_permission_root">Root access</string>
   <string name="title_permission_yes">Permission manager on</string>
   <string name="title_power_optimizer">Battery saver</string>
+  <string name="title_rcs_switch">Turn on China Mobile Messaging</string>
   <string name="title_realname_verify">ID verification</string>
   <string name="title_restrict_data_usage">"%s can't connect to the internet?"</string>
   <string name="title_show_notification">Notification shade widget</string>
