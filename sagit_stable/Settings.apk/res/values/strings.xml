@@ -1236,6 +1236,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="credentials_reset_warning_plural">Incorrect password. You have %1$d more chances before credential storage is erased.</string>
   <string name="credentials_settings_not_available">Credentials are not available for this user</string>
   <string name="credentials_title">Credential storage</string>
+  <string name="credentials_title_verification">Verification</string>
   <string name="credentials_unlock"/>
   <string name="credentials_unlock_hint">Type the password for credential storage.</string>
   <string name="credentials_wrong_password">Incorrect password.</string>
@@ -1452,6 +1453,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_spell_checker">Default spell checker</string>
   <string name="default_theme">Default</string>
   <string name="default_usb_mode">USB connection</string>
+  <string name="default_vol_stream_title">Default volume control stream</string>
   <string name="delete">Delete</string>
   <string name="delete_fingerprint_confirm_msg">Remove fingerprint?</string>
   <string name="delete_fingerprint_text">Remove fingerprint</string>
@@ -1459,6 +1461,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
   <string name="delete_rule">Remove rules</string>
   <string name="delete_saved_network">Delete saved networks</string>
+  <string name="delete_sound_effect">\"Delete\" sound</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="deletion_helper_automatic_title">Automatic</string>
   <string name="deletion_helper_manual_title">Manual</string>
@@ -1765,6 +1768,7 @@ This helps protect data on lost or stolen devices. Require PIN to start your dev
   <string name="enter_password">To start Android, enter your password</string>
   <string name="enter_pattern">To start Android, draw your pattern</string>
   <string name="enter_pin">To start Android, enter your PIN</string>
+  <string name="enterprise_mode">Enterprise mode</string>
   <string name="enterprise_privacy_always_on_vpn_device">Always-on VPN turned on</string>
   <string name="enterprise_privacy_always_on_vpn_personal">Always-on VPN turned on in your personal profile</string>
   <string name="enterprise_privacy_always_on_vpn_work">Always-on VPN turned on in your work profile</string>
@@ -4572,6 +4576,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_show_home_message">App icon badge</string>
   <string name="status_bar_settings_show_keyguard_notification">Lock screen notifications</string>
   <string name="status_bar_settings_show_keyguard_notification_summary">Allow important notifications on the Lock screen</string>
+  <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
   <string name="status_bar_settings_show_network_speed">Show connection speed</string>
   <string name="status_bar_settings_show_notification_icon">Show notification icons</string>
   <string name="status_bar_settings_show_wifi_name">Show WLAN</string>
