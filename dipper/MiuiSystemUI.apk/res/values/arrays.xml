@@ -720,6 +720,8 @@
         <item>MD</item>
         <item>MN</item>
         <item>NL</item>
+        <item>UA</item>
+        <item>SE</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>

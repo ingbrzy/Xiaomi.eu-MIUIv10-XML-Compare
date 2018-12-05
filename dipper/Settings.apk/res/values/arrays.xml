@@ -2556,6 +2556,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>MD</item>
         <item>MN</item>
         <item>NL</item>
+        <item>UA</item>
+        <item>SE</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
