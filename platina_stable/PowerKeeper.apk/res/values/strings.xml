@@ -37,10 +37,13 @@ Battery saver will treat important apps selectively."</string>
   <string name="failure">Error</string>
   <string name="hide_mode_desc">When an app runs in the background, its activities will be monitored to reduce battery usage.</string>
   <string name="hide_system_app">Hide system apps</string>
+  <string name="high_temp_state">High temperature</string>
+  <string name="high_temp_state_message">High temperature protection,data,wifiap,gps,camera etc. will be restricted</string>
   <string name="hints_loading_text">Just a sec…</string>
   <string name="important_warning">Attention</string>
   <string name="lasttime_applist_cloud">Updated apps:</string>
   <string name="lasttime_feature_cloud">Updated features:</string>
+  <string name="message_i_know">Got it</string>
   <string name="nonui_mode_config_description">"Don't light up screen for notifications, turn off LED light, fingerprint sensor, and touch controls to save battery when MIUI detects you aren't using your device."</string>
   <string name="nonui_mode_config_title">Non-interactive mode</string>
   <string name="performance_category">Performance</string>

@@ -2492,6 +2492,23 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>TH</item>
         <item>RU</item>
         <item>PL</item>
+        <item>UA</item>
+        <item>ES</item>
+        <item>UK</item>
+        <item>GB</item>
+        <item>BY</item>
+        <item>KZ</item>
+        <item>KG</item>
+        <item>TJ</item>
+        <item>UZ</item>
+        <item>TM</item>
+        <item>GE</item>
+        <item>AM</item>
+        <item>AZ</item>
+        <item>MD</item>
+        <item>MN</item>
+        <item>IT</item>
+        <item>KR</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
@@ -3232,4 +3249,4 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>5</item>
         <item>10</item>
     </string-array>
-</resources>
+<string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array><string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array></resources>
