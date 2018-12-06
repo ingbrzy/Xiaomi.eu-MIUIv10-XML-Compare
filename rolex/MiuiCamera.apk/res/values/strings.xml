@@ -616,7 +616,6 @@ and brings out the people in the front."</string>
   <string name="tap_to_focus">Tap to focus</string>
   <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
   <string name="title_snap_double_confirm">Confirm again</string>
-  <string name="toast_burst_snap_finished_summary">Burst shot done, %1$s photos taken</string>
   <string name="toast_burst_snap_forbidden_when_audio_capture_open">"Can't burst shoot while audio capture is on"</string>
   <string name="toast_saving">Saving photos…</string>
   <string name="toast_start_audio_capture">Make a sound to take a photo</string>
