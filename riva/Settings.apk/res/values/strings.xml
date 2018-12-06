@@ -391,12 +391,12 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="application_item_disable">Deny</string>
   <string name="application_item_permission">Allow</string>
   <string name="application_lock_name">App lock</string>
-  <string name="application_manager_section_title">App settings</string>
+  <string name="application_manager_section_title">Apps</string>
   <string name="application_permission_manager">App permissions</string>
   <string name="application_permissions">App permissions</string>
   <string name="application_restrictions">Allow apps and content</string>
   <string name="application_size_label">App size</string>
-  <string name="applications_settings">Installed apps</string>
+  <string name="applications_settings">Manage apps</string>
   <string name="applications_settings_header">App settings</string>
   <string name="applications_settings_summary">Manage apps, set up quick launch shortcuts</string>
   <string name="apply_fingerprint_to_category_title">Apply fingerprint to…</string>
@@ -1472,6 +1472,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_for_work">Default for work</string>
   <string name="default_input_method">Choose default keyboard</string>
   <string name="default_keyboard_layout">Default</string>
+  <string name="default_launcher_set_jeejen_message">Press the Home button to set up Jeejen</string>
+  <string name="default_launcher_set_system_message">Press the Home button to restore default launcher</string>
   <string name="default_launcher_title">Default Launcher</string>
   <string name="default_map_app_title">Map app</string>
   <string name="default_notification_assistant">Notification assistant</string>
@@ -1716,6 +1718,10 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dtmf_tone_enable_title">Dial pad tones</string>
   <string name="dual_setting_simcard1">SIM 1</string>
   <string name="dual_setting_simcard2">SIM 2</string>
+  <string name="dump_log">Get issue-related logs</string>
+  <string name="dump_log_summary">"This feature is designed for generating the 284 log in Alpha and Beta versions of MIUI. Use it with caution.
+You can view generated logs in File Manager."</string>
+  <string name="dump_log_title">About this feature</string>
   <string name="edge_mode_back">Go back</string>
   <string name="edge_mode_back_summary">Double tap the edge of your phone to go back</string>
   <string name="edge_mode_clean">Clear system cache</string>
@@ -2546,7 +2552,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="location_mode_title">Mode</string>
   <string name="location_neighborhood_level">Let apps use data from WLAN and mobile networks to estimate your location</string>
   <string name="location_neighborhood_level_wifi">Location determined by WLAN</string>
-  <string name="location_network_based">WLAN &amp; mobile network</string>
+  <string name="location_network_based">Wi-Fi &amp; mobile network</string>
   <string name="location_no_recent_apps">No apps have requested location recently</string>
   <string name="location_off_summary">OFF</string>
   <string name="location_on_summary">ON / %1$s</string>
@@ -2891,6 +2897,8 @@ There are other users present on this device.
   <string name="miui_allow_vibrate">Vibrations</string>
   <string name="miui_data_usage_menu_metered">Mobile hotspots</string>
   <string name="miui_experience_optimization">Turn on MIUI optimization</string>
+  <string name="miui_ime_xiaoai_voice_hint">Faster, more convenient way to enter text</string>
+  <string name="miui_ime_xiaoai_voice_title">Mi AI voice input</string>
   <string name="miui_lab_ai_cloud_closed">"AI preloading isn't available yet."</string>
   <string name="miui_lab_ai_preload_desc">AI preloading increases app launch speed</string>
   <string name="miui_lab_ai_preload_title">AI preloading</string>
@@ -3367,6 +3375,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="other_relative">Other</string>
   <string name="other_sound_category_preference_title">Other sounds and vibrations</string>
   <string name="other_sound_settings">Other sounds</string>
+  <string name="others">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overlay_settings">Display over other apps</string>
   <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Android.</string>
@@ -5036,7 +5045,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_alert_window_summary">%1$d of %2$d apps allowed to display over other apps</string>
   <string name="system_and_device_section_title">System &amp; device</string>
   <string name="system_app">(System)</string>
-  <string name="system_app_settings">System apps</string>
+  <string name="system_app_settings">System app settings</string>
   <string name="system_apps_updater">System apps updater</string>
   <string name="system_backup_section_title">Backup</string>
   <string name="system_dashboard_summary">Languages, time, backup, updates</string>
