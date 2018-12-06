@@ -624,6 +624,12 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="deep_clean_disconnect_data_title">Turn off mobile data when device is locked</string>
   <string name="deep_clean_memory_clean_title">Clear cache when device is locked</string>
   <string name="deep_clean_never_memory_clean">Never</string>
+  <string name="deep_power_save_item_summary_auto_brightness">Adjust screen brightness automatically to save battery</string>
+  <string name="deep_power_save_item_summary_bluetooth">Turn off Bluetooth to save battery</string>
+  <string name="deep_power_save_item_summary_lock_screen_time">Put screen to sleep after 30 seconds of inactivity to save battery</string>
+  <string name="deep_power_save_item_title_auto_brightness">Turn on auto brightness</string>
+  <string name="deep_power_save_item_title_bluetooth">Turn off Bluetooth</string>
+  <string name="deep_power_save_item_title_lock_screen_time">Put screen to sleep</string>
   <string name="deep_save_memory_clean_summary">Clear cache when you lock device to prevent apps from using battery</string>
   <string name="deep_save_ontime_boot_shutdown_summary">Schedule time to turn device on and off</string>
   <string name="delete">Delete</string>
@@ -1140,7 +1146,6 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="lockpattern_need_to_unlock_wrong">"Passwords don't match, try again."</string>
   <string name="lockpattern_pattern_confirmed_header">New unlock pattern</string>
   <string name="lockpattern_pattern_entered_header">Pattern added</string>
-  <string name="lockpattern_recording_incorrect_too_short">Connect at least %d dots</string>
   <string name="lockpattern_recording_inprogress">"Lift your finger when you're done"</string>
   <string name="lockpattern_recording_intro_header">Connect at least 4 dots to create a pattern</string>
   <string name="lockpattern_retry_button_text">Draw again</string>
@@ -1354,7 +1359,6 @@ to respond"</string>
   <string name="mixed_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
   <string name="mixed_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
   <string name="mixed_pattern_entered_header">Set password successfully</string>
-  <string name="mixed_recording_incorrect_too_short">Enter at least %d characters.</string>
   <string name="mixed_recording_intro_header">Enter at least 4 characters</string>
   <string name="mixed_retry_button_text">Cancel</string>
   <string name="mixed_settings_help_how_to_record">How to set password</string>
@@ -1464,7 +1468,6 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="numeric_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
   <string name="numeric_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
   <string name="numeric_pattern_entered_header">Set PIN successfully</string>
-  <string name="numeric_recording_incorrect_too_short">Enter at least %d digits.</string>
   <string name="numeric_recording_intro_header">Enter password</string>
   <string name="numeric_retry_button_text">Cancel</string>
   <string name="numeric_settings_help_how_to_record">How to set PIN</string>
