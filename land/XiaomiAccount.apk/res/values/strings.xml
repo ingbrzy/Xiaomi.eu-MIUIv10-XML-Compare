@@ -300,7 +300,7 @@ To activate your account, follow the
   <string name="passport_login_title">Sign in to your Mi Account</string>
   <string name="passport_login_using_other_ways">Other ways to sign in</string>
   <string name="passport_message_dialog_title">SMS with verifying codes</string>
-  <string name="passport_new_user_register">Create an account</string>
+  <string name="passport_new_user_register">Create account</string>
   <string name="passport_next">Next</string>
   <string name="passport_no">No</string>
   <string name="passport_notification_title">Sign in error for %1$s</string>
