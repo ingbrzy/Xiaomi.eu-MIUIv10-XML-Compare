@@ -34,9 +34,16 @@
   <string name="abc_shareactionprovider_share_with">Share with</string>
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
-  <string name="ad_tag_url" formatted="false">https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&amp;iu=/21633895671/video/android_mobile_web&amp;impl=s&amp;gdfp_req=1&amp;env=vp&amp;output=vmap&amp;unviewed_position_start=1&amp;ad_rule=1&amp;cmsid=2467608&amp;vid=%1$s&amp;cust_params=sample_ar%3Dskippablelinear%26TPDevice%3DMi%20Mobile&amp;ppid=%2$s&amp;correlator=%3$s</string>
   <string name="affelite_id">1268</string>
   <string name="agree">Agree</string>
+  <string name="ai_animation_music_text">AI soundtrack</string>
+  <string name="ai_music_save_cancel">Cancel</string>
+  <string name="ai_music_save_dialog_title">Save</string>
+  <string name="ai_music_save_fail">"Couldn't save"</string>
+  <string name="ai_music_save_info">Added AI soundtrack successfully. Save video?</string>
+  <string name="ai_music_save_ok">Save</string>
+  <string name="ai_music_save_success">Saved successfully</string>
+  <string name="ai_music_saved">Saved</string>
   <string name="alert_dialog_download">"You've already downloaded this app."</string>
   <string name="alert_dialog_download_btn_hide">Hide</string>
   <string name="alert_dialog_download_confirm">About to download the app</string>
@@ -103,11 +110,6 @@
   <string name="character_counter_pattern">%1$d / %2$d</string>
   <string name="click_to_reload_more">Tap to load more</string>
   <string name="click_to_retry">Try again</string>
-  <string name="com_mixpanel_android_close">Close</string>
-  <string name="com_mixpanel_android_done">Done</string>
-  <string name="com_mixpanel_android_exit">Exit</string>
-  <string name="com_mixpanel_android_logo">By Mixpanel</string>
-  <string name="com_mixpanel_android_notification_image">Image not displayed</string>
   <string name="com_permission_desc">"Mi Video can't access videos on your device. Allow access in the Settings."</string>
   <string name="com_permission_title">Permissions required</string>
   <string name="common_google_play_services_enable_button">Enable</string>
@@ -299,7 +301,6 @@
   <string name="lv_volume">Volume</string>
   <string name="media_event_api">http://ping.hungama.com/mediaEvent.py?</string>
   <string name="mi_video">Mi Video</string>
-  <string name="mock_url">12345</string>
   <string name="more">More</string>
   <string name="mr_button_content_description">Cast button</string>
   <string name="mr_cast_button_connected">Cast button. Connected</string>
@@ -463,6 +464,7 @@ Check out other videos!"</string>
   <string name="pw_video_history">Playback history</string>
   <string name="pw_video_mine">My videos</string>
   <string name="pw_video_offline">Local videos</string>
+  <string name="read_and_agree">Agree</string>
   <string name="recommend_online_switch">Online recommendations</string>
   <string name="recommend_online_tips">Turn on to receive online video recommendations</string>
   <string name="recommend_page_replay">REPLAY</string>
@@ -477,6 +479,7 @@ Check out other videos!"</string>
   <string name="s6">Allow Ad to create a calendar event?</string>
   <string name="s7">Test Ad</string>
   <string name="save">Save</string>
+  <string name="save_cancel_toast">Tap again to cancel saving</string>
   <string name="screenrecord_cancel">Compatibility issues</string>
   <string name="screenrecord_nosupport_record">"Screen recorder isn't currently supported on this device."</string>
   <string name="sdk_ver">1.0.9.3</string>
@@ -493,6 +496,8 @@ Check out other videos!"</string>
   <string name="signup_type_silent_default">silent</string>
   <string name="signup_type_user_default">LoginSDK consumer</string>
   <string name="silent_username_limit">50</string>
+  <string name="slid_fail_message">"Couldn't save"</string>
+  <string name="slide_save_message">Generating video…</string>
   <string name="status_bar_notification_info_overflow">999+</string>
   <string name="storage_permission_denied">Permission to access storage was denied</string>
   <string name="switch_ratio_pause">Playback speed is unstable. Switching back to the default speed…</string>
@@ -523,7 +528,10 @@ Check out other videos!"</string>
   <string name="uninterruptedPlayIntervalSeconds">300</string>
   <string name="update">Update</string>
   <string name="v_app_name">Mi Video</string>
+  <string name="v_cancel">Cancel</string>
+  <string name="v_ok">OK</string>
   <string name="v_pw_need_update_app">Update Mi Video to use all its features</string>
+  <string name="v_save">Save</string>
   <string name="web_service_url">pa-spa.catchmedia.com</string>
   <string name="web_service_url_version">v47</string>
   <string name="ws_ver">4.4</string>
