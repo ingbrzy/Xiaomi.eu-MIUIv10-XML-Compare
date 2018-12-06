@@ -125,7 +125,7 @@
   <string name="feedback_status_change_notification_title">"Your report's progress was updated"</string>
   <string name="feedback_status_collect_log_failed">"Couldn't get logs"</string>
   <string name="feedback_status_commit_failed_title">"Couldn't send report"</string>
-  <string name="feedback_status_commit_in_queue_title">等待反馈中</string>
+  <string name="feedback_status_commit_in_queue_title">Waiting…</string>
   <string name="feedback_status_commit_succ_title">Sent</string>
   <string name="feedback_status_commit_uploading_title">Sending…</string>
   <string name="feedback_status_forum_reply">Reply</string>
