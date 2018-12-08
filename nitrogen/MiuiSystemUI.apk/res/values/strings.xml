@@ -1018,7 +1018,6 @@ Try again in %2$d seconds."</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
   <string name="lock_screen_magazine_default_content">Daily portion of fresh images</string>
-  <string name="lock_screen_magazine_default_entry_title">Wallpaper details</string>
   <string name="lock_screen_magazine_default_title">Music</string>
   <string name="lock_screen_no_sim_card_emergency_only">Emergency calls only</string>
   <string name="lock_screen_no_sim_card_no_service">No service</string>
