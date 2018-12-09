@@ -78,11 +78,11 @@
   <string name="account_setup_address_label">Email</string>
   <string name="account_setup_autodiscover_dlg_authfail_message">Confirm username, password, and account settings are correct.</string>
   <string name="account_setup_autodiscover_dlg_authfail_title">"Couldn't set up account"</string>
-  <string name="account_setup_basics_email_label">Email address</string>
+  <string name="account_setup_basics_email_label">Enter email address</string>
   <string name="account_setup_basics_login_gmail_without_proxy">Sign in using current network</string>
   <string name="account_setup_basics_manual_setup_action">Manual setup</string>
   <string name="account_setup_basics_mi_mail_login_help">You may need to verify your account via SMS to receive emails</string>
-  <string name="account_setup_basics_password_label">Password</string>
+  <string name="account_setup_basics_password_label">Enter password</string>
   <string name="account_setup_basics_title">Add account</string>
   <string name="account_setup_check_settings_check_incoming_msg">Validating server settings…</string>
   <string name="account_setup_check_settings_check_outgoing_msg">Validating SMTP settings…</string>
@@ -385,9 +385,7 @@
   <string name="device_not_activiey_lint1">Device manager is not activated</string>
   <string name="device_not_activiey_lint2">Mail service does not work with Exchange</string>
   <string name="dialog_account_auto_sync_setting_no_open">You chose to sync emails manually. Refresh to sync.</string>
-  <string name="dialog_agree">Agree</string>
   <string name="dialog_change_sync_lookback">The mail received %s ago will be deleted automatically. Tap to change.</string>
-  <string name="dialog_disagree">Disagree</string>
   <string name="dialog_insufficient_space_on_external">"Can't download attachment. Not enough space on external storage."</string>
   <string name="dialog_insufficient_space_on_internal">Not enough space on internal storage.</string>
   <string name="dialog_system_auto_sync_account_no_open">Turn on account sync to receive emails automatically</string>
@@ -578,7 +576,6 @@
   <string name="invalid_recipient_title">Recipient Error</string>
   <string name="kilobytes">%s KB</string>
   <string name="label_notification_ticker" formatted="false">%s: %s</string>
-  <string name="list_empty_to_fresh">No mail, please try pull-down refresh.</string>
   <string name="load_attachment">@string/load_more</string>
   <string name="load_from_remote">Search mailbox on server</string>
   <string name="load_more">Load more</string>
@@ -751,17 +748,16 @@ Try a different inbox."</string>
   <string name="note_title">139 Email Automatic Configuration</string>
   <string name="notification_action_archive">Archive</string>
   <string name="notification_action_delete">Delete</string>
-  <string name="notification_action_remove_label">Remove label</string>
+  <string name="notification_action_remove_label">Remove tag</string>
   <string name="notification_action_reply">Reply</string>
   <string name="notification_action_reply_all">Reply all</string>
   <string name="notification_action_undo_archive">Archived</string>
   <string name="notification_action_undo_delete">Deleted</string>
-  <string name="notification_action_undo_remove_label">Label removed</string>
+  <string name="notification_action_undo_remove_label">Tag removed</string>
   <string name="notification_exchange_calendar_added">Exchange calendar added</string>
-  <string name="notify_channel_new_mail">New email reminder</string>
-  <string name="notify_channel_no_disterb">No disturb mode</string>
+  <string name="notify_channel_new_mail">Notify about new messages</string>
   <string name="notify_channel_permission_notice">Permission Notice reminder</string>
-  <string name="notify_channel_send_fail">Send failure reminder</string>
+  <string name="notify_channel_send_fail">Notify about failed delivery</string>
   <string name="oauth_error_description">"Couldn't authenticate"</string>
   <string name="oauth_gmail_login_notify">Enter your Google Account username and password on the following sign-in page.</string>
   <string name="oauth_login_continue">Continue</string>
@@ -891,7 +887,6 @@ to receive reminders about payments and trips"</string>
   <string name="preview_attachment">Preview</string>
   <string name="previous_action">Back</string>
   <string name="print">Print</string>
-  <string name="privacy_des">日志信息包含电子邮件应用打印的调试信息及您的设备信息，用于定位您所反馈的问题。选择下方的“%1$s”表示您已阅读并同意小米的《%2$s》</string>
   <string name="privacy_policy">Privacy Policy</string>
   <string name="prompt_title">Prompt</string>
   <string name="protocol_eas">eas</string>
@@ -1038,7 +1033,7 @@ to receive reminders about payments and trips"</string>
   <string name="saved">Saved,  %s</string>
   <string name="saving">Saving…</string>
   <string name="sdcard_cannot_use">"Can't use SD card"</string>
-  <string name="search_bar_text">Search for senders or contacts</string>
+  <string name="search_bar_text">Search for messages and contacts</string>
   <string name="search_hint">Search mail</string>
   <string name="search_result">"Results "</string>
   <string name="search_tabs_name_all">All</string>
@@ -1107,7 +1102,6 @@ to receive reminders about payments and trips"</string>
   <string name="single_new_message_notification_title">%1$s: %2$s</string>
   <string name="sms_tip">Authentication fails, check whether the antivirus software to intercept SMS</string>
   <string name="smtp_password_error">Password for outgoing mail server is incorrect</string>
-  <string name="snip_pic">%1$s</string>
   <string name="sort_attachment">Sort by</string>
   <string name="special_text_1">写道:</string>
   <string name="special_text_2">写道：</string>
@@ -1196,7 +1190,7 @@ Remove account?"</string>
   <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
   <string name="update_to_wps_mail">Enjoy more features with WPS Mail</string>
   <string name="updated_at">Refreshed at %1$s</string>
-  <string name="upload_log">Send</string>
+  <string name="upload_log">Upload logs</string>
   <string name="upload_log_failed">"Couldn't send logs"</string>
   <string name="upload_log_no">Cancel</string>
   <string name="upload_log_success">"Sent successfully, we'll get back to you soon."</string>
