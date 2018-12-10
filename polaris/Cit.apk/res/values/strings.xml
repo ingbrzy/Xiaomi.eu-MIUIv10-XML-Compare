@@ -97,9 +97,11 @@
   <string name="camera_capture">Capture</string>
   <string name="camera_done">Done</string>
   <string name="camera_error">"This device doesn't support Camera2 API."</string>
+  <string name="camera_flood">- Flood -</string>
   <string name="camera_menu_list">CameraList</string>
   <string name="camera_not_support_raw10">The camera not support raw10 picture format!</string>
   <string name="camera_preview">preview</string>
+  <string name="camera_projector">- Projector -</string>
   <string name="camera_zoom">Zoom</string>
   <string name="camerainfo">Camera information</string>
   <string name="can_not_get_numbers_of_keys">can not get numbers of keys</string>
@@ -148,6 +150,9 @@ Before you calibrate the device, place it on a flat surface."</string>
   <string name="cit_audio_cali_summary">Calibrate Speaker PA</string>
   <string name="cit_audio_cali_t0">T0:</string>
   <string name="cit_audio_cali_title">Speaker PA Calibration Test</string>
+  <string name="cit_audio_cali_valueF0">F0：</string>
+  <string name="cit_audio_cali_valueR">Ref_diff：</string>
+  <string name="cit_audio_cali_valueT">Temp_acc：</string>
   <string name="cit_audio_calibrating">Calibration is ongoing...</string>
   <string name="cit_audio_get_temp_fail">Get temp data Failed!</string>
   <string name="cit_audio_lb_backmic_to_speaker_title">Back mic speaker feedback test</string>
@@ -786,6 +791,7 @@ Test failed!"</string>
   <string name="fod_fingerprint_input_title">Fod fingerprint input test</string>
   <string name="fod_pressure_sensor_pressure_data_collection">Pressure data collecting....</string>
   <string name="fod_pressure_sensor_test_exception">Read node file exception</string>
+  <string name="fod_pressure_sensor_test_fail">Test failed, please click the Failure button</string>
   <string name="fod_pressure_sensor_test_pressure_too_big">"Sensor average pressure too big: %1$d 
 test failed,please click the Fail button"</string>
   <string name="fod_pressure_sensor_test_pressure_too_small">"Sensor average pressure too small: %1$d 

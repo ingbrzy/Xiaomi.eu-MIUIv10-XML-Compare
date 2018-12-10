@@ -12,8 +12,8 @@
   <string name="accessibility_bokeh_level">F%1$s级虚化</string>
   <string name="accessibility_camera_lighting_close_panel">Closed lighting menu</string>
   <string name="accessibility_camera_lighting_open_panel">Opened lighting menu</string>
-  <string name="accessibility_camera_liveshot_off">动态照片模式已关闭</string>
-  <string name="accessibility_camera_liveshot_on">动态照片模式已开启</string>
+  <string name="accessibility_camera_liveshot_off">动态照片,关闭状态</string>
+  <string name="accessibility_camera_liveshot_on">动态照片,开启状态</string>
   <string name="accessibility_camera_picker">Front and rear camera switch</string>
   <string name="accessibility_camera_picker_finish">Switched cameras successfully</string>
   <string name="accessibility_camera_record_start">start record</string>
@@ -96,6 +96,8 @@ and optimizes your photos based on this info"</string>
   <string name="camera_error_title">Camera error</string>
   <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
   <string name="camera_label">Camera</string>
+  <string name="camera_liveshot_off_tip">动态照片已关闭</string>
+  <string name="camera_liveshot_on_tip">动态照片</string>
   <string name="camera_new_slow_motion_quality_default">5</string>
   <string name="camera_setting">Camera</string>
   <string name="camera_settings_label">Camera</string>
@@ -239,6 +241,7 @@ in Portrait mode"</string>
   <string name="module_name_square">Square</string>
   <string name="module_name_video">Video</string>
   <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
+  <string name="network_exception">网络异常</string>
   <string name="no_storage">Insert SD card before using camera</string>
   <string name="not_enough_space">SD card is full</string>
   <string name="object_track_enable_toast">To select an object, simultaneously tap two diagonal points around its border.</string>
