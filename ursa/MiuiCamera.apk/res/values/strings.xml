@@ -8,13 +8,19 @@
   <string name="accessibility_beauty_panel_open">Beautify menu is opened</string>
   <string name="accessibility_beauty_switch_closed">Beautify is off</string>
   <string name="accessibility_beauty_switch_open">Beautify is on</string>
+  <string name="accessibility_bokeh_adjust">虚化程度调节</string>
+  <string name="accessibility_bokeh_level">F%1$s级虚化</string>
   <string name="accessibility_camera_lighting_close_panel">Closed lighting menu</string>
   <string name="accessibility_camera_lighting_open_panel">Opened lighting menu</string>
   <string name="accessibility_camera_liveshot_off">动态照片模式已关闭</string>
   <string name="accessibility_camera_liveshot_on">动态照片模式已开启</string>
   <string name="accessibility_camera_picker">Front and rear camera switch</string>
   <string name="accessibility_camera_picker_finish">Switched cameras successfully</string>
+  <string name="accessibility_camera_record_start">start record</string>
+  <string name="accessibility_camera_record_stop">stop record</string>
   <string name="accessibility_camera_shutter_finish">Took a photo successfully</string>
+  <string name="accessibility_camera_ultra_wide_bokeh_off">全身模式,关闭状态</string>
+  <string name="accessibility_camera_ultra_wide_bokeh_on">全身模式,开启状态</string>
   <string name="accessibility_camera_video_960fps_120">120FPS</string>
   <string name="accessibility_camera_video_960fps_240">240FPS</string>
   <string name="accessibility_camera_video_960fps_960">960FPS</string>
@@ -44,14 +50,24 @@
   <string name="accessibility_peak">Focus peak button</string>
   <string name="accessibility_portrait_button">Portrait mode</string>
   <string name="accessibility_protrait">Portrait</string>
+  <string name="accessibility_record_button">Record button</string>
   <string name="accessibility_review_thumbnail">Most recent photo</string>
   <string name="accessibility_selected">Selected items</string>
   <string name="accessibility_setting">Settings</string>
   <string name="accessibility_shutter_button">Shutter button</string>
   <string name="accessibility_stereo_button">Focus adjustment</string>
+  <string name="accessibility_ultra_pixel_photography_off">4800万超清,关闭状态</string>
+  <string name="accessibility_ultra_pixel_photography_on">4800万超清,开启状态</string>
+  <string name="accessibility_ultra_wide_off">超广角,关闭状态</string>
+  <string name="accessibility_ultra_wide_on">超广角,开启状态</string>
+  <string name="accessibility_video_capture_button">Photo Button for Video Recording</string>
+  <string name="accessibility_video_pause_button">pause record</string>
+  <string name="accessibility_video_resume_button">continue record</string>
   <string name="accessibility_zoom_button">Zoom mode</string>
   <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
 and optimizes your photos based on this info"</string>
+  <string name="ai_scene_top_moon_off">夜景模式</string>
+  <string name="ai_scene_top_tip">月亮模式</string>
   <string name="app_name">algoengine</string>
   <string name="beauty_body">塑型</string>
   <string name="beauty_body_body">瘦身</string>
@@ -71,6 +87,8 @@ and optimizes your photos based on this info"</string>
   <string name="beauty_level_5">5</string>
   <string name="beauty_mode_reset_toast">Removed remodeling effects</string>
   <string name="beauty_reset">Reset</string>
+  <string name="beauty_tab_name_live_beauty">美颜</string>
+  <string name="beauty_tab_name_live_filter">滤镜</string>
   <string name="button_fisheye_camera_title">Fisheye</string>
   <string name="button_front_camera_title">Make a selfie</string>
   <string name="button_normal_video_title">Record video</string>
@@ -88,6 +106,7 @@ and optimizes your photos based on this info"</string>
   <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
   <string name="capture_back_pressed_hint">Touch again to exit</string>
+  <string name="change_bgm">更换配乐</string>
   <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="color_effect_entry_berry">Berries</string>
@@ -121,6 +140,12 @@ and optimizes your photos based on this info"</string>
   <string name="confirm_recording_fail_title">"Can't record"</string>
   <string name="confirm_restore_message">"Restore Camera's default settings?"</string>
   <string name="confirm_restore_title">Restore default settings</string>
+  <string name="custom_watermark_contains_senstive_words">Please modify sensitive text %1$s</string>
+  <string name="custom_watermark_tips">The above text will be the second line of the photo watermark. Please limit it to 15 Chinese characters or 15 English letters.</string>
+  <string name="custom_watermark_too_many_words">You went over the character limit</string>
+  <string name="custom_watermark_words">User define watermark words</string>
+  <string name="custom_watermark_words_input_hint">Enter words</string>
+  <string name="custom_watermark_words_save_success">Save sucess</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_ok_time">OK (&lt;g id="NUMBER"&gt;%d&lt;/g&gt;s)</string>
   <string name="do_not_remind_me">"Don't show again"</string>
@@ -128,6 +153,7 @@ and optimizes your photos based on this info"</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
   <string name="dual_camera_too_close_toast">The camera is too close to the object.</string>
   <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
+  <string name="dualcamera_watermark_default">AI DUAL CAMERA</string>
   <string name="edit_blusher">腮红</string>
   <string name="edit_chin">Chin</string>
   <string name="edit_eye_large">Big eyes</string>
@@ -170,6 +196,7 @@ and then create a shot with a minimal amount of noise."</string>
 and then create a shot where everyone looks best."</string>
   <string name="hint_groupshot_beauty">"Can't use Beautify in group shots"</string>
   <string name="hint_slow_motion">The video you shoot will be played slower.</string>
+  <string name="hot_music">热门歌曲</string>
   <string name="hunt_dual_water_mark">Dual camera watermark will be added automatically.</string>
   <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
   <string name="install_confirmed">Install</string>
@@ -177,7 +204,7 @@ and then create a shot where everyone looks best."</string>
 Clean the lens for better effect."</string>
   <string name="lens_dirty_detected_title_back">Rear camera lens is dirty</string>
   <string name="lens_dirty_detected_title_front">Front camera lens is dirty</string>
-  <string name="lighting_hint_needed">Place your object in the spotlight</string>
+  <string name="lighting_hint_needed">Place your subject in the spotlight</string>
   <string name="lighting_hint_title">Studio lighting</string>
   <string name="lighting_hint_too_close">Move the camera further away</string>
   <string name="lighting_hint_too_far">Bring the camera closer</string>
@@ -191,6 +218,14 @@ in Portrait mode"</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
+  <string name="live_speed_extreme_fast">Fastest</string>
+  <string name="live_speed_extreme_slow">Slowest</string>
+  <string name="live_speed_fast">Fast</string>
+  <string name="live_speed_fragment_tab_name">Speed</string>
+  <string name="live_speed_normal">Normal</string>
+  <string name="live_speed_slow">Slow</string>
+  <string name="live_sticker_fragment_tab_name">Magic</string>
+  <string name="local_music">本地音乐</string>
   <string name="makeup_reset_toast">Removed makeup effects</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="module_name_beauty">Beauty</string>
@@ -200,6 +235,7 @@ in Portrait mode"</string>
   <string name="module_name_new_slow_motion">Slow motion</string>
   <string name="module_name_panorama">Panorama</string>
   <string name="module_name_portrait">Portrait</string>
+  <string name="module_name_professional">Pro</string>
   <string name="module_name_square">Square</string>
   <string name="module_name_video">Video</string>
   <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
@@ -227,8 +263,8 @@ in Portrait mode"</string>
   <string name="portait_effect_entry_story">Story</string>
   <string name="portrait_mode_depth_effect_success_hint">Depth effect</string>
   <string name="portrait_mode_lowlight_hint">"It's too dark now"</string>
-  <string name="portrait_mode_too_close_hint">Move farther from the object</string>
-  <string name="portrait_mode_too_far_hint">Place object within 2 meters</string>
+  <string name="portrait_mode_too_close_hint">Move farther from the subject</string>
+  <string name="portrait_mode_too_far_hint">Place subject within 2 meters</string>
   <string name="portrait_mode_use_hint">"Portrait mode blurs the background
 and brings out the people in the front."</string>
   <string name="pref_advance_settings">Additional settings</string>
@@ -353,6 +389,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_multilevel_entry_lowest">Lowest</string>
   <string name="pref_camera_multilevel_entry_middle">Medium (default)</string>
   <string name="pref_camera_multilevel_entry_normal">Normal</string>
+  <string name="pref_camera_normal_wide_ldc_description">修正在照片边缘的人脸畸变</string>
+  <string name="pref_camera_normal_wide_ldc_title">合影人脸修正</string>
   <string name="pref_camera_optimized_flash_enable_title">Optimized flash</string>
   <string name="pref_camera_parallel_process_enable_title">Turn on parallel processing</string>
   <string name="pref_camera_picture_format_entry_raw">Raw</string>
@@ -408,13 +446,17 @@ and brings out the people in the front."</string>
   <string name="pref_camera_tilt_shift_entryvalue_parallel">parallel</string>
   <string name="pref_camera_tilt_shift_title">Tilt-shift</string>
   <string name="pref_camera_touchafaec_default">touch-on</string>
+  <string name="pref_camera_ultra_wide_ldc_description">在超广角模式下对畸变的画面进行矫正</string>
+  <string name="pref_camera_ultra_wide_ldc_title">超广角畸变矫正</string>
   <string name="pref_camera_video_bokeh_off">Video bokeh is closed</string>
   <string name="pref_camera_video_bokeh_on">Video bokeh</string>
-  <string name="pref_camera_volumekey_function_default">shutter</string>
+  <string name="pref_camera_volumekey_function_default">timer</string>
   <string name="pref_camera_volumekey_function_entry_shutter">Shutter</string>
+  <string name="pref_camera_volumekey_function_entry_timer">Shutter countdown</string>
   <string name="pref_camera_volumekey_function_entry_volume">Volume</string>
   <string name="pref_camera_volumekey_function_entry_zoom">Zoom</string>
   <string name="pref_camera_volumekey_function_entryvalue_shutter">shutter</string>
+  <string name="pref_camera_volumekey_function_entryvalue_timer">timer</string>
   <string name="pref_camera_volumekey_function_entryvalue_volume">volume</string>
   <string name="pref_camera_volumekey_function_entryvalue_zoom">zoom</string>
   <string name="pref_camera_volumekey_function_title">Volume buttons function</string>
@@ -467,6 +509,7 @@ and brings out the people in the front."</string>
   <string name="pref_skin_beautify_eye_default">2</string>
   <string name="pref_skin_beautify_slim_default">3</string>
   <string name="pref_skin_beautify_smooth_default">5</string>
+  <string name="pref_userdefine_watermark_title">User define camera watermark</string>
   <string name="pref_video_encoder_default">h264</string>
   <string name="pref_video_encoder_entry_h264">H.264 High compatibility</string>
   <string name="pref_video_encoder_entry_h265">H.265 High performance</string>
@@ -508,6 +551,7 @@ and brings out the people in the front."</string>
   <string name="pref_video_time_lapse_frame_interval_entry_90">90X (3-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
+  <string name="pref_video_volumekey_function_default">shutter</string>
   <string name="preparing_sd">Checking SD card…</string>
   <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
   <string name="record_back_pressed_hint">Touch again to stop recording</string>
@@ -530,6 +574,10 @@ and brings out the people in the front."</string>
   <string name="toast_saving">Saving photos…</string>
   <string name="ubi_focus_capture_fail">"Couldn't take photo"</string>
   <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
+  <string name="ultra_pixel_photography_close_tip">4800万超清已关闭</string>
+  <string name="ultra_pixel_photography_open_tip">4800万超清</string>
+  <string name="ultra_wide_bokeh_close_tip">全身模式已关闭</string>
+  <string name="ultra_wide_bokeh_open_tip">全身模式</string>
   <string name="ultra_wide_close_tip">超广角模式已关闭</string>
   <string name="ultra_wide_mode">超广角</string>
   <string name="ultra_wide_open_tip">超广角模式</string>
