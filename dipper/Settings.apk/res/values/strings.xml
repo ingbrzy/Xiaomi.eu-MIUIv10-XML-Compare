@@ -1759,6 +1759,12 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_cpu4_info">Quad-core</string>
   <string name="device_cpu6_info">Hexa-core</string>
   <string name="device_cpu8_info">Octa-core</string>
+  <string name="device_description_battery">Battery capacity</string>
+  <string name="device_description_camera">Rear camera</string>
+  <string name="device_description_cpu">CPU</string>
+  <string name="device_description_ram">RAM</string>
+  <string name="device_description_resolution">Resolution</string>
+  <string name="device_description_screen">Screen size</string>
   <string name="device_details_title">Device details</string>
   <string name="device_display_layout_title">Mi 5 Features</string>
   <string name="device_edit_title">Rename phone</string>
