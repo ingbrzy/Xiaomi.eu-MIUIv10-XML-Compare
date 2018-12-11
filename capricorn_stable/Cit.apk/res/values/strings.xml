@@ -99,6 +99,11 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
   <string name="cit_blue_tooth_scan_check_title">Bluetooth scan</string>
   <string name="cit_blue_torch_on">Turn on blue flash light</string>
   <string name="cit_bluetooth_address_open_error">"Couldn't get Bluetooth address. An error occurred while opening Bluetooth device."</string>
+  <string name="cit_bluetooth_logging_confirm_info">this Bluetooth Logging will collect your device Bluetooth protocal datas, only record current Bluetooth releated operations. Involve privacy information data will also be recorded: Bluetooth Phonebook Access/Telephone Call History/SMS/MMS/Exchanged Files/Music Meta Data etc. this data is limited to XiaoMi company internal debugging with users but not be used for other purposes.</string>
+  <string name="cit_bluetooth_logging_confirm_ng">Reject</string>
+  <string name="cit_bluetooth_logging_confirm_notify">Do you agree to enable logging?</string>
+  <string name="cit_bluetooth_logging_confirm_ok">Agree</string>
+  <string name="cit_bluetooth_logging_confirm_title">Bluetooth Logging Privacy Warning</string>
   <string name="cit_bluetooth_not_support">"This device doesn't support Bluetooth"</string>
   <string name="cit_bluetooth_scan_retry">Scan again</string>
   <string name="cit_bluetooth_scanning">Scanning for nearby Bluetooth devices (this should take about 4 seconds)…</string>
