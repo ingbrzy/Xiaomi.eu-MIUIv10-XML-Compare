@@ -313,4 +313,37 @@
         <item>@string/beauty_level_4</item>
         <item>@string/beauty_level_5</item>
     </string-array>
+    <array name="live_filter_icon">
+        <item>@drawable/color_effect_live_none</item>
+        <item>@drawable/color_effect_live_fair</item>
+        <item>@drawable/color_effect_live_mousse</item>
+        <item>@drawable/color_effect_live_solar</item>
+        <item>@drawable/color_effect_live_blue</item>
+        <item>@drawable/color_effect_live_contrast</item>
+        <item>@drawable/color_effect_live_hongkong</item>
+        <item>@drawable/color_effect_live_years</item>
+        <item>@drawable/color_effect_live_deepblack</item>
+    </array>
+    <string-array name="live_filter_name">
+        <item>@string/color_effect_live_none</item>
+        <item>@string/color_effect_live_fair</item>
+        <item>@string/color_effect_live_mousse</item>
+        <item>@string/color_effect_live_solar</item>
+        <item>@string/color_effect_live_blue</item>
+        <item>@string/color_effect_live_contrast</item>
+        <item>@string/color_effect_live_hongkong</item>
+        <item>@string/color_effect_live_years</item>
+        <item>@string/color_effect_live_deepblack</item>
+    </string-array>
+    <string-array name="live_filter_directory_name">
+        <item>LIVE-NONE</item>
+        <item>LIVE-FAIR</item>
+        <item>LIVE-MOUSSE</item>
+        <item>LIVE-SOLAR</item>
+        <item>LIVE-BLUE</item>
+        <item>LIVE-CONTRAST</item>
+        <item>LIVE-HONGKONG</item>
+        <item>LIVE-YEARS</item>
+        <item>LIVE-DEEPBLACK</item>
+    </string-array>
 </resources>
