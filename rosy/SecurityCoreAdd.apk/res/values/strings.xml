@@ -149,7 +149,7 @@ Make sure the name of your corporation is correct. Read and agree to the related
   <string name="function_not_support">Not supported on this device</string>
   <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>
   <string name="gms_open_button">Turn on</string>
-  <string name="gms_title">Turn on Google services</string>
+  <string name="gms_title">Dual app for Google services</string>
   <string name="goToSecondSpacce">Go to Second space</string>
   <string name="go_on_import">Keep importing</string>
   <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
