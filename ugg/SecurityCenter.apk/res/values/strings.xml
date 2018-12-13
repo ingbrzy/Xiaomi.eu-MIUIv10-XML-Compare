@@ -1200,7 +1200,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="main_button_mi_sim_close">Activate Mi SIM</string>
   <string name="main_button_mi_sim_open">View details</string>
   <string name="main_button_usage_adjust">Sync mobile data usage</string>
-  <string name="main_button_usage_adjust_manual">Set data usage limit</string>
+  <string name="main_button_usage_adjust_manual">Set data usage</string>
   <string name="main_button_usage_adjusting">Changing…</string>
   <string name="main_button_usage_adjusting_bill">Changing…</string>
   <string name="main_button_usage_package_setting">Set data usage limit</string>
@@ -1711,10 +1711,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="pref_about_traffic_title">Data usage settings</string>
   <string name="pref_adjust_data_usage">Carrier message template</string>
   <string name="pref_adjust_data_usage_summary">After you changed the calibration template, MIUI will use it to get data usage stats from your carrier</string>
-  <string name="pref_adjust_data_usage_value">Changed</string>
   <string name="pref_adjust_traffic_data">Set data usage</string>
   <string name="pref_allow_connect_network_title">Overseas data roaming</string>
-  <string name="pref_auto_adjust_settings">Auto adjust data usage stats settings</string>
   <string name="pref_auto_adjust_traffic">Auto adjust data usage stats</string>
   <string name="pref_automatic_adjust">Sync carrier data usage</string>
   <string name="pref_avaible_traffic">Data plan</string>
@@ -1726,7 +1724,6 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="pref_category_title_module_settings">Feature settings</string>
   <string name="pref_category_title_other">Additional settings</string>
   <string name="pref_category_title_securitycenter_settings">General</string>
-  <string name="pref_confirm_operator_setting">Make sure the info you entered is correct</string>
   <string name="pref_correction_setting">Calibration template settings</string>
   <string name="pref_correction_setting_switch">Use custom calibration template</string>
   <string name="pref_correction_sms_content">Calibration template</string>
