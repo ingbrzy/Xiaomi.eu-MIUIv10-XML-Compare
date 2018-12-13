@@ -52,7 +52,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="nonui_mode_config_description">"Don't light up screen for notifications, turn off LED light, fingerprint sensor, and touch controls to save battery when MIUI detects you aren't using your device."</string>
   <string name="nonui_mode_config_title">Non-interactive mode</string>
   <string name="performance_category">Performance</string>
-  <string name="power_center">Power</string>
+  <string name="power_center">Battery usage</string>
   <string name="power_checker_background_cpu_multi_apps_title">%1$s runs abnormally</string>
   <string name="power_checker_background_cpu_title">%1$s runs abnormally</string>
   <string name="power_checker_background_gps_multi_apps_title">%1$s gets location info frequently</string>
