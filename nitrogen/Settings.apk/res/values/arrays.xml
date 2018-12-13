@@ -3069,7 +3069,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/wifi_ap_choose_5G</item>
     </string-array>
     <string-array name="wifi_ap_band_config_2G_only">
-        <item>@string/wifi_ap_choose_auto</item>
         <item>@string/wifi_ap_choose_2G</item>
     </string-array>
     <string-array name="wifi_ap_band_config_full">
