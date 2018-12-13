@@ -35,7 +35,7 @@
   <string name="accessibility_hdr_off">HDR is off</string>
   <string name="accessibility_hdr_on">HDR is on</string>
   <string name="accessibility_intent_done_apply">Done</string>
-  <string name="accessibility_intent_done_retry">Retake</string>
+  <string name="accessibility_intent_done_retry">Retry</string>
   <string name="accessibility_mode_dismiss_button">Close Mode Selection button</string>
   <string name="accessibility_more">More</string>
   <string name="accessibility_open">Turned on</string>
