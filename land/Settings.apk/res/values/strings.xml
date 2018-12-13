@@ -288,11 +288,11 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="application_item_disable">Deny</string>
   <string name="application_item_permission">Allow</string>
   <string name="application_lock_name">App lock</string>
-  <string name="application_manager_section_title">App settings</string>
+  <string name="application_manager_section_title">Apps</string>
   <string name="application_permission_manager">App permissions</string>
   <string name="application_restrictions">Allow apps and content</string>
   <string name="application_size_label">App</string>
-  <string name="applications_settings">Installed apps</string>
+  <string name="applications_settings">Manage apps</string>
   <string name="applications_settings_header">App settings</string>
   <string name="applications_settings_summary">Manage apps, set up quick launch shortcuts</string>
   <string name="apply_fingerprint_to_category_title">Apply fingerprint to…</string>
@@ -1201,6 +1201,12 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_cpu4_info">Quad-core</string>
   <string name="device_cpu6_info">Hexa-core</string>
   <string name="device_cpu8_info">Octa-core</string>
+  <string name="device_description_battery">Battery capacity</string>
+  <string name="device_description_camera">Rear camera</string>
+  <string name="device_description_cpu">CPU</string>
+  <string name="device_description_ram">RAM</string>
+  <string name="device_description_resolution">Resolution</string>
+  <string name="device_description_screen">Screen size</string>
   <string name="device_display_layout_title">Features</string>
   <string name="device_edit_title">Rename phone</string>
   <string name="device_feedback">Send feedback about this device</string>
@@ -4179,7 +4185,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_alert_window_settings">Draw over other apps</string>
   <string name="system_alert_window_summary" formatted="false">%d of %d apps allowed to draw on top of other apps</string>
   <string name="system_and_device_section_title">System &amp; device</string>
-  <string name="system_app_settings">System apps</string>
+  <string name="system_app_settings">System app settings</string>
   <string name="system_apps_updater">System apps updater</string>
   <string name="system_backup_section_title">Backup</string>
   <string name="system_package">System updates can’t be installed on external media.</string>
