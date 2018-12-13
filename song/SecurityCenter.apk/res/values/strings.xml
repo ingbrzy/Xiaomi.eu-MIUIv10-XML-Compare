@@ -1200,7 +1200,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="main_button_mi_sim_close">Activate Mi SIM</string>
   <string name="main_button_mi_sim_open">View details</string>
   <string name="main_button_usage_adjust">Sync mobile data usage</string>
-  <string name="main_button_usage_adjust_manual">Set data usage limit</string>
+  <string name="main_button_usage_adjust_manual">Set data usage</string>
   <string name="main_button_usage_adjusting">Changing…</string>
   <string name="main_button_usage_adjusting_bill">Changing…</string>
   <string name="main_button_usage_package_setting">Set data usage limit</string>
