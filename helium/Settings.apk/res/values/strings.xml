@@ -353,12 +353,12 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="application_item_disable">Deny</string>
   <string name="application_item_permission">Allow</string>
   <string name="application_lock_name">App lock</string>
-  <string name="application_manager_section_title">App settings</string>
+  <string name="application_manager_section_title">Apps</string>
   <string name="application_permission_manager">App permissions</string>
   <string name="application_permissions">App permissions</string>
   <string name="application_restrictions">Allow apps and content</string>
   <string name="application_size_label">App</string>
-  <string name="applications_settings">Installed apps</string>
+  <string name="applications_settings">Manage apps</string>
   <string name="applications_settings_header">App settings</string>
   <string name="applications_settings_summary">Manage apps, set up quick launch shortcuts</string>
   <string name="apply_fingerprint_to_category_title">Apply fingerprint to…</string>
@@ -1368,6 +1368,12 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_cpu4_info">Quad-core</string>
   <string name="device_cpu6_info">Hexa-core</string>
   <string name="device_cpu8_info">Octa-core</string>
+  <string name="device_description_battery">Battery capacity</string>
+  <string name="device_description_camera">Rear camera</string>
+  <string name="device_description_cpu">CPU</string>
+  <string name="device_description_ram">RAM</string>
+  <string name="device_description_resolution">Resolution</string>
+  <string name="device_description_screen">Screen size</string>
   <string name="device_display_layout_title">Mi 5 Features</string>
   <string name="device_edit_title">Rename phone</string>
   <string name="device_feedback">Send feedback about this device</string>
@@ -1537,6 +1543,10 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dtmf_tone_enable_title">Dial pad tones</string>
   <string name="dual_setting_simcard1">SIM 1</string>
   <string name="dual_setting_simcard2">SIM 2</string>
+  <string name="dump_log">Get issue-related logs</string>
+  <string name="dump_log_summary">"This feature is designed for generating the 284 log in Alpha and Beta versions of MIUI. Use it with caution.
+You can view generated logs in File Manager."</string>
+  <string name="dump_log_title">About this feature</string>
   <string name="edge_mode_back">Go back</string>
   <string name="edge_mode_back_summary">Double tap the edge of your phone to go back</string>
   <string name="edge_mode_clean">Clear system cache</string>
@@ -2648,6 +2658,8 @@ There are other users present on this device.
   <string name="miui_data_usage_menu_metered">Mobile hotspots</string>
   <string name="miui_enable_service_title">The service will perform these actions:</string>
   <string name="miui_experience_optimization">Turn on MIUI optimization</string>
+  <string name="miui_ime_xiaoai_voice_hint">Faster, more convenient way to enter text</string>
+  <string name="miui_ime_xiaoai_voice_title">Mi AI voice input</string>
   <string name="miui_lab_ai_cloud_closed">"AI preloading isn't available yet."</string>
   <string name="miui_lab_ai_preload_desc">AI preloading increases app launch speed</string>
   <string name="miui_lab_ai_preload_title">AI preloading</string>
@@ -3072,6 +3084,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="other_personal_settings">Personal settings</string>
   <string name="other_relative">Other</string>
   <string name="other_sound_settings">Other sounds</string>
+  <string name="others">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overlay_settings">Draw over other apps</string>
   <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Android.</string>
@@ -4623,7 +4636,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_alert_window_summary" formatted="false">%d of %d apps allowed to draw on top of other apps</string>
   <string name="system_and_device_section_title">System &amp; device</string>
   <string name="system_app">(System)</string>
-  <string name="system_app_settings">System apps</string>
+  <string name="system_app_settings">System app settings</string>
   <string name="system_apps_updater">System apps updater</string>
   <string name="system_backup_section_title">Backup</string>
   <string name="system_default_app">(System default)</string>
@@ -5695,6 +5708,7 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifiap_turn_on_hint">To use WLAN wifiap, turn it on.</string>
   <string name="wimax_settings">4G</string>
   <string name="window_animation_scale_title">Window animation scale</string>
+  <string name="wireless_connected">Connected</string>
   <string name="wireless_networks_settings_title">Wireless &amp; networks</string>
   <string name="wireless_off">Off</string>
   <string name="wireless_on">On</string>
