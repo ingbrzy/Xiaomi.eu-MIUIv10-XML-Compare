@@ -57,7 +57,7 @@
   <string name="activity_title_virus_settings">Settings</string>
   <string name="activity_title_white_list">Exceptions</string>
   <string name="ad_btn_default_text">Learn more</string>
-  <string name="ad_split_screen_title">Please switch to full screen mode to unlock</string>
+  <string name="ad_split_screen_title">Exit Split screen to unlock</string>
   <string name="ad_update_time">Last updated %s</string>
   <string name="ad_update_time_unKnown">Last update unknown</string>
   <string name="adb_install_no_network">Connect to the network and try again</string>
@@ -363,7 +363,7 @@ You will not lose any app data."</string>
   <string name="auto_task_result_summary_text">Set automated tasks for Battery saver</string>
   <string name="back_app_name">Go back to App lock</string>
   <string name="back_description_securitycenter">Back</string>
-  <string name="back_modifypassword">Go back to changing password</string>
+  <string name="back_modifypassword">Go back to changing password type</string>
   <string name="back_sound_data">Turn on mobile data and try again.</string>
   <string name="back_sound_fail">"Couldn't set. Carrier settings changed. Set the current SIM card as your data card, connect to the network, and try again."</string>
   <string name="back_sound_success">Set successfully</string>
@@ -503,6 +503,7 @@ You will not lose any app data."</string>
   <string name="card_main_applock_summary">Protect selected apps with a password.</string>
   <string name="card_main_applock_title">App lock</string>
   <string name="card_main_deepclean_action">Clear</string>
+  <string name="card_main_deepclean_facebook_title">Facebook cleaner</string>
   <string name="card_main_deepclean_qq_title">QQ cleaner</string>
   <string name="card_main_deepclean_summary">Delete unnecessary files</string>
   <string name="card_main_deepclean_title">Deep clean</string>
@@ -1194,7 +1195,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="main_button_mi_sim_close">Activate Mi SIM</string>
   <string name="main_button_mi_sim_open">View details</string>
   <string name="main_button_usage_adjust">Sync mobile data usage</string>
-  <string name="main_button_usage_adjust_manual">Set data usage limit</string>
+  <string name="main_button_usage_adjust_manual">Set data usage</string>
   <string name="main_button_usage_adjusting">Changing…</string>
   <string name="main_button_usage_adjusting_bill">Changing…</string>
   <string name="main_button_usage_package_setting">Set data usage limit</string>
@@ -1358,7 +1359,7 @@ to respond"</string>
   <string name="mixed_retry_button_text">Cancel</string>
   <string name="mixed_settings_help_how_to_record">How to set password</string>
   <string name="modify_password_mode">&lt;u&gt;Change password type&lt;/u&gt;</string>
-  <string name="modifypassword">Change password</string>
+  <string name="modifypassword">Change password type</string>
   <string name="monitor_app_add">Add</string>
   <string name="monitor_app_more">More</string>
   <string name="monitor_requests_from_pc">Manage installation of the apps via USB</string>
@@ -1463,7 +1464,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="numeric_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
   <string name="numeric_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
   <string name="numeric_pattern_entered_header">Set PIN successfully</string>
-  <string name="numeric_recording_incorrect_too_short">Enter at least %d digit.</string>
+  <string name="numeric_recording_incorrect_too_short">Enter at least %d digits.</string>
   <string name="numeric_recording_intro_header">Enter password</string>
   <string name="numeric_retry_button_text">Cancel</string>
   <string name="numeric_settings_help_how_to_record">How to set PIN</string>
@@ -1707,10 +1708,8 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="pref_about_traffic_title">Data usage settings</string>
   <string name="pref_adjust_data_usage">Carrier message template</string>
   <string name="pref_adjust_data_usage_summary">After you changed the calibration template, MIUI will use it to get data usage stats from your carrier</string>
-  <string name="pref_adjust_data_usage_value">Changed</string>
   <string name="pref_adjust_traffic_data">Set data usage</string>
   <string name="pref_allow_connect_network_title">Overseas data roaming</string>
-  <string name="pref_auto_adjust_settings">Auto adjust data usage stats settings</string>
   <string name="pref_auto_adjust_traffic">Auto adjust data usage stats</string>
   <string name="pref_automatic_adjust">Sync carrier data usage</string>
   <string name="pref_avaible_traffic">Data plan</string>
@@ -1722,7 +1721,6 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="pref_category_title_module_settings">Feature settings</string>
   <string name="pref_category_title_other">Additional settings</string>
   <string name="pref_category_title_securitycenter_settings">General</string>
-  <string name="pref_confirm_operator_setting">Make sure the info you entered is correct</string>
   <string name="pref_correction_setting">Calibration template settings</string>
   <string name="pref_correction_setting_switch">Use custom calibration template</string>
   <string name="pref_correction_sms_content">Calibration template</string>
