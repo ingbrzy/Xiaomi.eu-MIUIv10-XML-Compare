@@ -1076,18 +1076,6 @@
         <item>-13</item>
         <item>13</item>
     </integer-array>
-    <string-array name="region_global_support_face_facejiajia">
-        <item>IN</item>
-        <item>ID</item>
-        <item>RU</item>
-        <item>HK</item>
-        <item>TW</item>
-        <item>TR</item>
-        <item>TH</item>
-        <item>SG</item>
-        <item>MY</item>
-        <item>VN</item>
-    </string-array>
     <string-array name="region_global_support_face_sensetime">
         <item>IN</item>
         <item>ID</item>
@@ -1098,18 +1086,9 @@
         <item>MY</item>
     </string-array>
     <string-array name="device_support_face">
-        <item>jason</item>
-        <item>polaris</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>whyred</item>
-        <item>nitrogen</item>
         <item>wayne</item>
-        <item>ysl</item>
-        <item>sakura</item>
         <item>clover</item>
         <item>dipper</item>
-        <item>sirius</item>
         <item>ursa</item>
         <item>cactus</item>
         <item>cereus</item>
@@ -1123,11 +1102,6 @@
         <item>lavender</item>
         <item>lotus</item>
         <item>onc</item>
-    </string-array>
-    <string-array name="device_global_support_face_facejiajia">
-        <item>whyred</item>
-        <item>polaris</item>
-        <item>ysl</item>
     </string-array>
     <string-array name="device_global_support_face_sensetime">
         <item>dipper</item>
@@ -1145,14 +1119,7 @@
         <item>lavender</item>
     </string-array>
     <string-array name="device_use_cameraone">
-        <item>jason</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>whyred</item>
-        <item>nitrogen</item>
         <item>wayne</item>
-        <item>ysl</item>
-        <item>sakura</item>
         <item>clover</item>
         <item>cactus</item>
         <item>cereus</item>
@@ -1168,9 +1135,7 @@
         <item>lotus</item>
     </string-array>
     <string-array name="device_use_cameratwo">
-        <item>polaris</item>
         <item>dipper</item>
-        <item>sirius</item>
         <item>ursa</item>
         <item>beryllium</item>
         <item>equuleus</item>
