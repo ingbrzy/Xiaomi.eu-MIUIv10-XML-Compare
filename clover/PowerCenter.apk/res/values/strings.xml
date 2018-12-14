@@ -7,7 +7,7 @@
   <string name="battery_desc_display">Battery used by the display and backlight</string>
   <string name="battery_desc_other_apps">Power consumed by other apps</string>
   <string name="battery_desc_radio">Battery used by radio</string>
-  <string name="battery_desc_standby">Battery used when phone is idle</string>
+  <string name="battery_desc_standby">Battery used when tablet is idle</string>
   <string name="battery_desc_voice">Battery used by voice calls</string>
   <string name="battery_desc_wifi">Battery used by WLAN</string>
   <string name="battery_history_activity_title">History</string>
@@ -58,7 +58,7 @@
   <string name="power_consume_rank_title">Battery use</string>
   <string name="power_consume_total_hardware">Hardware: %s</string>
   <string name="power_consume_total_software">Apps: %s</string>
-  <string name="power_idle">Phone idle</string>
+  <string name="power_idle">Tablet idle</string>
   <string name="power_phone">Voice calls</string>
   <string name="power_screen">Screen</string>
   <string name="power_wifi">WLAN</string>

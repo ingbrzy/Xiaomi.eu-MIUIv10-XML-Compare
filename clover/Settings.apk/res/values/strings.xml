@@ -129,8 +129,8 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="accessibility_shortcut_service_title">Shortcut service</string>
   <string name="accessibility_summary_default_combination">%1$s / %2$s</string>
   <string name="accessibility_summary_source">Provided by %s</string>
-  <string name="accessibility_summary_state_disabled">OFF</string>
-  <string name="accessibility_summary_state_enabled">ON</string>
+  <string name="accessibility_summary_state_disabled">Off</string>
+  <string name="accessibility_summary_state_enabled">On</string>
   <string name="accessibility_sync_disabled">Sync disabled</string>
   <string name="accessibility_sync_enabled">Sync enabled</string>
   <string name="accessibility_sync_error">Sync error.</string>
@@ -1653,6 +1653,12 @@ Since data usage is measured by your tablet, and your carrier may account for us
   <string name="device_cpu4_info">Quad-core</string>
   <string name="device_cpu6_info">Hexa-core</string>
   <string name="device_cpu8_info">Octa-core</string>
+  <string name="device_description_battery">Battery capacity</string>
+  <string name="device_description_camera">Rear camera</string>
+  <string name="device_description_cpu">CPU</string>
+  <string name="device_description_ram">RAM</string>
+  <string name="device_description_resolution">Resolution</string>
+  <string name="device_description_screen">Screen size</string>
   <string name="device_display_layout_title">Mi 5 Features</string>
   <string name="device_edit_title">Rename pad</string>
   <string name="device_feedback">Send feedback about this device</string>
@@ -2795,10 +2801,10 @@ you should create an iCloud backup first."</string>
   <string name="location_mode_title">Mode</string>
   <string name="location_neighborhood_level">Let apps use data from WLAN and mobile networks to estimate your location</string>
   <string name="location_neighborhood_level_wifi">Location determined by WLAN</string>
-  <string name="location_network_based">Wi-Fi &amp; mobile network</string>
+  <string name="location_network_based">WLAN &amp; mobile network</string>
   <string name="location_no_recent_apps">No apps have requested location recently</string>
-  <string name="location_off_summary">OFF</string>
-  <string name="location_on_summary">ON / %1$s</string>
+  <string name="location_off_summary">Off</string>
+  <string name="location_on_summary">On / %1$s</string>
   <string name="location_scanning_bluetooth_always_scanning_description">Improve location by allowing system apps and services to detect Bluetooth devices at any time.</string>
   <string name="location_scanning_bluetooth_always_scanning_title">Bluetooth scanning</string>
   <string name="location_scanning_screen_title">Scanning</string>
@@ -3383,6 +3389,7 @@ Select your operating system:"</string>
   <string name="network_dashboard_title">Network &amp; Internet</string>
   <string name="network_detail">%s Network details</string>
   <string name="network_error">Network error</string>
+  <string name="network_name_input_error">"Couldn't save SSID. Try again."</string>
   <string name="network_operators_settings">Network operators</string>
   <string name="network_reset_not_available">Network reset is not available for this user</string>
   <string name="network_restrictions">Network restrictions</string>
@@ -6174,7 +6181,7 @@ Tap the plus to add words."</string>
   <string name="virus_scan_app_scanning">Scanning…</string>
   <string name="virus_scan_app_stop_scan">Stop scan</string>
   <string name="virus_scan_app_uninstall">Remove %d</string>
-  <string name="virus_scan_app_waiting">Waiting…</string>
+  <string name="virus_scan_app_waiting">Waiting\u0000\u0000\u0000\u0000\u0000</string>
   <string name="virus_scanner_auto_update">Update automatically</string>
   <string name="virus_scanner_date_formater">MMM d, yyyy</string>
   <string name="virus_scanner_lib_already_latest">Definitions are already up to date</string>
