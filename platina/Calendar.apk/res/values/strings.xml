@@ -220,7 +220,6 @@
   <string name="empty_event">"Can't create empty events"</string>
   <string name="english_premium_league">English premier league</string>
   <string name="event_account">Account</string>
-  <string name="event_action_arrive_station">Arrive station</string>
   <string name="event_action_delete">Delete</string>
   <string name="event_action_edit">Edit</string>
   <string name="event_all_day_label">All day</string>
@@ -236,9 +235,6 @@
   <string name="event_info_reminders_label_1">Reminder</string>
   <string name="event_info_repeat">Repeat</string>
   <string name="event_info_title">View event</string>
-  <string name="event_info_title_anniversary">Anniversary</string>
-  <string name="event_info_title_birthday">Birthday</string>
-  <string name="event_info_title_countdown">Countdown</string>
   <string name="event_info_title_invite">Meeting invitation</string>
   <string name="event_info_when">When</string>
   <string name="event_info_where">Where</string>
@@ -664,9 +660,9 @@ Check network settings and try again."</string>
   <string name="subscribe_channel_hint">"Subscribe to the services you like and receive daily updates on your home page.
 You can also add reminders so you don't miss anything important."</string>
   <string name="subscribe_channel_subscribe">Subscribe</string>
-  <string name="subscribe_channel_subscribing">Subscribed</string>
+  <string name="subscribe_channel_subscribing">Subscribing</string>
   <string name="subscribe_channel_title">Channel</string>
-  <string name="subscribing_card">Subscribed</string>
+  <string name="subscribing_card">Subscribing</string>
   <string name="summer_begins">立夏</string>
   <string name="summer_solstice">夏至</string>
   <string name="swipe_up_guide_hint_text">上滑发现更多</string>
@@ -689,8 +685,6 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="the_rains">雨水</string>
   <string name="the_spring_festival">春节</string>
   <string name="tian_gan">天干</string>
-  <string name="ticket_activity_card_date_day">日</string>
-  <string name="ticket_activity_card_date_month">月</string>
   <string name="ticket_card_date">%1$s月%2$s日</string>
   <string name="ticket_card_description">今日可预定</string>
   <string name="ticket_card_lunar">%1$s的火车票</string>
@@ -707,25 +701,7 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="too_long_location">Location name is too long</string>
   <string name="too_long_name">Name is too long</string>
   <string name="train_detail_title">火车行程</string>
-  <string name="train_event_add_arrive_station">Click to add destination</string>
-  <string name="train_event_arrive">%1$s arrive</string>
-  <string name="train_event_arrive_station_saved">Arrive station saved</string>
-  <string name="train_event_choose_arrive_station">Choose arrive station</string>
   <string name="train_event_delete_successfully">火车行程删除成功</string>
-  <string name="train_event_depart">%1$s depart</string>
-  <string name="train_event_disclaimer">"Disclaimer: data and service is provided by GaoTieGuanJia. If there is a problem, consult the company's customer service. Train information is for reference only, please refer to the official information."</string>
-  <string name="train_event_error_toast">Sorry, load failed!</string>
-  <string name="train_event_error_train_info">Train ticket is error.</string>
-  <string name="train_event_more_info">Train punctuality or late，train Wi-Fi and more</string>
-  <string name="train_event_reminder">%1$s</string>
-  <string name="train_event_service">Train servce</string>
-  <string name="train_event_station_date_format">MM-dd</string>
-  <string name="train_event_station_header_arrive_time">Arrival</string>
-  <string name="train_event_station_header_depart_time">Departure</string>
-  <string name="train_event_station_header_name">Station name</string>
-  <string name="train_event_station_header_stay_time">Stay</string>
-  <string name="train_event_station_stay_time">%1$s minutes</string>
-  <string name="train_event_station_time_format">HH:mm</string>
   <string name="travel_airport">Airport</string>
   <string name="travel_carriage_number_text">Car</string>
   <string name="travel_eta_advice">%2$s minute drive to %1$s.</string>
@@ -760,7 +736,7 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="united_nations_day">联合国日</string>
   <string name="unsubscribe_card">Unsubscribe</string>
   <string name="unsubscribe_card_success">Unsubscribed from “%1$s” successfully</string>
-  <string name="unsubscribing_card">Unsubscribed</string>
+  <string name="unsubscribing_card">Unsubscribing</string>
   <string name="user_notice_button_exit">Cancel</string>
   <string name="user_notice_button_ok">OK</string>
   <string name="user_notice_message">"By using this product, you agree to Xiaomi's %1$s and %2$s. Some features require internet connection, access to location, contacts and SMS to work normally."</string>

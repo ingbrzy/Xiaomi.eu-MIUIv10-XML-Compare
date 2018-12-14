@@ -198,7 +198,6 @@
   <string name="standard">Silent</string>
   <string name="standard_description">Silence ringtones for incoming calls and notifications</string>
   <string name="standard_title">Silent</string>
-  <string name="start_dump_log">Start get issue-related logs</string>
   <string name="start_security_permission_verify_text">Verify permissions with your Mi Account</string>
   <string name="status_bar_toggle_auto_brightness">Brightness</string>
   <string name="status_bar_toggle_battery_saver">Battery saver</string>

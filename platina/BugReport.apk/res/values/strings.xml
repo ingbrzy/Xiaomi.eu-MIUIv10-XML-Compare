@@ -125,7 +125,6 @@
   <string name="feedback_status_change_notification_title">"Your report's progress was updated"</string>
   <string name="feedback_status_collect_log_failed">"Couldn't get logs"</string>
   <string name="feedback_status_commit_failed_title">"Couldn't send report"</string>
-  <string name="feedback_status_commit_in_queue_title">Waiting…</string>
   <string name="feedback_status_commit_succ_title">Sent</string>
   <string name="feedback_status_commit_uploading_title">Sending…</string>
   <string name="feedback_status_forum_reply">Reply</string>
@@ -224,6 +223,7 @@
   <string name="michat_pull_to_refresh_pull_label">Pull down to view history</string>
   <string name="michat_pull_to_refresh_refreshing_label">Loading history…</string>
   <string name="michat_pull_to_refresh_release_label">Release to view history</string>
+  <string name="michat_queue_pos_update">There are %1$d people in front of you, wait a moment…</string>
   <string name="michat_return_to_outside">Exit</string>
   <string name="michat_service_unavailiable">"Couldn't get info, try again later"</string>
   <string name="michat_skillset_business_type_title">Select service</string>
@@ -313,7 +313,7 @@
   <string name="select_system_app_tag">Select an issue</string>
   <string name="submit_dialog_cancel">"Don't agree"</string>
   <string name="submit_dialog_confirm">Agree</string>
-  <string name="submit_dialog_content">&lt;Data&gt;"You must agree to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt; to be able to use Feedback. The issues you report along with the items you attach (might contain personal information, as well as the information about your device and network) will be uploaded to MIUI's servers. This will help us locate and solve the problems you report."&lt;/Data&gt;</string>
+  <string name="submit_dialog_content">&lt;Data&gt;"Your feedback, along with attachments and logs, will be sent to MIUI's servers. It may contain personal info and your location data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="submit_dialog_content_global">&lt;Data&gt;"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers. The information about your threads and forum activity will also be collected for analysis and further communication. Logs may contain personal info and your location data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="submit_dialog_title">Send report</string>
   <string name="submit_feedback_info_failed">"Couldn't send report"</string>
@@ -341,6 +341,7 @@
   <string name="toast_feedback_pending_wlan">"Report will be sent when you're connected to a WLAN network"</string>
   <string name="toast_feedback_submitted">Report has been sent</string>
   <string name="toast_feedback_submitting">Sending…</string>
+  <string name="toast_feedbackservice_in_submit">Handling previous feedback…</string>
   <string name="toast_fill_brackets">Your report is missing some info</string>
   <string name="toast_loading_app_id">Getting info…</string>
   <string name="toast_log_not_exists">"The required log was deleted or doesn't exist"</string>

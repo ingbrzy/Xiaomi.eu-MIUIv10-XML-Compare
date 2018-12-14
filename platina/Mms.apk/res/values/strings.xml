@@ -84,9 +84,9 @@
   <string name="cmcc_privacy">China Mobile Carrier Privacy Agreement</string>
   <string name="complain_input_number">Enter your phone number</string>
   <string name="complain_jump">Skip</string>
-  <string name="complain_message_title">Complain</string>
+  <string name="complain_message_title">Report</string>
   <string name="complain_ok">OK</string>
-  <string name="complain_phone_number">phone number</string>
+  <string name="complain_phone_number">Phone number (optional)</string>
   <string name="complain_reason">Why are you reporting this message?</string>
   <string name="complain_success">Thanks for your feedback. It helps us make Messaging better!</string>
   <string name="complain_tips">"The content of the most recent message you report will be uploaded to our servers along with the phone number you provide. Our service providers will review the reported message.
