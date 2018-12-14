@@ -977,7 +977,6 @@ Try again in %2$d seconds."</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
   <string name="lock_screen_magazine_default_content">Daily portion of fresh images</string>
-  <string name="lock_screen_magazine_default_entry_title">Wallpaper details</string>
   <string name="lock_screen_magazine_default_title">Music</string>
   <string name="lock_screen_no_sim_card_emergency_only">Emergency calls only</string>
   <string name="lock_screen_no_sim_card_no_service">No service</string>
@@ -1195,7 +1194,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="open_camera_hint_text">Swipe left to open camera</string>
   <string name="open_extreme_power_save_mode_title">Turn on Extreme battery saver</string>
   <string name="open_lock_screen_magazine_hint_text">Swipe right for more options</string>
-  <string name="open_remote_center_hint_text">Swipe right to open Shortcuts</string>
+  <string name="open_remote_center_hint_text">Swipe right to open Control center</string>
   <string name="other">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overview">Overview</string>
@@ -1298,7 +1297,6 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_batterysaver_label">Battery saver</string>
   <string name="quick_settings_bluetooth_detail_empty_text">No paired devices available</string>
   <string name="quick_settings_bluetooth_label">Bluetooth</string>
-  <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d Devices)</string>
   <string name="quick_settings_bluetooth_off_label">Bluetooth is off</string>
   <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTO</string>
   <string name="quick_settings_brightness_dialog_title">Brightness</string>
@@ -1341,7 +1339,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_done">Done</string>
   <string name="quick_settings_drivemode_label">Car mode</string>
   <string name="quick_settings_dual_location_label">Dual GPS</string>
-  <string name="quick_settings_edit_label">More</string>
+  <string name="quick_settings_edit_label">Edit</string>
   <string name="quick_settings_extreme_batterysaver_label">Extreme battery saver</string>
   <string name="quick_settings_flashlight_label">Flashlight</string>
   <string name="quick_settings_gps_label">GPS</string>
@@ -1382,9 +1380,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_sync_label">Sync</string>
   <string name="quick_settings_tethering_label">Tethering</string>
   <string name="quick_settings_tiles">default</string>
-  <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,edit</string>
+  <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,quietmode,batterysaver,extremebatterysaver,drivemode,powermode,vibrate,hotspot,sync,screenbutton,edit</string>
   <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
-  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,edit,papermode,quietmode,batterysaver,extremebatterysaver,drivemode,powermode,vibrate,hotspot,sync,screenbutton</string>
+  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,quietmode,batterysaver,extremebatterysaver,drivemode,powermode,vibrate,hotspot,sync,screenbutton,edit</string>
   <string name="quick_settings_time_label">Time</string>
   <string name="quick_settings_toast_drag_to_enable_custom_tile">To add an item, press and hold it, and then drag it to the upper part of the panel.</string>
   <string name="quick_settings_user_label">Me</string>
