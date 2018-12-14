@@ -232,6 +232,7 @@ in Portrait mode"</string>
   <string name="lighting_pattern_stage">Stage</string>
   <string name="live_edit_exit_confirm">Exit</string>
   <string name="live_edit_exit_message">Discard capture?</string>
+  <string name="live_edit_share_title">Share</string>
   <string name="live_speed_extreme_fast">Fastest</string>
   <string name="live_speed_extreme_slow">Slowest</string>
   <string name="live_speed_fast">Fast</string>
