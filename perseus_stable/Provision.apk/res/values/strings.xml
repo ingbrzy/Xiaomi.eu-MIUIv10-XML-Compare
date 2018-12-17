@@ -16,7 +16,7 @@
   <string name="app_name">Provision</string>
   <string name="application_permissions">App permissions</string>
   <string name="back">Back</string>
-  <string name="cm_terms_content">"In order to improve the services provided to you, the mobile network operator of your choice may upload your personal data and the info about this device to its servers using WLAN networks or mobile data connection. This information will only be used for statistical purposes in order to improve the quality of the services and provide more personalized content. This information won't be used to identify you personally and won't be disclosed to third parties."</string>
+  <string name="cm_terms_content">"In order to improve the services provided to you, the mobile network operator of your choice may upload your personal data and the info about this device to its servers using Wi-Fi networks or mobile data connection. This information will only be used for statistical purposes in order to improve the quality of the services and provide more personalized content. This information won't be used to identify you personally and won't be disclosed to third parties."</string>
   <string name="cm_terms_title">Mobile Network Operator Agreement</string>
   <string name="congratulation_label">"You're ready to rock!​"</string>
   <string name="congratulation_swipe">Swipe up to enter the system</string>
@@ -58,6 +58,9 @@
   <string name="other_settings_ad_enable_summary">Receive personalized ads based on your behavior data</string>
   <string name="other_settings_auto_update">Update automatically</string>
   <string name="other_settings_auto_update_summary">MIUI will select the best moment to install updates</string>
+  <string name="other_settings_enhanced_lockscreen">Wallpaper Carousel</string>
+  <string name="other_settings_enhanced_lockscreen_summary">Get curated images and stories delivered to your Lock screen daily. Terms and conditions apply.</string>
+  <string name="other_settings_enhanced_lockscreen_summary_index">Terms and conditions</string>
   <string name="other_settings_location">Location</string>
   <string name="other_settings_location_summary">Allow apps to access your location</string>
   <string name="other_settings_upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
@@ -65,6 +68,7 @@
   <string name="other_settings_user_experience">User Experience Program</string>
   <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats with us. View details</string>
   <string name="other_settings_user_experience_summary_index">View details</string>
+  <string name="poco_agree_terms_other">(Including POCO Launcher Privacy Policy and User Agreement)</string>
   <string name="pref_title_data_slot">Preferred data SIM card</string>
   <string name="pref_title_voice_slot">Preferred voice SIM card</string>
   <string name="privacy_policy">Privacy Policy</string>
@@ -111,8 +115,8 @@ You must agree to Kika Privacy Policy before using this feature."</string>
 1. When the screen is on.
 2. When you're listening to music with your screen off."</string>
   <string name="voice_assist_desp">Say \"Mi AI\" into your phone. Mi AI will recognize your voice and will be able to control your device.</string>
-  <string name="voice_assist_desp_screen_light">After the screen lights up, say \"Mi AI\" into your phone. Mi AI will recognize your voice and will be able to control your device.</string>
   <string name="voice_assist_title">Wake with voice</string>
   <string name="welcome">Welcome</string>
   <string name="wizard_script_uri">android.resource://com.android.provision/raw/wizard_script</string>
+  <string name="zone_picker_title">Choose time zone</string>
 </resources>
