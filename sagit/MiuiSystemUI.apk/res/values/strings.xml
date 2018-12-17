@@ -980,10 +980,10 @@ Try again in %2$d seconds."</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
   <string name="lock_screen_magazine_default_content">Daily portion of fresh images</string>
   <string name="lock_screen_magazine_default_title">Music</string>
+  <string name="lock_screen_magazine_global_button_text">more</string>
   <string name="lock_screen_no_sim_card_emergency_only">Emergency calls only</string>
   <string name="lock_screen_no_sim_card_no_service">No service</string>
   <string name="lock_wallpaper_enter">Enter</string>
-  <string name="lock_wallpaper_learn_more">More</string>
   <string name="lockscreen_access_pattern_area">Pattern area.</string>
   <string name="lockscreen_access_pattern_cell_added">Cell added</string>
   <string name="lockscreen_access_pattern_cell_added_verbose">Cell %1$s added</string>
@@ -1299,7 +1299,6 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_batterysaver_label">Battery saver</string>
   <string name="quick_settings_bluetooth_detail_empty_text">No paired devices available</string>
   <string name="quick_settings_bluetooth_label">Bluetooth</string>
-  <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d Devices)</string>
   <string name="quick_settings_bluetooth_off_label">Bluetooth is off</string>
   <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTO</string>
   <string name="quick_settings_brightness_dialog_title">Brightness</string>

@@ -1208,6 +1208,20 @@
     return v0
 .end method
 
+.method public static isDisableBackSkinBeautify()Z
+    .locals 2
+
+    const-string/jumbo v0, "disable_back_camera_skin_beauty"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static isEffectWatermarkFilted()Z
     .locals 2
 
@@ -1275,6 +1289,20 @@
     const/4 v0, 0x1
 
     goto :goto_0
+.end method
+
+.method public static isFrontFaceBeautyDefaultOff()Z
+    .locals 2
+
+    const-string/jumbo v0, "is_front_face_beauty_default_off"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
 .end method
 
 .method public static isFrontFingerSensor()Z
