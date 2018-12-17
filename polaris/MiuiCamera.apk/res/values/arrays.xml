@@ -336,7 +336,7 @@
         <item>@string/color_effect_live_deepblack</item>
     </string-array>
     <string-array name="live_filter_directory_name">
-        <item>LIVE-NONE</item>
+        <item></item>
         <item>LIVE-FAIR</item>
         <item>LIVE-MOUSSE</item>
         <item>LIVE-SOLAR</item>

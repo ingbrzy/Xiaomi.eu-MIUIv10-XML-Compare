@@ -73,7 +73,7 @@ and optimizes your photos based on this info"</string>
   <string name="beauty_body_body">瘦身</string>
   <string name="beauty_body_head">头部</string>
   <string name="beauty_body_legged">长腿</string>
-  <string name="beauty_body_reset_tip">美体效果已清除</string>
+  <string name="beauty_body_reset_tip">塑型效果已清除</string>
   <string name="beauty_body_shoulder">肩部</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_makeup">美妆</string>
@@ -233,6 +233,11 @@ in Portrait mode"</string>
   <string name="live_edit_exit_confirm">Exit</string>
   <string name="live_edit_exit_message">Discard capture?</string>
   <string name="live_edit_share_title">Share</string>
+  <string name="live_error_confirm">Adjust</string>
+  <string name="live_error_message">Function Error</string>
+  <string name="live_error_title">Function Error</string>
+  <string name="live_reverse_confirm">Delete</string>
+  <string name="live_reverse_message">Delete last segment?</string>
   <string name="live_speed_extreme_fast">Fastest</string>
   <string name="live_speed_extreme_slow">Slowest</string>
   <string name="live_speed_fast">Fast</string>
@@ -240,6 +245,7 @@ in Portrait mode"</string>
   <string name="live_speed_normal">Normal</string>
   <string name="live_speed_slow">Slow</string>
   <string name="live_sticker_fragment_tab_name">Magic</string>
+  <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating...</string>
   <string name="local_music">本地音乐</string>
   <string name="makeup_reset_toast">Removed makeup effects</string>
@@ -268,8 +274,10 @@ in Portrait mode"</string>
   <string name="popup_tip_3d_beauty_intro_text">3D Beauty</string>
   <string name="portait_effect_entry_blackwhite">B&amp;W</string>
   <string name="portait_effect_entry_cool">Mint</string>
+  <string name="portait_effect_entry_dusk">Dusk</string>
   <string name="portait_effect_entry_fairytale">Childhood</string>
   <string name="portait_effect_entry_japanese">Sky blue</string>
+  <string name="portait_effect_entry_lilt">Lilt</string>
   <string name="portait_effect_entry_maze">Maze</string>
   <string name="portait_effect_entry_mood">Emotions</string>
   <string name="portait_effect_entry_movie">Movie</string>
@@ -277,7 +285,9 @@ in Portrait mode"</string>
   <string name="portait_effect_entry_pink">Blush</string>
   <string name="portait_effect_entry_riddle">Riddle</string>
   <string name="portait_effect_entry_romance">Romantic</string>
+  <string name="portait_effect_entry_sepia">Sepia</string>
   <string name="portait_effect_entry_story">Story</string>
+  <string name="portait_effect_entry_tea">Tea</string>
   <string name="portrait_mode_depth_effect_success_hint">Depth effect</string>
   <string name="portrait_mode_lowlight_hint">"It's too dark now"</string>
   <string name="portrait_mode_too_close_hint">Move farther from the subject</string>
@@ -466,6 +476,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_touchafaec_default">touch-on</string>
   <string name="pref_camera_ultra_wide_ldc_description">在超广角模式下对畸变的画面进行矫正</string>
   <string name="pref_camera_ultra_wide_ldc_title">超广角畸变矫正</string>
+  <string name="pref_camera_ultra_wide_mode_title">超广角模式</string>
   <string name="pref_camera_video_bokeh_off">Video bokeh is closed</string>
   <string name="pref_camera_video_bokeh_on">Video bokeh</string>
   <string name="pref_camera_volumekey_function_default">timer</string>
@@ -479,7 +490,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_volumekey_function_entryvalue_zoom">zoom</string>
   <string name="pref_camera_volumekey_function_title">Volume buttons function</string>
   <string name="pref_camera_watermark_title">Add time stamp on photos</string>
-  <string name="pref_camera_whitebalance_default">auto</string>
+  <string name="pref_camera_whitebalance_default">1</string>
   <string name="pref_camera_whitebalance_entry_auto">AUTO</string>
   <string name="pref_camera_whitebalance_title">WB</string>
   <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
@@ -599,6 +610,8 @@ and brings out the people in the front."</string>
   <string name="ultra_wide_mode">超广角</string>
   <string name="ultra_wide_open_tip">超广角模式</string>
   <string name="ultra_wide_recommend_tip_hint">建议开启超广角模式</string>
+  <string name="ultra_widem_mode_use_hint_text">"开启超广角模式，为您记录更广阔的视野
+探索更多精彩的美"</string>
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
   <string name="user_agreement4">Privacy Policy</string>
