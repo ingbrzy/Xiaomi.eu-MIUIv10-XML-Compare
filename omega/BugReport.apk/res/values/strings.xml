@@ -82,6 +82,7 @@
   <string name="err_type_xiaomi_service">Customer service</string>
   <string name="error_no_connection">"Couldn't connect to the network"</string>
   <string name="feedback_bug_status_change_notification_desc">%1$s issue \"%2$s\"</string>
+  <string name="feedback_choose_app_tag">Select issue</string>
   <string name="feedback_choose_module">Select item</string>
   <string name="feedback_choose_module_hint">Required</string>
   <string name="feedback_choose_reproductivity">Reproductivity</string>
@@ -333,6 +334,7 @@
   <string name="title_nonsystem_app">Other apps</string>
   <string name="title_same_question_feedback_main">Similar issues in the MIUI forum</string>
   <string name="title_system_app">MIUI apps</string>
+  <string name="toast_app_tag_required">Select issue</string>
   <string name="toast_catch_full_log_catching">You can only generate one log at a time.</string>
   <string name="toast_catch_full_log_open_failed">"Couldn't start recording log."</string>
   <string name="toast_description_required">You need to write a description</string>
