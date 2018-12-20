@@ -50,6 +50,7 @@
   <string name="accessibility_action_divider_top_full">Top full screen</string>
   <string name="accessibility_airplane_mode">Airplane mode.</string>
   <string name="accessibility_ambient_display_charging">Charging</string>
+  <string name="accessibility_aspect_button">Fullscreen mode</string>
   <string name="accessibility_assistant">Quick ball</string>
   <string name="accessibility_back">Back</string>
   <string name="accessibility_battery_details">Open battery details</string>
@@ -112,7 +113,7 @@
   <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
   <string name="accessibility_divider">Split-screen divider</string>
   <string name="accessibility_drag_hint_message">Drag items to top of the screen</string>
-  <string name="accessibility_enter_lock_wallpaper">Tap to open Music</string>
+  <string name="accessibility_enter_lock_wallpaper">Tap to open Wallpaper Carousel</string>
   <string name="accessibility_ethernet_connected">Ethernet connected.</string>
   <string name="accessibility_ethernet_disconnected">Ethernet disconnected.</string>
   <string name="accessibility_fingerprint_dialog_app_icon">Application icon</string>
@@ -124,7 +125,7 @@
   <string name="accessibility_ime_switch_button">Switch input method button.</string>
   <string name="accessibility_key">Custom navigation button</string>
   <string name="accessibility_left_control_center_button">Shortcut</string>
-  <string name="accessibility_left_lock_screen_magazine_button">Music</string>
+  <string name="accessibility_left_lock_screen_magazine_button">Wallpaper Carousel</string>
   <string name="accessibility_location_active">Location requests active</string>
   <string name="accessibility_managed_profile">Work profile</string>
   <string name="accessibility_menu">Menu</string>
@@ -545,7 +546,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="dock_forced_resizable">App may not work with split-screen.</string>
   <string name="dock_keyguard_locked_failed_to_dock_text">"Split screen isn't supported on the Lock screen."</string>
   <string name="dock_non_resizeble_failed_to_dock_text">"App doesn't support Split screen."</string>
-  <string name="download_lock_wallpaper">Double tap to download Music</string>
+  <string name="download_lock_wallpaper">Double tap to download Wallpaper Carousel</string>
   <string name="doze_brightness_sensor_type"/>
   <string name="doze_pickup_subtype_performs_proximity_check"/>
   <string name="drag_to_add_tiles">Press and hold to add or rearrange items</string>
@@ -842,11 +843,16 @@ Use only the supplied charger."</string>
   <string name="keyguard_indication_charging_time_slowly">Charging slowly (%s until full)</string>
   <string name="keyguard_indication_trust_disabled">Device will stay locked until you manually unlock</string>
   <string name="keyguard_instructions_when_pattern_disabled">Press Menu to unlock.</string>
+  <string name="keyguard_left_calculator">Calculator</string>
+  <string name="keyguard_left_calendar">Calendar</string>
+  <string name="keyguard_left_contacts">Contacts</string>
   <string name="keyguard_left_mi_wallet">Mi Wallet</string>
-  <string name="keyguard_left_remotecentral">Calendar</string>
-  <string name="keyguard_left_smarthome">Contacts</string>
+  <string name="keyguard_left_music">Music</string>
+  <string name="keyguard_left_notes">Notes</string>
+  <string name="keyguard_left_remotecentral">Mi Remote</string>
+  <string name="keyguard_left_smarthome">Mi Home</string>
   <string name="keyguard_left_torch">Torch</string>
-  <string name="keyguard_left_view_lock_wallpaper">Music</string>
+  <string name="keyguard_left_view_lock_wallpaper">Wallpaper Carousel</string>
   <string name="keyguard_low_battery">Connect your charger.</string>
   <string name="keyguard_missing_sim_instructions">Insert a SIM card.</string>
   <string name="keyguard_missing_sim_instructions_long">The SIM card is missing or not readable. Insert a SIM card.</string>
@@ -950,11 +956,11 @@ Try again in %2$d seconds."</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
   <string name="lock_screen_magazine_default_content">Daily portion of fresh images</string>
-  <string name="lock_screen_magazine_default_title">Music</string>
+  <string name="lock_screen_magazine_default_title">Wallpaper Carousel</string>
+  <string name="lock_screen_magazine_global_button_text">more</string>
   <string name="lock_screen_no_sim_card_emergency_only">Emergency calls only</string>
   <string name="lock_screen_no_sim_card_no_service">No service</string>
   <string name="lock_wallpaper_enter">Enter</string>
-  <string name="lock_wallpaper_learn_more">More</string>
   <string name="lockscreen_access_pattern_area">Pattern area.</string>
   <string name="lockscreen_access_pattern_cell_added">Cell added</string>
   <string name="lockscreen_access_pattern_cell_added_verbose">Cell %1$s added</string>
@@ -1167,7 +1173,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="open_camera_hint_text">Swipe left to open camera</string>
   <string name="open_extreme_power_save_mode_title">Turn on Extreme battery saver</string>
   <string name="open_lock_screen_magazine_hint_text">Swipe right for more options</string>
-  <string name="open_remote_center_hint_text">Swipe right to open Control center</string>
+  <string name="open_remote_center_hint_text">Swipe right to open shortcuts</string>
   <string name="other">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overview">Overview</string>
@@ -1520,8 +1526,8 @@ be monitored"</string>
   <string name="status_bar_clear_all_button">Clear</string>
   <string name="status_bar_clock_date_format">E, MMM d</string>
   <string name="status_bar_clock_date_format_12">E, MMM d</string>
-  <string name="status_bar_clock_date_time_format">H:mm MMM d</string>
-  <string name="status_bar_clock_date_time_format_12">h:mm aa, MMM d</string>
+  <string name="status_bar_clock_date_time_format">H:mm E, MMM d</string>
+  <string name="status_bar_clock_date_time_format_12">h:mm aa, E, MMM d</string>
   <string name="status_bar_date_format">"E
 MMM d"</string>
   <string name="status_bar_date_format_12">"E
