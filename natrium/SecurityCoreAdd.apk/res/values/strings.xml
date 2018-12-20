@@ -18,8 +18,10 @@ this feature will be added to Second space automatically."</string>
   <string name="app_name">Security Core Component</string>
   <string name="back">Back</string>
   <string name="bind_device">Add devices</string>
+  <string name="button_input_password">Enter password</string>
   <string name="button_text_next_step">Next</string>
   <string name="button_text_next_step_timer">Next step (%d)</string>
+  <string name="button_touch">Put your finger on the sensor</string>
   <string name="can_not_delete_when_calling">"Can't delete spaces during a call"</string>
   <string name="can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
   <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
@@ -84,6 +86,8 @@ to be able to view them anytime"</string>
   <string name="dialog_title">Attention</string>
   <string name="dialog_title_service_error">Server error</string>
   <string name="dialog_undo_negative">"Don't revoke"</string>
+  <string name="dialog_verify">Verify your fingerprint</string>
+  <string name="dialog_verify_fingerprint_retry">"Couldn't verify fingerprint. Try again."</string>
   <string name="dir_switch_out_all_photos">Second space Gallery</string>
   <string name="disable">Turn off</string>
   <string name="do_not_ask">"Don't ask again"</string>
