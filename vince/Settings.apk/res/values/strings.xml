@@ -2171,6 +2171,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_anim_metal">Metal</string>
   <string name="gxzw_anim_pulse">Pulse</string>
   <string name="gxzw_anim_rhythm">Rhythm</string>
+  <string name="gxzw_anim_star">Starlight</string>
   <string name="gxzw_anim_title">Fingerprint animation</string>
   <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
   <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
@@ -2381,7 +2382,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_notification_status_title">Notifications</string>
+  <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
   <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
@@ -4656,7 +4657,7 @@ Possibly incorrect PIN."</string>
   <string name="sos_privacy_and_content_policy">User Agreement and Privacy Policy</string>
   <string name="sos_privacy_dialog_button_cancel">Cancel</string>
   <string name="sos_privacy_dialog_button_ok">Agree</string>
-  <string name="sos_privacy_dialog_message">"Read and agree to our %s before using this feature.r
+  <string name="sos_privacy_dialog_message">"Read and agree to our %s before using this feature.
 This feature needs permissions to access your location, use mobile networks, and read your contacts. Agree?"</string>
   <string name="sos_privacy_dialog_title">Terms and Conditions</string>
   <string name="sound_category_call_ringtone_vibrate_title">Ringtone &amp; notification sounds</string>
@@ -5211,8 +5212,9 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="turn_off_keyguard_password_alert_title">Turn off</string>
   <string name="turn_off_keyguard_password_confirm_msg">"Some security features won't work without your password."</string>
   <string name="turn_off_keyguard_password_wait_dialog">Turning off password…</string>
+  <string name="turn_off_keyguard_password_with_face_confirm_msg">"After you turn off your Lock screen password, recorded face data will be deleted. You won't be able to unlock the device using your face."</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">"You won't be able to unlock the device using your fingerprint after you turn off the password."</string>
-  <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">"After you turn off your Lock screen password, recorded fingerprints will be deleted. You won't be able to unlock the device using your fingerprint."</string>
+  <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">"After you turn off your Lock screen password, recorded fingerprints and face data will be deleted. You won't be able to unlock the device using your face or fingerprints."</string>
   <string name="turn_off_security_lock">Turn off lock</string>
   <string name="turn_on_keyguard_password">Turn on Lock screen password</string>
   <string name="turn_on_keyguard_password_alert">"Remember your password. If you forget it, you won't be able to restore it."</string>
