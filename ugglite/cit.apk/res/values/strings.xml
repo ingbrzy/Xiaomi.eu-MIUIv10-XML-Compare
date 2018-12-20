@@ -162,6 +162,7 @@ only in frame mode"</string>
   <string name="banding_title">"channel_banding [0-20M  1-40M]"</string>
   <string name="banding_title2">"channel_banding [0-20M  1-40M 3-80M]"</string>
   <string name="baseband_version">Baseband version</string>
+  <string name="battery_info">battery info</string>
   <string name="battery_info_ac_current_label">Charge current:</string>
   <string name="battery_info_ac_voltage_label">Charge voltage:</string>
   <string name="battery_info_awake_battery">Awake time on battery:</string>
