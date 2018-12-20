@@ -82,6 +82,8 @@ and optimizes your photos based on this info"</string>
   <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your device."</string>
   <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
+  <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
+  <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="color_effect_entry_berry">Berries</string>
   <string name="color_effect_entry_blackwhite">B&amp;W</string>
   <string name="color_effect_entry_cookie">Cookie</string>
@@ -95,6 +97,15 @@ and optimizes your photos based on this info"</string>
   <string name="color_effect_entry_soda">Soda</string>
   <string name="color_effect_entry_vivid">Vivid</string>
   <string name="color_effect_entry_warm">Sun</string>
+  <string name="color_effect_live_blue">Orchid</string>
+  <string name="color_effect_live_contrast">Xpro</string>
+  <string name="color_effect_live_deepblack">B&amp;W</string>
+  <string name="color_effect_live_fair">Pale</string>
+  <string name="color_effect_live_hongkong">Bauhinia</string>
+  <string name="color_effect_live_mousse">Mousse</string>
+  <string name="color_effect_live_none">Normal</string>
+  <string name="color_effect_live_solar">Sky blue</string>
+  <string name="color_effect_live_years">Sepia</string>
   <string name="config_name_group">Group selfie</string>
   <string name="config_name_hht">HHT</string>
   <string name="config_name_magic">Magic</string>
@@ -227,8 +238,10 @@ in Portrait mode"</string>
   <string name="popup_tip_3d_beauty_intro_text">3D Beauty</string>
   <string name="portait_effect_entry_blackwhite">B&amp;W</string>
   <string name="portait_effect_entry_cool">Mint</string>
+  <string name="portait_effect_entry_dusk">Dusk</string>
   <string name="portait_effect_entry_fairytale">Childhood</string>
   <string name="portait_effect_entry_japanese">Sky blue</string>
+  <string name="portait_effect_entry_lilt">Lilt</string>
   <string name="portait_effect_entry_maze">Maze</string>
   <string name="portait_effect_entry_mood">Emotions</string>
   <string name="portait_effect_entry_movie">Movie</string>
@@ -236,7 +249,9 @@ in Portrait mode"</string>
   <string name="portait_effect_entry_pink">Blush</string>
   <string name="portait_effect_entry_riddle">Riddle</string>
   <string name="portait_effect_entry_romance">Romantic</string>
+  <string name="portait_effect_entry_sepia">Sepia</string>
   <string name="portait_effect_entry_story">Story</string>
+  <string name="portait_effect_entry_tea">Tea</string>
   <string name="portrait_bokeh_first_tips">"Use Portrait mode to blur
 the background on your photos"</string>
   <string name="portrait_bokeh_text">Portrait mode</string>
@@ -657,6 +672,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
   <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
   <string name="pref_priority_storage_title">Save to SD card</string>
+  <string name="pref_privacy_title">Privacy Policy</string>
   <string name="pref_qc_focus_position_title">F</string>
   <string name="pref_qc_focus_position_value_default">0</string>
   <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
