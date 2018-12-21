@@ -127,12 +127,6 @@
         <item>Last autumn</item>
         <item>Last winter</item>
     </string-array>
-    <string-array name="weekend_title">
-        <item>Past weekends</item>
-        <item>Days to remember</item>
-        <item>Daily events</item>
-        <item>Ordinary &amp; Extraordinary</item>
-    </string-array>
     <string-array name="baby_sexy_value">
         <item>male</item>
         <item>female</item>
