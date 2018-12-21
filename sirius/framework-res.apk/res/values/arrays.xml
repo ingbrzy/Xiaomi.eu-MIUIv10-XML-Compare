@@ -55,7 +55,46 @@
         <item>com.tencent.mm</item>
     </string-array>
     <array name="config_autoBrightnessButtonBacklightValues" />
-    <array name="config_autoBrightnessDisplayValuesNits" />
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>31</item>
+        <item>31</item>
+        <item>31</item>
+        <item>46</item>
+        <item>46</item>
+        <item>46</item>
+        <item>56</item>
+        <item>56</item>
+        <item>56</item>
+        <item>64</item>
+        <item>80</item>
+        <item>86</item>
+        <item>90</item>
+        <item>92</item>
+        <item>103</item>
+        <item>106</item>
+        <item>112</item>
+        <item>121</item>
+        <item>132</item>
+        <item>145</item>
+        <item>167</item>
+        <item>184</item>
+        <item>207</item>
+        <item>227</item>
+        <item>258</item>
+        <item>303</item>
+        <item>324</item>
+        <item>364</item>
+        <item>445</item>
+    </integer-array>
     <array name="config_autoBrightnessKeyboardBacklightValues" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>8</item>
