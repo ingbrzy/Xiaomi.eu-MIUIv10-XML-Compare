@@ -88,8 +88,6 @@
   <string name="alert_secret_album_message">Swipe down while in the Albums tab to view hidden album.</string>
   <string name="alert_secret_album_message_lower_case">  swipe down in Albums to view</string>
   <string name="alert_secret_album_title">How to view hidden album</string>
-  <string name="alert_selection_description">AI marks the best photo among similar images with a star.</string>
-  <string name="alert_selection_title">Selected by AI</string>
   <string name="all_faces">Photos with this person</string>
   <string name="all_items_synced">All albums have been backed up to Mi Cloud</string>
   <string name="all_video_album_display_name">All videos</string>
@@ -151,7 +149,6 @@
   <string name="backup_device_space_low_title">Not enough storage space</string>
   <string name="backup_dirty_num">Total: %s</string>
   <string name="backup_dirty_tip">Not backed up photos and videos</string>
-  <string name="backup_file_over_size_desc">"Photos bigger than %1$s and videos bigger than %2$s can't be backed up."</string>
   <string name="backup_immediately">Back up</string>
   <string name="backup_need_sync_desc">Tap to continue backing up</string>
   <string name="backup_need_sync_title">Backup stopped</string>
@@ -219,6 +216,7 @@
   <string name="card_title_monthly_foods">Delicious</string>
   <string name="card_title_monthly_pets">Furry paws</string>
   <string name="card_title_party">Parties</string>
+  <string name="card_title_past_week_end">Past weekends</string>
   <string name="card_title_pastyear_activities">Last-year events</string>
   <string name="card_title_pastyear_party">Last-year parties</string>
   <string name="card_title_pastyear_sports">Last-year workouts</string>
@@ -671,12 +669,10 @@
   <string name="collage_poster_global_green_plant_text">JOURNEY</string>
   <string name="collage_poster_global_summer_flower_text">SUMMER</string>
   <string name="collage_poster_global_tea_text">TEA BREAK</string>
-  <string name="collage_ratio_text">Aspect ratio</string>
   <string name="collage_rotate">Rotate</string>
-  <string name="collage_select_image_range">Collages can contain 1-6 photos</string>
+  <string name="collage_select_image_range">Collages can contain 1-4 photos</string>
   <string name="collage_title_layout">Layout</string>
   <string name="collage_title_poster">Poster</string>
-  <string name="collage_title_stitching">Film roll</string>
   <string name="collaps_people">Hide</string>
   <string name="com.qzone_com.qzonex.module.operation.ui.QZonePublishMoodActivity">Qzone</string>
   <string name="com.sina.weibo_com.sina.weibo.composerinde.ComposerDispatchActivity">Weibo</string>
@@ -901,7 +897,6 @@ Take more photos of your friends!"</string>
 are available"</string>
   <string name="feature_guidance_video_editor_smart_effects">New effects are available</string>
   <string name="fileSizeSuffix">%1$s%2$s</string>
-  <string name="filter_bg_color_component">1.0</string>
   <string name="filter_bi_memory">Memory</string>
   <string name="filter_bi_mono">Mono</string>
   <string name="filter_bi_pink">Pink</string>
@@ -940,18 +935,17 @@ are available"</string>
   <string name="filter_master_rise">Rise</string>
   <string name="filter_master_somber">Somber</string>
   <string name="filter_original">None</string>
-  <string name="filter_people_bw">B&amp;W</string>
   <string name="filter_people_fairytale">Kids</string>
+  <string name="filter_people_heart">Emotions</string>
   <string name="filter_people_japanese">Fresh</string>
-  <string name="filter_people_lilt">Lilt</string>
   <string name="filter_people_maze">Maze</string>
+  <string name="filter_people_mint">Mint</string>
   <string name="filter_people_movie">Movie</string>
   <string name="filter_people_nature">Natural</string>
   <string name="filter_people_pink">Blush</string>
   <string name="filter_people_riddle">Riddle</string>
-  <string name="filter_people_sepia">Sepia</string>
+  <string name="filter_people_roman">Romantic</string>
   <string name="filter_people_story">Story</string>
-  <string name="filter_people_tea">Tea</string>
   <string name="filter_scene_city">City</string>
   <string name="filter_scene_df">Mist</string>
   <string name="filter_scene_koizora">Amour</string>
@@ -1288,6 +1282,7 @@ to personalize Gallery"</string>
   <string name="photo_editor_talkback_undo">Undo</string>
   <string name="photo_editor_text">Text</string>
   <string name="photo_editor_transition_image_view">photo_view</string>
+  <string name="photo_editor_transition_menu_view">menu_view</string>
   <string name="photo_movie_menu_loading">@string/photo_print_menu_loading</string>
   <string name="photo_movie_module_failed">@string/error_install_connect_fail</string>
   <string name="photo_movie_module_finish">Loaded Clips successfully</string>
