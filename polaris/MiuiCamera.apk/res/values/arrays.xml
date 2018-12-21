@@ -84,6 +84,7 @@
         <item>@string/pref_video_quality_entry_1080p</item>
         <item>@string/pref_video_quality_entry_1080p_60fps</item>
         <item>@string/pref_video_quality_entry_720p</item>
+        <item>@string/pref_video_quality_entry_720p_60fps</item>
     </string-array>
     <string-array name="pref_video_quality_entryvalues">
         <item>@string/pref_video_quality_entry_value_4kuhd</item>
@@ -91,6 +92,7 @@
         <item>6</item>
         <item>@string/pref_video_quality_entry_value_1080p_60fps</item>
         <item>5</item>
+        <item>@string/pref_video_quality_entry_value_720p_60fps</item>
     </string-array>
     <string-array name="pref_video_encoder_entries">
         <item>@string/pref_video_encoder_entry_h264</item>
