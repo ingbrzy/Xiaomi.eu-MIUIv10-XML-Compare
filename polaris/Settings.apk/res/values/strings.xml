@@ -2701,7 +2701,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_notification_status_title">Notifications</string>
+  <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
   <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
@@ -5725,8 +5725,9 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="turn_off_keyguard_password_alert_title">Turn off</string>
   <string name="turn_off_keyguard_password_confirm_msg">"Some security features won't work without your password."</string>
   <string name="turn_off_keyguard_password_wait_dialog">Turning off password…</string>
+  <string name="turn_off_keyguard_password_with_face_confirm_msg">"After you turn off your Lock screen password, recorded face data will be deleted. You won't be able to unlock the device using your face."</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">"You won't be able to unlock the device using your fingerprint after you turn off the password."</string>
-  <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">"After you turn off your Lock screen password, recorded fingerprints will be deleted. You won't be able to unlock the device using your fingerprint."</string>
+  <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">"After you turn off your Lock screen password, recorded fingerprints and face data will be deleted. You won't be able to unlock the device using your face or fingerprints."</string>
   <string name="turn_off_security_lock">Turn off lock</string>
   <string name="turn_on_keyguard_password">Turn on Lock screen password</string>
   <string name="turn_on_keyguard_password_alert">"Remember your password. If you forget it, you won't be able to restore it."</string>
@@ -6236,13 +6237,13 @@ Tap the plus to add words."</string>
   <string name="wapi_cert_select">WAPI certificate</string>
   <string name="wapi_no">No</string>
   <string name="wapi_no_vaild_cert">"Looks like required certificates aren't installed. Install now?"</string>
-  <string name="wapi_password_empty">Please input the password</string>
+  <string name="wapi_password_empty">Enter password</string>
   <string name="wapi_password_hex_format_add">You must use an even number of hexadecimal characters</string>
-  <string name="wapi_password_hex_format_invalid">Invalid hexadecimal characters</string>
-  <string name="wapi_password_hex_length_invalid">The count of hexadecimal characters must be even number</string>
+  <string name="wapi_password_hex_format_invalid">Invalid password format</string>
+  <string name="wapi_password_hex_length_invalid">The count of hexadecimal characters must be an even number</string>
   <string name="wapi_password_is_empty">"Password can't be blank"</string>
   <string name="wapi_password_is_not_hex_format">Invalid hexadecimal characters</string>
-  <string name="wapi_password_length_invalid">The password must be: 8-64 characters</string>
+  <string name="wapi_password_length_invalid">Password must be 8 to 64 characters long</string>
   <string name="wapi_password_length_is_max">Password can be up to 64 characters long</string>
   <string name="wapi_password_length_is_min">Password must be at least 8 characters long</string>
   <string name="wapi_password_length_is_min_to_max">Password must contain 8-64 characters</string>
