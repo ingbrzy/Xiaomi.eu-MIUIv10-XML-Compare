@@ -404,6 +404,7 @@ Free up at least %s."</string>
   <string name="trans_calculating_media_description">Media files</string>
   <string name="trans_calculating_tip">Calculating %s…</string>
   <string name="trans_cancel_confirm">Transfer in progress, stop now?</string>
+  <string name="trans_cancel_dialog_survey_title">Why did you interrupt the transfer?</string>
   <string name="trans_cancel_selection_message">If you exit Mi Mover, the ongoing transfer will be interrupted. Wait until the transfer is complete.</string>
   <string name="trans_cancel_selection_title">Stay in Mi Mover</string>
   <string name="trans_cancelling">Canceling…</string>
@@ -440,11 +441,12 @@ Free up at least %s."</string>
   <string name="trans_device_auto_reconnecting">Device disconnected. Reconnecting automatically…</string>
   <string name="trans_device_disconnected">Connection was interrupted</string>
   <string name="trans_device_wait_for_reconnecting">Connection was interrupted. Connect again to continue.</string>
+  <string name="trans_dialog_survey_finish">Send</string>
   <string name="trans_disconnected_tips_message">Remote device disconnected. Connect again manually or cancel the transfer.</string>
   <string name="trans_disconnected_tips_title">Remote device disconnected</string>
   <string name="trans_failed_details_page_title">Unsuccessful transfers</string>
   <string name="trans_generate_qr_code_failed">"Couldn't create QR code"</string>
-  <string name="trans_generate_qrcode_failed">"Couldn't generate QR code. Try again."</string>
+  <string name="trans_generate_qrcode_failed">"Couldn't generate QR code. Close other apps and try again."</string>
   <string name="trans_generating_qrcode">Generating QR code…</string>
   <string name="trans_install_guide_button_start">Start</string>
   <string name="trans_install_guide_page_title">Install Mi Mover on your old phone</string>
@@ -566,9 +568,14 @@ Keep devices close to each other."</string>
   <string name="trans_show_qr_code_tips">Scan QR code using old device</string>
   <string name="trans_start_failed_message">"Couldn't start transfer, try again or reboot device."</string>
   <string name="trans_start_failed_title">"Couldn't start transfer"</string>
+  <string name="trans_success_dialog_button_market_comment">Comment</string>
   <string name="trans_success_dialog_button_market_favourable_comment">Rate Mi Mover</string>
+  <string name="trans_success_dialog_button_survey">Survey</string>
+  <string name="trans_success_dialog_market_comment_and_survey_title">"You're ready to rock! Tell us what you think about Mi Mover."</string>
   <string name="trans_success_dialog_market_comment_title">"Your new device feels like home now.
 Did you like Mi Mover?"</string>
+  <string name="trans_success_dialog_survey_title">We appreciate your feedback</string>
+  <string name="trans_success_survey_hint">Fill in all fields first.</string>
   <string name="trans_switching_5g">Switching to 5GHz WLAN…</string>
   <string name="trans_time_format_second">Less than 1 minute</string>
   <string name="trans_time_spent">Time spent: %s</string>
