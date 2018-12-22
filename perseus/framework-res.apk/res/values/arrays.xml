@@ -311,14 +311,14 @@
         <item>com.android.inputmethod.latin</item>
     </string-array>
     <integer-array name="config_dynamicHysteresisBrightLevels">
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
+        <item>2000</item>
+        <item>2000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
     </integer-array>
     <integer-array name="config_dynamicHysteresisDarkLevels">
         <item>800</item>

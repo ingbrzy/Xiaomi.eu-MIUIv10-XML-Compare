@@ -18,8 +18,10 @@ this feature will be added to Second space automatically."</string>
   <string name="app_name">Security Core Component</string>
   <string name="back">Back</string>
   <string name="bind_device">Add devices</string>
+  <string name="button_input_password">Enter password</string>
   <string name="button_text_next_step">Next</string>
   <string name="button_text_next_step_timer">Next step (%d)</string>
+  <string name="button_touch">Put your finger on the sensor</string>
   <string name="can_not_delete_when_calling">"Can't delete spaces during a call"</string>
   <string name="can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
   <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
@@ -66,7 +68,7 @@ to be able to view them anytime"</string>
   <string name="create_work_space">Create Work space</string>
   <string name="creating_app_icon">Creating icon…</string>
   <string name="cta_declaration_agree_and_continue">Agree</string>
-  <string name="cta_declaration_message_format" formatted="false">You must read and agree to our &lt;font color=%s&gt;&lt;a href=%s&gt; %s &lt;/a&gt;&lt;/font&gt; before using Enterprise mode. Your device needs to connect to the internet to activate Enterprise mode. Agree?</string>
+  <string name="cta_declaration_message_format" formatted="false">You must read and agree to our &lt;font color=%s&gt;&lt;a href=%s&gt;%s&lt;/a&gt;&lt;/font&gt; before using Enterprise mode. Your device needs to connect to the internet to activate Enterprise mode. Agree?</string>
   <string name="cta_declaration_title">Terms and Conditions</string>
   <string name="current_space">Current space</string>
   <string name="dataSafe">Using Second space is like having two devices.</string>
@@ -84,6 +86,8 @@ to be able to view them anytime"</string>
   <string name="dialog_title">Attention</string>
   <string name="dialog_title_service_error">Server error</string>
   <string name="dialog_undo_negative">"Don't revoke"</string>
+  <string name="dialog_verify">Verify your fingerprint</string>
+  <string name="dialog_verify_fingerprint_retry">"Couldn't verify fingerprint. Try again."</string>
   <string name="dir_switch_out_all_photos">Second space Gallery</string>
   <string name="disable">Turn off</string>
   <string name="do_not_ask">"Don't ask again"</string>
