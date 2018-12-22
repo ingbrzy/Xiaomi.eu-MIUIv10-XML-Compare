@@ -321,6 +321,8 @@
         <item>0</item>
         <item>5</item>
         <item>15</item>
+        <item>50</item>
+        <item>100</item>
     </integer-array>
     <integer-array name="batterymeter_bolt_points">
         <item>73</item>
@@ -484,8 +486,8 @@
         <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>aptX</item>
-        <item>aptX HD</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Enable Optional Codecs</item>
         <item>Disable Optional Codecs</item>
@@ -494,8 +496,8 @@
         <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>aptX</item>
-        <item>aptX HD</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Enable Optional Codecs</item>
         <item>Disable Optional Codecs</item>
@@ -510,15 +512,39 @@
         <item>5</item>
         <item>6</item>
     </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, active</item>
+        <item>, active (media)</item>
+        <item>, active (phone)</item>
+    </string-array>
     <string-array name="bluetooth_avrcp_version_values">
         <item>avrcp14</item>
+        <item>avrcp13</item>
         <item>avrcp15</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
         <item>AVRCP 1.4 (Default)</item>
+        <item>AVRCP 1.3</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>Use System Default: %1$d</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices_values">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
     <string-array name="bluetooth_visibility_timeout_entries">
         <item>2 minutes</item>
@@ -1450,8 +1476,14 @@
     </string-array>
     <array name="config_preinstalled_audio_and_caption_services" />
     <array name="config_preinstalled_display_services" />
-    <array name="config_preinstalled_interaction_control_services" />
-    <array name="config_preinstalled_screen_reader_services" />
+    <string-array name="config_preinstalled_interaction_control_services">
+        <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
+    </string-array>
+    <string-array name="config_preinstalled_screen_reader_services">
+        <item>com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</item>
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
+    </string-array>
+    <array name="config_settings_slices_accessibility_components" />
     <string-array name="connect_mode_entries">
         <item>Compatibility</item>
         <item>High speed</item>
@@ -1469,6 +1501,16 @@
         <item>12</item>
         <item>11</item>
         <item>13</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Automatic (based on time of day)</item>
+        <item>Always on</item>
+        <item>Always off</item>
+    </string-array>
+    <string-array name="dark_ui_mode_values">
+        <item>auto</item>
+        <item>yes</item>
+        <item>no</item>
     </string-array>
     <string-array name="data_usage_data_range">
         <item>Last 30 days</item>
@@ -1502,32 +1544,6 @@
         <item>show</item>
         <item>show_deuteranomaly</item>
     </string-array>
-    <string-array name="debug_hw_renderer_entries">
-        <item>OpenGL (Default)</item>
-        <item>OpenGL (Skia)</item>
-    </string-array>
-    <string-array name="debug_hw_renderer_values">
-        <item>opengl</item>
-        <item>skiagl</item>
-    </string-array>
-    <string-array name="defalut_browser_package">
-        <item>mx_telcel:com.android.chrome</item>
-    </string-array>
-    <array name="default_camera_package" />
-    <array name="default_dialer_package" />
-    <string-array name="default_email_package">
-        <item>mx_telcel:com.google.android.gm</item>
-    </string-array>
-    <string-array name="default_gallery_package">
-        <item>mx_telcel:com.google.android.apps.photos</item>
-    </string-array>
-    <string-array name="default_mms_package">
-        <item>mx_telcel:com.google.android.apps.messaging</item>
-    </string-array>
-    <array name="default_music_package" />
-    <string-array name="default_video_package">
-        <item>mx_telcel:com.google.android.apps.photos</item>
-    </string-array>
     <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
         <item>polaris</item>
@@ -1541,7 +1557,10 @@
         <item>nitrogen</item>
         <item>platina</item>
         <item>vince</item>
+        <item>tulip</item>
+        <item>sakura_india</item>
         <item>equuleus</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1563,6 +1582,9 @@
         <item>platina</item>
         <item>capricorn</item>
         <item>equuleus</item>
+        <item>natrium</item>
+        <item>vince</item>
+        <item>perseus</item>
     </string-array>
     <string-array name="device_support_new_pickup_by_xiaomi">
         <item>jason</item>
@@ -1575,6 +1597,7 @@
         <item>sirius</item>
         <item>ursa</item>
         <item>beryllium</item>
+        <item>perseus</item>
         <item>equuleus</item>
     </string-array>
     <string-array name="dirac_equalizer_preset_names">
@@ -1692,6 +1715,16 @@
         <item>@string/layout_size_large</item>
         <item>@string/layout_size_huge</item>
         <item>@string/layout_size_exhuge</item>
+    </string-array>
+    <string-array name="gesture_prevent_ringing_entries">
+        <item>@string/prevent_ringing_option_vibrate</item>
+        <item>@string/prevent_ringing_option_mute</item>
+        <item>@string/prevent_ringing_option_none</item>
+    </string-array>
+    <string-array name="gesture_prevent_ringing_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4.5 inches</item>
@@ -2503,11 +2536,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Standard</item>
         <item>Cool</item>
     </string-array>
-    <integer-array name="screen_density">
-        <item>640</item>
-        <item>480</item>
-        <item>320</item>
-    </integer-array>
     <string-array name="screen_key_long_press_action_value">
         <item>none</item>
         <item>recent_panel</item>
@@ -2556,19 +2584,13 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Standard</item>
     </string-array>
     <integer-array name="screen_resolution">
-        <item>1440</item>
-        <item>1080</item>
-        <item>720</item>
+        <item>3686400</item>
+        <item>2073600</item>
     </integer-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
         <item>@string/screen_resolution_high_format</item>
         <item>@string/screen_resolution_normal_format</item>
-    </string-array>
-    <string-array name="screen_resolution_text">
-        <item>2K</item>
-        <item>1080P</item>
-        <item>720P</item>
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Brilliant</item>
@@ -2766,6 +2788,16 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="status_bar_settings_notification_shade_shortcut_values">
         <item>0</item>
         <item>1</item>
+    </string-array>
+    <string-array name="systemui_theme_entries">
+        <item>@string/systemui_theme_wallpaper</item>
+        <item>@string/systemui_theme_light</item>
+        <item>@string/systemui_theme_dark</item>
+    </string-array>
+    <string-array name="systemui_theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -2992,6 +3024,18 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Timed out. Retrying…</item>
         <item>Device connected</item>
     </string-array>
+    <string-array name="when_to_start_screensaver_entries">
+        <item>@string/screensaver_settings_summary_sleep</item>
+        <item>@string/screensaver_settings_summary_dock</item>
+        <item>@string/screensaver_settings_summary_either_long</item>
+        <item>@string/screensaver_settings_summary_never</item>
+    </string-array>
+    <string-array name="when_to_start_screensaver_values">
+        <item>while_charging_only</item>
+        <item>while_docked_only</item>
+        <item>either_charging_or_docked</item>
+        <item>never</item>
+    </string-array>
     <string-array name="whetstone_level_entries">
         <item>Off</item>
         <item>Low</item>
@@ -3009,12 +3053,16 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/wifi_ap_choose_5G</item>
     </string-array>
     <string-array name="wifi_ap_band_config_2G_only">
+        <item>@string/wifi_ap_choose_auto</item>
         <item>@string/wifi_ap_choose_2G</item>
     </string-array>
     <string-array name="wifi_ap_band_config_full">
         <item>@string/wifi_ap_choose_2G</item>
         <item>@string/wifi_ap_choose_5G</item>
-        <item>@string/wifi_ap_choose_dual</item>
+    </string-array>
+    <string-array name="wifi_ap_band_summary_full">
+        <item>@string/wifi_ap_2G</item>
+        <item>@string/wifi_ap_5G</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
@@ -3094,9 +3142,23 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
         <item>Static</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>Detect automatically</item>
+        <item>Treat as metered</item>
+        <item>Treat as unmetered</item>
+    </string-array>
+    <string-array name="wifi_metered_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="wifi_p2p_status">
         <item>Connected</item>
@@ -3160,21 +3222,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Good</item>
         <item>Excellent</item>
     </string-array>
-    <string-array name="wifi_sleep_policy_entries">
-        <item>Always</item>
-        <item>Only when plugged in</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="wifi_sleep_policy_entries_wifi_only">
-        <item>Always</item>
-        <item>Only when plugged in</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="wifi_sleep_policy_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
     <string-array name="wifi_ssid_type_entries">
         <item>Connect automatically</item>
         <item>Connect manually</item>
@@ -3211,6 +3258,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Blocked</item>
         <item>Temporarily avoiding poor connection</item>
     </string-array>
+    <string-array name="wifi_tether_security">
+        <item>@string/wifi_security_wpa2</item>
+        <item>@string/wifi_security_none</item>
+    </string-array>
+    <string-array name="wifi_tether_security_values">
+        <item>4</item>
+        <item>0</item>
+    </string-array>
     <string-array name="wifi_wapi_key_type">
         <item>WAPI ASCII</item>
         <item>WAPI hexadecimal</item>
@@ -3232,5 +3287,17 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>2</item>
         <item>5</item>
         <item>10</item>
+    </string-array>
+    <string-array name="zen_mode_contacts_entries">
+        <item>@string/zen_mode_from_anyone</item>
+        <item>@string/zen_mode_from_contacts</item>
+        <item>@string/zen_mode_from_starred</item>
+        <item>@string/zen_mode_from_none</item>
+    </string-array>
+    <string-array name="zen_mode_contacts_values">
+        <item>zen_mode_from_anyone</item>
+        <item>zen_mode_from_contacts</item>
+        <item>zen_mode_from_starred</item>
+        <item>zen_mode_from_none</item>
     </string-array>
 <string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array><string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array></resources>
