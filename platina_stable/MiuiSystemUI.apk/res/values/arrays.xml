@@ -723,6 +723,7 @@
         <item>MN</item>
         <item>IT</item>
         <item>KR</item>
+        <item>TR</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>

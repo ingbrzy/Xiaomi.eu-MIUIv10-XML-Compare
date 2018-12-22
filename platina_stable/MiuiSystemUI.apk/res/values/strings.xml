@@ -110,7 +110,7 @@
   <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
   <string name="accessibility_divider">Split-screen divider</string>
   <string name="accessibility_drag_hint_message">Drag items to top of the screen</string>
-  <string name="accessibility_enter_lock_wallpaper">Tap to open Music</string>
+  <string name="accessibility_enter_lock_wallpaper">Tap to open Wallpaper Carousel</string>
   <string name="accessibility_ethernet_connected">Ethernet connected.</string>
   <string name="accessibility_ethernet_disconnected">Ethernet disconnected.</string>
   <string name="accessibility_gps_acquiring">GPS acquiring.</string>
@@ -850,10 +850,15 @@ Use only the supplied charger."</string>
   <string name="keyguard_indication_charging_time_slowly">Charging slowly (%s until full)</string>
   <string name="keyguard_indication_trust_disabled">Device will stay locked until you manually unlock</string>
   <string name="keyguard_instructions_when_pattern_disabled">Press Menu to unlock.</string>
+  <string name="keyguard_left_calculator">Calculator</string>
+  <string name="keyguard_left_calendar">Calendar</string>
+  <string name="keyguard_left_contacts">Contacts</string>
   <string name="keyguard_left_mi_wallet">Mi Wallet</string>
-  <string name="keyguard_left_remotecentral">Calendar</string>
-  <string name="keyguard_left_smarthome">Contacts</string>
-  <string name="keyguard_left_view_lock_wallpaper">Music</string>
+  <string name="keyguard_left_music">Music</string>
+  <string name="keyguard_left_notes">Notes</string>
+  <string name="keyguard_left_remotecentral">Mi Remote</string>
+  <string name="keyguard_left_smarthome">Mi Home</string>
+  <string name="keyguard_left_view_lock_wallpaper">Wallpaper Carousel</string>
   <string name="keyguard_low_battery">Connect your charger.</string>
   <string name="keyguard_missing_sim_instructions">Insert a SIM card.</string>
   <string name="keyguard_missing_sim_instructions_long">The SIM card is missing or not readable. Insert a SIM card.</string>
@@ -1166,7 +1171,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="oldman_airplane_mode_text">Airplane mode</string>
   <string name="oldman_incall_text">Back to call</string>
   <string name="open_camera_hint_text">Swipe left to open camera</string>
-  <string name="open_remote_center_hint_text">Swipe right to open Shortcuts</string>
+  <string name="open_remote_center_hint_text">Swipe right to open Mi Remote</string>
   <string name="other">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overview">Overview</string>
