@@ -1412,4 +1412,14 @@
         <item>120</item>
         <item>255</item>
     </integer-array>
+    <string-array name="config_alwaysEnableMms_off_array">
+        <item>ch</item>
+        <item>be</item>
+        <item>gb</item>
+    </string-array>
+    <array name="config_hightGrayBrightnessLevels" />
+    <array name="config_lowGrayBrightnessLevels" />
+    <array name="config_BrightnessCurvesLux" />
+    <array name="config_maxBrightnessCurvesNits" />
+    <array name="config_minBrightnessCurvesNits" />
 </resources>

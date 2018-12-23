@@ -2093,6 +2093,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_anim_metal">Metal</string>
   <string name="gxzw_anim_pulse">Pulse</string>
   <string name="gxzw_anim_rhythm">Rhythm</string>
+  <string name="gxzw_anim_star">Starlight</string>
   <string name="gxzw_anim_title">Fingerprint animation</string>
   <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
   <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
@@ -3116,6 +3117,7 @@ Select your operating system:"</string>
   <string name="network_detail">%s Network details</string>
   <string name="network_error">Network error</string>
   <string name="network_name_displayed_summary">Show network name on status bar</string>
+  <string name="network_name_input_error">"Couldn't save SSID. Try again."</string>
   <string name="network_operator_display_title">Show Network Operator</string>
   <string name="network_operators_settings">Network operators</string>
   <string name="network_reset_not_available">Network reset is not available for this user</string>
