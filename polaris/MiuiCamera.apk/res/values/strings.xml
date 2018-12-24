@@ -76,7 +76,7 @@ and optimizes your photos based on this info"</string>
   <string name="beauty_body_reset_tip">塑型效果已清除</string>
   <string name="beauty_body_shoulder">肩部</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
-  <string name="beauty_fragment_tab_name_3d_makeup">美妆</string>
+  <string name="beauty_fragment_tab_name_3d_makeup">Makeup</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
@@ -109,7 +109,6 @@ and optimizes your photos based on this info"</string>
   <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
   <string name="capture_back_pressed_hint">Touch again to exit</string>
-  <string name="change_bgm">更换配乐</string>
   <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="color_effect_entry_berry">Berries</string>
@@ -167,16 +166,16 @@ and optimizes your photos based on this info"</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
   <string name="dual_camera_too_close_toast">The camera is too close to the object.</string>
   <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
-  <string name="edit_blusher">腮红</string>
+  <string name="edit_blusher">Rouge</string>
   <string name="edit_chin">Chin</string>
   <string name="edit_eye_large">Big eyes</string>
-  <string name="edit_eyebrow_dye">染眉</string>
+  <string name="edit_eyebrow_dye">Eyebrows</string>
   <string name="edit_face_slender">Slender</string>
-  <string name="edit_jelly_lips">果冻唇</string>
+  <string name="edit_jelly_lips">Lip gloss</string>
   <string name="edit_lips">Lips</string>
   <string name="edit_neck">Neck</string>
   <string name="edit_nose">Nose</string>
-  <string name="edit_pupil_line">美瞳线</string>
+  <string name="edit_pupil_line">Eyeliner</string>
   <string name="edit_risorius">Risorius</string>
   <string name="edit_skin_smooth">Smooth</string>
   <string name="edit_skin_white">Tone</string>
@@ -209,7 +208,6 @@ and then create a shot with a minimal amount of noise."</string>
 and then create a shot where everyone looks best."</string>
   <string name="hint_groupshot_beauty">"Can't use Beautify in group shots"</string>
   <string name="hint_slow_motion">The video you shoot will be played slower.</string>
-  <string name="hot_music">热门歌曲</string>
   <string name="hunt_dual_water_mark">Dual camera watermark will be added automatically.</string>
   <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
   <string name="install_confirmed">Install</string>
@@ -237,6 +235,12 @@ in Portrait mode"</string>
   <string name="live_error_confirm">Adjust</string>
   <string name="live_error_message">Function Error</string>
   <string name="live_error_title">Function Error</string>
+  <string name="live_music_change_bgm">Replace Music</string>
+  <string name="live_music_downloading_tips">Downloading...</string>
+  <string name="live_music_hot_title">Hot Music</string>
+  <string name="live_music_local_title">Local Music</string>
+  <string name="live_music_network_exception">Network anomaly</string>
+  <string name="live_music_network_exception_tips">Network anomalies, please try again click</string>
   <string name="live_reverse_confirm">Delete</string>
   <string name="live_reverse_message">Delete last segment?</string>
   <string name="live_speed_extreme_fast">Fastest</string>
@@ -248,7 +252,6 @@ in Portrait mode"</string>
   <string name="live_sticker_fragment_tab_name">Magic</string>
   <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating...</string>
-  <string name="local_music">本地音乐</string>
   <string name="makeup_reset_toast">Removed makeup effects</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="module_name_beauty">Beauty</string>
@@ -262,7 +265,6 @@ in Portrait mode"</string>
   <string name="module_name_square">Square</string>
   <string name="module_name_video">Video</string>
   <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
-  <string name="network_exception">网络异常</string>
   <string name="no_storage">Insert SD card before using camera</string>
   <string name="not_enough_space">SD card is full</string>
   <string name="object_track_enable_toast">To select an object, simultaneously tap two diagonal points around its border.</string>
@@ -541,6 +543,7 @@ and brings out the people in the front."</string>
   <string name="pref_skin_beautify_slim_default">3</string>
   <string name="pref_skin_beautify_smooth_default">5</string>
   <string name="pref_userdefine_watermark_title">User define camera watermark</string>
+  <string name="pref_video_autoexposure_default">1</string>
   <string name="pref_video_encoder_default">h264</string>
   <string name="pref_video_encoder_entry_h264">H.264 High compatibility</string>
   <string name="pref_video_encoder_entry_h265">H.265 High performance</string>
