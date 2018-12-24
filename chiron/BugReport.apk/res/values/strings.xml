@@ -25,13 +25,12 @@
   <string name="catch_full_log_dialog_confirm_text">Go to Home screen</string>
   <string name="catch_full_log_dialog_content">"MIUI is generating a log. This might affect the overall performance of your device. If you can't reproduce the issue you want to report, go back to logs and tap \"Cancel\"."</string>
   <string name="catch_full_log_dump_hprof_failed">"Couldn't generate lagging log"</string>
-  <string name="catch_full_log_item_content_catch_direct">"Steps:
-1. Go back to the feature you want to report and reproduce it.
+  <string name="catch_full_log_item_content_catch_direct">"1. Go back to the feature you want to report and reproduce it.
 2. Come back to this page and tap \"Finish and upload\"."</string>
-  <string name="catch_full_log_item_content_need_open">"Steps:
-1. Tap \"Generate log\".
+  <string name="catch_full_log_item_content_need_open">"1. Tap \"Generate log\".
 2. Go back to the feature you want to report and reproduce it.
 3. Come back to this page and tap \"Finish and upload\"."</string>
+  <string name="catch_full_log_item_content_title">Steps:</string>
   <string name="catch_full_log_item_title_audio">Audio, sound recording, and call audio</string>
   <string name="catch_full_log_item_title_bt">Bluetooth</string>
   <string name="catch_full_log_item_title_dump_heap">Lagging</string>
@@ -334,6 +333,7 @@
   <string name="title_nonsystem_app">Other apps</string>
   <string name="title_same_question_feedback_main">Similar issues in the MIUI forum</string>
   <string name="title_system_app">MIUI apps</string>
+  <string name="title_user_guide">User guide</string>
   <string name="toast_app_tag_required">Select issue</string>
   <string name="toast_catch_full_log_catching">You can only generate one log at a time.</string>
   <string name="toast_catch_full_log_open_failed">"Couldn't start recording log."</string>
