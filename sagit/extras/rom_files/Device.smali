@@ -929,6 +929,20 @@
     return v0
 .end method
 
+.method public static getBackCameraRecordingTimeToDisableFlash()I
+    .locals 2
+
+    const-string/jumbo v0, "back_camera_recording_time_to_disable_flash"
+
+    const/16 v1, 0x14
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static getBurstShootCount()I
     .locals 2
 
@@ -1018,6 +1032,20 @@
     sget-object v2, Lcom/android/camera/Device;->sFpNavEventNameList:Ljava/util/ArrayList;
 
     return-object v2
+.end method
+
+.method public static getFrontCameraRecordingTimeToDisableFlash()I
+    .locals 2
+
+    const-string/jumbo v0, "front_camera_recording_time_to_disable_flash"
+
+    const/16 v1, 0xa
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v0
+
+    return v0
 .end method
 
 .method public static getHDRDefaultValue(Z)I
@@ -1872,6 +1900,20 @@
     const-string/jumbo v0, "camera_supported_ai_scene"
 
     const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupportBackHDR()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_back_hdr"
+
+    const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
