@@ -45,6 +45,8 @@
   <string name="accessibility_hdr_off">HDR is off</string>
   <string name="accessibility_hdr_on">HDR is on</string>
   <string name="accessibility_intent_done_apply">Done</string>
+  <string name="accessibility_lighting_panel_off">关闭影棚光效面板</string>
+  <string name="accessibility_lighting_panel_on">打开影棚光效面板</string>
   <string name="accessibility_more">More</string>
   <string name="accessibility_open">Turned on</string>
   <string name="accessibility_peak">Focus peak button</string>
@@ -236,6 +238,9 @@ in Portrait mode"</string>
   <string name="live_error_message">Function Error</string>
   <string name="live_error_title">Function Error</string>
   <string name="live_music_change_bgm">Replace Music</string>
+  <string name="live_music_close_cancel_message">Cancel</string>
+  <string name="live_music_close_message">Whether to close the current music?</string>
+  <string name="live_music_close_sure_message">Close</string>
   <string name="live_music_downloading_tips">Downloading...</string>
   <string name="live_music_hot_title">Hot Music</string>
   <string name="live_music_local_title">Local Music</string>
