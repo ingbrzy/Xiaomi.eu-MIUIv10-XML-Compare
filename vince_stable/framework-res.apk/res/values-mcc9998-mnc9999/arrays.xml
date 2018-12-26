@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="config_locationProviderPackageNames">
+        <item>com.android.location.fused</item>
+        <item>com.google.android.gms</item>
+    </string-array>
     <string-array name="special_locale_codes">
         <item>zh_CN</item>
         <item>zh_TW</item>
@@ -19,9 +23,5 @@
         <item>اردو (پاکستان )</item>
         <item>বাংলা (ভারত)</item>
         <item>नेपाली (भारत)</item>
-    </string-array>
-    <string-array name="config_locationProviderPackageNames">
-        <item>com.android.location.fused</item>
-        <item>com.google.android.gms</item>
     </string-array>
 </resources>
