@@ -190,6 +190,8 @@
   <string name="app_manager_factory_reset_dlg_title">Uninstall updates?</string>
   <string name="app_manager_force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
   <string name="app_manager_force_stop_dlg_title">Force stop?</string>
+  <string name="app_manager_full_screen_summary">Allow selected apps to work in fullscreen mode</string>
+  <string name="app_manager_full_screen_title">Fullscreen mode</string>
   <string name="app_manager_globel_other_perm_title">Other permissions</string>
   <string name="app_manager_globel_perm_summary">Manage permissions related to location, storage, phone, messages, and contacts.</string>
   <string name="app_manager_globel_perm_title">App permissions</string>
@@ -271,6 +273,10 @@ You will not lose any app data."</string>
   <string name="applock_close_dialog_summary">All hidden apps will be unhidden, their Home screen shortcuts will be restored, and your App lock password will be deleted. Turn off App lock?</string>
   <string name="applock_close_dialog_title">Turn off App lock?</string>
   <string name="applock_exit_account_info">Account will be removed automatically when you sign out</string>
+  <string name="applock_face_unlock_summary">Unlock apps using face data</string>
+  <string name="applock_face_unlock_title">Face unlock</string>
+  <string name="applock_function_base_settings">App lock</string>
+  <string name="applock_function_pwd_settings">Password</string>
   <string name="applock_header_text_less_than_half">Too small. Drag a bit further.</string>
   <string name="applock_login_and_add_account">Sign in &amp; add</string>
   <string name="applock_not_add_account">&lt;u&gt;Not now&lt;/u&gt;</string>
@@ -624,6 +630,12 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="deep_clean_disconnect_data_title">Turn off mobile data when device is locked</string>
   <string name="deep_clean_memory_clean_title">Clear cache when device is locked</string>
   <string name="deep_clean_never_memory_clean">Never</string>
+  <string name="deep_power_save_item_summary_auto_brightness">Adjust screen brightness automatically to save battery</string>
+  <string name="deep_power_save_item_summary_bluetooth">Turn off Bluetooth to save battery</string>
+  <string name="deep_power_save_item_summary_lock_screen_time">Put screen to sleep after 30 seconds of inactivity to save battery</string>
+  <string name="deep_power_save_item_title_auto_brightness">Turn on auto brightness</string>
+  <string name="deep_power_save_item_title_bluetooth">Turn off Bluetooth</string>
+  <string name="deep_power_save_item_title_lock_screen_time">Put screen to sleep</string>
   <string name="deep_save_memory_clean_summary">Clear cache when you lock device to prevent apps from using battery</string>
   <string name="deep_save_ontime_boot_shutdown_summary">Schedule time to turn device on and off</string>
   <string name="delete">Delete</string>
@@ -793,6 +805,21 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="exo_track_unknown">Unknown</string>
   <string name="extreme_power_save_mode_card_summary">Turn on Extreme mode to save power when the battery is low.</string>
   <string name="extreme_power_save_mode_title">Extreme battery saver</string>
+  <string name="face_unlock_be_on_the_screen">Hold the device in front of your face</string>
+  <string name="face_unlock_check_failed">"Couldn't recognize you"</string>
+  <string name="face_unlock_face_auth_failed_title">"Couldn't verify face data. Switching to other unlock methods…"</string>
+  <string name="face_unlock_face_start_title">Verifying face data…</string>
+  <string name="face_unlock_finger_or_password_switch">Use your fingerprint or enter password to unlock.</string>
+  <string name="face_unlock_guide_confirm">Use Face unlock</string>
+  <string name="face_unlock_guide_dialog_summary">You can use face data to unlock your device. Turn on Face unlock?</string>
+  <string name="face_unlock_not_found">"Couldn't recognize you"</string>
+  <string name="face_unlock_open_eye">Open your eyes a bit wider</string>
+  <string name="face_unlock_reveal_eye">Make your eyes visible</string>
+  <string name="face_unlock_reveal_mouth">Make your lips visible</string>
+  <string name="face_unlock_toast_verity_failed">"Couldn't verify face data. Go to App lock settings and try verifying your face data again there."</string>
+  <string name="face_unlock_verity_dialog_summary">Verify face data</string>
+  <string name="face_unlock_verity_dialog_title_failed">"Couldn't recognize you"</string>
+  <string name="face_unlock_verity_dialog_title_succeed">Verified successfully</string>
   <string name="fast_open">速抢模式</string>
   <string name="fast_open_dialog_message">开启速抢模式后，当您收到红包时，系统将自动打开抢红包页面，抢红包更快更方便。</string>
   <string name="fast_open_dialog_message_summary">注意：建议关闭导航类、视频类、游戏类应用的速抢模式，以免影响应用的正常操作。手机锁屏状态下不会进行红包速抢。</string>
@@ -807,6 +834,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="fingerprint_not_remind">"Don't ask again"</string>
   <string name="fingerprint_remind_dialog_title">Fingerprint unlock</string>
   <string name="fingerprint_to_lock">Unlock with fingerprint</string>
+  <string name="fingerprint_to_lock_summary">Unlock apps using your fingerprint</string>
   <string name="fingerprint_verify_failed">"Couldn't verify fingerprint"</string>
   <string name="fingerprint_verify_succeed">Fingerprint verified</string>
   <string name="fingerprint_verify_try_agin">"Couldn't scan fingerprint, try again"</string>
@@ -1140,7 +1168,6 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="lockpattern_need_to_unlock_wrong">"Passwords don't match, try again."</string>
   <string name="lockpattern_pattern_confirmed_header">New unlock pattern</string>
   <string name="lockpattern_pattern_entered_header">Pattern added</string>
-  <string name="lockpattern_recording_incorrect_too_short">Connect at least %d dots</string>
   <string name="lockpattern_recording_inprogress">"Lift your finger when you're done"</string>
   <string name="lockpattern_recording_intro_header">Connect at least 4 dots to create a pattern</string>
   <string name="lockpattern_retry_button_text">Draw again</string>
@@ -1354,7 +1381,6 @@ to respond"</string>
   <string name="mixed_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
   <string name="mixed_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
   <string name="mixed_pattern_entered_header">Set password successfully</string>
-  <string name="mixed_recording_incorrect_too_short">Enter at least %d characters.</string>
   <string name="mixed_recording_intro_header">Enter at least 4 characters</string>
   <string name="mixed_retry_button_text">Cancel</string>
   <string name="mixed_settings_help_how_to_record">How to set password</string>
@@ -1448,7 +1474,9 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="notification_masked_item">Hide notifications</string>
   <string name="notification_masked_subtitle">Hide notifications from apps protected with App lock</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
+  <string name="notify_channel_mipush">Security push messages</string>
   <string name="notify_channel_name_security">System security</string>
+  <string name="notify_channel_optimize">Security notifications</string>
   <string name="notify_daily_data_usage_body">To limit data usage automatically, set up your monthly data plan.</string>
   <string name="notify_daily_limit_body">Tap to set data limit.</string>
   <string name="notify_daily_limit_title">Used %s today</string>
@@ -1464,7 +1492,6 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="numeric_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
   <string name="numeric_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
   <string name="numeric_pattern_entered_header">Set PIN successfully</string>
-  <string name="numeric_recording_incorrect_too_short">Enter at least %d digits.</string>
   <string name="numeric_recording_intro_header">Enter password</string>
   <string name="numeric_retry_button_text">Cancel</string>
   <string name="numeric_settings_help_how_to_record">How to set PIN</string>
@@ -2524,6 +2551,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="uninstall_danagerous_msg">\"%s\" may damage your device, lower its performance, or cause reboots.</string>
   <string name="uninstall_danagerous_title">Uninstall malicious apps</string>
   <string name="unlike">No thanks</string>
+  <string name="unlock_failed">Internal error</string>
   <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
   <string name="unlock_pattern_to_bind_fingerprint">Enter password to activate fingerprint</string>
   <string name="unlock_set_unlock_password_summary">Combine different characters</string>

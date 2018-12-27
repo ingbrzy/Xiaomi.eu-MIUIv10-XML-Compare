@@ -466,12 +466,12 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="application_item_disable">Deny</string>
   <string name="application_item_permission">Allow</string>
   <string name="application_lock_name">App lock</string>
-  <string name="application_manager_section_title">App settings</string>
+  <string name="application_manager_section_title">Apps</string>
   <string name="application_permission_manager">App permissions</string>
   <string name="application_permissions">App permissions</string>
   <string name="application_restrictions">Allow apps and content</string>
   <string name="application_size_label">App size</string>
-  <string name="applications_settings">Installed apps</string>
+  <string name="applications_settings">Manage apps</string>
   <string name="applications_settings_header">App settings</string>
   <string name="applications_settings_summary">Manage apps, set up quick launch shortcuts</string>
   <string name="apply">Apply</string>
@@ -1180,6 +1180,12 @@ This feature can be turned off in [Settings]"</string>
   <string name="call_manager_enable_title">Enable Call Manager</string>
   <string name="call_manager_summary">%1$s</string>
   <string name="call_manager_title">Call Manager</string>
+  <string name="call_records_name_1">Debbie Smith</string>
+  <string name="call_records_name_2">Jason Lee</string>
+  <string name="call_records_name_3">Tom Fowles</string>
+  <string name="call_records_summary_1">9:35 AM | 26 seconds | China Unicom</string>
+  <string name="call_records_summary_2">August 16 | 1m 16s | China Mobile</string>
+  <string name="call_records_summary_3">August 16 | 2m 24s | China Unicom</string>
   <string name="call_settings_primary_user_only">Change call settings in First space</string>
   <string name="call_settings_summary">Set up voicemail, call forwarding, call waiting, caller ID</string>
   <string name="call_settings_title">Call settings</string>
@@ -1694,6 +1700,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_for_work">Default for work</string>
   <string name="default_input_method">Choose default keyboard</string>
   <string name="default_keyboard_layout">Default</string>
+  <string name="default_launcher_set_jeejen_message">Press the Home button to set up Jeejen</string>
+  <string name="default_launcher_set_system_message">Press the Home button to restore default launcher</string>
   <string name="default_launcher_title">Default Launcher</string>
   <string name="default_map_app_title">Map app</string>
   <string name="default_notification_assistant">Notification assistant</string>
@@ -1981,6 +1989,10 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="dtmf_tone_enable_title">Dial pad tones</string>
   <string name="dual_setting_simcard1">SIM 1</string>
   <string name="dual_setting_simcard2">SIM 2</string>
+  <string name="dump_log">Get issue-related logs</string>
+  <string name="dump_log_summary">"This feature is designed for generating the 284 log in Alpha and Beta versions of MIUI. Use it with caution.
+You can view generated logs in File Manager."</string>
+  <string name="dump_log_title">About this feature</string>
   <string name="eab_provisioned_switch_string">EAB/Presence Provisioned</string>
   <string name="edge_mode_back">Go back</string>
   <string name="edge_mode_back_summary">Double tap the edge of your phone to go back</string>
@@ -2437,6 +2449,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_anim_metal">Metal</string>
   <string name="gxzw_anim_pulse">Pulse</string>
   <string name="gxzw_anim_rhythm">Rhythm</string>
+  <string name="gxzw_anim_star">Starlight</string>
   <string name="gxzw_anim_title">Fingerprint animation</string>
   <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
   <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
@@ -2688,7 +2701,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_notification_status_title">Notifications</string>
+  <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
   <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
@@ -2800,6 +2813,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="launch_recents">Launch Recents</string>
   <string name="launch_voice_assistant">Launch Voice assistant</string>
   <string name="launch_wifi_text">View details</string>
+  <string name="launcher_icon">Icons</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
   <string name="launching_cit">Launching CIT</string>
   <string name="launching_pho">Launching phone info…</string>
@@ -3506,6 +3520,7 @@ Select your operating system:"</string>
   <string name="network_dashboard_title">Network &amp; internet</string>
   <string name="network_detail">%s Network details</string>
   <string name="network_error">Network error</string>
+  <string name="network_name_input_error">"Couldn't save SSID. Try again."</string>
   <string name="network_operators_settings">Network operators</string>
   <string name="network_reset_not_available">Network reset is not available for this user</string>
   <string name="network_restrictions">Network restrictions</string>
@@ -3808,6 +3823,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="page_layout_31">Jack Tang</string>
   <string name="page_layout_32">Play Store</string>
   <string name="page_layout_33">Google</string>
+  <string name="page_layout_34">Phone</string>
+  <string name="page_layout_35">Notes</string>
   <string name="page_layout_4">Music</string>
   <string name="page_layout_5">Video</string>
   <string name="page_layout_6">Apps</string>
@@ -4878,6 +4895,8 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="services_subtitle">Services</string>
   <string name="set_data_limit">Set data limit</string>
   <string name="set_data_warning">Set data warning</string>
+  <string name="set_jeejen_prompt_message">Jeejen will be set as your default launcher. You can change the default launcher in Settings &gt; System settings &gt; Home screen &amp; Recents &gt; Default launcher.</string>
+  <string name="set_jeejen_prompt_title">Confirm changes</string>
   <string name="setting_privacy_password">Set Privacy protection password</string>
   <string name="settings_ad_loading">Loading…</string>
   <string name="settings_ad_loading_unavailable">"Couldn't load info."</string>
@@ -5126,7 +5145,7 @@ Possibly incorrect PIN."</string>
   <string name="sos_privacy_and_content_policy">User Agreement and Privacy Policy</string>
   <string name="sos_privacy_dialog_button_cancel">Cancel</string>
   <string name="sos_privacy_dialog_button_ok">Agree</string>
-  <string name="sos_privacy_dialog_message">"Read and agree to our %s before using this feature.r
+  <string name="sos_privacy_dialog_message">"Read and agree to our %s before using this feature.
 This feature needs permissions to access your location, use mobile networks, and read your contacts. Agree?"</string>
   <string name="sos_privacy_dialog_title">Terms and Conditions</string>
   <string name="sound_category_call_ringtone_vibrate_title">Ringtone &amp; notification sounds</string>
@@ -5489,6 +5508,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
   <string name="summary_divider_text">", "</string>
   <string name="summary_empty"/>
   <string name="summary_font_size">%1$s</string>
+  <string name="summary_font_size_v2">Adjust size for text, images, and icons</string>
   <string name="summary_placeholder"> </string>
   <string name="summary_range_symbol_combination">%1$s - %2$s</string>
   <string name="summary_range_verbal_combination">%1$s to %2$s</string>
@@ -5543,7 +5563,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_alert_window_summary">%1$d of %2$d apps allowed to display over other apps</string>
   <string name="system_and_device_section_title">System &amp; device</string>
   <string name="system_app">(System)</string>
-  <string name="system_app_settings">System apps</string>
+  <string name="system_app_settings">System app settings</string>
   <string name="system_apps_updater">System apps updater</string>
   <string name="system_backup_section_title">Backup</string>
   <string name="system_dashboard_summary">Languages, time, backup, updates</string>
@@ -5618,10 +5638,12 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_font_current">System font</string>
   <string name="title_font_current2">System font</string>
   <string name="title_font_size">Font size</string>
+  <string name="title_font_v2">Text &amp; UI elements</string>
   <string name="title_hdmi_color_calibration">Color correction preset</string>
   <string name="title_jeejen">Jeejen Home screen</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
+  <string name="title_layout_v2">Text size &amp; scaling</string>
   <string name="to_close">Turn off</string>
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
@@ -5705,8 +5727,9 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="turn_off_keyguard_password_alert_title">Turn off</string>
   <string name="turn_off_keyguard_password_confirm_msg">"Some security features won't work without your password."</string>
   <string name="turn_off_keyguard_password_wait_dialog">Turning off password…</string>
+  <string name="turn_off_keyguard_password_with_face_confirm_msg">"After you turn off your Lock screen password, recorded face data will be deleted. You won't be able to unlock the device using your face."</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">"You won't be able to unlock the device using your fingerprint after you turn off the password."</string>
-  <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">"After you turn off your Lock screen password, recorded fingerprints will be deleted. You won't be able to unlock the device using your fingerprint."</string>
+  <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">"After you turn off your Lock screen password, recorded fingerprints and face data will be deleted. You won't be able to unlock the device using your face or fingerprints."</string>
   <string name="turn_off_security_lock">Turn off lock</string>
   <string name="turn_on_keyguard_password">Turn on Lock screen password</string>
   <string name="turn_on_keyguard_password_alert">"Remember your password. If you forget it, you won't be able to restore it."</string>
@@ -6216,13 +6239,13 @@ Tap the plus to add words."</string>
   <string name="wapi_cert_select">WAPI certificate</string>
   <string name="wapi_no">No</string>
   <string name="wapi_no_vaild_cert">"Looks like required certificates aren't installed. Install now?"</string>
-  <string name="wapi_password_empty">Please input the password</string>
+  <string name="wapi_password_empty">Enter password</string>
   <string name="wapi_password_hex_format_add">You must use an even number of hexadecimal characters</string>
-  <string name="wapi_password_hex_format_invalid">Invalid hexadecimal characters</string>
-  <string name="wapi_password_hex_length_invalid">The count of hexadecimal characters must be even number</string>
+  <string name="wapi_password_hex_format_invalid">Invalid password format</string>
+  <string name="wapi_password_hex_length_invalid">The count of hexadecimal characters must be an even number</string>
   <string name="wapi_password_is_empty">"Password can't be blank"</string>
   <string name="wapi_password_is_not_hex_format">Invalid hexadecimal characters</string>
-  <string name="wapi_password_length_invalid">The password must be: 8-64 characters</string>
+  <string name="wapi_password_length_invalid">Password must be 8 to 64 characters long</string>
   <string name="wapi_password_length_is_max">Password can be up to 64 characters long</string>
   <string name="wapi_password_length_is_min">Password must be at least 8 characters long</string>
   <string name="wapi_password_length_is_min_to_max">Password must contain 8-64 characters</string>
@@ -6772,6 +6795,7 @@ Looks like credential storage isn't enabled."</string>
   <string name="wizard_back">Back</string>
   <string name="wizard_finish">Finish</string>
   <string name="wizard_next">Next</string>
+  <string name="words_title">Text</string>
   <string name="work_alarm_ringtone_title">Default work alarm sound</string>
   <string name="work_mode_label">Work profile</string>
   <string name="work_mode_off_summary">Apps and notifications are off</string>
@@ -6783,6 +6807,9 @@ Looks like credential storage isn't enabled."</string>
   <string name="work_profile_usage_access_warning">"Turning off usage access for this app doesn't prevent your admin from tracking data usage for apps in your work profile"</string>
   <string name="work_ringtone_title">Work phone ringtone</string>
   <string name="work_sim_title">Work SIM</string>
+  <string name="work_sound_permission_dialog_button_text_known">Got it</string>
+  <string name="work_sound_permission_dialog_message">"You can't use Themes in Enterprise mode. Contact your supervisor to get access."</string>
+  <string name="work_sound_permission_dialog_title">Enterprise mode restrictions</string>
   <string name="work_sound_same_as_personal">Same as personal profile</string>
   <string name="work_space_delete">Delete Work space</string>
   <string name="work_space_delete_confirm">Delete now</string>
