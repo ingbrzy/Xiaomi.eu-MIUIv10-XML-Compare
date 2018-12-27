@@ -3506,6 +3506,7 @@ Select your operating system:"</string>
   <string name="network_dashboard_title">Network &amp; internet</string>
   <string name="network_detail">%s Network details</string>
   <string name="network_error">Network error</string>
+  <string name="network_name_input_error">"Couldn't save SSID. Try again."</string>
   <string name="network_operators_settings">Network operators</string>
   <string name="network_reset_not_available">Network reset is not available for this user</string>
   <string name="network_restrictions">Network restrictions</string>
