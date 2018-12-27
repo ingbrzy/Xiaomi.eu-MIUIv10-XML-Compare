@@ -36,6 +36,7 @@
   <string name="accessibility_action_divider_top_full">Top full screen</string>
   <string name="accessibility_airplane_mode">Airplane mode.</string>
   <string name="accessibility_ambient_display_charging">Charging</string>
+  <string name="accessibility_aspect_button">Fullscreen mode</string>
   <string name="accessibility_assistant">Quick ball</string>
   <string name="accessibility_back">Back</string>
   <string name="accessibility_battery_details">Open battery details</string>
@@ -828,7 +829,7 @@ Try again in %2$d seconds."</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
   <string name="lock_screen_magazine_default_content">Daily portion of fresh images</string>
   <string name="lock_screen_magazine_default_title">Wallpaper Carousel</string>
-  <string name="lock_screen_magazine_global_button_text">more</string>
+  <string name="lock_screen_magazine_global_button_text">More</string>
   <string name="lock_screen_no_sim_card_emergency_only">Emergency calls only</string>
   <string name="lock_screen_no_sim_card_no_service">No service</string>
   <string name="lock_wallpaper_enter">Enter</string>
@@ -1330,8 +1331,8 @@ be monitored"</string>
   <string name="status_bar_clear_all_button">Clear</string>
   <string name="status_bar_clock_date_format">E, MMM d</string>
   <string name="status_bar_clock_date_format_12">E, MMM d</string>
-  <string name="status_bar_clock_date_time_format">H:mm MMM d</string>
-  <string name="status_bar_clock_date_time_format_12">h:mm aa, MMM d</string>
+  <string name="status_bar_clock_date_time_format">H:mm E, MMM d</string>
+  <string name="status_bar_clock_date_time_format_12">h:mm aa, E, MMM d</string>
   <string name="status_bar_date_format">"E
 MMM d"</string>
   <string name="status_bar_date_format_12">"E
