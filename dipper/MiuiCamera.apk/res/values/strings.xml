@@ -568,11 +568,9 @@ and brings out the people in the front."</string>
   <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
   <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
   <string name="pref_video_quality_entry_720p">HD 720p</string>
-  <string name="pref_video_quality_entry_720p_60fps">HD 720p, 60fps</string>
   <string name="pref_video_quality_entry_value_1080p_60fps">6,60</string>
   <string name="pref_video_quality_entry_value_4kuhd">8</string>
   <string name="pref_video_quality_entry_value_4kuhd_60fps">8,60</string>
-  <string name="pref_video_quality_entry_value_720p_60fps">5,60</string>
   <string name="pref_video_quality_summary">4K video cannot be supported in 120FPS mode</string>
   <string name="pref_video_quality_title">Video quality</string>
   <string name="pref_video_speed_fast_title">Time-lapse</string>
