@@ -47,6 +47,7 @@
   <string name="battery_heath_unknown">Unknown</string>
   <string name="battery_id">BatteryId =</string>
   <string name="battery_info_health_cold">Cold</string>
+  <string name="battery_info_name">Battery information</string>
   <string name="battery_insert">Please insert the charger in %s second!</string>
   <string name="battery_msg">Please insert the charger!</string>
   <string name="battery_name">TypeC [back]plug Charge and LED</string>
