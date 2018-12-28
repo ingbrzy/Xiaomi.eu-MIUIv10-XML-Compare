@@ -1958,13 +1958,13 @@ Any user can update apps for all other users."</string>
   <string name="wapi_cert_select">WAPI certificate</string>
   <string name="wapi_no">No</string>
   <string name="wapi_no_vaild_cert">"Looks like required certificates aren't installed. Install now?"</string>
-  <string name="wapi_password_empty">Please input the password</string>
+  <string name="wapi_password_empty">Enter password</string>
   <string name="wapi_password_hex_format_add">You must use an even number of hexadecimal characters</string>
-  <string name="wapi_password_hex_format_invalid">Invalid hexadecimal characters</string>
-  <string name="wapi_password_hex_length_invalid">The count of hexadecimal characters must be even number</string>
+  <string name="wapi_password_hex_format_invalid">Invalid password format</string>
+  <string name="wapi_password_hex_length_invalid">The count of hexadecimal characters must be an even number</string>
   <string name="wapi_password_is_empty">"Password can't be blank"</string>
   <string name="wapi_password_is_not_hex_format">Invalid hexadecimal characters</string>
-  <string name="wapi_password_length_invalid">The password must be: 8-64 characters</string>
+  <string name="wapi_password_length_invalid">Password must be 8 to 64 characters long</string>
   <string name="wapi_password_length_is_max">Password can be up to 64 characters long</string>
   <string name="wapi_password_length_is_min">Password must be at least 8 characters long</string>
   <string name="wapi_password_length_is_min_to_max">Password must contain 8-64 characters</string>

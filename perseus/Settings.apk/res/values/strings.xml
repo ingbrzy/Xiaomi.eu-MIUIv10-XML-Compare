@@ -4895,6 +4895,8 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="services_subtitle">Services</string>
   <string name="set_data_limit">Set data limit</string>
   <string name="set_data_warning">Set data warning</string>
+  <string name="set_jeejen_prompt_message">Jeejen will be set as your default launcher. You can change the default launcher in Settings &gt; System settings &gt; Home screen &amp; Recents &gt; Default launcher.</string>
+  <string name="set_jeejen_prompt_title">Confirm changes</string>
   <string name="setting_privacy_password">Set Privacy protection password</string>
   <string name="settings_ad_loading">Loading…</string>
   <string name="settings_ad_loading_unavailable">"Couldn't load info."</string>
@@ -6237,13 +6239,13 @@ Tap the plus to add words."</string>
   <string name="wapi_cert_select">WAPI certificate</string>
   <string name="wapi_no">No</string>
   <string name="wapi_no_vaild_cert">"Looks like required certificates aren't installed. Install now?"</string>
-  <string name="wapi_password_empty">Please input the password</string>
+  <string name="wapi_password_empty">Enter password</string>
   <string name="wapi_password_hex_format_add">You must use an even number of hexadecimal characters</string>
-  <string name="wapi_password_hex_format_invalid">Invalid hexadecimal characters</string>
-  <string name="wapi_password_hex_length_invalid">The count of hexadecimal characters must be even number</string>
+  <string name="wapi_password_hex_format_invalid">Invalid password format</string>
+  <string name="wapi_password_hex_length_invalid">The count of hexadecimal characters must be an even number</string>
   <string name="wapi_password_is_empty">"Password can't be blank"</string>
   <string name="wapi_password_is_not_hex_format">Invalid hexadecimal characters</string>
-  <string name="wapi_password_length_invalid">The password must be: 8-64 characters</string>
+  <string name="wapi_password_length_invalid">Password must be 8 to 64 characters long</string>
   <string name="wapi_password_length_is_max">Password can be up to 64 characters long</string>
   <string name="wapi_password_length_is_min">Password must be at least 8 characters long</string>
   <string name="wapi_password_length_is_min_to_max">Password must contain 8-64 characters</string>
@@ -6805,6 +6807,9 @@ Looks like credential storage isn't enabled."</string>
   <string name="work_profile_usage_access_warning">"Turning off usage access for this app doesn't prevent your admin from tracking data usage for apps in your work profile"</string>
   <string name="work_ringtone_title">Work phone ringtone</string>
   <string name="work_sim_title">Work SIM</string>
+  <string name="work_sound_permission_dialog_button_text_known">Got it</string>
+  <string name="work_sound_permission_dialog_message">"You can't use Themes in Enterprise mode. Contact your supervisor to get access."</string>
+  <string name="work_sound_permission_dialog_title">Enterprise mode restrictions</string>
   <string name="work_sound_same_as_personal">Same as personal profile</string>
   <string name="work_space_delete">Delete Work space</string>
   <string name="work_space_delete_confirm">Delete now</string>
