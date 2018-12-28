@@ -4375,6 +4375,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>
+  <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
   <string name="status_bar_settings_show_carrier_under_keyguard">Show carrier when device is locked</string>
