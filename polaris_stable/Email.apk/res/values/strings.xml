@@ -3,8 +3,6 @@
   <string name="SMTP_independent_verification_text">SMTP independent verification</string>
   <string name="SMTP_password_text">Password</string>
   <string name="SMTP_username_text">Username</string>
-  <string name="accessibility_guide_first">In the next screen, select the \"Services\" tab to activate the 139 Mailbox Automatical Configuring</string>
-  <string name="accessibility_guide_second">Then click the switch on the top right corner, click the \"Confirm\" to continue.</string>
   <string name="account_cache_provider">Account Cache Provider</string>
   <string name="account_duplicate_dlg_message_fmt">"You're already using this username for the account \"%s\"."</string>
   <string name="account_duplicate_dlg_title">Duplicate account</string>
@@ -55,6 +53,7 @@
   <string name="account_settings_notify_summary">Show notification when new email arrives</string>
   <string name="account_settings_param">Account settings</string>
   <string name="account_settings_policies">Security policies</string>
+  <string name="account_settings_preference_add_account">Add email account</string>
   <string name="account_settings_preference_att_save_path">Default location for attachments</string>
   <string name="account_settings_preference_head_icon">Profile photos</string>
   <string name="account_settings_preference_notify">Notify</string>
@@ -79,11 +78,11 @@
   <string name="account_setup_address_label">Email</string>
   <string name="account_setup_autodiscover_dlg_authfail_message">Confirm username, password, and account settings are correct.</string>
   <string name="account_setup_autodiscover_dlg_authfail_title">"Couldn't set up account"</string>
-  <string name="account_setup_basics_email_label">Enter email address</string>
+  <string name="account_setup_basics_email_label">Email address</string>
   <string name="account_setup_basics_login_gmail_without_proxy">Sign in using current network</string>
   <string name="account_setup_basics_manual_setup_action">Manual setup</string>
   <string name="account_setup_basics_mi_mail_login_help">You may need to verify your account via SMS to receive emails</string>
-  <string name="account_setup_basics_password_label">Enter password</string>
+  <string name="account_setup_basics_password_label">Password</string>
   <string name="account_setup_basics_title">Add account</string>
   <string name="account_setup_check_settings_check_incoming_msg">Validating server settings…</string>
   <string name="account_setup_check_settings_check_outgoing_msg">Validating SMTP settings…</string>
@@ -94,7 +93,7 @@
   <string name="account_setup_exchange_certificate_title">Client certificate</string>
   <string name="account_setup_exchange_device_id_label">Mobile Device ID</string>
   <string name="account_setup_exchange_no_certificate">None</string>
-  <string name="account_setup_failed_auth_required">"Authentication methods aren't supported by server."</string>
+  <string name="account_setup_failed_auth_required">"This authentication method isn't supported by the server."</string>
   <string name="account_setup_failed_certificate_inaccessible">The certificate is invalid or inaccessible.</string>
   <string name="account_setup_failed_certificate_required">A client certificate is required. Do you want to connect to the server with a client certificate?</string>
   <string name="account_setup_failed_check_credentials_message">The server responded with an error. Check your username and password, then try again.</string>
@@ -173,6 +172,7 @@
   <string name="add_account_keywords">Add account;add mail account</string>
   <string name="add_attachment">Add attachment</string>
   <string name="add_calendar">Remind</string>
+  <string name="add_file_exception">Add exception. Please try adding from other paths.</string>
   <string name="add_label">Add folder</string>
   <string name="add_pre_message_attachments">Add the attachments of pre-message?</string>
   <string name="add_pre_message_attachments_no">"Don't add"</string>
@@ -224,10 +224,7 @@
   <string name="auto_advance_summary">Choose which message to scroll to after deleting a message</string>
   <string name="auto_login_fail">"Couldn't sign in automatically"</string>
   <string name="auto_login_fail_to_retry">"Couldn't sign in automatically, try again."</string>
-  <string name="auto_mail_describe">139 Email Service Automatical Configuring can help you filling in the login information to the mailbox. Do you want to enable this feature?</string>
-  <string name="auto_mail_disable_txt">Disabled</string>
   <string name="auto_mail_enable_txt">Start Settings</string>
-  <string name="auto_mail_go_email">Mailbox</string>
   <string name="auto_mail_name">AutoMail</string>
   <string name="auto_mail_title_note">Find the option \"139 Mailbox Automatical Configuring\", click it to start.</string>
   <string name="auto_mail_window_description">139 Email Service Automatical Configuring</string>
@@ -277,6 +274,7 @@
   <string name="chat_item_msg_people_unit">people</string>
   <string name="chat_item_msg_user_etc">etc.</string>
   <string name="check_setup_data">"    Validating server settings…"</string>
+  <string name="chinese">Chinese</string>
   <string name="choosertitle_sharevia">Share using</string>
   <string name="clear">Clear</string>
   <string name="clear_display_images_whitelist_dialog_message">Stop displaying inline images from senders you previously allowed.</string>
@@ -284,7 +282,6 @@
   <string name="clear_display_images_whitelist_title">Clear picture approvals</string>
   <string name="click_download_all_content">[ Tap to download content ]</string>
   <string name="click_to_reload">Tap screen to refresh</string>
-  <string name="close">Shut down</string>
   <string name="collapse_recipient_details">Collapse recipient details</string>
   <string name="colon">:</string>
   <string name="compose">Compose</string>
@@ -388,7 +385,9 @@
   <string name="device_not_activiey_lint1">Device manager is not activated</string>
   <string name="device_not_activiey_lint2">Mail service does not work with Exchange</string>
   <string name="dialog_account_auto_sync_setting_no_open">You chose to sync emails manually. Refresh to sync.</string>
+  <string name="dialog_agree">Agree</string>
   <string name="dialog_change_sync_lookback">The mail received %s ago will be deleted automatically. Tap to change.</string>
+  <string name="dialog_disagree">Disagree</string>
   <string name="dialog_insufficient_space_on_external">"Can't download attachment. Not enough space on external storage."</string>
   <string name="dialog_insufficient_space_on_internal">Not enough space on internal storage.</string>
   <string name="dialog_system_auto_sync_account_no_open">Turn on account sync to receive emails automatically</string>
@@ -430,7 +429,6 @@
   <string name="edit_quick_response_dialog">Quick reply</string>
   <string name="edit_signature">Edit signature</string>
   <string name="elided_padding_token"> </string>
-  <string name="email_address">Email address</string>
   <string name="email_feedback_uri"/>
   <string name="email_netease">NetEase Mail</string>
   <string name="email_package_name">com.android.email</string>
@@ -482,7 +480,6 @@
   <string name="file_save_term">File saving terms</string>
   <string name="filtered_tag">" [%1$s]%2$s"</string>
   <string name="first_quick_default_reply">Tap the button to send \"%s\" to all people in the conversation</string>
-  <string name="float_window_content">Detects that you are using the mailbox, click Confirm for you to automatically fill 139 E-mail account and password.</string>
   <string name="float_window_info">"When configuring the 139 mailbox, don't operate the phone, in case of configuration failures."</string>
   <string name="float_window_title">Configuration………</string>
   <string name="folder_drafts_name_cn0">草稿</string>
@@ -557,7 +554,6 @@
   <string name="header_category_other">Feedback</string>
   <string name="header_label_general_preferences">General</string>
   <string name="help_and_info">Help</string>
-  <string name="help_config">Self configuration</string>
   <string name="hide_elided">▼ Hide quoted text</string>
   <string name="hide_password">Hide password</string>
   <string name="hierarchical_folder_parent_top">%1$s∕%2$s∕</string>
@@ -582,6 +578,7 @@
   <string name="invalid_recipient_title">Recipient Error</string>
   <string name="kilobytes">%s KB</string>
   <string name="label_notification_ticker" formatted="false">%s: %s</string>
+  <string name="list_empty_to_fresh">No mail, please try pull-down refresh.</string>
   <string name="load_attachment">@string/load_more</string>
   <string name="load_from_remote">Search mailbox on server</string>
   <string name="load_more">Load more</string>
@@ -594,7 +591,7 @@
   <string name="login139">Sign in with China Mobile</string>
   <string name="login_failed_ticker">%s signin unsuccessful.</string>
   <string name="login_failed_title">"Can't sign in"</string>
-  <string name="login_mail">Login Mail</string>
+  <string name="login_mail">Sign in</string>
   <string name="login_support_tip_text">Supports all major email accounts</string>
   <string name="long_press_to_select_tip">Touch &amp; hold to select one conversation, then touch to select more.</string>
   <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
@@ -603,8 +600,10 @@
   <string name="mail_description_content">Mail is an email client that can manage multiple accounts, send and receive emails, as well as sync your calendar info and contacts. Make sure you can do without these features before you uninstall the app. Your Exchange contacts and calendar info will be deleted too.</string>
   <string name="mail_description_title">About Mail</string>
   <string name="mail_header_network_not_available">"You don't have a network connection."</string>
+  <string name="mail_search_lab">search label</string>
   <string name="mailbox_list_account_selector_combined_view">Combined account</string>
   <string name="mailbox_name_display_ad">Ads</string>
+  <string name="mailbox_name_display_add_account">Add email account</string>
   <string name="mailbox_name_display_circular">Notifications</string>
   <string name="mailbox_name_display_drafts">Drafts</string>
   <string name="mailbox_name_display_inbox">Inbox</string>
@@ -722,7 +721,7 @@
   <string name="multiple_new_message_notification_item">&lt;b&gt;%1$s&lt;/b&gt;"   %2$s"</string>
   <string name="mute">Mute</string>
   <string name="navigation_menu">Navigation menu</string>
-  <string name="need_get_qq_mail">Need QQ Mail</string>
+  <string name="need_get_qq_mail">Requires QQ Mail</string>
   <string name="network_error">No connection</string>
   <string name="network_invaild">"Can't connect to the network"</string>
   <string name="network_not_available">"Can't connect to the network"</string>
@@ -746,20 +745,23 @@ Try switching to a different email account."</string>
   <string name="no_matched_attachment">No results.</string>
   <string name="no_recognize_describe">"Couldn't find emails containing tickets or bookings.
 Try a different inbox."</string>
-  <string name="no_remind">Not to remind</string>
   <string name="not_subject">(No subject)</string>
   <string name="not_synced_title">Account not synced</string>
-  <string name="note_text">Possible through the network of China Mobile or SMS verification, may generate additional costs to flow or SMS.</string>
+  <string name="note_text">Through a network of China Mobile and SMS verification, it will only generate additional traffic, do not generate SMS fees.</string>
   <string name="note_title">139 Email Automatic Configuration</string>
   <string name="notification_action_archive">Archive</string>
   <string name="notification_action_delete">Delete</string>
-  <string name="notification_action_remove_label">Remove tag</string>
+  <string name="notification_action_remove_label">Remove label</string>
   <string name="notification_action_reply">Reply</string>
   <string name="notification_action_reply_all">Reply all</string>
   <string name="notification_action_undo_archive">Archived</string>
   <string name="notification_action_undo_delete">Deleted</string>
-  <string name="notification_action_undo_remove_label">Tag removed</string>
+  <string name="notification_action_undo_remove_label">Label removed</string>
   <string name="notification_exchange_calendar_added">Exchange calendar added</string>
+  <string name="notify_channel_new_mail">New email reminder</string>
+  <string name="notify_channel_no_disterb">No disturb mode</string>
+  <string name="notify_channel_permission_notice">Permission Notice reminder</string>
+  <string name="notify_channel_send_fail">Send failure reminder</string>
   <string name="oauth_error_description">"Couldn't authenticate"</string>
   <string name="oauth_gmail_login_notify">Enter your Google Account username and password on the following sign-in page.</string>
   <string name="oauth_login_continue">Continue</string>
@@ -774,10 +776,10 @@ Try a different inbox."</string>
   <string name="open_external_storage_and_calendar_permission">Allow Mail to access storage and calendar info in the Settings</string>
   <string name="open_external_storage_and_contacts_and_calendar_permission">Allow Mail to access storage, contacts, and calendar info in the Settings</string>
   <string name="open_external_storage_and_contacts_permission">Allow Mail to access storage and contacts in the Settings</string>
-  <string name="open_notification_kingagent">Open the notice of the burial point</string>
-  <string name="optimization_suggestion">Optimization suggestion</string>
-  <string name="others_mail">Others</string>
-  <string name="others_mail_des">(Conver More than 60,0000 Mails)</string>
+  <string name="open_notification_kingagent">Turn on burial point notifications</string>
+  <string name="optimization_suggestion">Optimization suggestions</string>
+  <string name="others_mail">Other</string>
+  <string name="others_mail_des">(Compatible with 600K mail services)</string>
   <string name="outbox_alert_button_no_resend">"Don't send"</string>
   <string name="outbox_alert_button_resend">Resend</string>
   <string name="outbox_alert_certificate_error">"Contact your email system's administrator and update your certificate."</string>
@@ -806,7 +808,8 @@ Try a different inbox."</string>
   <string name="over_due">Overdue</string>
   <string name="overlays_fail_tip">Very sorry that your mailbox is not configured successfully, open the floating Windows permissions and try again</string>
   <string name="overlays_ok">Open permissions</string>
-  <string name="overlays_tip">Open floating Windows permissions, and immediately enjoy 139 mailbox to automatically configure the extreme experience.</string>
+  <string name="overlays_tip">Phone settings - Application - Application Details - open floating Windows permissions in the permissions manager, and immediately enjoy 139 mailbox to automatically configure the extreme experience.</string>
+  <string name="overlays_tip_23">Open floating Windows permissions, and immediately enjoy 139 mailbox to automatically configure the extreme experience.</string>
   <string name="overlays_title">Open floating Windows permissions</string>
   <string name="parase_setup_data">Getting data…</string>
   <string name="parse_bill_discribe">Processing credit card bills…</string>
@@ -888,7 +891,8 @@ to receive reminders about payments and trips"</string>
   <string name="preview_attachment">Preview</string>
   <string name="previous_action">Back</string>
   <string name="print">Print</string>
-  <string name="privacy_policy">Privacy policy</string>
+  <string name="privacy_des">日志信息包含电子邮件应用打印的调试信息及您的设备信息，用于定位您所反馈的问题。选择下方的“%1$s”表示您已阅读并同意小米的《%2$s》</string>
+  <string name="privacy_policy">Privacy Policy</string>
   <string name="prompt_title">Prompt</string>
   <string name="protocol_eas">eas</string>
   <string name="protocol_imap">imap</string>
@@ -906,9 +910,9 @@ to receive reminders about payments and trips"</string>
   <string name="push_wps_confirm_message">Try using WPS Office to open this attachment.</string>
   <string name="push_wps_confirm_title">Try WPS Office</string>
   <string name="push_wps_no_response_app">No application found to handle this action</string>
-  <string name="qq_authorization_help_get">Help me get</string>
-  <string name="qq_authorization_know">Understanding the authorization code</string>
-  <string name="qq_authorization_tips">No longer prompt</string>
+  <string name="qq_authorization_help_get">Get code</string>
+  <string name="qq_authorization_know">About the code</string>
+  <string name="qq_authorization_tips">"Don't show again"</string>
   <string name="qq_auto_login_failed_cpy_pass_success">Copied successfully. Go back to the sign-in page and paste the code into the password form.</string>
   <string name="qq_auto_login_failed_dialog_message">Copy verification code, tap \"Enter username and password to sign in\" on the sign-in page, and paste the code into the password form.</string>
   <string name="qq_auto_login_failed_dialog_positive_label">Copy code</string>
@@ -922,7 +926,7 @@ to receive reminders about payments and trips"</string>
   <string name="qq_login_webview">Signing in to QQ web client, tap sign in using the password.</string>
   <string name="qq_next_generation_auth_toast">Turn on password protection in your browser</string>
   <string name="qq_uthentication_failed">"Couldn't verify account, sign in again"</string>
-  <string name="qq_verify_code">(Need QQ Verify Code)</string>
+  <string name="qq_verify_code">(Requires verification code from QQ)</string>
   <string name="qq_webview_loading">Just a sec…</string>
   <string name="questionnair_body_invisibility">"Messages aren't displayed"</string>
   <string name="questionnair_confirm_delete">Remove account?</string>
@@ -1005,6 +1009,7 @@ to receive reminders about payments and trips"</string>
   <string name="refreshing_done">Done</string>
   <string name="release_to_refresh">Release to refresh</string>
   <string name="remind_attachment_size_limit">Your emails should be less than %sMB</string>
+  <string name="remote_no_mail">remote_no_mail</string>
   <string name="remove_account">Remove account</string>
   <string name="remove_folder">Remove from %1$s</string>
   <string name="remove_star">Unstar</string>
@@ -1033,7 +1038,7 @@ to receive reminders about payments and trips"</string>
   <string name="saved">Saved,  %s</string>
   <string name="saving">Saving…</string>
   <string name="sdcard_cannot_use">"Can't use SD card"</string>
-  <string name="search_bar_text">Search sender or search contact</string>
+  <string name="search_bar_text">Search for senders or contacts</string>
   <string name="search_hint">Search mail</string>
   <string name="search_result">"Results "</string>
   <string name="search_tabs_name_all">All</string>
@@ -1088,6 +1093,7 @@ to receive reminders about payments and trips"</string>
   <string name="shortcut_name_title">Name folder shortcut</string>
   <string name="show_elided">▶ Show quoted text</string>
   <string name="show_images">Download and show pictures</string>
+  <string name="show_more_attachment">More attachments</string>
   <string name="show_password">Show password</string>
   <string name="signature">"
 
@@ -1101,6 +1107,7 @@ to receive reminders about payments and trips"</string>
   <string name="single_new_message_notification_title">%1$s: %2$s</string>
   <string name="sms_tip">Authentication fails, check whether the antivirus software to intercept SMS</string>
   <string name="smtp_password_error">Password for outgoing mail server is incorrect</string>
+  <string name="snip_pic">%1$s</string>
   <string name="sort_attachment">Sort by</string>
   <string name="special_text_1">写道:</string>
   <string name="special_text_2">写道：</string>
@@ -1187,8 +1194,9 @@ Remove account?"</string>
   <string name="unread_string">conversation unread</string>
   <string name="unzip_file_failed">"Couldn't unzip file"</string>
   <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
+  <string name="update_to_wps_mail">Enjoy more features with WPS Mail</string>
   <string name="updated_at">Refreshed at %1$s</string>
-  <string name="upload_log">Submit logs</string>
+  <string name="upload_log">Send</string>
   <string name="upload_log_failed">"Couldn't send logs"</string>
   <string name="upload_log_no">Cancel</string>
   <string name="upload_log_success">"Sent successfully, we'll get back to you soon."</string>
@@ -1202,7 +1210,7 @@ Remove account?"</string>
   <string name="veiled_alternate_text"/>
   <string name="veiled_alternate_text_unknown_person"/>
   <string name="veiled_summary_unknown_person"/>
-  <string name="verify_code">Verify Code</string>
+  <string name="verify_code">Verification code</string>
   <string name="version_string">Version: %s</string>
   <string name="via_domain">via %1$s</string>
   <string name="view_more_conversations">View more conversations</string>

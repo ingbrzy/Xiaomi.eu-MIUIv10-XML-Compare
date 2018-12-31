@@ -37,7 +37,7 @@
         <item>水下</item>
     </string-array>
     <array name="ai_scene_drawables">
-        <item>@drawable/ic_ai_scene_on</item>
+        <item>@drawable/ic_new_ai_scene_on</item>
         <item>@drawable/ic_ai_scene_doc</item>
         <item>@drawable/ic_ai_scene_flower</item>
         <item>@drawable/ic_ai_scene_food</item>
