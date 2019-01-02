@@ -58,8 +58,8 @@
   <string name="accessibility_setting">Settings</string>
   <string name="accessibility_shutter_button">Shutter button</string>
   <string name="accessibility_stereo_button">Focus adjustment</string>
-  <string name="accessibility_ultra_pixel_photography_off">4800万超清,关闭状态</string>
-  <string name="accessibility_ultra_pixel_photography_on">4800万超清,开启状态</string>
+  <string name="accessibility_ultra_pixel_photography_off">%d万超清,关闭状态</string>
+  <string name="accessibility_ultra_pixel_photography_on">%d万超清,开启状态</string>
   <string name="accessibility_ultra_wide_off">超广角,关闭状态</string>
   <string name="accessibility_ultra_wide_on">超广角,开启状态</string>
   <string name="accessibility_video_capture_button">Photo Button for Video Recording</string>
@@ -77,6 +77,7 @@ and optimizes your photos based on this info"</string>
   <string name="beauty_body_legged">长腿</string>
   <string name="beauty_body_reset_tip">塑型效果已清除</string>
   <string name="beauty_body_shoulder">肩部</string>
+  <string name="beauty_body_slim_count_tip">塑型仅支持单人拍摄</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_makeup">Makeup</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
@@ -408,6 +409,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_jpegquality_value_high">high</string>
   <string name="pref_camera_jpegquality_value_low">low</string>
   <string name="pref_camera_jpegquality_value_normal">normal</string>
+  <string name="pref_camera_live_sticker_internal_title">Internal magic tools</string>
   <string name="pref_camera_long_press_shutter_feature_default">burst</string>
   <string name="pref_camera_long_press_shutter_feature_title">Press &amp; hold Shutter button</string>
   <string name="pref_camera_long_pressing_burst_shooting_entry_burst">Burst shoot</string>
@@ -527,7 +529,7 @@ and brings out the people in the front."</string>
   <string name="pref_google_lens">Google lens</string>
   <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
   <string name="pref_manual_exposure_title">S</string>
-  <string name="pref_menu_ultra_pixel_photography_48mp">4800万超清</string>
+  <string name="pref_menu_ultra_pixel_photography">%d万超清</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
   <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720p videos with 240fps</string>
@@ -613,8 +615,8 @@ and brings out the people in the front."</string>
   <string name="toast_saving">Saving photos…</string>
   <string name="ubi_focus_capture_fail">"Couldn't take photo"</string>
   <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
-  <string name="ultra_pixel_photography_close_tip">4800万超清已关闭</string>
-  <string name="ultra_pixel_photography_open_tip">4800万超清</string>
+  <string name="ultra_pixel_photography_close_tip">%d万超清已关闭</string>
+  <string name="ultra_pixel_photography_open_tip">%d万超清</string>
   <string name="ultra_wide_bokeh_close_tip">全身模式已关闭</string>
   <string name="ultra_wide_bokeh_open_tip">全身模式</string>
   <string name="ultra_wide_close_tip">超广角模式已关闭</string>
