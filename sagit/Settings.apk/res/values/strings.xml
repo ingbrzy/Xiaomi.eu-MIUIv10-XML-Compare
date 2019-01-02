@@ -272,6 +272,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
+  <string name="aod_clock_style_title">Clock style</string>
   <string name="aod_close_color_inversion">"This feature can't be combined with color inversion. Turn off color inversion first."</string>
   <string name="aod_got_it">Got it</string>
   <string name="aod_mode_summary">Always show time, date and messages when the screen is off</string>
@@ -4461,6 +4462,8 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="services_subtitle">Services</string>
   <string name="set_data_limit">Set data limit</string>
   <string name="set_data_warning">Set data warning</string>
+  <string name="set_jeejen_prompt_message">Jeejen will be set as your default launcher. You can change the default launcher in Settings &gt; System settings &gt; Home screen &amp; Recents &gt; Default launcher.</string>
+  <string name="set_jeejen_prompt_title">Confirm changes</string>
   <string name="setting_privacy_password">Set Privacy protection password</string>
   <string name="settings_ad_loading">Loading…</string>
   <string name="settings_ad_loading_unavailable">"Couldn't load info."</string>
@@ -6208,6 +6211,9 @@ Tap"&lt;b&gt; Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="work_profile_usage_access_warning">"Turning off usage access for this app doesn't prevent your admin from tracking data usage for apps in your work profile"</string>
   <string name="work_ringtone_title">Work phone ringtone</string>
   <string name="work_sim_title">Work SIM</string>
+  <string name="work_sound_permission_dialog_button_text_known">Got it</string>
+  <string name="work_sound_permission_dialog_message">"You can't use Themes in Enterprise mode. Contact your supervisor to get access."</string>
+  <string name="work_sound_permission_dialog_title">Enterprise mode restrictions</string>
   <string name="work_sound_same_as_personal">Same as personal profile</string>
   <string name="work_space_delete">Delete Work space</string>
   <string name="work_space_delete_confirm">Delete now</string>
