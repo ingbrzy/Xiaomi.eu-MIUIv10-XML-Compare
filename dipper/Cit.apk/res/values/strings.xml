@@ -398,6 +398,7 @@ Touch the screen to start GPS…"</string>
   <string name="cit_name">Hardware tests</string>
   <string name="cit_nfc_check_summary">Please put the card on the top of the back of the phone</string>
   <string name="cit_nfc_check_title">NFC test</string>
+  <string name="cit_nfc_sim_check_summary">Confirm that correct the status and info of the NFC SIM card is displayed below, only two NFC SIM cards simultaneously exist and has correct status can pass</string>
   <string name="cit_no_sim_check_summary">Confirm the phone has no sim card!</string>
   <string name="cit_no_sim_check_title">No Sim Card</string>
   <string name="cit_not_available">"This test isn't available on this version of MIUI"</string>
