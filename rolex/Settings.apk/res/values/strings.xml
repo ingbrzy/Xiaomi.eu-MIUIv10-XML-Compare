@@ -185,6 +185,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="android_beam_witch_label">Android Beam</string>
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="anti_spam">Blocklist</string>
+  <string name="aod_clock_style_title">Clock style</string>
   <string name="apn_apn">APN</string>
   <string name="apn_auth_type">Authentication type</string>
   <string name="apn_auth_type_chap">CHAP</string>
@@ -1156,6 +1157,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_browser_title_none">No default Browser</string>
   <string name="default_emergency_app">Emergency app</string>
   <string name="default_input_method">Choose default keyboard</string>
+  <string name="default_launcher_set_jeejen_message">Press the Home button to set up Jeejen</string>
+  <string name="default_launcher_set_system_message">Press the Home button to restore default launcher</string>
   <string name="default_launcher_title">Default Launcher</string>
   <string name="default_phone_title">Phone app</string>
   <string name="default_rule_name">Timer 1</string>
@@ -3680,6 +3683,8 @@ To use screen pinning:
   <string name="service_stop">Stop</string>
   <string name="service_stop_description">App has started running service. Stopping may cause errors.</string>
   <string name="services_subtitle">Services</string>
+  <string name="set_jeejen_prompt_message">Jeejen will be set as your default launcher. You can change the default launcher in Settings &gt; System settings &gt; Home screen &amp; Recents &gt; Default launcher.</string>
+  <string name="set_jeejen_prompt_title">Confirm changes</string>
   <string name="setting_privacy_password">Set Privacy protection password</string>
   <string name="settings_ad_loading">Loading…</string>
   <string name="settings_ad_loading_unavailable">"Couldn't load info."</string>
@@ -3940,6 +3945,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>
+  <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
   <string name="status_bar_settings_show_carrier_under_keyguard">Show carrier when device is locked</string>
