@@ -343,6 +343,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
+  <string name="aod_clock_style_title">Clock style</string>
   <string name="aod_close_color_inversion">"This feature can't be combined with color inversion. Turn off color inversion first."</string>
   <string name="aod_got_it">Got it</string>
   <string name="aod_mode_summary">Always show time, date and messages when screen off.</string>
@@ -5214,6 +5215,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>
+  <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
   <string name="status_bar_settings_show_carrier_under_keyguard">Show carrier when device is locked</string>
