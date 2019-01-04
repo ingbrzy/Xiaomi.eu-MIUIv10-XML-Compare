@@ -74,6 +74,7 @@
   <string name="savetopdf_button">Save to PDF</string>
   <string name="search">Search</string>
   <string name="select_to_add_printers">Select to add printer</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="summary_template">Summary, copies %1$s, paper size %2$s</string>
   <string name="template_all_pages">All %1$s</string>
   <string name="template_page_range">Range of %1$s</string>
