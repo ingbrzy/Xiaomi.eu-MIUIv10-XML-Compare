@@ -31,6 +31,7 @@
   <string name="cancel">Cancel</string>
   <string name="check_phone_error_title">Sync is off</string>
   <string name="check_phone_io_error">"Can't connect to the network"</string>
+  <string name="children_education">"Children's education"</string>
   <string name="chinese_character_cross_check">互查</string>
   <string name="chinese_character_daughter">女</string>
   <string name="chinese_character_elder_brother">兄</string>
@@ -441,6 +442,9 @@
   <string name="error_unauthorized">Sync has been turned off due to too many sign-in attempts.</string>
   <string name="evening">PM</string>
   <string name="exit">Exit</string>
+  <string name="extra_deduction_instruction">Deduction details</string>
+  <string name="extra_deduction_tips">Tap the button in the upper corner of the screen to view deduction details.</string>
+  <string name="extra_deduction_title">Additional deductions</string>
   <string name="factorial">!</string>
   <string name="factorialDesc">factorial</string>
   <string name="far_relationship_result">关系有点远，年长就叫老祖宗，同龄人就叫美女帅哥吧~</string>
@@ -506,6 +510,7 @@
   <string name="from_unit_short">km/h</string>
   <string name="fund"/>
   <string name="fund_loan">Fund loan</string>
+  <string name="further_education">Further education</string>
   <string name="gay_other_search_result">暂时不支持同性婚姻称呼查询，怎么称呼你决定~</string>
   <string name="gay_search_result">是男是女不重要，是你就好</string>
   <string name="global_network_confirm_content">Currency converter needs to connect to the internet to work normally.</string>
@@ -534,7 +539,10 @@
   <string name="heavenly_stems_wu">戊</string>
   <string name="heavenly_stems_xin">辛</string>
   <string name="heavenly_stems_yi">乙</string>
+  <string name="help_content_desc">Help</string>
+  <string name="home_loan">Mortgage interest</string>
   <string name="home_title_calculator">Calculator</string>
+  <string name="house_rent">Rent</string>
   <string name="husband">丈夫</string>
   <string name="hybrid_provider">Provided by %1$s</string>
   <string name="im">IM</string>
@@ -566,9 +574,11 @@
   <string name="lg">lg</string>
   <string name="lgDesc">logarithm</string>
   <string name="lg_mathematical_value">lg</string>
+  <string name="license_host_unreachable">"Couldn't connect to the network. Check your network settings and try again."</string>
   <string name="ln">ln</string>
   <string name="lnDesc">natural logarithm</string>
   <string name="ln_mathematical_value">ln</string>
+  <string name="loading">Just a sec…</string>
   <string name="loading_fail_message_no_network">"Couldn't connect to the network. Tap here to try again."</string>
   <string name="loading_fail_refresh">Refresh</string>
   <string name="loading_message">Loading app…</string>
@@ -588,6 +598,7 @@
   <string name="loan_repayment_detail_loading">Loading detailed repayment…</string>
   <string name="loan_repayment_detail_unit">Detailed repayment (CNY)</string>
   <string name="loan_unit">(×10K)</string>
+  <string name="medical_treatment">Medical treatment</string>
   <string name="menuDesc">menu</string>
   <string name="midnight">AM</string>
   <string name="minus">−</string>
@@ -669,6 +680,7 @@
   <string name="mortgage_tab_commercial_loan">Commercial</string>
   <string name="mortgage_years_amount">Mortgage period</string>
   <string name="mother">妈妈</string>
+  <string name="mt_max">The amount you entered is too big</string>
   <string name="mul">×</string>
   <string name="mulDesc">multiply</string>
   <string name="name">Name</string>
@@ -679,6 +691,7 @@
   <string name="night">PM</string>
   <string name="no_network">"Can't connect to the network"</string>
   <string name="no_sim">No SIM card detected.</string>
+  <string name="none">None</string>
   <string name="noon">PM</string>
   <string name="not_supported_due_to_language">This feature is only available for the Chinese language</string>
   <string name="note">Note</string>
@@ -800,6 +813,7 @@
   <string name="sunday">Sunday</string>
   <string name="sunday_short">Sun</string>
   <string name="sunday_shortest">S</string>
+  <string name="support_elder">Support for the elderly</string>
   <string name="switchDesc">Switch</string>
   <string name="sync_one_time_sync">Tap to sync ( %1$s )</string>
   <string name="tab_title_calculator">Calculator</string>
@@ -844,7 +858,7 @@
   <string name="tax_location">Location</string>
   <string name="tax_medical">Medical</string>
   <string name="tax_param_error">Enter correct insurance rates</string>
-  <string name="tax_rate_provider">Data provided by hexun.com and East Money</string>
+  <string name="tax_rate_provider">Calculated according to the new tax regulations. Data is provided by hexun.com and East Money.</string>
   <string name="tax_result_real_get">After tax</string>
   <string name="tax_social_insurance">Social insurance</string>
   <string name="tax_thershold_foreign">%s (Foreign nationals)</string>
@@ -1210,6 +1224,7 @@
   <string name="unit_year">Y</string>
   <string name="unit_year_format">Year %s</string>
   <string name="unit_yuan">CNY</string>
+  <string name="updating">Updating calculator…</string>
   <string name="user_agreement">User Agreement</string>
   <string name="user_manual">User guide</string>
   <string name="voiceDesc">Voice controls</string>
