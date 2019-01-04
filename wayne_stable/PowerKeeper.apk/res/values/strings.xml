@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="about_extreme_mode">Extreme mode</string>
   <string name="about_hide_mode">About Battery saver</string>
   <string name="active_classify">Sort by activity status</string>
   <string name="app_list_title">Choose apps</string>
@@ -7,6 +8,9 @@
   <string name="app_preload_policies_summary">"Use machine learning to predict the apps you're most likely to use, and load resources in advance."</string>
   <string name="app_preload_policies_title">AI pre-loading</string>
   <string name="appconfig_active_app_dialog_title">Manage active apps</string>
+  <string name="atrace_saved">Saved successfully</string>
+  <string name="atrace_saving">Saving atrace log…</string>
+  <string name="atrace_start">Recording atrace log…</string>
   <string name="base_info">Base info</string>
   <string name="cloud_addr_info">Cloud info</string>
   <string name="cloud_china_addr">Update Chinese server data</string>
@@ -31,14 +35,15 @@ Battery saver will treat important apps selectively."</string>
   <string name="empty_title_apps_container_list">No apps</string>
   <string name="enable_sleep_mode">Turn on Sleep mode to optimize battery usage at night</string>
   <string name="error_filename_too_long">The filename you entered is too long.</string>
+  <string name="extreme_mode_max_item_alert">You can select up to 4 apps to run in the background in Extreme mode</string>
   <string name="extreme_power_config_mode_category">Extreme mode</string>
-  <string name="extreme_power_config_mode_desc">Switch to extreme mode to turn off sync, Bluetooth, GPS, NFC, double tapping, button lights, waking Lock screen for notifications, as well as notification lights. MIUI will focus on saving battery.</string>
+  <string name="extreme_power_config_mode_desc">Switch to Extreme mode to turn off sync, Bluetooth, GPS, NFC, double tapping, button lights, waking Lock screen for notifications, as well as notification lights. MIUI will focus on saving battery.</string>
   <string name="extreme_power_config_mode_title">Extreme mode</string>
   <string name="failure">Error</string>
-  <string name="hide_mode_desc">When an app runs in the background, its activities will be monitored to reduce battery usage.</string>
+  <string name="hide_mode_desc">&lt;font color="#000000"&gt;When an app runs in the background, its activities will be monitored to reduce battery usage. This function will get and use user data according to %s&lt;/font&gt;</string>
   <string name="hide_system_app">Hide system apps</string>
-  <string name="high_temp_state">High temperature</string>
-  <string name="high_temp_state_message">High temperature protection,data,wifiap,gps,camera etc. will be restricted</string>
+  <string name="high_temp_state">Overheating</string>
+  <string name="high_temp_state_message">Your device is overheating. Mobile data, WLAN hotspots, GPS, and camera will be restricted.</string>
   <string name="hints_loading_text">Just a sec…</string>
   <string name="important_warning">Attention</string>
   <string name="lasttime_applist_cloud">Updated apps:</string>
@@ -71,6 +76,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="power_mode">Power settings</string>
   <string name="power_usage">Power usage</string>
   <string name="pref_config_title">Performance Optimization</string>
+  <string name="privacy">Privacy Policy</string>
   <string name="scenario_policies_summary">Apply different power saving strategies for different scenes.</string>
   <string name="scenario_policies_title">Smart scenes</string>
   <string name="scenario_policies_warmcontrol">Temperature control</string>
