@@ -202,6 +202,7 @@
   <string name="module_title_business_card">Business card</string>
   <string name="module_title_code">QR code</string>
   <string name="module_title_document">Document</string>
+  <string name="module_title_plant">Plant</string>
   <string name="module_title_shopping">Shopping</string>
   <string name="module_title_translation">Translate</string>
   <string name="name">Name:</string>
@@ -219,6 +220,11 @@
   <string name="payment_text">Open with %s</string>
   <string name="phone">Phone:</string>
   <string name="place_barcode_into_rectangle">Place the code inside the frame</string>
+  <string name="plant_fail">"Couldn't recognize"</string>
+  <string name="plant_loading">Identifying…</string>
+  <string name="plant_reg_fail_2">"Couldn't recognize this object. Scanner can only identify plants."</string>
+  <string name="plant_support">" (Technical support)"</string>
+  <string name="plant_title">Scan the plant you want to identify</string>
   <string name="pref_camera_focusmode_default">continuous-picture</string>
   <string name="pref_camera_jpeg_quality_fine">fine</string>
   <string name="pref_camera_jpeg_quality_normal">normal</string>
