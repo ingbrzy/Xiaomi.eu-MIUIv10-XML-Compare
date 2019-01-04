@@ -762,6 +762,7 @@ Try a different inbox."</string>
   <string name="notify_channel_no_disterb">No disturb mode</string>
   <string name="notify_channel_permission_notice">Permission Notice reminder</string>
   <string name="notify_channel_send_fail">Send failure reminder</string>
+  <string name="notify_channel_service">后台同步提醒</string>
   <string name="oauth_error_description">"Couldn't authenticate"</string>
   <string name="oauth_gmail_login_notify">Enter your Google Account username and password on the following sign-in page.</string>
   <string name="oauth_login_continue">Continue</string>
@@ -1119,6 +1120,7 @@ to receive reminders about payments and trips"</string>
   <string name="special_text_qq_subscribe">loadScript(_aoFiles){</string>
   <string name="special_text_sender_en">sender</string>
   <string name="special_text_sender_zh">发件人</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="storage">Storage</string>
   <string name="str_select_all">Select all</string>
   <string name="str_select_none">Deselect all</string>
