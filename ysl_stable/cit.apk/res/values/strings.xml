@@ -158,12 +158,13 @@ only in frame mode"</string>
   <string name="background_result">Back ground test result</string>
   <string name="backlight_dark">Backlight Dark</string>
   <string name="backlight_keypadlight_test">Backlight＆KeypadLight</string>
-  <string name="backlight_light">Backlight Light</string>
+  <string name="backlight_light">Backlight</string>
   <string name="backlight_test">Backlight</string>
   <string name="banding_limit">[0-1]</string>
   <string name="banding_title">"channel_banding [0-20M  1-40M]"</string>
   <string name="banding_title2">"channel_banding [0-20M  1-40M 3-80M]"</string>
   <string name="baseband_version">Baseband version</string>
+  <string name="battery_info">battery info</string>
   <string name="battery_info_ac_current_label">Charge current:</string>
   <string name="battery_info_ac_voltage_label">Charge voltage:</string>
   <string name="battery_info_awake_battery">Awake time on battery:</string>
@@ -344,8 +345,8 @@ only in frame mode"</string>
   <string name="flashled_off">Torch0 off</string>
   <string name="flashled_off1">Torch1 off</string>
   <string name="flashled_off2">Torch2 off</string>
-  <string name="flashled_on">Torch0 on</string>
-  <string name="flashled_on1">Torch1 on</string>
+  <string name="flashled_on">Front Torch</string>
+  <string name="flashled_on1">Back Torch</string>
   <string name="flashled_on2">Torch2 on</string>
   <string name="flashledtest">Flash LED is light?</string>
   <string name="fm_test">FM</string>
@@ -462,6 +463,7 @@ the selected?"</string>
   <string name="led_test">Led</string>
   <string name="ledblink">led blink?</string>
   <string name="ledtest">LED</string>
+  <string name="ledtest_info">The follow items will be random switch on. Please select the current status of the light</string>
   <string name="light_and_proximity_attention">"If put your hand cover the devices of light and proximity, then the light sensor's value will become smaller, and the proximity sensor's value changes from 1.0 to 0.0, otherwise test result is error!(Note: The value of light sensor changes slowly, need to hold on hand for a few seconds)"</string>
   <string name="light_attention">"If put your hand cover the devices of light, then the light sensor's value will become smaller, otherwise test result is error!(Note: The value of light sensor changes slowly, need to hold on hand for a few seconds)"</string>
   <string name="light_sensor_test">Light sensor</string>
