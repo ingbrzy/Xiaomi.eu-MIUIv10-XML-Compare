@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gadget version="1" resDensity="480" extraResources="sw1440-den640::1.222" extraScaleByDensity="640:1.222" useVariableUpdater="DateTime.Minute">
+    <Var name="color_time" type="string" expression="ifelse(#applied_light_wallpaper,'#b3000000','#ffffffff')" />
+	<Var name="color_date" type="string" expression="ifelse(#applied_light_wallpaper,'#80000000','#ccffffff')" />
+    <Text x="29" y="-28" size="162" color="@color_time" textExp="ifelse(#hour12,#hour12,12) + ':' + int(#minute/10) + int(#minute%10)" fontFamily="miui-thin" visibility="eq(#time_format,0)"/>
+	<DateTime x="29" y="-28" size="162" color="@color_time" format="HH:mm" fontFamily="miui-thin" visibility="eq(#time_format,1)"/>
+    <DateTime enableFontScale="true" x="42" y="180" format="@date_time" size="36" color="@color_date" contentDescriptionFormat="@desc_date_format" visibility="#time_format"/>
+    <DateTime enableFontScale="true" x="42" y="180" format="@date_time_12" size="36" color="@color_date" contentDescriptionFormat="@desc_date_format_12" visibility="not(#time_format)"/>
+    <Button name="clock_button" x="0" y="0" width="480" height="183" contentDescriptionExp="eval(@desc_time)"/>
+	<Button x="0" y="0" width="480" height="183" >
+		<Triggers>
+			<Trigger action="up">
+				<ExternCommand command="start_activity" strPara="'#Intent;component=com.android.deskclock/.DeskClockTabActivity;end'"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+	<Button x="0" y="184" width="480" height="77" >
+		<Triggers>
+			<Trigger action="up">
+				<IntentCommand action="android.intent.action.MAIN" package="com.android.calendar" class="com.android.calendar.AllInOneActivity"/>
+			</Trigger>
+		</Triggers>
+	</Button>
+</Gadget>
