@@ -78,24 +78,6 @@
   <string name="character_counter_pattern">%1$d / %2$d</string>
   <string name="classification_more_understand_you">Select your favorite category</string>
   <string name="close">Close</string>
-  <string name="common_google_play_services_enable_button">Enable</string>
-  <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
-  <string name="common_google_play_services_enable_title">Enable Google Play services</string>
-  <string name="common_google_play_services_install_button">Install</string>
-  <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
-  <string name="common_google_play_services_install_title">Get Google Play services</string>
-  <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
-  <string name="common_google_play_services_notification_ticker">Google Play services error</string>
-  <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
-  <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
-  <string name="common_google_play_services_update_button">Update</string>
-  <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
-  <string name="common_google_play_services_update_title">Update Google Play services</string>
-  <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
-  <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
-  <string name="common_open_on_phone">Open on phone</string>
-  <string name="common_signin_button_text">Sign in</string>
-  <string name="common_signin_button_text_long">Sign in with Google</string>
   <string name="component_backup_preference_title">Back up theme</string>
   <string name="component_category_finest_title">GENERAL</string>
   <string name="component_category_more_title">ADVANCED</string>
@@ -106,7 +88,6 @@
   <string name="current_using_desktop_wallpaper_text">Home screen</string>
   <string name="current_using_lockscreen_wallpaper_text">Lock screen</string>
   <string name="current_version_incompatible">Not compatible</string>
-  <string name="default_web_client_id">1067392201555-n4e19u8ssjk67pqha7bqovdlbq4j5r14.apps.googleusercontent.com</string>
   <string name="deleting">Deleting…</string>
   <string name="description_author">Author</string>
   <string name="description_designer">Designer</string>
@@ -166,8 +147,6 @@
   <string name="favorite_list_format">Favorite %1$s</string>
   <string name="find_more_theme">Find more</string>
   <string name="find_more_wallpapers">Find more</string>
-  <string name="firebase_database_url">https://thememanager-f0d62.firebaseio.com</string>
-  <string name="gcm_defaultSenderId">1067392201555</string>
   <string name="gift_anonymous">Anonymous</string>
   <string name="gift_count_format">%1$s+</string>
   <string name="gift_operation_fail_dlg_abandon">Cancel</string>
@@ -201,10 +180,6 @@
   <string name="gift_use_confirmation_dlg_title">Send this gift?</string>
   <string name="gift_use_fail_dlg_title">Something went wrong</string>
   <string name="gift_used">Sent</string>
-  <string name="google_api_key">AIzaSyANYOs19YEEcrI_FhJhLXwGFiriEBtY6os</string>
-  <string name="google_app_id">1:1067392201555:android:fb80d52055998cf5</string>
-  <string name="google_crash_reporting_api_key">AIzaSyANYOs19YEEcrI_FhJhLXwGFiriEBtY6os</string>
-  <string name="google_storage_bucket">thememanager-f0d62.appspot.com</string>
   <string name="hide_free">Hide free %1$s</string>
   <string name="hide_incompatible">Hide incompatible %1$s</string>
   <string name="hide_pull_down_message">Hide trinket?</string>
@@ -292,7 +267,6 @@
   <string name="present_local_themes_subtitle">Customize your device</string>
   <string name="present_official_themes">Our picks</string>
   <string name="present_online_themes">Get more online themes</string>
-  <string name="project_id">thememanager-f0d62</string>
   <string name="provision_default_theme_title">Default</string>
   <string name="provision_loading_tips">Just a sec…</string>
   <string name="provision_second_title">Select one of the several default themes</string>
@@ -530,13 +504,6 @@
   <string name="resource_waiting_pause">Pause</string>
   <string name="resource_wallpaper_download">Download wallpaper</string>
   <string name="ringtone_set_success">Set successfully</string>
-  <string name="s1">Save image</string>
-  <string name="s2">Allow Ad to store image in Picture gallery?</string>
-  <string name="s3">Accept</string>
-  <string name="s4">Decline</string>
-  <string name="s5">Create calendar event</string>
-  <string name="s6">Allow Ad to create a calendar event?</string>
-  <string name="s7">Test Ad</string>
   <string name="sdcard_not_mounted_dialog_message">"Insert SD card now.
 "</string>
   <string name="sdcard_not_mounted_dialog_title">No SD card detected</string>
@@ -545,7 +512,6 @@
   <string name="selected_resource_file_invalid">"Can't use selected resource file"</string>
   <string name="server_internal_error">A server error occurred. Wait a minute or two and try again.</string>
   <string name="set_color_ring_back_tone">Set a custom ringback tone</string>
-  <string name="set_home_wallpaper_failed">"%s. Can't apply Home screen wallpaper."</string>
   <string name="settings">Settings</string>
   <string name="shortcut_add">Add</string>
   <string name="shortcut_cancel">No thanks</string>
@@ -662,7 +628,6 @@
   <string name="using_theme_next_automatic_update">Automatic updates</string>
   <string name="using_theme_next_automatic_update_summary">Update downloaded themes via Wi-Fi automatically when the screen is locked</string>
   <string name="using_theme_show_ad">Recommendations</string>
-  <string name="using_wallpaper_personal">Personalized wallpaper selection</string>
   <string name="video_audio_apply_success">Configured video with sound successfully</string>
   <string name="video_data_tips_message">Using mobile data may generate additional fees. Continue anyway?</string>
   <string name="video_data_tips_title">Data usage warning</string>
@@ -673,10 +638,6 @@
   <string name="wallpaper_crop">Crop</string>
   <string name="wallpaper_decoded_error">"Can't load wallpaper"</string>
   <string name="wallpaper_detail_load_page_no_network">Connect to the network and try again.</string>
-  <string name="wallpaper_personal_dialog_agree">Personalize</string>
-  <string name="wallpaper_personal_dialog_content">Use this feature to be able to see the selection of wallpapers personalized according to your interests. You can turn this feature on and off in the settings. Personalize wallpapers now?</string>
-  <string name="wallpaper_personal_dialog_disagree">No thanks</string>
-  <string name="wallpaper_personal_dialog_title">Personalize your wallpapers</string>
   <string name="wallpaper_scroll_type_tips">Wallpaper scroll</string>
   <string name="wallpaper_set_as_both">Set both</string>
   <string name="wallpaper_set_as_desktop">Set as Home screen</string>
