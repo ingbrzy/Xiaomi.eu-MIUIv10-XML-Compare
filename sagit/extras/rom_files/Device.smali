@@ -6,8 +6,12 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/android/camera/Device$1;,
+        Lcom/android/camera/Device$2;,
+        Lcom/android/camera/Device$3;,
         Lcom/android/camera/Device$HDR_DEFAULT_VALUE;,
-        Lcom/android/camera/Device$HFR_QUALITY;
+        Lcom/android/camera/Device$HFR_QUALITY;,
+        Lcom/android/camera/Device$PictureWatermarkDefaultValueProvider;
     }
 .end annotation
 
@@ -157,6 +161,8 @@
 
 .field public static final MODULE:Ljava/lang/String;
 
+.field private static providers:[Lcom/android/camera/Device$PictureWatermarkDefaultValueProvider;
+
 .field private static sFpNavEventNameList:Ljava/util/ArrayList;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -211,7 +217,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_0
 
     sget-object v0, Lmiui/os/Build;->MODEL:Ljava/lang/String;
 
@@ -226,7 +232,7 @@
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_MI3W:Z
 
-    if-nez v0, :cond_2
+    if-nez v0, :cond_1
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_MI3TD:Z
 
@@ -235,13 +241,13 @@
 
     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWO:Z
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_2
 
     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWO_A:Z
 
     xor-int/lit8 v0, v0, 0x1
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_2
 
     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWO_S:Z
 
@@ -256,7 +262,7 @@
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_HM:Z
 
-    if-nez v0, :cond_4
+    if-nez v0, :cond_3
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_HM2S:Z
 
@@ -337,18 +343,18 @@
 
     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWOX:Z
 
-    if-nez v0, :cond_0
+    if-nez v0, :cond_4
 
     const-string/jumbo v0, "HM2014816"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v2
+    move-result v0
 
-    :cond_0
-    sput-boolean v2, Lcom/android/camera/Device;->IS_H2XLTE:Z
+    :goto_4
+    sput-boolean v0, Lcom/android/camera/Device;->IS_H2XLTE:Z
 
     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWOX_LC:Z
 
@@ -368,9 +374,9 @@
 
     const-string/jumbo v0, "leo"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -378,9 +384,9 @@
 
     const-string/jumbo v0, "ferrari"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -388,9 +394,9 @@
 
     const-string/jumbo v0, "ido"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -398,9 +404,9 @@
 
     const-string/jumbo v0, "aqua"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -408,9 +414,9 @@
 
     const-string/jumbo v0, "gemini"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -418,9 +424,9 @@
 
     const-string/jumbo v0, "gold"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -428,9 +434,9 @@
 
     const-string/jumbo v0, "capricorn"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -438,9 +444,9 @@
 
     const-string/jumbo v0, "natrium"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -448,9 +454,9 @@
 
     const-string/jumbo v0, "lithium"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -458,9 +464,9 @@
 
     const-string/jumbo v0, "scorpio"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -468,9 +474,9 @@
 
     const-string/jumbo v0, "libra"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -478,9 +484,9 @@
 
     const-string/jumbo v0, "land"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -488,9 +494,9 @@
 
     const-string/jumbo v0, "hydrogen"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -498,9 +504,9 @@
 
     const-string/jumbo v0, "helium"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -508,9 +514,9 @@
 
     const-string/jumbo v0, "omega"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -518,9 +524,9 @@
 
     sget-object v0, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    const-string/jumbo v2, "nike"
+    const-string/jumbo v3, "nike"
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -528,9 +534,9 @@
 
     sget-object v0, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    const-string/jumbo v2, "mark"
+    const-string/jumbo v3, "mark"
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -538,9 +544,9 @@
 
     sget-object v0, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    const-string/jumbo v2, "prada"
+    const-string/jumbo v3, "prada"
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -548,9 +554,9 @@
 
     sget-object v0, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    const-string/jumbo v2, "mido"
+    const-string/jumbo v3, "mido"
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -558,9 +564,9 @@
 
     const-string/jumbo v0, "rolex"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -568,9 +574,9 @@
 
     const-string/jumbo v0, "sagit"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -578,9 +584,9 @@
 
     const-string/jumbo v0, "centaur"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -588,9 +594,9 @@
 
     const-string/jumbo v0, "achilles"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -598,9 +604,9 @@
 
     const-string/jumbo v0, "riva"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -608,9 +614,9 @@
 
     const-string/jumbo v0, "cactus"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -618,9 +624,9 @@
 
     const-string/jumbo v0, "cereus"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -628,9 +634,9 @@
 
     const-string/jumbo v0, "tiare"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -638,9 +644,9 @@
 
     const-string/jumbo v0, "jason"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -648,9 +654,9 @@
 
     const-string/jumbo v0, "rosy"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -658,9 +664,9 @@
 
     const-string/jumbo v0, "tiffany"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -668,9 +674,9 @@
 
     const-string/jumbo v0, "tissot_sprout"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -678,9 +684,9 @@
 
     const-string/jumbo v0, "ulysse"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -688,9 +694,9 @@
 
     const-string/jumbo v0, "oxygen"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -698,9 +704,9 @@
 
     const-string/jumbo v0, "chiron"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -708,9 +714,9 @@
 
     const-string/jumbo v0, "ugg"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -718,9 +724,9 @@
 
     const-string/jumbo v0, "vince"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -728,9 +734,9 @@
 
     const-string/jumbo v0, "whyred"
 
-    sget-object v2, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -754,9 +760,9 @@
 
     const-string/jumbo v0, "hammerhead"
 
-    sget-object v1, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -764,9 +770,9 @@
 
     const-string/jumbo v0, "santoni"
 
-    sget-object v1, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -774,9 +780,9 @@
 
     const-string/jumbo v0, "ysl"
 
-    sget-object v1, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -784,9 +790,9 @@
 
     const-string/jumbo v0, "nitrogen"
 
-    sget-object v1, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -794,9 +800,9 @@
 
     const-string/jumbo v0, "platina"
 
-    sget-object v1, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -804,9 +810,9 @@
 
     const-string/jumbo v0, "tulip"
 
-    sget-object v1, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -814,9 +820,9 @@
 
     const-string/jumbo v0, "lotus"
 
-    sget-object v1, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
+    sget-object v3, Lcom/android/camera/Device;->BUILD_DEVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -830,27 +836,58 @@
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_CM_TEST:Z
 
+    const/4 v0, 0x3
+
+    new-array v0, v0, [Lcom/android/camera/Device$PictureWatermarkDefaultValueProvider;
+
+    new-instance v3, Lcom/android/camera/Device$1;
+
+    invoke-direct {v3}, Lcom/android/camera/Device$1;-><init>()V
+
+    aput-object v3, v0, v1
+
+    new-instance v1, Lcom/android/camera/Device$2;
+
+    invoke-direct {v1}, Lcom/android/camera/Device$2;-><init>()V
+
+    aput-object v1, v0, v2
+
+    new-instance v1, Lcom/android/camera/Device$3;
+
+    invoke-direct {v1}, Lcom/android/camera/Device$3;-><init>()V
+
+    const/4 v2, 0x2
+
+    aput-object v1, v0, v2
+
+    sput-object v0, Lcom/android/camera/Device;->providers:[Lcom/android/camera/Device$PictureWatermarkDefaultValueProvider;
+
     return-void
 
-    :cond_1
+    :cond_0
     move v0, v1
 
     goto/16 :goto_0
 
-    :cond_2
+    :cond_1
     move v0, v2
 
     goto/16 :goto_1
 
-    :cond_3
+    :cond_2
     move v0, v1
 
     goto/16 :goto_2
 
-    :cond_4
+    :cond_3
     move v0, v2
 
     goto/16 :goto_3
+
+    :cond_4
+    move v0, v2
+
+    goto/16 :goto_4
 .end method
 
 .method public constructor <init>()V
@@ -3309,52 +3346,42 @@
 .end method
 
 .method public static pictureWatermarkDefaultValue()Z
-    .locals 3
+    .locals 6
+
+    const/4 v3, 0x0
 
     const/4 v1, 0x0
 
-    sget-boolean v2, Lcom/android/camera/Device;->IS_E7S:Z
+    sget-object v4, Lcom/android/camera/Device;->providers:[Lcom/android/camera/Device$PictureWatermarkDefaultValueProvider;
 
-    if-eqz v2, :cond_1
+    array-length v5, v4
 
-    const-string/jumbo v2, "ro.boot.hwc"
+    move v2, v3
 
-    invoke-static {v2}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    :goto_0
+    if-ge v2, v5, :cond_1
 
-    move-result-object v0
+    aget-object v0, v4, v2
 
-    invoke-static {}, Lcom/android/camera/Device;->supportPictureWaterMark()Z
+    invoke-interface {v0}, Lcom/android/camera/Device$PictureWatermarkDefaultValueProvider;->getValue()Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v2
 
-    if-eqz v2, :cond_0
-
-    const-string/jumbo v1, "India"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
+    return v2
 
     :cond_0
-    return v1
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/android/camera/Device;->supportPictureWaterMark()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_2
-
-    const-string/jumbo v1, "camera_picture_watermark_default"
-
-    const/4 v2, 0x1
-
-    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v1
-
-    :cond_2
-    return v1
+    return v3
 .end method
 
 .method public static shouldRestartPreviewAfterZslSwitch()Z
