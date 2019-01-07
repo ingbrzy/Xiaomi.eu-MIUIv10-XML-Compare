@@ -4,5 +4,5 @@
     <string name="date_time_12">ཟླ་ M ཚེས་ d ཉིན། Eaa</string>
     <string name="desc_date_format">ཟླ་ M ཚེས་ d E</string>
     <string name="desc_date_format_12">ཟླ་ M ཚེས་ d ཉིན། Eaa</string>
-    <string name="desc_time">#hour+\'ཚེག\'+ifelse(#minute,#minute+\'སྐར་མ\',\'ཏག་ཏག\')+\', \'+int(#month+1)+\'ཟླ\'+#date+\'ཚེས\'+\', \'+\'གཟའ\'+int(#day_of_week-1)+\', \'+#weather_temperature+\'ཏུའུ\'+\', \'+@weather_description</string>
+    <string name="desc_time">ifelse(eq(#time_format,0),#hour12,eq(#time_format,1),#hour24,#hour24)+\'ཚེག་\'+ifelse(gt(#minute,0)*le(#minute,9),0,\'\')+ifelse(#minute,#minute+\'སྐར་མ་\',\'ཏག་ཏག་\')+\', ཉིས་རེག་བྱས་ནས་དུས་ཅོང་Appནང་འཛུལ་བ\'</string>
 </resources>
