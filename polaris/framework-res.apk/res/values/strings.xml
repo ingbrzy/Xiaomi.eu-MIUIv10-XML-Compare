@@ -320,6 +320,7 @@
   <string name="config_isoImagePath"/>
   <string name="config_keyguardComponent">com.android.systemui/com.android.systemui.keyguard.KeyguardService</string>
   <string name="config_mainBuiltInDisplayCutout"/>
+  <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
   <string name="config_managed_provisioning_package">com.android.managedprovisioning</string>
   <string name="config_mediaProjectionPermissionDialogComponent">com.android.systemui/com.android.systemui.media.MediaProjectionPermissionActivity</string>
   <string name="config_mms_user_agent">Android-Mms/2.0</string>

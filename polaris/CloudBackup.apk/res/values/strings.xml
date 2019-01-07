@@ -61,9 +61,9 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="cloud_back_up_no_network_warn">"Can't connect to WLAN"</string>
   <string name="cloud_back_up_ok_btn">OK</string>
   <string name="cloud_back_up_opening">Just a sec…</string>
-  <string name="cloud_back_up_share_activity_confirm">Upgrade</string>
-  <string name="cloud_back_up_share_activity_discription">Get more storage space, daily backups, and more.</string>
-  <string name="cloud_back_up_share_activity_title">Upgrade Mi Account</string>
+  <string name="cloud_back_up_subscribe_vip_confirm">Upgrade</string>
+  <string name="cloud_back_up_subscribe_vip_discription">Get more storage space, daily backups, and more.</string>
+  <string name="cloud_back_up_subscribe_vip_title">Upgrade Mi Account</string>
   <string name="cloud_back_up_task">Backing up…</string>
   <string name="cloud_backup">Mi Cloud backups</string>
   <string name="cloud_backup_derail_size_summary">Size: %s</string>
