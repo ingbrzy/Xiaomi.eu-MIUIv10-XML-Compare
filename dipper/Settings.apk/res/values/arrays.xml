@@ -527,9 +527,9 @@
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
-        <item>, active</item>
-        <item>, active (media)</item>
-        <item>, active (phone)</item>
+        <item>" | Active"</item>
+        <item>" | Active (media)"</item>
+        <item>" | Active (phone)"</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
         <item>avrcp14</item>
