@@ -137,6 +137,9 @@
   <string name="fm_search_on">Searching,Please wait...</string>
   <string name="fp_vendor_name">"Sensor Model: "</string>
   <string name="fqc_test">FQC Test</string>
+  <string name="frontflash_confirm">Please make sure white flashlight is ok!</string>
+  <string name="frontflash_tips">The front flash light will be opened and closed circularly, please keep watch!</string>
+  <string name="frontflashlight_name">Front Torchled</string>
   <string name="fuelgauge_hint">FuelGauge Calibration will be completed within 30s, please wait...</string>
   <string name="fuelgauge_name">FuelGaulge Calibration</string>
   <string name="fuelgauge_processing">Processing...</string>
@@ -202,6 +205,7 @@
   <string name="hall_test_tip2">Please remove the magnet</string>
   <string name="hall_testing">Testing...</string>
   <string name="headset_confirm">Do you hear the sound?</string>
+  <string name="headset_error">Headset status error, please insert again!</string>
   <string name="headset_hint">Headset</string>
   <string name="headset_insert_name">Headset Insert</string>
   <string name="headset_main_recording">Now recording, please say some words to MainMIC</string>
@@ -323,6 +327,7 @@
   <string name="phone_test">Phone test:</string>
   <string name="platform">qcom</string>
   <string name="play">Play</string>
+  <string name="plsensor_cali">Calibration</string>
   <string name="pmic2rec_hint">Talk to the main mic, see if you can hear your voice from recevier.</string>
   <string name="pmic2rec_name">Main-mic Receiver Loopback Test</string>
   <string name="power_ac">(AC)</string>
@@ -345,6 +350,7 @@
   <string name="ps_name">PS(PcbaTest)</string>
   <string name="psenortips">Does it show near when distance is less than or equal 3cm,and far when distance is equal or greater than 15cm</string>
   <string name="psensor_cali">4.Calibration</string>
+  <string name="psensor_cali_hint">Click calibrate button to start the Calibration, please do not cover the phone with anything while testing(such as, your hands or gloves)</string>
   <string name="psensor_hint">Please cover the Psensor,then leave it</string>
   <string name="psensor_name">Proximity Sensor</string>
   <string name="qr_marked_word">Please prepare a piece of two-dimension code and focus the camera on it.</string>
@@ -403,14 +409,13 @@
   <string name="smartpa_cali">smartPA Calibrate</string>
   <string name="smartpa_cali_fail">smartPA cali fail</string>
   <string name="smartpa_cali_pass">smartPA cali pass</string>
-  <string name="smartpa_cali_status">Smart PA is Calibrating...</string>
+  <string name="smartpa_d1s_name">Smart PA Calibration</string>
   <string name="smartpa_name">Smart PA Calibration</string>
   <string name="smartpa_play_fail">smartPA play failed</string>
   <string name="smartpa_result">smartPA cali data:</string>
   <string name="smartpa_test">Smart PA F0/Q Test</string>
   <string name="smartpa_test_fail">smartPA test fail</string>
   <string name="smartpa_test_pass">smartPA test pass</string>
-  <string name="smartpa_test_status">SmartPa F0/Q testing...</string>
   <string name="smic2speaker_hint">Talk to the top mic, see if you can hear your voice from speaker.</string>
   <string name="smic2speaker_name">Top-mic Speaker Loopback Test</string>
   <string name="smt_test">Board test:</string>
@@ -465,6 +470,7 @@
   <string name="vibrate_name">Vibrator</string>
   <string name="vibrate_none">No vibration</string>
   <string name="vibrate_sometime">Intermittent vibration</string>
+  <string name="vibrate_test">Vibrator Test</string>
   <string name="vibration_cali_name">Vibration Calibration</string>
   <string name="wcdma_adjustment">WCDMA adjustment:</string>
   <string name="wcdma_coupling">WCDMA coupling:</string>
