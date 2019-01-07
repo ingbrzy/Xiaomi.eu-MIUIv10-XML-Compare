@@ -287,7 +287,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_feedbackIntentExtraKey"/>
   <string name="config_feedbackIntentNameKey"/>
   <string name="config_forceVoiceInteractionServicePackage"/>
-  <string name="config_fusedLocationProviderPackageName">com.qualcomm.location</string>
+  <string name="config_fusedLocationProviderPackageName">com.xiaomi.location.fused</string>
   <string name="config_geocoderProviderPackageName">com.xiaomi.metoknlp</string>
   <string name="config_geofenceProviderPackageName">@null</string>
   <string name="config_hardwareFlpPackageName">com.android.location.fused</string>
@@ -304,6 +304,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_inCallNotificationSound">/system/media/audio/ui/InCallNotification.ogg</string>
   <string name="config_isoImagePath"/>
   <string name="config_keyguardComponent">com.android.systemui/com.android.systemui.keyguard.KeyguardService</string>
+  <string name="config_mainBuiltInDisplayCutout">M312.640894,-0.000393102096 L767.359106,-0.000393102096 C762.757387,-0.000393102096 758.065674,0.0895837097 753.331963,0.995350282 C748.592253,1.90111685 743.810545,3.61667473 739.47881,6.12402856 C735.147074,8.62538392 731.259312,11.9065383 728.109504,15.5535984 C724.953697,19.2006585 722.535845,23.2136243 720.231986,27.2085948 L706.648816,50.7225349 C705.034915,53.5298115 703.397015,56.337088 701.591125,59.0903784 C699.785235,61.8436689 697.805356,64.5429732 695.579492,67.1103116 C691.115765,72.2449883 685.674098,76.863798 679.58447,80.3728937 C673.506841,83.8879878 666.787252,86.7103324 660.10366,88 C656.767864,88.647833 653.444067,89.8140479 650.150269,90 C646.86247,90.1859521 643.616668,90 640.370866,90 L439.629134,90 C436.389332,90 433.13753,90.1859521 429.849731,90 C426.561932,89.8140479 423.232136,88.647833 419.89634,88 C413.218748,86.7103324 406.499158,83.8879878 400.41553,80.3728937 C394.331902,76.863798 388.884235,72.2449883 384.426507,67.1103116 C382.200643,64.5429732 380.220764,61.8436689 378.408875,59.0903784 C376.602985,56.337088 374.971085,53.5298115 373.351184,50.7225349 L359.768014,27.2085948 C357.470155,23.2136243 355.046303,19.2006585 351.896495,15.5535984 C348.740688,11.9065383 344.858925,8.62538392 340.52719,6.12402856 C336.189455,3.61667473 331.407747,1.90111685 326.674037,0.995350282 C321.934326,0.0895837097 317.248613,-0.000393102096 312.640894,-0.000393102096 Z</string>
   <string name="config_mms_user_agent">Android-Mms/2.0</string>
   <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
   <string name="config_mobile_hotspot_provision_app_no_ui"/>
@@ -990,6 +991,7 @@ Try again in %2$d seconds."</string>
   <string name="notification_channel_voice_mail">Voicemail messages</string>
   <string name="notification_channel_vpn">VPN status</string>
   <string name="notification_channel_wfc">WLAN calling</string>
+  <string name="notification_description">Voice call status</string>
   <string name="notification_header_divider_symbol">•</string>
   <string name="notification_header_divider_symbol_with_spaces">" • "</string>
   <string name="notification_hidden_text">New notification</string>
@@ -1530,6 +1532,8 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="status_bar_vpn">vpn</string>
   <string name="status_bar_wifi">wifi</string>
   <string name="status_bar_zen">zen</string>
+  <string name="status_communication_speaker_summary">A hands-free call is in progress. Audio will still be played through the speaker when headphones are connected.</string>
+  <string name="status_communication_summary">A call is in progress. You can only adjust call volume now.</string>
   <string name="stk_cc_ss_to_dial">SS request is modified to DIAL request.</string>
   <string name="stk_cc_ss_to_dial_video">SS request is modified to Video DIAL request.</string>
   <string name="stk_cc_ss_to_ss">SS request is modified to new SS request.</string>
