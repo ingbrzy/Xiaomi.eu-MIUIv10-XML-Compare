@@ -287,7 +287,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_feedbackIntentExtraKey"/>
   <string name="config_feedbackIntentNameKey"/>
   <string name="config_forceVoiceInteractionServicePackage"/>
-  <string name="config_fusedLocationProviderPackageName">com.qualcomm.location</string>
+  <string name="config_fusedLocationProviderPackageName">com.xiaomi.location.fused</string>
   <string name="config_geocoderProviderPackageName">com.xiaomi.metoknlp</string>
   <string name="config_geofenceProviderPackageName">@null</string>
   <string name="config_hardwareFlpPackageName">com.android.location.fused</string>
@@ -304,6 +304,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_inCallNotificationSound">/system/media/audio/ui/InCallNotification.ogg</string>
   <string name="config_isoImagePath"/>
   <string name="config_keyguardComponent">com.android.systemui/com.android.systemui.keyguard.KeyguardService</string>
+  <string name="config_mainBuiltInDisplayCutout">M0,0 L1080,0 L1080,88 L0,88 L0,0 Z M1079.99999,87.9999988 C1079.99998,81.9187744 1079.99998,52.5854414 1079.99999,0 L720.535689,1.20887355e-06 C709.011598,1.20887355e-06 699.396989,8.80825723 698.40025,20.2875483 C695.219646,56.5845067 667.758935,83 634.838559,83 L445.167024,83 C412.246648,83 384.785937,56.5845067 381.918914,23.7929318 C380.608594,8.80825723 370.993985,1.20887355e-06 359.475494,1.20887355e-06 L1.16015872e-06,0 L1.16015872e-06,87.9999988 L1079.99999,87.9999988 Z</string>
   <string name="config_mms_user_agent">Android-Mms/2.0</string>
   <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
   <string name="config_mobile_hotspot_provision_app_no_ui"/>
@@ -990,6 +991,7 @@ Try again in %2$d seconds."</string>
   <string name="notification_channel_voice_mail">Voicemail messages</string>
   <string name="notification_channel_vpn">VPN status</string>
   <string name="notification_channel_wfc">WLAN calling</string>
+  <string name="notification_description">Voice call status</string>
   <string name="notification_header_divider_symbol">•</string>
   <string name="notification_header_divider_symbol_with_spaces">" • "</string>
   <string name="notification_hidden_text">New notification</string>
@@ -1528,6 +1530,8 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="status_bar_vpn">vpn</string>
   <string name="status_bar_wifi">wifi</string>
   <string name="status_bar_zen">zen</string>
+  <string name="status_communication_speaker_summary">A hands-free call is in progress. Audio will still be played through the speaker when headphones are connected.</string>
+  <string name="status_communication_summary">A call is in progress. You can only adjust call volume now.</string>
   <string name="stk_cc_ss_to_dial">SS request is modified to DIAL request.</string>
   <string name="stk_cc_ss_to_dial_video">SS request is modified to Video DIAL request.</string>
   <string name="stk_cc_ss_to_ss">SS request is modified to new SS request.</string>
