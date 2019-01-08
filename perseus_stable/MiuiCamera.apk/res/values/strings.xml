@@ -8,9 +8,18 @@
   <string name="accessibility_beauty_panel_open">Beautify menu is opened</string>
   <string name="accessibility_beauty_switch_closed">Beautify is off</string>
   <string name="accessibility_beauty_switch_open">Beautify is on</string>
+  <string name="accessibility_camera_lighting_close_panel">Closed lighting menu</string>
+  <string name="accessibility_camera_lighting_open_panel">Opened lighting menu</string>
+  <string name="accessibility_camera_liveshot_off">动态照片模式已关闭</string>
+  <string name="accessibility_camera_liveshot_on">动态照片模式已开启</string>
   <string name="accessibility_camera_picker">Front and rear camera switch</string>
   <string name="accessibility_camera_picker_finish">Switched cameras successfully</string>
   <string name="accessibility_camera_shutter_finish">Took a photo successfully</string>
+  <string name="accessibility_camera_video_960fps_120">120FPS</string>
+  <string name="accessibility_camera_video_960fps_240">240FPS</string>
+  <string name="accessibility_camera_video_960fps_960">960FPS</string>
+  <string name="accessibility_camera_video_fps_120">120FPS</string>
+  <string name="accessibility_camera_video_fps_30">30FPS</string>
   <string name="accessibility_closed">Turned off</string>
   <string name="accessibility_effect_mode_button">Effect button</string>
   <string name="accessibility_filter_close_panel">Closed filter menu</string>
@@ -44,6 +53,12 @@
   <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
 and optimizes your photos based on this info"</string>
   <string name="app_name">algoengine</string>
+  <string name="beauty_body">塑型</string>
+  <string name="beauty_body_body">瘦身</string>
+  <string name="beauty_body_head">头部</string>
+  <string name="beauty_body_legged">长腿</string>
+  <string name="beauty_body_reset_tip">美体效果已清除</string>
+  <string name="beauty_body_shoulder">肩部</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_makeup">美妆</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
@@ -73,6 +88,8 @@ and optimizes your photos based on this info"</string>
   <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
   <string name="capture_back_pressed_hint">Touch again to exit</string>
+  <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
+  <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="color_effect_entry_berry">Berries</string>
   <string name="color_effect_entry_blackwhite">B&amp;W</string>
   <string name="color_effect_entry_cookie">Cookie</string>
@@ -105,6 +122,7 @@ and optimizes your photos based on this info"</string>
   <string name="confirm_restore_message">"Restore Camera's default settings?"</string>
   <string name="confirm_restore_title">Restore default settings</string>
   <string name="dialog_ok">OK</string>
+  <string name="dialog_ok_time">OK (&lt;g id="NUMBER"&gt;%d&lt;/g&gt;s)</string>
   <string name="do_not_remind_me">"Don't show again"</string>
   <string name="dual_camera_lens_covered_toast">The lens is covered.</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
@@ -169,6 +187,7 @@ in Portrait mode"</string>
   <string name="lighting_pattern_leaf">Leaves</string>
   <string name="lighting_pattern_movie">Movie</string>
   <string name="lighting_pattern_nature">Natural</string>
+  <string name="lighting_pattern_null">Null</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
@@ -404,6 +423,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_whitebalance_entry_auto">AUTO</string>
   <string name="pref_camera_whitebalance_title">WB</string>
   <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
+  <string name="pref_camera_zoom_mode_entry_ultra">ULTRA</string>
   <string name="pref_camera_zoom_mode_entry_wide">WIDE</string>
   <string name="pref_camera_zoom_mode_title">LENS</string>
   <string name="pref_camera_zoom_value_title">Zoom</string>
@@ -510,6 +530,10 @@ and brings out the people in the front."</string>
   <string name="toast_saving">Saving photos…</string>
   <string name="ubi_focus_capture_fail">"Couldn't take photo"</string>
   <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
+  <string name="ultra_wide_close_tip">超广角模式已关闭</string>
+  <string name="ultra_wide_mode">超广角</string>
+  <string name="ultra_wide_open_tip">超广角模式</string>
+  <string name="ultra_wide_recommend_tip_hint">建议开启超广角模式</string>
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
   <string name="user_agreement4">Privacy Policy</string>
