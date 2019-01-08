@@ -1558,6 +1558,24 @@
         <item>show</item>
         <item>show_deuteranomaly</item>
     </string-array>
+    <string-array name="defalut_browser_package">
+        <item>mx_telcel:com.android.chrome</item>
+    </string-array>
+    <array name="default_camera_package" />
+    <array name="default_dialer_package" />
+    <string-array name="default_email_package">
+        <item>mx_telcel:com.google.android.gm</item>
+    </string-array>
+    <string-array name="default_gallery_package">
+        <item>mx_telcel:com.google.android.apps.photos</item>
+    </string-array>
+    <string-array name="default_mms_package">
+        <item>mx_telcel:com.google.android.apps.messaging</item>
+    </string-array>
+    <array name="default_music_package" />
+    <string-array name="default_video_package">
+        <item>mx_telcel:com.google.android.apps.photos</item>
+    </string-array>
     <string-array name="device_global_support_face_sensetime">
         <item>dipper</item>
         <item>beryllium</item>
