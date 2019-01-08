@@ -55,7 +55,6 @@
   <string name="btn_split_contact">Separate</string>
   <string name="button_cancel_scan">Stop</string>
   <string name="button_join_service_number">Add service number</string>
-  <string name="button_my_center">Profile</string>
   <string name="button_scan">Rescan</string>
   <string name="caching_vcard_message">Caching vCard to device…</string>
   <string name="caching_vcard_title">Caching</string>
@@ -192,6 +191,7 @@
   <string name="composer_failed_to_get_database_infomation">"Couldn't get database information."</string>
   <string name="composer_has_no_exportable_contact">There are no exportable contacts. If you do have contacts on your device, some data providers may not allow the contacts to be exported from the device.</string>
   <string name="composer_not_initialized">"The vCard composer didn't start properly."</string>
+  <string name="conference_call_disable_tip">"Can't make calls. Make sure your device is connected to a 4G network with VoLTE support."</string>
   <string name="config_export_dir">/mnt/sdcard</string>
   <string name="config_export_extensions_to_consider"/>
   <string name="config_export_file_extension">vcf</string>
@@ -342,8 +342,8 @@ Contact cards are turned off"</string>
   <string name="description_image_button_plus">Plus</string>
   <string name="description_image_button_pound">Pound</string>
   <string name="description_image_button_seven">seven</string>
-  <string name="description_image_button_sim1_dial">Dial using SIM1</string>
-  <string name="description_image_button_sim2_dial">Dial using SIM2</string>
+  <string name="description_image_button_sim1_named_dial">Dial using SIM1 %s</string>
+  <string name="description_image_button_sim2_named_dial">Dial using SIM2 %s</string>
   <string name="description_image_button_six">six</string>
   <string name="description_image_button_star">star</string>
   <string name="description_image_button_three">three</string>
@@ -372,7 +372,6 @@ Contact cards are turned off"</string>
   <string name="device_import_progress_begin_message">Importing…</string>
   <string name="device_import_progress_end_message">Imported</string>
   <string name="device_import_progress_message">Importing…</string>
-  <string name="device_import_progress_toast">%1$d contacts imported</string>
   <string name="device_import_title">Import</string>
   <string name="device_list_title">Choose a device</string>
   <string name="device_other_guide">Other device supports bluetooth?</string>
@@ -409,10 +408,11 @@ Contact cards are turned off"</string>
   <string name="dialer_menu_description">Show menus</string>
   <string name="dialer_menu_title">Menu options</string>
   <string name="dialer_returnToInCallScreen">Return to call in progress</string>
+  <string name="dialer_title_divider">" ｜ "</string>
   <string name="dialer_useDtmfDialpad">Use touch tone keypad</string>
   <string name="dialog_import">Import contacts</string>
   <string name="dialog_import_export">Import/export contacts</string>
-  <string name="dialog_new_contact_account">Create contact under account</string>
+  <string name="dialog_new_contact_account">Create contacts under account</string>
   <string name="dialog_new_group_account">Create group under account</string>
   <string name="dialog_phone_call_prohibited_message">Call not sent</string>
   <string name="dialog_sync_add">Add sync group</string>
@@ -496,7 +496,6 @@ Reason: \"%s\""</string>
   <string name="firewall_setting">Blocklist</string>
   <string name="force_touch_miprofile">Contact card</string>
   <string name="force_touch_new_contact">New contact</string>
-  <string name="foundTooManyContacts">More than %d found.</string>
   <string name="frequentList">Frequent</string>
   <string name="from_account_format">%1$s</string>
   <string name="full_name">Name</string>
@@ -580,7 +579,6 @@ Reason: \"%s\""</string>
   <string name="keep_local">"Don't sync"</string>
   <string name="keep_local_btn">"Use device's internal storage"</string>
   <string name="label_custom_type">Custom</string>
-  <string name="label_duplicate_count">(%1$d)</string>
   <string name="label_no_duplicate_contacts">No duplicates found</string>
   <string name="label_notes">Notes</string>
   <string name="label_sip_address">Internet call</string>
@@ -612,7 +610,6 @@ Reason: \"%s\""</string>
   <string name="lunarBirthdayLabelsGroup">Lunar birthday</string>
   <string name="lunar_calendar">农历</string>
   <string name="lunar_leap">闰</string>
-  <string name="lunar_yue">月</string>
   <string name="make_primary">Remember this choice</string>
   <string name="map_custom">View %s address</string>
   <string name="map_home">View home address</string>
@@ -673,7 +670,6 @@ Reason: \"%s\""</string>
   <string name="menu_splitAggregate">Separate</string>
   <string name="menu_sync_remove">Remove sync group</string>
   <string name="menu_viewContact">View contact</string>
-  <string name="merge_contact_message">%1$d contacts with partially identical info</string>
   <string name="messageShortcutActivityTitle">Choose a number to message</string>
   <string name="miprofile_account_type">Contact cards</string>
   <string name="miprofile_alertdialog_edit">Enter name</string>
@@ -916,6 +912,7 @@ To add a contact to your list of favorites:
   <string name="preference_others">Other</string>
   <string name="preference_phone">Device</string>
   <string name="preference_phone_more_title">Call settings</string>
+  <string name="preference_privacy_policy_title">Privacy Policy</string>
   <string name="preference_remove_duplicate">Merge duplicate contacts</string>
   <string name="preference_show_firewall_calllog">Show blocked calls in call history</string>
   <string name="preference_show_yellowpage_tab_description">Yellow pages might not work properly when this feature is off.</string>
@@ -961,6 +958,7 @@ To add a contact to your list of favorites:
   <string name="quickcontact_missing_app">No app was found to handle this action</string>
   <string name="quit_dialog_confirm_message">"You haven't merged any contacts"</string>
   <string name="quit_dialog_confirm_title">Cancel merge contacts</string>
+  <string name="rcs_app_name">Mini app</string>
   <string name="readOnlyContactDeleteConfirmation">This contact contains information from multiple accounts. Information from read-only accounts will be hidden in your contacts lists, not deleted.</string>
   <string name="readOnlyContactWarning">"You can't delete contacts from read-only accounts, but you can hide them in your contacts lists."</string>
   <string name="readingSimContacts">Reading SIM card…</string>
@@ -1001,6 +999,8 @@ To add a contact to your list of favorites:
   <string name="savingContact">Saving contact…</string>
   <string name="savingDisplayGroups">Saving display options…</string>
   <string name="scan">Scan</string>
+  <string name="scan_business_card">Scan business card</string>
+  <string name="scan_bussiness_card_merge_tip">Conflicting data has been replaced</string>
   <string name="scan_duplicate_message">%1$d contacts with identical info</string>
   <string name="scan_merge">Searching for duplicate contacts…</string>
   <string name="scan_qrcode_card_hint1">Scan the QR code above</string>
@@ -1039,8 +1039,6 @@ To add a contact to your list of favorites:
   <string name="search_wipe_data">Organize;Contacts</string>
   <string name="searching_vcard_message">Searching for vCard data from device…</string>
   <string name="select_all">Select all</string>
-  <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
-  <string name="select_exceed">Select no more than %1$d</string>
   <string name="select_groups">Select groups</string>
   <string name="select_none">No selected items</string>
   <string name="select_show_contacts">Contact list</string>
@@ -1158,8 +1156,8 @@ To add a contact to your list of favorites:
   <string name="title_other_devices">Other available devices</string>
   <string name="title_paired_devices">Paired devices</string>
   <string name="toast_call_detail_error">"Couldn't read details for the requested call"</string>
-  <string name="toast_call_no_SoundRecorder">Recorder app not available</string>
-  <string name="toast_call_no_notes">Notes app not available</string>
+  <string name="toast_call_no_SoundRecorder">"Recorder isn't available"</string>
+  <string name="toast_call_no_notes">"Notes app isn't available"</string>
   <string name="toast_copy_done">Done</string>
   <string name="toast_copying">Copying…</string>
   <string name="toast_displaying_all_contacts">Displaying all contacts</string>
