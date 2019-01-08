@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">点击获取天气数据</string>
     <string name="date_format">MM月dd日 E</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>

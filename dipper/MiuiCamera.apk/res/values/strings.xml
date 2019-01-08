@@ -162,7 +162,7 @@ and optimizes your photos based on this info"</string>
   <string name="custom_watermark_words">Custom watermark</string>
   <string name="custom_watermark_words_input_hint">Enter text</string>
   <string name="custom_watermark_words_save_success">Saved successfully</string>
-  <string name="device_48m_watermark_default_text">48M DUAL CAMERA</string>
+  <string name="device_48m_watermark_default_text">48MP DUAL CAMERA</string>
   <string name="device_watermark_default_text">AI DUAL CAMERA</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_ok_time">OK (&lt;g id="NUMBER"&gt;%d&lt;/g&gt;s)</string>
