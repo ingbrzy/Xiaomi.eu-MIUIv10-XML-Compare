@@ -52,6 +52,7 @@
   <string name="accessibility_peak">Focus peak button</string>
   <string name="accessibility_portrait_button">Portrait mode</string>
   <string name="accessibility_protrait">Portrait</string>
+  <string name="accessibility_pull_down_to_open_camera">Swipe down to open camera</string>
   <string name="accessibility_record_button">Record button</string>
   <string name="accessibility_review_thumbnail">Most recent photo</string>
   <string name="accessibility_selected">Selected items</string>
@@ -262,7 +263,7 @@ in Portrait mode"</string>
   <string name="live_speed_extreme_fast">Super fast</string>
   <string name="live_speed_extreme_slow">Super slow</string>
   <string name="live_speed_fast">Fast</string>
-  <string name="live_speed_fragment_tab_name">Speed</string>
+  <string name="live_speed_fragment_tab_name">Record speed</string>
   <string name="live_speed_normal">Regular</string>
   <string name="live_speed_slow">Slow</string>
   <string name="live_sticker_fragment_tab_name">Stickers</string>
