@@ -6,8 +6,8 @@
     <string name="air_quality3">\'AQI \'+#aqi</string>
     <string name="air_quality4">\'AQI \'+#aqi</string>
     <string name="air_quality5">\'AQI \'+#aqi</string>
-    <string name="weather_null"></string>
-    <string name="weather_location_null"></string>
+    <string name="weather_null">Pieskarieties, lai iegūtu laikapstākļu informāciju</string>
+    <string name="weather_location_null">Nav atrašanās vietas informācijas</string>
     <string name="weather_type_0">Skaidrs</string>
     <string name="weather_type_1">Mākoņains</string>
     <string name="weather_type_2">Neskaidrs</string>

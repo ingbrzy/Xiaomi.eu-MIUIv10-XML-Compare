@@ -10,6 +10,8 @@
     <string name="aqi_dangerous"/>
     <string name="aqi_hazardous"/>
     <string name="aqi_break"/>
+    <string name="weather_null">Kliknij, aby uzyskać pogodę</string>
+    <string name="weather_location_null">Brak informacji</string>
     <string name="weather_type_null">'Brak danych'</string>
     <string name="weather_type_0">Pogodnie</string>
     <string name="weather_type_1">Pochmurnie</string>

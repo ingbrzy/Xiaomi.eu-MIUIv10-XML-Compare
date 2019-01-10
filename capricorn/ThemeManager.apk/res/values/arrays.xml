@@ -11,16 +11,6 @@
     <string-array name="disable_package_replacement">
         <item>disable package name</item>
     </string-array>
-    <string-array name="pull_down_news_lan">
-        <item>English</item>
-        <item>தமிழ்</item>
-        <item>हिन्दी</item>
-    </string-array>
-    <string-array name="pull_down_news_lan_code">
-        <item>en</item>
-        <item>tamil</item>
-        <item>hindi</item>
-    </string-array>
     <string-array name="set_wallpaper_three_items">
         <item>@string/wallpaper_set_as_lockscreen</item>
         <item>@string/wallpaper_set_as_desktop</item>
