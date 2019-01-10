@@ -34,6 +34,8 @@ Battery saver will treat important apps selectively."</string>
   <string name="config_suggest_suffix_title">Battery saver (recommended)</string>
   <string name="confirm">OK</string>
   <string name="current_cloud_addr_is">Cloud control server address is:</string>
+  <string name="dark_mode">Dark mode</string>
+  <string name="dark_mode_summary">Switch to dark color palette to save battery</string>
   <string name="empty_title_apps_container_list">No apps</string>
   <string name="enable_sleep_mode">Turn on Sleep mode to optimize battery usage at night</string>
   <string name="error_filename_too_long">The filename you entered is too long.</string>
@@ -63,8 +65,10 @@ Battery saver will treat important apps selectively."</string>
   <string name="notification_exit_extreme_mode_text">Battery is more than %s charged</string>
   <string name="notification_exit_extreme_mode_title">Turned off Extreme battery saver</string>
   <string name="notification_open_extreme_mode_text">Turned on Extreme battery saver</string>
+  <string name="open_dark_mode">Switch to Dark mode</string>
+  <string name="open_dark_mode_tip">Display quality of some features may decrease in Dark mode. It will be restored to normal when you exit Dark mode. Switch to Dark mode now?</string>
   <string name="performance_category">Performance</string>
-  <string name="power_center">Power</string>
+  <string name="power_center">Battery saver</string>
   <string name="power_checker_background_cpu_multi_apps_title">%1$s runs abnormally</string>
   <string name="power_checker_background_cpu_title">%1$s runs abnormally</string>
   <string name="power_checker_background_gps_multi_apps_title">%1$s gets location info frequently</string>
