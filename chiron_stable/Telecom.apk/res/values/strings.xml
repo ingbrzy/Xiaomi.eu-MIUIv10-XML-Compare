@@ -268,6 +268,7 @@ Sample Rate"</string>
   <string name="notification_missedCallsMsg">%s missed calls</string>
   <string name="notification_missedCallsTitle">Missed calls</string>
   <string name="notification_missedWorkCallTitle">Missed work call</string>
+  <string name="number_tag_divider">" ｜ "</string>
   <string name="oem_preferred_feedback_reporter"/>
   <string name="oem_unlock_enable">OEM unlocking</string>
   <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
