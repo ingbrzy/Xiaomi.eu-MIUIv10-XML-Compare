@@ -1274,6 +1274,8 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="not_installed">Not installed</string>
   <string name="note_name">Create</string>
   <string name="note_parent">Notes</string>
+  <string name="notification_channel_card">Cards</string>
+  <string name="notification_channel_default">Default</string>
   <string name="notification_content_fail_not_support">"Couldn't get payment info, add the record manually."</string>
   <string name="notification_content_fail_stay_longer">Stay on the payment page for at least 1 second</string>
   <string name="notification_content_success">%2$s CNY payment in %1$s</string>
@@ -1518,6 +1520,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="shopping_setting_jingdong">JD</string>
   <string name="shopping_setting_mishop">Mi Store</string>
   <string name="shopping_setting_notification">Notify about new items</string>
+  <string name="shopping_setting_pinduoduo">Pinduoduo</string>
   <string name="shopping_setting_remove">After you revoke authorization, App vault will stop collecting the info about your purchases, and the Shopping card will be removed. Revoke anyway?</string>
   <string name="shopping_setting_taobao">Taobao</string>
   <string name="shopping_setting_tmall">Tmall</string>
