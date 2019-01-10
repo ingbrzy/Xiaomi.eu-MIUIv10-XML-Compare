@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">வானிலை விவரத்தைப் பெற தட்டவும்</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">இன்று</string>
     <string name="tomorrow">நாளை</string>
