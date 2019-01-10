@@ -1197,7 +1197,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_gsm_wcdma_summary">Preferred network mode: GSM / WCDMA</string>
   <string name="preferred_network_mode_lte_cdma_evdo_summary">Preferred network mode: CDMA+LTE/EVDO</string>
   <string name="preferred_network_mode_lte_cdma_summary">Preferred network mode: LTE / CDMA</string>
-  <string name="preferred_network_mode_lte_choice">LTE</string>
+  <string name="preferred_network_mode_lte_choice">LTE only</string>
   <string name="preferred_network_mode_lte_gsm_umts_summary">Preferred network mode: LTE / GSM / UMTS</string>
   <string name="preferred_network_mode_lte_gsm_wcdma_summary">Preferred network mode: GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_lte_summary">Preferred network mode: LTE</string>
@@ -1206,7 +1206,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_lte_tdscdma_gsm_wcdma_summary">Preferred network mode: LTE/TDSCDMA/GSM/WCDMA</string>
   <string name="preferred_network_mode_lte_tdscdma_summary">Preferred network mode: LTE / TDSCDMA</string>
   <string name="preferred_network_mode_lte_tdscdma_wcdma_summary">Preferred network mode: LTE/TDSCDMA/WCDMA</string>
-  <string name="preferred_network_mode_lte_wcdma_choice">LTE / WCDMA</string>
+  <string name="preferred_network_mode_lte_wcdma_choice">WCDMA/LTE</string>
   <string name="preferred_network_mode_lte_wcdma_summary">Preferred network mode: LTE / WCDMA</string>
   <string name="preferred_network_mode_summary">Change the network operating mode</string>
   <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
