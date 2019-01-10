@@ -6,8 +6,8 @@
     <string name="air_quality3">\'AQI \'+#aqi</string>
     <string name="air_quality4">\'AQI \'+#aqi</string>
     <string name="air_quality5">\'AQI \'+#aqi</string>
-    <string name="weather_null"></string>
-    <string name="weather_location_null"></string>
+    <string name="weather_null">Ob-havo ma’lumotini yangilash</string>
+    <string name="weather_location_null">Joylashuv ma’lumoti yo‘q</string>
     <string name="weather_type_0">Tiniq</string>
     <string name="weather_type_1">Bulutli</string>
     <string name="weather_type_2">Tumanli</string>
