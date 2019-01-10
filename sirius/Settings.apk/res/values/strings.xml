@@ -825,15 +825,15 @@ Apps:
   <string name="bluetooth_confirm_passkey_msg">To pair with:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;Make sure it is showing this passkey:&lt;br&gt;&lt;b&gt;%2$s&lt;/b&gt;</string>
   <string name="bluetooth_connect_failed">"Couldn't connect. Try again."</string>
   <string name="bluetooth_connect_specific_profiles_title">Connect to…</string>
-  <string name="bluetooth_connected">Connected %1$s</string>
-  <string name="bluetooth_connected_battery_level">Connected, battery %1$s%2$s</string>
+  <string name="bluetooth_connected">Connected%1$s</string>
+  <string name="bluetooth_connected_battery_level">Connected | Battery %1$s%2$s</string>
   <string name="bluetooth_connected_multiple_devices_summary">Connected to multiple devices</string>
   <string name="bluetooth_connected_no_a2dp">Connected (no media) %1$s</string>
-  <string name="bluetooth_connected_no_a2dp_battery_level">Connected (no media), battery %1$s%2$s</string>
+  <string name="bluetooth_connected_no_a2dp_battery_level">Connected (no media) | Battery %1$s%2$s</string>
   <string name="bluetooth_connected_no_headset">Connected (no phone) %1$s</string>
-  <string name="bluetooth_connected_no_headset_battery_level">Connected (no phone), battery %1$s%2$s</string>
+  <string name="bluetooth_connected_no_headset_battery_level">Connected (no phone) | Battery %1$s%2$s</string>
   <string name="bluetooth_connected_no_headset_no_a2dp">Connected (no phone or media) %1$s</string>
-  <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Connected (no phone or media), battery %1$s%2$s</string>
+  <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Connected (no phone or media) | Battery %1$s%2$s</string>
   <string name="bluetooth_connected_no_map">Connected (no message access) %1$s</string>
   <string name="bluetooth_connected_summary">Connected to %1$s</string>
   <string name="bluetooth_connecting">Connecting…</string>
@@ -2140,6 +2140,7 @@ For more details, contact your organization's admin."</string>
   <string name="eq_preset_hint">Effect name</string>
   <string name="eq_preset_rename">Rename</string>
   <string name="eq_preset_select">Choose a preset</string>
+  <string name="eq_return">Return</string>
   <string name="eq_rock">Rock</string>
   <string name="equalizer">Equalizer</string>
   <string name="erase_application">Erase apps</string>
@@ -2456,6 +2457,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
   <string name="gxzw_dialog_ok">Got it</string>
   <string name="gxzw_dialog_title">About in-screen fingerprint sensor</string>
+  <string name="gxzw_quick_open_title"/>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -3832,7 +3834,11 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="page_layout_8">Mi Life</string>
   <string name="page_layout_9">Themes</string>
   <string name="page_layout_confirm_message">Your device needs to reboot to apply these changes. This takes about 1 minute.</string>
+  <string name="page_layout_confirm_message_enlarge">Text, images, and icons will be enlarged. Some icons might change their places.</string>
+  <string name="page_layout_confirm_message_narrow">Text, images, and icons will become smaller. Some icons might change their places.</string>
   <string name="page_layout_confirm_title">Change display settings</string>
+  <string name="page_layout_confirm_title_enlarge">Bigger items</string>
+  <string name="page_layout_confirm_title_narrow">Smaller items</string>
   <string name="page_layout_godzilla_title">XXL</string>
   <string name="page_layout_huge_title">XL</string>
   <string name="page_layout_large_title">L</string>
@@ -4467,6 +4473,7 @@ This setting affects all users on this phone."</string>
   <string name="screen_on_proximity_sensor_summary">Lock touch gestures when placed in a pocket</string>
   <string name="screen_on_proximity_sensor_title">Pocket mode</string>
   <string name="screen_optimize">Contrast</string>
+  <string name="screen_optimize_disabled">"Can't adjust contrast when Reading mode is on"</string>
   <string name="screen_paper_mode_adjust_level">Adjust</string>
   <string name="screen_paper_mode_apps_loading">Just a sec…</string>
   <string name="screen_paper_mode_apps_title">Use Reading mode</string>
