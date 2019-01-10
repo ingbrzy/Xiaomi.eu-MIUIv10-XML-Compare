@@ -657,5 +657,5 @@ Wide angle mode comes to help when you can't move farther from the scene."</stri
   <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
   <string name="video_reach_size_limit">Size limit reached.</string>
   <string name="view_privacy_policy">View Privacy Policy</string>
-  <string name="zoom_no_support_tip_48M">4800万超清模式下不支持变焦</string>
+  <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
 </resources>
