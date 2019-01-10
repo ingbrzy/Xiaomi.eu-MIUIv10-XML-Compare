@@ -50,6 +50,7 @@
   <string name="accessibility_peak">Focus peak button</string>
   <string name="accessibility_portrait_button">Portrait mode</string>
   <string name="accessibility_protrait">Portrait</string>
+  <string name="accessibility_pull_down_to_open_camera">Swipe down to open camera</string>
   <string name="accessibility_review_thumbnail">Most recent photo</string>
   <string name="accessibility_seek_bar_line">SeekBarLine</string>
   <string name="accessibility_selected">Selected items</string>
@@ -58,10 +59,13 @@
   <string name="accessibility_shutter_button">Shutter button</string>
   <string name="accessibility_skin_beautify_button">SkinBeautifyButton</string>
   <string name="accessibility_stereo_button">Focus adjustment</string>
-  <string name="accessibility_ultra_pixel_photography_off">48MP is off</string>
-  <string name="accessibility_ultra_pixel_photography_on">48MP is on</string>
+  <string name="accessibility_ultra_pixel_photography_32mp_off">32MP is off</string>
+  <string name="accessibility_ultra_pixel_photography_32mp_on">32MP is on</string>
+  <string name="accessibility_ultra_pixel_photography_48mp_off">48MP is off</string>
+  <string name="accessibility_ultra_pixel_photography_48mp_on">48MP is on</string>
   <string name="accessibility_ultra_wide_off">Turned off wide angle mode</string>
   <string name="accessibility_ultra_wide_on">Turned on wide angle mode</string>
+  <string name="accessibility_video_btn_play">Play video</string>
   <string name="accessibility_video_capture_button">VideoCaptureButton</string>
   <string name="accessibility_video_module_picker">VideoModulePicker</string>
   <string name="accessibility_video_pause_button">VideoPauseButton</string>
@@ -79,7 +83,7 @@ and optimizes your photos based on this info"</string>
   <string name="beauty_body_body">Slender</string>
   <string name="beauty_body_head">Head</string>
   <string name="beauty_body_legged">Legs</string>
-  <string name="beauty_body_reset_tip">Removed figure effects successfully</string>
+  <string name="beauty_body_reset_tip">Reset figure effects successfully</string>
   <string name="beauty_body_shoulder">Shoulders</string>
   <string name="beauty_body_slim_count_tip">Figure effects work only for one person shots</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
@@ -215,7 +219,7 @@ and optimizes your photos based on this info"</string>
   <string name="face_beauty_intelligent_level_3">High</string>
   <string name="face_beauty_smart">Smart</string>
   <string name="face_score_info">Score: %.1f</string>
-  <string name="fps960_toast">Slow-motion capture will start when the timer reaches the white dot</string>
+  <string name="fps960_toast">Slow-motion capture will start at the last quarter of the recording</string>
   <string name="front_camera_hint_text_place">"Taking selfies will be easier
 if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>
@@ -257,7 +261,7 @@ in Portrait mode"</string>
   <string name="live_error_title">"System time isn't correct"</string>
   <string name="live_music_change_bgm">Change background music</string>
   <string name="live_music_close_cancel_message">Cancel</string>
-  <string name="live_music_close_message">Turn off mudic now?</string>
+  <string name="live_music_close_message">Turn off music now?</string>
   <string name="live_music_close_sure_message">Turn off</string>
   <string name="live_music_downloading_tips">Downloading…</string>
   <string name="live_music_hot_title">Popular songs</string>
@@ -735,6 +739,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_google_lens">Google lens</string>
   <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
   <string name="pref_manual_exposure_title">S</string>
+  <string name="pref_menu_ultra_pixel_photography_32mp">32MP</string>
   <string name="pref_menu_ultra_pixel_photography_48mp">48MP</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
@@ -859,8 +864,10 @@ Keep the subject sharp while blurring the background."</string>
   <string name="toast_start_audio_capture">Make a sound to take a photo</string>
   <string name="ubi_focus_capture_fail">"Couldn't take photo"</string>
   <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
-  <string name="ultra_pixel_photography_close_tip">48MP is off</string>
-  <string name="ultra_pixel_photography_open_tip">48MP</string>
+  <string name="ultra_pixel_photography_32mp_close_tip">32MP is off</string>
+  <string name="ultra_pixel_photography_32mp_open_tip">32MP</string>
+  <string name="ultra_pixel_photography_48mp_close_tip">48MP is off</string>
+  <string name="ultra_pixel_photography_48mp_open_tip">48MP</string>
   <string name="ultra_wide_bokeh_close_tip">Full body mode is off</string>
   <string name="ultra_wide_bokeh_open_tip">Full body mode</string>
   <string name="ultra_wide_close_tip">Wide angle mode is off</string>
@@ -885,4 +892,5 @@ Wide angle mode comes to help when you can't move farther from the scene."</stri
   <string name="video_reach_size_limit">Size limit reached.</string>
   <string name="view_privacy_policy">View Privacy Policy</string>
   <string name="wait">Just a sec…</string>
+  <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
 </resources>
