@@ -1365,13 +1365,18 @@
         <item>com.autonavi.minimap</item>
     </string-array>
     <string-array name="empty_initial_attach_apn_plmn">
-        <item>22210</item>
-        <item>26806</item>
-        <item>45006</item>
-        <item>45005</item>
+        <item>20205</item>
         <item>20810</item>
         <item>20811</item>
         <item>20813</item>
+        <item>22210</item>
+        <item>26202</item>
+        <item>26209</item>
+        <item>26801</item>
+        <item>26806</item>
+        <item>45005</item>
+        <item>45006</item>
+        <item>45008</item>
     </string-array>
     <array name="config_crossSpaceNotificationPackageNames" />
     <string-array name="config_sysBrightnessFileArray">
@@ -1412,5 +1417,15 @@
         <item>120</item>
         <item>255</item>
     </integer-array>
+    <string-array name="config_alwaysEnableMms_off_array">
+        <item>ch</item>
+        <item>be</item>
+        <item>gb</item>
+    </string-array>
+    <array name="config_hightGrayBrightnessLevels" />
+    <array name="config_lowGrayBrightnessLevels" />
+    <array name="config_BrightnessCurvesLux" />
+    <array name="config_maxBrightnessCurvesNits" />
+    <array name="config_minBrightnessCurvesNits" />
     <array name="screen_resolution_supported" />
 </resources>

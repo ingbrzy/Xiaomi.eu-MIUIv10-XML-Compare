@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">Tap to get weather info</string>
     <string name="date_format">d MMMM, EEEE</string>
     <string name="today">Bu gün</string>
     <string name="tomorrow">Sabah</string>
