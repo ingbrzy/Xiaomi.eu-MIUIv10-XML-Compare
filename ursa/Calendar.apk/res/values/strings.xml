@@ -510,6 +510,8 @@ Check network settings and try again."</string>
   <string name="no_visiable_calendar_message">You need to add a calendar account. Tap Add account to continue.</string>
   <string name="no_visiable_calendar_select_account">Add account</string>
   <string name="no_visiable_calendar_title">Add account</string>
+  <string name="notification_channel_description"/>
+  <string name="notification_channel_name">Calendar reminders</string>
   <string name="olympic_rank">排名</string>
   <string name="olympic_total">总数</string>
   <string name="olympic_vs">VS</string>
@@ -619,6 +621,7 @@ Check network settings and try again."</string>
   <string name="search_calendar_huangli"/>
   <string name="search_calendar_settings">Calendar;Agenda;Reminder</string>
   <string name="search_calendar_subscribe_group"/>
+  <string name="search_menu_title">Search</string>
   <string name="select_date">Jump to date</string>
   <string name="setting_about_calendar_version">Calendar version:</string>
   <string name="setting_about_imei">IMEI:</string>
