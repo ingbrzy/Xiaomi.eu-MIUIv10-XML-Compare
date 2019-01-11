@@ -6,8 +6,8 @@
     <string name="air_quality3">\'AQI \'+#aqi</string>
     <string name="air_quality4">\'AQI \'+#aqi</string>
     <string name="air_quality5">\'AQI \'+#aqi</string>
-    <string name="weather_null"></string>
-    <string name="weather_location_null"></string>
+    <string name="weather_null">Miss biex tikseb informazzjoni dwar it-temp</string>
+    <string name="weather_location_null">L-ebda informazzjoni tal-post</string>
     <string name="weather_type_0">Ċar</string>
     <string name="weather_type_1">Imsaħħab</string>
     <string name="weather_type_2">Imċajpar</string>
