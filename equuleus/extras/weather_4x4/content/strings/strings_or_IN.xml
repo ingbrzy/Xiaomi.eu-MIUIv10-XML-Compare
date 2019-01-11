@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">ପାଣିପାଗ ସୂଚନା ପାଇବାକୁ ଟେପ କରନ୍ତୁ</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">ଆଜି</string>
     <string name="tomorrow">ଆସନ୍ତାକାଲି</string>
