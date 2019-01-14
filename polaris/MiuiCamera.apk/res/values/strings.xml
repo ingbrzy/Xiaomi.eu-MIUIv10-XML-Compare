@@ -74,6 +74,9 @@ and optimizes your photos based on this info"</string>
   <string name="ai_scene_top_moon_off">Low light mode</string>
   <string name="ai_scene_top_tip">Moon mode</string>
   <string name="app_name">algoengine</string>
+  <string name="autozoom_click_hint">请单击选择跟拍主体,三米外效果最佳</string>
+  <string name="autozoom_disabled_hint">运动跟拍已关闭</string>
+  <string name="autozoom_hint">运动跟拍</string>
   <string name="beauty_body">Figure</string>
   <string name="beauty_body_body">Slender</string>
   <string name="beauty_body_head">Head</string>
