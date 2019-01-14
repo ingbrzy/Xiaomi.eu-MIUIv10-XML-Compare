@@ -1575,55 +1575,10 @@
     <string-array name="default_video_package">
         <item>mx_telcel:com.google.android.apps.photos</item>
     </string-array>
-    <string-array name="device_global_support_face_sensetime">
-        <item>dipper</item>
-        <item>beryllium</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>nitrogen</item>
-        <item>platina</item>
-        <item>vince</item>
-        <item>tulip</item>
-        <item>sakura_india</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-        <item>onc</item>
-        <item>lavender</item>
-    </string-array>
-    <string-array name="device_support_face">
-        <item>wayne</item>
-        <item>clover</item>
-        <item>dipper</item>
-        <item>ursa</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>gemini</item>
-        <item>platina</item>
-        <item>capricorn</item>
-        <item>equuleus</item>
-        <item>natrium</item>
-        <item>vince</item>
-        <item>perseus</item>
-        <item>lavender</item>
-        <item>lotus</item>
-        <item>onc</item>
-    </string-array>
     <string-array name="device_support_pickup_by_MTK">
         <item>cactus</item>
         <item>cereus</item>
         <item>lotus</item>
-    </string-array>
-    <string-array name="device_use_face_service">
-        <item>jason</item>
-        <item>polaris</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>whyred</item>
-        <item>ysl</item>
-        <item>sakura</item>
-        <item>sirius</item>
-        <item>cepheus</item>
-        <item>andromeda</item>
     </string-array>
     <string-array name="dirac_equalizer_preset_names">
         <item>@string/eq_flat</item>
@@ -2552,45 +2507,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Low</item>
         <item>Critical</item>
         <item>\?</item>
-    </string-array>
-    <string-array name="region_global_support_face_sensetime">
-        <item>IN</item>
-        <item>ID</item>
-        <item>HK</item>
-        <item>TW</item>
-        <item>SG</item>
-        <item>MY</item>
-        <item>VN</item>
-        <item>TH</item>
-        <item>IT</item>
-        <item>FR</item>
-        <item>NP</item>
-        <item>LK</item>
-        <item>BD</item>
-        <item>QA</item>
-        <item>BE</item>
-        <item>DK</item>
-        <item>GR</item>
-        <item>UK</item>
-        <item>GB</item>
-        <item>PL</item>
-        <item>RU</item>
-        <item>ES</item>
-        <item>KR</item>
-        <item>BY</item>
-        <item>KZ</item>
-        <item>KG</item>
-        <item>TJ</item>
-        <item>UZ</item>
-        <item>TM</item>
-        <item>GE</item>
-        <item>AM</item>
-        <item>AZ</item>
-        <item>MD</item>
-        <item>MN</item>
-        <item>NL</item>
-        <item>UA</item>
-        <item>SE</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
