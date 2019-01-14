@@ -2532,6 +2532,10 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="traffic_setting_fragment_sms_content">Message content</string>
   <string name="traffic_setting_fragment_sms_content_tips">Write your message here</string>
   <string name="traffic_setting_fragment_title">Data usage query</string>
+  <string name="traffic_setting_fragment_title_guide">Carriers and data plans</string>
+  <string name="traffic_usage_warning_body">"You've already used %s of mobile data this month."</string>
+  <string name="traffic_usage_warning_limit">Data usage warning limit</string>
+  <string name="traffic_usage_warning_title">Data usage warning</string>
   <string name="traffic_warning_purchase_title">Mobile data usage warning</string>
   <string name="try_game">Try</string>
   <string name="try_recommended_function">Protect your device using new Security features</string>

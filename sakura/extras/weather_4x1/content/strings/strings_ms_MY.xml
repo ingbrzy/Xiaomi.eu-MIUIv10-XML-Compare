@@ -6,8 +6,8 @@
     <string name="air_quality3">\'AQI \'+#aqi</string>
     <string name="air_quality4">\'AQI \'+#aqi</string>
     <string name="air_quality5">\'AQI \'+#aqi</string>
-    <string name="weather_null"></string>
-    <string name="weather_location_null"></string>
+    <string name="weather_null">Klik untuk mendapatkan info cuaca</string>
+    <string name="weather_location_null">Tiada maklumat lokasi</string>
     <string name="weather_type_0">Cerah</string>
     <string name="weather_type_1">Mendung</string>
     <string name="weather_type_2">Jerebu</string>
