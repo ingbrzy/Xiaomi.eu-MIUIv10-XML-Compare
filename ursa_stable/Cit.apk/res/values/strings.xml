@@ -141,6 +141,7 @@ Before you calibrate the device, place it on a flat surface."</string>
   <string name="cit_audio_cali_TEMP">Temp:</string>
   <string name="cit_audio_cali_done">Calibration Done!</string>
   <string name="cit_audio_cali_failed">Calibration Failed, please Retry!</string>
+  <string name="cit_audio_cali_fast_test_title">Speaker amplifier calibration fast test</string>
   <string name="cit_audio_cali_file_existed">Music file do not exist,can not do calibration!</string>
   <string name="cit_audio_cali_playing">Check Calibrated Data</string>
   <string name="cit_audio_cali_q">Q:</string>
@@ -254,6 +255,9 @@ and reverse plug in the charger"</string>
   <string name="cit_def_torch_on_one">Turn on the first flash</string>
   <string name="cit_def_torch_on_three">Turn on the third flash</string>
   <string name="cit_def_torch_on_two">Turn on the second flash</string>
+  <string name="cit_diag_chaging_summary">Copy charge logger files to sdcard</string>
+  <string name="cit_diag_chaging_title">Read charge logger</string>
+  <string name="cit_diag_chaging_wait">Please wait... Copying files</string>
   <string name="cit_dial_emergencycall">Dial 112</string>
   <string name="cit_display_check_summary">Confirm that the colors are consistently displayed across the whole screen. Make sure there are no irregular bright spots and dark spots.</string>
   <string name="cit_display_check_title">Display</string>
@@ -263,6 +267,7 @@ and reverse plug in the charger"</string>
   <string name="cit_exit_test_summary">When you exit, all related text data will be erased.</string>
   <string name="cit_exit_test_title">Exit test</string>
   <string name="cit_fail">Fail</string>
+  <string name="cit_fast_screen_touch_check_title">Fast touch screen check test</string>
   <string name="cit_finger_check_title">Finger Print Test</string>
   <string name="cit_flash_life_check_summary">Device flash life time estimation</string>
   <string name="cit_flash_life_check_title">Flash life</string>
@@ -289,7 +294,7 @@ Before test you have to insert the headset"</string>
 1.Tap the Camera button below to enter front Camera interface
 2.Tap the shutter button
 3.System will save the photo automatically after capture
-4.The photo you took must be displayed on the screen, Tap Delete to complete the test."</string>
+4.The photo you took must be displayed on the screen, Tap Pass to complete the test."</string>
   <string name="cit_front_camera_check_title">Front camera</string>
   <string name="cit_front_rear_dual_camera_check_title">Front rear dual camera</string>
   <string name="cit_front_rear_sub_camera_check_title">Front rear sub camera</string>
@@ -342,6 +347,7 @@ Touch the screen to start GPS…"</string>
   <string name="cit_headset_pull_detect_summary">When headphones are disconnected, the text \"Headphones have been disconnected\" should be displayed below</string>
   <string name="cit_headset_pull_detect_title">Headphone detection (disconnect)</string>
   <string name="cit_headset_pull_finish">Headphones have been disconnected</string>
+  <string name="cit_headset_pull_finish_test">Disconnected headphones,finished test</string>
   <string name="cit_headset_pull_hint">Disconnect headphones now</string>
   <string name="cit_hide_menu">Hide menu</string>
   <string name="cit_hvdcp_charger_in">Charging via (USB_HVDCP)</string>
@@ -377,7 +383,7 @@ Touch the screen to start GPS…"</string>
 1.Tap the Camera button below to enter rear Camera interface
 2.Tap the shutter button
 3.System will save the photo automatically after capture.
-4.The photo you took must be displayed on the screen. Tap Delete to complete the test."</string>
+4.The photo you took must be displayed on the screen. Tap Pass to complete the test."</string>
   <string name="cit_main_camera_check_title">Rear camera</string>
   <string name="cit_name">Hardware tests</string>
   <string name="cit_nfc_check_summary">Please put the card on the top of the back of the phone</string>
@@ -412,7 +418,7 @@ When calibrating, make sure there's nothing between the sensor and your hand (e.
 1.Tap the Camera button below to enter rear sub Camera interface
 2.Tap the shutter button
 3.System will save the photo automatically after capture
-4.The photo you took must be displayed on the screen, Tap Delete to complete the test."</string>
+4.The photo you took must be displayed on the screen, Tap Pass to complete the test."</string>
   <string name="cit_rear_sub_camera_check_title">Rear sub camera</string>
   <string name="cit_rear_sub_second_camera_check_title">rear sub second camera</string>
   <string name="cit_recovery_signature_failed">recovery signature FAILED</string>
@@ -442,7 +448,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_sd_unmount">Unmount SD card</string>
   <string name="cit_sd_unmount_sucess">SD card unmounted</string>
   <string name="cit_signature_check_label">signature check:</string>
-  <string name="cit_sim_check_summary">Confirm that correct the status and info of the SIM card is displayed below</string>
+  <string name="cit_sim_check_summary">Confirm that correct the status and info of the SIM card is displayed below, only two SIM cards simultaneously exist and has correct status can pass</string>
   <string name="cit_sim_check_title">SIM card</string>
   <string name="cit_sim_error_unknown">Unknown</string>
   <string name="cit_sim_network_operator">Network service provider:</string>
@@ -883,7 +889,7 @@ the specified position"</string>
 1.Tap the Camera button below to enter Ir Camera interface
 2.Tap the shutter button
 3.System will save the photo automatically after capture.
-4.The photo you took must be displayed on the screen. Tap Delete to complete the test."</string>
+4.The photo you took must be displayed on the screen. Tap Pass to complete the test."</string>
   <string name="ir_camera_test_summary_preview">"Test instructions:
 
 1.Tap the Preview button below to enter Camera interface

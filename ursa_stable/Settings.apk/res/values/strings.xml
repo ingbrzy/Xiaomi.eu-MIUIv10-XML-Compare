@@ -160,6 +160,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="accessibility_shortcut_description">When the shortcut is on, you can press both volume keys for 3 seconds to start an accessibility feature.</string>
   <string name="accessibility_shortcut_service_on_lock_screen_title">Allow from lock screen</string>
   <string name="accessibility_shortcut_service_title">Shortcut service</string>
+  <string name="accessibility_summary_default_combination">%1$s / %2$s</string>
   <string name="accessibility_summary_source">Provided by %s</string>
   <string name="accessibility_summary_state_disabled">Off</string>
   <string name="accessibility_summary_state_enabled">On</string>
@@ -287,6 +288,12 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="agps_roaming_dia_title">Use A-GPS when roaming</string>
   <string name="agps_roaming_summary">Use mobile data to assist GPS while roaming</string>
   <string name="ai_button_title">Mi AI button</string>
+  <string name="ai_button_title_global">AI button</string>
+  <string name="ai_settings_double_click_category">Double press AI button</string>
+  <string name="ai_settings_double_click_title">Double press</string>
+  <string name="ai_settings_long_click_category">Press and hold AI button</string>
+  <string name="ai_settings_long_click_title">Press and hold</string>
+  <string name="ai_settings_single_press_des">Press the AI button to talk to Google Assistant, then release to get the answer.</string>
   <string name="airplane_mode">Airplane mode</string>
   <string name="alarm_ringtone_title">Default alarm sound</string>
   <string name="alarm_sound_dialog_title">Choose alarm sound</string>
@@ -303,6 +310,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_bind_app_widget_activity_allow_bind_title">Create widget and allow access?</string>
   <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
   <string name="allow_data_usage_title">Allow data usage when roaming</string>
+  <string name="allow_device_id_access">Apps with access to Device ID</string>
   <string name="allow_interruption">Allow interruptions</string>
   <string name="allow_interruption_summary">Let the app make sound, vibrate, and/or pop notifications on screen</string>
   <string name="allow_mock_location">Allow mock locations</string>
@@ -335,6 +343,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
+  <string name="aod_clock_style_title">Clock style</string>
   <string name="aod_close_color_inversion">"This feature can't be combined with color inversion. Turn off color inversion first."</string>
   <string name="aod_got_it">Got it</string>
   <string name="aod_mode_summary">Always show time, date and messages when screen off.</string>
@@ -816,16 +825,16 @@ Apps:
   <string name="bluetooth_confirm_passkey_msg">To pair with:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;Make sure it is showing this passkey:&lt;br&gt;&lt;b&gt;%2$s&lt;/b&gt;</string>
   <string name="bluetooth_connect_failed">"Couldn't connect. Try again."</string>
   <string name="bluetooth_connect_specific_profiles_title">Connect to…</string>
-  <string name="bluetooth_connected">Connected%1$s</string>
+  <string name="bluetooth_connected">Connected %1$s</string>
   <string name="bluetooth_connected_battery_level">Connected, battery %1$s%2$s</string>
   <string name="bluetooth_connected_multiple_devices_summary">Connected to multiple devices</string>
-  <string name="bluetooth_connected_no_a2dp">Connected (no media)%1$s</string>
+  <string name="bluetooth_connected_no_a2dp">Connected (no media) %1$s</string>
   <string name="bluetooth_connected_no_a2dp_battery_level">Connected (no media), battery %1$s%2$s</string>
-  <string name="bluetooth_connected_no_headset">Connected (no phone)%1$s</string>
+  <string name="bluetooth_connected_no_headset">Connected (no phone) %1$s</string>
   <string name="bluetooth_connected_no_headset_battery_level">Connected (no phone), battery %1$s%2$s</string>
-  <string name="bluetooth_connected_no_headset_no_a2dp">Connected (no phone or media)%1$s</string>
+  <string name="bluetooth_connected_no_headset_no_a2dp">Connected (no phone or media) %1$s</string>
   <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Connected (no phone or media), battery %1$s%2$s</string>
-  <string name="bluetooth_connected_no_map">Connected (no message access)%1$s</string>
+  <string name="bluetooth_connected_no_map">Connected (no message access) %1$s</string>
   <string name="bluetooth_connected_summary">Connected to %1$s</string>
   <string name="bluetooth_connecting">Connecting…</string>
   <string name="bluetooth_connecting_error_message">Couldn’t connect to %1$s.</string>
@@ -879,8 +888,8 @@ Apps:
   <string name="bluetooth_dock_settings_headset">As speaker phone</string>
   <string name="bluetooth_dock_settings_remember">Remember settings</string>
   <string name="bluetooth_dock_settings_title">Use dock for audio</string>
-  <string name="bluetooth_dun_profile_summary_connected">Connected to Dun Server</string>
-  <string name="bluetooth_dun_profile_summary_use_for">Use for Dial-up Network access</string>
+  <string name="bluetooth_dun_profile_summary_connected">Connected to DUN Server</string>
+  <string name="bluetooth_dun_profile_summary_use_for">Use for dial-up network access</string>
   <string name="bluetooth_empty_list_bluetooth_off">When Bluetooth is turned on, your device can communicate with other nearby Bluetooth devices.</string>
   <string name="bluetooth_empty_list_user_restricted">You don’t have permission to change Bluetooth settings.</string>
   <string name="bluetooth_enable">Bluetooth</string>
@@ -892,8 +901,8 @@ Apps:
   <string name="bluetooth_footer_mac_message">"Phone's Bluetooth address: %1$s"</string>
   <string name="bluetooth_headset_profile_summary_connected">Connected to phone audio</string>
   <string name="bluetooth_headset_profile_summary_use_for">Use for phone audio</string>
-  <string name="bluetooth_hearing_aid_profile_summary_connected">Connected to Hearing Aid</string>
-  <string name="bluetooth_hearing_aid_profile_summary_use_for">Use for Hearing Aid</string>
+  <string name="bluetooth_hearing_aid_profile_summary_connected">Connected to hearing aid</string>
+  <string name="bluetooth_hearing_aid_profile_summary_use_for">Use for hearing aid</string>
   <string name="bluetooth_hearingaid_left_battery_level">Left - %1$s battery</string>
   <string name="bluetooth_hearingaid_left_pairing_message">Pairing left hearing aid…</string>
   <string name="bluetooth_hearingaid_right_battery_level">Right - %1$s battery</string>
@@ -972,17 +981,17 @@ Apps:
   <string name="bluetooth_profile_a2dp_high_quality">HD audio: %1$s</string>
   <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">HD audio</string>
   <string name="bluetooth_profile_details">Profile settings</string>
-  <string name="bluetooth_profile_dun">Dial-up Network Access</string>
+  <string name="bluetooth_profile_dun">Dial-up network access</string>
   <string name="bluetooth_profile_headset">Phone calls</string>
-  <string name="bluetooth_profile_hearing_aid">Hearing Aid</string>
+  <string name="bluetooth_profile_hearing_aid">Hearing aid</string>
   <string name="bluetooth_profile_hid">Input device</string>
-  <string name="bluetooth_profile_map">Text Messages</string>
+  <string name="bluetooth_profile_map">Text messages</string>
   <string name="bluetooth_profile_opp">File transfer</string>
   <string name="bluetooth_profile_pan">Internet access</string>
   <string name="bluetooth_profile_pan_nap">Internet connection sharing</string>
   <string name="bluetooth_profile_pbap">Contact sharing</string>
   <string name="bluetooth_profile_pbap_summary">Use for contact sharing</string>
-  <string name="bluetooth_profile_sap">SIM Access</string>
+  <string name="bluetooth_profile_sap">SIM access</string>
   <string name="bluetooth_quick_toggle_summary">Turn on Bluetooth</string>
   <string name="bluetooth_quick_toggle_title">Bluetooth</string>
   <string name="bluetooth_remember_choice">Don’t ask again</string>
@@ -1005,8 +1014,8 @@ Selection: Bits Per Sample"</string>
   <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"Trigger Bluetooth Audio Codec
 Selection: Channel Mode"</string>
   <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Bluetooth Audio LDAC Codec: Playback Quality</string>
-  <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Trigger Bluetooth Audio LDAC
-Codec Selection: Playback Quality"</string>
+  <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Select Bluetooth audio LDAC codec:
+Playback quality"</string>
   <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth Audio Sample Rate</string>
   <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Trigger Bluetooth Audio Codec
 Selection: Sample Rate"</string>
@@ -1112,6 +1121,8 @@ Selection"</string>
   <string name="bootloader_status_unlocked">Unlocked</string>
   <string name="bootloader_status_unlocked_info">This device is unlocked</string>
   <string name="bootloader_summary">Flash your device via USB</string>
+  <string name="bootloader_tips">"After you add your Mi Account, don't sign out of it, perform a factory reset, or clear system apps' data. If you do any of the above, add your account again or you won't be able to unlock your device."</string>
+  <string name="bootloader_tips_ok">Got it</string>
   <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
   <string name="breathing_light_color_menu_title">Light color</string>
   <string name="breathing_light_color_summary">Light color when receiving new notification</string>
@@ -1125,12 +1136,12 @@ Selection"</string>
   <string name="bssid_label">BSSID:</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
   <string name="bt_hci_snoop_log_summary">Capture all Bluetooth HCI packets in a file</string>
-  <string name="bt_ldac_declaration">When the Bluetooth device supports LDAC, it will be connected by default. LDAC provides a high-quality audio experience and also brings higher power consumption. Playback may occur due to Bluetooth hardware limitations</string>
+  <string name="bt_ldac_declaration">When a Bluetooth device supports LDAC, it will be connected by default. LDAC provides a high-quality audio experience, but also increases power consumption. Issues may occur during playback due to Bluetooth hardware limitations.</string>
   <string name="bt_ldac_dialog_summary">"LDAC provides a high-quality audio experience and also brings higher power consumption
 This feature can be turned off in [Settings]"</string>
   <string name="bt_ldac_dialog_title">The current device supports LDAC, which has been connected by default:</string>
-  <string name="bt_ldac_open_dialog_summary">LDAC provides a high-quality audio experience and also brings higher power consumption. Playback may occur due to Bluetooth hardware limitations</string>
-  <string name="bt_ldac_open_dialog_title">Are you sure to turn on LDAC?</string>
+  <string name="bt_ldac_open_dialog_summary">LDAC provides a high-quality audio experience, but also increases power consumption. Issues may occur during playback due to Bluetooth hardware limitations.</string>
+  <string name="bt_ldac_open_dialog_title">Turn on LDAC?</string>
   <string name="bt_ldac_pre_summary">Provide a high-quality audio experience</string>
   <string name="bt_ldac_pre_title">LDAC</string>
   <string name="bt_ldac_property">Attributes</string>
@@ -1177,6 +1188,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="calls_title">Calls</string>
   <string name="camera_double_tap_power_gesture_desc">Quickly open camera without unlocking your screen</string>
   <string name="camera_double_tap_power_gesture_title">Press power button twice for camera</string>
+  <string name="camera_front">Front %s</string>
   <string name="camera_gesture_desc">Open the camera app by twisting your wrist twice</string>
   <string name="camera_gesture_title">Double twist for camera</string>
   <string name="camera_key_action_app_title">Open app</string>
@@ -1192,6 +1204,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="camera_key_action_title">Mi Button</string>
   <string name="camera_key_action_toggle_title">Trigger toggle</string>
   <string name="camera_laser_sensor_switch">Camera Laser Sensor</string>
+  <string name="camera_rear">Rear %s</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_action">Cancel</string>
   <string name="cancel_alert">Discard your changes?</string>
@@ -1507,6 +1520,10 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="daltonizer_mode_tritanomaly">Tritanomaly (blue-yellow)</string>
   <string name="daltonizer_type">Correction mode</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
+  <string name="dangerous_option">High-risk developer options</string>
+  <string name="dangerous_option_hint">%1$s is enabled. Tap to change settings.</string>
+  <string name="dangerous_option_hint_title">High-risk feature enabled</string>
+  <string name="dangerous_option_switch_title">Notify about high-risk features</string>
   <string name="dark_ui_mode">Night mode</string>
   <string name="dark_ui_mode_title">Set Night mode</string>
   <string name="dashboard_suggestion_condition_footer_content_description">Collapse</string>
@@ -1726,6 +1743,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_available_memory">Available storage</string>
   <string name="device_battery">Battery</string>
   <string name="device_build_id">Version number</string>
+  <string name="device_camera">Camera</string>
   <string name="device_cellular_network">Mobile network scanning</string>
   <string name="device_complete_parameters">All specs</string>
   <string name="device_cpu">CPU</string>
@@ -1744,6 +1762,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_display_layout_title">Mi 5 Features</string>
   <string name="device_edit_title">Rename phone</string>
   <string name="device_feedback">Send feedback about this device</string>
+  <string name="device_id">Device ID</string>
   <string name="device_info_default">Unknown</string>
   <string name="device_info_label">Device info</string>
   <string name="device_info_not_available">Not available</string>
@@ -1812,7 +1831,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
   <string name="digital_clock_dot">:</string>
-  <string name="direct_boot_unaware_dialog_message">"Note: You'll be able to use this keyboard after a reboot only if you unlock your device."</string>
+  <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app can't start until you unlock your phone"</string>
   <string name="directory_access">Directory access</string>
   <string name="directory_on_volume">%1$s (%2$s)</string>
   <string name="disableNetwork">disableNetwork</string>
@@ -1982,6 +2001,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="emergency_address_title">Emergency Address</string>
   <string name="emergency_info_summary">Info &amp; contacts for %1$s</string>
   <string name="emergency_info_title">Emergency information</string>
+  <string name="emergency_sos_title">Emergency SOS</string>
   <string name="emergency_tone_alert">Tones</string>
   <string name="emergency_tone_silent">Silence</string>
   <string name="emergency_tone_summary">Set behavior when an emergency call is placed</string>
@@ -2051,6 +2071,7 @@ This helps protect data on lost or stolen devices. Require PIN to start your dev
   <string name="enter_password">To start Android, enter your password</string>
   <string name="enter_pattern">To start Android, draw your pattern</string>
   <string name="enter_pin">To start Android, enter your PIN</string>
+  <string name="enterprise_mode">Enterprise mode</string>
   <string name="enterprise_privacy_always_on_vpn_device">Always-on VPN turned on</string>
   <string name="enterprise_privacy_always_on_vpn_personal">Always-on VPN turned on in your personal profile</string>
   <string name="enterprise_privacy_always_on_vpn_work">Always-on VPN turned on in your work profile</string>
@@ -2257,6 +2278,8 @@ For more details, contact your organization's admin."</string>
   <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off."</string>
   <string name="firmware_title">Android</string>
   <string name="firmware_version">Android version</string>
+  <string name="flash_drive_backup_restore">Back up or restore using USB</string>
+  <string name="flash_drive_backup_restore_summary">Connect a USB drive</string>
   <string name="floating_window_switch_label">Turn on floating windows</string>
   <string name="floating_window_switch_label_disable">Turn off floating windows</string>
   <string name="fluency_mode">System animations</string>
@@ -2453,7 +2476,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="header_category_device">Device</string>
   <string name="header_category_personal">Personal</string>
   <string name="header_category_system">System</string>
-  <string name="header_category_wireless_networks">Network</string>
+  <string name="header_category_wireless_networks">Wireless &amp; networks</string>
   <string name="header_data_and_synchronization">Data &amp; synchronization</string>
   <string name="heavy_weight_stop_description">This app can’t safely be stopped. If you stop it, you may lose some of your current work.</string>
   <string name="help_feedback_label">Help &amp; feedback</string>
@@ -2595,6 +2618,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="input_methods_and_subtype_enabler_title">Choose active input methods</string>
   <string name="input_methods_settings_label_format">%1$s settings</string>
   <string name="input_methods_settings_title">Text input</string>
+  <string name="input_pattern_hint_text">Draw your unlock pattern</string>
   <string name="input_settings">Input settings</string>
   <string name="install_all_warning">Your phone and personal data are more vulnerable to attack by unknown apps. By installing apps from this source, you agree that you are responsible for any damage to your phone or loss of data that may result from their use.</string>
   <string name="install_applications">Unknown sources</string>
@@ -2665,6 +2689,8 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_double_tap_to_sleep_title">Double tap to sleep</string>
+  <string name="keyguard_notification_status_title">Notifications</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
   <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
@@ -2967,7 +2993,7 @@ as your First space PIN."</string>
   <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
  for Second space"</string>
   <string name="lockpassword_choose_your_pin_message">For security, set PIN</string>
-  <string name="lockpassword_choose_your_pin_title">Enter 4-16 digits</string>
+  <string name="lockpassword_choose_your_pin_title" formatted="false">Enter %d-%d digits</string>
   <string name="lockpassword_choose_your_screen_lock_header">Set screen lock</string>
   <string name="lockpassword_clear_label">Clear</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
@@ -3075,6 +3101,7 @@ as your First space PIN."</string>
   <string name="long_press_home_key">Long press the Home button</string>
   <string name="long_press_menu_key">Long press the Menu button</string>
   <string name="long_press_menu_key_when_lock">Long press Menu on the Lock screen</string>
+  <string name="long_press_power_key_half_of_second">Press and hold the Power button for 0.5s to turn on Google Assistant</string>
   <string name="long_press_volume_down">Long press Volume down</string>
   <string name="lost_internet_access_cancel">Stay on WLAN</string>
   <string name="lost_internet_access_persist">Never show again</string>
@@ -3236,7 +3263,9 @@ There are other users present on this device.
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_pay">Mi Wallet</string>
+  <string name="mi_pay_indonesia">Mi Pay Account</string>
   <string name="mi_pay_summary">Bus Card/Mi Pay/Card Emulator</string>
+  <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
   <string name="mi_upi_settings">Mi Pay Account</string>
@@ -3250,6 +3279,7 @@ There are other users present on this device.
   <string name="miui_allow_vibrate">Vibrations</string>
   <string name="miui_data_usage_menu_metered">Mobile hotspots</string>
   <string name="miui_experience_optimization">Turn on MIUI optimization</string>
+  <string name="miui_input_method_settings">Input method settings</string>
   <string name="miui_lab_ai_cloud_closed">"AI preloading isn't available yet."</string>
   <string name="miui_lab_ai_preload_desc">AI preloading increases app launch speed</string>
   <string name="miui_lab_ai_preload_title">AI preloading</string>
@@ -3267,6 +3297,54 @@ There are other users present on this device.
   <string name="miui_lab_settings">MIUI lab</string>
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
   <string name="miui_master_clear_summary">Erases all data on phone</string>
+  <string name="miui_optimization_disabled">Turn off MIUI optimization</string>
+  <string name="miui_sos_audio_summary">Play SOS message after emergency contact picks up</string>
+  <string name="miui_sos_audio_title">SOS voice message</string>
+  <string name="miui_sos_call_log_duration">Duration</string>
+  <string name="miui_sos_call_log_none">I have no call history for the last hour.</string>
+  <string name="miui_sos_call_log_stranger">Stranger</string>
+  <string name="miui_sos_call_log_summary">Send the call history for the last 1 hour to your emergency contact</string>
+  <string name="miui_sos_call_log_time_unit">%1$dm %2$ds</string>
+  <string name="miui_sos_call_log_title">Send call history</string>
+  <string name="miui_sos_call_warning_sim_unable">"No signal. Can't send SMS."</string>
+  <string name="miui_sos_calling_summary">Your device will make automatic calls to your emergency contacts playing the SOS voice message you recorded. The call will be ended after your message is finished playing. Auto call will stop after the first successful attempt.</string>
+  <string name="miui_sos_calling_title">Auto call</string>
+  <string name="miui_sos_contacts_add">Emergency contacts</string>
+  <string name="miui_sos_contacts_category">Emergency contacts</string>
+  <string name="miui_sos_emergency_contacts">Emergency contacts</string>
+  <string name="miui_sos_emergency_contacts_quantity">%d added</string>
+  <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s (%2s) has already accepted.</string>
+  <string name="miui_sos_emergency_delivered_sms_noname">%1s has already accepted</string>
+  <string name="miui_sos_emergency_failed_sms" formatted="false">"Couldn't send message to %1s (%2s)."</string>
+  <string name="miui_sos_emergency_failed_sms_noname">"Couldn't send message to %1s."</string>
+  <string name="miui_sos_enable_switch_summary">Rapidly press the Power button 5 times to send a SOS text message with your location to your emergency contacts</string>
+  <string name="miui_sos_enable_switch_title">Emergency SOS</string>
+  <string name="miui_sos_exit_dialog_cancel">Cancel</string>
+  <string name="miui_sos_exit_dialog_message">You activated Emergency SOS. Your location info is being sent to your emergency contacts. Turn off anyway?</string>
+  <string name="miui_sos_exit_dialog_ok">OK</string>
+  <string name="miui_sos_exit_dialog_title">Turning off Emergency SOS</string>
+  <string name="miui_sos_green_guard_summary">Share location info in real time</string>
+  <string name="miui_sos_green_guard_title">Parental controls</string>
+  <string name="miui_sos_launch_error">"Couldn't activate Emergency SOS"</string>
+  <string name="miui_sos_launch_error_confirm">Got it</string>
+  <string name="miui_sos_launch_error_message">"Can't connect to the mobile network. Can't use Emergency SOS."</string>
+  <string name="miui_sos_launching_summary">Activating Emergency SOS in %ds</string>
+  <string name="miui_sos_launching_title">SOS</string>
+  <string name="miui_sos_menu_add">Add</string>
+  <string name="miui_sos_menu_edit">Edit</string>
+  <string name="miui_sos_msg_call_log_prefix">"Here's my call history for the last hour:"</string>
+  <string name="miui_sos_play_voice">Play SOS message</string>
+  <string name="miui_sos_remind_add">Add</string>
+  <string name="miui_sos_remind_infocontent">"I added you as my emergency contact. You'll receive a message with my location info in case I'm in danger. [Mi Emergency SOS]"</string>
+  <string name="miui_sos_remind_open">Emergency SOS needs at least 1 emergency contact to work normally.</string>
+  <string name="miui_sos_remind_sendinfo">"Don't forget to tell these people that they are your emergency contacts now. Thus, they will be able to help you faster in case of emergency."</string>
+  <string name="miui_sos_remind_sendnow">Send now</string>
+  <string name="miui_sos_remind_title">Attention</string>
+  <string name="miui_sos_settings_alert_contacts_repeat">"Can't add duplicate contacts."</string>
+  <string name="miui_sos_settings_alert_contacts_too_many">You can add up to 3 emergency contacts.</string>
+  <string name="miui_sos_settings_category">SOS settings</string>
+  <string name="miui_sos_statusbar_summary">Tap to turn off</string>
+  <string name="miui_sos_statusbar_title">Emergency SOS is activated</string>
   <string name="miui_touch_filtered_warning">If an app is blocking a permissions dialog, drag the overlapping item away or close the app.</string>
   <string name="miui_updater">System update</string>
   <string name="miui_userguide">User guide</string>
@@ -3338,11 +3416,15 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_general">General</string>
   <string name="music_dirac_mode_general_earbuds">General</string>
   <string name="music_dirac_mode_general_inear">General In-Ear</string>
+  <string name="music_dirac_mode_half_in_ear">Mi Half In-Ear</string>
   <string name="music_dirac_mode_headset">Mi Headphones</string>
   <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
   <string name="music_dirac_mode_in_ear">Mi In-Ear</string>
+  <string name="music_dirac_mode_in_ear2">Mi In-Ear 2</string>
   <string name="music_dirac_mode_in_ear_2013">Mi In-Ear (2013)</string>
   <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
+  <string name="music_dirac_mode_india_earphones">Mi Earphones</string>
+  <string name="music_dirac_mode_india_earphones_basic">Mi Earphones Basic</string>
   <string name="music_dirac_mode_off">Dirac off</string>
   <string name="music_dirac_mode_piston_1">Mi Piston-1</string>
   <string name="music_dirac_mode_piston_100">Mi Piston</string>
@@ -3530,7 +3612,7 @@ Select your operating system:"</string>
   <string name="no_nearby_wifi">No networks detected</string>
   <string name="no_notification_listeners">No installed apps have requested notification access.</string>
   <string name="no_running_services">Nothing running.</string>
-  <string name="no_services">Not active services</string>
+  <string name="no_services">No active services</string>
   <string name="no_trust_agents">No available trust agents</string>
   <string name="no_update_found">"You're running the latest version of MIUI"</string>
   <string name="no_updates_found">"You're running the latest version of MIUI"</string>
@@ -3840,6 +3922,14 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="power_hide_mode_title">Manage apps battery usage</string>
   <string name="power_high_usage_title">High usage</string>
   <string name="power_idle">Phone idle</string>
+  <string name="power_key_how_power_force_off">How to force reboot your device</string>
+  <string name="power_key_how_power_force_off_detail">Press and hold the Power button until your device reboots</string>
+  <string name="power_key_how_power_off">How to open the shutdown page</string>
+  <string name="power_key_how_power_off_detail">Press and hold the Power button for 3s</string>
+  <string name="power_key_how_start">How to wake Google Assistant</string>
+  <string name="power_key_how_start_detail">Press and hold the Power button for 0.5s. Release to talk.</string>
+  <string name="power_key_start_enjoy">Learn more about Google Assistant</string>
+  <string name="power_key_start_guide">Waking Google Assistant using the Power button on full display devices</string>
   <string name="power_mgr">Battery</string>
   <string name="power_mode">Power settings</string>
   <string name="power_mode_balanced_title">Balance Power</string>
@@ -3880,6 +3970,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="pref_manage_bg_network">"Manage apps' background network connection"</string>
   <string name="pref_new_installed_preconfig_title">"New apps' default settings"</string>
   <string name="pref_operational_key">Navigation buttons</string>
+  <string name="pref_show_lunar_calendar_title">Show traditional Chinese calendar on Lock screen</string>
   <string name="pref_title_lang_selection">Language preferences</string>
   <string name="pref_title_network_details">Network details</string>
   <string name="pref_title_update_notification">Data usage notifications</string>
@@ -4246,6 +4337,11 @@ UT Interface: %5$s"</string>
   <string name="resolver_settings_label">Sort</string>
   <string name="restore_default_apn">Restoring default APN settings.</string>
   <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
+  <string name="restore_device_id_content">Reset personalized recommendations</string>
+  <string name="restore_device_id_title">Restore Device ID</string>
+  <string name="restore_dialog_content">Restoring Device ID will reset your personalized recommendations.</string>
+  <string name="restore_dialog_positive">Restore</string>
+  <string name="restore_dialog_title">Attention</string>
   <string name="restr_pin_enter_admin_pin">Enter admin PIN</string>
   <string name="restrict_background_blacklisted">Background data is turned off</string>
   <string name="restrict_bg_app">Restrict</string>
@@ -4691,6 +4787,8 @@ To use screen pinning:
   <string name="security_encryption_progress_dialog_open">Encrypting…</string>
   <string name="security_encryption_rejected_via_home_manager">"This feature isn't supported in the demo version."</string>
   <string name="security_encryption_title">Encrypt device using Lock screen password</string>
+  <string name="security_input">Secure keyboard</string>
+  <string name="security_input_hint">Use secure keyboard when you enter passwords</string>
   <string name="security_keyguard_category_name">Lock screen</string>
   <string name="security_password_category_name">Screen lock</string>
   <string name="security_passwords_title">Privacy</string>
@@ -4764,7 +4862,7 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="select_sim_for_data">Select a SIM for data</string>
   <string name="select_ssid_type_title">Select SSID</string>
   <string name="select_to_speak_summary">Tap items on your screen to hear them read aloud</string>
-  <string name="select_usb_configuration_dialog_title">Select USB Configuration</string>
+  <string name="select_usb_configuration_dialog_title">Select USB configuration</string>
   <string name="select_usb_configuration_title">Select USB Configuration</string>
   <string name="select_webview_provider_dialog_title">Set WebView implementation</string>
   <string name="select_webview_provider_title">WebView implementation</string>
@@ -4954,6 +5052,7 @@ Possibly incorrect PIN."</string>
   <string name="simulate_color_space">Simulate color space</string>
   <string name="single_key_use">Single button</string>
   <string name="single_key_use_summary">Use the Home button for functions performed by the other 2 buttons</string>
+  <string name="single_press_AI_button">Press AI button</string>
   <string name="size_byte">B</string>
   <string name="size_giga_byte">GB</string>
   <string name="size_kilo_byte">KB</string>
@@ -4965,6 +5064,41 @@ Possibly incorrect PIN."</string>
   <string name="skip_label">Skip</string>
   <string name="skip_lock_screen_confirm_msg">"Notifications, music player controls, and shortcuts won't be displayed on the Lock screen."</string>
   <string name="skip_step">Skip</string>
+  <string name="slider_app_open">Open app</string>
+  <string name="slider_app_open_name">Open %1$s</string>
+  <string name="slider_app_open_none">None</string>
+  <string name="slider_button_title">Change</string>
+  <string name="slider_choose_app">Select app</string>
+  <string name="slider_game_page_code">00008</string>
+  <string name="slider_game_tool_summary">Push the screen down to view available shortcuts while playing a game</string>
+  <string name="slider_game_tool_tilte">Gaming shortcuts</string>
+  <string name="slider_global_summary_app">Push the screen down to open an app</string>
+  <string name="slider_global_summary_drawer">Push the screen down to view available shortcuts</string>
+  <string name="slider_global_summary_selfie">Push the screen down to take a selfie</string>
+  <string name="slider_global_title">Slider shortcut</string>
+  <string name="slider_high_grade_summary">Push the screen down to perform a custom action under specified circumstances</string>
+  <string name="slider_high_grade_title">Additional slider settings</string>
+  <string name="slider_selfie">Take a selfie</string>
+  <string name="slider_title">Slider settings</string>
+  <string name="slider_title_jianghu">Warrior</string>
+  <string name="slider_title_jixie">Mechanics</string>
+  <string name="slider_title_keji">Hi-tech</string>
+  <string name="slider_title_lingdong">Intellect</string>
+  <string name="slider_title_zippo">Lighter</string>
+  <string name="slider_tool_drawer">Open tools</string>
+  <string name="slider_tool_none">None</string>
+  <string name="slider_tool_none_summary">No slider shortcut assigned</string>
+  <string name="slider_video_tool_summary">Push the screen down to view available shortcuts while watching a video</string>
+  <string name="slider_video_tool_title">Video shortcuts</string>
+  <string name="slider_vocie_click_too_often">Too fast! Wait a minute or two and try again.</string>
+  <string name="slider_vocie_online_close">Slide up</string>
+  <string name="slider_vocie_online_default">None</string>
+  <string name="slider_vocie_online_open">Slide down</string>
+  <string name="slider_vocie_online_title">Online sounds</string>
+  <string name="slider_voice_online_theme">Online sounds</string>
+  <string name="slider_voice_summary">Play sounds when you slide the screen up and down</string>
+  <string name="slider_voice_title">Sounds</string>
+  <string name="slight_pause">,</string>
   <string name="slot_number">(Slot%1$d)</string>
   <string name="slot_status_title">IMEI info</string>
   <string name="smallwindow_smartcover_title">Small window front cover</string>
@@ -4991,6 +5125,12 @@ Possibly incorrect PIN."</string>
   <string name="sort_order_frequent_notification">Most frequent</string>
   <string name="sort_order_recent_notification">Most recent</string>
   <string name="sort_order_size">Sort by size</string>
+  <string name="sos_privacy_and_content_policy">User Agreement and Privacy Policy</string>
+  <string name="sos_privacy_dialog_button_cancel">Cancel</string>
+  <string name="sos_privacy_dialog_button_ok">Agree</string>
+  <string name="sos_privacy_dialog_message">"Read and agree to our %s before using this feature.r
+This feature needs permissions to access your location, use mobile networks, and read your contacts. Agree?"</string>
+  <string name="sos_privacy_dialog_title">Terms and Conditions</string>
   <string name="sound_category_call_ringtone_vibrate_title">Ringtone &amp; notification sounds</string>
   <string name="sound_category_sound_title">General</string>
   <string name="sound_category_system_title">System</string>
@@ -5001,6 +5141,8 @@ Possibly incorrect PIN."</string>
   <string name="sound_settings_summary">Ring volume at %1$s</string>
   <string name="sound_settings_summary_silent">Ringer set to silent</string>
   <string name="sound_settings_summary_vibrate">Ringer set to vibrate</string>
+  <string name="sound_stereo_mode_summary">Only available when you play sound with speaker</string>
+  <string name="sound_stereo_mode_title">Stereo sound</string>
   <string name="sound_vibrate_settings">Sound &amp; vibration</string>
   <string name="sound_work_settings">Work profile sounds</string>
   <string name="special_access">Special app access</string>
@@ -5054,11 +5196,10 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
-  <string name="status_bar_settings_customer_feedback">feedback</string>
+  <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
-  <string name="status_bar_settings_function_description">About this feature</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
@@ -5070,9 +5211,11 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_style">Notification style</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>
+  <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
   <string name="status_bar_settings_show_carrier_under_keyguard">Show carrier when device is locked</string>
@@ -5368,6 +5511,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
   <string name="swipe_up_to_switch_apps_suggestion_title">Try the new Home button</string>
   <string name="swipe_up_to_switch_apps_summary">To switch apps, swipe up on the Home button. Swipe up again to see all apps. Works from any screen. You’ll no longer have an Overview button on the bottom right of your screen.</string>
   <string name="swipe_up_to_switch_apps_title">Swipe up on Home button</string>
+  <string name="switch_access_service_on">Switch Access</string>
   <string name="switch_off_text">Off</string>
   <string name="switch_on_text">On</string>
   <string name="switch_screen_button_order">Mirror buttons</string>
@@ -5419,6 +5563,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="take_call_on_title">Take call on</string>
   <string name="talkback_summary">Screen reader primarily for people with blindness and low vision</string>
   <string name="talkback_title">Talkback</string>
+  <string name="talkback_watermark_enable">TalkBack watermark</string>
   <string name="tap_to_wake">Tap to wake</string>
   <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
   <string name="taplus_title">Taplus</string>
@@ -5459,6 +5604,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="tethering_hardware_offload_summary">Use tethering hardware acceleration if available</string>
   <string name="tethering_help_button_text">Help</string>
   <string name="tethering_settings_not_available">Change tethering settings in First space</string>
+  <string name="the_way_of_wakeup_voice_assistant_summary">Wake up voice assistant in full screen mode (no virtual buttons)</string>
   <string name="theme_settings_title">Themes</string>
   <string name="thememanager_not_found">"Couldn't open Themes. Make sure the app is installed."</string>
   <string name="three_gesture_down">Slide 3 fingers down</string>
@@ -5660,7 +5806,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter 4-16 numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary" formatted="false">Enter %d-%d numbers to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
@@ -6061,32 +6207,32 @@ Tap the plus to add words."</string>
   <string name="wallpaper_settings_title">Wallpaper</string>
   <string name="wallpaper_suggestion_summary">Personalize your screen</string>
   <string name="wallpaper_suggestion_title">Change wallpaper</string>
-  <string name="wapi_all_sel_mode">Select mode</string>
+  <string name="wapi_all_sel_mode">Select</string>
   <string name="wapi_auto_sel_cert">Select automatically</string>
-  <string name="wapi_auto_sel_cert_fail">Can not select certificate automatically. Please select a certificate from the list, and then try to connect.</string>
-  <string name="wapi_cert_is_not_exist">No available certificate, please install the certificate first</string>
-  <string name="wapi_cert_is_not_selected">Please select the certificate first</string>
-  <string name="wapi_cert_manage_error">Faild to setting the WAPI certificate.</string>
+  <string name="wapi_auto_sel_cert_fail">"Can't select certificates automatically. Select a certificate from the list, and then try to connect."</string>
+  <string name="wapi_cert_is_not_exist">No available certificates. Add one first.</string>
+  <string name="wapi_cert_is_not_selected">Select the certificate first</string>
+  <string name="wapi_cert_manage_error">"Couldn't set WAPI certificate."</string>
   <string name="wapi_cert_manage_summary">Add or delete the WAPI certificate</string>
   <string name="wapi_cert_manage_title">WAPI certificate management</string>
   <string name="wapi_cert_roaming">Connecting…</string>
   <string name="wapi_cert_select">WAPI certificate</string>
-  <string name="wapi_no">no</string>
-  <string name="wapi_no_vaild_cert">No available certificates, install it now?</string>
+  <string name="wapi_no">No</string>
+  <string name="wapi_no_vaild_cert">"Looks like required certificates aren't installed. Install now?"</string>
   <string name="wapi_password_empty">Please input the password</string>
-  <string name="wapi_password_hex_format_add">The count of hexadecimal characters can not be odd number</string>
+  <string name="wapi_password_hex_format_add">You must use an even number of hexadecimal characters</string>
   <string name="wapi_password_hex_format_invalid">Invalid hexadecimal characters</string>
   <string name="wapi_password_hex_length_invalid">The count of hexadecimal characters must be even number</string>
-  <string name="wapi_password_is_empty">Password field can not be left blank</string>
+  <string name="wapi_password_is_empty">"Password can't be blank"</string>
   <string name="wapi_password_is_not_hex_format">Invalid hexadecimal characters</string>
   <string name="wapi_password_length_invalid">The password must be: 8-64 characters</string>
-  <string name="wapi_password_length_is_max">Password can not exceed 64 characters in length</string>
-  <string name="wapi_password_length_is_min">Password can not less than 8 characters in length</string>
-  <string name="wapi_password_length_is_min_to_max">The password must be: 8-64 characters</string>
+  <string name="wapi_password_length_is_max">Password can be up to 64 characters long</string>
+  <string name="wapi_password_length_is_min">Password must be at least 8 characters long</string>
+  <string name="wapi_password_length_is_min_to_max">Password must contain 8-64 characters</string>
   <string name="wapi_psk_type">Password type</string>
   <string name="wapi_psk_type_ascii">ASCII</string>
   <string name="wapi_psk_type_hex">Hexadecimal</string>
-  <string name="wapi_yes">yes</string>
+  <string name="wapi_yes">Yes</string>
   <string name="warm_color">Warm</string>
   <string name="web_action_enable_summary">Open links in apps, even if they’re not installed</string>
   <string name="web_action_enable_title">Instant apps</string>
@@ -6204,7 +6350,7 @@ Tap the plus to add words."</string>
   <string name="wifi_connect_cmcc_dialog_not_remind">"Don't show again"</string>
   <string name="wifi_connect_cmcc_dialog_title">CMCC connected</string>
   <string name="wifi_connect_failed_message">"Couldn't connect to WLAN network"</string>
-  <string name="wifi_connected_mac_randomization">Connected MAC Randomization</string>
+  <string name="wifi_connected_mac_randomization">Connected MAC randomization</string>
   <string name="wifi_connected_mac_randomization_summary">Randomize MAC address when connecting to WLAN networks</string>
   <string name="wifi_connected_no_internet">Connected, no internet</string>
   <string name="wifi_connection_management">WLAN connection management</string>
@@ -6212,8 +6358,8 @@ Tap the plus to add words."</string>
   <string name="wifi_context_menu_change_wapi_certificate">Change WAPI certificate</string>
   <string name="wifi_context_menu_connect">Connect</string>
   <string name="wifi_context_menu_forget">Forget</string>
-  <string name="wifi_coverage_extend">Enable WLAN Coverage Extend Feature</string>
-  <string name="wifi_coverage_extend_summary">Enable extending WLAN coverage using Hotspot</string>
+  <string name="wifi_coverage_extend">Turn on WLAN coverage extension</string>
+  <string name="wifi_coverage_extend_summary">Extend WLAN coverage using hotspot</string>
   <string name="wifi_data_template">^1 WLAN data</string>
   <string name="wifi_data_usage">WLAN data usage</string>
   <string name="wifi_datanetwork_switch_not_remind">"Don't show again"</string>
@@ -6525,8 +6671,8 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_speed">Link speed</string>
   <string name="wifi_ssid">SSID</string>
   <string name="wifi_ssid_hint">Enter the SSID</string>
-  <string name="wifi_ssid_is_empty">Ssid field can not be left blank</string>
-  <string name="wifi_ssid_length_is_max">Ssid can not exceed 32 characters in length</string>
+  <string name="wifi_ssid_is_empty">"SSID can't be blank"</string>
+  <string name="wifi_ssid_length_is_max">SSID can be up to 32 characters long</string>
   <string name="wifi_ssid_too_long">Network name is too long.</string>
   <string name="wifi_starting">Turning WLAN on…</string>
   <string name="wifi_state_disabled">Disabled</string>
@@ -6577,7 +6723,7 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_unspecified">Please select</string>
   <string name="wifi_update">Refresh stats</string>
   <string name="wifi_use_system_certs">Use system certificates</string>
-  <string name="wifi_verbose_logging">Enable WLAN Verbose Logging</string>
+  <string name="wifi_verbose_logging">Turn on WLAN verbose logging</string>
   <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show per SSID RSSI in WLAN Picker</string>
   <string name="wifi_wakeup">Turn on WLAN automatically</string>
   <string name="wifi_wakeup_summary">WLAN will turn back on near high‑quality saved networks, like your home network</string>
@@ -6601,14 +6747,14 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_wapi_cert_mgmt_user_dont_exist">Enter user certificate name</string>
   <string name="wifi_wapi_cert_mgmt_user_format_is_wrong">User certificate format is incorrect.</string>
   <string name="wifi_wapi_cert_mgmt_user_name_is_empty">Enter user certificate name</string>
-  <string name="wifi_wapi_cert_mode_hand_text">Hand select the certificate</string>
+  <string name="wifi_wapi_cert_mode_hand_text">Select manually</string>
   <string name="wifi_wapi_cert_uninstall">Uninstall WAPI certificate</string>
   <string name="wifi_wapi_cert_uninstall_button">Uninstall</string>
   <string name="wifi_wapi_certification_dont_exist">The network password you entered is incorrect.</string>
-  <string name="wifi_wapi_fail_to_auth">"WAPI authentication failed
-Please check validity of certificates"</string>
-  <string name="wifi_wapi_fail_to_init">"Unable to open WAPI certificates
-Credential storage might not enable"</string>
+  <string name="wifi_wapi_fail_to_auth">"Couldn't complete WAPI authentication.
+Make sure your certificates are valid."</string>
+  <string name="wifi_wapi_fail_to_init">"Can't open WAPI certificates.
+Looks like credential storage isn't enabled."</string>
   <string name="wifi_wapi_psk_type">Password type</string>
   <string name="wifi_wapi_user_cert">User certificate</string>
   <string name="wifi_wapi_user_certificate">User certificate</string>

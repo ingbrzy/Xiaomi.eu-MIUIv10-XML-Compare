@@ -1263,6 +1263,7 @@
     <array name="vendor_required_apps_managed_device" />
     <array name="vendor_required_apps_managed_profile" />
     <array name="vendor_required_apps_managed_user" />
+    <array name="webview_list" />
     <string-array name="wfcOperatorErrorAlertMessages">
         <item>To make calls and send messages over WLAN, first ask your carrier to set up this service. Then turn on WLAN calling again from Settings. (Error code: %1$s)</item>
     </string-array>
