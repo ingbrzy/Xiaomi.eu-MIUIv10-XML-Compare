@@ -12,6 +12,9 @@
         <item quantity="other">"%d apps can't connect to the network"</item>
         <item quantity="one">"%d app can't connect to the network"</item>
     </plurals>
+    <plurals name="miui_sos_emergency_contacts_quantity">
+        <item quantity="other">%d added</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">"%d apps can't show notifications"</item>
         <item quantity="one">"%d app can't show notifications"</item>

@@ -3055,6 +3055,18 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>onc</item>
         <item>lavender</item>
     </string-array>
+    <string-array name="device_use_face_service">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>ysl</item>
+        <item>sakura</item>
+        <item>sirius</item>
+        <item>cepheus</item>
+        <item>andromeda</item>
+    </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>Wake screen</item>
         <item>Show animation</item>
