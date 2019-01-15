@@ -190,7 +190,7 @@ and then create a shot where everyone looks best."</string>
 Clean the lens for better effect."</string>
   <string name="lens_dirty_detected_title_back">Rear camera lens is dirty</string>
   <string name="lens_dirty_detected_title_front">Front camera lens is dirty</string>
-  <string name="lighting_hint_needed">Place your object in the spotlight</string>
+  <string name="lighting_hint_needed">Place your subject in the spotlight</string>
   <string name="lighting_hint_title">Studio lighting</string>
   <string name="lighting_hint_too_close">Move the camera further away</string>
   <string name="lighting_hint_too_far">Bring the camera closer</string>
@@ -237,10 +237,14 @@ in Portrait mode"</string>
   <string name="portait_effect_entry_riddle">Riddle</string>
   <string name="portait_effect_entry_romance">Romantic</string>
   <string name="portait_effect_entry_story">Story</string>
+  <string name="portrait_bokeh_first_tips">"Use Portrait mode to blur
+the background on your photos"</string>
+  <string name="portrait_bokeh_text">Portrait mode</string>
+  <string name="portrait_bokeh_tips">Place subject within 1.5 meters</string>
   <string name="portrait_mode_depth_effect_success_hint">Depth effect</string>
   <string name="portrait_mode_lowlight_hint">"It's too dark now"</string>
-  <string name="portrait_mode_too_close_hint">Move farther from the object</string>
-  <string name="portrait_mode_too_far_hint">Place object within 2 meters</string>
+  <string name="portrait_mode_too_close_hint">Move farther from the subject</string>
+  <string name="portrait_mode_too_far_hint">Place subject within 2 meters</string>
   <string name="portrait_mode_use_hint">"Portrait mode blurs the background
 and brings out the people in the front."</string>
   <string name="portrait_mode_use_hint_for_bokeh">"Try Portrait mode.
@@ -639,9 +643,9 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
-  <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720P videos with 240FPS</string>
-  <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080P</string>
-  <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720P</string>
+  <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720p videos with 240fps</string>
+  <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
+  <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
   <string name="pref_priority_storage_title">Save to SD card</string>
   <string name="pref_qc_focus_position_title">F</string>
   <string name="pref_qc_focus_position_value_default">0</string>
@@ -677,12 +681,12 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_video_hfr_entryvalue_default">5:120</string>
   <string name="pref_video_hfr_title">Video HFR</string>
   <string name="pref_video_quality_default">6</string>
-  <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
-  <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
-  <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
+  <string name="pref_video_quality_entry_1080p">FHD 1080p, 30fps</string>
+  <string name="pref_video_quality_entry_1080p_60fps">FHD 1080p, 60fps</string>
+  <string name="pref_video_quality_entry_480p">SD 480p, 30fps</string>
   <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
   <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
-  <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
+  <string name="pref_video_quality_entry_720p">HD 720p, 30fps</string>
   <string name="pref_video_quality_entry_fwvga">FWVGA</string>
   <string name="pref_video_quality_entry_value_1080p_60fps">6,60</string>
   <string name="pref_video_quality_entry_value_4kuhd">8</string>
