@@ -4,6 +4,11 @@
         <item>Boy</item>
         <item>Girl</item>
     </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Move</item>
+        <item>Copy</item>
+        <item>@string/cancel</item>
+    </string-array>
     <string-array name="owner_relation">
         <item>Father</item>
         <item>Mother</item>

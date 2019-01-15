@@ -446,7 +446,7 @@ Free up at least %s."</string>
   <string name="trans_disconnected_tips_title">Remote device disconnected</string>
   <string name="trans_failed_details_page_title">Unsuccessful transfers</string>
   <string name="trans_generate_qr_code_failed">"Couldn't create QR code"</string>
-  <string name="trans_generate_qrcode_failed">"Couldn't generate QR code. Try again."</string>
+  <string name="trans_generate_qrcode_failed">"Couldn't generate QR code. Close other apps and try again."</string>
   <string name="trans_generating_qrcode">Generating QR code…</string>
   <string name="trans_install_guide_button_start">Start</string>
   <string name="trans_install_guide_page_title">Install Mi Mover on your old phone</string>
