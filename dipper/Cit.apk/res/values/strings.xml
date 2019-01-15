@@ -486,6 +486,8 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_stop_calibration">Stop calibrating</string>
   <string name="cit_tfcard_support_summary">Check if TFCard is supported on this device</string>
   <string name="cit_tfcard_support_title">Support TFCard</string>
+  <string name="cit_tof_sensor_check_summary">Values for TOF should appear below</string>
+  <string name="cit_tof_sensor_check_title">TofSensor</string>
   <string name="cit_tool">Additional tools</string>
   <string name="cit_tool_asdiv_ant_pos_setting">set ant position</string>
   <string name="cit_tool_asdiv_get_result_band_title">Current ant band</string>
