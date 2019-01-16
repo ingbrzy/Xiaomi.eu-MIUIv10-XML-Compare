@@ -1007,6 +1007,9 @@ Apps:
 To improve device experience, apps and services can still scan for nearby devices at any time, even when Bluetooth is off. This can be used, for example, to improve location-based features and services. you can change this in "&lt;annotation id="link"&gt;scanning settings&lt;/annotation&gt;.</string>
   <string name="bluetooth_search_for_devices">Refresh</string>
   <string name="bluetooth_searching_for_devices">Searching…</string>
+  <string name="bluetooth_select_a2dp_codec_aptxadaptive_mode">Bluetooth Audio aptX Adaptive Mode</string>
+  <string name="bluetooth_select_a2dp_codec_aptxadaptive_mode_dialog_title">"Trigger Bluetooth Audio
+aptX-Adaptive: Codec Mode"</string>
   <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bluetooth Audio Bits Per Sample</string>
   <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">"Trigger Bluetooth Audio Codec
 Selection: Bits Per Sample"</string>

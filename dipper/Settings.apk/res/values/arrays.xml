@@ -420,6 +420,18 @@
         <item>5</item>
         <item>4</item>
     </string-array>
+    <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_summaries">
+        <item>High Quality Mode (Default)</item>
+        <item>Low Latency Mode</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_titles">
+        <item>High Quality Mode (Default)</item>
+        <item>Low Latency Mode</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_values">
+        <item>134221824</item>
+        <item>134225920</item>
+    </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
         <item>Use System Selection (Default)</item>
         <item>16 bits/sample</item>
