@@ -9,6 +9,7 @@
   <string name="about">About</string>
   <string name="action_back">Back</string>
   <string name="action_settings">Settings</string>
+  <string name="ad">AD</string>
   <string name="ad_download">Install</string>
   <string name="ad_mark">AD</string>
   <string name="ad_title">People also download these with  %1$s </string>
@@ -64,7 +65,6 @@
   <string name="dialog_btn_ok_disabled_net">Network settings</string>
   <string name="dialog_cannot_resume">"Download interrupted. It can't be resumed."</string>
   <string name="dialog_confirm_delete_checkbox_message">Delete local files as well</string>
-  <string name="dialog_confirm_delete_downloads_message">Delete %d tasks?</string>
   <string name="dialog_confirm_delete_the_download_item_message">Delete these tasks</string>
   <string name="dialog_content_limit0">Restrict downloads</string>
   <string name="dialog_content_limit_max">Unlimited</string>
@@ -100,7 +100,6 @@
   <string name="download_filesize_unknown">Unknown</string>
   <string name="download_from">Source:</string>
   <string name="download_in_process">Downloading</string>
-  <string name="download_info_count_deleted_tasks">%s downloads removed</string>
   <string name="download_info_start_deleted_tasks">Delete downloads</string>
   <string name="download_list_get_free_vip">Xunlei trial</string>
   <string name="download_list_get_hightspeed_flow_auto_open">Xunlei download acceleration is on</string>
@@ -377,9 +376,7 @@ across all your devices with Xunlei"</string>
   <string name="sniff_no_result_text">No results found</string>
   <string name="sniff_result_empty_prompt">Web search results</string>
   <string name="sniff_result_num_prefix">Found</string>
-  <string name="sniff_result_num_video_suffix">items</string>
   <string name="sniff_result_num_website_suffix">websites</string>
-  <string name="sniff_result_website_intro">Total &lt;font color=\"#6699ff\"&gt;%1$d&lt;/font&gt; items | Source: %2$s</string>
   <string name="sniff_search_assoicate_sizeinfo">Size: %1$s</string>
   <string name="sniff_search_install">Install</string>
   <string name="sniff_shortcut_cloudconfig_btn">Got it</string>

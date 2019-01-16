@@ -23,6 +23,10 @@
         <item>Clear</item>
         <item>Clear and notify</item>
     </string-array>
+    <string-array name="wechat_sort">
+        <item>Date</item>
+        <item>Size</item>
+    </string-array>
     <string-array name="hide_installed_packages">
         <item>com.miui.klo.bugreport</item>
         <item>com.mfashiongallery.emag</item>

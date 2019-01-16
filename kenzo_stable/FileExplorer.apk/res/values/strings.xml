@@ -220,6 +220,8 @@
   <string name="extended_storage_file_can_not_open">"Can't open file. Copy the file to internal storage."</string>
   <string name="extract">Extract</string>
   <string name="fail_to_create_folder_unknown">"Can't create folder"</string>
+  <string name="failed_not_access_sd_card">Allow access to SD card first</string>
+  <string name="failed_obtain_permissions">"Couldn't get permissions"</string>
   <string name="favorite_photo">Photos</string>
   <string name="favorite_ringtone">Ringtones</string>
   <string name="favorite_screen_cap">Screenshots</string>
@@ -405,6 +407,7 @@
   <string name="no_wifi">No network detected</string>
   <string name="no_wifi_hint">No connection</string>
   <string name="not_installed_documentsui">DocumentsUI not installed</string>
+  <string name="not_support_documentui">"DocumentUI isn't supported on this device"</string>
   <string name="notif_server_starting">Starting FTP server…</string>
   <string name="notif_title">FTP server is running</string>
   <string name="notification_dialog_confirm">OK</string>
@@ -535,6 +538,7 @@
   <string name="rename_alert">"If you change this file's extension, you may not be able to open it."</string>
   <string name="rename_alert2">The file will be hidden after you change its extension.</string>
   <string name="rename_failed">"Can't rename %1$s"</string>
+  <string name="rename_input_null">Enter new filename</string>
   <string name="repair_done">Restored</string>
   <string name="repair_error">"Couldn't restore"</string>
   <string name="repair_file">Restore encrypted files</string>
@@ -545,6 +549,8 @@
   <string name="report_politics">Political incorrectness</string>
   <string name="report_porn">Pornography</string>
   <string name="report_violence">Violence</string>
+  <string name="request_document_permission">To manage files on your SD card, give File Manager the required permissions.</string>
+  <string name="request_document_permission_title">Permissions required</string>
   <string name="request_timeout">Network request timed out</string>
   <string name="reset_password">Change password</string>
   <string name="restoring">Restoring…</string>

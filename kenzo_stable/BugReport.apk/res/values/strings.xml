@@ -16,6 +16,33 @@
   <string name="bugreport_dump_start_notification_title">Creating bug report…</string>
   <string name="bugreport_tool_log_dumping_desc">Takes about a minute</string>
   <string name="bugreport_tool_log_dumping_title">Creating bug report</string>
+  <string name="catch_full_log_action_cancel">Cancel</string>
+  <string name="catch_full_log_action_complete">Finish and upload</string>
+  <string name="catch_full_log_action_start">Generate log</string>
+  <string name="catch_full_log_add_original_photo">Add original image or short video</string>
+  <string name="catch_full_log_add_photo">Add photo</string>
+  <string name="catch_full_log_add_photo_dialog_content">"If the issue you're reporting is related to camera's image quality, add an original sample photo (uncropped) to help us locate the issue. Add photo now?"</string>
+  <string name="catch_full_log_dialog_confirm_text">Go to Home screen</string>
+  <string name="catch_full_log_dialog_content">"MIUI is generating a log. This might affect the overall performance of your device. If you can't reproduce the issue you want to report, go back to logs and tap \"Cancel\"."</string>
+  <string name="catch_full_log_dump_hprof_failed">"Couldn't generate lagging log"</string>
+  <string name="catch_full_log_item_content_catch_direct">"Steps:
+1. Go back to the feature you want to report and reproduce it.
+2. Come back to this page and tap \"Finish and upload\"."</string>
+  <string name="catch_full_log_item_content_need_open">"Steps:
+1. Tap \"Generate log\".
+2. Go back to the feature you want to report and reproduce it.
+3. Come back to this page and tap \"Finish and upload\"."</string>
+  <string name="catch_full_log_item_title_audio">Audio, sound recording, and call audio</string>
+  <string name="catch_full_log_item_title_bt">Bluetooth</string>
+  <string name="catch_full_log_item_title_dump_heap">Lagging</string>
+  <string name="catch_full_log_item_title_gps">Location services</string>
+  <string name="catch_full_log_item_title_sensor">Sensors</string>
+  <string name="catch_full_log_item_title_signal">Phone, signal, and mobile networks</string>
+  <string name="catch_full_log_item_title_wifi">WLAN and Mi Drop</string>
+  <string name="catch_full_log_notification_content">Tap to go back to logs</string>
+  <string name="catch_full_log_notification_title">Generating log…</string>
+  <string name="catch_full_log_start_dump_hprof">Generate lagging log</string>
+  <string name="catch_full_log_submit_directly">Submit</string>
   <string name="close_feedback_main">Hide</string>
   <string name="cta_cancel">Cancel</string>
   <string name="cta_confirm">OK</string>
@@ -81,7 +108,7 @@
   <string name="feedback_report_remind_login_desc">Sign in with your Mi Account so that our engineers could contact you.</string>
   <string name="feedback_report_remind_login_desc2">"You can also view your report's progress in \"My reports\"."</string>
   <string name="feedback_retest_label">Steps to reproduce</string>
-  <string name="feedback_select_images">Add images</string>
+  <string name="feedback_select_images">Add an image or short video</string>
   <string name="feedback_select_modem_log">Add modem logs</string>
   <string name="feedback_select_modem_log_not_select_desc">"Haven't selected \"Add modem logs\""</string>
   <string name="feedback_select_modem_log_select_desc">Selected \"Add modem logs\"</string>
@@ -270,8 +297,8 @@
   <string name="related_question_answer_details">Related issue</string>
   <string name="reply">Reply</string>
   <string name="reply_failed">"Couldn't reply"</string>
-  <string name="reply_option_log_hint">可选</string>
-  <string name="reply_select_log_hint">选择日志文件</string>
+  <string name="reply_option_log_hint">Optional</string>
+  <string name="reply_select_log_hint">Select log</string>
   <string name="reply_successful">Replied successfully</string>
   <string name="report_miui">Report bug</string>
   <string name="request_empty_data">No data</string>
@@ -298,12 +325,16 @@
   <string name="tab_title_preferences">Settings</string>
   <string name="tab_title_report">Feedback</string>
   <string name="title_answer_feedback_main">We found answers!</string>
+  <string name="title_catch_full_log">Logs</string>
   <string name="title_customer_service">Customer service</string>
+  <string name="title_first_aid">First aid</string>
   <string name="title_frequent_question_feedback_main">FAQ</string>
   <string name="title_mi_family">Mi Homes nearby</string>
   <string name="title_nonsystem_app">Other apps</string>
   <string name="title_same_question_feedback_main">Similar issues in the MIUI forum</string>
   <string name="title_system_app">MIUI apps</string>
+  <string name="toast_catch_full_log_catching">You can only generate one log at a time.</string>
+  <string name="toast_catch_full_log_open_failed">"Couldn't start recording log."</string>
   <string name="toast_description_required">You need to write a description</string>
   <string name="toast_feedback_collect_store">Collecting logs…</string>
   <string name="toast_feedback_network_unavailable">"Can't connect to the network"</string>
@@ -314,7 +345,7 @@
   <string name="toast_fill_brackets">Your report is missing some info</string>
   <string name="toast_loading_app_id">Getting info…</string>
   <string name="toast_log_not_exists">"The required log was deleted or doesn't exist"</string>
-  <string name="toast_log_too_large">"Can't upload. The file is too big."</string>
+  <string name="toast_log_too_large">"Can't upload. The log is too big."</string>
   <string name="toast_module_required">Select item</string>
   <string name="toast_network_unavailable">"Couldn't send. Can't connect to the network."</string>
   <string name="toast_pending_log_collection">Still getting logs…</string>
@@ -324,7 +355,7 @@
   <string name="toast_report_copied_to_clipboard">Report copied to clipboard</string>
   <string name="toast_report_sent_failed">"Can't send report"</string>
   <string name="toast_report_sent_succeed">Report has been sent</string>
-  <string name="toast_screenshot_too_large">"Can't upload files bigger than 10MB."</string>
+  <string name="toast_screenshot_too_large">"Can't upload images or videos bigger than 10MB."</string>
   <string name="toast_third_packagename_required">Enter app name</string>
   <string name="toast_title_required">Describe your issue</string>
   <string name="topic_author">1#</string>
