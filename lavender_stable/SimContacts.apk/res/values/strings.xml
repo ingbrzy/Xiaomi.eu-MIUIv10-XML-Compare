@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="account_phone">PHONE</string>
+  <string name="account_sim">SIM Card</string>
+  <string name="app_name">SimContacts</string>
+</resources>
