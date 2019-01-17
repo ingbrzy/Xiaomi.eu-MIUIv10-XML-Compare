@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">Toque para obter informações do clima</string>
     <string name="date_format">EEEE, d \'de\' MMMM</string>
     <string name="today">Hoje</string>
     <string name="tomorrow">Amanhã</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">હવામાનની માહિતી મેળવવા માટે ટૅપ કરો</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">આજે</string>
     <string name="tomorrow">આવતી કાલે</string>
