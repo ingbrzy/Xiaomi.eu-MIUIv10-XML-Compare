@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">আবহাওয়া তথ্য পেতে ট্যাপ করুন</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">আজ</string>
     <string name="tomorrow">আগামীকাল</string>
