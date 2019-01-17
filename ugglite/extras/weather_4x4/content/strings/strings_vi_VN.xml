@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<string name="weather_null">Chạm để lấy thông tin thời tiết</string>
     <string name="date_format">EEE, d MMM</string>
     <string name="today">Hôm nay</string>
     <string name="tomorrow">Ngày mai</string>
