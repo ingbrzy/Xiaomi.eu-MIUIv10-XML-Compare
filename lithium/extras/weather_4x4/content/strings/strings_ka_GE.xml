@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">შეეხეთ ამინდის შესახებ ინფორმაციის სანახავად</string>
     <string name="date_format">EEEE, MMMM d</string>
     <string name="today">დღეს</string>
     <string name="tomorrow">ხვალ</string>
