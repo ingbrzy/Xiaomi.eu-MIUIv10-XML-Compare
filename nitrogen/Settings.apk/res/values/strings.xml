@@ -1007,6 +1007,9 @@ Apps:
 To improve device experience, apps and services can still scan for nearby devices at any time, even when Bluetooth is off. This can be used, for example, to improve location-based features and services. you can change this in "&lt;annotation id="link"&gt;scanning settings&lt;/annotation&gt;.</string>
   <string name="bluetooth_search_for_devices">Refresh</string>
   <string name="bluetooth_searching_for_devices">Searching…</string>
+  <string name="bluetooth_select_a2dp_codec_aptxadaptive_mode">Bluetooth Audio aptX Adaptive Mode</string>
+  <string name="bluetooth_select_a2dp_codec_aptxadaptive_mode_dialog_title">"Trigger Bluetooth Audio
+aptX-Adaptive: Codec Mode"</string>
   <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bluetooth Audio Bits Per Sample</string>
   <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">"Trigger Bluetooth Audio Codec
 Selection: Bits Per Sample"</string>
@@ -2704,6 +2707,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_double_tap_to_sleep_title">Double tap to sleep</string>
   <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
