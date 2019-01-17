@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">Πατήστε για να λάβετε πληροφορίες σχετικά με τον καιρό</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">Σήμερα</string>
     <string name="tomorrow">Αύριο</string>
