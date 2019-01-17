@@ -1869,6 +1869,7 @@ For more details, contact your organization's admin."</string>
   <string name="eq_preset_hint">Effect name</string>
   <string name="eq_preset_rename">Rename</string>
   <string name="eq_preset_select">Choose a preset</string>
+  <string name="eq_return">Return</string>
   <string name="eq_rock">Rock</string>
   <string name="equalizer">Equalizer</string>
   <string name="erase_application">Erase apps</string>
@@ -2178,6 +2179,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
   <string name="gxzw_dialog_ok">Got it</string>
   <string name="gxzw_dialog_title">About in-screen fingerprint sensor</string>
+  <string name="gxzw_quick_open_title"/>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -2383,6 +2385,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_double_tap_to_sleep_title">Double tap to sleep</string>
   <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
@@ -3424,7 +3427,11 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="page_layout_8">Mi Life</string>
   <string name="page_layout_9">Themes</string>
   <string name="page_layout_confirm_message">Your device needs to reboot to apply these changes. This takes about 1 minute.</string>
+  <string name="page_layout_confirm_message_enlarge">Text, images, and icons will be enlarged. Some icons might change their places.</string>
+  <string name="page_layout_confirm_message_narrow">Text, images, and icons will become smaller. Some icons might change their places.</string>
   <string name="page_layout_confirm_title">Change display settings</string>
+  <string name="page_layout_confirm_title_enlarge">Bigger items</string>
+  <string name="page_layout_confirm_title_narrow">Smaller items</string>
   <string name="page_layout_godzilla_title">XXL</string>
   <string name="page_layout_huge_title">XL</string>
   <string name="page_layout_large_title">L</string>
