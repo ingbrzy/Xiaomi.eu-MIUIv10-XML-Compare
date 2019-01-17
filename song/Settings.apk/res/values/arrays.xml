@@ -2989,60 +2989,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Files</item>
         <item>Notes</item>
     </string-array>
-    <string-array name="region_global_support_face_sensetime">
-        <item>IN</item>
-        <item>ID</item>
-        <item>HK</item>
-        <item>TW</item>
-        <item>SG</item>
-        <item>VN</item>
-        <item>MY</item>
-    </string-array>
-    <string-array name="device_support_face">
-        <item>wayne</item>
-        <item>clover</item>
-        <item>dipper</item>
-        <item>ursa</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>gemini</item>
-        <item>platina</item>
-        <item>capricorn</item>
-        <item>equuleus</item>
-        <item>natrium</item>
-        <item>vince</item>
-        <item>perseus</item>
-        <item>lavender</item>
-        <item>lotus</item>
-        <item>onc</item>
-    </string-array>
-    <string-array name="device_global_support_face_sensetime">
-        <item>dipper</item>
-        <item>beryllium</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>nitrogen</item>
-        <item>platina</item>
-        <item>vince</item>
-        <item>tulip</item>
-        <item>sakura_india</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-        <item>onc</item>
-        <item>lavender</item>
-    </string-array>
-    <string-array name="device_use_face_service">
-        <item>jason</item>
-        <item>polaris</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>whyred</item>
-        <item>ysl</item>
-        <item>sakura</item>
-        <item>sirius</item>
-        <item>cepheus</item>
-        <item>andromeda</item>
-    </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>Wake screen</item>
         <item>Show animation</item>

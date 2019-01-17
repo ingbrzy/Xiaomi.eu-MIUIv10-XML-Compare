@@ -1071,89 +1071,6 @@
         <item>US</item>
         <item>TR</item>
     </string-array>
-    <integer-array name="config_input_face_unlock">
-        <item>-8</item>
-        <item>8</item>
-        <item>-13</item>
-        <item>13</item>
-    </integer-array>
-    <string-array name="region_global_support_face_sensetime">
-        <item>IN</item>
-        <item>ID</item>
-        <item>HK</item>
-        <item>TW</item>
-        <item>SG</item>
-        <item>VN</item>
-        <item>MY</item>
-    </string-array>
-    <string-array name="device_support_face">
-        <item>wayne</item>
-        <item>clover</item>
-        <item>dipper</item>
-        <item>ursa</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>gemini</item>
-        <item>platina</item>
-        <item>capricorn</item>
-        <item>equuleus</item>
-        <item>natrium</item>
-        <item>vince</item>
-        <item>perseus</item>
-        <item>lavender</item>
-        <item>lotus</item>
-        <item>onc</item>
-    </string-array>
-    <string-array name="device_global_support_face_sensetime">
-        <item>dipper</item>
-        <item>beryllium</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>nitrogen</item>
-        <item>platina</item>
-        <item>vince</item>
-        <item>tulip</item>
-        <item>sakura_india</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-        <item>onc</item>
-        <item>lavender</item>
-    </string-array>
-    <string-array name="device_use_cameraone">
-        <item>wayne</item>
-        <item>clover</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>gemini</item>
-        <item>platina</item>
-        <item>capricorn</item>
-        <item>vince</item>
-        <item>tulip</item>
-        <item>natrium</item>
-        <item>sakura_india</item>
-        <item>onc</item>
-        <item>lavender</item>
-        <item>lotus</item>
-    </string-array>
-    <string-array name="device_use_cameratwo">
-        <item>dipper</item>
-        <item>ursa</item>
-        <item>beryllium</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-    </string-array>
-    <string-array name="device_use_face_service">
-        <item>jason</item>
-        <item>polaris</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>whyred</item>
-        <item>ysl</item>
-        <item>sakura</item>
-        <item>sirius</item>
-        <item>cepheus</item>
-        <item>andromeda</item>
-    </string-array>
     <string-array name="device_support_pickup_by_MTK">
         <item>cactus</item>
         <item>cereus</item>
@@ -1196,6 +1113,22 @@
         <item>CT</item>
         <item>SMC HK</item>
     </string-array>
+    <string-array name="data_type_name_default">
+        <item></item>
+        <item>G</item>
+        <item>E</item>
+        <item>3G</item>
+        <item>H</item>
+        <item>H+</item>
+        <item>4G</item>
+        <item>4G+</item>
+    </string-array>
+    <array name="data_type_name_cus_reg_key" />
+    <array name="data_type_name_cus_reg_value" />
+    <array name="data_type_name_mcc_key" />
+    <array name="data_type_name_mcc_value" />
+    <array name="data_type_name_miui_mcc_key" />
+    <array name="data_type_name_miui_mcc_value" />
     <string-array name="usa_mcc">
         <item>310</item>
         <item>311</item>
