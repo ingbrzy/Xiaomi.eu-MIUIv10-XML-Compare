@@ -10,6 +10,8 @@
   <string name="accessibility_beauty_switch_open">Beautify is on</string>
   <string name="accessibility_camera_lighting_close_panel">Closed lighting menu</string>
   <string name="accessibility_camera_lighting_open_panel">Opened lighting menu</string>
+  <string name="accessibility_camera_liveshot_off">动态照片模式已关闭</string>
+  <string name="accessibility_camera_liveshot_on">动态照片模式已开启</string>
   <string name="accessibility_camera_picker">Front and rear camera switch</string>
   <string name="accessibility_camera_picker_finish">Switched cameras successfully</string>
   <string name="accessibility_camera_shutter_finish">Took a photo successfully</string>
@@ -51,6 +53,12 @@
   <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
 and optimizes your photos based on this info"</string>
   <string name="app_name">algoengine</string>
+  <string name="beauty_body">塑型</string>
+  <string name="beauty_body_body">瘦身</string>
+  <string name="beauty_body_head">头部</string>
+  <string name="beauty_body_legged">长腿</string>
+  <string name="beauty_body_reset_tip">美体效果已清除</string>
+  <string name="beauty_body_shoulder">肩部</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_makeup">美妆</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
@@ -70,7 +78,7 @@ and optimizes your photos based on this info"</string>
   <string name="camera_error_title">Camera error</string>
   <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
   <string name="camera_label">Camera</string>
-  <string name="camera_new_slow_motion_quality_default">6</string>
+  <string name="camera_new_slow_motion_quality_default">5</string>
   <string name="camera_setting">Camera</string>
   <string name="camera_settings_label">Camera</string>
   <string name="camera_snap_mode_title">Quick snap mode</string>
@@ -80,6 +88,8 @@ and optimizes your photos based on this info"</string>
   <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
   <string name="capture_back_pressed_hint">Touch again to exit</string>
+  <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
+  <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="color_effect_entry_berry">Berries</string>
   <string name="color_effect_entry_blackwhite">B&amp;W</string>
   <string name="color_effect_entry_cookie">Cookie</string>
@@ -112,6 +122,7 @@ and optimizes your photos based on this info"</string>
   <string name="confirm_restore_message">"Restore Camera's default settings?"</string>
   <string name="confirm_restore_title">Restore default settings</string>
   <string name="dialog_ok">OK</string>
+  <string name="dialog_ok_time">OK (&lt;g id="NUMBER"&gt;%d&lt;/g&gt;s)</string>
   <string name="do_not_remind_me">"Don't show again"</string>
   <string name="dual_camera_lens_covered_toast">The lens is covered.</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
@@ -138,14 +149,14 @@ and optimizes your photos based on this info"</string>
   <string name="eye_light_comic">Comic eye light</string>
   <string name="eye_light_crescent">Crescent eye light</string>
   <string name="eye_light_nature">Nature eye light</string>
-  <string name="eye_light_off">Eye light is off</string>
+  <string name="eye_light_off"/>
   <string name="eye_light_rainbow">Rainbow eye light</string>
   <string name="eye_light_star">Star eye light</string>
   <string name="eye_light_window">Window eye light</string>
   <string name="face_age_info">Age: %d</string>
   <string name="face_beauty_close">Off</string>
   <string name="face_score_info">Score: %.1f</string>
-  <string name="fps960_toast">Slow-motion capture will start when the timer reaches the white dot</string>
+  <string name="fps960_toast">Slow-motion capture will start at the last quarter of the recording</string>
   <string name="front_camera_hint_text_place">"Taking selfies will be easier
 if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>
@@ -412,6 +423,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_whitebalance_entry_auto">AUTO</string>
   <string name="pref_camera_whitebalance_title">WB</string>
   <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
+  <string name="pref_camera_zoom_mode_entry_ultra">ULTRA</string>
   <string name="pref_camera_zoom_mode_entry_wide">WIDE</string>
   <string name="pref_camera_zoom_mode_title">LENS</string>
   <string name="pref_camera_zoom_value_title">Zoom</string>
@@ -439,9 +451,9 @@ and brings out the people in the front."</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
-  <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720P videos with 240FPS</string>
-  <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080P</string>
-  <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720P</string>
+  <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720p videos with 240fps</string>
+  <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
+  <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
   <string name="pref_priority_storage_title">Save to SD card</string>
   <string name="pref_qc_focus_position_title">F</string>
   <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
@@ -468,12 +480,12 @@ and brings out the people in the front."</string>
   <string name="pref_video_hfr_entryvalue_default">1920x1080:120</string>
   <string name="pref_video_hfr_title">Video HFR</string>
   <string name="pref_video_quality_default">6</string>
-  <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
-  <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
-  <string name="pref_video_quality_entry_480p">SD 480P</string>
+  <string name="pref_video_quality_entry_1080p">FHD 1080p, 30fps</string>
+  <string name="pref_video_quality_entry_1080p_60fps">FHD 1080p, 60fps</string>
+  <string name="pref_video_quality_entry_480p">SD 480p</string>
   <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
   <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
-  <string name="pref_video_quality_entry_720p">HD 720P</string>
+  <string name="pref_video_quality_entry_720p">HD 720p</string>
   <string name="pref_video_quality_entry_value_1080p_60fps">6,60</string>
   <string name="pref_video_quality_entry_value_4kuhd">8</string>
   <string name="pref_video_quality_entry_value_4kuhd_60fps">8,60</string>
@@ -510,6 +522,7 @@ and brings out the people in the front."</string>
   <string name="start_capture">OK</string>
   <string name="sticker_tab1">Cute</string>
   <string name="sticker_tab2">Funny</string>
+  <string name="super_night_toast">Taking a photo, please hold your phone</string>
   <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
   <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
   <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
@@ -517,6 +530,10 @@ and brings out the people in the front."</string>
   <string name="toast_saving">Saving photos…</string>
   <string name="ubi_focus_capture_fail">"Couldn't take photo"</string>
   <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
+  <string name="ultra_wide_close_tip">超广角模式已关闭</string>
+  <string name="ultra_wide_mode">超广角</string>
+  <string name="ultra_wide_open_tip">超广角模式</string>
+  <string name="ultra_wide_recommend_tip_hint">建议开启超广角模式</string>
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
   <string name="user_agreement4">Privacy Policy</string>

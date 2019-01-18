@@ -16,7 +16,7 @@
     </string-array>
     <string-array name="agps_network_entries">
         <item>Home network</item>
-        <item>All network</item>
+        <item>All networks</item>
     </string-array>
     <string-array name="agps_network_values">
         <item>0</item>
@@ -39,6 +39,16 @@
     <string-array name="agps_si_mode_values">
         <item>0</item>
         <item>1</item>
+    </string-array>
+    <string-array name="ai_key_item_name">
+        <item>Talk to Google Assistant</item>
+        <item>Open Google search</item>
+        <item>Open rear camera</item>
+        <item>Open front camera</item>
+        <item>Open previous app</item>
+        <item>Turn on flashlight</item>
+        <item>Turn on Reading mode</item>
+        <item>None</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Every day</item>
@@ -1561,6 +1571,8 @@
         <item>sakura_india</item>
         <item>equuleus</item>
         <item>perseus</item>
+        <item>onc</item>
+        <item>lavender</item>
     </string-array>
     <string-array name="device_support_face">
         <item>jason</item>
@@ -1585,20 +1597,14 @@
         <item>natrium</item>
         <item>vince</item>
         <item>perseus</item>
+        <item>lavender</item>
+        <item>lotus</item>
+        <item>onc</item>
     </string-array>
-    <string-array name="device_support_new_pickup_by_xiaomi">
-        <item>jason</item>
-        <item>nitrogen</item>
-        <item>platina</item>
-    </string-array>
-    <string-array name="device_support_pickup_by_xiaomi">
-        <item>polaris</item>
-        <item>dipper</item>
-        <item>sirius</item>
-        <item>ursa</item>
-        <item>beryllium</item>
-        <item>perseus</item>
-        <item>equuleus</item>
+    <string-array name="device_support_pickup_by_MTK">
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>lotus</item>
     </string-array>
     <string-array name="dirac_equalizer_preset_names">
         <item>@string/eq_flat</item>
@@ -1785,6 +1791,28 @@
         <item>key_combination_power_menu</item>
         <item>key_combination_power_back</item>
         <item>key_none</item>
+    </string-array>
+    <string-array name="key_slider_voice_choice">
+        <item>slide_keji_open.ogg</item>
+        <item>slide_keji_close.ogg</item>
+        <item>slide_jianghu_open.ogg</item>
+        <item>slide_jianghu_close.ogg</item>
+        <item>slide_jiguan_open.ogg</item>
+        <item>slide_jiguan_close.ogg</item>
+        <item>slide_lingdong_open.ogg</item>
+        <item>slide_lingdong_close.ogg</item>
+        <item>slide_zippo_open.ogg</item>
+        <item>slide_zippo_close.ogg</item>
+    </string-array>
+    <string-array name="keyguard_notification_status_entries">
+        <item>Wake screen</item>
+        <item>Show animation</item>
+        <item>"Don't wake screen"</item>
+    </string-array>
+    <string-array name="keyguard_notification_status_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
     </string-array>
     <string-array name="led_color_entries">
         <item>Blue</item>
@@ -2032,7 +2060,7 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
-        <item>Reinstall MiPhoneManager.</item>
+        <item>Reinstall Mi PC Suite</item>
     </string-array>
     <string-array name="mvno_type_entries">
         <item>None</item>
@@ -2556,6 +2584,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>NL</item>
         <item>UA</item>
         <item>SE</item>
+        <item>CZ</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
@@ -2614,13 +2643,19 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Standard</item>
     </string-array>
     <integer-array name="screen_resolution">
-        <item>3686400</item>
-        <item>2073600</item>
+        <item>1440</item>
+        <item>1080</item>
+        <item>720</item>
     </integer-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
         <item>@string/screen_resolution_high_format</item>
         <item>@string/screen_resolution_normal_format</item>
+    </string-array>
+    <string-array name="screen_resolution_text">
+        <item>2K</item>
+        <item>1080p</item>
+        <item>720p</item>
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Brilliant</item>
@@ -2837,6 +2872,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Settings</item>
     </string-array>
     <string-array name="status_bar_settings_notification_shade_shortcut_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="status_bar_settings_notification_style_entries">
+        <item>MIUI</item>
+        <item>Android</item>
+    </string-array>
+    <string-array name="status_bar_settings_notification_style_values">
         <item>0</item>
         <item>1</item>
     </string-array>
@@ -3351,4 +3394,4 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>zen_mode_from_starred</item>
         <item>zen_mode_from_none</item>
     </string-array>
-<string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array><string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array></resources>
+<string-array name="status_bar_settings_qs_layout_entries"><item>Default</item><item>Compact</item></string-array><string-array name="status_bar_settings_qs_layout_values"><item>0</item><item>1</item></string-array><string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array><string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array><string-array name="aod_clock_style_entries"><item>Horizontal</item><item>Vertical</item><item>Inline</item></string-array><string-array name="aod_clock_style_values"><item>0</item><item>1</item><item>2</item></string-array></resources>
