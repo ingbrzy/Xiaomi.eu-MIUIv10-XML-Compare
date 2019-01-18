@@ -1,5 +1,6 @@
 <resources>
-    <string name="weather_type_null">'Sem dados'</string>
+    <string name="weather_null">Toque para obter informação do tempo</string>
+    <string name="weather_location_null">Sem localização</string>
     <string name="weather_type_0">Céu limpo</string>
     <string name="weather_type_1">Céu nublado</string>
     <string name="weather_type_2">Céu muito nublado</string>
