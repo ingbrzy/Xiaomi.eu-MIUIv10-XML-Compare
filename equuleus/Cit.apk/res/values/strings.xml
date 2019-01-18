@@ -486,6 +486,8 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_stop_calibration">Stop calibrating</string>
   <string name="cit_tfcard_support_summary">Check if TFCard is supported on this device</string>
   <string name="cit_tfcard_support_title">Support TFCard</string>
+  <string name="cit_tof_sensor_check_summary">Values for TOF should appear below</string>
+  <string name="cit_tof_sensor_check_title">TofSensor</string>
   <string name="cit_tool">Additional tools</string>
   <string name="cit_tool_asdiv_ant_pos_setting">set ant position</string>
   <string name="cit_tool_asdiv_get_result_band_title">Current ant band</string>
@@ -739,6 +741,7 @@ test fail!"</string>
   <string name="download_fw_cfg_hint">注意：请将固件存放于/sdcard/fw目录中，配置文件存放于/sdcard/cfg目录中</string>
   <string name="download_fw_cfg_test_title">固件配置下载</string>
   <string name="download_fw_test_title">固件下载</string>
+  <string name="dsi_sar_on_off_tips">Dsi Sar On/Off Switch</string>
   <string name="dump_base_frame">Dump基帧数据</string>
   <string name="dump_data">Dump数据</string>
   <string name="dump_memory_data_timeout">dump内存数据超时</string>
@@ -1078,6 +1081,9 @@ Click the Push Camera Button to see if the camera comes in"</string>
   <string name="reboot_prompt">重启提示</string>
   <string name="reboot_prompt_detail">重启手机之后内存测试正常运行！</string>
   <string name="reboot_times">Reboot Times:</string>
+  <string name="receiver_off">Receiver Off</string>
+  <string name="receiver_on">Receiver On</string>
+  <string name="receiver_on_off_tips">Receiver On/Off Switch</string>
   <string name="refresh_number_of_keys">refresh number of keys</string>
   <string name="removeFingerprint">Remove Fingerprint</string>
   <string name="remove_headset_and_starttest">Please remove headset and press start to test</string>
@@ -1087,6 +1093,9 @@ Click the Push Camera Button to see if the camera comes in"</string>
   <string name="sample_data">sample data</string>
   <string name="sample_hint">extract %1$s samples for one finger</string>
   <string name="sample_progress_hint">wait for extracting sample datas</string>
+  <string name="sar_authentation_test_title">Sar authentation test</string>
+  <string name="sar_off">Sar Off</string>
+  <string name="sar_on">Sar On</string>
   <string name="sar_sensor_calibrate">Start Calibrate</string>
   <string name="sar_sensor_calibrate_fail">Sar Sensor calibrate fail</string>
   <string name="sar_sensor_calibrate_success">Sar Sensor calibrate success</string>
@@ -1136,6 +1145,7 @@ After calibrate success, control the fixture close and away from the phone"</str
   <string name="sensor_checking">正在检查指纹模组...</string>
   <string name="sensor_information">Sensor Information</string>
   <string name="sensor_validity_test_fail">模组测试失败或未经过测试！</string>
+  <string name="set_dsi_tips">Set DSI</string>
   <string name="show_log">Show Log</string>
   <string name="singular">最大奇异点梯度和:</string>
   <string name="size_max">最大</string>
