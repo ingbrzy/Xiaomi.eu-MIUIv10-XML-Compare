@@ -50,7 +50,6 @@
   <string name="notif_title_single_downloading">Downloading %1$s</string>
   <string name="notification_download_complete">Download complete.</string>
   <string name="notification_download_failed">Download unsuccessful.</string>
-  <string name="notification_download_failed_more">"Couldn't download %1$d items"</string>
   <string name="notification_download_success_more">%1$d downloaded</string>
   <string name="notification_need_wifi_for_size">Download size requires WLAN.</string>
   <string name="notification_paused_in_background">Paused in background.</string>
