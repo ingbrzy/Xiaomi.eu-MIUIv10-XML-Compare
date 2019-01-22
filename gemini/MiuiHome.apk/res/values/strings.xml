@@ -106,6 +106,7 @@
   <string name="delete_wallpaper_message">Delete %1$d wallpaper?</string>
   <string name="deselect_all">Deselect all</string>
   <string name="disable_wallpaper_scroll">Turn side-scrolling off</string>
+  <string name="double_tap_to_lock_title">Double tap to lock screen</string>
   <string name="download_action">Download</string>
   <string name="drag_multiple_item_name"/>
   <string name="drag_single_item_name"/>
@@ -156,6 +157,7 @@
   <string name="gadget_clock_24_label">Clock 4x2</string>
   <string name="gadget_clock_34_label">Clock 4x3</string>
   <string name="gadget_clock_label">Clock</string>
+  <string name="gadget_dual_clock_label">Dual Clock</string>
   <string name="gadget_error_text">"Can't load widget"</string>
   <string name="gadget_google_search_label">Google Search</string>
   <string name="gadget_load_error">Loading…</string>
@@ -309,6 +311,7 @@
   <string name="sharedUserId"/>
   <string name="show_all">Show all</string>
   <string name="show_mem_info_title">Show memory status</string>
+  <string name="show_recents_recommend_title">Show suggestions</string>
   <string name="sort_by_abc">Sort by name</string>
   <string name="sort_by_frequency">Sort by usage</string>
   <string name="sort_by_not_defined">Auto-sort</string>
