@@ -25,4 +25,6 @@
     <string name="weather_type_22">Krupobitie</string>
     <string name="weather_type_23">Prašno</string>
     <string name="weather_type_24">Mrznúci dážď</string>
+	<string name="weather_null">Načítať dáta</string>
+	<string name="weather_location_null">Žiadna poloha</string>
 </resources>

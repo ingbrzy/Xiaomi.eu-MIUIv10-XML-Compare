@@ -109,7 +109,7 @@
   <string name="choose_stream_quality">Choose streaming quality</string>
   <string name="click_to_shuffle">Tap to shuffle</string>
   <string name="close_music_time">"Time remaining: "</string>
-  <string name="com.crashlytics.android.build_id">ea210d1f-39ad-4134-9c2d-ec9d629dcb3a</string>
+  <string name="com.crashlytics.android.build_id">a68c3f1f-466f-43f5-97b8-f79d90e8a025</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -344,6 +344,7 @@
   <string name="favorite_succeed">Added to favorites</string>
   <string name="favorite_tracks">Favorites</string>
   <string name="favorites">Favorites</string>
+  <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
   <string name="feed_back">Feedback</string>
   <string name="file_not_found">"File doesn't exist"</string>
   <string name="filter_by_duration">By length</string>
@@ -369,6 +370,7 @@
   <string name="format_unsupported_or_corrupted">"This format isn't supported or the file is corrupted"</string>
   <string name="fragment_title_artist_album">Albums</string>
   <string name="gcm_defaultSenderId">948829309969</string>
+  <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
   <string name="google_api_key">AIzaSyDtXevw-xV0_qPieue5APFY-mRmbt3lU8w</string>
   <string name="google_app_id">1:948829309969:android:408e9565fb2b9648</string>
   <string name="google_crash_reporting_api_key">AIzaSyDtXevw-xV0_qPieue5APFY-mRmbt3lU8w</string>
@@ -614,6 +616,7 @@
   <string name="pulluprefreshrecyclerview_loading_finished">Loaded successfully</string>
   <string name="pulluprefreshrecyclerview_loading_running">Loading…</string>
   <string name="queue_is_empty">Playing queue is empty.</string>
+  <string name="ready_to_play">Up next</string>
   <string name="recently_played">Recently played</string>
   <string name="recently_played_songs">Recent</string>
   <string name="recommended_file_size_download_in_mobile">Use %s of mobile data to download this file?</string>
@@ -641,7 +644,7 @@ Be Happy"</string>
   <string name="s6">Allow Ad to create a calendar event?</string>
   <string name="s7">Test Ad</string>
   <string name="save_changes">Save changes</string>
-  <string name="sdk_ver">1.1.0.5</string>
+  <string name="sdk_ver">1.1.4.0</string>
   <string name="search_album_and_lyric">Search album covers and lyrics</string>
   <string name="search_empty">"Couldn't find any results"</string>
   <string name="search_for_album">Album</string>
