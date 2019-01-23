@@ -49,7 +49,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="extreme_power_config_mode_title">Extreme mode</string>
   <string name="extreme_power_settings_title">settings</string>
   <string name="failure">Error</string>
-  <string name="hide_mode_desc">&lt;font color="#000000"&gt;When an app runs in the background, its activities will be monitored to reduce battery usage. This function will get and use user data according to %s&lt;/font&gt;</string>
+  <string name="hide_mode_desc">When an app runs in the background, its activities will be monitored to reduce battery usage. This function will get and use user data according to %s</string>
   <string name="hide_system_app">Hide system apps</string>
   <string name="high_temp_state">Overheating</string>
   <string name="high_temp_state_message">Your device is overheating. Mobile data, WLAN hotspots, GPS, and camera will be restricted.</string>
