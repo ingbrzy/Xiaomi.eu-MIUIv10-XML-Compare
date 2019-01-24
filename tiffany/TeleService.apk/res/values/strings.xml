@@ -1830,6 +1830,16 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
   <string name="volte_switch_title">VoLTE enabled</string>
   <string name="volte_switch_title_ct">VoLTE enabled</string>
   <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with VoLTE network coverage. VoLTE services are provided by the carrier.</string>
+  <string name="vowifi_emergency_notification_channel">WLAN Calling emergency warning</string>
+  <string name="vowifi_emergency_notification_content">Emergency Calls only available in Cellular Coverage.</string>
+  <string name="vowifi_emergency_notification_title">Vodafone Wifi Calling</string>
+  <string name="vowifi_emergency_warning_check">"Don't show again."</string>
+  <string name="vowifi_emergency_warning_message">"Emergency calls are not possible via WLAN Calling.
+
+The device switches automatically to a cellular network(2G/3G) to place an emergency call.
+
+Emergency calls are only possible in areas with cellular coverage."</string>
+  <string name="vowifi_emergency_warning_title">ECC calls via WLAN Calling</string>
   <string name="vpn_settings_not_available">VPN settings are not available for this user</string>
   <string name="vvm_unsupported_message_format">Unsupported message type, call %s to listen.</string>
   <string name="wait_for_debugger">Wait for debugger</string>
@@ -1864,6 +1874,8 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
   <string name="wifi_auth_password_wrong">Password may be incorrect</string>
   <string name="wifi_auto_sel_wapi_cert">Select automatically</string>
   <string name="wifi_call_setting">WLAN calls</string>
+  <string name="wifi_call_setting_vodafone_de">WLAN calling</string>
+  <string name="wifi_call_setting_vodafone_uk">WLAN call</string>
   <string name="wifi_calling">WLAN calling</string>
   <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
   <string name="wifi_calling_settings_title">WLAN calling</string>

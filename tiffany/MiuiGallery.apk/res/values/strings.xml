@@ -88,8 +88,8 @@
   <string name="alert_secret_album_message">Swipe down while in the Albums tab to view hidden album.</string>
   <string name="alert_secret_album_message_lower_case">  swipe down in Albums to view</string>
   <string name="alert_secret_album_title">How to view hidden album</string>
-  <string name="alert_selection_description">AI marks the best photo among similar images with a star.</string>
-  <string name="alert_selection_title">Selected by AI</string>
+  <string name="alert_selection_description">MIUI will analyze similar photos and mark best shots for you.</string>
+  <string name="alert_selection_title">Select best shot</string>
   <string name="all_faces">Photos with this person</string>
   <string name="all_items_synced">All albums have been backed up to Mi Cloud</string>
   <string name="all_video_album_display_name">All videos</string>
@@ -771,8 +771,8 @@
   <string name="download_type_thumbnail">High quality</string>
   <string name="download_type_thumbnail_desc">High quality</string>
   <string name="download_type_title">Download quality</string>
-  <string name="download_without_wifi_msg">"Using mobile data connection to download files will increase your data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
-  <string name="download_without_wifi_title">Data usage warning</string>
+  <string name="download_with_metered_network_msg">Downloading original files may generate additional carrier fees. Download anyway?</string>
+  <string name="download_with_metered_network_title">"You're connected to a paid network"</string>
   <string name="downloading_desc">%1$d/%2$d</string>
   <string name="downloading_dialog_message">You can select the quality of the downloaded images or turn off automatic downloads in the Settings.</string>
   <string name="downloading_title">Downloading photos from Mi Cloud</string>
@@ -1085,6 +1085,9 @@ to personalize Gallery"</string>
   <string name="merge_album_title">Merge with a person</string>
   <string name="messagelist_sender_self">Me</string>
   <string name="micloud_introduce">Back up photos and videos automatically (Mi Account is required)</string>
+  <string name="month_view_tip_button_text">Got it</string>
+  <string name="month_view_tip_sub_title">Pinch the screen to switch to month view</string>
+  <string name="month_view_tip_title">Month view</string>
   <string name="more">More</string>
   <string name="more_album_hint">, etc.</string>
   <string name="more_face">More people who look alike</string>
@@ -1112,8 +1115,8 @@ to personalize Gallery"</string>
   <string name="movie_download_failed_for_notwork">"Couldn't download. Connect to the network and try again."</string>
   <string name="movie_download_sdk_without_wifi_msg">"Looks like your device isn't connected to Wi-Fi. Download the required plug-in (3MB) using mobile data?"</string>
   <string name="movie_download_sdk_without_wifi_title">Download using mobile data</string>
-  <string name="movie_download_without_wifi_msg">"Using mobile data connection to download files will increase your data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
-  <string name="movie_download_without_wifi_title">Data usage warning</string>
+  <string name="movie_download_with_metered_network_msg">Downloading original files may generate additional carrier fees. Download anyway?</string>
+  <string name="movie_download_with_metered_network_title">"You're connected to a paid network"</string>
   <string name="movie_edit">Edit</string>
   <string name="movie_item_name">Clip</string>
   <string name="movie_preview_btn">Preview</string>
@@ -1240,6 +1243,7 @@ to personalize Gallery"</string>
   <string name="photo_editor_crop_rotation_format">%d°</string>
   <string name="photo_editor_doodle">Doodle</string>
   <string name="photo_editor_filter">Filter</string>
+  <string name="photo_editor_font_default">&gt;Mi Lanting (Regular)</string>
   <string name="photo_editor_frame">Frame</string>
   <string name="photo_editor_label">Edit</string>
   <string name="photo_editor_long_crop">Crop</string>
@@ -1297,6 +1301,11 @@ to personalize Gallery"</string>
   <string name="photo_editor_talkback_undo">Undo</string>
   <string name="photo_editor_text">Text</string>
   <string name="photo_editor_transition_image_view">photo_view</string>
+  <string name="photo_font_cancel_download">Cancel</string>
+  <string name="photo_font_download">Download</string>
+  <string name="photo_font_download_failed_for_notwork">"Couldn't download. Connect to the network and try again."</string>
+  <string name="photo_font_download_without_wifi_msg">"Using mobile data connection to download files will increase your data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
+  <string name="photo_font_download_without_wifi_title">Data usage warning</string>
   <string name="photo_movie_menu_loading">@string/photo_print_menu_loading</string>
   <string name="photo_movie_module_failed">@string/error_install_connect_fail</string>
   <string name="photo_movie_module_finish">Loaded Clips successfully</string>
@@ -1537,6 +1546,7 @@ to personalize Gallery"</string>
   <string name="slim_stop">Stop optimizing</string>
   <string name="start_debug">Debug Gallery</string>
   <string name="start_to_use_face_albumset">Sort by people</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="sticker_ad">Leaflets</string>
   <string name="sticker_baibai">Plants</string>
   <string name="sticker_beard">Barbershop</string>
@@ -1564,8 +1574,6 @@ to personalize Gallery"</string>
   <string name="story_cancel_download">Cancel</string>
   <string name="story_download">Download</string>
   <string name="story_download_failed_for_notwork">"Couldn't download. Connect to the network and try again."</string>
-  <string name="story_download_without_wifi_msg">"Using mobile data connection to download files will increase your data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
-  <string name="story_download_without_wifi_title">Data usage warning</string>
   <string name="story_option_menu_delete">Delete story</string>
   <string name="story_option_menu_rename">Rename</string>
   <string name="story_photo_downloading">Downloading…</string>
@@ -1611,6 +1619,8 @@ to personalize Gallery"</string>
   <string name="text_edit_dialog_style_shadow">Shadow</string>
   <string name="text_edit_dialog_style_transparent">Opacity</string>
   <string name="text_edit_sub_menu_text">Bubble</string>
+  <string name="text_tab_bubble">Bubbles</string>
+  <string name="text_tab_watermark">Watermarks</string>
   <string name="things_album_empty_title">Photos can be sorted by objects in them</string>
   <string name="thumbnail_name">thumbnail</string>
   <string name="tip_capture_location">Location:</string>
@@ -1673,8 +1683,8 @@ to personalize Gallery"</string>
   <string name="video_editor_down_load_now">Download</string>
   <string name="video_editor_download">Download</string>
   <string name="video_editor_download_failed_for_notwork">"Couldn't download. Connect to the network and try again."</string>
-  <string name="video_editor_download_without_wifi_msg">"Using mobile data connection to download files will increase your data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
-  <string name="video_editor_download_without_wifi_title">Data usage warning</string>
+  <string name="video_editor_download_with_metered_network_msg">Downloading original files may generate additional carrier fees. Download anyway?</string>
+  <string name="video_editor_download_with_metered_network_title">"You're connected to a paid network"</string>
   <string name="video_editor_encode_video">Encoding video…</string>
   <string name="video_editor_encode_video_error">"Couldn't encode video"</string>
   <string name="video_editor_fatal_error">Unknown error</string>
