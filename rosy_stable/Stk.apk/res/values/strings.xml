@@ -25,6 +25,7 @@
   <string name="sim_type_uim_name">UIM toolkit</string>
   <string name="sim_type_usim_name">USIM toolkit</string>
   <string name="stk_app_state">Application state</string>
+  <string name="stk_channel_name">Mobile service messages</string>
   <string name="stk_dialog_accept">YES</string>
   <string name="stk_dialog_reject">NO</string>
   <string name="stk_dialog_title">SIM toolkit</string>

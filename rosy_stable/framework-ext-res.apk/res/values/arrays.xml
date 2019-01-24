@@ -70,9 +70,12 @@
         <item>com.miui.voiceassist</item>
         <item>com.xiaomi.drivemode</item>
         <item>com.caiharbor.esim</item>
+        <item>com.miui.backup</item>
     </string-array>
     <string-array name="process_camera_boost_protect_list">
         <item>android.process.media</item>
+        <item>com.miui.gallery</item>
+        <item>com.android.systemui:sliderview</item>
     </string-array>
     <item type="array" name="android_config_keyboardTapVibePattern">@android:array/config_keyboardTapVibePattern</item>
     <item type="array" name="android_config_longPressVibePattern">@android:array/config_longPressVibePattern</item>
@@ -138,6 +141,7 @@
         <item>com.kiteguard</item>
         <item>com.xiaomi.discover</item>
         <item>com.orange.phone</item>
+        <item>com.miui.userguide</item>
     </string-array>
     <string-array name="keyguard_whitelist">
         <item>com.google.android.talk</item>
@@ -184,10 +188,12 @@
         <item>com.android.cellbroadcastreceiver</item>
         <item>com.android.htmlviewer</item>
         <item>com.miui.greenguard</item>
+        <item>com.xiaomi.mipicks</item>
         <item>com.kiteguard</item>
         <item>com.xiaomi.discover</item>
         <item>com.orange.phone</item>
         <item>com.android.stk</item>
+        <item>com.miui.userguide</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />
@@ -1362,6 +1368,10 @@
         <item>22210</item>
         <item>26806</item>
         <item>45006</item>
+        <item>45005</item>
+        <item>20810</item>
+        <item>20811</item>
+        <item>20813</item>
     </string-array>
     <array name="config_crossSpaceNotificationPackageNames" />
     <string-array name="config_sysBrightnessFileArray">
@@ -1402,4 +1412,5 @@
         <item>120</item>
         <item>255</item>
     </integer-array>
+    <array name="screen_resolution_supported" />
 </resources>
