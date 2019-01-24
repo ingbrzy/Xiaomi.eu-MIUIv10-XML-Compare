@@ -63,8 +63,8 @@
   <string name="accessibility_ultra_pixel_photography_32mp_on">32MP is on</string>
   <string name="accessibility_ultra_pixel_photography_48mp_off">48MP is off</string>
   <string name="accessibility_ultra_pixel_photography_48mp_on">48MP is on</string>
-  <string name="accessibility_ultra_wide_off">Turned off wide angle mode</string>
-  <string name="accessibility_ultra_wide_on">Turned on wide angle mode</string>
+  <string name="accessibility_ultra_wide_off">Turned off Ultra wide angle mode</string>
+  <string name="accessibility_ultra_wide_on">Turned on Ultra wide angle mode</string>
   <string name="accessibility_video_btn_play">Play video</string>
   <string name="accessibility_video_capture_button">VideoCaptureButton</string>
   <string name="accessibility_video_module_picker">VideoModulePicker</string>
@@ -654,8 +654,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_touchafaec_entry_on">On</string>
   <string name="pref_camera_ubifocus_title">Refocus</string>
   <string name="pref_camera_ultra_wide_ldc_description">Correct distorted objects automatically</string>
-  <string name="pref_camera_ultra_wide_ldc_title">Correct distortion in wide shots</string>
-  <string name="pref_camera_ultra_wide_mode_title">Wide angle mode</string>
+  <string name="pref_camera_ultra_wide_ldc_title">Correct distortion in ultra wide shots</string>
+  <string name="pref_camera_ultra_wide_mode_title">Ultra wide angle mode</string>
   <string name="pref_camera_video_duration_entry_10">10 minutes</string>
   <string name="pref_camera_video_duration_entry_120">No limit</string>
   <string name="pref_camera_video_duration_entry_30">30 minutes</string>
@@ -692,7 +692,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_zoom_mode_entry_high_pixel">LOW LIGHT</string>
   <string name="pref_camera_zoom_mode_entry_standard">REGULAR</string>
   <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
-  <string name="pref_camera_zoom_mode_entry_ultra">Wide angle</string>
+  <string name="pref_camera_zoom_mode_entry_ultra">ULTRA WIDE</string>
   <string name="pref_camera_zoom_mode_entry_wide">WIDE</string>
   <string name="pref_camera_zoom_mode_entryvalue_tele">tele</string>
   <string name="pref_camera_zoom_mode_entryvalue_wide">wide</string>
@@ -859,12 +859,12 @@ Keep the subject sharp while blurring the background."</string>
   <string name="ultra_pixel_photography_48mp_open_tip">48MP</string>
   <string name="ultra_wide_bokeh_close_tip">Full body mode is off</string>
   <string name="ultra_wide_bokeh_open_tip">Full body mode</string>
-  <string name="ultra_wide_close_tip">Wide angle mode is off</string>
-  <string name="ultra_wide_mode">Wide angle</string>
+  <string name="ultra_wide_close_tip">Ultra wide angle mode is off</string>
+  <string name="ultra_wide_mode">Ultra wide angle</string>
   <string name="ultra_wide_mode_use_hint_text">"Use this mode to include more of the scene in your photo.
-Wide angle mode comes to help when you can't move farther from the scene."</string>
-  <string name="ultra_wide_open_tip">Wide angle mode</string>
-  <string name="ultra_wide_recommend_tip_hint">Try wide angle mode</string>
+Ultra wide angle mode comes to help when you can't move farther from the scene."</string>
+  <string name="ultra_wide_open_tip">Ultra wide angle mode</string>
+  <string name="ultra_wide_recommend_tip_hint">Try Ultra wide angle mode</string>
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
   <string name="user_agreement4">Privacy Policy</string>
