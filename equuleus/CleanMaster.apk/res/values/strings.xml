@@ -416,6 +416,8 @@
   <string name="notification_title_of_garbage_cleanup">%s of trash files</string>
   <string name="notify_when">Get a notification when trash size reaches 100MB</string>
   <string name="ok">OK</string>
+  <string name="one_tap_clean_GB">%sG</string>
+  <string name="one_tap_clean_M">%dM</string>
   <string name="onekeyclean_boost_available">%s available</string>
   <string name="onekeyclean_boost_cleaned">Cleared %s</string>
   <string name="onekeyclean_boosted_title">Cleared successfully</string>

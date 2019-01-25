@@ -44,6 +44,10 @@
   <string name="audio_message_mx_offline">"Couldn't download audio. Mi Message is offline or isn't available."</string>
   <string name="audio_playing_seconds">%d\"</string>
   <string name="audio_sim_card_mismatching">No network connection or wrong SIM card is installed. Install the SIM card from which the message was sent and connect to the network.</string>
+  <string name="auto_identify_btn_text_only_smart_messaging">Turn on Smart Messaging</string>
+  <string name="auto_identify_btn_text_when_all_disabled">Identify Sender ID automatically</string>
+  <string name="auto_identify_btn_title">This message is sent from an unknown number.</string>
+  <string name="auto_identify_confirmation">It might take several minutes to activate this feature.</string>
   <string name="back_to_message_list">Back to message list</string>
   <string name="batch_adding_progress_message">Adding…</string>
   <string name="batch_deleting_message_progress_message">Deleting…</string>
