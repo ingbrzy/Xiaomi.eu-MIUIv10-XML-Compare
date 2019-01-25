@@ -310,6 +310,8 @@
   <string name="always_use_accessory">Use by default for this USB accessory</string>
   <string name="always_use_device">Use by default for this USB device</string>
   <string name="animator_duration_scale_title">Animator duration scale</string>
+  <string name="aod_dual_togother">HH:MM</string>
+  <string name="aod_dual_togother_12">hh:mm aa</string>
   <string name="apn_settings_not_available">Access Point Name settings are not available for this user</string>
   <string name="app_info">App info</string>
   <string name="app_label">System UI</string>
@@ -710,6 +712,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_unlock_down">Raise your head</string>
   <string name="face_unlock_identify_error">A recognition error occurred</string>
   <string name="face_unlock_not_found">"Couldn't recognize you"</string>
+  <string name="face_unlock_not_roi">Keep your face inside the frame</string>
   <string name="face_unlock_offset_bottom">Lower your phone a bit</string>
   <string name="face_unlock_offset_left">Move to the right</string>
   <string name="face_unlock_offset_right">Move to the left</string>
@@ -1767,7 +1770,7 @@ Slide down to lock"</string>
   <string name="summary_empty"/>
   <string name="switch_bar_off">Off</string>
   <string name="switch_bar_on">On</string>
-  <string name="switch_system_user">Open First space</string>
+  <string name="switch_system_user">Back to First space</string>
   <string name="symbol_colon">:</string>
   <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
   <string name="system_ui_tuner">System UI Tuner</string>
