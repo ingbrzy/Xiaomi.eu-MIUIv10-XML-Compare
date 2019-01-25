@@ -63,8 +63,8 @@
   <string name="accessibility_ultra_pixel_photography_32mp_on">32MP is on</string>
   <string name="accessibility_ultra_pixel_photography_48mp_off">48MP is off</string>
   <string name="accessibility_ultra_pixel_photography_48mp_on">48MP is on</string>
-  <string name="accessibility_ultra_wide_off">Turned off wide angle mode</string>
-  <string name="accessibility_ultra_wide_on">Turned on wide angle mode</string>
+  <string name="accessibility_ultra_wide_off">Turned off Ultra wide angle mode</string>
+  <string name="accessibility_ultra_wide_on">Turned on Ultra wide angle mode</string>
   <string name="accessibility_video_capture_button">Photo Button for Video Recording</string>
   <string name="accessibility_video_pause_button">pause record</string>
   <string name="accessibility_video_resume_button">continue record</string>
@@ -207,8 +207,8 @@ and optimizes your photos based on this info"</string>
   <string name="front_camera_hint_text_place">"Taking selfies will be easier
 if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>
-  <string name="hand_gesture_open_tip">伸出手掌开始倒计时拍照</string>
-  <string name="hand_gesture_tip">手势拍照</string>
+  <string name="hand_gesture_open_tip">Show your palm to the camera to start timer</string>
+  <string name="hand_gesture_tip">Palm shutter</string>
   <string name="hibernate_hint">Tap the screen to wake Camera</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
@@ -500,8 +500,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_tilt_shift_title">Tilt-shift</string>
   <string name="pref_camera_touchafaec_default">touch-on</string>
   <string name="pref_camera_ultra_wide_ldc_description">Correct distorted objects automatically</string>
-  <string name="pref_camera_ultra_wide_ldc_title">Correct distortion in wide shots</string>
-  <string name="pref_camera_ultra_wide_mode_title">Wide angle mode</string>
+  <string name="pref_camera_ultra_wide_ldc_title">Correct distortion in ultra wide shots</string>
+  <string name="pref_camera_ultra_wide_mode_title">Ultra wide angle mode</string>
   <string name="pref_camera_video_bokeh_off">Video bokeh is closed</string>
   <string name="pref_camera_video_bokeh_on">Video bokeh</string>
   <string name="pref_camera_volumekey_function_default">timer</string>
@@ -519,7 +519,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_whitebalance_entry_auto">AUTO</string>
   <string name="pref_camera_whitebalance_title">WB</string>
   <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
-  <string name="pref_camera_zoom_mode_entry_ultra">Wide angle</string>
+  <string name="pref_camera_zoom_mode_entry_ultra">ULTRA WIDE</string>
   <string name="pref_camera_zoom_mode_entry_wide">WIDE</string>
   <string name="pref_camera_zoom_mode_title">LENS</string>
   <string name="pref_camera_zoom_value_title">Zoom</string>
@@ -639,12 +639,12 @@ and brings out the people in the front."</string>
   <string name="ultra_pixel_photography_48mp_open_tip">48MP</string>
   <string name="ultra_wide_bokeh_close_tip">Full body mode is off</string>
   <string name="ultra_wide_bokeh_open_tip">Full body mode</string>
-  <string name="ultra_wide_close_tip">Wide angle mode is off</string>
-  <string name="ultra_wide_mode">Wide angle</string>
+  <string name="ultra_wide_close_tip">Ultra wide angle mode is off</string>
+  <string name="ultra_wide_mode">Ultra wide angle</string>
   <string name="ultra_wide_mode_use_hint_text">"Use this mode to include more of the scene in your photo.
-Wide angle mode comes to help when you can't move farther from the scene."</string>
-  <string name="ultra_wide_open_tip">Wide angle mode</string>
-  <string name="ultra_wide_recommend_tip_hint">Try wide angle mode</string>
+Ultra wide angle mode comes to help when you can't move farther from the scene."</string>
+  <string name="ultra_wide_open_tip">Ultra wide angle mode</string>
+  <string name="ultra_wide_recommend_tip_hint">Try Ultra wide angle mode</string>
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
   <string name="user_agreement4">Privacy Policy</string>

@@ -418,7 +418,8 @@ Touch the screen to start GPS…"</string>
   <string name="cit_power_check_title">Battery indicator</string>
   <string name="cit_pressure_sensor_check_summary">Value for pressure should appear below</string>
   <string name="cit_pressure_sensor_check_title">Pressure sensor</string>
-  <string name="cit_proximity_data_check_summary">Cover the proximity sensor (located at the top of the phone near the receiver) with your hand, then move your hand away. The value should increase from 0.0 when you move your hand further away from the device.</string>
+  <string name="cit_proximity_data_check_summary">"Cover the proximity sensor (located at the top of the phone near the receiver) with your hand, then move your hand away. The value should increase from 0.0 when you move your hand further away from the device. 
+If it is an ultrasonic proximity sensor, please simulate the action of picking up the phone during the test."</string>
   <string name="cit_proximity_sensor_check_summary">"Cover the proximity sensor (located at the top of the phone near the receiver) with your hand, then move your hand away. The value should increase from 0.0 when you move your hand further away from the device.
 When calibrating, make sure there's nothing between the sensor and your hand (e.g. protective screen cover or gloves)."</string>
   <string name="cit_proximity_sensor_check_title">Proximity sensor</string>
@@ -461,7 +462,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_sd_unmount">Unmount SD card</string>
   <string name="cit_sd_unmount_sucess">SD card unmounted</string>
   <string name="cit_signature_check_label">signature check:</string>
-  <string name="cit_sim_check_summary">Confirm that correct the status and info of the SIM card is displayed below, only two SIM cards simultaneously exist and has correct status can pass</string>
+  <string name="cit_sim_check_summary">Confirm that correct the status and info of the SIM card is displayed below, if has two sim slots, only two SIM cards simultaneously exist and has correct status can pass</string>
   <string name="cit_sim_check_title">SIM card</string>
   <string name="cit_sim_error_unknown">Unknown</string>
   <string name="cit_sim_network_operator">Network service provider:</string>
