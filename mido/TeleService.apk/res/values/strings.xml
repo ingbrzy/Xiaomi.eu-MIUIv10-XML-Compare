@@ -1173,7 +1173,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_gsm_wcdma_summary">Preferred network mode: GSM / WCDMA</string>
   <string name="preferred_network_mode_lte_cdma_evdo_summary">Preferred network mode: CDMA+LTE/EVDO</string>
   <string name="preferred_network_mode_lte_cdma_summary">Preferred network mode: LTE / CDMA</string>
-  <string name="preferred_network_mode_lte_choice">LTE</string>
+  <string name="preferred_network_mode_lte_choice">LTE only</string>
   <string name="preferred_network_mode_lte_gsm_umts_summary">Preferred network mode: LTE / GSM / UMTS</string>
   <string name="preferred_network_mode_lte_gsm_wcdma_summary">Preferred network mode: GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_lte_summary">Preferred network mode: LTE</string>
@@ -1182,7 +1182,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_lte_tdscdma_gsm_wcdma_summary">Preferred network mode: LTE/TDSCDMA/GSM/WCDMA</string>
   <string name="preferred_network_mode_lte_tdscdma_summary">Preferred network mode: LTE / TDSCDMA</string>
   <string name="preferred_network_mode_lte_tdscdma_wcdma_summary">Preferred network mode: LTE/TDSCDMA/WCDMA</string>
-  <string name="preferred_network_mode_lte_wcdma_choice">LTE / WCDMA</string>
+  <string name="preferred_network_mode_lte_wcdma_choice">WCDMA/LTE</string>
   <string name="preferred_network_mode_lte_wcdma_summary">Preferred network mode: LTE / WCDMA</string>
   <string name="preferred_network_mode_summary">Change the network operating mode</string>
   <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
@@ -1653,6 +1653,16 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
   <string name="volte_switch_title">VoLTE enabled</string>
   <string name="volte_switch_title_ct">VoLTE enabled</string>
   <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with VoLTE network coverage. VoLTE services are provided by the carrier.</string>
+  <string name="vowifi_emergency_notification_channel">WLAN Calling emergency warning</string>
+  <string name="vowifi_emergency_notification_content">Emergency Calls only available in Cellular Coverage.</string>
+  <string name="vowifi_emergency_notification_title">Vodafone Wifi Calling</string>
+  <string name="vowifi_emergency_warning_check">"Don't show again."</string>
+  <string name="vowifi_emergency_warning_message">"Emergency calls are not possible via WLAN Calling.
+
+The device switches automatically to a cellular network(2G/3G) to place an emergency call.
+
+Emergency calls are only possible in areas with cellular coverage."</string>
+  <string name="vowifi_emergency_warning_title">ECC calls via WLAN Calling</string>
   <string name="vpn_settings_not_available">VPN settings are not available for this user</string>
   <string name="wait_for_debugger">Wait for debugger</string>
   <string name="wait_for_debugger_summary">Debugged application waits for debugger to attach before executing</string>
@@ -1667,6 +1677,8 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
   <string name="wifi_allow_scan_with_traffic_summary">Allow/Disallow WLAN Roam Scans based on the amount of data traffic present at the interface</string>
   <string name="wifi_auth_password_wrong">Password may be incorrect</string>
   <string name="wifi_call_setting">WLAN calls</string>
+  <string name="wifi_call_setting_vodafone_de">WLAN calling</string>
+  <string name="wifi_call_setting_vodafone_uk">WLAN call</string>
   <string name="wifi_calling">WLAN calling</string>
   <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
   <string name="wifi_connected_no_internet">Connected, no Internet</string>

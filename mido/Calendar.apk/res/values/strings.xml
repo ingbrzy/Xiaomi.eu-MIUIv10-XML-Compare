@@ -114,6 +114,8 @@
   <string name="chinese_youth_day">青年节</string>
   <string name="chongsha">冲煞</string>
   <string name="christmas_day">圣诞节</string>
+  <string name="city_limit_back_icon_tip">返回日历首页</string>
+  <string name="city_limit_set_icon_tip">设置提醒</string>
   <string name="clear_and_bright">清明</string>
   <string name="clear_net_mock_success">Net mock clear success</string>
   <string name="close_alarm">Turn off</string>
@@ -424,6 +426,8 @@
   <string name="local_calendar_display_name">Local calendar</string>
   <string name="local_owner_account_name">Saved to this device</string>
   <string name="login_failed_toast">"Couldn't sign in, refresh and try again"</string>
+  <string name="lottery_blue_ball_tip">蓝色球</string>
+  <string name="lottery_red_ball_tip">红色球</string>
   <string name="lunar_ba">八</string>
   <string name="lunar_chu">初</string>
   <string name="lunar_chu_shi">初十</string>
@@ -510,6 +514,8 @@ Check network settings and try again."</string>
   <string name="no_visiable_calendar_message">You need to add a calendar account. Tap Add account to continue.</string>
   <string name="no_visiable_calendar_select_account">Add account</string>
   <string name="no_visiable_calendar_title">Add account</string>
+  <string name="notification_channel_description"/>
+  <string name="notification_channel_name">Calendar reminders</string>
   <string name="olympic_rank">排名</string>
   <string name="olympic_total">总数</string>
   <string name="olympic_vs">VS</string>
@@ -619,7 +625,9 @@ Check network settings and try again."</string>
   <string name="search_calendar_huangli"/>
   <string name="search_calendar_settings">Calendar;Agenda;Reminder</string>
   <string name="search_calendar_subscribe_group"/>
+  <string name="search_menu_title">Search</string>
   <string name="select_date">Jump to date</string>
+  <string name="select_today_tip">Today</string>
   <string name="setting_about_calendar_version">Calendar version:</string>
   <string name="setting_about_imei">IMEI:</string>
   <string name="setting_about_miui_version">MIUI version:</string>
@@ -735,6 +743,7 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="timezone_label">Time zone</string>
   <string name="today">Today</string>
   <string name="today_at_time_fmt">Today at %s</string>
+  <string name="today_icon_voice_contentdescription">Back to today</string>
   <string name="today_no_events">No events</string>
   <string name="tomorrow">Tomorrow</string>
   <string name="tomorrow_at_time_fmt">Tomorrow at %s</string>
@@ -749,7 +758,7 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="train_event_choose_arrive_station">Select destination</string>
   <string name="train_event_delete_successfully">火车行程删除成功</string>
   <string name="train_event_depart">Departs at %1$s</string>
-  <string name="train_event_disclaimer">"Disclaimer: All information about trains and services is provided by the railroad company. You can contact the railroad comany's customer support if you have any questions. Train information is provided for your reference only. Refer to the official website of the railroad company for the latest updates and adjustments."</string>
+  <string name="train_event_disclaimer">"Disclaimer: All information about trains and services is provided by the railroad company. You can contact the railroad company's customer support if you have any questions. Train information is provided for your reference only. Refer to the official website of the railroad company for the latest updates and adjustments."</string>
   <string name="train_event_error_toast">"Couldn't load info"</string>
   <string name="train_event_error_train_info">"Couldn't verify ticket"</string>
   <string name="train_event_more_info">Scheduling, Wi-Fi, etc.</string>

@@ -378,7 +378,7 @@ You will not lose any app data."</string>
   <string name="background_traffic">Background %s</string>
   <string name="backsound_set_hint">Set your away message to %s?</string>
   <string name="battery_capacity_title">Battery capacity</string>
-  <string name="battery_charge_estimating">Calculating…</string>
+  <string name="battery_charge_estimating">Calculating</string>
   <string name="battery_charge_full">Charged</string>
   <string name="battery_charging_prompt">Charging</string>
   <string name="battery_desc_apps">Battery used by app</string>
@@ -863,7 +863,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="firewall_temp_rule_reason">%2$s restricted internet connection for %1$s​</string>
   <string name="firewall_wifi">WLAN</string>
   <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off.​"</string>
-  <string name="first_aid_activity_title">First aid</string>
+  <string name="first_aid_activity_title">Solve problems</string>
   <string name="first_aid_card_airplane_button">Turn off</string>
   <string name="first_aid_card_airplane_summary">Turn off Airplane mode to be able to make calls and connect to the network</string>
   <string name="first_aid_card_airplane_title">"Can't make calls or connect to the network"</string>
@@ -898,7 +898,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_item4_content">Battery</string>
   <string name="first_aid_item5_content">Other issues</string>
   <string name="first_aid_result_feedback_button">Submit</string>
-  <string name="first_aid_result_feedback_summary">"First aid scan couldn't find any problems. However, I spotted some."</string>
+  <string name="first_aid_result_feedback_summary">"Couldn't find any problems. However, I spotted some."</string>
   <string name="first_aid_result_feedback_title">Feedback</string>
   <string name="first_aid_result_summary_normal">Everything looks good!</string>
   <string name="first_aid_result_summary_not_finished">"Scan wasn't completed. Some risks may be undetected."</string>
@@ -2232,7 +2232,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="summary_do_not_disturb">"You're using DND mode."</string>
   <string name="summary_eye_shield">Turn off Reading mode to go back to default settings.</string>
   <string name="summary_find_device">Locate and lock your device from anywhere</string>
-  <string name="summary_first_aid_kit">Fix issues using our First aid kit</string>
+  <string name="summary_first_aid_kit">Solve the problems on your device now</string>
   <string name="summary_flow_notification">Show your monthly data usage stats in the notification shade</string>
   <string name="summary_flow_purchase">"Looks like there isn't much data left. Buy data to stay connected."</string>
   <string name="summary_flow_verify_failed">Auto adjust data usage to avoid additional fees</string>
@@ -2408,7 +2408,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_do_not_disturb">"Can't hear your ringtone?"</string>
   <string name="title_eye_shield">"Screen color doesn't look right?"</string>
   <string name="title_find_device">Find device</string>
-  <string name="title_first_aid_kit">First aid</string>
+  <string name="title_first_aid_kit">Solve problems</string>
   <string name="title_flow_notification">Mobile data notification</string>
   <string name="title_flow_purchase">Buy mobile data</string>
   <string name="title_flow_rank">Mobile data usage</string>
@@ -2532,6 +2532,10 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="traffic_setting_fragment_sms_content">Message content</string>
   <string name="traffic_setting_fragment_sms_content_tips">Write your message here</string>
   <string name="traffic_setting_fragment_title">Data usage query</string>
+  <string name="traffic_setting_fragment_title_guide">Carriers and data plans</string>
+  <string name="traffic_usage_warning_body">"You've already used %s of mobile data this month."</string>
+  <string name="traffic_usage_warning_limit">Data usage warning limit</string>
+  <string name="traffic_usage_warning_title">Data usage warning</string>
   <string name="traffic_warning_purchase_title">Mobile data usage warning</string>
   <string name="try_game">Try</string>
   <string name="try_recommended_function">Protect your device using new Security features</string>
