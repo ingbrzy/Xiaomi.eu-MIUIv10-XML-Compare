@@ -644,7 +644,7 @@ Check network settings and try again."</string>
   <string name="setting_title_about">About</string>
   <string name="setting_title_debug">导出日志</string>
   <string name="setting_title_holiday_display">Show holidays</string>
-  <string name="setting_title_limit_card_desc">位于日历首页的限行卡片,该服务需要联网</string>
+  <string name="setting_title_limit_card_desc">位于日历首页的倒班助手卡片,该服务需要联网</string>
   <string name="setting_title_limit_card_display">显示限行服务</string>
   <string name="setting_title_lottery_card_desc">位于日历首页的彩票开奖卡片，该服务需要联网</string>
   <string name="setting_title_lottery_card_display">彩票开奖服务</string>
@@ -808,7 +808,7 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="unsubscribing_card">Unsubscribed</string>
   <string name="user_notice_button_exit">Cancel</string>
   <string name="user_notice_button_ok">OK</string>
-  <string name="user_notice_message">You must agree to our %1$s and %2$s before using Calendar. In order to provide accurate data on local public holidays, birthdays, credit card repayments, and planned trips, Calendar needs to access your location, contacts, and messages, as well as connect to the internet. Agree?</string>
+  <string name="user_notice_message">"By using this product, you agree to Xiaomi's %1$s and %2$s. Some features require internet connection, access to location, contacts and SMS to work normally."</string>
   <string name="user_notice_title">Attention</string>
   <string name="valentines_day">情人节</string>
   <string name="vernal_equinox">春分</string>
