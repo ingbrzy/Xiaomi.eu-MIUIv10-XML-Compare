@@ -1412,6 +1412,11 @@
         <item>120</item>
         <item>255</item>
     </integer-array>
+    <string-array name="config_alwaysEnableMms_off_array">
+        <item>ch</item>
+        <item>be</item>
+        <item>gb</item>
+    </string-array>
     <integer-array name="screen_resolution_supported">
         <item>1080</item>
         <item>720</item>

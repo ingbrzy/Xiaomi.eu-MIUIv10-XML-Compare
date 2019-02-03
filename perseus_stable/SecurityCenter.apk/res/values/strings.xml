@@ -372,7 +372,7 @@ You will not lose any app data."</string>
   <string name="background_traffic">Background %s</string>
   <string name="backsound_set_hint">Set your away message to %s?</string>
   <string name="battery_capacity_title">Battery capacity</string>
-  <string name="battery_charge_estimating">Calculating…</string>
+  <string name="battery_charge_estimating">Calculating</string>
   <string name="battery_charge_full">Charged</string>
   <string name="battery_charging_prompt">Charging</string>
   <string name="battery_desc_apps">Battery used by app</string>

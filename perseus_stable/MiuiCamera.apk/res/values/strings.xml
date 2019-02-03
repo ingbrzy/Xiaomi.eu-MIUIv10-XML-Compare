@@ -60,7 +60,7 @@ and optimizes your photos based on this info"</string>
   <string name="beauty_body_reset_tip">美体效果已清除</string>
   <string name="beauty_body_shoulder">肩部</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
-  <string name="beauty_fragment_tab_name_3d_makeup">美妆</string>
+  <string name="beauty_fragment_tab_name_3d_makeup">Makeup</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
@@ -121,6 +121,12 @@ and optimizes your photos based on this info"</string>
   <string name="confirm_recording_fail_title">"Can't record"</string>
   <string name="confirm_restore_message">"Restore Camera's default settings?"</string>
   <string name="confirm_restore_title">Restore default settings</string>
+  <string name="custom_watermark_contains_senstive_words">Please modify sensitive text %1$s</string>
+  <string name="custom_watermark_tips">The above text will be the second line of the photo watermark. Please limit it to 14 Chinese characters or 18 English letters.</string>
+  <string name="custom_watermark_too_many_words">You went over the character limit</string>
+  <string name="custom_watermark_words">User define watermark words</string>
+  <string name="custom_watermark_words_input_hint">Enter words</string>
+  <string name="custom_watermark_words_save_success">Save sucess</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_ok_time">OK (&lt;g id="NUMBER"&gt;%d&lt;/g&gt;s)</string>
   <string name="do_not_remind_me">"Don't show again"</string>
@@ -128,16 +134,17 @@ and optimizes your photos based on this info"</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
   <string name="dual_camera_too_close_toast">The camera is too close to the object.</string>
   <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
-  <string name="edit_blusher">腮红</string>
+  <string name="dualcamera_watermark_default">AI DUAL CAMERA</string>
+  <string name="edit_blusher">Rouge</string>
   <string name="edit_chin">Chin</string>
   <string name="edit_eye_large">Big eyes</string>
-  <string name="edit_eyebrow_dye">染眉</string>
+  <string name="edit_eyebrow_dye">Eyebrows</string>
   <string name="edit_face_slender">Slender</string>
-  <string name="edit_jelly_lips">果冻唇</string>
+  <string name="edit_jelly_lips">Lip gloss</string>
   <string name="edit_lips">Lips</string>
   <string name="edit_neck">Neck</string>
   <string name="edit_nose">Nose</string>
-  <string name="edit_pupil_line">美瞳线</string>
+  <string name="edit_pupil_line">Eyeliner</string>
   <string name="edit_risorius">Risorius</string>
   <string name="edit_skin_smooth">Smooth</string>
   <string name="edit_skin_white">Tone</string>
@@ -467,6 +474,7 @@ and brings out the people in the front."</string>
   <string name="pref_skin_beautify_eye_default">2</string>
   <string name="pref_skin_beautify_slim_default">3</string>
   <string name="pref_skin_beautify_smooth_default">5</string>
+  <string name="pref_userdefine_watermark_title">User define camera watermark</string>
   <string name="pref_video_encoder_default">h264</string>
   <string name="pref_video_encoder_entry_h264">H.264 High compatibility</string>
   <string name="pref_video_encoder_entry_h265">H.265 High performance</string>

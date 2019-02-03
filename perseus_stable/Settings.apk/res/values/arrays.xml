@@ -2583,6 +2583,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>OM</item>
         <item>KW</item>
         <item>PH</item>
+        <item>CZ</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
