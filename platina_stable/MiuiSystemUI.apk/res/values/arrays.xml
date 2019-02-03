@@ -755,6 +755,7 @@
         <item>OM</item>
         <item>KW</item>
         <item>PH</item>
+        <item>CZ</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>
