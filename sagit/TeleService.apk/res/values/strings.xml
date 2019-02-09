@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_735">false</string>
+  <string name="APKTOOL_DUMMY_736">false</string>
+  <string name="APKTOOL_DUMMY_737">false</string>
+  <string name="APKTOOL_DUMMY_738">false</string>
+  <string name="APKTOOL_DUMMY_739">false</string>
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_ENTRY">RUIM corporate unlock PIN</string>
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_ERROR">RUIM Corporate unlock request unsuccessful.</string>
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_IN_PROGRESS">Requesting RUIM corporate unlock…</string>

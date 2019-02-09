@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_a">false</string>
   <string name="configure">Configure</string>
   <string name="data_received">Received:</string>
   <string name="data_transmitted">Sent:</string>

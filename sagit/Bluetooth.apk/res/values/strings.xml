@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_10">false</string>
+  <string name="APKTOOL_DUMMY_11">false</string>
+  <string name="APKTOOL_DUMMY_46">false</string>
+  <string name="APKTOOL_DUMMY_b">false</string>
+  <string name="APKTOOL_DUMMY_c">false</string>
+  <string name="APKTOOL_DUMMY_d">false</string>
+  <string name="APKTOOL_DUMMY_e">false</string>
+  <string name="APKTOOL_DUMMY_f">false</string>
   <string name="ErrorTooManyRequests">Too many requests are being processed. Try again later.</string>
   <string name="a2dp_sink_mbs_label">Bluetooth Audio</string>
   <string name="ack_record">Ack record</string>
