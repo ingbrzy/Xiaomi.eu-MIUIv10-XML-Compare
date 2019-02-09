@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_1e">false</string>
   <string name="alphabet">Letters</string>
   <string name="app_name">SIM toolkit</string>
   <string name="button_cancel">Cancel</string>

@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_35">false</string>
+  <string name="APKTOOL_DUMMY_36">false</string>
+  <string name="APKTOOL_DUMMY_37">false</string>
   <string name="app_name">Certificate Installer</string>
   <string name="cert_is_added">%s is installed.</string>
   <string name="cert_missing_error">"Couldn't install because the certificate file couldn't be located."</string>

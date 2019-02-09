@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_6">false</string>
+  <string name="APKTOOL_DUMMY_7">false</string>
   <string name="apn_source_service"/>
   <string name="app_label">Phone and Messaging Storage</string>
   <string name="mms_provider_label">MMS</string>

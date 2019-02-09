@@ -1,5 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_1fb">false</string>
+  <string name="APKTOOL_DUMMY_1fc">false</string>
+  <string name="APKTOOL_DUMMY_1fd">false</string>
+  <string name="APKTOOL_DUMMY_1ff">false</string>
+  <string name="APKTOOL_DUMMY_200">false</string>
+  <string name="APKTOOL_DUMMY_201">false</string>
+  <string name="APKTOOL_DUMMY_202">false</string>
+  <string name="APKTOOL_DUMMY_203">false</string>
+  <string name="APKTOOL_DUMMY_204">false</string>
+  <string name="APKTOOL_DUMMY_205">false</string>
+  <string name="APKTOOL_DUMMY_206">false</string>
+  <string name="APKTOOL_DUMMY_208">false</string>
+  <string name="APKTOOL_DUMMY_209">false</string>
+  <string name="APKTOOL_DUMMY_20b">false</string>
+  <string name="APKTOOL_DUMMY_20c">false</string>
+  <string name="APKTOOL_DUMMY_20f">false</string>
+  <string name="APKTOOL_DUMMY_211">false</string>
+  <string name="APKTOOL_DUMMY_213">false</string>
+  <string name="APKTOOL_DUMMY_215">false</string>
+  <string name="APKTOOL_DUMMY_233">false</string>
+  <string name="APKTOOL_DUMMY_4b3">false</string>
+  <string name="APKTOOL_DUMMY_4d9">false</string>
+  <string name="APKTOOL_DUMMY_523">false</string>
+  <string name="APKTOOL_DUMMY_693">false</string>
+  <string name="APKTOOL_DUMMY_69a">false</string>
+  <string name="APKTOOL_DUMMY_6ce">false</string>
+  <string name="APKTOOL_DUMMY_773">false</string>
+  <string name="APKTOOL_DUMMY_7ac">false</string>
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_ENTRY">RUIM corporate unlock PIN</string>
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_ERROR">RUIM Corporate unlock request unsuccessful.</string>
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_IN_PROGRESS">Requesting RUIM corporate unlock…</string>

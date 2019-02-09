@@ -1,5 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_59c">false</string>
+  <string name="APKTOOL_DUMMY_59d">false</string>
+  <string name="APKTOOL_DUMMY_59e">false</string>
+  <string name="APKTOOL_DUMMY_59f">false</string>
+  <string name="APKTOOL_DUMMY_5a0">false</string>
+  <string name="APKTOOL_DUMMY_5a1">false</string>
+  <string name="APKTOOL_DUMMY_5a2">false</string>
+  <string name="APKTOOL_DUMMY_5a3">false</string>
+  <string name="APKTOOL_DUMMY_5a4">false</string>
+  <string name="APKTOOL_DUMMY_5a5">false</string>
+  <string name="APKTOOL_DUMMY_5a6">false</string>
   <string name="accept">Accept</string>
   <string name="accept_or_deny">%1$s shared the album %2$s with you.</string>
   <string name="actionbar_overflow_item_desc">More options</string>

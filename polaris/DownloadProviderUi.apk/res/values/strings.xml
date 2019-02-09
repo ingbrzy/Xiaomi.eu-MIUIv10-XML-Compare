@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_201">false</string>
   <string name="DOWNLOAD_UNIT_BIT">B</string>
   <string name="DOWNLOAD_UNIT_GB">GB</string>
   <string name="DOWNLOAD_UNIT_KB">KB</string>
