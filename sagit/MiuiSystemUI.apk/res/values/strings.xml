@@ -1680,7 +1680,7 @@ Slide down to lock"</string>
   <string name="switch_bar_on">On</string>
   <string name="switch_system_user">Open First space</string>
   <string name="symbol_colon">:</string>
-  <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
+  <string name="system_ui_date_pattern">@android:string/serviceClassPacket</string>
   <string name="system_ui_tuner">System UI Tuner</string>
   <string name="task_access_locked_app_msg">Turned on app lock</string>
   <string name="telephony_monitor_switch">Telephony monitor</string>
