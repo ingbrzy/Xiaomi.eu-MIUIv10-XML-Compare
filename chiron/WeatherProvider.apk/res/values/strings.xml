@@ -1,12 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_1">false</string>
-  <string name="APKTOOL_DUMMY_2">false</string>
-  <string name="APKTOOL_DUMMY_3">false</string>
-  <string name="APKTOOL_DUMMY_4">false</string>
-  <string name="APKTOOL_DUMMY_5">false</string>
-  <string name="APKTOOL_DUMMY_6">false</string>
-  <string name="APKTOOL_DUMMY_7">false</string>
-  <string name="APKTOOL_DUMMY_8">false</string>
   <string name="app_label">Weather Provider</string>
 </resources>
