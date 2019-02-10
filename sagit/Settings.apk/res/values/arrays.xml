@@ -606,8 +606,8 @@
         <item>-1</item>
     </string-array>
     <array name="bytes_picker_sizes">
-        <item>@android:string/mediasize_chinese_prc_9</item>
-        <item>@android:string/factorytest_failed</item>
+        <item>@android:string/megabyteShort</item>
+        <item>@android:string/gigabyteShort</item>
     </array>
     <string-array name="captioning_color_selector_titles">
         <item>@string/color_unspecified</item>
