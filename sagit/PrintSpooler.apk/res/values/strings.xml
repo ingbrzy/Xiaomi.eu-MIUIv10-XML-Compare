@@ -1,10 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_4e">false</string>
-  <string name="APKTOOL_DUMMY_4f">false</string>
-  <string name="APKTOOL_DUMMY_50">false</string>
-  <string name="APKTOOL_DUMMY_51">false</string>
-  <string name="APKTOOL_DUMMY_52">false</string>
   <string name="add_print_service_label">Add service</string>
   <string name="all_printers">All printers…</string>
   <string name="all_printers_label">All printers</string>
