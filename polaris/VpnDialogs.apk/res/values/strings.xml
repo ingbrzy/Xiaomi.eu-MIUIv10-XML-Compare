@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_11">false</string>
   <string name="always_on_disconnected_message">"%1$s is set up to stay connected all the time, but it can't connect right now. Your phone will use a public network until it can reconnect to %1$s."</string>
   <string name="always_on_disconnected_message_lockdown">"%1$s is set up to stay connected all the time, but it can't connect right now. You won't have a connection until the VPN can reconnect."</string>
   <string name="always_on_disconnected_message_separator">" "</string>

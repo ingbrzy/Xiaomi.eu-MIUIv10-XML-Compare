@@ -1,14 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_243">false</string>
-  <string name="APKTOOL_DUMMY_244">false</string>
-  <string name="APKTOOL_DUMMY_245">false</string>
-  <string name="APKTOOL_DUMMY_246">false</string>
-  <string name="APKTOOL_DUMMY_247">false</string>
-  <string name="APKTOOL_DUMMY_248">false</string>
-  <string name="APKTOOL_DUMMY_249">false</string>
-  <string name="APKTOOL_DUMMY_24a">false</string>
-  <string name="APKTOOL_DUMMY_24b">false</string>
   <string name="abort_backup_confirm">"Backup hasn't finished. Stop anyway?"</string>
   <string name="abort_restore_confirm">"Restore hasn't finished. Stop anyway?"</string>
   <string name="account_contact_backup_info">Google Account, Mi Account, and Contacts data</string>

@@ -1,17 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_175">false</string>
-  <string name="APKTOOL_DUMMY_1f6">false</string>
-  <string name="APKTOOL_DUMMY_222">false</string>
-  <string name="APKTOOL_DUMMY_223">false</string>
-  <string name="APKTOOL_DUMMY_224">false</string>
-  <string name="APKTOOL_DUMMY_540">false</string>
-  <string name="APKTOOL_DUMMY_544">false</string>
-  <string name="APKTOOL_DUMMY_545">false</string>
-  <string name="APKTOOL_DUMMY_546">false</string>
-  <string name="APKTOOL_DUMMY_593">false</string>
-  <string name="APKTOOL_DUMMY_595">false</string>
-  <string name="APKTOOL_DUMMY_599">false</string>
   <string name="access_change_text" formatted="false">当前选中的是第%d项, 与第%d项交换位置.</string>
   <string name="access_select">Selected %s</string>
   <string name="access_unselect">Deselected %s</string>

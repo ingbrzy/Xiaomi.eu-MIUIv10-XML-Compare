@@ -1,14 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_307">false</string>
-  <string name="APKTOOL_DUMMY_308">false</string>
-  <string name="APKTOOL_DUMMY_309">false</string>
-  <string name="APKTOOL_DUMMY_329">false</string>
-  <string name="APKTOOL_DUMMY_493">false</string>
-  <string name="APKTOOL_DUMMY_4a6">false</string>
-  <string name="APKTOOL_DUMMY_4a7">false</string>
-  <string name="APKTOOL_DUMMY_5e1">false</string>
-  <string name="APKTOOL_DUMMY_615">false</string>
   <string name="China_Mobile">China Mobile</string>
   <string name="China_Mobile_HD">China Mobile (HD)</string>
   <string name="China_Telecom">China Telecom</string>

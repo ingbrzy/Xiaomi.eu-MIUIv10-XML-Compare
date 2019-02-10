@@ -1,31 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="APKTOOL_DUMMY_10">false</string>
-  <string name="APKTOOL_DUMMY_11">false</string>
-  <string name="APKTOOL_DUMMY_12">false</string>
-  <string name="APKTOOL_DUMMY_13">false</string>
-  <string name="APKTOOL_DUMMY_14">false</string>
-  <string name="APKTOOL_DUMMY_15">false</string>
-  <string name="APKTOOL_DUMMY_4b">false</string>
-  <string name="APKTOOL_DUMMY_4e">false</string>
-  <string name="APKTOOL_DUMMY_4f">false</string>
-  <string name="APKTOOL_DUMMY_52">false</string>
-  <string name="APKTOOL_DUMMY_61">false</string>
-  <string name="APKTOOL_DUMMY_62">false</string>
-  <string name="APKTOOL_DUMMY_63">false</string>
-  <string name="APKTOOL_DUMMY_64">false</string>
-  <string name="APKTOOL_DUMMY_65">false</string>
-  <string name="APKTOOL_DUMMY_66">false</string>
-  <string name="APKTOOL_DUMMY_67">false</string>
-  <string name="APKTOOL_DUMMY_68">false</string>
-  <string name="APKTOOL_DUMMY_69">false</string>
-  <string name="APKTOOL_DUMMY_6a">false</string>
-  <string name="APKTOOL_DUMMY_6b">false</string>
-  <string name="APKTOOL_DUMMY_72">false</string>
-  <string name="APKTOOL_DUMMY_86">false</string>
-  <string name="APKTOOL_DUMMY_8a">false</string>
-  <string name="APKTOOL_DUMMY_ac">false</string>
-  <string name="APKTOOL_DUMMY_f">false</string>
   <string name="ErrorTooManyRequests">Too many requests are being processed. Try again later.</string>
   <string name="a2dp_sink_mbs_label">Bluetooth Audio</string>
   <string name="ack_record">Ack record</string>
