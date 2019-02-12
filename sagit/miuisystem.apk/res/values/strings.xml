@@ -13,6 +13,7 @@
   <string name="autumn_begins">立秋</string>
   <string name="autumn_equinox">秋分</string>
   <string name="beep">Beep</string>
+  <string name="bells">bells</string>
   <string name="blues">Blues</string>
   <string name="bottle">Bottle</string>
   <string name="breeze">Breeze</string>
@@ -46,6 +47,7 @@
   <string name="cta_permission_and"> and </string>
   <string name="cta_permission_delimiter">, </string>
   <string name="cta_title">Terms of Use</string>
+  <string name="cuckooclock">cuckooclock</string>
   <string name="day_following_good_friday">耶穌受難節翌日</string>
   <string name="daydream">Daydream</string>
   <string name="def_alarm_alert">/system/media/audio/alarms/Fireflies.ogg</string>
@@ -72,6 +74,8 @@
   <string name="easter">復活節</string>
   <string name="echo">Echo</string>
   <string name="edit_frequent_phrases">Edit frequent phrases</string>
+  <string name="energy">energy</string>
+  <string name="enthusiastic">enthusiastic</string>
   <string name="fadein">Fade in</string>
   <string name="fadeout">Fade out</string>
   <string name="fairyland">Fairyland</string>
@@ -84,6 +88,7 @@
   <string name="frequent_phrases_size_exceeded">Can add up to %1$d frequent phrases. Delete unnecessary ones to add more.</string>
   <string name="fresh">Fresh</string>
   <string name="frog">Frog</string>
+  <string name="future">future</string>
   <string name="glee">Glee</string>
   <string name="glockenspiel">Glockenspiel</string>
   <string name="good_friday">耶穌受難節</string>
@@ -139,15 +144,20 @@
   <string name="menu_edit">Edit</string>
   <string name="messagesent">Message sent</string>
   <string name="mi">Mi</string>
+  <string name="miclassic">MiClassic</string>
+  <string name="miglass">miglass</string>
   <string name="miremix">Mi (Remix)</string>
   <string name="miui_device_name">Android</string>
   <string name="mix">MIX</string>
+  <string name="mixylophone">mixylophone</string>
   <string name="moment">Moment</string>
   <string name="morning">Morning</string>
   <string name="mountainspring">Mountain spring</string>
+  <string name="musicbox">musicbox</string>
   <string name="national_day">国庆节</string>
   <string name="national_father_day">國父誕辰</string>
   <string name="new_years_day">元旦</string>
+  <string name="newday">newday</string>
   <string name="no_notification_tips">No notifications.</string>
   <string name="notice_audition">Nature sounds</string>
   <string name="notificationxylophone">Notification (Xylophone)</string>
@@ -161,6 +171,7 @@
   <string name="radar">Radar</string>
   <string name="raindrops">Raindrops</string>
   <string name="retrocession_day">光復節</string>
+  <string name="riseandshine">riseandshine</string>
   <string name="slight_cold">小寒</string>
   <string name="slight_heat">小暑</string>
   <string name="solar_calendar">公历</string>
@@ -168,11 +179,14 @@
   <string name="spring">Spring</string>
   <string name="spring_begins">立春</string>
   <string name="stopping_the_heat">处暑</string>
+  <string name="stream">stream</string>
   <string name="summer_begins">立夏</string>
   <string name="summer_solstice">夏至</string>
   <string name="sunrise">Sunrise</string>
+  <string name="sunshine">sunshine</string>
   <string name="swoosh">Swoosh</string>
   <string name="teachers_day">教师节</string>
+  <string name="techno">techno</string>
   <string name="the_armys_day">建军节</string>
   <string name="the_double_ninth_festival">重阳节</string>
   <string name="the_dragon_boat_festival">端午节</string>
@@ -181,6 +195,7 @@
   <string name="the_mid_autumn_festival">中秋节</string>
   <string name="the_rains">雨水</string>
   <string name="the_spring_festival">春节</string>
+  <string name="thinker">Thinker</string>
   <string name="toyrobot">Toy robot</string>
   <string name="tw_childrens_day">兒童節</string>
   <string name="tw_youth_day">青年節</string>

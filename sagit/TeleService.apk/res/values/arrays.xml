@@ -973,13 +973,27 @@
         <item>7</item>
     </integer-array>
     <integer-array name="support_networktypes_gsm_master">
+        <item>9</item>
         <item>20</item>
+        <item>19</item>
         <item>18</item>
+        <item>11</item>
+        <item>12</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
         <item>1</item>
     </integer-array>
     <integer-array name="support_networktypes_gsm_vice">
+        <item>9</item>
         <item>20</item>
+        <item>19</item>
         <item>18</item>
+        <item>11</item>
+        <item>12</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
         <item>1</item>
     </integer-array>
     <string-array name="region_support_volte">

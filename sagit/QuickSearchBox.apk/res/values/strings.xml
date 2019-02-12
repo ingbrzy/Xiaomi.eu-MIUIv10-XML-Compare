@@ -9,7 +9,7 @@
   <string name="apps_search_activity"/>
   <string name="apps_whites">( \"com.android.quicksearchbox\", \"com.android.browser\", \"com.android.contacts\", \"com.android.mms\", \"com.miui.gallery\", \"com.android.settings\", \"com.android.deskclock\", \"com.android.camera\", \"com.miui.video\", \"com.miui.securitycenter\", \"com.miui.weather2\", \"com.xiaomi.market\", \"com.android.calendar\", \"com.android.fileexplorer\", \"com.miui.player\", \"com.android.thememanager\", \"com.android.calculator2\", \"com.xiaomi.gamecenter\", \"com.miui.notes\", \"com.xiaomi.smarthome\", \"com.xiaomi.account\", \"com.android.updater\", \"com.xiaomi.o2o\", \"com.xiaomi.shop\", \"com.android.soundrecorder\", \"com.mipay.wallet\", \"com.miui.voip\", \"com.miui.voiceassist\", \"com.android.email\", \"com.miui.networkassistant\", \"com.xiaomi.jr\", \"com.miui.compass\", \"com.miui.luckymoney\", \"com.xiaomi.hm.health\", \"com.xiaomi.channel\", \"com.miui.fm\", \"com.miui.bugreport\", \"com.mi.vtalk\", \"com.xiaomi.payment\", \"com.miui.virtualsim\", \"com.xiaomi.router\", \"com.miui.cloudbackup\", \"com.xiaomi.pass\", \"com.xiaomi.mitv.phone.tvassistan\", \"com.xiaomi.tag\", \"com.xiaomi.xy.sportscamera\", \"com.xiaomi.mishare\", \"com.xiaomi.pricecheck\", \"com.miui.userbook\", \"com.xiaomi.mitv.soundbarapp\", \"com.miui.livetalk\", \"com.android.providers.downloads.ui\", \"com.xiaomi.midrop\", \"com.miui.miuibbs\", \"com.xiaomi.scanner\", \"com.miui.voip\", \"com.wali.live\", \"com.miui.milivetalk\", \"com.android.phone\", \"com.miui.cloudservice\", \"com.miui.yellowpage\", \"com.miui.securitycore\", \"com.duokan.reader\", \"com.xiaomi.vip\", \"com.miui.calculator\", \"com.android.providers.downloads.ui\", \"com.mi.misupport\" )</string>
   <string name="baidu_search_url_from_default">https://m.baidu.com/s?from=1002253t&amp;word={searchTerms}&amp;tn=ins</string>
-  <string name="baidu_suggest_base">http://m.baidu.com/su?wd=%s&amp;action=opensearch</string>
+  <string name="baidu_suggest_base">" "</string>
   <string name="barcode_install_back">Back</string>
   <string name="barcode_install_cancel">Cancel</string>
   <string name="barcode_install_confirm">Install</string>
@@ -86,7 +86,7 @@ You can change this in Settings &gt; Installed apps &gt; Search"</string>
   <string name="remove_from_history">Do you want to remove this item from the search history?</string>
   <string name="remove_from_history_failed">"Couldn't remove item from history."</string>
   <string name="search_apps">Search apps</string>
-  <string name="search_apps_url">market://search?q=%s&amp;ref=migs&amp;pageRef=migs_local_app</string>
+  <string name="search_apps_url">market://search?q=%s&amp;c=apps&amp;pageRef=migs_local_app</string>
   <string name="search_button">Search</string>
   <string name="search_group_fold">Hide</string>
   <string name="search_group_unfold">More</string>
@@ -101,7 +101,7 @@ You can change this in Settings &gt; Installed apps &gt; Search"</string>
   <string name="search_suggestion">Tips</string>
   <string name="search_title_quicksearchbox">@string/app_name</string>
   <string name="search_videos">Search videos</string>
-  <string name="search_videos_url">mivideo://video/search?id=%s&amp;ref=migs-local-video</string>
+  <string name="search_videos_url">https://www.youtube.com/results?search_query=%s</string>
   <string name="search_widget">Search</string>
   <string name="send_secret_code">Send code</string>
   <string name="setting_other">Other</string>
@@ -138,11 +138,11 @@ You can change this in Settings &gt; Installed apps &gt; Search"</string>
   <string name="voice_search_hint_quotation_start">\"</string>
   <string name="voice_search_hint_title">Try saying:</string>
   <string name="web_search_results">Baidu</string>
-  <string name="xiaomi_hint">http://global.search.xiaomi.net/global/v3/hint</string>
-  <string name="xiaomi_homepage_hint">http://global.search.xiaomi.net/global/v5/hints</string>
-  <string name="xiaomi_homepage_suggest">http://global.search.xiaomi.net/global/v5/home</string>
+  <string name="xiaomi_hint">" "</string>
+  <string name="xiaomi_homepage_hint">" "</string>
+  <string name="xiaomi_homepage_suggest">" "</string>
   <string name="xiaomi_search_label">Results</string>
   <string name="xiaomi_source_url">https://search.browser.miui.com/</string>
   <string name="xiaomi_source_url_alpha">https://search.browser.miui.com/alpha/</string>
-  <string name="xiaomi_suggest_base">https://global.search.xiaomi.net/global/v5/topclick</string>
+  <string name="xiaomi_suggest_base">" "</string>
 </resources>
