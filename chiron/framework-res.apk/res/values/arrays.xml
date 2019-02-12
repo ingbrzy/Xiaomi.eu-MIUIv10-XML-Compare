@@ -217,7 +217,7 @@
         <item>404</item>
         <item>405</item>
     </integer-array>
-    <array name="config_ephemeralResolverPackage" />
+    <string-array name="config_ephemeralResolverPackage"><item>com.google.android.gms</item></string-array>
     <string-array name="config_globalActionsList">
         <item>power</item>
         <item>restart</item>
