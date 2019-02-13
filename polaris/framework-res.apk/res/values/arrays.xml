@@ -87,6 +87,67 @@
         <item>423</item>
     </integer-array>
     <array name="config_autoBrightnessKeyboardBacklightValues" />
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>64</item>
+        <item>64</item>
+        <item>64</item>
+        <item>128</item>
+        <item>240</item>
+        <item>320</item>
+        <item>416</item>
+        <item>560</item>
+        <item>720</item>
+        <item>736</item>
+        <item>736</item>
+        <item>736</item>
+        <item>960</item>
+        <item>960</item>
+        <item>960</item>
+        <item>1024</item>
+        <item>1056</item>
+        <item>1120</item>
+        <item>1168</item>
+        <item>1280</item>
+        <item>1408</item>
+        <item>1760</item>
+        <item>2080</item>
+        <item>2160</item>
+        <item>2320</item>
+        <item>2880</item>
+        <item>3200</item>
+        <item>3840</item>
+        <item>4095</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>9</item>
+        <item>13</item>
+        <item>17</item>
+        <item>21</item>
+        <item>26</item>
+        <item>30</item>
+        <item>40</item>
+        <item>83</item>
+        <item>104</item>
+        <item>200</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1200</item>
+        <item>1500</item>
+        <item>1800</item>
+        <item>2000</item>
+        <item>2165</item>
+        <item>2680</item>
+        <item>3000</item>
+        <item>3540</item>
+        <item>4000</item>
+    </integer-array>
     <integer-array name="config_autoRotationTiltTolerance">
         <item>-25</item>
         <item>70</item>
@@ -1235,4 +1296,4 @@
         <item>%s</item>
         <item>%s WLAN Calling</item>
     </string-array>
-<integer-array name="config_autoBrightnessLevels"><item>1</item><item>2</item><item>3</item><item>5</item><item>7</item><item>9</item><item>11</item><item>13</item><item>15</item><item>17</item><item>21</item><item>26</item><item>30</item><item>40</item><item>83</item><item>104</item><item>200</item><item>400</item><item>500</item><item>600</item><item>700</item><item>800</item><item>1000</item><item>1200</item><item>1500</item><item>1800</item><item>2000</item><item>2165</item><item>2680</item><item>3000</item><item>3540</item><item>4000</item></integer-array><integer-array name="config_autoBrightnessLcdBacklightValues"><item>140</item><item>150</item><item>160</item><item>170</item><item>180</item><item>190</item><item>200</item><item>220</item><item>240</item><item>260</item><item>280</item><item>300</item><item>350</item><item>400</item><item>450</item><item>500</item><item>600</item><item>700</item><item>800</item><item>900</item><item>1000</item><item>1200</item><item>1400</item><item>1600</item><item>1800</item><item>2000</item><item>2300</item><item>2600</item><item>2900</item><item>3200</item><item>3500</item><item>3850</item><item>4095</item></integer-array></resources>
+</resources>
