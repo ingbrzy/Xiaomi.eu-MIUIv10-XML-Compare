@@ -1212,7 +1212,7 @@
 .method public static isCameraSoundEnforced()Z
     .locals 3
 
-    const/4 v1, 0x0
+    sget-boolean v1, Lmiui/os/Build;->IS_INTERNATIONAL_BUILD:Z
 
     if-eqz v1, :cond_1
 
@@ -2097,7 +2097,7 @@
 
     const-string/jumbo v0, "camera_support_google_lens"
 
-    const/4 v1, 0x1
+    const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
@@ -2179,7 +2179,7 @@
 .method public static isSupportScene()Z
     .locals 2
 
-    const/4 v0, 0x1
+    sget-boolean v0, Lcom/android/camera/Device;->IS_HONGMI:Z
 
     if-eqz v0, :cond_0
 
@@ -2335,7 +2335,7 @@
 
     const/4 v0, 0x0
 
-    const/4 v1, 0x0
+    sget-boolean v1, Lmiui/os/Build;->IS_INTERNATIONAL_BUILD:Z
 
     if-nez v1, :cond_0
 
@@ -2739,7 +2739,7 @@
 
     const/4 v0, 0x0
 
-    const/4 v1, 0x0
+    sget-boolean v1, Lmiui/os/Build;->IS_INTERNATIONAL_BUILD:Z
 
     if-nez v1, :cond_0
 
@@ -2985,7 +2985,7 @@
 
     const/4 v0, 0x0
 
-    const/4 v1, 0x0
+    sget-boolean v1, Lmiui/os/Build;->IS_INTERNATIONAL_BUILD:Z
 
     if-nez v1, :cond_0
 
@@ -3095,7 +3095,7 @@
 
     const-string/jumbo v0, "support_camera_water_mark"
 
-    const/4 v1, 0x1
+    const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
