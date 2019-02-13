@@ -3,13 +3,13 @@
     <string-array name="packages_to_delete_new_managed_profile">
         <item>com.android.server.telecom</item>
     </string-array>
-    <string-array name="vendor_required_apps_managed_device">
+    <string-array name="vendor_required_apps_managed_device"><item>com.android.vending</item><item>com.google.android.gms</item><item>com.google.android.googlequicksearchbox</item><item>com.google.android.launcher</item><item>com.google.android.dialer</item>
         <item>com.android.contacts</item>
         <item>com.google.android.contacts</item>
         <item>com.android.dialer</item>
         <item>com.miui.home</item>
     </string-array>
-    <string-array name="vendor_required_apps_managed_profile">
+    <string-array name="vendor_required_apps_managed_profile"><item>com.android.vending</item><item>com.google.android.gms</item>
         <item>com.android.vending</item>
         <item>com.google.android.gms</item>
         <item>com.android.contacts</item>
