@@ -65,8 +65,6 @@
         <item>4</item>
     </integer-array>
     <string-array name="always_enabled_app_list">
-	<item>com.xiaomi.hm.health</item>
-	<item>cz.zdenekhorak.mibandtools</item>
         <item>com.android.providers.applications</item>
         <item>com.android.providers.calendar</item>
         <item>com.android.providers.contacts</item>

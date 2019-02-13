@@ -284,25 +284,4 @@
         <item>3</item>
         <item>4</item>
     </integer-array>
-    <string-array name="allow_disable_app_list">
-        <item>com.android.browser</item>
-        <item>com.android.calendar</item>
-        <item>com.android.email</item>
-        <item>com.android.fileexplorer</item>
-        <item>com.android.midrive</item>
-        <item>com.android.quicksearchbox</item>
-        <item>com.mfashiongallery.emag</item>
-        <item>com.miui.calculator</item>
-        <item>com.miui.cleanmaster</item>
-        <item>com.miui.compass</item>
-        <item>com.miui.gallery</item>
-        <item>com.miui.hybrid</item>
-        <item>com.miui.notes</item>
-        <item>com.miui.player</item>
-        <item>com.miui.screenrecorder</item>
-        <item>com.miui.videoplayer</item>
-        <item>com.miui.weather2</item>
-        <item>com.xiaomi.scanner</item>
-        <item>pl.zdunex25.updater</item>
-    </string-array>
 </resources>
