@@ -64,6 +64,14 @@
         <item quantity="other">Try again in %d minutes</item>
         <item quantity="one">Try again in %d minute</item>
     </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="other">"You haven't used your password for at least %d hours. Enter your password."</item>
+        <item quantity="one">"You haven't used your password for at least %d hour. Enter your password."</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="other">"You haven't used your unlock pattern for at least %d hours. Draw your pattern."</item>
+        <item quantity="one">"You haven't used your unlock pattern for at least %d hour. Draw your pattern."</item>
+    </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d new notifications</item>
         <item quantity="one">%d new notification</item>
@@ -121,8 +129,8 @@
         <item quantity="one">"Hide this app's notifications?"</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Hiding notifications from %1$s &amp;amp; %2$d apps.</item>
-        <item quantity="one">Hiding notifications from %1$s &amp;amp; %2$d app.</item>
+        <item quantity="other">Hiding notifications from %1$s &amp; %2$d apps.</item>
+        <item quantity="one">Hiding notifications from %1$s &amp; %2$d app.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Clear</item>
