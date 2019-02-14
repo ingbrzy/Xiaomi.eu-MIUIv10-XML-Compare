@@ -1,4 +1,5 @@
 <resources>
+    <string name="weather_null">Tapni za pridobivanje informacij o vremenu</string>
     <string name="weather_type_null">'Ni podatkov'</string>
     <string name="weather_type_0">Jasno</string>
     <string name="weather_type_1">Oblačno</string>

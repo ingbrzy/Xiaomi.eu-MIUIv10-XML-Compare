@@ -114,6 +114,11 @@
         <item>Turn off and notify</item>
         <item>Only notify</item>
     </string-array>
+    <string-array name="traffic_package_type">
+        <item>Monthly data plan</item>
+        <item>Daily data plan</item>
+        <item>Unlimited data plan</item>
+    </string-array>
     <string-array name="st_antispam_mode_defined">
         <item>@string/st_antispam_mode_smart</item>
         <item>@string/st_antispam_mode_blacklist</item>

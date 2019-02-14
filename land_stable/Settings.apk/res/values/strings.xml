@@ -165,6 +165,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="allow_bind_app_widget_activity_allow_bind_title">Create widget and allow access?</string>
   <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
   <string name="allow_data_usage_title">Allow data usage when roaming</string>
+  <string name="allow_device_id_access">Apps with access to Device ID</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
   <string name="allow_overlay_description">This permission allows an app to display on top of other apps you’re using and may interfere with your use of the interface in other applications, or change what you think you are seeing in other applications.</string>
@@ -184,6 +185,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="android_beam_witch_label">Android Beam</string>
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="anti_spam">Blocklist</string>
+  <string name="aod_clock_style_title">Clock style</string>
   <string name="apn_apn">APN</string>
   <string name="apn_auth_type">Authentication type</string>
   <string name="apn_auth_type_chap">CHAP</string>
@@ -346,7 +348,6 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="auto_rule">Timer</string>
   <string name="auto_silent">Schedule turn on time</string>
   <string name="auto_startup_application_manage">Autostart</string>
-  <string name="auto_startup_count">%d apps are allowed to autostart</string>
   <string name="automatic_brightness">Automatic brightness</string>
   <string name="available_size">%s available</string>
   <string name="available_via_passpoint">Available via %1$s</string>
@@ -743,6 +744,8 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bootloader_status_unlocked">Unlocked</string>
   <string name="bootloader_status_unlocked_info">This device is unlocked</string>
   <string name="bootloader_summary">Flash your device via USB</string>
+  <string name="bootloader_tips">"After you add your Mi Account, don't sign out of it, perform a factory reset, or clear system apps' data. If you do any of the above, add your account again or you won't be able to unlock your device."</string>
+  <string name="bootloader_tips_ok">Got it</string>
   <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
   <string name="breathing_light_color_menu_title">Light color</string>
   <string name="breathing_light_color_summary">Light color when receiving new notification</string>
@@ -792,6 +795,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="call_settings_summary">Set up voicemail, call forwarding, call waiting, caller ID</string>
   <string name="call_settings_title">Call settings</string>
   <string name="calls_title">Calls</string>
+  <string name="camera_front">Front %s</string>
   <string name="camera_key_action_app_title">Open app</string>
   <string name="camera_key_action_category_title">"Can't use Camera"</string>
   <string name="camera_key_action_none_title">No action</string>
@@ -804,6 +808,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="camera_key_action_shortcut_wake">Lock device</string>
   <string name="camera_key_action_title">Mi Button</string>
   <string name="camera_key_action_toggle_title">Trigger toggle</string>
+  <string name="camera_rear">Rear %s</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_action">Cancel</string>
   <string name="cancel_alert">Discard your changes?</string>
@@ -1157,6 +1162,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_rule_name">Timer 1</string>
   <string name="default_sound">Default sound</string>
   <string name="default_usb_mode">USB connection</string>
+  <string name="default_vol_stream_title">Default volume control stream</string>
   <string name="delete">Delete</string>
   <string name="delete_fingerprint_confirm_msg">Remove fingerprint?</string>
   <string name="delete_fingerprint_text">Remove fingerprint</string>
@@ -1188,6 +1194,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_available_memory">Available storage</string>
   <string name="device_battery">Battery</string>
   <string name="device_build_id">Version number</string>
+  <string name="device_camera">Camera</string>
   <string name="device_complete_parameters">All specs</string>
   <string name="device_cpu">CPU</string>
   <string name="device_cpu10_info">Deca-core</string>
@@ -1195,9 +1202,16 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_cpu4_info">Quad-core</string>
   <string name="device_cpu6_info">Hexa-core</string>
   <string name="device_cpu8_info">Octa-core</string>
+  <string name="device_description_battery">Battery capacity</string>
+  <string name="device_description_camera">Rear camera</string>
+  <string name="device_description_cpu">CPU</string>
+  <string name="device_description_ram">RAM</string>
+  <string name="device_description_resolution">Resolution</string>
+  <string name="device_description_screen">Screen size</string>
   <string name="device_display_layout_title">Features</string>
   <string name="device_edit_title">Rename phone</string>
   <string name="device_feedback">Send feedback about this device</string>
+  <string name="device_id">Device ID</string>
   <string name="device_info_default">Unknown</string>
   <string name="device_info_label">Device info</string>
   <string name="device_info_not_available">Not available</string>
@@ -1239,6 +1253,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dialog_title_hdmi_color_calibration">Color correction preset</string>
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
+  <string name="digital_clock_dot">:</string>
   <string name="disableNetwork">disableNetwork</string>
   <string name="disable_overlays">Disable HW overlays</string>
   <string name="disable_overlays_summary">Always use GPU for screen compositing</string>
@@ -1362,6 +1377,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="edit_rule">Edit rules</string>
   <string name="edit_rules">Edit</string>
   <string name="eighthours">8 hours</string>
+  <string name="emergency_sos_title">Emergency SOS</string>
   <string name="emergency_tone_alert">Alert</string>
   <string name="emergency_tone_silent">Silent</string>
   <string name="emergency_tone_summary">Set behavior when an emergency call is placed</string>
@@ -1535,6 +1551,7 @@ Some apps may not work until updated by their developers."</string>
   <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_recognized">Not recognized</string>
+  <string name="fingerprint_others_title">Other</string>
   <string name="fingerprint_payment">Fingerprint payments</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
   <string name="fingerprint_usage_category_title">Use fingerprint for</string>
@@ -1570,7 +1587,11 @@ Some apps may not work until updated by their developers."</string>
   <string name="floating_window_switch_label_disable">Turn off floating windows</string>
   <string name="fluency_mode">System animations</string>
   <string name="fluency_mode_confirm_and_reboot">Reboot now</string>
+  <string name="following_us_facebook">facebook</string>
+  <string name="following_us_instagram">instagram</string>
+  <string name="following_us_linkedin">linkedin</string>
   <string name="following_us_title">Follow us</string>
+  <string name="following_us_twitter">twitter</string>
   <string name="font_size_exhuge">Extra Huge</string>
   <string name="font_size_huge">Huge</string>
   <string name="font_size_large">Larger</string>
@@ -1630,7 +1651,6 @@ Some apps may not work until updated by their developers."</string>
   <string name="free_wifi_connect_summary">Tap to connect to %1$s.</string>
   <string name="free_wifi_connect_title">WLAN available</string>
   <string name="free_wifi_connected">Connected to free WLAN</string>
-  <string name="free_wifi_connected_count">%1$d people connected</string>
   <string name="free_wifi_connected_time">Duration: %1$s</string>
   <string name="free_wifi_connecting">Connecting…</string>
   <string name="free_wifi_login_again">Sign in again</string>
@@ -1698,6 +1718,15 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_message">Press the screen and lift your finger after you feel vibration. Repeat several times.</string>
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
+  <string name="gxzw_anim_light">Neon</string>
+  <string name="gxzw_anim_metal">Metal</string>
+  <string name="gxzw_anim_pulse">Pulse</string>
+  <string name="gxzw_anim_rhythm">Rhythm</string>
+  <string name="gxzw_anim_title">Fingerprint animation</string>
+  <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
+  <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
+  <string name="gxzw_dialog_ok">Got it</string>
+  <string name="gxzw_dialog_title">About in-screen fingerprint sensor</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
   <string name="handy_mode_size">Screen size</string>
@@ -1728,7 +1757,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="header_category_device">Device</string>
   <string name="header_category_personal">Personal</string>
   <string name="header_category_system">System</string>
-  <string name="header_category_wireless_networks">Network</string>
+  <string name="header_category_wireless_networks">Wireless &amp; networks</string>
   <string name="header_data_and_synchronization">Data &amp; synchronization</string>
   <string name="heavy_weight_stop_description">This app can’t safely be stopped. If you stop it, you may lose some of your current work.</string>
   <string name="help_label">Help &amp; feedback</string>
@@ -1821,6 +1850,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="input_methods_settings_label_format">%1$s settings</string>
   <string name="input_methods_settings_title">Text input</string>
   <string name="input_password_hint_text">Enter password</string>
+  <string name="input_pattern_hint_text">Draw your unlock pattern</string>
   <string name="input_settings">Input settings</string>
   <string name="install_all_warning">Your phone and personal data are more vulnerable to attack by apps from unknown sources. You agree that you are solely responsible for any damage to your phone or loss of data that may result from using these apps.</string>
   <string name="install_applications">Unknown sources</string>
@@ -1880,6 +1910,8 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="keyboard_settings_category">Keyboard &amp; input methods</string>
   <string name="keyboard_settings_title">Android keyboard</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
+  <string name="keyguard_double_tap_to_sleep_title">Double tap to sleep</string>
+  <string name="keyguard_notification_status_title">Notifications</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
   <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
@@ -2095,7 +2127,7 @@ as your First space PIN."</string>
   <string name="lockpassword_choose_your_pin_header">Set your PIN</string>
   <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
  for Second space"</string>
-  <string name="lockpassword_choose_your_pin_title">Enter 4-16 digits</string>
+  <string name="lockpassword_choose_your_pin_title" formatted="false">Enter %d-%d digits</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
   <string name="lockpassword_confirm_passwords_dont_match">Passwords don’t match</string>
   <string name="lockpassword_confirm_pins_dont_match">"PINs don't match"</string>
@@ -2124,7 +2156,6 @@ as your First space PIN."</string>
   <string name="lockpassword_password_too_short">Password must be at least %d characters</string>
   <string name="lockpassword_pattern_set_toast">Pattern has been set</string>
   <string name="lockpassword_pin_contains_non_digits">PIN can only contain numbers</string>
-  <string name="lockpassword_pin_fixed_length">PIN must be %d digits</string>
   <string name="lockpassword_pin_no_sequential_digits">An ascending, descending or repeated sequence of digits is forbidden</string>
   <string name="lockpassword_pin_recently_used">"Device administrator doesn't allow PIN unlock"</string>
   <string name="lockpassword_pin_set_toast">PIN set</string>
@@ -2327,9 +2358,12 @@ There are other users present on this device.
   <string name="menu_stats_total">Usage totals</string>
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
+  <string name="mi_pay_indonesia">Mi Pay Account</string>
+  <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
   <string name="mi_upi_settings">Mi Pay Account</string>
+  <string name="mipush_fake_channel_group_name">Mi Push</string>
   <string name="misc_files">Misc files</string>
   <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
   <string name="misc_files_selected_count_bytes">%1$s out of %2$s</string>
@@ -2353,6 +2387,53 @@ There are other users present on this device.
   <string name="miui_lab_gallery_search_title">Find photos in Gallery</string>
   <string name="miui_lab_settings">MIUI lab</string>
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
+  <string name="miui_sos_audio_summary">Play SOS message after emergency contact picks up</string>
+  <string name="miui_sos_audio_title">SOS voice message</string>
+  <string name="miui_sos_call_log_duration">Duration</string>
+  <string name="miui_sos_call_log_none">I have no call history for the last hour.</string>
+  <string name="miui_sos_call_log_stranger">Stranger</string>
+  <string name="miui_sos_call_log_summary">Send the call history for the last 1 hour to your emergency contact</string>
+  <string name="miui_sos_call_log_time_unit">%1$dm %2$ds</string>
+  <string name="miui_sos_call_log_title">Send call history</string>
+  <string name="miui_sos_call_warning_sim_unable">"No signal. Can't send SMS."</string>
+  <string name="miui_sos_calling_summary">Your device will make automatic calls to your emergency contacts playing the SOS voice message you recorded. The call will be ended after your message is finished playing. Auto call will stop after the first successful attempt.</string>
+  <string name="miui_sos_calling_title">Auto call</string>
+  <string name="miui_sos_contacts_add">Emergency contacts</string>
+  <string name="miui_sos_contacts_category">Emergency contacts</string>
+  <string name="miui_sos_emergency_contacts">Emergency contacts</string>
+  <string name="miui_sos_emergency_contacts_quantity">%d added</string>
+  <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s (%2s) has already accepted.</string>
+  <string name="miui_sos_emergency_delivered_sms_noname">%1s has already accepted</string>
+  <string name="miui_sos_emergency_failed_sms" formatted="false">"Couldn't send message to %1s (%2s)."</string>
+  <string name="miui_sos_emergency_failed_sms_noname">"Couldn't send message to %1s."</string>
+  <string name="miui_sos_enable_switch_summary">Rapidly press the Power button 5 times to send a SOS text message with your location to your emergency contacts</string>
+  <string name="miui_sos_enable_switch_title">Emergency SOS</string>
+  <string name="miui_sos_exit_dialog_cancel">Cancel</string>
+  <string name="miui_sos_exit_dialog_message">You activated Emergency SOS. Your location info is being sent to your emergency contacts. Turn off anyway?</string>
+  <string name="miui_sos_exit_dialog_ok">OK</string>
+  <string name="miui_sos_exit_dialog_title">Turning off Emergency SOS</string>
+  <string name="miui_sos_green_guard_summary">Share location info in real time</string>
+  <string name="miui_sos_green_guard_title">Parental controls</string>
+  <string name="miui_sos_launch_error">"Couldn't activate Emergency SOS"</string>
+  <string name="miui_sos_launch_error_confirm">Got it</string>
+  <string name="miui_sos_launch_error_message">"Can't connect to the mobile network. Can't use Emergency SOS."</string>
+  <string name="miui_sos_launching_summary">Activating Emergency SOS in %ds</string>
+  <string name="miui_sos_launching_title">SOS</string>
+  <string name="miui_sos_menu_add">Add</string>
+  <string name="miui_sos_menu_edit">Edit</string>
+  <string name="miui_sos_msg_call_log_prefix">"Here's my call history for the last hour:"</string>
+  <string name="miui_sos_play_voice">Play SOS message</string>
+  <string name="miui_sos_remind_add">Add</string>
+  <string name="miui_sos_remind_infocontent">"I added you as my emergency contact. You'll receive a message with my location info in case I'm in danger. [Mi Emergency SOS]"</string>
+  <string name="miui_sos_remind_open">Emergency SOS needs at least 1 emergency contact to work normally.</string>
+  <string name="miui_sos_remind_sendinfo">"Don't forget to tell these people that they are your emergency contacts now. Thus, they will be able to help you faster in case of emergency."</string>
+  <string name="miui_sos_remind_sendnow">Send now</string>
+  <string name="miui_sos_remind_title">Attention</string>
+  <string name="miui_sos_settings_alert_contacts_repeat">"Can't add duplicate contacts."</string>
+  <string name="miui_sos_settings_alert_contacts_too_many">You can add up to 3 emergency contacts.</string>
+  <string name="miui_sos_settings_category">SOS settings</string>
+  <string name="miui_sos_statusbar_summary">Tap to turn off</string>
+  <string name="miui_sos_statusbar_title">Emergency SOS is activated</string>
   <string name="miui_updater">System update</string>
   <string name="miui_userguide">User guide</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
@@ -2424,11 +2505,15 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_general">General</string>
   <string name="music_dirac_mode_general_earbuds">General</string>
   <string name="music_dirac_mode_general_inear">General In-Ear</string>
+  <string name="music_dirac_mode_half_in_ear">Mi Half In-Ear</string>
   <string name="music_dirac_mode_headset">Mi Headphones</string>
   <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
   <string name="music_dirac_mode_in_ear">Mi In-Ear</string>
+  <string name="music_dirac_mode_in_ear2">Mi In-Ear 2</string>
   <string name="music_dirac_mode_in_ear_2013">Mi In-Ear (2013)</string>
   <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
+  <string name="music_dirac_mode_india_earphones">Mi Earphones</string>
+  <string name="music_dirac_mode_india_earphones_basic">Mi Earphones Basic</string>
   <string name="music_dirac_mode_off">Dirac off</string>
   <string name="music_dirac_mode_piston_1">Mi Piston-1</string>
   <string name="music_dirac_mode_piston_100">Mi Piston</string>
@@ -2571,7 +2656,7 @@ Select your operating system:"</string>
   <string name="no_nearby_wifi">No networks detected</string>
   <string name="no_notification_listeners">No installed apps have requested notification access.</string>
   <string name="no_running_services">Nothing running.</string>
-  <string name="no_services">Not active services</string>
+  <string name="no_services">No active services</string>
   <string name="no_trust_agents">No available trust agents</string>
   <string name="no_update_found">"You're running the latest version of MIUI"</string>
   <string name="no_updates_found">"You're running the latest version of MIUI"</string>
@@ -2811,6 +2896,7 @@ Select your operating system:"</string>
   <string name="pref_manage_bg_network">"Manage apps' background network connection"</string>
   <string name="pref_new_installed_preconfig_title">"New apps' default settings"</string>
   <string name="pref_operational_key">Navigation buttons</string>
+  <string name="pref_show_lunar_calendar_title">Show traditional Chinese calendar on Lock screen</string>
   <string name="pref_title_update_notification">Data usage notifications</string>
   <string name="pref_volume_launch_camera_summary">Press Volume down twice to launch Camera</string>
   <string name="pref_volume_launch_camera_title">Launch Camera</string>
@@ -3119,6 +3205,11 @@ Select your operating system:"</string>
   <string name="resource_ringtone_volume_mute">Your ringer is currently silenced</string>
   <string name="restore_default_apn">Restoring default APN settings.</string>
   <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
+  <string name="restore_device_id_content">Reset personalized recommendations</string>
+  <string name="restore_device_id_title">Restore Device ID</string>
+  <string name="restore_dialog_content">Restoring Device ID will reset your personalized recommendations.</string>
+  <string name="restore_dialog_positive">Restore</string>
+  <string name="restore_dialog_title">Attention</string>
   <string name="restr_pin_enter_admin_pin">Enter administrator PIN</string>
   <string name="restrict_bg_app">Restrict</string>
   <string name="restrict_max_aspect_ratio_title">"These apps don't work well in fullscreen mode"</string>
@@ -3768,6 +3859,12 @@ Possibly incorrect PIN."</string>
   <string name="sort_max_use">Sort by max use</string>
   <string name="sort_order_alpha">Sort by name</string>
   <string name="sort_order_size">Sort by size</string>
+  <string name="sos_privacy_and_content_policy">User Agreement and Privacy Policy</string>
+  <string name="sos_privacy_dialog_button_cancel">Cancel</string>
+  <string name="sos_privacy_dialog_button_ok">Agree</string>
+  <string name="sos_privacy_dialog_message">"Read and agree to our %s before using this feature.
+This feature needs permissions to access your location, use mobile networks, and read your contacts. Agree?"</string>
+  <string name="sos_privacy_dialog_title">Terms and Conditions</string>
   <string name="sound_category_call_ringtone_vibrate_title">Ringtone &amp; notification sounds</string>
   <string name="sound_category_sound_title">General</string>
   <string name="sound_category_system_title">System</string>
@@ -3820,11 +3917,10 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_advanced">Additional settings</string>
   <string name="status_bar_settings_all_app_display_loading">Just a sec…</string>
   <string name="status_bar_settings_app_notification_preferences">App settings</string>
-  <string name="status_bar_settings_basic_settings">Basic settings</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_custom_carrier">Edit carrier name</string>
   <string name="status_bar_settings_custom_wifi_name">Edit WLAN name</string>
-  <string name="status_bar_settings_customer_feedback">feedback</string>
+  <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
@@ -3840,8 +3936,11 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
+  <string name="status_bar_settings_notification_style">Notification style</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
+  <string name="status_bar_settings_peek_notification_icon">Show icons for incoming notifications</string>
+  <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
   <string name="status_bar_settings_show_carrier_under_keyguard">Show carrier when device is locked</string>
@@ -3851,6 +3950,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_show_home_message">App icon badge</string>
   <string name="status_bar_settings_show_keyguard_notification">Lock screen notifications</string>
   <string name="status_bar_settings_show_keyguard_notification_summary">Allow important notifications on the Lock screen</string>
+  <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
   <string name="status_bar_settings_show_network_speed">Show connection speed</string>
   <string name="status_bar_settings_show_notification_icon">Show notification icons</string>
   <string name="status_bar_settings_show_wifi_name">Show WLAN</string>
@@ -4097,6 +4197,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_ui_settings">Show SystemUI Tuner</string>
   <string name="system_update_settings_list_item_summary"/>
   <string name="system_update_settings_list_item_title">System updates</string>
+  <string name="talkback_watermark_enable">TalkBack watermark</string>
   <string name="tap_to_wake">Tap to wake</string>
   <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
   <string name="taplus_title">Taplus</string>
@@ -4307,7 +4408,7 @@ Your saved fingerprints will also be removed from this device and you won't be a
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter 4-16 numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary" formatted="false">Enter %d-%d numbers to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
@@ -4508,7 +4609,6 @@ Tap the plus to add words."</string>
   <string name="virtual_sim_title">Roaming data network</string>
   <string name="virus_scan">Virus scan</string>
   <string name="virus_scan_app_continue">Continue scan</string>
-  <string name="virus_scan_app_find_risk">%d risks found</string>
   <string name="virus_scan_app_finish">Scan complete</string>
   <string name="virus_scan_app_force_stop">Scan paused</string>
   <string name="virus_scan_app_is_stop_scan">Stop scan?</string>
@@ -4928,7 +5028,6 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_share_connect">Connect</string>
   <string name="wifi_share_connected_summary">"You're connected to a public WLAN network that has been shared by another user."</string>
   <string name="wifi_share_connected_title">MIUI shared WLAN</string>
-  <string name="wifi_share_count">Shared %d networks</string>
   <string name="wifi_share_current_network">Current network</string>
   <string name="wifi_share_know">OK</string>
   <string name="wifi_share_list_empty">No shared networks found.</string>
