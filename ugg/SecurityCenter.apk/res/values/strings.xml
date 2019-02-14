@@ -208,9 +208,6 @@
   <string name="app_manager_net_mobile">Mobile data</string>
   <string name="app_manager_net_wifi">WLAN</string>
   <string name="app_manager_not_allow">No</string>
-  <string name="app_manager_notify_bar">Badges</string>
-  <string name="app_manager_notify_floating">Floating notifications</string>
-  <string name="app_manager_notify_keyguard">Lock screen</string>
   <string name="app_manager_open_show_all_apps_immediate">Show all results</string>
   <string name="app_manager_perm">Permissions</string>
   <string name="app_manager_permission_manager_title">Permissions</string>
@@ -872,8 +869,6 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_card_consume_power_summary1">More than 5 apps are allowed to autostart. Restrict to save battery.</string>
   <string name="first_aid_card_consume_power_summary2">Turn off portable hotspot to save battery</string>
   <string name="first_aid_card_consume_power_title">Battery usage</string>
-  <string name="first_aid_card_float_window_button">Restrict</string>
-  <string name="first_aid_card_float_window_title">You allowed floating notifications</string>
   <string name="first_aid_card_kadun_button1">Free up space</string>
   <string name="first_aid_card_kadun_button2">Restrict</string>
   <string name="first_aid_card_kadun_button3">Turn off</string>
@@ -1886,7 +1881,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="quick_optimize_suggest_battery_consume_too_fast">The phone is draining battery, fix it</string>
   <string name="quick_optimize_suggest_battery_over_heat">The phone is overheating, fix it</string>
   <string name="quite_all_string">Cancel</string>
-  <string name="random_expression">随机表情</string>
+  <string name="random_expression">速抢模式</string>
   <string name="reach_daily_limit_value_body">Reduce your mobile data usage.</string>
   <string name="reach_daily_limit_value_title">Daily data limit reached</string>
   <string name="read_all_sms">Read all</string>

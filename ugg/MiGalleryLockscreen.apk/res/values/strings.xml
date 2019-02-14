@@ -162,6 +162,7 @@
   <string name="favor_list_no_data">No items here.</string>
   <string name="favor_list_title">Favorites</string>
   <string name="favor_success">Added to favorites successfully</string>
+  <string name="feed_article_entrance_about">About \"%s\"</string>
   <string name="find_psw">Forgot password</string>
   <string name="fixable_behavior">com.mfashiongallery.emag.app.detail.ui.FixableAppBarLayoutBehavior</string>
   <string name="from_migallerylockscreen">From Mi Wallpaper Carousel</string>
@@ -206,6 +207,7 @@
   <string name="mode_des">Wallpaper Carousel is showing recommendations now. Switch to the slideshow to be able to view your custom items.</string>
   <string name="mode_ok">Switch to slideshow</string>
   <string name="mode_title">Showing recommendations</string>
+  <string name="more_article">More articles</string>
   <string name="need_open_gallery">Turn on Wallpaper Carousel</string>
   <string name="nick_name">Name</string>
   <string name="no_long_show">"Don't show again"</string>
@@ -288,6 +290,8 @@
   <string name="rv_with_footer_pull_load_more">Pull down to view more</string>
   <string name="save_hdpicture_in_favor">View HD images in \"Favorites\"</string>
   <string name="save_picture_success">Saved successfully</string>
+  <string name="save_to_album">Saved to Gallery successfully</string>
+  <string name="save_to_album_fail">"Couldn't save"</string>
   <string name="scribe_btn_ok">Subscribe</string>
   <string name="scribe_title1">Subscribe to Wallpaper Carousel</string>
   <string name="search">Search</string>
@@ -320,11 +324,14 @@
   <string name="sst_custom_wallpaper_desc">Select images from Gallery and recommendations</string>
   <string name="sst_custom_wallpaper_title">Custom slideshow</string>
   <string name="sst_custom_wallpaper_title2">Slideshow</string>
+  <string name="sst_effect_next_wallpaper">Set a new wallpaper to apply changes</string>
   <string name="sst_favor_desc">View favorite wallpapers</string>
   <string name="sst_favor_title">Favorites</string>
   <string name="sst_feedback_title">Feedback</string>
   <string name="sst_grid_view_select_all">Select all</string>
   <string name="sst_grid_view_unselect_all">Deselect all</string>
+  <string name="sst_lockscreen_show_headline_desc">"Show wallpaper's title under the clock on the Lock screen"</string>
+  <string name="sst_lockscreen_show_headline_title">Show title on Lock screen</string>
   <string name="sst_logo_desc">Fresh wallpapers daily</string>
   <string name="sst_mode_selection">Mode</string>
   <string name="sst_more_subscription">More subscriptions</string>
@@ -373,6 +380,7 @@
   <string name="ticket_hint">Verification code</string>
   <string name="ticket_invalid">The code you entered is incorrect</string>
   <string name="ticket_sign_in">Sign in via SMS</string>
+  <string name="time_current">Just now</string>
   <string name="toast_ad_down_tip">Downloading app…</string>
   <string name="toast_ad_down_tip2">Downloading %s…</string>
   <string name="toast_load_hd_fail">"Couldn't load original image"</string>
