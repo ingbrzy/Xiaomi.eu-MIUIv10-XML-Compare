@@ -18,6 +18,7 @@
   <string name="activity_find_city_dialog_cancel">Cancel</string>
   <string name="activity_find_city_dialog_message">Allow Weather to access your location to get accurate location info.</string>
   <string name="activity_find_city_dialog_message_global">Turn on location services and allow your device to determine location using wireless networks.</string>
+  <string name="activity_find_city_dialog_message_location_service">To get relevant weather info, allow Weather to access your location.</string>
   <string name="activity_find_city_dialog_set">Settings</string>
   <string name="activity_find_city_dialog_title">Location access</string>
   <string name="activity_main_clickable">&gt;</string>
