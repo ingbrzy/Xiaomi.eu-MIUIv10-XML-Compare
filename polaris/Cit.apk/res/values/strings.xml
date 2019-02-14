@@ -490,6 +490,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tof_sensor_check_summary">Values for TOF should appear below</string>
   <string name="cit_tof_sensor_check_title">TofSensor</string>
   <string name="cit_tool">Additional tools</string>
+  <string name="cit_tool_active_mbn">active</string>
   <string name="cit_tool_asdiv_ant_pos_setting">set ant position</string>
   <string name="cit_tool_asdiv_get_result_band_title">Current ant band</string>
   <string name="cit_tool_asdiv_get_result_carrier_title">Current ant carrier cell</string>
@@ -617,6 +618,8 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_enable_3A_log">Enable 3A log Switch</string>
   <string name="cit_tool_enable_display_3A_log">Enable Display 3A log</string>
   <string name="cit_tool_exit_modem_mbn">Restore to auto MBN</string>
+  <string name="cit_tool_getting_expired">Getting Expired!</string>
+  <string name="cit_tool_getting_wait">Getting! PLS wait</string>
   <string name="cit_tool_log">Get logs</string>
   <string name="cit_tool_log_bugreport">Bug report</string>
   <string name="cit_tool_log_dmesg">DMESG</string>
@@ -629,10 +632,17 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_log_ril">RIL log</string>
   <string name="cit_tool_log_toast">Log saved to %s</string>
   <string name="cit_tool_log_toast_generate_bugreport">Creating bug report… (this takes about 1 minute)</string>
+  <string name="cit_tool_mbn_default_notfiy">default MBN</string>
+  <string name="cit_tool_mbn_no_default_notfiy">No default MBN</string>
+  <string name="cit_tool_mbn_path_select_hit">select the full path of mbn:</string>
+  <string name="cit_tool_mbn_path_select_notice">not find above? search here? As for mcfg, ct, eps ... etc</string>
+  <string name="cit_tool_mbn_recovery_default">Recovery default MBN</string>
   <string name="cit_tool_modem">MODEM test tools</string>
   <string name="cit_tool_modem_bugreport">Force MODEM Coredump</string>
+  <string name="cit_tool_modem_clear_empty">clear</string>
   <string name="cit_tool_modem_exit_ftm">Exit FTM mode</string>
   <string name="cit_tool_modem_mbn">Change Modem Config</string>
+  <string name="cit_tool_modem_mbn_config_load_and_active">MBN config loading and activing tool</string>
   <string name="cit_tool_modem_offline_log">Open/Close Offline Log</string>
   <string name="cit_tool_modem_rf_ant_test">Modem rf ant Test Setting</string>
   <string name="cit_tool_modem_test_clr">close gpio test</string>
@@ -651,6 +661,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_nfc_st_stop">Stop</string>
   <string name="cit_tool_no_repeat">No repetition!</string>
   <string name="cit_tool_not_support">Not Supported</string>
+  <string name="cit_tool_opt_fail_info_notify">Opt failed, Pls reboot phone to try it again.</string>
   <string name="cit_tool_prx_drx">PRx+DRx</string>
   <string name="cit_tool_prx_drx_select_mode">Select Mode:</string>
   <string name="cit_tool_prx_drx_select_rat">Select RAT:</string>
@@ -662,7 +673,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_select_none">Select None</string>
   <string name="cit_tool_select_opposite">Select Opposite</string>
   <string name="cit_tool_setting_expired">Setting Expired, pls retry!</string>
-  <string name="cit_tool_setting_wait">Setting! PLS wait(5s)</string>
+  <string name="cit_tool_setting_wait">Setting! PLS wait</string>
   <string name="cit_tool_switch_autosms">Enable/Disable AutoSMSReg</string>
   <string name="cit_tool_to_fetching">to fetch</string>
   <string name="cit_tool_wifi">WLAN test tool</string>
