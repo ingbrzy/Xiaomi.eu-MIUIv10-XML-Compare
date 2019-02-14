@@ -133,6 +133,10 @@
   <string name="notelist_string_info">…</string>
   <string name="notify_alarm_title">Note reminder</string>
   <string name="permdesc_accessNote">Malicious apps may use this to access your personal data.</string>
+  <string name="permission_intro_contact">For marking notes taken during calls</string>
+  <string name="permission_intro_microphone">For recording voice notes</string>
+  <string name="permission_intro_phone">For marking notes taken during calls</string>
+  <string name="permission_intro_storage">For saving notes and attachments</string>
   <string name="permlab_accessNote">Access notes</string>
   <string name="pref_desc_skip_confirm_for_quick_delete">"Don't ask for confirmation when deleting a note using gesture"</string>
   <string name="pref_title_cloud_trash_bin">Deleted notes in Mi Cloud</string>
