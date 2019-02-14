@@ -1209,7 +1209,7 @@
         <item>green</item>
         <item>cyan</item>
         <item>white</item>
-        <item>\#FFAA00AA</item>
+        <item>magenta</item>
     </string-array>
     <string-array name="mi1_led_color_values">
         <item>blue</item>
@@ -1217,14 +1217,14 @@
         <item>green</item>
         <item>\#FFFF0033</item>
         <item>\#FF5500FF</item>
-        <item>\#FFAA00AA</item>
+        <item>magenta</item>
     </string-array>
     <string-array name="mi1_led_color_entries">
         <item>Blue</item>
         <item>Red</item>
         <item>Green</item>
         <item>Pink</item>
-        <item>Violet</item>
+        <item>Magenta</item>
         <item>Purple</item>
     </string-array>
     <string-array name="led_color_entries">
@@ -1234,7 +1234,7 @@
         <item>Green</item>
         <item>Cyan</item>
         <item>White</item>
-        <item>Violet</item>
+        <item>Magenta</item>
     </string-array>
     <string-array name="always_enabled_app_list">
         <item>com.android.providers.applications</item>
@@ -1676,9 +1676,9 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>COLD</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
-        <item>4.5 inches</item>
-        <item>4.0 inches</item>
-        <item>3.5 inches</item>
+        <item>4.5\u2033</item>
+        <item>4.0\u2033</item>
+        <item>3.5\u2033</item>
     </string-array>
     <string-array name="handy_mode_size_value_entries">
         <item>4.5</item>

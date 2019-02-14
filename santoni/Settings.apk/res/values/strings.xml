@@ -2049,6 +2049,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="inactive_app_active_summary">Active. Tap to toggle.</string>
   <string name="inactive_app_inactive_summary">Inactive. Tap to toggle.</string>
   <string name="inactive_apps_title">Inactive apps</string>
+  <string name="incall_show">Profile video for outgoing calls</string>
   <string name="include_app_data_title">Include app data</string>
   <string name="incoming_call_breathing_light_color_title">Calls light color</string>
   <string name="incoming_call_breathing_light_freq_title">Calls pulse frequency</string>
