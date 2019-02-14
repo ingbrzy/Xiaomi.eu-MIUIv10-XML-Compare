@@ -4,6 +4,11 @@
         <item>Boy</item>
         <item>Girl</item>
     </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Move</item>
+        <item>Copy</item>
+        <item>@string/cancel</item>
+    </string-array>
     <string-array name="owner_relation">
         <item>Father</item>
         <item>Mother</item>
@@ -82,6 +87,12 @@
         <item>Last November</item>
         <item>Last December</item>
     </string-array>
+    <string-array name="season_last_year">
+        <item>Last spring</item>
+        <item>Last summer</item>
+        <item>Last autumn</item>
+        <item>Last winter</item>
+    </string-array>
     <string-array name="month_past_year">
         <item>January memories</item>
         <item>February memories</item>
@@ -95,12 +106,6 @@
         <item>October memories</item>
         <item>November memories</item>
         <item>December memories</item>
-    </string-array>
-    <string-array name="season_last_year">
-        <item>Last spring</item>
-        <item>Last summer</item>
-        <item>Last autumn</item>
-        <item>Last winter</item>
     </string-array>
     <string-array name="season_past_year">
         <item>Spring memories</item>
