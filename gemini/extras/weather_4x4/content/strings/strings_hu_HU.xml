@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">Érintse meg az időjárásadatok eléréséhez</string>
     <string name="date_format">MMMM d, EEEE</string>
     <string name="today">Ma</string>
     <string name="tomorrow">Holnap</string>

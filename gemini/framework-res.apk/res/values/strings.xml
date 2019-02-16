@@ -1122,8 +1122,8 @@ Try again in %2$d seconds."</string>
   <string name="permdesc_requestInstallPackages">Allows an application to request installation of packages.</string>
   <string name="permdesc_route_media_output">Allows an application to route media output to other external devices.</string>
   <string name="permdesc_runInBackground">This app can run in the background. This may drain battery faster.</string>
-  <string name="permdesc_sdcardRead">Allows the app to read the contents of your USB storage.</string>
-  <string name="permdesc_sdcardWrite">Allows the app to write to the USB storage.</string>
+  <string name="permdesc_sdcardRead">Allows the app to read the contents of your SD card.</string>
+  <string name="permdesc_sdcardWrite">Allows the app to write to the SD card.</string>
   <string name="permdesc_sendSms">Allows the app to send SMS messages. This may result in unexpected charges. Malicious apps may cost you money by sending messages without your confirmation.</string>
   <string name="permdesc_setAlarm">Allows the app to set an alarm in an installed alarm clock app. Some alarm clock apps may not implement this feature.</string>
   <string name="permdesc_setInputCalibration">Allows the app to modify the calibration parameters of the touch screen. Should never be needed for normal apps.</string>
@@ -1250,8 +1250,8 @@ for account %s."</string>
   <string name="permlab_requestInstallPackages">request install packages</string>
   <string name="permlab_route_media_output">route media output</string>
   <string name="permlab_runInBackground">run in the background</string>
-  <string name="permlab_sdcardRead">read the contents of your USB storage</string>
-  <string name="permlab_sdcardWrite">modify or delete the contents of your USB storage</string>
+  <string name="permlab_sdcardRead">read the contents of your SD card</string>
+  <string name="permlab_sdcardWrite">modify or delete the contents of your SD card</string>
   <string name="permlab_sendSms">send and view SMS messages</string>
   <string name="permlab_setAlarm">set an alarm</string>
   <string name="permlab_setInputCalibration">change input device calibration</string>
@@ -1339,7 +1339,7 @@ for account %s."</string>
   <string name="print_service_installed_title">%s service installed</string>
   <string name="profile_encrypted_detail">Work profile locked</string>
   <string name="profile_encrypted_message">Tap to unlock work profile</string>
-  <string name="progress_erasing">Erasing USB storage…</string>
+  <string name="progress_erasing">Erasing SD card…</string>
   <string name="prohibit_manual_network_selection_in_gobal_mode">false</string>
   <string name="quick_contacts_not_available">No application found to view this contact.</string>
   <string name="radial_numbers_typeface">sans-serif</string>
@@ -1616,13 +1616,13 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="usb_ptp_notification_title">USB for photo transfer</string>
   <string name="usb_storage_activity_title">USB mass storage</string>
   <string name="usb_storage_button_mount">Turn on USB storage</string>
-  <string name="usb_storage_error_message">"There's a problem using your USB storage for USB mass storage."</string>
-  <string name="usb_storage_message">"You've connected to your computer via USB. Touch the button below if you want to copy files between your computer and your Android's USB storage."</string>
+  <string name="usb_storage_error_message">"There's a problem using your SD card for USB mass storage."</string>
+  <string name="usb_storage_message">"You've connected to your computer via USB. Touch the button below if you want to copy files between your computer and your Android's SD card."</string>
   <string name="usb_storage_notification_message">Touch to copy files to/from your computer.</string>
   <string name="usb_storage_notification_title">USB connected</string>
   <string name="usb_storage_stop_button_mount">Turn off USB storage</string>
   <string name="usb_storage_stop_error_message">"There was a problem turning off USB storage. Check that you've unmounted the USB host, then try again."</string>
-  <string name="usb_storage_stop_message">"Before turning off USB storage, unmount (\"eject\") your Android's USB storage from your computer."</string>
+  <string name="usb_storage_stop_message">"Before turning off USB storage, unmount (\"eject\") your Android's SD card from your computer."</string>
   <string name="usb_storage_stop_notification_message">Touch to turn off USB storage.</string>
   <string name="usb_storage_stop_notification_title">Turn off USB storage</string>
   <string name="usb_storage_stop_title">USB storage in use</string>

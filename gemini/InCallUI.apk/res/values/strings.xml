@@ -32,6 +32,7 @@
   <string name="call_button_tools_text">Features</string>
   <string name="call_contacts_deny_permission_msg">"You denied read contacts permission, can't show contacts info."</string>
   <string name="call_description_recording">Recording…</string>
+  <string name="call_not_support_high_frequency_click">"Don't tap this button so frequently"</string>
   <string name="call_record_wait_label">Waiting</string>
   <string name="call_recording_deny_permission_msg">"You denied record permission, can't record."</string>
   <string name="call_recording_error_low_storage">Not enough space on storage.</string>
@@ -195,6 +196,7 @@
   <string name="sim1_description">SIM1</string>
   <string name="sim2_description">SIM2</string>
   <string name="sip_call_not_support_record">"Can't record SIP calls"</string>
+  <string name="supp_service_notification_call_waiting">The number you dialed is busy. Please hold…</string>
   <string name="suspect_info">Be careful with your personal information.</string>
   <string name="unknown">Unknown</string>
   <string name="unlock_phone">Unlock device</string>
