@@ -1120,6 +1120,9 @@
         <item>natrium</item>
         <item>vince</item>
         <item>perseus</item>
+        <item>lavender</item>
+        <item>lotus</item>
+        <item>onc</item>
     </string-array>
     <string-array name="device_global_support_face_facejiajia">
         <item>whyred</item>
@@ -1138,6 +1141,8 @@
         <item>sakura_india</item>
         <item>equuleus</item>
         <item>perseus</item>
+        <item>onc</item>
+        <item>lavender</item>
     </string-array>
     <string-array name="device_use_cameraone">
         <item>jason</item>
@@ -1158,6 +1163,9 @@
         <item>tulip</item>
         <item>natrium</item>
         <item>sakura_india</item>
+        <item>onc</item>
+        <item>lavender</item>
+        <item>lotus</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
@@ -1168,19 +1176,10 @@
         <item>equuleus</item>
         <item>perseus</item>
     </string-array>
-    <string-array name="device_support_pickup_by_xiaomi">
-        <item>polaris</item>
-        <item>dipper</item>
-        <item>sirius</item>
-        <item>ursa</item>
-        <item>beryllium</item>
-        <item>perseus</item>
-        <item>equuleus</item>
-    </string-array>
-    <string-array name="device_support_new_pickup_by_xiaomi">
-        <item>jason</item>
-        <item>nitrogen</item>
-        <item>platina</item>
+    <string-array name="device_support_pickup_by_MTK">
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>lotus</item>
     </string-array>
     <string-array name="device_support_screen_on_delayed">
         <item>dipper</item>
@@ -1191,6 +1190,9 @@
         <item>nitrogen</item>
         <item>whyred</item>
         <item>equuleus</item>
+        <item>perseus</item>
+        <item>platina</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="lockscreen_sc_slide_not_open_camera">
         <item>com.android.camera</item>

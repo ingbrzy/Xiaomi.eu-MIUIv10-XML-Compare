@@ -13,6 +13,8 @@
   <string name="btn_share">Share</string>
   <string name="btn_stop">Stop</string>
   <string name="btn_yes">Yes</string>
+  <string name="channel_downloading">Downloading progress</string>
+  <string name="channel_update">New version available</string>
   <string name="check_new_version">Check</string>
   <string name="chengelog">%1$s</string>
   <string name="dialog_3g_desc">Be aware that using Mobile Data to download ROMs might take significant quota of your packet.</string>
@@ -21,6 +23,7 @@
   <string name="dialog_btn_wifi">Switch to Wi-Fi</string>
   <string name="dialog_stop_desc">You can either Pause or Stop downloading, make your choice now.</string>
   <string name="dialog_stop_title">Stop Download?</string>
+  <string name="dialog_twrp">Your internal storage is encrypted. After device is rebooted to recovery, please enter your device unlock password to continue.</string>
   <string name="download_done">Successfully downloaded!</string>
   <string name="download_fail">Error while downloading!</string>
   <string name="download_fail_desc">MD5 Sum does not match…</string>
@@ -54,6 +57,7 @@ Updates are not available for you!"</string>
   <string name="pick_title">Pick using:</string>
   <string name="recovery_desc">Device will reboot to Recover mode now if you are not familiar with the mode cancel future actions. Continue?</string>
   <string name="server_error">Server not responding, application might not work properly!</string>
+  <string name="share_desc">Your MIUI version has been updated to %1$s, check latest changelog at: %2$s</string>
   <string name="share_title">Share with</string>
   <string name="stable">stable</string>
   <string name="status_bar_notification_info_overflow">999+</string>
