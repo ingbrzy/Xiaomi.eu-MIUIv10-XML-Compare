@@ -74,9 +74,10 @@ and optimizes your photos based on this info"</string>
   <string name="ai_scene_top_moon_off">Low light mode</string>
   <string name="ai_scene_top_tip">Moon mode</string>
   <string name="app_name">algoengine</string>
-  <string name="autozoom_click_hint">请单击选择跟拍主体,三米外效果最佳</string>
-  <string name="autozoom_disabled_hint">运动跟拍已关闭</string>
-  <string name="autozoom_hint">运动跟拍</string>
+  <string name="autozoom_click_hint">Tap an object to start tracking. Stay at least 3 meters away for best effect.</string>
+  <string name="autozoom_disabled_hint">Stopped tracking moving object</string>
+  <string name="autozoom_hint">Track moving object</string>
+  <string name="autozoom_landscape_hint">建议横屏下拍摄</string>
   <string name="beauty_body">Figure</string>
   <string name="beauty_body_body">Slender</string>
   <string name="beauty_body_head">Head</string>
@@ -117,7 +118,7 @@ and optimizes your photos based on this info"</string>
   <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your device."</string>
   <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
-  <string name="capture_back_pressed_hint">Touch again to exit</string>
+  <string name="capture_back_pressed_hint">Tap again to exit</string>
   <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="color_effect_entry_berry">Berries</string>
@@ -233,6 +234,7 @@ Clean the lens for better effect."</string>
   <string name="lighting_hint_usage">"You can use studio lighting effects
 in Portrait mode"</string>
   <string name="lighting_pattern_dot">Dots</string>
+  <string name="lighting_pattern_holi">Holi</string>
   <string name="lighting_pattern_leaf">Leaves</string>
   <string name="lighting_pattern_movie">Movie</string>
   <string name="lighting_pattern_nature">Natural</string>
@@ -456,6 +458,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_portrait_with_facebeauty_title">Beautify in Portrait mode</string>
   <string name="pref_camera_proximity_lock_summary">Lock touch gestures when placed in a pocket</string>
   <string name="pref_camera_proximity_lock_title">Pocket mode</string>
+  <string name="pref_camera_quick_shot_anim_enable_title">Turn on quick shot animation</string>
+  <string name="pref_camera_quick_shot_enable_title">Turn on quick shot</string>
   <string name="pref_camera_recordlocation_default">false</string>
   <string name="pref_camera_recordlocation_title">Save location info</string>
   <string name="pref_camera_referenceline_title">Show gridlines</string>
@@ -613,7 +617,7 @@ and brings out the people in the front."</string>
   <string name="pref_video_volumekey_function_default">shutter</string>
   <string name="preparing_sd">Checking SD card…</string>
   <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
-  <string name="record_back_pressed_hint">Touch again to stop recording</string>
+  <string name="record_back_pressed_hint">Tap again to stop recording</string>
   <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
   <string name="screen_on_proximity_sensor_summary">"Don't cover the earphone area"</string>
   <string name="search_settings">Camera settings;Quality;Image quality;Image location;Picture location;Face detection;Camera sound</string>
@@ -625,7 +629,7 @@ and brings out the people in the front."</string>
   <string name="start_capture">OK</string>
   <string name="sticker_tab1">Cute</string>
   <string name="sticker_tab2">Funny</string>
-  <string name="super_night_toast">Taking a photo, please hold your phone</string>
+  <string name="super_night_toast">Keep your phone steady while taking a photo</string>
   <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
   <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
   <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
