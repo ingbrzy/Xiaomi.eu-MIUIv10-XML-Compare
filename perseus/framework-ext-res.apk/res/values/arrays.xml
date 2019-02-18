@@ -62,6 +62,8 @@
     <string-array name="process_secretly_protect_list">
         <item>com.tencent.mm</item>
         <item>com.google.android.gms</item>
+        <item>com.xiaomi.channel</item>
+        <item>com.xiaomi.channel:remote</item>
     </string-array>
     <string-array name="process_fg_service_check_list">
         <item>com.miui.screenrecorder</item>
@@ -1377,6 +1379,9 @@
         <item>20811</item>
         <item>20813</item>
         <item>22210</item>
+        <item>23402</item>
+        <item>23410</item>
+        <item>23411</item>
         <item>26202</item>
         <item>26209</item>
         <item>26801</item>
