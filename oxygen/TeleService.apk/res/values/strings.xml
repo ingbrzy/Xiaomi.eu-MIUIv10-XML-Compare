@@ -1755,7 +1755,7 @@ Emergency calls are only possible in areas with mobile network coverage."</strin
   <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
   <string name="wifi_verbose_logging">Enable WLAN Verbose Logging</string>
   <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show per SSID RSSI in WLAN Picker</string>
-  <string name="wificall_switch_summary">Your device will switch between WLAN and VoLTE when connection is poor</string>
+  <string name="wificall_switch_summary">Use WLAN to make and receive calls whenever possible</string>
   <string name="wificall_switch_title">Make calls using WLAN</string>
   <string name="wild_prompt_str">Replace wild character with</string>
   <string name="window_animation_scale_title">Window animation scale</string>
