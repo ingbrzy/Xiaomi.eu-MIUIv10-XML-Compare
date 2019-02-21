@@ -78,6 +78,7 @@ and optimizes your photos based on this info"</string>
   <string name="autozoom_click_hint">Tap an object to start tracking. Stay at least 3 meters away for best effect.</string>
   <string name="autozoom_disabled_hint">Stopped tracking moving object</string>
   <string name="autozoom_hint">Track moving object</string>
+  <string name="autozoom_landscape_hint">Shoot in landscape mode for best effect</string>
   <string name="back_bokeh_use_hint">Keep your subject within 1.5 meters for best effect</string>
   <string name="beauty_body">Figure</string>
   <string name="beauty_body_body">Slender</string>
@@ -115,6 +116,7 @@ and optimizes your photos based on this info"</string>
   <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your device."</string>
   <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
+  <string name="capture_back_pressed_hint">Tap again to exit</string>
   <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="color_effect_entry_berry">Berries</string>
@@ -845,6 +847,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="start_capture">OK</string>
   <string name="sticker_tab1">Cute</string>
   <string name="sticker_tab2">Funny</string>
+  <string name="super_night_toast">Keep your phone steady while taking a photo</string>
   <string name="tap_to_exposure">Tap to adjust exposure manually</string>
   <string name="tap_to_focus">Tap to focus</string>
   <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
