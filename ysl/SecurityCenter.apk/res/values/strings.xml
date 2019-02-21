@@ -2001,7 +2001,6 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="settings_category_overheat">Heating</string>
   <string name="settings_choice_no_notification">Off</string>
   <string name="settings_power_save_ontime_title">Schedule</string>
-  <string name="shake_send_sticker">摇一摇发表情</string>
   <string name="shake_send_sticker_summary">在微信与QQ中，摇一摇随机出现搞笑表情。逢年过节拼表情，从此易如反掌！</string>
   <string name="shield_keyboard_detail">Double tap the buttons to turn them back on</string>
   <string name="shield_keyboard_title">Turn off buttons</string>
