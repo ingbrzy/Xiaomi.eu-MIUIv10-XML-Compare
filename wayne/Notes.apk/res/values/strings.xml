@@ -220,6 +220,14 @@
   <string name="toast_reach_text_limit_truncate">This note is too long. Some text has been cut off of the end.</string>
   <string name="toast_refuse_to_record_when_in_call">"Can't use this feature during calls"</string>
   <string name="toast_refuse_to_record_when_in_multi_window">"Can't use this feature with Split screen"</string>
+  <string name="toast_refuse_to_use_contact">"Contacts permissions are restricted.
+Allow Notes to read your contacts and find accounts on the device."</string>
+  <string name="toast_refuse_to_use_external_storage">"Storage permissions are restricted.
+Allow Notes to read the contents of your SD card."</string>
+  <string name="toast_refuse_to_use_phone_state">"Phone permissions are restricted.
+Allow Notes to read phone status and identity."</string>
+  <string name="toast_refuse_to_use_record_audio">"Microphone permissions are restricted.
+Allow Notes to record audio."</string>
   <string name="toolbar_check_description">Add checkbox</string>
   <string name="toolbar_delete_description">Delete this note</string>
   <string name="toolbar_gallery_description">Add image</string>
