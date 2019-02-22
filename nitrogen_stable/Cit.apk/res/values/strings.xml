@@ -29,6 +29,16 @@
   <string name="abc_font_family_menu_material">sans-serif</string>
   <string name="abc_font_family_subhead_material">sans-serif</string>
   <string name="abc_font_family_title_material">sans-serif-medium</string>
+  <string name="abc_menu_alt_shortcut_label">Alt+</string>
+  <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+  <string name="abc_menu_delete_shortcut_label">delete</string>
+  <string name="abc_menu_enter_shortcut_label">enter</string>
+  <string name="abc_menu_function_shortcut_label">Function+</string>
+  <string name="abc_menu_meta_shortcut_label">Meta+</string>
+  <string name="abc_menu_shift_shortcut_label">Shift+</string>
+  <string name="abc_menu_space_shortcut_label">space</string>
+  <string name="abc_menu_sym_shortcut_label">Sym+</string>
+  <string name="abc_prepend_shortcut_label">Menu+</string>
   <string name="abc_search_hint">Search…</string>
   <string name="abc_searchview_description_clear">Clear query</string>
   <string name="abc_searchview_description_query">Search query</string>
@@ -87,11 +97,14 @@
   <string name="camera_capture">Capture</string>
   <string name="camera_done">Done</string>
   <string name="camera_error">"This device doesn't support Camera2 API."</string>
+  <string name="camera_flood">- Flood -</string>
   <string name="camera_menu_list">CameraList</string>
   <string name="camera_not_support_raw10">The camera not support raw10 picture format!</string>
   <string name="camera_preview">preview</string>
+  <string name="camera_projector">- Projector -</string>
   <string name="camera_zoom">Zoom</string>
   <string name="camerainfo">Camera information</string>
+  <string name="can_not_get_numbers_of_keys">can not get numbers of keys</string>
   <string name="cancel">Cancel</string>
   <string name="cancelEnrol">CancelEnrol</string>
   <string name="cancel_test">TEST CANCELED</string>
@@ -130,12 +143,16 @@ Before you calibrate the device, place it on a flat surface."</string>
   <string name="cit_audio_cali_TEMP">Temp:</string>
   <string name="cit_audio_cali_done">Calibration Done!</string>
   <string name="cit_audio_cali_failed">Calibration Failed, please Retry!</string>
+  <string name="cit_audio_cali_fast_test_title">Speaker amplifier calibration fast test</string>
   <string name="cit_audio_cali_file_existed">Music file do not exist,can not do calibration!</string>
   <string name="cit_audio_cali_playing">Check Calibrated Data</string>
   <string name="cit_audio_cali_q">Q:</string>
   <string name="cit_audio_cali_summary">Calibrate Speaker PA</string>
   <string name="cit_audio_cali_t0">T0:</string>
   <string name="cit_audio_cali_title">Speaker PA Calibration Test</string>
+  <string name="cit_audio_cali_valueF0">F0：</string>
+  <string name="cit_audio_cali_valueR">Ref_diff：</string>
+  <string name="cit_audio_cali_valueT">Temp_acc：</string>
   <string name="cit_audio_calibrating">Calibration is ongoing...</string>
   <string name="cit_audio_get_temp_fail">Get temp data Failed!</string>
   <string name="cit_audio_lb_backmic_to_speaker_title">Back mic speaker feedback test</string>
@@ -228,8 +245,10 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
 
 1.Tap the calibration button below to start OIS calibration.
 2.There will be a calibration pass label to indicate the ois has been calibrated"</string>
+  <string name="cit_camera_fast_check_title">Camera fast test</string>
   <string name="cit_camera_sdcard_error">"Can't take photo. SD card is full."</string>
   <string name="cit_charger_check_title">Charger Test</string>
+  <string name="cit_charger_in">Charger connected</string>
   <string name="cit_charger_in_check_title">Charger insertion test</string>
   <string name="cit_charger_plugin_check_summary">When USB charger is connected the text \"Charging via USB/AC\" should be displayed below.</string>
   <string name="cit_charger_plugin_check_title">Charger (connect)</string>
@@ -237,20 +256,28 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
   <string name="cit_charger_plugout_check_title">Charger (disconnect)</string>
   <string name="cit_charger_test_summary">"During the Charger test, please forward plug in the charger
 and reverse plug in the charger"</string>
+  <string name="cit_charger_test_tips_electric">Current project needs to test charging current value greater than 1A</string>
+  <string name="cit_charger_test_tips_hvdcp">Current project needs to test USB_HVDCP</string>
   <string name="cit_charger_waiting_in">Connect charger</string>
   <string name="cit_charger_waiting_out">Disconnect charger now</string>
   <string name="cit_def_torch_on_one">Turn on the first flash</string>
   <string name="cit_def_torch_on_three">Turn on the third flash</string>
   <string name="cit_def_torch_on_two">Turn on the second flash</string>
+  <string name="cit_diag_chaging_summary">Copy charge logger files to sdcard</string>
+  <string name="cit_diag_chaging_title">Read charge logger</string>
+  <string name="cit_diag_chaging_wait">Please wait... Copying files</string>
   <string name="cit_dial_emergencycall">Dial 112</string>
   <string name="cit_display_check_summary">Confirm that the colors are consistently displayed across the whole screen. Make sure there are no irregular bright spots and dark spots.</string>
   <string name="cit_display_check_title">Display</string>
   <string name="cit_display_continue">Touch screen to begin test</string>
+  <string name="cit_display_test_end">Finish test</string>
+  <string name="cit_display_test_next">Next</string>
   <string name="cit_emergencycall_check_summary">Please click Dial 112 button to dial 112 to check if 112 can be placed.</string>
   <string name="cit_emergencycall_check_title">Emergency Call</string>
   <string name="cit_exit_test_summary">When you exit, all related text data will be erased.</string>
   <string name="cit_exit_test_title">Exit test</string>
   <string name="cit_fail">Fail</string>
+  <string name="cit_fast_screen_touch_check_title">Fast touch screen check test</string>
   <string name="cit_finger_check_title">Finger Print Test</string>
   <string name="cit_flash_life_check_summary">Device flash life time estimation</string>
   <string name="cit_flash_life_check_title">Flash life</string>
@@ -277,8 +304,10 @@ Before test you have to insert the headset"</string>
 1.Tap the Camera button below to enter front Camera interface
 2.Tap the shutter button
 3.System will save the photo automatically after capture
-4.The photo you took must be displayed on the screen, Tap Delete to complete the test."</string>
+4.The photo you took must be displayed on the screen, Tap Pass to complete the test."</string>
   <string name="cit_front_camera_check_title">Front camera</string>
+  <string name="cit_front_rear_dual_camera_check_title">Front rear dual camera</string>
+  <string name="cit_front_rear_sub_camera_check_title">Front rear sub camera</string>
   <string name="cit_get_signature_failed">get signature FAILED</string>
   <string name="cit_goodix_sensor_check_summary">Goodix sensor test, press the button and wait for the pass info highlighted in green is correct.</string>
   <string name="cit_goodix_sensor_check_title">Goodix fingerprint sensor</string>
@@ -300,6 +329,8 @@ Touch the screen to start GPS…"</string>
   <string name="cit_hall_far">far</string>
   <string name="cit_hall_miui_test_summary">When a magnet is close to the green area, the black screen, otherwise the screen is bright screen.</string>
   <string name="cit_hall_near">near</string>
+  <string name="cit_hall_phone_slider_status_down">Phone sliding status: slide down</string>
+  <string name="cit_hall_phone_slider_status_up">Phone sliding status: slide up</string>
   <string name="cit_hall_test_summary">When a magnet cloase to the green area,the text should turn to near,otherwise the text should be far.</string>
   <string name="cit_hall_test_title">Hall</string>
   <string name="cit_hd_full">Cit Full Test</string>
@@ -326,13 +357,16 @@ Touch the screen to start GPS…"</string>
   <string name="cit_headset_pull_detect_summary">When headphones are disconnected, the text \"Headphones have been disconnected\" should be displayed below</string>
   <string name="cit_headset_pull_detect_title">Headphone detection (disconnect)</string>
   <string name="cit_headset_pull_finish">Headphones have been disconnected</string>
+  <string name="cit_headset_pull_finish_test">Disconnected headphones,finished test</string>
   <string name="cit_headset_pull_hint">Disconnect headphones now</string>
   <string name="cit_hide_menu">Hide menu</string>
+  <string name="cit_hvdcp_charger_in">Charging via (USB_HVDCP)</string>
   <string name="cit_kayboard_home_down">Button: HOME</string>
   <string name="cit_kayboard_power_down">Button: POWER</string>
   <string name="cit_kayboard_volume_down">Button: VOLUME DOWN</string>
   <string name="cit_kayboard_volume_up">Button: VOLUME UP</string>
   <string name="cit_kernal_log_txt">kernel log</string>
+  <string name="cit_keyboard_ai_key">Button: AI_KEY</string>
   <string name="cit_keyboard_back">Button: BACK</string>
   <string name="cit_keyboard_current">Current keyboard: %s</string>
   <string name="cit_keyboard_current_def">Current keyboard:</string>
@@ -359,11 +393,14 @@ Touch the screen to start GPS…"</string>
 1.Tap the Camera button below to enter rear Camera interface
 2.Tap the shutter button
 3.System will save the photo automatically after capture.
-4.The photo you took must be displayed on the screen. Tap Delete to complete the test."</string>
+4.The photo you took must be displayed on the screen. Tap Pass to complete the test."</string>
   <string name="cit_main_camera_check_title">Rear camera</string>
   <string name="cit_name">Hardware tests</string>
   <string name="cit_nfc_check_summary">Please put the card on the top of the back of the phone</string>
   <string name="cit_nfc_check_title">NFC test</string>
+  <string name="cit_nfc_sim_check_summary">Confirm that correct the status and info of the NFC SIM card is displayed below, only two NFC SIM cards simultaneously exist and has correct status can pass</string>
+  <string name="cit_no_sim_check_summary">Confirm the phone has no sim card!</string>
+  <string name="cit_no_sim_check_title">No Sim Card</string>
   <string name="cit_not_available">"This test isn't available on this version of MIUI"</string>
   <string name="cit_notificationlight">Notification light</string>
   <string name="cit_notificationlight_off">Notification light off</string>
@@ -388,13 +425,15 @@ When calibrating, make sure there's nothing between the sensor and your hand (e.
   <string name="cit_proximity_us_sensitivity">Sensitivity:</string>
   <string name="cit_proximity_us_summary">Ultrasound Proximity Sensor Calibration</string>
   <string name="cit_rear_dual_camera_check_title">Rear dual camera</string>
+  <string name="cit_rear_dual_second_camera_check_title">dual second camera</string>
   <string name="cit_rear_sub_camera_check_summary">"Test instructions:
 
 1.Tap the Camera button below to enter rear sub Camera interface
 2.Tap the shutter button
 3.System will save the photo automatically after capture
-4.The photo you took must be displayed on the screen, Tap Delete to complete the test."</string>
+4.The photo you took must be displayed on the screen, Tap Pass to complete the test."</string>
   <string name="cit_rear_sub_camera_check_title">Rear sub camera</string>
+  <string name="cit_rear_sub_second_camera_check_title">rear sub second camera</string>
   <string name="cit_recovery_signature_failed">recovery signature FAILED</string>
   <string name="cit_recovery_signature_passed">recovery signature PASSED</string>
   <string name="cit_reset_check_summary">This test will reboot the device. All previous test data will be lost.</string>
@@ -422,7 +461,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_sd_unmount">Unmount SD card</string>
   <string name="cit_sd_unmount_sucess">SD card unmounted</string>
   <string name="cit_signature_check_label">signature check:</string>
-  <string name="cit_sim_check_summary">Confirm that correct the status and info of the SIM card is displayed below</string>
+  <string name="cit_sim_check_summary">Confirm that correct the status and info of the SIM card is displayed below, only two SIM cards simultaneously exist and has correct status can pass</string>
   <string name="cit_sim_check_title">SIM card</string>
   <string name="cit_sim_error_unknown">Unknown</string>
   <string name="cit_sim_network_operator">Network service provider:</string>
@@ -438,6 +477,9 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_sim_state_puk_required">PUK required</string>
   <string name="cit_sim_state_ready">SIM card ready</string>
   <string name="cit_sim_state_unkown">Unknown</string>
+  <string name="cit_slider_hall_miui_test_summary">Execute a complete phone slide up and slide down operate.</string>
+  <string name="cit_slider_hall_test_summary">Execute a complete phone slide up and slide down operate.</string>
+  <string name="cit_slider_hall_test_title">Slider Hall</string>
   <string name="cit_soft_torch">front soft flash led</string>
   <string name="cit_soft_torch_on">Turn on soft flash light</string>
   <string name="cit_start_calibration">Calibrate</string>
@@ -561,6 +603,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_bluetooth_on">Enable Bluetooth</string>
   <string name="cit_tool_bluetooth_tx_h">Enter Bluetooth BR/EDR 2.480GHz Freq Test Mode</string>
   <string name="cit_tool_bluetooth_tx_l">Enter Bluetooth BR/EDR 2.402GHz Freq Test Mode</string>
+  <string name="cit_tool_bluetooth_tx_m">Enter Bluetooth BR/EDR 2.441GHz Freq Test Mode</string>
   <string name="cit_tool_cal_accelerometer">Acc Calibration Tool</string>
   <string name="cit_tool_cal_camera">Camera Calibration Tool</string>
   <string name="cit_tool_cal_gyroscope">gyro Calibration Tool</string>
@@ -655,6 +698,8 @@ test fail!"</string>
   <string name="cit_usb_charger_out">Charger disconnected</string>
   <string name="cit_version_check_summary">Below is OS version info. Confirm that the info highlighted in green is correct.</string>
   <string name="cit_version_check_title">Check version info</string>
+  <string name="cit_vga_camera_cameraid_fail">Error: cameraid not config</string>
+  <string name="cit_vga_camera_cameralist_fail">Error: cameralist not match</string>
   <string name="cit_vga_camera_capture">Camera</string>
   <string name="cit_vga_camera_capture_fail">Failed to take picture</string>
   <string name="cit_vga_camera_delete">Delete</string>
@@ -739,6 +784,7 @@ test fail!"</string>
   <string name="finger_left_sensor">请将测试头离开模组</string>
   <string name="fingerprint">Fingerprint:</string>
   <string name="fingerprint_enrolling">注册中</string>
+  <string name="fingerprint_input_title">fingerprint input test</string>
   <string name="fingerprint_name">指纹1</string>
   <string name="firstplug_mic_check_record_tip">Stop Record, After you plug in the headset confirm the result</string>
   <string name="fod_check_start_error">"Can not start the sensor check program
@@ -753,6 +799,7 @@ Test failed!"</string>
   <string name="fod_fingerprint_input_title">Fod fingerprint input test</string>
   <string name="fod_pressure_sensor_pressure_data_collection">Pressure data collecting....</string>
   <string name="fod_pressure_sensor_test_exception">Read node file exception</string>
+  <string name="fod_pressure_sensor_test_fail">Test failed, please click the Failure button</string>
   <string name="fod_pressure_sensor_test_pressure_too_big">"Sensor average pressure too big: %1$d 
 test failed,please click the Fail button"</string>
   <string name="fod_pressure_sensor_test_pressure_too_small">"Sensor average pressure too small: %1$d 
@@ -762,6 +809,7 @@ test success, please click the Pass button"</string>
   <string name="fod_pressure_sensor_test_summary">"Put the weight in 
 the specified position"</string>
   <string name="fod_pressure_sensor_test_title">Fod Pressure Sensor Test</string>
+  <string name="fp_fod_calibration">fod fingerprint calibration</string>
   <string name="fpc_app_name">Sensor Test Tool</string>
   <string name="fpc_pn_calibration">Capture and store PN image</string>
   <string name="front_mic_check_record_tip">Recording, please say something to MIC at the front of the phone</string>
@@ -856,7 +904,7 @@ the specified position"</string>
 1.Tap the Camera button below to enter Ir Camera interface
 2.Tap the shutter button
 3.System will save the photo automatically after capture.
-4.The photo you took must be displayed on the screen. Tap Delete to complete the test."</string>
+4.The photo you took must be displayed on the screen. Tap Pass to complete the test."</string>
   <string name="ir_camera_test_summary_preview">"Test instructions:
 
 1.Tap the Preview button below to enter Camera interface
@@ -875,6 +923,7 @@ the specified position"</string>
   <string name="keyboard">KEY</string>
   <string name="keyboard_vibrator_test">Keyboard test</string>
   <string name="keyboard_vibrator_test_old">Keyboard and vibration test</string>
+  <string name="keys_times">Keys Times:</string>
   <string name="lastTestResult">Last Test Result:</string>
   <string name="last_time_test_result">LAST TIME TEST RESULT</string>
   <string name="launcher_d5x_sar_summary">The output data of each channel of the SAR sensor is displayed below. Please reverse the phone to the Sar calibration fixture, click Start calibration, display the calibration PASS, then indicate normal. Please note that the school is on time, and hands are not near the cell phone.</string>
@@ -969,6 +1018,7 @@ the specified position"</string>
   <string name="over_saturated_pixel_num">上饱和点个数:</string>
   <string name="overlay">跟上一张重复:</string>
   <string name="pass">Pass</string>
+  <string name="phone_not_been_restarted">Phone not been restarted</string>
   <string name="picture">Picture</string>
   <string name="placeholder">占位置</string>
   <string name="plugout_and_reverse_plugin">"
@@ -1022,6 +1072,8 @@ Please plug out the charger and reverse plug in."</string>
   <string name="real_finger_touch_sensor">通过手指按压指纹模组</string>
   <string name="reboot_prompt">重启提示</string>
   <string name="reboot_prompt_detail">重启手机之后内存测试正常运行！</string>
+  <string name="reboot_times">Reboot Times:</string>
+  <string name="refresh_number_of_keys">refresh number of keys</string>
   <string name="removeFingerprint">Remove Fingerprint</string>
   <string name="remove_headset_and_starttest">Please remove headset and press start to test</string>
   <string name="request_permission">This sample needs camera permission.</string>
@@ -1033,6 +1085,27 @@ Please plug out the charger and reverse plug in."</string>
   <string name="sar_sensor_calibrate">Start Calibrate</string>
   <string name="sar_sensor_calibrate_fail">Sar Sensor calibrate fail</string>
   <string name="sar_sensor_calibrate_success">Sar Sensor calibrate success</string>
+  <string name="sar_sensor_collect_data">Start Collect Data</string>
+  <string name="sar_sensor_collect_data_test_summary">"Rotate the phone to ensure that the real-time angle is between 130 and 140 degrees
+Keep the other hand away from the cell phone. Click on the start data acquisition button
+After calibrate success,Observe that the absolute value of CS0i and CS1 is less than 200 and the value of CS1 is more than 300. After five consecutive times, the other hand is close to the bottom of the cell phone,The value of CS0 is highlighted by the button after 3 consecutive times between 3000 and 30000,the pass button is highlight"</string>
+  <string name="sar_sensor_data_check_description">Sar Sensor Data Collect</string>
+  <string name="sar_sensor_data_check_summary">"Hold the top of the phone with one hand
+Make sure the real time Angle is about 45 degrees
+Keep the other hand away from the phone
+Look at the value of CS0
+After the value of CS0 is less than 500 and the value of CS2 greater than 10000 
+Hold the other hand close to the bottom of the phone
+Look at the value of CS0
+The value of CS0 ranges from 3000 to 30000 , the pass button is highlight"</string>
+  <string name="sar_sensor_data_check_summary_1">"Hold the top of the phone with one hand
+Make sure the real time Angle is about 45 degrees
+Keep the other hand away from the phone
+Look at the value of CS0
+After the value of CS0 is less than 500 and the value of CS2 greater than 5000 
+Hold the other hand close to the bottom of the phone
+Look at the value of CS0
+The value of CS0 ranges from 3000 to 30000 , the pass button is highlight"</string>
   <string name="sar_sensor_test_description">Sar Sensor Calibrate and Data Collect</string>
   <string name="sar_sensor_test_summary">"Rotate the phone, put it to the fixture
 Click the Start Calibrate button
