@@ -214,6 +214,7 @@ if you rotate your phone"</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
   <string name="hint_ae_af_lock">Auto focus / auto exposure has been locked</string>
+  <string name="hint_ae_lock">Auto exposure has been locked</string>
   <string name="hint_eye_light">Eye light will be better when flash is on</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
   <string name="hint_groupshot">"Camera will take multiple photos
@@ -297,6 +298,12 @@ in Portrait mode"</string>
   <string name="pano_how_to_use_prompt_slow_down">Slow down…</string>
   <string name="pano_how_to_use_prompt_start">Tap the arrow to switch direction and begin panning slowly.</string>
   <string name="path_settings">System apps/Camera/Settings</string>
+  <string name="permission_camera">android.permission-group.CAMERA@1</string>
+  <string name="permission_contacts">android.permission-group.CONTACTS@1</string>
+  <string name="permission_location">android.permission-group.LOCATION@1</string>
+  <string name="permission_microphone">android.permission-group.MICROPHONE@0</string>
+  <string name="permission_phone_state">android.permission-group.PHONE@0</string>
+  <string name="permission_storage">android.permission-group.STORAGE@0</string>
   <string name="popup_tip_3d_beauty_intro_text">3D Beauty</string>
   <string name="portait_effect_entry_blackwhite">B&amp;W</string>
   <string name="portait_effect_entry_cool">Mint</string>
@@ -663,6 +670,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="video_effect_entry_polaroid">Polaroid</string>
   <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
   <string name="video_reach_size_limit">Size limit reached.</string>
+  <string name="video_ultra_clear_tip">4K UHD</string>
   <string name="view_privacy_policy">View Privacy Policy</string>
   <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
 </resources>
