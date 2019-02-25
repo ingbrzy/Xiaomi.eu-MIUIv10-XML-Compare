@@ -162,6 +162,12 @@
   <string name="remain">Remaining: %s</string>
   <string name="replace">Replace</string>
   <string name="resolver_app_recommend_flag">Recommend</string>
+  <string name="resolver_checkbox_always">Always</string>
+  <string name="resolver_checkbox_once">Once</string>
+  <string name="resolver_mi_browser">Mi Browser</string>
+  <string name="resolver_offical_recommend">Official</string>
+  <string name="resolver_other_method">Other options</string>
+  <string name="resolver_recommend_options_tag">Recommended options</string>
   <string name="resolver_recommended_app_name">%1$s&lt;font color=#0099ff&gt;&lt;br/&gt;(%2$s)&lt;/font&gt;</string>
   <string name="resource_select">Select</string>
   <string name="screen_button_notification_text">To turn them on, press the Home and Power buttons simultaneously.</string>
