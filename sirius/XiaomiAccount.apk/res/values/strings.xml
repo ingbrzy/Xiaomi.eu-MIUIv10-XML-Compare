@@ -468,7 +468,7 @@ To activate your account, follow the
   <string name="update_email_address_dialog_title">Update Email</string>
   <string name="update_phone_notice">Change security settings</string>
   <string name="update_phone_number_notice_message">You need to verify your identity before you can update phone number.</string>
-  <string name="used_cloud_storage_info">used storage space %s</string>
+  <string name="used_cloud_storage_info">Used storage space %s</string>
   <string name="user_avatar_update_title">Change profile photo</string>
   <string name="user_avatar_uploading">Just a sec…</string>
   <string name="vip_account_settings">VIP Settings</string>

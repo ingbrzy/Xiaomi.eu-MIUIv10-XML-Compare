@@ -14,6 +14,7 @@
   <string name="fastboot_unlock_web_home">https://unlock.update.miui.com</string>
   <string name="fastboot_unlock_web_title">Go to the official MIUI website to get the unlock tool.</string>
   <string name="game_booster">Game speed booster</string>
+  <string name="gamebox_no_network_btn">Reload</string>
   <string name="gb_alipays_can_not_complete">"Can't complete payment. Install to continue."</string>
   <string name="gb_weixinpay_can_not_complete">"Can't complete payment. Install to continue."</string>
   <string name="lucky_result_title">Red envelopes</string>

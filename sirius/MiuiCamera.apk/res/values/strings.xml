@@ -272,7 +272,7 @@ in Portrait mode"</string>
   <string name="live_speed_fragment_tab_name">Record speed</string>
   <string name="live_speed_normal">Regular</string>
   <string name="live_speed_slow">Slow</string>
-  <string name="live_sticker_fragment_tab_name">Stickers</string>
+  <string name="live_sticker_fragment_tab_name">TikTok Magic Sticker</string>
   <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating…</string>
   <string name="makeup_reset_toast">Removed makeup effects</string>
@@ -298,6 +298,12 @@ in Portrait mode"</string>
   <string name="pano_how_to_use_prompt_slow_down">Slow down…</string>
   <string name="pano_how_to_use_prompt_start">Tap the arrow to switch direction and begin panning slowly.</string>
   <string name="path_settings">System apps/Camera/Settings</string>
+  <string name="permission_camera">android.permission-group.CAMERA@1</string>
+  <string name="permission_contacts">android.permission-group.CONTACTS@1</string>
+  <string name="permission_location">android.permission-group.LOCATION@1</string>
+  <string name="permission_microphone">android.permission-group.MICROPHONE@0</string>
+  <string name="permission_phone_state">android.permission-group.PHONE@0</string>
+  <string name="permission_storage">android.permission-group.STORAGE@0</string>
   <string name="popup_tip_3d_beauty_intro_text">3D Beauty</string>
   <string name="portait_effect_entry_blackwhite">B&amp;W</string>
   <string name="portait_effect_entry_cool">Mint</string>
@@ -664,6 +670,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="video_effect_entry_polaroid">Polaroid</string>
   <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
   <string name="video_reach_size_limit">Size limit reached.</string>
+  <string name="video_ultra_clear_tip">4K UHD</string>
   <string name="view_privacy_policy">View Privacy Policy</string>
   <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
 </resources>
