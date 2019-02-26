@@ -214,6 +214,7 @@ if you rotate your phone"</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
   <string name="hint_ae_af_lock">Auto focus / auto exposure has been locked</string>
+  <string name="hint_ae_lock">Auto exposure has been locked</string>
   <string name="hint_eye_light">Eye light will be better when flash is on</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
   <string name="hint_groupshot">"Camera will take multiple photos
