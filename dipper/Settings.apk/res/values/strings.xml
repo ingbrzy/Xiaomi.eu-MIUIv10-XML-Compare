@@ -352,8 +352,8 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="aod_lock_screen_date_12">EEEE, MMMM d</string>
   <string name="aod_mode_bg">Background</string>
   <string name="aod_mode_clock">Clock</string>
-  <string name="aod_mode_style">Time style and backgroud</string>
-  <string name="aod_mode_summary">Show time, date and messages when screen off.</string>
+  <string name="aod_mode_style">Clock style and background</string>
+  <string name="aod_mode_summary">Show time, date, and messages when the screen is off</string>
   <string name="aod_mode_time_summary">Schedule time to turn Always on mode on and off</string>
   <string name="aod_mode_time_title">Schedule</string>
   <string name="aod_mode_title">Always on mode</string>

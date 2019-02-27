@@ -109,7 +109,7 @@ Make sure the name of your corporation is correct. Read and agree to the related
   <string name="ent_agency_code">Corporate code</string>
   <string name="ent_agency_code_hint">Enter corporate code</string>
   <string name="ent_agency_code_invalid">The corporate code you entered is invalid.</string>
-  <string name="ent_agree_privacy_policy">"I've read and agree to Privacy Policy"</string>
+  <string name="ent_agree_privacy_policy">"I've read and agreed to Privacy Policy"</string>
   <string name="ent_app_verified">Looks like there are enterprise apps installed on your device. Activate Enterprise mode?</string>
   <string name="ent_confirm_dialog_content">"You won't be able to go back to the present state of your system after you activate Enterprise mode. However, all your data will still be stored on this device. You'll have to reboot your device to activate Enterprise mode. Activate now?"</string>
   <string name="ent_disallow_running">The app is forbidden to run</string>
