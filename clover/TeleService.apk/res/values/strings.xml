@@ -1318,33 +1318,43 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_evdo_only_summary">Preferred network mode: EvDo only</string>
   <string name="preferred_network_mode_global_choice">Global</string>
   <string name="preferred_network_mode_global_summary">Preferred network mode: Global</string>
+  <string name="preferred_network_mode_gsm_only">GSM only</string>
   <string name="preferred_network_mode_gsm_only_choice">GSM only</string>
   <string name="preferred_network_mode_gsm_only_summary">Preferred network mode: GSM only</string>
+  <string name="preferred_network_mode_gsm_wcdma_auto">GSM/WCDMA auto</string>
   <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA auto</string>
+  <string name="preferred_network_mode_gsm_wcdma_lte">GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
+  <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA preferred</string>
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA preferred</string>
   <string name="preferred_network_mode_gsm_wcdma_summary">Preferred network mode: GSM / WCDMA</string>
   <string name="preferred_network_mode_lte_cdma_evdo_summary">Preferred network mode: CDMA+LTE/EVDO</string>
   <string name="preferred_network_mode_lte_cdma_summary">Preferred network mode: LTE / CDMA</string>
-  <string name="preferred_network_mode_lte_choice">LTE only</string>
+  <string name="preferred_network_mode_lte_choice">LTE</string>
   <string name="preferred_network_mode_lte_gsm_umts_summary">Preferred network mode: LTE / GSM / UMTS</string>
   <string name="preferred_network_mode_lte_gsm_wcdma_summary">Preferred network mode: GSM/WCDMA/LTE</string>
+  <string name="preferred_network_mode_lte_only">LTE only</string>
   <string name="preferred_network_mode_lte_summary">Preferred network mode: LTE</string>
-  <string name="preferred_network_mode_lte_wcdma_choice">WCDMA/LTE</string>
+  <string name="preferred_network_mode_lte_wcdma_choice">LTE / WCDMA</string>
   <string name="preferred_network_mode_lte_wcdma_summary">Preferred network mode: LTE / WCDMA</string>
   <string name="preferred_network_mode_summary">Change the network operating mode</string>
   <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
   <string name="preferred_network_mode_td_scdma_gsm_lte_choice">TD-SCDMA/GSM/LTE</string>
+  <string name="preferred_network_mode_td_scdma_gsm_wcdma">TD-SCDMA/GSM/WCDMA</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/GSM/WCDMA/CDMA/EVDO</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_choice">TD-SCDMA/GSM/WCDMA</string>
+  <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte">TD-SCDMA/GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">TD-SCDMA/GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_lte_choice">TD-SCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/LTE/GSM/WCDMA/CDMA/EVDO</string>
   <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA only</string>
   <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA/WCDMA</string>
+  <string name="preferred_network_mode_td_scdma_wcdma_lte">TD-SCDMA/WCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_wcdma_lte_choice">TD-SCDMA/WCDMA/LTE</string>
   <string name="preferred_network_mode_tdscdma_summary">Preferred network mode: TDSCDMA</string>
   <string name="preferred_network_mode_title">Preferred network type</string>
+  <string name="preferred_network_mode_wcdma_lte">WCDMA/LTE</string>
+  <string name="preferred_network_mode_wcdma_only">WCDMA only</string>
   <string name="preferred_network_mode_wcdma_only_choice">WCDMA only</string>
   <string name="preferred_network_mode_wcdma_only_summary">Preferred network mode: WCDMA only</string>
   <string name="preferred_network_mode_wcdma_perf_summary">Preferred network mode: WCDMA preferred</string>
@@ -1839,7 +1849,7 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
 Your device will automatically switch to a mobile network (2G/3G) to place an emergency call.
 
 Emergency calls are only possible in areas with mobile network coverage."</string>
-  <string name="vowifi_emergency_warning_title">ECC calls via WLAN Calling</string>
+  <string name="vowifi_emergency_warning_title">Emergency calls via WLAN Calling</string>
   <string name="vpn_settings_not_available">VPN settings are not available for this user</string>
   <string name="vvm_unsupported_message_format">Unsupported message type, call %s to listen.</string>
   <string name="wait_for_debugger">Wait for debugger</string>
