@@ -88,6 +88,12 @@
   <string name="action_text_readmode_more">More</string>
   <string name="action_text_readmode_theme_head">Set the background</string>
   <string name="action_text_theme_and_textsize_change">Font size and theme adjustment</string>
+  <string name="ad_app_download_notification_content">After the installation is complete, open the demo now~</string>
+  <string name="ad_app_download_site_new">NEW</string>
+  <string name="ad_exit_dialog_exit_btn_name">quit</string>
+  <string name="ad_exit_dialog_message">Installation is complete! Do you want to open it now?</string>
+  <string name="ad_exit_dialog_open_btn_name">open</string>
+  <string name="ad_exit_dialog_title_name">New app open confirmation</string>
   <string name="adblock_force_updating_rules_toast">Updating Ad blocker</string>
   <string name="adblock_notification">%d ads blocked</string>
   <string name="adblock_rules_not_updated_toast">"Couldn't update"</string>
