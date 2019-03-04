@@ -110,6 +110,7 @@
   <string name="download_action">Download</string>
   <string name="drag_multiple_item_name"/>
   <string name="drag_single_item_name"/>
+  <string name="dual_app">Dual apps</string>
   <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
   <string name="durationformatshort">%2$2d:%5$02d</string>
   <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
