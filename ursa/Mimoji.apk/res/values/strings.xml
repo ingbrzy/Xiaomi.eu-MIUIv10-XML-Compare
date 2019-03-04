@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="AR_IMG_SHARE">Mimoji分享</string>
+  <string name="BLOG_APP_NO_INSTALL">抱歉，你的手机没有安装微博</string>
+  <string name="MILIAO_APP_NO_INSTALL">抱歉，你的手机没有安装米聊</string>
+  <string name="QQ_APP_NO_INSTALL">抱歉，你的手机没有安装QQ</string>
+  <string name="WICHART_APP_NO_INSTALL">抱歉，你的手机没有安装微信</string>
+  <string name="abc_action_bar_home_description">Navigate home</string>
+  <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+  <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+  <string name="abc_action_bar_up_description">Navigate up</string>
+  <string name="abc_action_menu_overflow_description">More options</string>
+  <string name="abc_action_mode_done">Done</string>
+  <string name="abc_activity_chooser_view_see_all">See all</string>
+  <string name="abc_activitychooserview_choose_application">Choose an app</string>
+  <string name="abc_capital_off">OFF</string>
+  <string name="abc_capital_on">ON</string>
+  <string name="abc_font_family_body_1_material">sans-serif</string>
+  <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+  <string name="abc_font_family_button_material">sans-serif-medium</string>
+  <string name="abc_font_family_caption_material">sans-serif</string>
+  <string name="abc_font_family_display_1_material">sans-serif</string>
+  <string name="abc_font_family_display_2_material">sans-serif</string>
+  <string name="abc_font_family_display_3_material">sans-serif</string>
+  <string name="abc_font_family_display_4_material">sans-serif-light</string>
+  <string name="abc_font_family_headline_material">sans-serif</string>
+  <string name="abc_font_family_menu_material">sans-serif</string>
+  <string name="abc_font_family_subhead_material">sans-serif</string>
+  <string name="abc_font_family_title_material">sans-serif-medium</string>
+  <string name="abc_search_hint">Search…</string>
+  <string name="abc_searchview_description_clear">Clear query</string>
+  <string name="abc_searchview_description_query">Search query</string>
+  <string name="abc_searchview_description_search">Search</string>
+  <string name="abc_searchview_description_submit">Submit query</string>
+  <string name="abc_searchview_description_voice">Voice search</string>
+  <string name="abc_shareactionprovider_share_with">Share with</string>
+  <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+  <string name="abc_toolbar_collapse_description">Collapse</string>
+  <string name="app_name">米萌</string>
+  <string name="cta_message">米萌 需要您同意&lt;a href="http://www.miui.com/res/doc/privacy/cn.html"&gt;&amp;#12298;&amp;#38544;&amp;#31169;&amp;#25919;&amp;#31574;&amp;#12299;&lt;/a&gt;&amp;#65292;&amp;#24182;&amp;#33719;&amp;#21462;&amp;#32593;&amp;#32476;&amp;#12289;&amp;#24405;&amp;#38899;&amp;#12289;&amp;#30456;&amp;#26426;&amp;#26435;&amp;#38480;&amp;#65292;&amp;#26159;&amp;#21542;&amp;#21516;&amp;#24847;&amp;#65311;</string>
+  <string name="cta_privacy_url">http://www.miui.com/res/doc/privacy/cn.html</string>
+  <string name="error_tip_out_range">请竖起手机 正对脸部</string>
+  <string name="error_tip_sleep">轻点以继续</string>
+  <string name="permission_message">运行米萌需要打开相机、录音、存储权限。</string>
+  <string name="save_success">已保存到 相册</string>
+  <string name="search_menu_title">Search</string>
+  <string name="splash_text">请竖起手机,正对脸部</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
+  <string name="support_phone_message">该应用暂不支持该机型!</string>
+  <string name="webo_version_too_low">微博版本低 请先升级</string>
+</resources>
