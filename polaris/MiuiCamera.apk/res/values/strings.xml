@@ -272,7 +272,7 @@ in Portrait mode"</string>
   <string name="live_speed_fragment_tab_name">Record speed</string>
   <string name="live_speed_normal">Regular</string>
   <string name="live_speed_slow">Slow</string>
-  <string name="live_sticker_fragment_tab_name">Stickers</string>
+  <string name="live_sticker_fragment_tab_name">TikTok Magic Sticker</string>
   <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating…</string>
   <string name="makeup_reset_toast">Removed makeup effects</string>
