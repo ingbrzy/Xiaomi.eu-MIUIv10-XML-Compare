@@ -61,6 +61,7 @@
   <string name="ks_name_alipay">IFAA</string>
   <string name="ks_name_fido">FIDO</string>
   <string name="ks_name_soter">Soter</string>
+  <string name="ks_name_widevine">Widevine (L1)</string>
   <string name="ks_status_available">Available</string>
   <string name="ks_status_unavailable">Not available</string>
   <string name="ks_update_certificate">Certificate</string>
