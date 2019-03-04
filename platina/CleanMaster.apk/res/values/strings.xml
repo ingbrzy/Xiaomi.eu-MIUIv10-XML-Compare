@@ -389,7 +389,7 @@
   <string name="mainbtn_text_quick_cleanup_default">Clean up</string>
   <string name="megabyteShort">MB</string>
   <string name="memeory_check_content">%1$d apps, memory %2$s</string>
-  <string name="memory_clean_icon_text">Clear memory</string>
+  <string name="memory_clean_icon_text">RAM Jet</string>
   <string name="memory_clean_no_trash_tip">Everything looks good</string>
   <string name="menu_add_to_white_list">Add to exceptions</string>
   <string name="menu_clear">Clear</string>
