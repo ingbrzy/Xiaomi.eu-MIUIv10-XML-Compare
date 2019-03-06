@@ -1873,6 +1873,11 @@ Your phone may get too hot if you:
   <string name="usb_port_overheated_dialog_content">Charging port is overheated. Disconnect the charger from your device and check whether the charging port is clean. Contact customer support if you have any questions.</string>
   <string name="usb_port_overheated_notification_content">Disconnect the charger from your device and check whether the charging port is clean.</string>
   <string name="usb_port_overheated_title">Charging port is overheated. Disconnect the charger.</string>
+  <string name="usb_port_short_circuit_dialog_content">Charging of your device has been restricted. Disconnect the charger and wipe off the charging port removing all liquids to restore charging capability.</string>
+  <string name="usb_port_short_circuit_notification_content">Disconnect the charger and wipe off the charging port removing all liquids.</string>
+  <string name="usb_port_short_circuit_recovered_content">You can use it for charging or connecting to other devices.</string>
+  <string name="usb_port_short_circuit_recovered_title">Charging port works normally now</string>
+  <string name="usb_port_short_circuit_title">"There's vapor in the charging port"</string>
   <string name="usb_preference_title">USB file transfer options</string>
   <string name="usb_ptp_text">Photos</string>
   <string name="usb_share_net_info">"Use computer's internet connection"</string>
