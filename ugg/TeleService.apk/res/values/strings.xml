@@ -628,7 +628,7 @@
   <string name="dtmf_tone_entries_normal">Normal</string>
   <string name="dtmf_tones_summary">Set the length of DTMF tones</string>
   <string name="dtmf_tones_title">DTMF tones</string>
-  <string name="dual_4g_switch_summary">Allow 4G connectivity for both SIM slots.</string>
+  <string name="dual_4g_switch_summary">Allow 4G connectivity for both SIM slots</string>
   <string name="dual_4g_switch_title">Dual 4G</string>
   <string name="duration_disable_summary">Display duration is OFF</string>
   <string name="duration_enable_summary">Display duration is ON</string>
