@@ -1169,6 +1169,8 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="daltonizer_mode_tritanomaly">Tritanomaly (blue-yellow)</string>
   <string name="daltonizer_type">Correction mode</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
+  <string name="dark_ui_mode">Night mode</string>
+  <string name="dark_ui_mode_title">Set Night mode</string>
   <string name="dashboard_title">Settings</string>
   <string name="data_limit">Data limit</string>
   <string name="data_saver_off">Off</string>
@@ -2743,7 +2745,7 @@ There are other users present on this device.
   <string name="mock_location_app_set">Mock location app: %1$s</string>
   <string name="mode_disable">Off</string>
   <string name="mode_enable">On</string>
-  <string name="model_name">Model name</string>
+  <string name="model_name">Model</string>
   <string name="model_number">Model number</string>
   <string name="modify_instruction_password_settings">Set password</string>
   <string name="modify_privacy_password">Change password</string>
