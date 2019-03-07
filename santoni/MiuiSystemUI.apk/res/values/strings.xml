@@ -294,8 +294,6 @@
   <string name="always_use_accessory">Use by default for this USB accessory</string>
   <string name="always_use_device">Use by default for this USB device</string>
   <string name="animator_duration_scale_title">Animator duration scale</string>
-  <string name="aod_dual_togother">HH:MM</string>
-  <string name="aod_dual_togother_12">hh:mm aa</string>
   <string name="apn_settings_not_available">Access Point Name settings are not available for this user</string>
   <string name="app_info">App info</string>
   <string name="app_label">System UI</string>
