@@ -409,6 +409,14 @@
         <item>5</item>
         <item>4</item>
     </string-array>
+    <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_summaries">
+        <item>High quality mode (Default)</item>
+        <item>Low latency mode</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_titles">
+        <item>High quality mode (Default)</item>
+        <item>Low latency mode</item>
+    </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
         <item>Use system preference (Default)</item>
         <item>16 bits/sample</item>
@@ -485,21 +493,23 @@
         <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>aptX</item>
-        <item>aptX HD</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Enable Optional Codecs</item>
-        <item>Disable Optional Codecs</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Enable optional codecs</item>
+        <item>Disable optional codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>aptX</item>
-        <item>aptX HD</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Enable Optional Codecs</item>
-        <item>Disable Optional Codecs</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Enable optional codecs</item>
+        <item>Disable optional codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_values">
         <item>1000000</item>
