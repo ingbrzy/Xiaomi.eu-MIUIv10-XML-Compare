@@ -20,7 +20,7 @@
             <Variable name="weather_id" type="int" column="weather_type"/>
             <Variable name="weather_temperature" type="int" column="temperature"/>
             <Variable name="weather_temperature_str" type="string" column="temperature"/>
-            <Variable name="temperature_unit" type="number" column="temperature_unit"/>
+            <Variable name="temperature_unit" type="int" column="temperature_unit"/>
             <Variable name="city_id" type="string" column="city_id"/>
             <Variable name="aqi" type="int" column="aqilevel"/>
         </ContentProviderBinder>
@@ -39,7 +39,7 @@
     <Var name="color_desc" expression="ifelse(#applied_light_wallpaper,'#80000000','#ccffffff')" type="string"/>
     <Group visibility="#not_null">
         <!-- weather_temperature -->
-        <Text name="text_temp" x="35" y="#view_height-224" fontFamily="miui-thin" color="@color_temp" size="130" textExp="ifelse(#not_null,#weather_temperature + ifelse(eq(#temperature_unit,1),'℃',eq(#temperature_unit,'0'),'℉','℃'),'--')"/>
+        <Text name="text_temp" x="35" y="#view_height-224" fontFamily="miui-thin" color="@color_temp" size="130" textExp="ifelse(#not_null,#weather_temperature + ifelse(eq(#temperature_unit,1),'℃','℉'),'--')"/>
         <!-- 晴丨轻度污染 -->
         <Text x="42" y="#view_height-24" fontFamily="miui-reguler" alignV="bottom" color="@color_desc" size="33.73" textExp="ifelse(#not_null,@weather_description+ifelse((#aqi!=0)*(#aqi!=(-1))*len(@air_quality),' | '+@air_quality,''),@weather_null)"/>
     </Group>
