@@ -365,7 +365,6 @@ Touch the screen to start GPS…"</string>
   <string name="cit_kayboard_power_down">Button: POWER</string>
   <string name="cit_kayboard_volume_down">Button: VOLUME DOWN</string>
   <string name="cit_kayboard_volume_up">Button: VOLUME UP</string>
-  <string name="cit_kernal_log_txt">kernel log</string>
   <string name="cit_keyboard_ai_key">Button: AI_KEY</string>
   <string name="cit_keyboard_back">Button: BACK</string>
   <string name="cit_keyboard_current">Current keyboard: %s</string>
@@ -385,7 +384,6 @@ Touch the screen to start GPS…"</string>
   <string name="cit_leds_check_title">Notification light (LED)</string>
   <string name="cit_light_sensor_check_summary">DAC value should appear below,please test for light sensor</string>
   <string name="cit_light_sensor_check_title">Light sensor</string>
-  <string name="cit_logcat_txt">Logcat log</string>
   <string name="cit_magnetic_sensor_check_summary">Values for X，Y，Z, coordinates should appear below</string>
   <string name="cit_magnetic_sensor_check_title">Magnetic sensor</string>
   <string name="cit_main_camera_check_summary">"Test instructions:
@@ -405,7 +403,6 @@ Touch the screen to start GPS…"</string>
   <string name="cit_notificationlight">Notification light</string>
   <string name="cit_notificationlight_off">Notification light off</string>
   <string name="cit_notificationlight_on">Notification light on</string>
-  <string name="cit_offline_log_title">Offline Log status</string>
   <string name="cit_otg_not_supported">"This device doesn't support OTG testing"</string>
   <string name="cit_pass">Pass</string>
   <string name="cit_play_sd_mp3_hifi_summary">"Confirm that there's a file named \"music.mp3\" stored on the SD card. The file \"music.mp3\" should be played through the device's HIFI path when you open this test."</string>

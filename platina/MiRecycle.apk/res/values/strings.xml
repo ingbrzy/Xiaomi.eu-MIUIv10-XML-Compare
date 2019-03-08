@@ -67,7 +67,6 @@ the world"</string>
   <string name="buy_title_two">Tired of visiting service centers?</string>
   <string name="buy_top_summary">"Never worry about 
 accidental damage to your smartphone"</string>
-  <string name="cashify_entrance">Sell your old phone</string>
   <string name="cd_charger_test_image">charger_test_image</string>
   <string name="cd_charger_test_status">charger test status</string>
   <string name="cd_dead_pixel_test_image">Dead pixel test image</string>
@@ -138,8 +137,8 @@ Damaged Device from your doorstep"</string>
   <string name="input_wallet_information">Input Mobile Number</string>
   <string name="instant_bank_transfer">Instant Bank Transfer</string>
   <string name="insurance_button">Insurance</string>
-  <string name="insurance_description">Insurance gives you additional repair coverage</string>
-  <string name="insurance_entrance">Mi Protect for new device</string>
+  <string name="insurance_description">OneAssist insurance gives you additional repair coverage</string>
+  <string name="insurance_entrance">Protect your new phone</string>
   <string name="item_name_battery">Battery</string>
   <string name="item_name_bluetooth">Bluetooth</string>
   <string name="item_name_frontcamera">Front Camera</string>
@@ -156,6 +155,7 @@ Damaged Device from your doorstep"</string>
   <string name="label_my_order">My Order</string>
   <string name="landmark">Landmark</string>
   <string name="loading">Loading…</string>
+  <string name="main_entrance">Sell your phone</string>
   <string name="main_overall_test">START</string>
   <string name="msg_coupon_applied">Coupon applied successfully.</string>
   <string name="msg_empty_cancel_reason">Please select cancel reason</string>
@@ -188,7 +188,7 @@ Damaged Device from your doorstep"</string>
 Please note the device prices are subject to change. Sell your phone now to avail the best offer."</string>
   <string name="recycle_button">Recycle</string>
   <string name="recycle_description">Get maximum price in return by recycling your old phone</string>
-  <string name="recycle_entrance">Cashify Recycle</string>
+  <string name="recycle_entrance">Cashify - Sell your phone</string>
   <string name="reschedule">Reschedule</string>
   <string name="result_no_fail">Everything is great</string>
   <string name="search_menu_title">Search</string>
