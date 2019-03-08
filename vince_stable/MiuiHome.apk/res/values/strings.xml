@@ -106,6 +106,7 @@
   <string name="delete_wallpaper_message">Delete %1$d wallpaper?</string>
   <string name="deselect_all">Deselect all</string>
   <string name="disable_wallpaper_scroll">Turn side-scrolling off</string>
+  <string name="double_tap_to_lock_title">Double tap to lock screen</string>
   <string name="download_action">Download</string>
   <string name="drag_multiple_item_name"/>
   <string name="drag_single_item_name"/>
