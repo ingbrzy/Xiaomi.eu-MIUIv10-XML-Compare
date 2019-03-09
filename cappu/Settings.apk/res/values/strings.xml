@@ -1274,6 +1274,8 @@ Encryption takes an hour or more. You must start with a charged battery and keep
   <string name="daltonizer_mode_tritanomaly">Tritanomaly (blue-yellow)</string>
   <string name="daltonizer_type">Correction mode</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
+  <string name="dark_ui_mode">Night mode</string>
+  <string name="dark_ui_mode_title">Set Night mode</string>
   <string name="dashboard_title">Settings</string>
   <string name="data_detail_description">Details</string>
   <string name="data_item_desc">Data</string>
@@ -3487,7 +3489,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="power_bluetooth">Bluetooth</string>
   <string name="power_camera">Camera</string>
   <string name="power_cell">Cell standby</string>
-  <string name="power_center">Power</string>
+  <string name="power_center">Battery optimization</string>
   <string name="power_charge_remaining">%1$s to charge</string>
   <string name="power_charging">%1$s - %2$s</string>
   <string name="power_charging_duration">%1$s - %2$s until full</string>
@@ -3506,7 +3508,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="power_hide_mode_summary">"Save battery by restricting individual apps' background processes, WLAN and mobile data connections, and GPS usage"</string>
   <string name="power_hide_mode_title">Manage apps battery usage</string>
   <string name="power_idle">Tablet idle</string>
-  <string name="power_mgr">Battery</string>
+  <string name="power_mgr">Battery optimization</string>
   <string name="power_mode">Power settings</string>
   <string name="power_mode_balanced_title">Balance Power</string>
   <string name="power_optimize">Battery saver</string>
@@ -4456,6 +4458,7 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="settings_manual_activity_title">Manual</string>
   <string name="settings_manual_activity_unavailable">There is a problem loading the manual.</string>
   <string name="settings_notify_need_backup">Back up your settings to Mi Cloud to access them after you switch phones.</string>
+  <string name="settings_notify_new_version">An update is available. Tap to view details.</string>
   <string name="settings_notify_phone_recycled">Your phone number has been recycled. Tap to add a different phone number.</string>
   <string name="settings_package">com.android.settings</string>
   <string name="settings_safetylegal_activity_loading">Loading…</string>
