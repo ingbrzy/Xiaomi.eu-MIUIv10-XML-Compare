@@ -2121,15 +2121,9 @@
 .end method
 
 .method public static isSupportGroupShot()Z
-    .locals 2
+    .locals 1
 
-    const-string/jumbo v0, "support_camera_groupshot"
-
-    const/4 v1, 0x0
-
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
+    const/4 v0, 0x0
 
     return v0
 .end method
