@@ -365,7 +365,6 @@ Touch the screen to start GPS…"</string>
   <string name="cit_kayboard_power_down">Button: POWER</string>
   <string name="cit_kayboard_volume_down">Button: VOLUME DOWN</string>
   <string name="cit_kayboard_volume_up">Button: VOLUME UP</string>
-  <string name="cit_kernal_log_txt">kernel log</string>
   <string name="cit_keyboard_ai_key">Button: AI_KEY</string>
   <string name="cit_keyboard_back">Button: BACK</string>
   <string name="cit_keyboard_current">Current keyboard: %s</string>
@@ -385,7 +384,6 @@ Touch the screen to start GPS…"</string>
   <string name="cit_leds_check_title">Notification light (LED)</string>
   <string name="cit_light_sensor_check_summary">DAC value should appear below,please test for light sensor</string>
   <string name="cit_light_sensor_check_title">Light sensor</string>
-  <string name="cit_logcat_txt">Logcat log</string>
   <string name="cit_magnetic_sensor_check_summary">Values for X，Y，Z, coordinates should appear below</string>
   <string name="cit_magnetic_sensor_check_title">Magnetic sensor</string>
   <string name="cit_main_camera_check_summary">"Test instructions:
@@ -405,7 +403,6 @@ Touch the screen to start GPS…"</string>
   <string name="cit_notificationlight">Notification light</string>
   <string name="cit_notificationlight_off">Notification light off</string>
   <string name="cit_notificationlight_on">Notification light on</string>
-  <string name="cit_offline_log_title">Offline Log status</string>
   <string name="cit_otg_not_supported">"This device doesn't support OTG testing"</string>
   <string name="cit_pass">Pass</string>
   <string name="cit_play_sd_mp3_hifi_summary">"Confirm that there's a file named \"music.mp3\" stored on the SD card. The file \"music.mp3\" should be played through the device's HIFI path when you open this test."</string>
@@ -634,6 +631,15 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_log_toast_generate_bugreport">Creating bug report… (this takes about 1 minute)</string>
   <string name="cit_tool_mbn_default_notfiy">default MBN</string>
   <string name="cit_tool_mbn_no_default_notfiy">No default MBN</string>
+  <string name="cit_tool_mbn_opt_help">"Operation instructions:
+1. The steps to activate an MBN:
+Step 1: Select the slot of MBN to be activated, which is usually loaded by double cards, and the default is double cards.
+Step 2: You need to select a name of the MBN to be activated. The commonly used MBN is prefabricated in the drop-down list. If it is not found, you can enter the keyword of the MBN name to be activated in the search box to find the MBN you need to activate.
+Step 3: Click the Activate button to load the selected MBN.
+2. Recovery system default MBN can be achieved by clicking the Restore default MBN button.
+3. It can display the information of MBN loaded in the current Modem.
+The first line shows whether the MBN loaded by the current Modem is the default MBN of the system. (Some products may not be integrated into the relevant interface, this line will show: Not Supported)
+The second line shows the name and version number of Default MBN and Carrier MBN currently loaded in Modem. Our custom loaded MBN is Carrier MBN, SUB0 is card 1, SUB1 is card 2."</string>
   <string name="cit_tool_mbn_path_select_hit">select the full path of mbn:</string>
   <string name="cit_tool_mbn_path_select_notice">not find above? search here? As for mcfg, ct, eps ... etc</string>
   <string name="cit_tool_mbn_recovery_default">Recovery default MBN</string>
