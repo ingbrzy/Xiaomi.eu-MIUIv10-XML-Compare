@@ -211,6 +211,13 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="buffer_size_values">
+        <item>4096</item>
+        <item>8192</item>
+        <item>@string/default_buffer_size</item>
+        <item>32768</item>
+        <item>65536</item>
+    </string-array>
     <string-array name="color_mode_descriptions">
         <item>Enhanced colors</item>
         <item>Natural colors as seen by the eye</item>
@@ -444,18 +451,6 @@
         <item>rndis</item>
         <item>audio_source</item>
         <item>midi</item>
-    </string-array>
-    <string-array name="voice_report_phone_number_array">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>
