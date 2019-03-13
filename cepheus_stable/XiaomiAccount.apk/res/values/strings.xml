@@ -120,6 +120,7 @@ Send this code to the supervisor."</string>
   <string name="error_dup_binded_email">This email address is already associated with another Mi Account.</string>
   <string name="error_invalid_bind_address">The email address you entered is invalid.</string>
   <string name="exceed_binded_phone_times_notice">This phone number is already associated with another Mi Account.</string>
+  <string name="exit">Exit</string>
   <string name="facebook">Facebook</string>
   <string name="failed_dup_secure_phone_number">This phone number is already associated with another Mi Account</string>
   <string name="find_device_access_denied">"Can't get status, access denied"</string>
@@ -149,10 +150,18 @@ Send this code to the supervisor."</string>
   <string name="get_phone_bind_exceed_limit">"You can associate up to 3 Mi Accounts with a phone number. Can't add new accounts."</string>
   <string name="get_phone_verifycode_exceed_limit">Too many verification codes have been sent to this number. Wait 24 hours and try again.</string>
   <string name="guest_account_label">Mi Guest Account</string>
+  <string name="i_agree">OK</string>
+  <string name="i_agree_continue">Agree</string>
   <string name="identity">Identification</string>
   <string name="input_email_address_notice">"We'll use this email to verify your account"</string>
   <string name="io_error_title">Confirm your network</string>
   <string name="just_a_second">Just a sec…</string>
+  <string name="kr_license_desc">You must agree to our User Agreement and Privacy Policy before using Mi Account and Mi Cloud services.</string>
+  <string name="kr_permission_contacts_desc">For accessing contact info</string>
+  <string name="kr_permission_desc">Permissions required</string>
+  <string name="kr_permission_phone_desc">For protecting your account</string>
+  <string name="kr_permission_sms_desc">For autofilling verification codes</string>
+  <string name="kr_permission_storage_desc">For saving diagnostics</string>
   <string name="loading_micloud_sync_data">Just a sec…</string>
   <string name="local_device">(this device)</string>
   <string name="locating_current_location">Locating</string>
@@ -192,6 +201,7 @@ Send this code to the supervisor."</string>
   <string name="oauth_scopes_intro">&lt;font color=#%1$s&gt;%2$s&lt;/font&gt; will get following permissions:&lt;br&gt; &lt;br&gt; %3$s</string>
   <string name="oauth_title">Sign in with Mi Account</string>
   <string name="ok">OK</string>
+  <string name="optional_permissions">Optional permissions</string>
   <string name="other_devices_title">Other devices</string>
   <string name="passport_Resend">Resend</string>
   <string name="passport_access_denied">Access denied</string>
@@ -310,6 +320,7 @@ To activate your account, follow the
   <string name="passport_phone_ticket_login">Sign in with SMS</string>
   <string name="passport_prev">Back</string>
   <string name="passport_privacy_policy">Privacy Policy</string>
+  <string name="passport_privacy_policy_required">Privacy Policy (mandatory)</string>
   <string name="passport_pwd_generate_failure">"Couldn't generate password"</string>
   <string name="passport_pwd_generating">Generating…</string>
   <string name="passport_querying_phone_info">Requesting account info…</string>
@@ -397,6 +408,7 @@ To activate your account, follow the
   <string name="passport_user_agreement_p2">User Agreement</string>
   <string name="passport_user_agreement_p3"> and </string>
   <string name="passport_user_agreement_p4">Privacy Policy</string>
+  <string name="passport_user_agreement_required">User Agreement (mandatory)</string>
   <string name="passport_user_id_notice">Your Mi Account ID is %s.</string>
   <string name="passport_user_reg_region">Country/Region</string>
   <string name="passport_user_reg_region_warning">"You won't be able to change your country/region once the account is created."</string>
@@ -412,6 +424,10 @@ To activate your account, follow the
   <string name="passport_wrong_vcode">The code you entered is incorrect</string>
   <string name="passport_wrong_voice">The code you entered is incorrect</string>
   <string name="passport_yes">Yes</string>
+  <string name="permission_group_contacts">Contacts</string>
+  <string name="permission_group_phone">Phone</string>
+  <string name="permission_group_sms">SMS</string>
+  <string name="permission_group_storage">Storage</string>
   <string name="phone_activated">%s activated</string>
   <string name="phone_num_use_for">Phone number is used for:</string>
   <string name="photoPickerNotFoundText">No photos available.</string>
@@ -450,6 +466,7 @@ To activate your account, follow the
   <string name="search_user_detail_desc">Personal info</string>
   <string name="search_user_detail_path">Settings/Mi Account/Personal info</string>
   <string name="search_user_detail_top_key_words">Personal info,Change Profile photo,Change Username,Change Nickname,Change Birthday,Change Gender</string>
+  <string name="select_all">Select all</string>
   <string name="select_location_title">Select your location</string>
   <string name="send_diagnosis_log">Send diagnosis log</string>
   <string name="send_email_activate_message">Verification email sent</string>
