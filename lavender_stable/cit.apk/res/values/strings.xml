@@ -279,6 +279,7 @@ only in frame mode"</string>
   <string name="cit2">HW2:</string>
   <string name="cit2reporttitle">HW2 Test Report</string>
   <string name="cit3reporttitle">HW3 Test Report</string>
+  <string name="cit4reporttitle">HW4 Test Report</string>
   <string name="cit_nv_flag">"CIT NV Flag: "</string>
   <string name="clear">Clear</string>
   <string name="click_to_start_test">click the screen to start test</string>
@@ -407,6 +408,7 @@ only in frame mode"</string>
   <string name="hand_test">HW Test1</string>
   <string name="hand_test2">HW Test2</string>
   <string name="hand_test3">HW Test3</string>
+  <string name="hand_test4">HW Test4</string>
   <string name="hardver">Hardware version:</string>
   <string name="hardware_test">Hardware Test</string>
   <string name="hardware_version">Hardware Version:</string>

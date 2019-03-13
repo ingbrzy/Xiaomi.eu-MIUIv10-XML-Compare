@@ -56,8 +56,8 @@
   <string name="accessibility_setting">Settings</string>
   <string name="accessibility_shutter_button">Shutter button</string>
   <string name="accessibility_stereo_button">Focus adjustment</string>
-  <string name="accessibility_ultra_pixel_photography_off">4800万超清,关闭状态</string>
-  <string name="accessibility_ultra_pixel_photography_on">4800万超清,开启状态</string>
+  <string name="accessibility_ultra_pixel_photography_off">48MP is off</string>
+  <string name="accessibility_ultra_pixel_photography_on">48MP is on</string>
   <string name="accessibility_ultra_wide_off">超广角,关闭状态</string>
   <string name="accessibility_ultra_wide_on">超广角,开启状态</string>
   <string name="accessibility_video_capture_button">Photo Button for Video Recording</string>
@@ -574,8 +574,8 @@ and brings out the people in the front."</string>
   <string name="toast_saving">Saving photos…</string>
   <string name="ubi_focus_capture_fail">"Couldn't take photo"</string>
   <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
-  <string name="ultra_pixel_photography_close_tip">4800万超清已关闭</string>
-  <string name="ultra_pixel_photography_open_tip">4800万超清</string>
+  <string name="ultra_pixel_photography_close_tip">48MP is off</string>
+  <string name="ultra_pixel_photography_open_tip">48MP</string>
   <string name="ultra_wide_bokeh_close_tip">全身模式已关闭</string>
   <string name="ultra_wide_bokeh_open_tip">全身模式</string>
   <string name="ultra_wide_close_tip">超广角模式已关闭</string>

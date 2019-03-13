@@ -693,6 +693,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_unlock_down">Raise your head</string>
   <string name="face_unlock_identify_error">A recognition error occurred</string>
   <string name="face_unlock_not_found">"Couldn't recognize you"</string>
+  <string name="face_unlock_not_roi">Keep your face inside the frame</string>
   <string name="face_unlock_offset_bottom">Lower your phone a bit</string>
   <string name="face_unlock_offset_left">Move to the right</string>
   <string name="face_unlock_offset_right">Move to the left</string>
