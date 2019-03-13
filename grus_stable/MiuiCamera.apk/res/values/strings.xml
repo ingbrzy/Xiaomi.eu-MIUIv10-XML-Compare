@@ -166,7 +166,7 @@ and optimizes your photos based on this info"</string>
   <string name="custom_watermark_words">Custom watermark</string>
   <string name="custom_watermark_words_input_hint">Enter text</string>
   <string name="custom_watermark_words_save_success">Saved successfully</string>
-  <string name="device_48m_watermark_default_text">48M TRIPLE CAMERA</string>
+  <string name="device_48m_watermark_default_text">48MP TRIPLE CAMERA</string>
   <string name="device_watermark_default_text">AI TRIPLE CAMERA</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_ok_time">OK (&lt;g id="NUMBER"&gt;%d&lt;/g&gt;s)</string>
@@ -456,6 +456,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_portrait_with_facebeauty_title">Beautify in Portrait mode</string>
   <string name="pref_camera_proximity_lock_summary">Lock touch gestures when placed in a pocket</string>
   <string name="pref_camera_proximity_lock_title">Pocket mode</string>
+  <string name="pref_camera_quick_shot_anim_enable_title">Turn on quick shot animation</string>
+  <string name="pref_camera_quick_shot_enable_title">Turn on quick shot</string>
   <string name="pref_camera_recordlocation_default">false</string>
   <string name="pref_camera_recordlocation_title">Save location info</string>
   <string name="pref_camera_referenceline_title">Show gridlines</string>
