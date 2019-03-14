@@ -1149,6 +1149,15 @@ Selection"</string>
   <string name="brightness_summary">Adjust the brightness of the screen</string>
   <string name="brightness_title">Brightness</string>
   <string name="bssid_label">BSSID:</string>
+  <string name="bt_aac_dialog_summary">"Current device supports AAC codec. However, AAC may fail to play sound due to compatibility issues. Your device switched to SBC codec automatically.
+You can change this in the Settings."</string>
+  <string name="bt_aac_dialog_title">Bluetooth connection</string>
+  <string name="bt_aac_open_dialog_summary">"AAC may fail to play sound due to compatibility issues.
+You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices."</string>
+  <string name="bt_aac_open_dialog_title">Switching to AAC codec</string>
+  <string name="bt_aac_pre_title">AAC</string>
+  <string name="bt_dialog_remember_choice">Remember choice</string>
+  <string name="bt_dialog_settings">Settings</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
   <string name="bt_hci_snoop_log_summary">Capture all Bluetooth HCI packets in a file</string>
   <string name="bt_ldac_declaration">When a Bluetooth device supports LDAC, it will be connected by default. LDAC provides a high-quality audio experience, but also increases power consumption. Issues may occur during playback due to Bluetooth hardware limitations.</string>
@@ -1157,11 +1166,9 @@ This feature can be turned off in [Settings]"</string>
   <string name="bt_ldac_dialog_title">The current device supports LDAC, which has been connected by default:</string>
   <string name="bt_ldac_open_dialog_summary">LDAC provides a high-quality audio experience, but also increases power consumption. Issues may occur during playback due to Bluetooth hardware limitations.</string>
   <string name="bt_ldac_open_dialog_title">Turn on LDAC?</string>
-  <string name="bt_ldac_pre_summary">Provide a high-quality audio experience</string>
   <string name="bt_ldac_pre_title">LDAC</string>
   <string name="bt_ldac_property">Attributes</string>
-  <string name="bt_ldac_remember_choice">Remember choice</string>
-  <string name="bt_ldac_settings">Settings</string>
+  <string name="bt_pre_summary">Provide a high-quality audio experience</string>
   <string name="bt_rarely_used_device_title">Rarely used devices (%d)</string>
   <string name="bt_trace_log">Bluetooth trace log</string>
   <string name="bt_trace_log_summary">Bluetooth trace log</string>
@@ -1530,6 +1537,10 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="current_use_uicc_se">Using secure element on SIM card</string>
   <string name="current_use_uicc_wallet">"You're using SIM%1$s Wallet"</string>
   <string name="current_zone">(current)</string>
+  <string name="cutout_mode_always">Always show notch</string>
+  <string name="cutout_mode_default">Auto</string>
+  <string name="cutout_mode_settings_title">Some apps may be displayed incorrectly if you customize the way notch is displayed.</string>
+  <string name="cutout_mode_title">Notch in individual apps</string>
   <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (red-green)</string>
   <string name="daltonizer_mode_disabled">Disabled</string>
   <string name="daltonizer_mode_monochromacy">Monochromacy</string>

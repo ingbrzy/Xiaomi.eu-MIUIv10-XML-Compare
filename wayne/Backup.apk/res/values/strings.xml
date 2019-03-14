@@ -417,7 +417,6 @@ Free up at least %s."</string>
   <string name="trans_calculating_media_description">Media files</string>
   <string name="trans_calculating_tip">Calculating %s…</string>
   <string name="trans_cancel_confirm">Transfer in progress, stop now?</string>
-  <string name="trans_cancel_dialog_survey_title">Why did you interrupt the transfer?</string>
   <string name="trans_cancel_selection_message">If you exit Mi Mover, the ongoing transfer will be interrupted. Wait until the transfer is complete.</string>
   <string name="trans_cancel_selection_title">Stay in Mi Mover</string>
   <string name="trans_cancelling">Canceling…</string>
