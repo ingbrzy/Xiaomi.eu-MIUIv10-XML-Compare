@@ -445,7 +445,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_long_pressing_burst_shooting_entry_burst">Burst shoot</string>
   <string name="pref_camera_long_pressing_burst_shooting_entry_focus">Focus</string>
   <string name="pref_camera_long_pressing_shutter_title">Press &amp; hold Shutter button to lock AE/AF/AWB</string>
-  <string name="pref_camera_long_pressing_viewfinder_entry_google_lens">Google lens</string>
+  <string name="pref_camera_long_pressing_viewfinder_entry_google_lens">Google Lens</string>
   <string name="pref_camera_long_pressing_viewfinder_entry_lock_ae_af">AE &amp; AF Lock</string>
   <string name="pref_camera_magic_mirror_title">Magic mirror</string>
   <string name="pref_camera_mfnr_sat_enable_title">Turn on MFNR</string>
@@ -563,8 +563,8 @@ and brings out the people in the front."</string>
   <string name="pref_front_mirror_title">Mirror front camera</string>
   <string name="pref_google_lens">Google lens</string>
   <string name="pref_google_lens_default">true</string>
-  <string name="pref_google_lens_summary">Auto identify QR codes,Emails,numbers and text</string>
-  <string name="pref_google_lens_title">Smart Suggestion</string>
+  <string name="pref_google_lens_summary">Auto identify QR codes,Emails,numbers and so on</string>
+  <string name="pref_google_lens_title">Lens Suggestions</string>
   <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
   <string name="pref_live_volumekey_function_default">volume</string>
   <string name="pref_manual_exposure_title">S</string>
