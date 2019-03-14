@@ -462,7 +462,6 @@
   <string name="convert_to_file_encryption">Convert to file encryption</string>
   <string name="convert_to_file_encryption_done">Files are encrypted</string>
   <string name="convert_to_file_encryption_enabled">Convert…</string>
-  <string name="custom_lock_wallpaper_enter">Enter</string>
   <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (red-green)</string>
   <string name="daltonizer_mode_disabled">Disabled</string>
   <string name="daltonizer_mode_monochromacy">Monochromacy</string>
@@ -630,6 +629,8 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_unlock_check_failed">"Couldn't recognize you"</string>
   <string name="face_unlock_close_screen">Get closer to the screen</string>
   <string name="face_unlock_down">Raise your head</string>
+  <string name="face_unlock_fail">"Couldn't verify face"</string>
+  <string name="face_unlock_fail_retry">"Couldn't verify your face. Tap the icon to try again."</string>
   <string name="face_unlock_identify_error">A recognition error occurred</string>
   <string name="face_unlock_not_found">"Couldn't recognize you"</string>
   <string name="face_unlock_not_roi">Keep your face inside the frame</string>
@@ -650,6 +651,8 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_unlock_rotated_right">Turn your head to the left</string>
   <string name="face_unlock_sc_status">Push the screen down to open camera</string>
   <string name="face_unlock_stay_away_screen">Stay 25 to 40cm away from the screen</string>
+  <string name="face_unlock_success_stay_screen_msg">Stay on the Lock screen after your face is verified. Swipe up to open the Home screen.</string>
+  <string name="face_unlock_success_stay_screen_title">Stay on Lock screen after unlocking</string>
   <string name="fingerprint_add_text">The fingerprint interface was updated. Add your fingerprint again.</string>
   <string name="fingerprint_add_title">Add fingerprint</string>
   <string name="fingerprint_again_identified_msg">Your fingerprint is active now. Use it to unlock the device, or enter password.</string>
