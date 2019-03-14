@@ -443,6 +443,9 @@ When calibrating, make sure there's nothing between the sensor and your hand (e.
   <string name="cit_reset_se_start">Resetting your eSE...</string>
   <string name="cit_reset_test">Test</string>
   <string name="cit_reverse_charge_check_summary">Insert OTG phone to charge</string>
+  <string name="cit_rgb_check_blue_light">RGB blue</string>
+  <string name="cit_rgb_check_green_light">RGB green</string>
+  <string name="cit_rgb_check_red_light">RGB red</string>
   <string name="cit_sar_sensor_check_summary">Values for sar sensor channels should appear below, cover the button of the phone, if data changed, the function is good, Please be careful not to hold the device and keep the bottom clean of the cell phone!</string>
   <string name="cit_sar_sensor_check_title">SAR Sensor</string>
   <string name="cit_sd_fail">An error occurred.</string>
@@ -667,7 +670,7 @@ The second line shows the name and version number of Default MBN and Carrier MBN
   <string name="cit_tool_nfc_st_stop">Stop</string>
   <string name="cit_tool_no_repeat">No repetition!</string>
   <string name="cit_tool_not_support">Not Supported</string>
-  <string name="cit_tool_opt_fail_info_notify">Opt failed, Pls reboot phone to try it again.</string>
+  <string name="cit_tool_opt_fail_info_notify">Opt failed, need to reboot the phone for Non online mode.</string>
   <string name="cit_tool_prx_drx">PRx+DRx</string>
   <string name="cit_tool_prx_drx_select_mode">Select Mode:</string>
   <string name="cit_tool_prx_drx_select_rat">Select RAT:</string>
@@ -1163,9 +1166,13 @@ Hold the other hand close to the bottom of the phone
 Look at the value of CS0
 The value of CS0 ranges from 3000 to 30000 , the pass button is highlight"</string>
   <string name="sar_sensor_test_description">Sar Sensor Calibrate and Data Collect</string>
+  <string name="sar_sensor_test_err_angle">The phone is not placed at the right angle</string>
+  <string name="sar_sensor_test_next_step">Control baffle close to mobile phone</string>
+  <string name="sar_sensor_test_success">Sar Sensor test success</string>
   <string name="sar_sensor_test_summary">"Rotate the phone, put it to the fixture
 Click the Start Calibrate button
 After calibrate success, control the fixture close and away from the phone"</string>
+  <string name="sar_sensor_test_timeout">Sar Sensor test timeout</string>
   <string name="screen_off_fail_retry">灭屏解锁失败重试次数：</string>
   <string name="screen_on_fail_retry">亮屏解锁失败重试次数：</string>
   <string name="search_menu_title">Search</string>
