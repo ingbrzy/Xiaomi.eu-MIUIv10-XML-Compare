@@ -26,8 +26,6 @@
   <string name="agenda_assistant_payment_day">Payment day</string>
   <string name="agenda_assistant_repayment_day">Payment day</string>
   <string name="agenda_assistant_tail_num">Number</string>
-  <string name="agenda_disclaimer">Disclaimer</string>
-  <string name="agenda_disclaimer_content">This feature is provided by Alipay. Alipay shall bear all responsibility related to the services it provides. You can contact Alipay if you have any questions.</string>
   <string name="agenda_i_known">Got it</string>
   <string name="agenda_need_install_alipay">Install Alipay before using this feature.</string>
   <string name="agenda_no_title">(Unnamed)</string>
@@ -429,6 +427,8 @@
   <string name="cleanup_memory">Clear cache</string>
   <string name="cleanup_power">Deep clean</string>
   <string name="clear">Clear</string>
+  <string name="clock_alarm">Alarm</string>
+  <string name="clock_parent">Clock</string>
   <string name="closed">Off</string>
   <string name="commute">Map suggestions</string>
   <string name="commute_open">Show the card for map suggestions</string>
@@ -495,6 +495,8 @@
   <string name="didi_trip">Call a taxi</string>
   <string name="didi_trip_content">Estimate the fare and call a taxi</string>
   <string name="didi_trip_content_detail">Estimate the approximate taxi fare and call a taxi.</string>
+  <string name="disclaimer_content">This feature is provided by %1$s. %1$s shall bear all responsibility related to the services it provides. You can contact %1$s if you have any questions.</string>
+  <string name="disclaimer_title">Disclaimer</string>
   <string name="drive">Drive</string>
   <string name="dummy_tip">请将银行卡片正面置于此区域尝试对齐边缘。</string>
   <string name="duokan_open">Add Duokan card</string>
@@ -887,6 +889,8 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="generate_view_failed">全国人民都来了? 稍候再试试</string>
   <string name="go_to_pay">Quick repayment</string>
   <string name="go_to_school">To and from work or school</string>
+  <string name="google_assistant">Assistant</string>
+  <string name="google_parent">Google</string>
   <string name="greeting_open">Turn on daily greetings</string>
   <string name="greeting_setting_brief">Get weather info and reminders about scheduled events, alarms, and birthdays every morning and evening</string>
   <string name="greeting_setting_brief_notice">You can change the city in the Weather app</string>
@@ -973,9 +977,11 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="main_paste_add">Add</string>
   <string name="main_search_hint">Search</string>
   <string name="main_select">Select</string>
+  <string name="map_baidu">Baidu Map</string>
   <string name="map_detail">View route</string>
   <string name="map_didi">Call a taxi</string>
   <string name="map_empty_btn">"You haven't added any addresses"</string>
+  <string name="map_gaode">Gaode Map</string>
   <string name="map_home_didi">Go home</string>
   <string name="map_home_way">Way home</string>
   <string name="map_install_tip">Install Gaode or Baidu maps to use this feature</string>
@@ -1016,6 +1022,8 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="mi_sport">Step counter</string>
   <string name="mi_sport_go_install">Download</string>
   <string name="mi_wallet">Mi Wallet</string>
+  <string name="midrop_parent">Mi Drop</string>
+  <string name="midrop_send">Send</string>
   <string name="mifare_card">门卡</string>
   <string name="mini_add_fp">请先到手机系统中添加指纹, 再开启支付宝指纹密码</string>
   <string name="mini_agree">同意</string>
@@ -1363,6 +1371,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="payment_user_notice_bar_text">About \"Auto payments\"</string>
   <string name="personalAssistant_mainpage">Home page</string>
   <string name="personalAssistant_path">com.miui.home.launcher.assistant</string>
+  <string name="phone_check">Optimization</string>
   <string name="pie_chart_label_atm">ATM withdrawals:</string>
   <string name="pie_chart_label_catering">Food:</string>
   <string name="pie_chart_label_education">Education:</string>
@@ -1618,6 +1627,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="template_network_error_try_later">网络错误，请稍候再试</string>
   <string name="template_retry_button">重试</string>
   <string name="template_update_error">模板更新失败</string>
+  <string name="time_default">—:—</string>
   <string name="time_just_now">Just now</string>
   <string name="time_month">MM/dd</string>
   <string name="time_year">MM/dd/yyyy</string>
@@ -1666,6 +1676,8 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="walk">Walk</string>
   <string name="weibo_name">New post</string>
   <string name="weibo_parent">Weibo</string>
+  <string name="whatsapp_parent">WhatsApp</string>
+  <string name="whatsapp_photos">Photos</string>
   <string name="which_transport">How do you normally get to your destination?</string>
   <string name="widget_fav">Favorites</string>
   <string name="widget_fav_open">Show favorite card</string>
