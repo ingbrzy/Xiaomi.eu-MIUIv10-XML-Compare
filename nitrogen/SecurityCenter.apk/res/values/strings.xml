@@ -839,7 +839,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="face_unlock_check_failed">"Couldn't recognize you"</string>
   <string name="face_unlock_face_auth_failed_title">"Couldn't verify face data. Switching to other unlock methods…"</string>
   <string name="face_unlock_face_start_title">Verifying face data…</string>
-  <string name="face_unlock_finger_or_password_switch">Use your fingerprint or enter password to unlock.</string>
+  <string name="face_unlock_finger_or_password_switch">Use your fingerprint or enter password to unlock</string>
   <string name="face_unlock_guide_confirm">Use Face unlock</string>
   <string name="face_unlock_guide_dialog_summary">You can use face data to unlock your device. Turn on Face unlock?</string>
   <string name="face_unlock_not_found">"Couldn't recognize you"</string>
