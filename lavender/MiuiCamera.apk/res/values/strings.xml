@@ -276,6 +276,8 @@ in Portrait mode"</string>
   <string name="live_sticker_fragment_tab_name">TikTok Magic Sticker</string>
   <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating…</string>
+  <string name="macro_mode">微距模式</string>
+  <string name="macro_mode_tip">请将拍摄对象置于10cm内</string>
   <string name="makeup_reset_toast">Removed makeup effects</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="module_name_beauty">Beauty</string>
@@ -449,9 +451,13 @@ and brings out the people in the front."</string>
   <string name="pref_camera_live_sticker_internal_title">Internal magic tools</string>
   <string name="pref_camera_long_press_shutter_feature_default">burst</string>
   <string name="pref_camera_long_press_shutter_feature_title">Press &amp; hold Shutter button</string>
+  <string name="pref_camera_long_press_viewfinder_default">lens</string>
+  <string name="pref_camera_long_press_viewfinder_title">Press &amp; hold Viewfinder</string>
   <string name="pref_camera_long_pressing_burst_shooting_entry_burst">Burst shoot</string>
   <string name="pref_camera_long_pressing_burst_shooting_entry_focus">Focus</string>
   <string name="pref_camera_long_pressing_shutter_title">Press &amp; hold Shutter button to lock AE/AF/AWB</string>
+  <string name="pref_camera_long_pressing_viewfinder_entry_google_lens">Google Lens</string>
+  <string name="pref_camera_long_pressing_viewfinder_entry_lock_ae_af">AE &amp; AF Lock</string>
   <string name="pref_camera_magic_mirror_title">Magic mirror</string>
   <string name="pref_camera_mfnr_sat_enable_title">Turn on MFNR</string>
   <string name="pref_camera_movie_solid_default">true</string>
@@ -567,6 +573,9 @@ and brings out the people in the front."</string>
   <string name="pref_front_mirror_entryvalue_on">on</string>
   <string name="pref_front_mirror_title">Mirror front camera</string>
   <string name="pref_google_lens">Google lens</string>
+  <string name="pref_google_lens_default">true</string>
+  <string name="pref_google_lens_summary">Auto identify QR codes,Emails,numbers and so on</string>
+  <string name="pref_google_lens_title">Lens Suggestions</string>
   <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
   <string name="pref_live_volumekey_function_default">volume</string>
   <string name="pref_manual_exposure_title">S</string>
@@ -687,5 +696,11 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="video_reach_size_limit">Size limit reached.</string>
   <string name="video_ultra_clear_tip">4K UHD</string>
   <string name="view_privacy_policy">View Privacy Policy</string>
+  <string name="wideselfie_press_shoot_key_to_start">按下快门键</string>
+  <string name="wideselfie_rotate_slowly">缓慢旋转手机</string>
+  <string name="wideselfie_rotate_to_back">向后倾斜设备</string>
+  <string name="wideselfie_rotate_to_front">向前倾斜设备</string>
+  <string name="wideselfie_rotate_to_left_slowly">向左缓慢旋转手机</string>
+  <string name="wideselfie_rotate_to_right_slowly">向右缓慢旋转手机</string>
   <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
 </resources>
