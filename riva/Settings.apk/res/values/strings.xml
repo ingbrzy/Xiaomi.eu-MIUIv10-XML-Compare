@@ -1258,8 +1258,8 @@ This feature can be turned off in [Settings]"</string>
   <string name="credentials_configure_lock_screen_hint">You need to set a Lock screen PIN or password before you can use credential storage.</string>
   <string name="credentials_enabled">Credential storage is enabled.</string>
   <string name="credentials_erased">Credential storage is erased.</string>
-  <string name="credentials_install">Install from storage</string>
-  <string name="credentials_install_summary">Install certificates from storage</string>
+  <string name="credentials_install">Install from SD card</string>
+  <string name="credentials_install_summary">Install certificates from SD card</string>
   <string name="credentials_not_erased">Credential storage couldn’t be erased.</string>
   <string name="credentials_old_password">Current password:</string>
   <string name="credentials_password_too_short">8 character minimum</string>
@@ -1323,6 +1323,10 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="current_use_uicc_se">Using secure element on SIM card</string>
   <string name="current_use_uicc_wallet">"You're using SIM%1$s Wallet"</string>
   <string name="current_zone">(current)</string>
+  <string name="cutout_mode_always">Always show notch</string>
+  <string name="cutout_mode_default">Auto</string>
+  <string name="cutout_mode_settings_title">Some apps may be displayed incorrectly if you customize the way notch is displayed.</string>
+  <string name="cutout_mode_title">Notch in individual apps</string>
   <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (red-green)</string>
   <string name="daltonizer_mode_disabled">Disabled</string>
   <string name="daltonizer_mode_monochromacy">Monochromacy</string>
@@ -1639,9 +1643,9 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="display_vr_pref_title">When device is in VR</string>
   <string name="dlg_cancel">Cancel</string>
   <string name="dlg_close">Close</string>
-  <string name="dlg_confirm_unmount_text">If you unmount the USB storage, some apps you are using will stop and may be unavailable until you remount the USB storage.</string>
-  <string name="dlg_confirm_unmount_title">Unmount USB storage?</string>
-  <string name="dlg_error_unmount_text">Couldn’t unmount USB storage. Try again later.</string>
+  <string name="dlg_confirm_unmount_text">If you unmount the SD card, some apps you are using will stop and may be unavailable until you remount the SD card.</string>
+  <string name="dlg_confirm_unmount_title">Unmount SD card?</string>
+  <string name="dlg_error_unmount_text">Couldn’t unmount SD card. Try again later.</string>
   <string name="dlg_error_unmount_title"/>
   <string name="dlg_ok">OK</string>
   <string name="dlg_remove_locales_error_message">Keep at least one preferred language</string>
@@ -1887,8 +1891,8 @@ For more details, contact your organization's admin."</string>
   <string name="erase_application">Erase apps</string>
   <string name="erase_application_description">Erase downloaded apps</string>
   <string name="erase_data">Erase</string>
-  <string name="erase_external_storage">Erase USB storage</string>
-  <string name="erase_external_storage_description">Erase all the data on the internal USB storage, such as music or photos</string>
+  <string name="erase_external_storage">Erase SD card</string>
+  <string name="erase_external_storage_description">Erase all the data on the SD card, such as music or photos</string>
   <string name="erase_internal_storage">Erase stored content</string>
   <string name="erase_internal_storage_description">Erase music, photos, videos, and other user data</string>
   <string name="erase_optional">Optional</string>
@@ -1913,7 +1917,7 @@ For more details, contact your organization's admin."</string>
   <string name="experimental_preference">(Experimental)</string>
   <string name="extended_power_menu">Extended power menu</string>
   <string name="external_code_size_label">USB storage app</string>
-  <string name="external_data_size_label">USB storage data</string>
+  <string name="external_data_size_label">SD card</string>
   <string name="external_source_switch_title">Allow from this source</string>
   <string name="external_source_trusted">Allowed</string>
   <string name="external_source_untrusted">Not allowed</string>
@@ -1937,7 +1941,7 @@ For more details, contact your organization's admin."</string>
   <string name="filter_apps_all">All apps</string>
   <string name="filter_apps_cached">Cached</string>
   <string name="filter_apps_disabled">Disabled apps</string>
-  <string name="filter_apps_onsdcard">USB storage</string>
+  <string name="filter_apps_onsdcard">On SD card</string>
   <string name="filter_apps_running">Running</string>
   <string name="filter_apps_third_party">Downloaded</string>
   <string name="filter_dlg_title">Choose filter options</string>
@@ -2805,7 +2809,7 @@ You are currently signed into the following accounts:
 "&lt;li&gt;Other user data&lt;/li&gt;</string>
   <string name="master_clear_desc_erase_external_storage">"
 
-To clear music, pictures, and other user data, the "&lt;b&gt;USB storage&lt;/b&gt; needs to be erased.</string>
+To clear music, pictures, and other user data, the "&lt;b&gt;SD card&lt;/b&gt; needs to be erased.</string>
   <string name="master_clear_erase_application_progress">Erasing apps…</string>
   <string name="master_clear_failed">No reset was performed because the System Clear service isn’t available.</string>
   <string name="master_clear_final_button_text">Erase everything</string>
@@ -3015,7 +3019,7 @@ There are other users present on this device.
   <string name="move_app_failed_dlg_text">Couldn’t move app. %1$s</string>
   <string name="move_app_failed_dlg_title"/>
   <string name="move_app_to_internal">Move to phone</string>
-  <string name="move_app_to_sdcard">Move to USB storage</string>
+  <string name="move_app_to_sdcard">Move to SD card</string>
   <string name="move_error_device_admin">"Device admin app can't be installed on external media"</string>
   <string name="moving">Moving</string>
   <string name="mqs_privacy_automatically_upload">Upload automatically next time</string>
@@ -4132,32 +4136,32 @@ To use screen pinning:
   <string name="screenshot">Screenshot</string>
   <string name="screenshot_three_gesture">Slide 3 fingers down to take a screenshot</string>
   <string name="screenshot_three_gesture_summary">Other 3-fingered gestures will be turned off</string>
-  <string name="sd_card_settings_label">USB storage</string>
-  <string name="sd_card_storage">USB storage</string>
-  <string name="sd_eject">Unmount shared storage</string>
-  <string name="sd_eject_summary">Unmount the internal USB storage</string>
+  <string name="sd_card_settings_label">SD card</string>
+  <string name="sd_card_storage">SD card storage</string>
+  <string name="sd_eject">Unmount SD card</string>
+  <string name="sd_eject_summary">Unmount the SD card so you can safely remove it</string>
   <string name="sd_ejecting_summary">Unmount in progress</string>
   <string name="sd_ejecting_title">Unmounting</string>
-  <string name="sd_format">Erase USB storage</string>
-  <string name="sd_format_summary">Erases all data on the internal USB storage, such as music and photos</string>
-  <string name="sd_insert_summary">Insert USB storage for mounting</string>
-  <string name="sd_memory">USB storage</string>
-  <string name="sd_mount">Mount USB storage</string>
+  <string name="sd_format">Erase SD card</string>
+  <string name="sd_format_summary">Erases all data on the SD card, such as music and photos</string>
+  <string name="sd_insert_summary">Insert an SD card for mounting</string>
+  <string name="sd_memory">SD card</string>
+  <string name="sd_mount">Mount SD card</string>
   <string name="sd_mount_summary"/>
   <string name="sdcard_changes_instructions">Changes take effect when USB cable is reconnected.</string>
-  <string name="sdcard_format">Erase USB storage</string>
-  <string name="sdcard_setting">USB storage</string>
+  <string name="sdcard_format">Erase SD card</string>
+  <string name="sdcard_setting">SD card</string>
   <string name="sdcard_settings_available_bytes_label">Available bytes:</string>
-  <string name="sdcard_settings_bad_removal_status">USB storage was removed while still in use!</string>
-  <string name="sdcard_settings_mass_storage_status">USB storage is being used as a mass storage device.</string>
-  <string name="sdcard_settings_not_present_status">USB storage not mounted.</string>
-  <string name="sdcard_settings_read_only_status">USB storage mounted read-only.</string>
-  <string name="sdcard_settings_scanning_status">Scanning USB storage for media…</string>
+  <string name="sdcard_settings_bad_removal_status">SD card was removed while still in use!</string>
+  <string name="sdcard_settings_mass_storage_status">SD card is being used as a mass storage device.</string>
+  <string name="sdcard_settings_not_present_status">No SD card.</string>
+  <string name="sdcard_settings_read_only_status">SD card mounted read-only.</string>
+  <string name="sdcard_settings_scanning_status">Scanning SD card for media…</string>
   <string name="sdcard_settings_screen_mass_storage_text">Enable USB mass storage</string>
   <string name="sdcard_settings_total_bytes_label">Total bytes:</string>
-  <string name="sdcard_settings_unmounted_status">It’s now safe to remove the USB storage.</string>
+  <string name="sdcard_settings_unmounted_status">It’s now safe to remove the SD card.</string>
   <string name="sdcard_settings_used_bytes_label">Used bytes:</string>
-  <string name="sdcard_unmount">Unmount USB storage</string>
+  <string name="sdcard_unmount">Unmount SD card</string>
   <string name="se_route_ese">Embedded secure element</string>
   <string name="se_route_uicc">Secure element on SIM card</string>
   <string name="se_wallet_ese">Mi Pay and NFC transport card</string>
@@ -4894,7 +4898,7 @@ This ^1 is formatted to work on this device only. It won&amp;#8217;t work on any
   <string name="storage_photos_videos">Photos &amp; videos</string>
   <string name="storage_rename_title">Rename storage</string>
   <string name="storage_settings">Storage</string>
-  <string name="storage_settings_summary">Unmount USB storage, view available storage</string>
+  <string name="storage_settings_summary">Unmount SD card, view available storage</string>
   <string name="storage_settings_title">Storage settings</string>
   <string name="storage_size_large">^1&lt;small&gt;&lt;small&gt; ^2&lt;/small&gt;&lt;/small&gt;</string>
   <string name="storage_size_large_alternate">^1&lt;small&gt; ^2&lt;/small&gt;</string>
@@ -5330,7 +5334,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
-  <string name="unmount_inform_text">USB storage will be unmounted.</string>
+  <string name="unmount_inform_text">SD card will be unmounted.</string>
   <string name="unmute_sound_title">Unmute sound</string>
   <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
   <string name="unrestricted_app_summary">Allow unrestricted data access when Data Saver is on</string>
