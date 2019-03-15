@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="abc_action_bar_home_description">Navigate home</string>
-  <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-  <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
   <string name="abc_action_bar_up_description">Navigate up</string>
   <string name="abc_action_menu_overflow_description">More options</string>
   <string name="abc_action_mode_done">Done</string>
@@ -31,6 +29,8 @@
   <string name="abc_shareactionprovider_share_with">Share with</string>
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
+  <string name="accessbility_suggestion_dropdown_closed">No suggestions available</string>
+  <string name="accessbility_suggestion_dropdown_opened">Contact suggestions opened</string>
   <string name="accessibility_add_attendee">Add attendee</string>
   <string name="accessibility_all_day">All day event</string>
   <string name="accessibility_pick_start_date">Start date</string>
@@ -41,6 +41,7 @@
   <string name="account_and_calendar">Accounts</string>
   <string name="action_bar_date_button_title">Calculate date</string>
   <string name="action_bar_return">Back</string>
+  <string name="action_label">Return</string>
   <string name="action_text_card_manager">Channel</string>
   <string name="ad_card_connecting">连接中</string>
   <string name="ad_card_download_count">%1$d人下载</string>
@@ -59,7 +60,7 @@
   <string name="add_anniversary">Add anniversary</string>
   <string name="add_countdown">Add countdown</string>
   <string name="add_event">Add event</string>
-  <string name="address">地址</string>
+  <string name="address">Address</string>
   <string name="agenda_month_empty_hint">No events for today</string>
   <string name="agenda_tomorrow">TOMORROW, %1$s</string>
   <string name="agenda_view">Events</string>
@@ -115,6 +116,9 @@
   <string name="childrens_day">儿童节</string>
   <string name="chinese_leap">闰</string>
   <string name="chinese_youth_day">青年节</string>
+  <string name="chips_action_cancel">Cancel</string>
+  <string name="chips_action_copy">Copy</string>
+  <string name="chips_permission_text">Allow contacts suggestions</string>
   <string name="chongsha">冲煞</string>
   <string name="christmas_day">圣诞节</string>
   <string name="city_limit_back_icon_tip">返回日历首页</string>
@@ -141,7 +145,7 @@
   <string name="credit_card_number_label">卡号：</string>
   <string name="credit_currency">元</string>
   <string name="credit_detail_amount_label">应还</string>
-  <string name="credit_detail_sms_content">短信原文</string>
+  <string name="credit_detail_sms_content">SMS contents</string>
   <string name="credit_detail_today">今日：</string>
   <string name="credit_event_delete_successfully">信用卡还款事件删除成功</string>
   <string name="credit_event_title">信用卡账单</string>
@@ -164,7 +168,7 @@
   <string name="date_jump_hint">Jump to a certain day directly</string>
   <string name="date_jump_title">Jump to date</string>
   <string name="date_pattern_mm_dd">M月d日</string>
-  <string name="date_time_fmt" formatted="false">%s, %s</string>
+  <string name="date_time_fmt">%1$s, %2$s</string>
   <string name="date_today">" (today)"</string>
   <string name="day_view_new_event_hint">+ New event</string>
   <string name="default_reminder_mode">Reminders</string>
@@ -178,10 +182,10 @@
   <string name="directory_searching_fmt">Searching %s…</string>
   <string name="discard_label">Cancel</string>
   <string name="does_not_repeat">One-time event</string>
-  <string name="done">Return</string>
   <string name="double_seventh_day">七夕</string>
   <string name="download">下载</string>
   <string name="downloading">下载中</string>
+  <string name="dropdown_delete_button_desc">Remove %s from recipients</string>
   <string name="easter">复活节</string>
   <string name="edit_date_calculate_days_backward_error_hint">"Can't calculate forwards"</string>
   <string name="edit_date_calculate_days_empty_hint">Enter the number of days</string>
@@ -266,10 +270,9 @@
   <string name="feed_guide_title">选择喜欢的频道，即刻发现新鲜事</string>
   <string name="feed_list_close_confirm">确定</string>
   <string name="feed_list_close_title">可选理由，精准屏蔽</string>
+  <string name="feed_list_load_more">加载更多</string>
   <string name="feed_list_loading_hint">正在载入…</string>
   <string name="feed_list_pull_to_refresh_hint">下拉刷新…</string>
-  <string name="feed_list_push_to_load_hint">上拉加载…</string>
-  <string name="feed_list_release_to_load_hint">放开加载…</string>
   <string name="feed_list_release_to_refresh_hint">放开刷新…</string>
   <string name="feed_list_tips_none">暂无新鲜事，稍后再试</string>
   <string name="feed_list_tips_success">已更新%1$d条新鲜事</string>
@@ -283,20 +286,20 @@
   <string name="feed_title">今日关注</string>
   <string name="feed_title_all">全部关注</string>
   <string name="festival_detail_title">Festival</string>
-  <string name="flight_check_in">航班值机</string>
-  <string name="flight_check_in_done">已值机</string>
-  <string name="flight_check_in_now">立即值机</string>
-  <string name="flight_detail_tips">更多飞机行程服务推荐使用：%1$s</string>
-  <string name="flight_detail_tips_url">飞常准</string>
-  <string name="flight_detail_title">飞机行程</string>
-  <string name="flight_disclaimer">免责声明</string>
-  <string name="flight_disclaimer_content">航班数据和服务由飞常准提供。相关服务和责任将由该第三方承担，如有问题请咨询该公司客服。同时，相关航班信息仅供参考，请以乘坐航空公司发布信息为准。</string>
-  <string name="flight_disclaimer_dialog_ok">知道了</string>
-  <string name="flight_event_delete_successfully">飞机行程删除成功</string>
-  <string name="flight_plan_time">计划%1$s</string>
-  <string name="flight_seat_no">座位%1$s</string>
-  <string name="flight_state">航班状态</string>
-  <string name="flight_time">实际%1$s</string>
+  <string name="flight_check_in">Check in</string>
+  <string name="flight_check_in_done">Checked in</string>
+  <string name="flight_check_in_now">Check in now</string>
+  <string name="flight_detail_tips">More flight-related services: %1$s</string>
+  <string name="flight_detail_tips_url">VariFlight</string>
+  <string name="flight_detail_title">Flight itinerary</string>
+  <string name="flight_disclaimer">Disclaimer</string>
+  <string name="flight_disclaimer_content">"Flight info and services are provided by VariFlight. All related responsibilities will be borne by the third party. Contact VariFlight's customer service if you have any questions. Flight info is provided for your reference only. Refer to the airline company announcements for more accurate and up-to-date information."</string>
+  <string name="flight_disclaimer_dialog_ok">Got it</string>
+  <string name="flight_event_delete_successfully">Deleted flight itinerary successfully</string>
+  <string name="flight_plan_time">Scheduled %1$s</string>
+  <string name="flight_seat_no">Seat %1$s</string>
+  <string name="flight_state">Flight status</string>
+  <string name="flight_time">Estimated %1$s</string>
   <string name="fools_day">愚人节</string>
   <string name="fortune_birthday">生日</string>
   <string name="fortune_card_caiwei">财位：</string>
@@ -354,8 +357,8 @@
   <string name="horoscope_card_set_bazi">点击设置星座运势</string>
   <string name="horoscope_card_working">事业运势：</string>
   <string name="horoscope_select_activity_label">Select zodiac sign</string>
-  <string name="hotel_detail_title">酒店信息</string>
-  <string name="hotel_event_delete_successfully">酒店事件删除成功</string>
+  <string name="hotel_detail_title">Hotel details</string>
+  <string name="hotel_event_delete_successfully">Deleted hotel booking successfully</string>
   <string name="hotel_event_title">入住酒店：</string>
   <string name="huangli_bad_type">忌</string>
   <string name="huangli_good_type">宜</string>
@@ -502,8 +505,8 @@
   <string name="monthly_on_day">Monthly (on the same day each month)</string>
   <string name="monthly_on_day_count">Monthly (%1$s %2$s of every month)</string>
   <string name="more_match">更多赛事</string>
-  <string name="more_string">+%1$s</string>
-  <string name="movie_event_delete_successfully">电影票事件删除成功</string>
+  <string name="more_string">+%1$d</string>
+  <string name="movie_event_delete_successfully">Deleted movie ticket successfully</string>
   <string name="movie_event_title">电影：</string>
   <string name="national_day">国庆节</string>
   <string name="national_father_day">國父誕辰</string>
@@ -551,11 +554,11 @@ Check network settings and try again."</string>
   <string name="panchang_yamaghanta">Yamaghanta</string>
   <string name="panchang_yog">Yog</string>
   <string name="partys_day">建党节</string>
-  <string name="passenger">乘机人</string>
+  <string name="passenger">Passenger</string>
   <string name="path_calendar_settings">System apps/Calendar/Settings</string>
   <string name="peace_day">和平紀念</string>
   <string name="pengzu">彭祖</string>
-  <string name="phone_num">电话</string>
+  <string name="phone_num">Phone</string>
   <string name="prefDefault_alerts_vibrateWhen">never</string>
   <string name="prefDefault_alerts_vibrate_false">never</string>
   <string name="prefDefault_alerts_vibrate_true">always</string>
@@ -594,10 +597,9 @@ Check network settings and try again."</string>
   <string name="recommend_card_close_hint">将为您减少类似订阅推荐</string>
   <string name="refresh">Refresh</string>
   <string name="refreshing_hint">Just a sec…</string>
-  <string name="reminder_overdue">已过期</string>
+  <string name="reminder_overdue">Expired</string>
   <string name="repeat_activity_label">Repeat</string>
   <string name="repeat_custom_activity_label">Custom</string>
-  <string name="repeat_custom_prompt">every %1$s on %2$s</string>
   <string name="repeat_custom_prompt_daily">every %1$s</string>
   <string name="repeat_custom_prompt_sentence">Event will repeat %1$s</string>
   <string name="repeat_custom_prompt_splitter">", "</string>
@@ -762,12 +764,12 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="too_long_description">Event description is too long</string>
   <string name="too_long_location">Location name is too long</string>
   <string name="too_long_name">Name is too long</string>
-  <string name="train_detail_title">火车行程</string>
+  <string name="train_detail_title">Train itinerary</string>
   <string name="train_event_add_arrive_station">Tap to add destination</string>
   <string name="train_event_arrive">Arrives at %1$s</string>
   <string name="train_event_arrive_station_saved">Saved destination successfully</string>
   <string name="train_event_choose_arrive_station">Select destination</string>
-  <string name="train_event_delete_successfully">火车行程删除成功</string>
+  <string name="train_event_delete_successfully">Deleted train itinerary successfully</string>
   <string name="train_event_depart">Departs at %1$s</string>
   <string name="train_event_disclaimer">"Disclaimer: All information about trains and services is provided by the railroad company. You can contact the railroad company's customer support if you have any questions. Train information is provided for your reference only. Refer to the official website of the railroad company for the latest updates and adjustments."</string>
   <string name="train_event_error_toast">"Couldn't load info"</string>
@@ -784,7 +786,6 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="train_event_station_time_format">HH:mm</string>
   <string name="travel_airport">Airport</string>
   <string name="travel_carriage_number_text">Car</string>
-  <string name="travel_eta_advice">%2$s minute drive to %1$s.</string>
   <string name="travel_ets_advice">Drive to %2$s before %1$s.</string>
   <string name="travel_event_add_successfully">Event created</string>
   <string name="travel_event_title_flight">Flight: %1$s-%2$s %3$s</string>
