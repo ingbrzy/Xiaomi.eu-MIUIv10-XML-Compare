@@ -1149,6 +1149,15 @@ Selection"</string>
   <string name="brightness_summary">Adjust the brightness of the screen</string>
   <string name="brightness_title">Brightness</string>
   <string name="bssid_label">BSSID:</string>
+  <string name="bt_aac_dialog_summary">"Current device supports AAC codec. However, AAC may fail to play sound due to compatibility issues. Your device switched to SBC codec automatically.
+You can change this in the Settings."</string>
+  <string name="bt_aac_dialog_title">Bluetooth connection</string>
+  <string name="bt_aac_open_dialog_summary">"AAC may fail to play sound due to compatibility issues.
+You can turn this feature off in the Settings &gt; Bluetooth &gt; Paired devices."</string>
+  <string name="bt_aac_open_dialog_title">Switching to AAC codec</string>
+  <string name="bt_aac_pre_title">AAC</string>
+  <string name="bt_dialog_remember_choice">Remember choice</string>
+  <string name="bt_dialog_settings">Settings</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
   <string name="bt_hci_snoop_log_summary">Capture all Bluetooth HCI packets in a file</string>
   <string name="bt_ldac_declaration">When a Bluetooth device supports LDAC, it will be connected by default. LDAC provides a high-quality audio experience, but also increases power consumption. Issues may occur during playback due to Bluetooth hardware limitations.</string>
@@ -1157,11 +1166,9 @@ This feature can be turned off in [Settings]"</string>
   <string name="bt_ldac_dialog_title">The current device supports LDAC, which has been connected by default:</string>
   <string name="bt_ldac_open_dialog_summary">LDAC provides a high-quality audio experience, but also increases power consumption. Issues may occur during playback due to Bluetooth hardware limitations.</string>
   <string name="bt_ldac_open_dialog_title">Turn on LDAC?</string>
-  <string name="bt_ldac_pre_summary">Provide a high-quality audio experience</string>
   <string name="bt_ldac_pre_title">LDAC</string>
   <string name="bt_ldac_property">Attributes</string>
-  <string name="bt_ldac_remember_choice">Remember choice</string>
-  <string name="bt_ldac_settings">Settings</string>
+  <string name="bt_pre_summary">Provide a high-quality audio experience</string>
   <string name="bt_rarely_used_device_title">Rarely used devices (%d)</string>
   <string name="bt_trace_log">Bluetooth trace log</string>
   <string name="bt_trace_log_summary">Bluetooth trace log</string>
@@ -1530,6 +1537,10 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="current_use_uicc_se">Using secure element on SIM card</string>
   <string name="current_use_uicc_wallet">"You're using SIM%1$s Wallet"</string>
   <string name="current_zone">(current)</string>
+  <string name="cutout_mode_always">Always show notch</string>
+  <string name="cutout_mode_default">Auto</string>
+  <string name="cutout_mode_settings_title">Some apps may be displayed incorrectly if you customize the way notch is displayed.</string>
+  <string name="cutout_mode_title">Notch in individual apps</string>
   <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (red-green)</string>
   <string name="daltonizer_mode_disabled">Disabled</string>
   <string name="daltonizer_mode_monochromacy">Monochromacy</string>
@@ -3130,6 +3141,7 @@ as your First space PIN."</string>
   <string name="lockscreen_settings_title">Lock screen preferences</string>
   <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with Mi Cloud.</string>
   <string name="login_account_dialog_title">Sign in with Mi Account</string>
+  <string name="login_account_summary">Manage accounts, cloud services, payments, and more</string>
   <string name="login_action">Sign in</string>
   <string name="long_press_back_key">Long press the Back button</string>
   <string name="long_press_buttom_key">Long press Home on the Lock screen</string>
@@ -3332,6 +3344,7 @@ There are other users present on this device.
   <string name="miui_lab_settings">MIUI lab</string>
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
   <string name="miui_master_clear_summary">Erases all data on phone</string>
+  <string name="miui_more_special_feature">Explore new features</string>
   <string name="miui_optimization_disabled">Turn off MIUI optimization</string>
   <string name="miui_sos_audio_summary">Play SOS message after emergency contact picks up</string>
   <string name="miui_sos_audio_title">SOS voice message</string>
@@ -3379,6 +3392,7 @@ There are other users present on this device.
   <string name="miui_sos_settings_category">SOS settings</string>
   <string name="miui_sos_statusbar_summary">Tap to turn off</string>
   <string name="miui_sos_statusbar_title">Emergency SOS is activated</string>
+  <string name="miui_special_feature">Special features</string>
   <string name="miui_touch_filtered_warning">If an app is blocking a permissions dialog, drag the overlapping item away or close the app.</string>
   <string name="miui_updater">System update</string>
   <string name="miui_userguide">User guide</string>
@@ -3816,6 +3830,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="other_device_info">Others</string>
   <string name="other_personal_settings">Personal settings</string>
   <string name="other_relative">Other</string>
+  <string name="other_settings_sync_settings">Sync</string>
   <string name="other_sound_category_preference_title">Other sounds and vibrations</string>
   <string name="other_sound_settings">Other sounds</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
@@ -3915,7 +3930,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="person_hotpot">Mobile hotspots</string>
   <string name="personal_data_section_title">Personal data</string>
   <string name="personal_device_admin_title">Personal</string>
-  <string name="personal_section_title">Personal</string>
+  <string name="personal_section_title">Personalization</string>
   <string name="phone_call_noise_suppression">Suppress noise during calls</string>
   <string name="phone_info_label">Phone info</string>
   <string name="phone_language">Languages</string>
@@ -4709,6 +4724,7 @@ To use screen pinning:
   <string name="search_oldman_mode_entry_name">Lite mode;Oldman mode;Litemode</string>
   <string name="search_onekey_migrate">Transfer;Mi Mover</string>
   <string name="search_other_advanced_settings">Additional settings;More settings</string>
+  <string name="search_other_settings_sync_settings">Sync;Auto;WLAN only</string>
   <string name="search_owner_info_settings_title">Owner info</string>
   <string name="search_page_layout_settings">Text size;Font size;Small font;Big font;Medium font;XXL font;Huge font;Font sizes</string>
   <string name="search_permission_manager">Permissions;Root access</string>
@@ -4769,6 +4785,7 @@ To use screen pinning:
   <string name="search_trusted_credentials">Trusted credentials;App signature;App signatures;Credentials;Signature</string>
   <string name="search_tts_settings_title">Text-to-speech output;Text-to-speech</string>
   <string name="search_turn_on_security_lock">Choose screen lock;Screen lock;Add screen lock;screenlock</string>
+  <string name="search_unlogin_account_title">Mi Account; Mi Account ID;Account;Account ID</string>
   <string name="search_usb_tethering_button_text">USB tethering;Tethering;USB</string>
   <string name="search_user_agreement">Terms of Service</string>
   <string name="search_user_dict_settings_title">Personal dictionary;Dictionary</string>
@@ -5590,7 +5607,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_alert_window_apps_title">Apps</string>
   <string name="system_alert_window_settings">Display over other apps</string>
   <string name="system_alert_window_summary">%1$d of %2$d apps allowed to display over other apps</string>
-  <string name="system_and_device_section_title">System &amp; device</string>
+  <string name="system_and_device_section_title">System settings</string>
   <string name="system_app">(System)</string>
   <string name="system_app_settings">System app settings</string>
   <string name="system_apps_updater">System apps updater</string>
@@ -5857,6 +5874,8 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
+  <string name="unlogin_account_summary">All Mi services. One Mi Account</string>
+  <string name="unlogin_account_title">Sign in to Mi Account</string>
   <string name="unmount_inform_text">USB storage will be unmounted.</string>
   <string name="unmute_sound_title">Unmute sound</string>
   <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
