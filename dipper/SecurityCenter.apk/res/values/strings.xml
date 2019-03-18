@@ -609,6 +609,7 @@ You will not lose any app data."</string>
   <string name="create_table_report_sms">CREATE TABLE reportSms( id TEXT NOT NULL );</string>
   <string name="create_table_report_sms_pending">CREATE TABLE reportSmsPending( id TEXT NOT NULL, address TEXT, body TEXT, date TEXT );</string>
   <string name="create_table_sim">CREATE TABLE sim( _id INTEGER PRIMARY KEY AUTOINCREMENT, sim_id TEXT NOT NULL, call_wait TEXT DEFAULT -1, name TEXT DEFAULT NULL, backsound_mode INTEGER DEFAULT 0 );</string>
+  <string name="create_table_thirddesktop">CREATE TABLE THIRD_DESKTOP( _id INTEGER PRIMARY KEY AUTOINCREMENT, package_name TEXT NOT NULL, application_name TEXT NOT NULL, type INTEGER NOT NULL );</string>
   <string name="create_table_vaid">CREATE TABLE VAID( _id INTEGER PRIMARY KEY AUTOINCREMENT, package_name TEXT NOT NULL, vaid TEXT NOT NULL );</string>
   <string name="create_talbe_fwlog">CREATE TABLE fwlog( _id INTEGER PRIMARY KEY AUTOINCREMENT, number TEXT DEFAULT NULL, date INTEGER NOT NULL DEFAULT 0, type INTEGER NOT NULL DEFAULT 0, reason INTEGER NOT NULL DEFAULT 0, data1 TEXT DEFAULT NULL, data2 TEXT DEFAULT NULL, read INTEGER NOT NULL DEFAULT 0, simid TEXT DEFAULT -1, mode INTEGER NOT NULL DEFAULT 0, callType INTEGER NOT NULL DEFAULT 0 );</string>
   <string name="cta_dialog_msg">&lt;Data&gt;You must agree to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy policy&amp;lt;/a&amp;gt; before using Security. Security also needs to connect to the internet and access your location to work normally and keep antivirus definitions up to date. Agree?&lt;/Data&gt;</string>
@@ -2073,6 +2074,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="section_title_clear_acc">Clear cache</string>
   <string name="section_title_security_defend">Security</string>
   <string name="section_title_system">System security</string>
+  <string name="security_center_slogan">Security. Always on guard.</string>
   <string name="security_scan_optimizing">Optimizing…</string>
   <string name="see_detail">Details</string>
   <string name="see_more_content">Update Games to see more highlights</string>
@@ -2460,6 +2462,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="thermal_tips_message">Playing games in the Performance mode may lead to overheating issues.</string>
   <string name="thermal_tips_title">Attention</string>
   <string name="third_application">Installed apps</string>
+  <string name="third_desktop_dialog_content">As launcher apps from third parties may result in problems like data leak, abnormal battery drain and lagging, etc., only those verified by MIUI can be set as your default launcher.</string>
+  <string name="third_desktop_dialog_ok">Got it</string>
+  <string name="third_desktop_dialog_title">Error</string>
   <string name="three_percent_total_pkg">%s (3%% of monthly data)</string>
   <string name="timeshow_h">%.1fh</string>
   <string name="timeshow_h_int">%dh</string>
