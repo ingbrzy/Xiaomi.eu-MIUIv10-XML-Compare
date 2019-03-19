@@ -1121,7 +1121,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gs_performance_mode">Performance mode</string>
   <string name="gs_performance_mode_detail">Optimize system performance for gaming</string>
   <string name="gs_sign_notification">Remind to check in at 8 PM daily</string>
-  <string name="gs_slip_gamebox_detail">Use slider to make the shortcut panel appear. Quick replies and screen recording options are available.</string>
+  <string name="gs_slip_gamebox_detail">Use slider or swipe from the top side edge of the screen to make the shortcut panel appear</string>
   <string name="guide_get_operator_error">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Wrong carrier?&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="guide_operator_text">"Your current carrier: "</string>
   <string name="guide_quck_open">Turn on</string>
