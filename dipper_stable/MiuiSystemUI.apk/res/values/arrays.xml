@@ -758,6 +758,8 @@
         <item>UA</item>
         <item>SE</item>
         <item>CZ</item>
+        <item>HU</item>
+        <item>NO</item>
     </string-array>
     <string-array name="region_support_mihome">
         <item>CN</item>

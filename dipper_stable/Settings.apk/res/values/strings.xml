@@ -1497,6 +1497,8 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="crypt_keeper_setup_time_remaining">Wait while your phone is being encrypted. Time remaining: ^1</string>
   <string name="crypt_keeper_setup_title">Encrypting</string>
   <string name="crypt_keeper_switch_input_method">Switch input method</string>
+  <string name="crypt_keeper_switch_to_pattern">Use pattern</string>
+  <string name="crypt_keeper_switch_to_pin">Use PIN</string>
   <string name="crypt_keeper_unplugged_text">Plug in your charger and try again.</string>
   <string name="crypt_keeper_warn_wipe">Warning: Your device will be wiped after ^1 more failed attempts to be unlocked!</string>
   <string name="cryptkeeper_emergency_call">Emergency call</string>
