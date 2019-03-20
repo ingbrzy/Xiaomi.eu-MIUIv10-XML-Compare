@@ -631,6 +631,9 @@
   <string name="cleaner_screen_shot_action">Clear</string>
   <string name="cleaner_screen_shot_description">Delete the screenshots you no longer need.</string>
   <string name="cleaner_screen_shot_title">Delete screenshots</string>
+  <string name="cleaner_similar_action">Delete now</string>
+  <string name="cleaner_similar_description">Delete duplicate photos</string>
+  <string name="cleaner_similar_title">Duplicate photos</string>
   <string name="cleaner_slim_action">Start optimization</string>
   <string name="cleaner_slim_description">Keep optimized photos on your device. Original files will be stored in Mi Cloud.</string>
   <string name="cleaner_slim_start">Optimize</string>
@@ -638,6 +641,10 @@
   <string name="cleaner_space_description">can be freed up</string>
   <string name="cleaner_space_detail_description">Clear photos in your Gallery to free up storage space</string>
   <string name="cleaner_stop_scan">Stop scanning</string>
+  <string name="cleaner_video_action">Delete now</string>
+  <string name="cleaner_video_description">Delete videos that take up storage space</string>
+  <string name="cleaner_video_pick_delete_selected">Delete selected videos</string>
+  <string name="cleaner_video_title">Delete videos</string>
   <string name="click_download_gif">Tap to download GIF</string>
   <string name="click_top_right">Tap this icon</string>
   <string name="close">Close</string>
@@ -879,7 +886,7 @@
   <string name="ext_sdcard_permission_request_title">Allow Gallery to access SD card</string>
   <string name="ext_sdcard_request_failed_button_text">OK</string>
   <string name="ext_sdcard_request_succeed_toast_text">"You're ready to rock!"</string>
-  <string name="face_album_empty">"Not enough photos to recognize people.
+  <string name="face_album_empty">"Not enough photos to recognize people.r
 Take more photos of your friends!"</string>
   <string name="face_album_empty_syncing">Syncing data, come back in a while</string>
   <string name="face_album_empty_syncing_when_connect_wifi">Connect to network to sync info</string>
@@ -1062,7 +1069,7 @@ are available"</string>
   <string name="loading_gif_thumbnail">Downloading GIF thumbnail…</string>
   <string name="loading_image">Downloading image…</string>
   <string name="loading_image_thumbnail">Downloading thumbnail…</string>
-  <string name="loading_members">Loading members026</string>
+  <string name="loading_members">Loading members2026</string>
   <string name="loading_processing_tip">Processing photo…</string>
   <string name="loading_suspend">Download paused. Will resume when Wi-Fi is available.</string>
   <string name="loading_video">Downloading video…</string>
@@ -1359,6 +1366,7 @@ to personalize Gallery"</string>
   <string name="play_gif_desc">Play GIF</string>
   <string name="play_video_desc">Play video</string>
   <string name="preparing_data">Just a sec…</string>
+  <string name="print_log">Print log</string>
   <string name="privacy_permission_request_message">Gallery needs access to %3$s. The information we collect will be used in accordance with our %1$s and %2$s. Allow?</string>
   <string name="privacy_permission_request_negative">Restrict</string>
   <string name="privacy_permission_request_positive">Allow</string>
@@ -1436,6 +1444,16 @@ to personalize Gallery"</string>
   <string name="scan_barcode_guide">"To get album's QR code, tap the Share icon."</string>
   <string name="scan_barcode_to_join">Scan QR code to add album</string>
   <string name="scan_qr_code_buttom_text">Scan QR code to view this album</string>
+  <string name="screen_doodle_talkback_size">Doodle line width</string>
+  <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+  <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
+  <string name="screen_editor_finish">Done</string>
+  <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+  <string name="screen_editor_send">@string/operation_send</string>
+  <string name="screen_editor_text">@string/photo_editor_text</string>
+  <string name="screen_save_dialog_btn_cancel">Cancel</string>
+  <string name="screen_save_dialog_btn_delete">Delete screenshot</string>
+  <string name="screen_save_dialog_btn_save">Save to Gallery</string>
   <string name="search_backup_full_screen">Turn on sync with Mi Cloud to find more objects and people</string>
   <string name="search_backup_now">Turn on</string>
   <string name="search_backup_sub_title">Turn on to find more images</string>
@@ -1549,6 +1567,7 @@ to personalize Gallery"</string>
   <string name="show_hidden_album_title">Show invisible albums</string>
   <string name="show_in_other_albums_disable_toast_long_press_menu">Moved successfully, go to Other albums to view</string>
   <string name="show_in_other_albums_enable_toast_long_press_menu">Moved successfully, go to Albums to view</string>
+  <string name="similar_keep_clear">Keep best shots</string>
   <string name="slideshow_interval_dialog_title">Enter interval</string>
   <string name="slideshow_interval_invalid">Interval must be between 3 and 3600 seconds</string>
   <string name="slideshow_interval_title">Show each slide for</string>

@@ -522,7 +522,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_ultra_wide_ldc_description">Correct distorted objects automatically</string>
   <string name="pref_camera_ultra_wide_ldc_title">Correct distortion in ultra wide shots</string>
   <string name="pref_camera_ultra_wide_mode_title">Ultra wide angle mode</string>
-  <string name="pref_camera_video_bokeh_off">Video bokeh is closed</string>
+  <string name="pref_camera_video_bokeh_off">Video bokeh is off</string>
   <string name="pref_camera_video_bokeh_on">Video bokeh</string>
   <string name="pref_camera_volumekey_function_default">timer</string>
   <string name="pref_camera_volumekey_function_entry_shutter">Shutter</string>
