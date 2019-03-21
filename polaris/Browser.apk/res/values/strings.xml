@@ -287,7 +287,7 @@
   <string name="app_downloading_ratio_text">Downloading %s</string>
   <string name="app_downloading_text">Downloading</string>
   <string name="app_installing_text">Installing</string>
-  <string name="app_name">InfoStream</string>
+  <string name="app_name">UiFramework</string>
   <string name="app_new_version">The latest version of this app is already installed</string>
   <string name="app_open_text">Open</string>
   <string name="app_task_download_exists_text">Download exist</string>
@@ -463,6 +463,8 @@
   <string name="data_monitor_dialog_message">Looks like something is draining your mobile data. Open the start page to stop this.</string>
   <string name="data_traffic_continue">Continue</string>
   <string name="data_traffic_download_cancel">Cancel</string>
+  <string name="data_traffic_download_confirm">Using your mobile data connection</string>
+  <string name="data_traffic_download_ok">Ok</string>
   <string name="data_traffic_download_prompt">Current video can only be downloaded in wifi environment</string>
   <string name="data_traffic_download_setting">Settings</string>
   <string name="data_traffic_goto">Free data traffic</string>
@@ -671,6 +673,7 @@ to view open tabs from other devices."</string>
   <string name="js_disable_confirm_message">Disabling JavaScript may cause some websites to display incorrectly.</string>
   <string name="js_disable_confirm_title">Disable JavaScript?</string>
   <string name="keep_queued_download">Keep</string>
+  <string name="load_error_tip">Loading error, click retry</string>
   <string name="loading_dialog_title">Moving…</string>
   <string name="loading_tips">Pull down to refresh</string>
   <string name="local_bookmarks">Mi</string>
