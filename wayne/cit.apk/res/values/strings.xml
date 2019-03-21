@@ -776,6 +776,10 @@ mod:0-15"</string>
   <string name="testinf2">TESTINF</string>
   <string name="testinfo">[TESTINF]:</string>
   <string name="testing">AutoTest Running...</string>
+  <string name="testresult_qrcodetext_hint">"0: Fail
+1: Pass
+N: no test"</string>
+  <string name="testresult_qrcodetext_prefix">"Test Result: "</string>
   <string name="textview">TextView</string>
   <string name="top_ant">Top ANt</string>
   <string name="touchpanel_bow">Draw Bow</string>
