@@ -1162,6 +1162,12 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="current_use_uicc_se">Using secure element on SIM card</string>
   <string name="current_use_uicc_wallet">"You're using SIM%1$s Wallet"</string>
   <string name="current_zone">(current)</string>
+  <string name="cutout_mode_always">Always show notch</string>
+  <string name="cutout_mode_default">Auto</string>
+  <string name="cutout_mode_settings_title">Some apps may be displayed incorrectly if you customize the way notch is displayed.</string>
+  <string name="cutout_mode_title">Notch in individual apps</string>
+  <string name="cutout_type_desc">Turn on to smoothen notch curves</string>
+  <string name="cutout_type_title">Adjust notch shape</string>
   <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (red-green)</string>
   <string name="daltonizer_mode_disabled">Disabled</string>
   <string name="daltonizer_mode_monochromacy">Monochromacy</string>
