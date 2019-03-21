@@ -275,8 +275,8 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="aod_dual_togother">HH:MM</string>
   <string name="aod_dual_togother_12">hh:mm aa</string>
   <string name="aod_got_it">Got it</string>
-  <string name="aod_lock_screen_date">EEEE, MMMM d</string>
-  <string name="aod_lock_screen_date_12">EEEE, MMMM d</string>
+  <string name="aod_lock_screen_date">EE, MMMM d</string>
+  <string name="aod_lock_screen_date_12">EE, MMMM d</string>
   <string name="aod_mode_bg">Background</string>
   <string name="aod_mode_clock">Clock</string>
   <string name="aod_mode_style">Clock style and background</string>
@@ -1327,6 +1327,8 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="cutout_mode_default">Auto</string>
   <string name="cutout_mode_settings_title">Some apps may be displayed incorrectly if you customize the way notch is displayed.</string>
   <string name="cutout_mode_title">Notch in individual apps</string>
+  <string name="cutout_type_desc">Turn on to smoothen notch curves</string>
+  <string name="cutout_type_title">Adjust notch shape</string>
   <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (red-green)</string>
   <string name="daltonizer_mode_disabled">Disabled</string>
   <string name="daltonizer_mode_monochromacy">Monochromacy</string>
@@ -2743,6 +2745,7 @@ as your First space PIN."</string>
   <string name="lockscreen_settings_title">Lock screen preferences</string>
   <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with Mi Cloud.</string>
   <string name="login_account_dialog_title">Sign in with Mi Account</string>
+  <string name="login_account_summary">Manage accounts, cloud services, payments, and more</string>
   <string name="login_action">Sign in</string>
   <string name="long_press_back_key">Long press the Back button</string>
   <string name="long_press_buttom_key">Long press Home on the Lock screen</string>
@@ -2945,6 +2948,7 @@ There are other users present on this device.
   <string name="miui_lab_super_resolution_desc">Make images crisper</string>
   <string name="miui_lab_super_resolution_title">Super resolution</string>
   <string name="miui_master_clear_summary">Erases all data on phone</string>
+  <string name="miui_more_special_feature">Explore new features</string>
   <string name="miui_optimization_disabled">Turn off MIUI optimization</string>
   <string name="miui_sos_audio_summary">Play SOS message after emergency contact picks up</string>
   <string name="miui_sos_audio_title">SOS voice message</string>
@@ -2992,6 +2996,7 @@ There are other users present on this device.
   <string name="miui_sos_settings_category">SOS settings</string>
   <string name="miui_sos_statusbar_summary">Tap to turn off</string>
   <string name="miui_sos_statusbar_title">Emergency SOS is activated</string>
+  <string name="miui_special_feature">Special features</string>
   <string name="miui_touch_filtered_warning">If an app is blocking a permissions dialog, drag the overlapping item away or close the app.</string>
   <string name="miui_updater">System update</string>
   <string name="miui_userguide">User guide</string>
@@ -3015,6 +3020,7 @@ There are other users present on this device.
   <string name="modify_instruction_password_settings">Set password</string>
   <string name="modify_privacy_password">Change password</string>
   <string name="more_dangerous_option_hint">High-risk features including \"%1$s\" are enabled. Tap to change settings.</string>
+  <string name="more_installed_services_title">More downloaded services</string>
   <string name="move_app">Move</string>
   <string name="move_app_failed_dlg_text">Couldn’t move app. %1$s</string>
   <string name="move_app_failed_dlg_title"/>
@@ -3397,10 +3403,18 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="operator_warning">Carrier data accounting may differ from device accounting</string>
   <string name="optimization_cancel">Cancel</string>
   <string name="ota_disable_automatic_update">Automatic system updates</string>
+  <string name="otg_button">OTG</string>
+  <string name="otg_closed">Off</string>
+  <string name="otg_opened">On</string>
+  <string name="otg_settings">OTG</string>
+  <string name="otg_tip">"USB On-The-Go allows USB drives and portable keyboards to connect to your mobile device and exchange data.
+
+OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="other_advanced_settings">Additional settings</string>
   <string name="other_device_info">Others</string>
   <string name="other_personal_settings">Personal settings</string>
   <string name="other_relative">Other</string>
+  <string name="other_settings_sync_settings">Sync</string>
   <string name="other_sound_category_preference_title">Other sounds and vibrations</string>
   <string name="other_sound_settings">Other sounds</string>
   <string name="others">Other</string>
@@ -3502,7 +3516,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="person_hotpot">Mobile hotspots</string>
   <string name="personal_data_section_title">Personal data</string>
   <string name="personal_device_admin_title">Personal</string>
-  <string name="personal_section_title">Personal</string>
+  <string name="personal_section_title">Personalization</string>
   <string name="phone_call_noise_suppression">Suppress noise during calls</string>
   <string name="phone_info_label">Phone info</string>
   <string name="phone_language">Languages</string>
@@ -4262,6 +4276,7 @@ To use screen pinning:
   <string name="search_oldman_mode_entry_name">Lite mode;Oldman mode;Litemode</string>
   <string name="search_onekey_migrate">Transfer;Mi Mover</string>
   <string name="search_other_advanced_settings">Additional settings;More settings</string>
+  <string name="search_other_settings_sync_settings">Sync;Auto;WLAN only</string>
   <string name="search_owner_info_settings_title">Owner info</string>
   <string name="search_page_layout_settings">Text size;Font size;Small font;Big font;Medium font;XXL font;Huge font;Font sizes</string>
   <string name="search_permission_manager">Permissions;Root access</string>
@@ -4324,6 +4339,7 @@ To use screen pinning:
   <string name="search_trusted_credentials">Trusted credentials;App signature;App signatures;Credentials;Signature</string>
   <string name="search_tts_settings_title">Text-to-speech output;Text-to-speech</string>
   <string name="search_turn_on_security_lock">Choose screen lock;Screen lock;Add screen lock;screenlock</string>
+  <string name="search_unlogin_account_title">Mi Account; Mi Account ID;Account;Account ID</string>
   <string name="search_usb_tethering_button_text">USB tethering;Tethering;USB</string>
   <string name="search_user_agreement">Terms of Service</string>
   <string name="search_user_dict_settings_title">Personal dictionary;Dictionary</string>
@@ -5073,7 +5089,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_alert_window_on">Yes</string>
   <string name="system_alert_window_settings">Display over other apps</string>
   <string name="system_alert_window_summary">%1$d of %2$d apps allowed to display over other apps</string>
-  <string name="system_and_device_section_title">System &amp; device</string>
+  <string name="system_and_device_section_title">System settings</string>
   <string name="system_app">(System)</string>
   <string name="system_app_settings">System app settings</string>
   <string name="system_apps_updater">System apps updater</string>
@@ -5153,6 +5169,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="to_close">Turn off</string>
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
+  <string name="toast_sta_ap_works_wifi_display_disable">"Can't cast when WLAN connection is established and hotspot is on."</string>
   <string name="total">DND</string>
   <string name="total_info">Silence sounds and turn off vibration except for the alarms</string>
   <string name="total_info_no_vibrator">Silence sounds except for the alarms</string>
@@ -5334,6 +5351,8 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
+  <string name="unlogin_account_summary">All Mi services. One Mi Account</string>
+  <string name="unlogin_account_title">Sign in to Mi Account</string>
   <string name="unmount_inform_text">SD card will be unmounted.</string>
   <string name="unmute_sound_title">Unmute sound</string>
   <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
