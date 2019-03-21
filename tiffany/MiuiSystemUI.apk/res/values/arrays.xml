@@ -378,6 +378,10 @@
         <item>jason</item>
         <item>sirius</item>
     </string-array>
+    <string-array name="device_support_slide_camera">
+        <item>perseus</item>
+        <item>andromeda</item>
+    </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>None</item>
         <item>Logcat</item>

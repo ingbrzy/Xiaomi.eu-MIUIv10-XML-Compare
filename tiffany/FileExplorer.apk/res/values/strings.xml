@@ -81,7 +81,6 @@
   <string name="category_type_other">Other</string>
   <string name="category_video">Videos</string>
   <string name="category_zip">Archives</string>
-  <string name="change_sticker">Choose another sticker</string>
   <string name="choose_report_comment_reason">Why are you reporting this comment?</string>
   <string name="choose_report_reason">Why are you reporting this video clip?</string>
   <string name="clean_hint">Tap to free up space</string>
@@ -798,7 +797,6 @@
   <string name="video_upload_wechat_hint">Upload WeChat videos to get more fans.</string>
   <string name="video_uploaded">Uploaded</string>
   <string name="view_master_rank">View Youliao top</string>
-  <string name="view_more_sticker">View more stickers</string>
   <string name="view_top_rank">View rankings</string>
   <string name="wb_btn_bind">Weibo</string>
   <string name="wechat_btn_bind">WeChat</string>
