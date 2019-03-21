@@ -417,7 +417,6 @@ Free up at least %s."</string>
   <string name="trans_calculating_media_description">Media files</string>
   <string name="trans_calculating_tip">Calculating %s…</string>
   <string name="trans_cancel_confirm">Transfer in progress, stop now?</string>
-  <string name="trans_cancel_dialog_survey_title">Why did you interrupt the transfer?</string>
   <string name="trans_cancel_selection_message">If you exit Mi Mover, the ongoing transfer will be interrupted. Wait until the transfer is complete.</string>
   <string name="trans_cancel_selection_title">Stay in Mi Mover</string>
   <string name="trans_cancelling">Canceling…</string>
@@ -568,7 +567,7 @@ Keep devices close to each other."</string>
 Free up storage space or transfer only important items."</string>
   <string name="trans_select_data_tips">"Select items to transfer.
 Similar items on the new device will be overwritten.
-(The size of the transferred items you see know is a rough estimate.)"</string>
+(The size of the transferred items you see now is a rough estimate.)"</string>
   <string name="trans_select_data_too_large">"You selected too many items to transfer.
 Select only important items to make the transfer faster."</string>
   <string name="trans_select_device_receive">Select one device to receive data.</string>

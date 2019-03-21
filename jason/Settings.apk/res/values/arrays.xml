@@ -1471,6 +1471,10 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+    <string-array name="cutout_mode_entries">
+        <item>@string/cutout_mode_default</item>
+        <item>@string/cutout_mode_always</item>
+    </string-array>
     <string-array name="daltonizer_type_entries">
         <item>@string/daltonizer_mode_deuteranomaly</item>
         <item>@string/daltonizer_mode_protanomaly</item>
@@ -3205,4 +3209,12 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>5</item>
         <item>10</item>
     </string-array>
-<string-array name="status_bar_settings_qs_layout_entries"><item>Default</item><item>Compact</item></string-array><string-array name="status_bar_settings_qs_layout_values"><item>0</item><item>1</item></string-array><string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array><string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array><string-array name="aod_clock_style_entries"><item>Horizontal</item><item>Vertical</item><item>Inline</item></string-array><string-array name="aod_clock_style_values"><item>0</item><item>1</item><item>2</item></string-array><string-array name="dark_ui_mode_entries"><item>Automatic (based on time of day)</item><item>Always on</item><item>Always off</item></string-array><string-array name="dark_ui_mode_values"><item>auto</item><item>yes</item><item>no</item></string-array></resources>
+    <string-array name="status_bar_settings_qs_layout_entries"><item>Default</item><item>Compact</item></string-array>
+    <string-array name="status_bar_settings_qs_layout_values"><item>0</item><item>1</item></string-array>
+    <string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array>
+    <string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array>
+    <string-array name="aod_clock_style_entries"><item>Horizontal</item><item>Vertical</item><item>Inline</item></string-array>
+    <string-array name="aod_clock_style_values"><item>0</item><item>1</item><item>2</item></string-array>
+    <string-array name="dark_ui_mode_entries"><item>Automatic (based on time of day)</item><item>Always on</item><item>Always off</item></string-array>
+    <string-array name="dark_ui_mode_values"><item>auto</item><item>yes</item><item>no</item></string-array>
+</resources>
