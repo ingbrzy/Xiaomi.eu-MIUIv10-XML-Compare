@@ -1470,6 +1470,10 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+    <string-array name="cutout_mode_entries">
+        <item>@string/cutout_mode_default</item>
+        <item>@string/cutout_mode_always</item>
+    </string-array>
     <string-array name="daltonizer_type_entries">
         <item>@string/daltonizer_mode_deuteranomaly</item>
         <item>@string/daltonizer_mode_protanomaly</item>
@@ -1926,14 +1930,11 @@
         <item>WAPI CERT</item>
     </string-array>
     <string-array name="mi_stat_cancel_survey_key">
-        <item>transfer_takes_too_long</item>
-        <item>connection_was_interrupted</item>
-        <item>i_selected_wrong_items_to_transfer</item>
-        <item>too_many_steps</item>
-        <item>my_phone_battery_is_low</item>
-        <item>transferred_items_are_corrupted</item>
-        <item>i_started_the_transfer_accidentally</item>
-        <item>other</item>
+        <item>overall_experience_cancel</item>
+        <item>transfer_duration_cancel</item>
+        <item>simplicity_of_the_process_cancel</item>
+        <item>clarity_of_instructions_cancel</item>
+        <item>this_feature_is_useful_cancel</item>
     </string-array>
     <string-array name="mi_stat_success_survey_key">
         <item>overall_rating</item>
@@ -2814,14 +2815,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>"WLAN usage "</item>
     </string-array>
     <string-array name="trans_cancel_survey_title">
-        <item>Transfer takes too long</item>
-        <item>Connection was interrupted</item>
-        <item>I selected wrong items to transfer</item>
-        <item>Too many steps</item>
-        <item>"My phone's battery is low"</item>
-        <item>Transferred items are corrupted</item>
-        <item>I started the transfer accidentally</item>
-        <item>Other</item>
+        <item>Overall experience</item>
+        <item>Transfer duration</item>
+        <item>Simplicity of the process</item>
+        <item>Clarity of instructions</item>
+        <item>This feature is useful</item>
     </string-array>
     <string-array name="trans_succeed_rating_hint">
         <item>Very dissatisfied</item>
@@ -3244,4 +3242,12 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>5</item>
         <item>10</item>
     </string-array>
-<string-array name="status_bar_settings_qs_layout_entries"><item>Default</item><item>Compact</item></string-array><string-array name="status_bar_settings_qs_layout_values"><item>0</item><item>1</item></string-array><string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array><string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array><string-array name="aod_clock_style_entries"><item>Horizontal</item><item>Vertical</item><item>Inline</item></string-array><string-array name="aod_clock_style_values"><item>0</item><item>1</item><item>2</item></string-array><string-array name="dark_ui_mode_entries"><item>Automatic (based on time of day)</item><item>Always on</item><item>Always off</item></string-array><string-array name="dark_ui_mode_values"><item>auto</item><item>yes</item><item>no</item></string-array></resources>
+    <string-array name="status_bar_settings_qs_layout_entries"><item>Default</item><item>Compact</item></string-array>
+    <string-array name="status_bar_settings_qs_layout_values"><item>0</item><item>1</item></string-array>
+    <string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array>
+    <string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array>
+    <string-array name="aod_clock_style_entries"><item>Horizontal</item><item>Vertical</item><item>Inline</item></string-array>
+    <string-array name="aod_clock_style_values"><item>0</item><item>1</item><item>2</item></string-array>
+    <string-array name="dark_ui_mode_entries"><item>Automatic (based on time of day)</item><item>Always on</item><item>Always off</item></string-array>
+    <string-array name="dark_ui_mode_values"><item>auto</item><item>yes</item><item>no</item></string-array>
+</resources>
