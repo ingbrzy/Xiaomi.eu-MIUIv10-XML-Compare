@@ -312,6 +312,8 @@
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="aod_dual_togother">HH:MM</string>
   <string name="aod_dual_togother_12">hh:mm aa</string>
+  <string name="aod_lock_screen_date">EE, MMMM d</string>
+  <string name="aod_lock_screen_date_12">EE, MMMM d</string>
   <string name="apn_settings_not_available">Access Point Name settings are not available for this user</string>
   <string name="app_info">App info</string>
   <string name="app_label">System UI</string>
@@ -731,6 +733,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="face_unlock_rotated_right">Turn your head to the left</string>
   <string name="face_unlock_sc_status">Push the screen down to open camera</string>
   <string name="face_unlock_stay_away_screen">Stay 25 to 40cm away from the screen</string>
+  <string name="face_unlock_success">Verified face data successfully</string>
   <string name="face_unlock_success_stay_screen_msg">Stay on the Lock screen after your face is verified. Swipe up to open the Home screen.</string>
   <string name="face_unlock_success_stay_screen_title">Stay on Lock screen after unlocking</string>
   <string name="failed_to_open_app_settings_toast">Failed to open settings for %1$s</string>

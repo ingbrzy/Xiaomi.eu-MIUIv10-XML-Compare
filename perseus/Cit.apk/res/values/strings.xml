@@ -483,6 +483,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_slider_hall_test_title">Slider Hall</string>
   <string name="cit_soft_torch">front soft flash led</string>
   <string name="cit_soft_torch_on">Turn on soft flash light</string>
+  <string name="cit_splash_check_summary">Make sure there is black screen phenomenon more 5s.</string>
   <string name="cit_start_calibration">Calibrate</string>
   <string name="cit_stop_calibration">Stop calibrating</string>
   <string name="cit_tfcard_support_summary">Check if TFCard is supported on this device</string>
@@ -683,6 +684,7 @@ The second line shows the name and version number of Default MBN and Carrier MBN
   <string name="cit_tool_select_opposite">Select Opposite</string>
   <string name="cit_tool_setting_expired">Setting Expired, pls retry!</string>
   <string name="cit_tool_setting_wait">Setting! PLS wait</string>
+  <string name="cit_tool_splash_test_title">Splash Test</string>
   <string name="cit_tool_switch_autosms">Enable/Disable AutoSMSReg</string>
   <string name="cit_tool_to_fetching">to fetch</string>
   <string name="cit_tool_wifi">WLAN test tool</string>
@@ -1038,6 +1040,7 @@ the specified position"</string>
   <string name="more_detail">查询识别失败特征数据</string>
   <string name="more_detail_confirm_setting">确认内存设置并请手动重启手机</string>
   <string name="more_than">大于</string>
+  <string name="motor_calibration">Motor Calibration</string>
   <string name="name_count">个</string>
   <string name="nav_category">导航策略</string>
   <string name="navigation_drawer_close">Close navigation drawer</string>

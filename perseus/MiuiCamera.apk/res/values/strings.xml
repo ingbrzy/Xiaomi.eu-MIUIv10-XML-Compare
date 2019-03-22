@@ -74,7 +74,7 @@ and optimizes your photos based on this info"</string>
   <string name="ai_scene_top_moon_off">Low light mode</string>
   <string name="ai_scene_top_tip">Moon mode</string>
   <string name="app_name">algoengine</string>
-  <string name="autozoom_click_hint">Tap an object to start tracking. Stay at least 3 meters away for best effect.</string>
+  <string name="autozoom_click_hint">"Tap an object to keep it in focus while it's moving. Stay at least 3 meters away for best effect."</string>
   <string name="autozoom_disabled_hint">Stopped tracking moving object</string>
   <string name="autozoom_hint">Track moving object</string>
   <string name="autozoom_landscape_hint">建议横屏下拍摄</string>
@@ -276,8 +276,8 @@ in Portrait mode"</string>
   <string name="live_sticker_fragment_tab_name">TikTok Magic Sticker</string>
   <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating…</string>
-  <string name="macro_mode">微距模式</string>
-  <string name="macro_mode_tip">请将拍摄对象置于10cm内</string>
+  <string name="macro_mode">Macro</string>
+  <string name="macro_mode_tip">"Distance between the lens and the object shouldn't exceed 10cm"</string>
   <string name="makeup_reset_toast">Removed makeup effects</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="module_name_beauty">Beauty</string>
@@ -440,7 +440,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_live_sticker_internal_title">Internal magic tools</string>
   <string name="pref_camera_long_press_shutter_feature_default">burst</string>
   <string name="pref_camera_long_press_shutter_feature_title">Press &amp; hold Shutter button</string>
-  <string name="pref_camera_long_press_viewfinder_default">lens</string>
+  <string name="pref_camera_long_press_viewfinder_default">Google Lens</string>
   <string name="pref_camera_long_press_viewfinder_title">Press &amp; hold Viewfinder</string>
   <string name="pref_camera_long_pressing_burst_shooting_entry_burst">Burst shoot</string>
   <string name="pref_camera_long_pressing_burst_shooting_entry_focus">Focus</string>
@@ -522,7 +522,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_ultra_wide_ldc_description">Correct distorted objects automatically</string>
   <string name="pref_camera_ultra_wide_ldc_title">Correct distortion in ultra wide shots</string>
   <string name="pref_camera_ultra_wide_mode_title">Ultra wide angle mode</string>
-  <string name="pref_camera_video_bokeh_off">Video bokeh is closed</string>
+  <string name="pref_camera_video_bokeh_off">Video bokeh is off</string>
   <string name="pref_camera_video_bokeh_on">Video bokeh</string>
   <string name="pref_camera_volumekey_function_default">timer</string>
   <string name="pref_camera_volumekey_function_entry_shutter">Shutter</string>
@@ -611,9 +611,11 @@ and brings out the people in the front."</string>
   <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
   <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
   <string name="pref_video_quality_entry_720p">HD 720p</string>
+  <string name="pref_video_quality_entry_720p_60fps">HD 720p, 60fps</string>
   <string name="pref_video_quality_entry_value_1080p_60fps">6,60</string>
   <string name="pref_video_quality_entry_value_4kuhd">8</string>
   <string name="pref_video_quality_entry_value_4kuhd_60fps">8,60</string>
+  <string name="pref_video_quality_entry_value_720p_60fps">5,60</string>
   <string name="pref_video_quality_summary">4K video cannot be supported in 120FPS mode</string>
   <string name="pref_video_quality_title">Video quality</string>
   <string name="pref_video_quality_value_autozoom">6</string>
