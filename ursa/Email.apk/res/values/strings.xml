@@ -492,6 +492,7 @@
   <string name="folder_drafts_name_en0">Drafts</string>
   <string name="folder_drafts_name_en1">Draft</string>
   <string name="folder_drafts_name_en2">[Gmail]/Drafts</string>
+  <string name="folder_empty_to_fresh">"Mail isn't synced. Pull down to sync."</string>
   <string name="folder_junk_name_cn0">垃圾邮件</string>
   <string name="folder_junk_name_cn1">垃圾箱</string>
   <string name="folder_junk_name_cn2">[Gmail]/垃圾邮件</string>
@@ -502,6 +503,7 @@
   <string name="folder_junk_name_en4">Junk</string>
   <string name="folder_list_display_all">Display all folders</string>
   <string name="folder_list_display_only_import">Only display important folders</string>
+  <string name="folder_no_mails">No emails in this folder</string>
   <string name="folder_picker_title">Choose folders</string>
   <string name="folder_removed">Removed from %1$s</string>
   <string name="folder_sent_name_cn0">已发送</string>
@@ -1168,6 +1170,7 @@ to receive reminders about payments and trips"</string>
   <string name="toast_bar_no_connection_network">"You don't have an internet connection"</string>
   <string name="toast_bar_open_gmail_synchronization">"Couldn't connect to Gmail. Turn on Gmail proxy."</string>
   <string name="toast_bar_send_fail_remind">"Couldn't send email. Saved it to the \"Outgoing\" folder."</string>
+  <string name="toast_bar_sync_failed_mi_authority">同步失败，请稍后尝试。新设备登录，请通过内网账号中心或短信提示对设备授权。</string>
   <string name="toastbar_calendar_and_contacts_permission_switch_close">To sync calendar info and contacts, give Mail the required permissions in the Settings</string>
   <string name="toastbar_calendar_permission_switch_close">To receive calendar reminders, give Mail the required permissions in the Settings</string>
   <string name="toastbar_contacts_permission_switch_close">To add contacts, give Mail the required permissions in the Settings</string>
@@ -1240,6 +1243,7 @@ Touch "&lt;b&gt;Sync Now&lt;/b&gt; to sync mail once, or &lt;b&gt;Change Sync Se
   <string name="widget_other_views">Other</string>
   <string name="widget_provider">com.kingsoft.email.provider.WidgetProvider</string>
   <string name="wipe_account_fail_description">Allow</string>
+  <string name="wipe_account_fail_description_remind">Due to data permissions, there may be residual data in the calendar and contacts after deleting the account, please delete it manually.</string>
   <string name="wipe_account_fail_title">"Couldn't delete personal info"</string>
   <string name="wps_title">WPS Mail</string>
   <string name="wrong_password">The password you entered is incorrect</string>
