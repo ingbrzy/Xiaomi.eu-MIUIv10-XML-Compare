@@ -1101,6 +1101,10 @@
         <item>com.tencent.qqlite</item>
         <item>com.tencent.mm</item>
     </string-array>
+    <string-array name="device_support_slide_camera">
+        <item>perseus</item>
+        <item>andromeda</item>
+    </string-array>
     <string-array name="carrier_name">
         <item>China Mobile</item>
         <item>China Unicom</item>
@@ -1127,6 +1131,8 @@
     <array name="data_type_name_cus_reg_value" />
     <array name="data_type_name_mcc_key" />
     <array name="data_type_name_mcc_value" />
+    <array name="data_type_name_mcc_mnc_key" />
+    <array name="data_type_name_mcc_mnc_value" />
     <array name="data_type_name_miui_mcc_key" />
     <array name="data_type_name_miui_mcc_value" />
     <string-array name="usa_mcc">

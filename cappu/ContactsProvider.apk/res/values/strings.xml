@@ -14,7 +14,7 @@
   <string name="group_name_family">Family</string>
   <string name="group_name_friends">Friends</string>
   <string name="local_invisible_directory">Other</string>
-  <string name="metadata_sync_pacakge">com.google.android.gms</string>
+  <string name="metadata_sync_pacakge"/>
   <string name="provider_label">Contacts</string>
   <string name="read_write_all_voicemail_description">Allows the app to store and retrieve all voicemails that this device can access.</string>
   <string name="read_write_all_voicemail_label">Access all voicemails</string>
