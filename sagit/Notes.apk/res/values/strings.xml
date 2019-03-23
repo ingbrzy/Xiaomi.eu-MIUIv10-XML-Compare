@@ -138,7 +138,7 @@
   <string name="permission_intro_phone">For marking notes taken during calls</string>
   <string name="permission_intro_storage">For saving notes and attachments</string>
   <string name="permlab_accessNote">Access notes</string>
-  <string name="pref_desc_skip_confirm_for_quick_delete">Don't ask for confirmation when deleting a note using gesture TEST fuck'n GOOD</string>
+  <string name="pref_desc_skip_confirm_for_quick_delete">"Don't ask for confirmation when deleting a note using gesture"</string>
   <string name="pref_title_cloud_trash_bin">Deleted notes in Mi Cloud</string>
   <string name="pref_title_common">Additional settings</string>
   <string name="pref_title_font_size">Font size</string>
