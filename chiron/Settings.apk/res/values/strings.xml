@@ -3569,6 +3569,8 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="power_key_start_enjoy">Learn more about Google Assistant</string>
   <string name="power_key_start_guide">Waking Google Assistant using the Power button on full display devices</string>
   <string name="power_last_full_charge_summary">^1 ago</string>
+  <string name="power_menu_under_keyguard_summary">Allow access to the power menu while the device is locked</string>
+  <string name="power_menu_under_keyguard_title">Power menu access</string>
   <string name="power_mgr">Battery optimization</string>
   <string name="power_mode">Power settings</string>
   <string name="power_mode_balanced_title">Balance Power</string>
