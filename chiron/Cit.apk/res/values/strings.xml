@@ -218,6 +218,8 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
   <string name="cit_charger_plugout_check_title">Charger (disconnect)</string>
   <string name="cit_charger_waiting_in">Connect charger</string>
   <string name="cit_charger_waiting_out">Disconnect charger now</string>
+  <string name="cit_diag_chaging_summary">Copy charge logger files to sdcard</string>
+  <string name="cit_diag_chaging_wait">Please wait... Copying files</string>
   <string name="cit_dial_emergencycall">Dial 112</string>
   <string name="cit_display_check_summary">Confirm that the required bmp file is on the SD card. Confirm that the colors are consistently displayed across the whole screen. Make sure there are no irregular bright spots and dark spots.</string>
   <string name="cit_display_check_title">Display</string>

@@ -280,6 +280,17 @@
         <item>120</item>
         <item>255</item>
     </integer-array>
+    <string-array name="config_miuiNonBlockableNotificationPackages">
+        <item>android</item>
+        <item>com.android.incallui</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.mms</item>
+        <item>com.android.bluetooth</item>
+        <item>com.android.updater</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.miui.hybrid</item>
+        <item>com.xiaomi.xmsf</item>
+    </string-array>
     <array name="config_mobile_hotspot_provision_app" />
     <string-array name="config_mobile_tcp_buffers">
         <item>lte:2097152,4194304,8388608,262144,524288,1048576</item>
