@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Security service plugin</string>
+  <string name="ad_downloading">Download…</string>
+  <string name="app_name">System service plugin</string>
   <string name="cancel_button">Cancel</string>
   <string name="empty">" "</string>
   <string name="fastboot_locked_answer_1">Fastboot is the traditional method to flash Mi devices. When the device is in Fastboot mode, all the data stored on it can be reached and erased directly. We lock Fastboot to make sure your data stays secure in case you lose the device, as well as to guarantee the reliability of Find device features.</string>
