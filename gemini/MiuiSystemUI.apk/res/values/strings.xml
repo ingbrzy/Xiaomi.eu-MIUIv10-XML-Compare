@@ -494,6 +494,10 @@ Sample rate"</string>
   <string name="daltonizer_mode_protanomaly">Protanomaly (red-green)</string>
   <string name="daltonizer_mode_tritanomaly">Tritanomaly (blue-yellow)</string>
   <string name="daltonizer_type_overridden">Overridden by %1$s</string>
+  <string name="data_connection_5g">5G</string>
+  <string name="data_connection_5g_basic">5GBasic</string>
+  <string name="data_connection_5g_sa">5GSA</string>
+  <string name="data_connection_5g_uwb">5GUWB</string>
   <string name="data_connection_no_internet">Not connected to the internet</string>
   <string name="data_saver">Data saver</string>
   <string name="data_saver_description">"To help reduce data usage, Data saver prevents some apps from sending or receiving data in the background. An app you're currently using can access data, but may do so less frequently. This may mean, for example, that images don't display until you tap them."</string>
