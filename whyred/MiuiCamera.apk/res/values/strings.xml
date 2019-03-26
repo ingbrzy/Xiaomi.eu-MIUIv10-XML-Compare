@@ -75,7 +75,7 @@ and optimizes your photos based on this info"</string>
   <string name="ai_scene_top_moon_off">Low light mode</string>
   <string name="ai_scene_top_tip">Moon mode</string>
   <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
-  <string name="autozoom_click_hint">Tap an object to start tracking. Stay at least 3 meters away for best effect.</string>
+  <string name="autozoom_click_hint">"Tap an object to keep it in focus while it's moving. Stay at least 3 meters away for best effect."</string>
   <string name="autozoom_disabled_hint">Stopped tracking moving object</string>
   <string name="autozoom_hint">Track moving object</string>
   <string name="autozoom_landscape_hint">Shoot in landscape mode for best effect</string>
@@ -284,6 +284,8 @@ in Portrait mode"</string>
   <string name="live_sticker_fragment_tab_name">Stickers</string>
   <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating…</string>
+  <string name="macro_mode">Macro</string>
+  <string name="macro_mode_tip">"Distance between the lens and the object shouldn't exceed 10cm"</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="module_name_beauty">Beauty</string>
   <string name="module_name_capture">Photo</string>
@@ -672,6 +674,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_ultra_wide_ldc_description">Correct distorted objects automatically</string>
   <string name="pref_camera_ultra_wide_ldc_title">Correct distortion in ultra wide shots</string>
   <string name="pref_camera_ultra_wide_mode_title">Ultra wide angle mode</string>
+  <string name="pref_camera_video_bokeh_off">Video bokeh is off</string>
+  <string name="pref_camera_video_bokeh_on">Video bokeh</string>
   <string name="pref_camera_video_duration_entry_10">10 minutes</string>
   <string name="pref_camera_video_duration_entry_120">No limit</string>
   <string name="pref_camera_video_duration_entry_30">30 minutes</string>
