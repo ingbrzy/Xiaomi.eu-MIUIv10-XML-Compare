@@ -1073,6 +1073,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
   <string name="gb_network_status_bad">A connection error occurred.</string>
   <string name="gb_new_feature">New feature</string>
+  <string name="gb_shortcut_pref_title">Home screen shortcut</string>
   <string name="gb_sign_gift">Check in to get rewards</string>
   <string name="gb_sign_gift_button_text">Receive</string>
   <string name="gb_sign_notification_summary">Check in daily to receive Xunyou boost</string>
