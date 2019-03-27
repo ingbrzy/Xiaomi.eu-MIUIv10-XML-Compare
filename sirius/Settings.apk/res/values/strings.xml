@@ -5312,6 +5312,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
+  <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_notification_bar">Notification shade</string>
   <string name="status_bar_settings_notification_led_custom">Custom color</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
