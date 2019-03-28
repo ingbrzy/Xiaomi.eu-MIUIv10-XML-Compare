@@ -305,12 +305,14 @@
     </string-array>
     <string-array name="battery_indicator_style_entries">
         <item>Graphical</item>
-        <item>Percentage</item>
+        <item>Percentage (in the icon)</item>
+        <item>Percentage (next to the icon)</item>
         <item>Top bar</item>
     </string-array>
     <string-array name="battery_indicator_style_values">
         <item>0</item>
         <item>1</item>
+        <item>3</item>
         <item>2</item>
     </string-array>
     <string-array name="battery_labels">
@@ -789,21 +791,6 @@
         <item>pattern</item>
         <item>numerical</item>
         <item>mixed</item>
-    </string-array>
-    <string-array name="check_importance_entries">
-        <item>Recommended</item>
-        <item>Important</item>
-        <item>Unimportant</item>
-    </string-array>
-    <string-array name="check_importance_summary">
-        <item>MIUI will decide which notifications should appear directly</item>
-        <item>Notifications will appear in the Notification shade</item>
-        <item>Notifications will appear in a separate folder</item>
-    </string-array>
-    <string-array name="check_importance_values">
-        <item>0</item>
-        <item>1</item>
-        <item>-1</item>
     </string-array>
     <string-array name="city_name">
         <item>Abidjan</item>
@@ -1459,10 +1446,17 @@
         <item>App lock</item>
         <item>Second space</item>
     </string-array>
+    <string-array name="config_downloaded_services">
+        <item>com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</item>
+    </string-array>
     <array name="config_preinstalled_audio_and_caption_services" />
     <array name="config_preinstalled_display_services" />
-    <array name="config_preinstalled_interaction_control_services" />
-    <array name="config_preinstalled_screen_reader_services" />
+    <string-array name="config_preinstalled_interaction_control_services">
+        <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
+    </string-array>
+    <string-array name="config_preinstalled_screen_reader_services">
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
+    </string-array>
     <string-array name="connect_mode_entries">
         <item>Compatibility</item>
         <item>High speed</item>
@@ -1652,6 +1646,21 @@
     <string-array name="fluency_mode_summaries">
         <item>"Speeds up device's performance"</item>
         <item>"May slow down device's performance"</item>
+    </string-array>
+    <string-array name="fold_entries">
+        <item>Recommended</item>
+        <item>Important</item>
+        <item>Unimportant</item>
+    </string-array>
+    <string-array name="fold_summaries">
+        <item>MIUI will decide which notifications should appear directly</item>
+        <item>Notifications will appear in the Notification shade</item>
+        <item>Notifications will appear in a separate folder</item>
+    </string-array>
+    <string-array name="fold_values">
+        <item>0</item>
+        <item>1</item>
+        <item>-1</item>
     </string-array>
     <integer-array name="font_size_preference_preview_size">
         <item>14</item>
@@ -2018,6 +2027,40 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="notch_battery_indicator_style_entries">
         <item>Graphical</item>
         <item>Percentage</item>
+    </string-array>
+    <string-array name="notifi_importance_entries">
+        <item>@string/importance_high</item>
+        <item>@string/importance_default</item>
+        <item>@string/importance_low</item>
+        <item>@string/importance_min</item>
+    </string-array>
+    <string-array name="notifi_importance_summaries">
+        <item>@string/notifi_importance_high</item>
+        <item>@string/notifi_importance_default</item>
+        <item>@string/notifi_importance_low</item>
+        <item>@string/notifi_importance_min</item>
+    </string-array>
+    <string-array name="notifi_importance_values">
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="notification_shade_shortcut_entries">
+        <item>Search</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="notification_shade_shortcut_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="notification_style_entries">
+        <item>MIUI</item>
+        <item>Android</item>
+    </string-array>
+    <string-array name="notification_style_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="organized_locales">
         <item>af</item>
@@ -2555,6 +2598,17 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>600000</item>
         <item>2147483647</item>
     </string-array>
+    <string-array name="search_keywords_title_com_miui_securitycenter">
+        <item>title_of_auto_launch_manage</item>
+        <item>pc_install_manager</item>
+        <item>game_booster</item>
+        <item>power_consume_rank_title</item>
+        <item>activity_title_power_manager</item>
+        <item>app_manager_uninstall</item>
+        <item>app_manager_app_update</item>
+        <item>activity_title_permission_manager</item>
+        <item>card_main_hbassistant_title</item>
+    </string-array>
     <string-array name="security_settings_premium_sms_values">
         <item>Ask</item>
         <item>Never allow</item>
@@ -2726,22 +2780,6 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="startup_hips_values">
         <item>2</item>
         <item>0</item>
-    </string-array>
-    <string-array name="status_bar_settings_notification_shade_shortcut_entries">
-        <item>Search</item>
-        <item>Settings</item>
-    </string-array>
-    <string-array name="status_bar_settings_notification_shade_shortcut_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="status_bar_settings_notification_style_entries">
-        <item>MIUI</item>
-        <item>Android</item>
-    </string-array>
-    <string-array name="status_bar_settings_notification_style_values">
-        <item>0</item>
-        <item>1</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
