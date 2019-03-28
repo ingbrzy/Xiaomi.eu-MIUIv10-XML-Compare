@@ -651,6 +651,7 @@ off---Disabling continuous Tx"</string>
   <string name="playing">The recorder is Playing...</string>
   <string name="playover">play recording complete</string>
   <string name="pls_plug_charger_out">Please pull put charger</string>
+  <string name="pls_plug_otg_in_native">Please pull in OTG device nativa</string>
   <string name="pls_plug_otg_out">Please pull out OTG device</string>
   <string name="pls_see_photo">Please see the photo</string>
   <string name="plug_charger">Please plug in charger in the front</string>
