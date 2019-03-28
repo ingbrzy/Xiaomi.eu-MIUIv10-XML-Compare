@@ -44,6 +44,8 @@
   <string name="HIPS_Perm_Settings_Desc">modify system settings</string>
   <string name="HIPS_Perm_SystemAlert">Display pop-up window</string>
   <string name="HIPS_Perm_SystemAlert_Desc">display pop-up window</string>
+  <string name="HIPS_Perm_UDevice_ID">Share parts of device info with game developers to help them improve your gaming experience. Agree?</string>
+  <string name="HIPS_Perm_UDevice_ID_DESC">share parts of device info with game developers to help them improve your gaming experience. Agree?</string>
   <string name="HIPS_Perm_VideoRecorder">Access camera</string>
   <string name="HIPS_Perm_VideoRecorder_Desc">access camera for image or video capture</string>
   <string name="HIPS_Perm_WIFI_Connectivity">Change WLAN connectivity</string>
