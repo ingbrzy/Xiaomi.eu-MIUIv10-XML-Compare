@@ -59,8 +59,13 @@
   <string name="album_label">Album covers</string>
   <string name="album_name">Album</string>
   <string name="all_album_count">All albums (%d)</string>
+  <string name="all_albums">All albums</string>
+  <string name="all_artists">All artists</string>
   <string name="all_playlist_count">All playlists (%d)</string>
+  <string name="all_playlists">All playlists</string>
+  <string name="all_songs">All songs</string>
   <string name="all_tracks">All songs</string>
+  <string name="all_videos">All videos</string>
   <string name="already_download">Downloading…</string>
   <string name="already_download_btn">Downloading…</string>
   <string name="already_favorited">Already favorited</string>
@@ -120,7 +125,7 @@
   <string name="choose_stream_quality">Choose streaming quality</string>
   <string name="click_to_shuffle">Tap to shuffle</string>
   <string name="close_music_time">"Time remaining: "</string>
-  <string name="com.crashlytics.android.build_id">c1df7125-b339-47cb-a77c-ade0d350afd7</string>
+  <string name="com.crashlytics.android.build_id">2ce27331-6a65-4fcd-a5f3-a7a84c4c24bf</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -663,6 +668,8 @@ Be Happy"</string>
   <string name="search_for_album">Album</string>
   <string name="search_for_artist">Artist</string>
   <string name="search_hint">Search for artists, songs, albums, and recommendations</string>
+  <string name="search_hint_local">Search for songs on device</string>
+  <string name="search_hint_online">Search for artists, albums, songs, playlists, and videos online</string>
   <string name="search_history_clear_all">Clear</string>
   <string name="search_instant_online_music">Online</string>
   <string name="search_menu_title">Search</string>
@@ -739,8 +746,10 @@ Be Happy"</string>
   <string name="tab_artist">Artists</string>
   <string name="tab_artist_list">Artists</string>
   <string name="tab_folder">Folders</string>
+  <string name="tab_playlist">Playlists</string>
   <string name="tab_track">Songs</string>
   <string name="tab_track_list">Songs</string>
+  <string name="tab_video">Videos</string>
   <string name="take_effect_afater_restart">You need to restart the app for this setting to take effect.</string>
   <string name="talkback_back">Go back</string>
   <string name="talkback_batch_process">Multiple items</string>
@@ -803,6 +812,7 @@ Be Happy"</string>
   <string name="view_album">View album</string>
   <string name="vip_required">Get Premium Song Pack to play this song. Skipped the song for now.</string>
   <string name="vip_required_with_song">%s is available to PRO members only. Skipped this song for now.</string>
+  <string name="voice_search_first_hint">Try voice search!</string>
   <string name="web_service_url">pa-spa.catchmedia.com</string>
   <string name="web_service_url_version">v47</string>
   <string name="widget_small_text_separator">-</string>
