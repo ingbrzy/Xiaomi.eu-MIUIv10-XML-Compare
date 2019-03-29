@@ -23,10 +23,6 @@
         <item quantity="other">%d apps can show notifications</item>
         <item quantity="one">%d app can show notifications</item>
     </plurals>
-    <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles will appear in the Notification shade</item>
-        <item quantity="one">%1$d toggle will appear in the Notification shade</item>
-    </plurals>
     <plurals name="backup_items_sysdata_tailer">
         <item quantity="other">%d system data files</item>
         <item quantity="one">%d system data file</item>
