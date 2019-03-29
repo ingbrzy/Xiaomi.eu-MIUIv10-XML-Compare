@@ -74,7 +74,7 @@ and optimizes your photos based on this info"</string>
   <string name="ai_scene_top_moon_off">Low light mode</string>
   <string name="ai_scene_top_tip">Moon mode</string>
   <string name="app_name">algoengine</string>
-  <string name="autozoom_click_hint">Tap an object to start tracking. Stay at least 3 meters away for best effect.</string>
+  <string name="autozoom_click_hint">"Tap an object to keep it in focus while it's moving. Stay at least 3 meters away for best effect."</string>
   <string name="autozoom_disabled_hint">Stopped tracking moving object</string>
   <string name="autozoom_hint">Track moving object</string>
   <string name="autozoom_landscape_hint">Shoot in landscape mode for best effect</string>
