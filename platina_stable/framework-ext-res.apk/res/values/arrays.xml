@@ -1366,6 +1366,9 @@
     </string-array>
     <string-array name="empty_initial_attach_apn_plmn">
         <item>22210</item>
+        <item>23402</item>
+        <item>23410</item>
+        <item>23411</item>
         <item>26806</item>
         <item>45006</item>
         <item>45005</item>
