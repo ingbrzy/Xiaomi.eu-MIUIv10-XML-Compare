@@ -1695,7 +1695,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="ethernet_data_template">%1$s ethernet data</string>
   <string name="ethernet_data_usage">Ethernet data usage</string>
   <string name="every_day">Every day</string>
-  <string name="expandable_under_keyguard_title">Show on Lock screen</string>
+  <string name="expandable_under_keyguard_title">Show on secure Lock screen</string>
   <string name="experimental_preference">(Experimental)</string>
   <string name="extended_power_menu">Extended power menu</string>
   <string name="external_code_size_label">USB storage app</string>
@@ -3073,7 +3073,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="notification_reboot_title">Reboot to apply update</string>
   <string name="notification_reboot_title_hm">Reboot to apply update</string>
   <string name="notification_ringtone_title">Default notification ringtone</string>
-  <string name="notification_shade_shortcut_title">Notification shade shortcut</string>
   <string name="notification_sound_dialog_title">Default notification sound</string>
   <string name="notification_sound_title">Default notification sound</string>
   <string name="notification_style_title">Notification style</string>
@@ -3982,7 +3981,6 @@ To use screen pinning:
   <string name="search_ringtone_title">Phone ringtone;ringtone;ringtones</string>
   <string name="search_screen_effect">Colors &amp; saturation;Colors &amp; contrast;color;colors saturation;contrast</string>
   <string name="search_screen_key_long_press_timeout">Set long press time;Long press;Press;Touch and hold</string>
-  <string name="search_screen_on_proximity_sensor_title">Prevent pocket dials;pocket;pocket dial;pocket dials</string>
   <string name="search_screen_paper_mode_title">Reading mode;read mode;read;blue light;yellow light;night mode;flux;Night shift;NightShift;Night</string>
   <string name="search_screen_saver_settings">Screensaver</string>
   <string name="search_screen_shot">Screenshot;Screen capture;Capture</string>
@@ -4004,7 +4002,7 @@ To use screen pinning:
   <string name="search_sound_settings">Sound;Volumes;vibration;Suppress noise;noise suppression</string>
   <string name="search_status_bar_settings">Notifications &amp; status bar;Notifications;Status bar</string>
   <string name="search_status_bar_settings_custom_carrier">Edit carrier name;Carrier name</string>
-  <string name="search_status_bar_settings_expandable_under_keyguard">Show on lock screen;show on lockscreen</string>
+  <string name="search_status_bar_settings_expandable_under_keyguard">Show on secure Lock screen;show on secure lockscreen</string>
   <string name="search_status_bar_settings_manage_notification">App Notifications;Notifications</string>
   <string name="search_status_bar_settings_show_carrier">Show carrier name;Carrier name</string>
   <string name="search_status_bar_settings_show_network_speed">Show connection speed;connection speed</string>
@@ -4408,7 +4406,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_all_app_display_loading">Just a sec…</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
-  <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
+  <string name="status_bar_settings_expandable_under_keyguard">Show on secure Lock screen</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_notification_bar">Notification shade</string>
   <string name="status_bar_settings_notification_led_custom">Custom color</string>
