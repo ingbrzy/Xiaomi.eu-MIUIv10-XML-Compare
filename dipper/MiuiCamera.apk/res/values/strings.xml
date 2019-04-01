@@ -219,7 +219,8 @@ if you rotate your phone"</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
   <string name="hint_ae_af_lock">Auto focus / auto exposure has been locked</string>
-  <string name="hint_ae_lock">Auto exposure has been locked</string>
+  <string name="hint_ae_af_lock_extra">Auto focus/auto exposure has been locked. Switch to Google Lens in Camera Settings</string>
+  <string name="hint_ae_lock">Automatic exposure is locked</string>
   <string name="hint_eye_light">Eye light will be better when flash is on</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
   <string name="hint_groupshot">"Camera will take multiple photos
@@ -286,12 +287,21 @@ in Portrait mode"</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="mimoji_back">back</string>
   <string name="mimoji_cancle">cancle</string>
+  <string name="mimoji_check_beyond_20_degrees">请正对屏幕，以便识别面部特征</string>
+  <string name="mimoji_check_face_occlusion">请整理面部遮挡物，以便识别面部特征</string>
+  <string name="mimoji_check_face_too_close">检测面部过大，请将手机移远</string>
+  <string name="mimoji_check_face_too_far">检测面部过小，请将手机移近</string>
+  <string name="mimoji_check_low_light">请移至明亮处，便于识别面部</string>
+  <string name="mimoji_check_multi_face">请保持一人在取景圈内</string>
+  <string name="mimoji_check_no_face">未识别到面部</string>
+  <string name="mimoji_check_normal">请按下拍照键</string>
   <string name="mimoji_confirm">confirm</string>
   <string name="mimoji_delete_mimoji">delete emoji</string>
   <string name="mimoji_delete_success">delete success</string>
   <string name="mimoji_detect_tips">请把脸放在取景框内</string>
   <string name="mimoji_edit_mimoji">edit emoji</string>
   <string name="mimoji_editor">edit</string>
+  <string name="mimoji_on_create">创建拟我表情</string>
   <string name="mimoji_recapture">recapture</string>
   <string name="mimoji_save">save</string>
   <string name="mimoji_save_success">save success</string>
@@ -314,13 +324,6 @@ in Portrait mode"</string>
   <string name="no_storage">Insert SD card before using camera</string>
   <string name="not_enough_space">SD card is full</string>
   <string name="object_track_enable_toast">To select an object, simultaneously tap two diagonal points around its border.</string>
-  <string name="out_line_error_prompt">请不要遮挡脸部信息</string>
-  <string name="out_line_face_occlusion">脸部被遮挡</string>
-  <string name="out_line_left_eyes_occlusion">左眼被遮挡</string>
-  <string name="out_line_mouth_occlusion">嘴巴被遮挡</string>
-  <string name="out_line_no_face">没有检测到人脸</string>
-  <string name="out_line_nose_occlusion">鼻子被遮挡</string>
-  <string name="out_line_right_eyes_occlusion">右眼被遮挡</string>
   <string name="pano_file_name_format">"'PANO'_yyyyMMdd_HHmmss"</string>
   <string name="pano_how_to_use_prompt_align_reference_line">Align the arrow with the reference line</string>
   <string name="pano_how_to_use_prompt_go_on_moving">Keep going…</string>
@@ -718,12 +721,12 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="video_reach_size_limit">Size limit reached.</string>
   <string name="video_ultra_clear_tip">4K UHD</string>
   <string name="view_privacy_policy">View Privacy Policy</string>
-  <string name="wideselfie_press_shoot_key_to_start">按下快门键</string>
-  <string name="wideselfie_result_image_lossless">全景照片保存失败</string>
-  <string name="wideselfie_rotate_slowly">缓慢旋转手机</string>
-  <string name="wideselfie_rotate_to_back">向后倾斜设备</string>
-  <string name="wideselfie_rotate_to_front">向前倾斜设备</string>
-  <string name="wideselfie_rotate_to_left_slowly">向左缓慢旋转手机</string>
-  <string name="wideselfie_rotate_to_right_slowly">向右缓慢旋转手机</string>
+  <string name="wideselfie_press_shoot_key_to_start">Tap the shutter button</string>
+  <string name="wideselfie_result_image_lossless">"Couldn't save panorama"</string>
+  <string name="wideselfie_rotate_slowly">Rotate the phone sideways slowly</string>
+  <string name="wideselfie_rotate_to_back">Tilt the phone backward</string>
+  <string name="wideselfie_rotate_to_front">Tilt the phone forward</string>
+  <string name="wideselfie_rotate_to_left_slowly">Rotate the phone to the left slowly</string>
+  <string name="wideselfie_rotate_to_right_slowly">Rotate the phone to the right slowly</string>
   <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
 </resources>
