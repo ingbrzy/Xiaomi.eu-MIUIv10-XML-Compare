@@ -1906,6 +1906,7 @@ For more details, contact your organization's admin."</string>
   <string name="ethernet_data_template">^1 ethernet data</string>
   <string name="ethernet_data_usage">Ethernet data usage</string>
   <string name="every_day">Every day</string>
+  <string name="expandable_under_keyguard_title">Show on secure Lock screen</string>
   <string name="experimental_category_title">Experimental</string>
   <string name="experimental_preference">(Experimental)</string>
   <string name="extended_power_menu">Extended power menu</string>
@@ -3331,6 +3332,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="notification_sound_default">Default notification sound</string>
   <string name="notification_sound_dialog_title">Default notification sound</string>
   <string name="notification_sound_title">Default notification sound</string>
+  <string name="notification_style_title">Notification style</string>
   <string name="notification_suggestion_summary">Show or hide notification content</string>
   <string name="notification_suggestion_title">Control lock screen notifications</string>
   <string name="notification_summary_channel">%1$s • %2$s</string>
@@ -3551,6 +3553,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="power_key_start_enjoy">Learn more about Google Assistant</string>
   <string name="power_key_start_guide">Waking Google Assistant using the Power button on full display devices</string>
   <string name="power_last_full_charge_summary">^1 ago</string>
+  <string name="power_menu_under_keyguard_summary">Allow access to the power menu while the device is locked</string>
+  <string name="power_menu_under_keyguard_title">Power menu access</string>
   <string name="power_mgr">Battery</string>
   <string name="power_mode">Power settings</string>
   <string name="power_mode_balanced_title">Balance Power</string>
@@ -4299,8 +4303,7 @@ To use screen pinning:
   <string name="search_sound_settings">Sound;Volumes;vibration;Suppress noise;noise suppression</string>
   <string name="search_status_bar_settings">Notifications &amp; status bar;Notifications;Status bar</string>
   <string name="search_status_bar_settings_custom_carrier">Edit carrier name;Carrier name</string>
-  <string name="search_status_bar_settings_expandable_under_keyguard">Show on lock screen;show on lockscreen</string>
-  <string name="search_status_bar_settings_manage_notification">App Notifications;Notifications</string>
+  <string name="search_status_bar_settings_expandable_under_keyguard">Show on secure Lock screen;show on secure lockscreen</string>
   <string name="search_status_bar_settings_show_carrier">Show carrier name;Carrier name</string>
   <string name="search_status_bar_settings_show_network_speed">Show connection speed;connection speed</string>
   <string name="search_status_bar_settings_show_notification_icon">Show notification icons;notification icons;show notification icons</string>
@@ -4733,7 +4736,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
-  <string name="status_bar_settings_expandable_under_keyguard">Show on secure lock screen</string>
+  <string name="status_bar_settings_expandable_under_keyguard">Show on secure Lock screen</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
