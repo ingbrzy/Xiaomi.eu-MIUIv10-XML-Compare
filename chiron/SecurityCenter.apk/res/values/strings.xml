@@ -1633,7 +1633,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="optimize_result_summary_system_default_settings">"Using default MIUI apps increases the level of the system's stability and security."</string>
   <string name="optimize_result_title_sucurity_risk">Security risks found</string>
   <string name="optimize_result_title_system_default_settings">Default settings have been changed</string>
-  <string name="optimize_result_title_uninstall_apps">Apps</string>
+  <string name="optimize_result_title_uninstall_apps">Uninstall apps</string>
   <string name="optimize_result_toast_system_default_settings">Restored default settings</string>
   <string name="optimize_result_toast_system_no_item_selected">No items selected</string>
   <string name="optmizingbar_optimize_done">Optimized</string>
