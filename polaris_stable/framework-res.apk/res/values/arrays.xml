@@ -224,14 +224,14 @@
         <item>com.android.inputmethod.latin</item>
     </string-array>
     <integer-array name="config_dynamicHysteresisBrightLevels">
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
-        <item>200</item>
+        <item>2000</item>
+        <item>2000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
     </integer-array>
     <integer-array name="config_dynamicHysteresisDarkLevels">
         <item>800</item>
@@ -694,6 +694,8 @@
         <item>com.android.providers.downloads</item>
         <item>com.android.providers.downloads.ui</item>
         <item>com.android.documentsui</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.android.thememanager</item>
     </string-array>
     <string-array name="required_apps_managed_profile">
         <item>com.android.contacts</item>

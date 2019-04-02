@@ -493,7 +493,7 @@
   <string name="send_sms_for_sync_title">Data usage warning</string>
   <string name="sim_changed_reactivate_int_notice">An outgoing international SMS message may be required to reactivate this service. Your carrier will charge you for this message.</string>
   <string name="sim_changed_reactivate_notice">An outgoing SMS message may be required to reactivate this service. Your carrier will charge you for this message.</string>
-  <string name="sim_in_airplane_mode">Turn off airplane mode.</string>
+  <string name="sim_in_airplane_mode">Turn off Airplane mode.</string>
   <string name="sim_locked">SIM card is locked.</string>
   <string name="sim_not_ready">SIM card is in use. Try again later.</string>
   <string name="sim_unavailable">SIM card unavailable.</string>
