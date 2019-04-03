@@ -29,6 +29,12 @@
   <string name="abc_shareactionprovider_share_with">Share with</string>
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
+  <string name="about_download_fail">"Couldn't download"</string>
+  <string name="about_downloading">Downloading %s</string>
+  <string name="about_item_function">New features</string>
+  <string name="about_net_error">Check your network settings and try again.</string>
+  <string name="about_newest">Wallpaper Carousel is up to date.</string>
+  <string name="about_update">Update</string>
   <string name="ad_feed_badge">AD</string>
   <string name="ad_pop_btn_hidden">Hide</string>
   <string name="ad_pop_des">Downloading app:</string>
@@ -61,7 +67,7 @@
   <string name="cancel_lockscreen">Cancel</string>
   <string name="cancel_network">Exit</string>
   <string name="carousel_declaration_btn_text">Turn on Wallpaper Carousel</string>
-  <string name="carousel_declaration_cta">"Wallpaper Carousel requires the internet connection to work normally. To get access to online content, you must agree with our &lt;a href='http://www.miui.com/res/doc/privacy/cn.html'&gt;Privacy Policy&lt;/a&gt;. Agree?"</string>
+  <string name="carousel_declaration_cta">"Wallpaper Carousel requires the internet connection to work normally. To get access to online content, you must agree with our &lt;a href='%s'&gt;Privacy Policy&lt;/a&gt;. Agree?"</string>
   <string name="carousel_declaration_cta_btn_text">Agree and turn on</string>
   <string name="carousel_declaration_des">See beautiful places and get exciting surprises with Wallpaper Carousel</string>
   <string name="carousel_declaration_des2">Add your custom images to Wallpaper Carousel</string>
@@ -77,6 +83,10 @@
   <string name="choose_to_signup">"No, I'll create one"</string>
   <string name="clear_history">Clear search history</string>
   <string name="clear_search_edittext">Clear</string>
+  <string name="comment_pop_cancel">Not now</string>
+  <string name="comment_pop_content">Give us a review if you like Wallpaper Carousel!</string>
+  <string name="comment_pop_ok">Rate</string>
+  <string name="comment_pop_title">Rate Wallpaper Carousel</string>
   <string name="confirm">Turn on</string>
   <string name="create_shortcut">Create Home screen shortcut</string>
   <string name="current_connection_invalid">Wait until the device connects to the network</string>
@@ -162,6 +172,7 @@
   <string name="favor_list_no_data">No items here.</string>
   <string name="favor_list_title">Favorites</string>
   <string name="favor_success">Added to favorites successfully</string>
+  <string name="feed_article_entrance_about">About \"%s\"</string>
   <string name="find_psw">Forgot password</string>
   <string name="fixable_behavior">com.mfashiongallery.emag.app.detail.ui.FixableAppBarLayoutBehavior</string>
   <string name="from_migallerylockscreen">From Mi Wallpaper Carousel</string>
@@ -185,6 +196,15 @@
   <string name="lks_left_net_error">"Couldn't connect to the network."</string>
   <string name="lks_logo_desc2">Fresh wallpapers daily</string>
   <string name="lks_subscription_toast">Changed wallpaper successfully</string>
+  <string name="llks_pop_btm_des">Start your day with a smile</string>
+  <string name="llks_pop_btm_des_backup">Get a great start to your day</string>
+  <string name="llks_pop_btm_title">Good morning</string>
+  <string name="llks_pop_btm_title_backup">Morning greetings</string>
+  <string name="llks_pop_i_know">Got it</string>
+  <string name="llks_pop_top_des">Receive fresh images regularly</string>
+  <string name="llks_pop_top_des_backup">Delivered to your screen daily</string>
+  <string name="llks_pop_top_title">New wallpapers</string>
+  <string name="llks_pop_top_title_backup">Fresh images</string>
   <string name="load_hdpicture_complete">Loaded original image successfully</string>
   <string name="loading">&lt;CDATA&gt;Just a sec&amp;#8230;&lt;/CDATA&gt;</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
@@ -206,7 +226,9 @@
   <string name="mode_des">Wallpaper Carousel is showing recommendations now. Switch to the slideshow to be able to view your custom items.</string>
   <string name="mode_ok">Switch to slideshow</string>
   <string name="mode_title">Showing recommendations</string>
+  <string name="more_article">More articles</string>
   <string name="need_open_gallery">Turn on Wallpaper Carousel</string>
+  <string name="new_feature_title">"What's new"</string>
   <string name="nick_name">Name</string>
   <string name="no_long_show">"Don't show again"</string>
   <string name="no_networdk">"Couldn't connect to the network"</string>
@@ -288,12 +310,16 @@
   <string name="rv_with_footer_pull_load_more">Pull down to view more</string>
   <string name="save_hdpicture_in_favor">View HD images in \"Favorites\"</string>
   <string name="save_picture_success">Saved successfully</string>
+  <string name="save_to_album">Saved to Gallery successfully</string>
+  <string name="save_to_album_fail">"Couldn't save"</string>
   <string name="scribe_btn_ok">Subscribe</string>
   <string name="scribe_title1">Subscribe to Wallpaper Carousel</string>
   <string name="search">Search</string>
   <string name="search_menu_title">Search</string>
   <string name="search_str">Popular now</string>
   <string name="select_package">Select version</string>
+  <string name="setting_about_item_des">Version</string>
+  <string name="setting_about_item_title">About Wallpaper Carousel</string>
   <string name="setting_des">You can set up your slideshow at Settings &gt; Lock screen &amp; password &gt; Wallpaper Carousel</string>
   <string name="setting_head">Settings</string>
   <string name="setting_ok">Settings</string>
@@ -320,15 +346,20 @@
   <string name="sst_custom_wallpaper_desc">Select images from Gallery and recommendations</string>
   <string name="sst_custom_wallpaper_title">Custom slideshow</string>
   <string name="sst_custom_wallpaper_title2">Slideshow</string>
+  <string name="sst_disable_unopen">Beta feature</string>
+  <string name="sst_effect_next_wallpaper">Set a new wallpaper to apply changes</string>
   <string name="sst_favor_desc">View favorite wallpapers</string>
   <string name="sst_favor_title">Favorites</string>
   <string name="sst_feedback_title">Feedback</string>
   <string name="sst_grid_view_select_all">Select all</string>
   <string name="sst_grid_view_unselect_all">Deselect all</string>
+  <string name="sst_lockscreen_show_headline_desc">"Show wallpaper's title under the clock on the Lock screen"</string>
+  <string name="sst_lockscreen_show_headline_title">Show title on Lock screen</string>
   <string name="sst_logo_desc">Fresh wallpapers daily</string>
   <string name="sst_mode_selection">Mode</string>
   <string name="sst_more_subscription">More subscriptions</string>
   <string name="sst_morning_greeting_desc">Get a fresh image every morning</string>
+  <string name="sst_morning_greeting_disable_toast">This feature will be available soon</string>
   <string name="sst_morning_greeting_title">Receive morning greetings</string>
   <string name="sst_new_feature">New features</string>
   <string name="sst_no_favor_wallpaper_hint">No favorite wallpapers</string>
@@ -360,19 +391,22 @@
   <string name="status_bar_notification_info_overflow">999+</string>
   <string name="subscribe_item_checked">Subscribed</string>
   <string name="subscribe_item_unchecked">Unsubscribed</string>
-  <string name="summary">"Agree to our &lt;a href='http://www.miui.com/res/doc/privacy/en.html'&gt;Privacy Policy&lt;/a&gt; to view online content. If you disagree, local wallpapers will still be available."</string>
-  <string name="summary2">"By using this feature, you're agreeing to our &lt;a href ='http://www.miui.com/res/doc/eula.html?lang=en_US'&gt;User Agreement&lt;/a&gt; and &lt;a href='http://www.miui.com/res/doc/privacy/en.html'&gt;Privacy Policy&lt;/a&gt;. This feature needs to connect to the internet to work normally.​"</string>
-  <string name="summary_international">"By using this feature, you're agreeing to our &lt;a href ='http://www.miui.com/res/doc/eula.html?lang=en_US'&gt;User Agreement&lt;/a&gt; and &lt;a href='http://www.miui.com/res/doc/privacy/en.html'&gt;Privacy Policy&lt;/a&gt;. This feature needs to connect to the internet to work normally.​"</string>
+  <string name="summary">"Agree to our &lt;a href='%s'&gt;Privacy Policy&lt;/a&gt; to view online content. If you disagree, local wallpapers will still be available."</string>
+  <string name="summary2">"By using this feature, you're agreeing to our &lt;a href ='%1$s'&gt;User Agreement&lt;/a&gt; and &lt;a href='%2$s'&gt;Privacy Policy&lt;/a&gt;. This feature needs to connect to the internet to work normally.​"</string>
+  <string name="summary_international">"By using this feature, you're agreeing to our &lt;a href ='%1$s'&gt;User Agreement&lt;/a&gt; and &lt;a href='%2$s'&gt;Privacy Policy&lt;/a&gt;. This feature needs to connect to the internet to work normally.​"</string>
   <string name="tab_user_title_bar_text">Settings</string>
   <string name="theme_apply_failured">"Couldn't apply, try again later"</string>
   <string name="theme_apply_success">Applied successfully</string>
   <string name="theme_applying">Applying…</string>
-  <string name="theme_des">Wallpaper Carousel only supports the default theme of MIUI. Set default theme to be able to use Wallpaper Carousel.</string>
-  <string name="theme_ok">Set default theme</string>
-  <string name="theme_title">"You aren't using the default theme"</string>
+  <string name="theme_des">Apply default theme and turn on Wallpaper Carousel again.</string>
+  <string name="theme_des_lock_style">Apply default Lock screen and turn on Wallpaper Carousel again.</string>
+  <string name="theme_ok">Settings</string>
+  <string name="theme_title">Switch to default theme</string>
+  <string name="theme_title_lock_style">Switch to default Lock screen</string>
   <string name="ticket_hint">Verification code</string>
   <string name="ticket_invalid">The code you entered is incorrect</string>
   <string name="ticket_sign_in">Sign in via SMS</string>
+  <string name="time_current">Just now</string>
   <string name="toast_ad_down_tip">Downloading app…</string>
   <string name="toast_ad_down_tip2">Downloading %s…</string>
   <string name="toast_load_hd_fail">"Couldn't load original image"</string>
