@@ -1911,7 +1911,6 @@ For more details, contact your organization's admin."</string>
   <string name="ethernet_data_template">^1 ethernet data</string>
   <string name="ethernet_data_usage">Ethernet data usage</string>
   <string name="every_day">Every day</string>
-  <string name="expandable_under_keyguard_title">Show on secure Lock screen</string>
   <string name="experimental_category_title">Experimental</string>
   <string name="experimental_preference">(Experimental)</string>
   <string name="extended_power_menu">Extended power menu</string>
@@ -3920,7 +3919,11 @@ UT Interface: %5$s"</string>
   <string name="reset_network_complete_toast">Network settings have been reset</string>
   <string name="reset_network_confirm_title">Reset?</string>
   <string name="reset_network_data">Mobile data</string>
-  <string name="reset_network_desc">This will reset all network settings</string>
+  <string name="reset_network_desc">"This will reset all network settings, including:
+
+"&lt;li&gt;WLAN&lt;/li&gt;"
+"&lt;li&gt;Mobile data&lt;/li&gt;"
+"&lt;li&gt;Bluetooth&lt;/li&gt;</string>
   <string name="reset_network_final_button_text">Reset settings</string>
   <string name="reset_network_final_desc">Reset all network settings? You can’t undo this action!</string>
   <string name="reset_network_title">Network settings reset</string>
@@ -4308,6 +4311,7 @@ To use screen pinning:
   <string name="search_status_bar_settings">Notifications &amp; status bar;Notifications;Status bar</string>
   <string name="search_status_bar_settings_custom_carrier">Edit carrier name;Carrier name</string>
   <string name="search_status_bar_settings_expandable_under_keyguard">Show on secure Lock screen;show on secure lockscreen</string>
+  <string name="search_status_bar_settings_manage_notification">App Notifications;Notifications</string>
   <string name="search_status_bar_settings_show_carrier">Show carrier name;Carrier name</string>
   <string name="search_status_bar_settings_show_network_speed">Show connection speed;connection speed</string>
   <string name="search_status_bar_settings_show_notification_icon">Show notification icons;notification icons;show notification icons</string>
@@ -4742,6 +4746,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_expandable_under_keyguard">Show on secure Lock screen</string>
+  <string name="status_bar_settings_function_description">About this feature</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_no_carrier">None</string>
@@ -5778,7 +5783,6 @@ Tap the plus to add words."</string>
   <string name="wifi_aggressive_handover_summary">When enabled, connection will switch to mobile data more actively when WLAN signal is low.</string>
   <string name="wifi_allow_scan_with_traffic">Always allow WLAN roam scans</string>
   <string name="wifi_allow_scan_with_traffic_summary">Allow or restrict WLAN roam scans based on the amount of data traffic present in the interface.</string>
-  <string name="wifi_and_mobile_skipped_message">The phone will not be able to verify that your software is up to date</string>
   <string name="wifi_ap_band_config">Select AP Band</string>
   <string name="wifi_ap_choose_2G">2.4 GHz Band</string>
   <string name="wifi_ap_choose_5G">5 GHz Band</string>
