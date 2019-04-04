@@ -10,6 +10,7 @@
     <string name="aqi_dangerous"/>
     <string name="aqi_hazardous"/>
     <string name="aqi_break"/>
+	<string name="weather_null">Dodirni za dobivanje informacija o vremenu</string>
 	<string name="weather_type_null">'Nema podataka'</string>
     <string name="weather_type_0">Vedro</string>
     <string name="weather_type_1">Oblačno</string>
