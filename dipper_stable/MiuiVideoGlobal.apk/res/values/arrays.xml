@@ -111,13 +111,6 @@
         <item>@array/Category</item>
         <item>@array/Setting</item>
     </array>
-    <string-array name="playback_streaming_quality">
-        <item>Auto</item>
-        <item>Low</item>
-        <item>Medium</item>
-        <item>High</item>
-        <item>Very High</item>
-    </string-array>
     <array name="sonymovie">
         <item>@drawable/ovp_home_ic_door_sony</item>
         <item>sony_movie</item>
