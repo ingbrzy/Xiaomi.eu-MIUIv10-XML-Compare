@@ -227,11 +227,11 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
   <string name="allow_data_usage_title">Allow data usage when roaming</string>
   <string name="allow_device_id_access">Apps with access to Device ID</string>
-  <string name="allow_float_summary">Pop up notifications at the top of the screen</string>
+  <string name="allow_float_summary">Allow floating notifications</string>
   <string name="allow_float_title">Floating notifications</string>
-  <string name="allow_keyguard_summary">Show notifications on the lock screen</string>
+  <string name="allow_keyguard_summary">Allow notifications on the Lock screen</string>
   <string name="allow_keyguard_title">Lock screen notifications</string>
-  <string name="allow_lights_title">Allow breathing light tips</string>
+  <string name="allow_lights_title">Allow using LED light</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
   <string name="allow_overlay_description">This permission allows an app to display on top of other apps you’re using and may interfere with your use of the interface in other applications, or change what you think you are seeing in other applications.</string>
@@ -1362,6 +1362,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dev_settings_warning_message">These settings are intended for developers only. Enabling these features may make your device and the apps on it misbehave or cause errors.</string>
   <string name="dev_settings_warning_title">Allow development settings?</string>
   <string name="developer_build">Beta</string>
+  <string name="developer_density_summary">%d dp</string>
   <string name="developer_smallest_width">Smallest width</string>
   <string name="development_enable">Developer options</string>
   <string name="development_settings_enable">Enable developer options</string>
@@ -1954,10 +1955,13 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_anim_rhythm">Rhythm</string>
   <string name="gxzw_anim_star">Starlight</string>
   <string name="gxzw_anim_title">Fingerprint animation</string>
+  <string name="gxzw_aod_show_summary">Fingerprint icon will be displayed when the screen is off. This feature increases system power consumption.</string>
+  <string name="gxzw_aod_show_tittle">Show fingerprint icon when the screen is off</string>
   <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
   <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
   <string name="gxzw_dialog_ok">Got it</string>
   <string name="gxzw_dialog_title">About in-screen fingerprint sensor</string>
+  <string name="gxzw_enroll_again">Lift your finger and press the fingerprint scanner again</string>
   <string name="gxzw_quick_open_title"/>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
@@ -2073,6 +2077,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="include_app_data_title">Include app data</string>
   <string name="incoming_call_breathing_light_color_title">Calls light color</string>
   <string name="incoming_call_breathing_light_freq_title">Calls pulse frequency</string>
+  <string name="incoming_call_volume_title">Ringtone</string>
   <string name="infinity_display_settings">Full display</string>
   <string name="infinity_display_slogan">Innovation on full display</string>
   <string name="infinity_display_title">Full screen display</string>
@@ -2269,7 +2274,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="legal_workday_message">(Skip holidays)</string>
   <string name="license_title">License</string>
   <string name="lift_to_wake_title">Lift to wake</string>
-  <string name="lights_title">Blink light</string>
+  <string name="lights_title">LED light</string>
   <string name="line_breaking_summary">Optimize paragraph line breaking</string>
   <string name="line_breaking_title">Optimize text</string>
   <string name="link_speed">%1$d Mbps</string>
@@ -3007,19 +3012,21 @@ Select your operating system:"</string>
   <string name="notes_privacy_password_role_instruction">Your private notes will be stored here.</string>
   <string name="notifi_channels">Notification categories</string>
   <string name="notifi_channels_other">Other</string>
-  <string name="notifi_importance_default">Shows everywhere, makes noise, but does not visually.</string>
-  <string name="notifi_importance_high">Shows everywhere, makes noise and peeks. May use full screen intents.</string>
-  <string name="notifi_importance_low">Shows everywhere, but is not intrusive.</string>
-  <string name="notifi_importance_min">Only shows in the shade</string>
+  <string name="notifi_importance_default">Play sound and show on the Lock screen</string>
+  <string name="notifi_importance_high">Play sound, show on the Lock screen, allow using fullscreen options</string>
+  <string name="notifi_importance_low">"Don't play sound"</string>
+  <string name="notifi_importance_min">"Don't show on the Lock screen, don't play sound"</string>
   <string name="notifi_importance_none">Off</string>
   <string name="notifi_importance_unspecified">Let the app decide</string>
-  <string name="notifi_no_channels">This app has not posted any notifications</string>
+  <string name="notifi_no_channels">"This app hasn't received any notifications yet"</string>
   <string name="notification_app_settings_button">Notification settings</string>
   <string name="notification_breathing_light_color_title">Notifications light color</string>
   <string name="notification_breathing_light_freq_title">Notifications pulse frequency</string>
   <string name="notification_fold_description1">Notifications folder was introduced in MIUI 9. This feature filters unimportant notifications and places them into a separate folder.</string>
   <string name="notification_fold_description2">MIUI will remember which notifications you tap, and then use multiple criteria to determine whether they are important.</string>
   <string name="notification_fold_description3">"If the notifications you consider important still go into the Notifications folder, make sure that you report such issues to us. We'd appreciate your feedback."</string>
+  <string name="notification_fold_footer_icon_summary">All unimportant notification icons appear on the right side of the storage bar</string>
+  <string name="notification_fold_footer_icon_title">Show icons</string>
   <string name="notification_fold_summary">All unimportant notifications will appear in a separate folder</string>
   <string name="notification_fold_title">Notifications folder</string>
   <string name="notification_importance_blocked">Never show notifications from this app</string>
@@ -3073,6 +3080,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="notification_reboot_title">Reboot to apply update</string>
   <string name="notification_reboot_title_hm">Reboot to apply update</string>
   <string name="notification_ringtone_title">Default notification ringtone</string>
+  <string name="notification_shade_shortcut_title">Notification shade shortcut</string>
   <string name="notification_sound_dialog_title">Default notification sound</string>
   <string name="notification_sound_title">Default notification sound</string>
   <string name="notification_style_title">Notification style</string>
@@ -3621,7 +3629,11 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="reset_network_complete_toast">Network settings have been reset</string>
   <string name="reset_network_confirm_title">Reset?</string>
   <string name="reset_network_data">Mobile data</string>
-  <string name="reset_network_desc">This will reset all network settings</string>
+  <string name="reset_network_desc">"This will reset all network settings, including:
+
+"&lt;li&gt;WLAN&lt;/li&gt;"
+"&lt;li&gt;Cellular data&lt;/li&gt;"
+"&lt;li&gt;Bluetooth&lt;/li&gt;</string>
   <string name="reset_network_final_button_text">Reset settings</string>
   <string name="reset_network_final_desc">Reset all network settings? You can’t undo this action!</string>
   <string name="reset_network_title">Network settings reset</string>
@@ -3981,6 +3993,7 @@ To use screen pinning:
   <string name="search_ringtone_title">Phone ringtone;ringtone;ringtones</string>
   <string name="search_screen_effect">Colors &amp; saturation;Colors &amp; contrast;color;colors saturation;contrast</string>
   <string name="search_screen_key_long_press_timeout">Set long press time;Long press;Press;Touch and hold</string>
+  <string name="search_screen_on_proximity_sensor_title">Prevent pocket dials;pocket;pocket dial;pocket dials</string>
   <string name="search_screen_paper_mode_title">Reading mode;read mode;read;blue light;yellow light;night mode;flux;Night shift;NightShift;Night</string>
   <string name="search_screen_saver_settings">Screensaver</string>
   <string name="search_screen_shot">Screenshot;Screen capture;Capture</string>
@@ -4406,7 +4419,6 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_all_app_display_loading">Just a sec…</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
-  <string name="status_bar_settings_expandable_under_keyguard">Show on secure Lock screen</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_notification_bar">Notification shade</string>
   <string name="status_bar_settings_notification_led_custom">Custom color</string>
@@ -5114,7 +5126,7 @@ Tap the plus to add words."</string>
   <string name="vibrate_input_devices">Use vibrator</string>
   <string name="vibrate_input_devices_summary">Redirect vibrator to game controller when connected.</string>
   <string name="vibrate_on_touch_title">Vibrate on tap</string>
-  <string name="vibrate_title">Vibrate</string>
+  <string name="vibrate_title">Vibration</string>
   <string name="vibrate_when_ringing_title">Also vibrate for calls</string>
   <string name="vip_list">Allow incoming calls</string>
   <string name="virtual_keyboard_category">Virtual keyboard</string>
@@ -5156,7 +5168,7 @@ Tap the plus to add words."</string>
   <string name="virus_scanner_select_trust_lib">Select virus definitions</string>
   <string name="virus_scanner_title">Virus scanner</string>
   <string name="virus_scanner_update_lib">Update definitions</string>
-  <string name="visibility_override_title">On lock screen</string>
+  <string name="visibility_override_title">On the Lock screen</string>
   <string name="vision_settings_description">You can customize this device to fit your needs. These accessibility features can be changed later in Settings.</string>
   <string name="vision_settings_title">Vision Settings</string>
   <string name="voice_assist">Mi AI</string>
@@ -5300,7 +5312,13 @@ Tap the plus to add words."</string>
   <string name="wifi_aggressive_handover_summary">When enabled, connection will switch to mobile data more actively when WLAN signal is low.</string>
   <string name="wifi_allow_scan_with_traffic">Always allow WLAN roam scans</string>
   <string name="wifi_allow_scan_with_traffic_summary">Allow or restrict WLAN roam scans based on the amount of data traffic present in the interface.</string>
-  <string name="wifi_and_mobile_skipped_message">The phone will not be able to verify that your software is up to date</string>
+  <string name="wifi_and_mobile_skipped_message">"If you skip WLAN:
+
+"&lt;li&gt;Your phone won&amp;#8217;t have an Internet connection.&lt;/li&gt;"
+
+"&lt;li&gt;You won&amp;#8217;t get software updates until you connect to the Internet.&lt;/li&gt;"
+
+"&lt;li&gt;You can&amp;#8217;t activate device protection features at this time.&lt;/li&gt;</string>
   <string name="wifi_ap_band_config">Select AP Band</string>
   <string name="wifi_ap_choose_2G">2.4 GHz Band</string>
   <string name="wifi_ap_choose_5G">5 GHz Band</string>
@@ -5861,8 +5879,8 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="zen_schedule_rule_enabled_toast">Automatic rule set to turn on Do Not Disturb during specified times</string>
   <string name="zen_schedule_rule_type_name">Time rule</string>
   <string name="zone_auto">Automatic time zone</string>
-  <string name="zone_auto_summaryOff">Use network-provided time zone</string>
-  <string name="zone_auto_summaryOn">Use network-provided time zone</string>
+  <string name="zone_auto_summaryOff">Use the time provided by the carrier network</string>
+  <string name="zone_auto_summaryOn">Use the time provided by the carrier network</string>
   <string name="zone_list_menu_sort_alphabetically">Sort alphabetically</string>
   <string name="zone_list_menu_sort_by_timezone">Sort by time zone</string>
 </resources>
