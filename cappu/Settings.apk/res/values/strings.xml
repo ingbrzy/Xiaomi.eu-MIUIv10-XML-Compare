@@ -3931,7 +3931,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="reset_network_desc">"This will reset all network settings, including:
 
 "&lt;li&gt;WLAN&lt;/li&gt;"
-"&lt;li&gt;Mobile data&lt;/li&gt;"
+"&lt;li&gt;Cellular data&lt;/li&gt;"
 "&lt;li&gt;Bluetooth&lt;/li&gt;</string>
   <string name="reset_network_final_button_text">Reset settings</string>
   <string name="reset_network_final_desc">Reset all network settings? You can’t undo this action!</string>
@@ -5926,9 +5926,11 @@ Don't leave this page until the connection is established."</string>
   <string name="wifi_allow_scan_with_traffic_summary">Allow or restrict WLAN roam scans based on the amount of data traffic present in the interface.</string>
   <string name="wifi_and_mobile_skipped_message">"If you skip WLAN:
 
-"&lt;li&gt;"Your tablet won't have an Internet connection."&lt;/li&gt;"
-"&lt;li&gt;"You won't get software updates until you connect to the Internet."&lt;/li&gt;"
-"&lt;li&gt;"You can't activate device protection features at this time."&lt;/li&gt;</string>
+"&lt;li&gt;Your phone won&amp;#8217;t have an Internet connection.&lt;/li&gt;"
+
+"&lt;li&gt;You won&amp;#8217;t get software updates until you connect to the Internet.&lt;/li&gt;"
+
+"&lt;li&gt;You can&amp;#8217;t activate device protection features at this time.&lt;/li&gt;</string>
   <string name="wifi_ap_band_config">Select AP Band</string>
   <string name="wifi_ap_choose_2G">2.4 GHz Band</string>
   <string name="wifi_ap_choose_5G">5 GHz Band</string>
