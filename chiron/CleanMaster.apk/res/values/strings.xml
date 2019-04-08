@@ -370,7 +370,7 @@
   <string name="label_image_list_none">None</string>
   <string name="label_preserve_the_best_image">Save the sharpest photos</string>
   <string name="last_check_canceled">Previous scan was canceled</string>
-  <string name="load_only_under_wlan">Load using only Wi-Fi</string>
+  <string name="load_only_under_wlan">Load using only WLAN</string>
   <string name="location_not_found">"Couldn't find file"</string>
   <string name="login_immediately">Sign in</string>
   <string name="long_click_dialog_summary">Long press to add to exceptions.</string>
@@ -521,6 +521,7 @@
   <string name="sc_allow_network_dialog_message">Allow this app to connect to the internet to receive updates?</string>
   <string name="scanning">Scanning…</string>
   <string name="search_history">Search history</string>
+  <string name="security_center_slogan">Security. Always on guard.</string>
   <string name="see_more">More</string>
   <string name="set_immediately">Set</string>
   <string name="seton_immediately">Turn on</string>
