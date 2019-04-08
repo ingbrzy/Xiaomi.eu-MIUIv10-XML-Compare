@@ -6,8 +6,8 @@
     <string name="air_quality3">\'AQI \'+#aqi</string>
     <string name="air_quality4">\'AQI \'+#aqi</string>
     <string name="air_quality5">\'AQI \'+#aqi</string>
-    <string name="weather_null"></string>
-    <string name="weather_location_null"></string>
+    <string name="weather_null">Hava haqqında məlumat almaq üçün toxunun</string>
+    <string name="weather_location_null">Məkan məlumatı yoxdur</string>
     <string name="weather_type_0">Açıq</string>
     <string name="weather_type_1">Buludlu</string>
     <string name="weather_type_2">Çənli</string>

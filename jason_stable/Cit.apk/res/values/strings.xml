@@ -246,6 +246,8 @@ and reverse plug in the charger"</string>
   <string name="cit_display_check_summary">Confirm that the colors are consistently displayed across the whole screen. Make sure there are no irregular bright spots and dark spots.</string>
   <string name="cit_display_check_title">Display</string>
   <string name="cit_display_continue">Touch screen to begin test</string>
+  <string name="cit_display_test_end">Finish test</string>
+  <string name="cit_display_test_next">Next</string>
   <string name="cit_emergencycall_check_summary">Please click Dial 112 button to dial 112 to check if 112 can be placed.</string>
   <string name="cit_emergencycall_check_title">Emergency Call</string>
   <string name="cit_exit_test_summary">When you exit, all related text data will be erased.</string>
@@ -1033,6 +1035,23 @@ Please plug out the charger and reverse plug in."</string>
   <string name="sar_sensor_calibrate">Start Calibrate</string>
   <string name="sar_sensor_calibrate_fail">Sar Sensor calibrate fail</string>
   <string name="sar_sensor_calibrate_success">Sar Sensor calibrate success</string>
+  <string name="sar_sensor_data_check_description">Sar Sensor Data Collect</string>
+  <string name="sar_sensor_data_check_summary">"Hold the top of the phone with one hand
+Make sure the real time Angle is about 45 degrees
+Keep the other hand away from the phone
+Look at the value of CS0
+After the value of CS0 is less than 500 and the value of CS2 greater than 10000 
+Hold the other hand close to the bottom of the phone
+Look at the value of CS0
+The value of CS0 ranges from 3000 to 30000 , the pass button is highlight"</string>
+  <string name="sar_sensor_data_check_summary_1">"Hold the top of the phone with one hand
+Make sure the real time Angle is about 45 degrees
+Keep the other hand away from the phone
+Look at the value of CS0
+After the value of CS0 is less than 500 and the value of CS2 greater than 5000 
+Hold the other hand close to the bottom of the phone
+Look at the value of CS0
+The value of CS0 ranges from 3000 to 30000 , the pass button is highlight"</string>
   <string name="sar_sensor_test_description">Sar Sensor Calibrate and Data Collect</string>
   <string name="sar_sensor_test_summary">"Rotate the phone, put it to the fixture
 Click the Start Calibrate button
