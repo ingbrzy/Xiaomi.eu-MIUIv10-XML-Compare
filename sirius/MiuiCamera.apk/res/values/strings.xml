@@ -311,7 +311,7 @@ in Portrait mode"</string>
   <string name="module_name_beauty">Beauty</string>
   <string name="module_name_capture">Photo</string>
   <string name="module_name_fun">Short video</string>
-  <string name="module_name_fun_ar">趣AR</string>
+  <string name="module_name_fun_ar">萌拍</string>
   <string name="module_name_manual">Manual</string>
   <string name="module_name_new_slow_motion">Slow motion</string>
   <string name="module_name_panorama">Panorama</string>
@@ -705,6 +705,8 @@ and brings out the people in the front."</string>
   <string name="ultra_wide_mode">Ultra wide angle</string>
   <string name="ultra_wide_mode_use_hint_text">"Use this mode to include more of the scene in your photo.
 Ultra wide angle mode comes to help when you can't move farther from the scene."</string>
+  <string name="ultra_wide_mode_use_hint_text_sat">"开启0.6X超广角，为您记录更广阔的视野
+探索更多精彩的美"</string>
   <string name="ultra_wide_open_tip">Ultra wide angle mode</string>
   <string name="ultra_wide_recommend_tip_hint">Try Ultra wide angle mode</string>
   <string name="user_agree">Agree</string>
