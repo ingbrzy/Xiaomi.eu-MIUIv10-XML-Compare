@@ -276,6 +276,17 @@ and reverse plug in the charger"</string>
   <string name="cit_emergencycall_check_title">Emergency Call</string>
   <string name="cit_exit_test_summary">When you exit, all related text data will be erased.</string>
   <string name="cit_exit_test_title">Exit test</string>
+  <string name="cit_f2_cali">Calibration</string>
+  <string name="cit_f2_cali_done">Calibration Done!</string>
+  <string name="cit_f2_cali_failed">Calibration Failed, please Retry!</string>
+  <string name="cit_f2_cali_title">Camera Calibration</string>
+  <string name="cit_f2_calibrating">Calibration is ongoing...</string>
+  <string name="cit_f2_camera_check_summary">"Test instructions:
+
+1.Tap the calibration button.
+2.There will be a calibration pass label to indicate the camera has been calibrated."</string>
+  <string name="cit_f2_capture_fail">Capture Failed, please Retry!</string>
+  <string name="cit_f2_capture_success">Click calibration button!</string>
   <string name="cit_fail">Fail</string>
   <string name="cit_fast_screen_touch_check_title">Fast touch screen check test</string>
   <string name="cit_finger_check_title">Finger Print Test</string>
