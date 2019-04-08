@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">Miss biex tikseb informazzjoni dwar it-temp</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">Illum</string>
     <string name="tomorrow">Għada</string>
