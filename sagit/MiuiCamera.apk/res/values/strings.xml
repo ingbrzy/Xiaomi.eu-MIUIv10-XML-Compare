@@ -594,9 +594,9 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_picture_format_value_jpeg">jpeg</string>
   <string name="pref_camera_picture_format_value_raw">raw</string>
   <string name="pref_camera_picturesize_entry_16_9">16:9</string>
-  <string name="pref_camera_picturesize_entry_18_9">18:9</string>
+  <string name="pref_camera_picturesize_entry_18_9">@string/pref_camera_picturesize_entry_fullscreen</string>
   <string name="pref_camera_picturesize_entry_4_3">4:3</string>
-  <string name="pref_camera_picturesize_entry_fullscreen">Full screen 16:9</string>
+  <string name="pref_camera_picturesize_entry_fullscreen">Full screen</string>
   <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
   <string name="pref_camera_picturesize_title_simple_mode">Camera frame</string>
   <string name="pref_camera_portrait_mode_entry_off">Portrait mode is off</string>
