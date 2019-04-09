@@ -282,6 +282,7 @@ only in frame mode"</string>
   <string name="cit4reporttitle">HW4 Test Report</string>
   <string name="cit_nv_flag">"CIT NV Flag: "</string>
   <string name="clear">Clear</string>
+  <string name="click_button_to_start_test">click the button to start test</string>
   <string name="click_to_start_test">click the screen to start test</string>
   <string name="close">Close</string>
   <string name="combile">Assemble</string>
@@ -344,6 +345,7 @@ only in frame mode"</string>
   <string name="factoryid">Factory ID:</string>
   <string name="fail">Fail</string>
   <string name="far">far</string>
+  <string name="fido_label">FIDO:</string>
   <string name="field_netinfo">network information</string>
   <string name="field_state">state</string>
   <string name="field_test">Field Test</string>
@@ -434,6 +436,7 @@ only in frame mode"</string>
   <string name="hw_test_fail">IR data send Unsuccess!</string>
   <string name="hw_test_finish">IR data send success</string>
   <string name="hwstart">test running...</string>
+  <string name="ifaa_label">IFAA:</string>
   <string name="image_quality_test">IMAGE QUALITY TEST</string>
   <string name="imei">[ IMEI]:</string>
   <string name="imei_no">IMEI:</string>
@@ -472,6 +475,7 @@ the selected?"</string>
   <string name="keyboard_test">KEY/OFN</string>
   <string name="keyboardlight">Key Light</string>
   <string name="keyboardlight_info">Please note if the keyboard light blink or not</string>
+  <string name="keybox_label">Keybox:</string>
   <string name="keyled_off">Key led off</string>
   <string name="keyled_on">Key led</string>
   <string name="language">Switching To English...</string>
@@ -583,6 +587,7 @@ off---Disabling continuous Tx"</string>
   <string name="networktype_sim2">SIM2 Network Type:</string>
   <string name="newinfo">New</string>
   <string name="next">Next</string>
+  <string name="nextP">Next</string>
   <string name="next_text">next</string>
   <string name="nfc_discovered">Discovered tag</string>
   <string name="nfc_scan">Scan a tag</string>
@@ -646,6 +651,7 @@ off---Disabling continuous Tx"</string>
   <string name="playing">The recorder is Playing...</string>
   <string name="playover">play recording complete</string>
   <string name="pls_plug_charger_out">Please pull put charger</string>
+  <string name="pls_plug_otg_in_native">Please pull in OTG device nativa</string>
   <string name="pls_plug_otg_out">Please pull out OTG device</string>
   <string name="pls_see_photo">Please see the photo</string>
   <string name="plug_charger">Please plug in charger in the front</string>
@@ -806,6 +812,10 @@ mod:0-15"</string>
   <string name="testinf2">TESTINF</string>
   <string name="testinfo">[TESTINF]:</string>
   <string name="testing">AutoTest Running...</string>
+  <string name="testresult_qrcodetext_hint">"0: Fail
+1: Pass
+N: no test"</string>
+  <string name="testresult_qrcodetext_prefix">"Test Result: "</string>
   <string name="textview">TextView</string>
   <string name="top_ant">Top ANt</string>
   <string name="touchpanel_bow">Draw Bow</string>
@@ -866,6 +876,7 @@ pESN:%s
   <string name="waiting">Waiting for 4s.</string>
   <string name="warning">talk to Mic First</string>
   <string name="whiteled">White LED</string>
+  <string name="widevine_label">Widevine:</string>
   <string name="wifi_addr_test">WLAN Address</string>
   <string name="wifi_aw700">Wifi</string>
   <string name="wifi_result">[WIFI]:</string>
