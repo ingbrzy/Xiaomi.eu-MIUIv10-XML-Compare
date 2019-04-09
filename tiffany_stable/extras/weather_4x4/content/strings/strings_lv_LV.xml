@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">Pieskarieties, lai iegūtu laikapstākļu informāciju</string>
     <string name="date_format">EEEE, d. MMMM</string>
     <string name="today">Šodien</string>
     <string name="tomorrow">Rīt</string>
