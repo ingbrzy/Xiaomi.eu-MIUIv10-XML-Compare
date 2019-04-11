@@ -190,6 +190,7 @@
   <string name="app_manager_factory_reset">Uninstall updates</string>
   <string name="app_manager_factory_reset_dlg_msg">All updates to this Android system app will be uninstalled.</string>
   <string name="app_manager_factory_reset_dlg_title">Uninstall updates?</string>
+  <string name="app_manager_find_apps">Find apps</string>
   <string name="app_manager_force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
   <string name="app_manager_force_stop_dlg_title">Force stop?</string>
   <string name="app_manager_full_screen_summary">Allow selected apps to work in fullscreen mode</string>
@@ -1073,6 +1074,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
   <string name="gb_network_status_bad">A connection error occurred.</string>
   <string name="gb_new_feature">New feature</string>
+  <string name="gb_shortcut_pref_title">Home screen shortcut</string>
   <string name="gb_sign_gift">Check in to get rewards</string>
   <string name="gb_sign_gift_button_text">Receive</string>
   <string name="gb_sign_notification_summary">Check in daily to receive Xunyou boost</string>
@@ -1631,7 +1633,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="optimize_result_summary_system_default_settings">"Using default MIUI apps increases the level of the system's stability and security."</string>
   <string name="optimize_result_title_sucurity_risk">Security risks found</string>
   <string name="optimize_result_title_system_default_settings">Default settings have been changed</string>
-  <string name="optimize_result_title_uninstall_apps">Apps</string>
+  <string name="optimize_result_title_uninstall_apps">Uninstall apps</string>
   <string name="optimize_result_toast_system_default_settings">Restored default settings</string>
   <string name="optimize_result_toast_system_no_item_selected">No items selected</string>
   <string name="optmizingbar_optimize_done">Optimized</string>
@@ -2032,6 +2034,11 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="section_title_system">System security</string>
   <string name="security_center_slogan">Security. Always on guard.</string>
   <string name="security_scan_optimizing">Optimizing…</string>
+  <string name="securityadd_install_fail">"Couldn't update plug-in. Try again."</string>
+  <string name="securityadd_update_tips_cancle">Not now</string>
+  <string name="securityadd_update_tips_message">Update Security service plug-in to get access to the latest gaming features. %1$dMB will be downloaded.</string>
+  <string name="securityadd_update_tips_now">Update</string>
+  <string name="securityadd_update_tips_title">Update</string>
   <string name="see_detail">Details</string>
   <string name="see_more_content">Update Games to see more highlights</string>
   <string name="set_applock_password">Set password</string>
