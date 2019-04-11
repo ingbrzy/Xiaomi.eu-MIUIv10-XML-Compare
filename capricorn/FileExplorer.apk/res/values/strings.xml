@@ -223,6 +223,8 @@
   <string name="found_usb">USB storage connected</string>
   <string name="ftp_account_req_notice">4–16 characters, letters and digits, case sensitive</string>
   <string name="ftp_anonymous_login">Anonymous sign-in</string>
+  <string name="ftp_anonymous_warning_msg">Anonymization features might pose security risks. Use the feature anyway?</string>
+  <string name="ftp_anonymous_warning_title">Attention</string>
   <string name="ftp_invalid_username_or_password">The username or password you entered is invalid.</string>
   <string name="ftp_open_port_error">"Couldn't open port. Check your network connection or reset port number."</string>
   <string name="ftp_password_hint">Password</string>
@@ -245,6 +247,7 @@
   <string name="group_title_extra_new">New</string>
   <string name="handsome_boy">Male</string>
   <string name="has_installed">Installed</string>
+  <string name="home_action_up">Back</string>
   <string name="homepage_tab_category">Categories</string>
   <string name="homepage_tab_file_view_phone">Storage</string>
   <string name="homepage_tab_recent">Recent</string>
