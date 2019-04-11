@@ -2598,6 +2598,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>600000</item>
         <item>2147483647</item>
     </string-array>
+    <string-array name="screen_zoom_level">
+        <item>XS</item>
+        <item>S</item>
+        <item>L</item>
+    </string-array>
     <string-array name="search_keywords_title_com_miui_securitycenter">
         <item>title_of_auto_launch_manage</item>
         <item>pc_install_manager</item>
@@ -3247,12 +3252,40 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>5</item>
         <item>10</item>
     </string-array>
-    <string-array name="status_bar_settings_qs_layout_entries"><item>Default</item><item>Compact</item></string-array>
-    <string-array name="status_bar_settings_qs_layout_values"><item>0</item><item>1</item></string-array>
-    <string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array>
-    <string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array>
-    <string-array name="aod_clock_style_entries"><item>Horizontal</item><item>Vertical</item><item>Inline</item></string-array>
-    <string-array name="aod_clock_style_values"><item>0</item><item>1</item><item>2</item></string-array>
-    <string-array name="dark_ui_mode_entries"><item>Automatic (based on time of day)</item><item>Always on</item><item>Always off</item></string-array>
-    <string-array name="dark_ui_mode_values"><item>auto</item><item>yes</item><item>no</item></string-array>
+    <string-array name="status_bar_settings_qs_layout_entries">
+        <item>Default</item>
+        <item>Compact</item>
+    </string-array>
+    <string-array name="status_bar_settings_qs_layout_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="default_vol_stream_entries">
+        <item>Ringtone</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="default_vol_stream_values">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="aod_clock_style_entries">
+        <item>Horizontal</item>
+        <item>Vertical</item>
+        <item>Inline</item>
+    </string-array>
+    <string-array name="aod_clock_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Automatic (based on time of day)</item>
+        <item>Always on</item>
+        <item>Always off</item>
+    </string-array>
+    <string-array name="dark_ui_mode_values">
+        <item>auto</item>
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
 </resources>
