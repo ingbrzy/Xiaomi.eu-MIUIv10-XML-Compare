@@ -307,7 +307,7 @@
   <string name="always_use_accessory">Use by default for this USB accessory</string>
   <string name="always_use_device">Use by default for this USB device</string>
   <string name="animator_duration_scale_title">Animator duration scale</string>
-  <string name="aod_dual_togother">HH:MM</string>
+  <string name="aod_dual_togother">HH:mm</string>
   <string name="aod_dual_togother_12">hh:mm aa</string>
   <string name="aod_lock_screen_date">EE, MMMM d</string>
   <string name="aod_lock_screen_date_12">EE, MMMM d</string>
@@ -790,6 +790,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="guest_wipe_session_message">Do you want to continue your session?</string>
   <string name="guest_wipe_session_title">Welcome back, guest!</string>
   <string name="guest_wipe_session_wipe">Start over</string>
+  <string name="gxzw_area">Fingerprint scanner</string>
   <string name="gxzw_long_press_tip"/>
   <string name="gxzw_press_harder">Press a bit harder</string>
   <string name="gxzw_quick_open_add_event">Add event</string>
@@ -1064,6 +1065,10 @@ Try again in %2$d seconds."</string>
   <string name="lock_screen_carrier_airplane_mode_on">Airplane mode</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
+  <string name="lock_screen_date_two_lines">"EEEE
+MMMM d"</string>
+  <string name="lock_screen_date_two_lines_12">"EEEE
+MMMM d"</string>
   <string name="lock_screen_magazine_default_content">Daily portion of fresh images</string>
   <string name="lock_screen_magazine_default_title">Wallpaper Carousel</string>
   <string name="lock_screen_magazine_global_button_text">More</string>
