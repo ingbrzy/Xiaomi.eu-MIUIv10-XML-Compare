@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">Докоснете, за да получите инф. за времето</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">В момента</string>
     <string name="tomorrow">Утре</string>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_format">EEEE، d MMMM</string>
+    <string name="weather_null">انقر للحصول على معلومات الطقس</string>
+    <string name="date_format">EEEE, d MMMM</string>
     <string name="today">اليوم</string>
     <string name="tomorrow">غداً</string>
     <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>

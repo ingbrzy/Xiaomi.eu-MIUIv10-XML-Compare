@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">వాతావరణ సమాచారాన్ని పొందేందుకు ట్యాప్ చేయండి</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">ఈ రోజు</string>
     <string name="tomorrow">రేపు</string>

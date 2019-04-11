@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">ਮੌਸਮ ਦੀ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">ਅੱਜ</string>
     <string name="tomorrow">ਭਲਕੇ</string>
