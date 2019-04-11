@@ -780,6 +780,7 @@ Sample Rate"</string>
   <string name="fdn_list_with_label">FDN list (%s)</string>
   <string name="fdn_summary">Restrict outgoing calls to listed FDNs or to numbers with certain prefixes</string>
   <string name="fdn_with_label">Fixed Dialing Numbers (%s)</string>
+  <string name="fiveg_switch_title">5G network</string>
   <string name="flash_when_ring_summary">Use flash to notify about incoming calls</string>
   <string name="flash_when_ring_title">Flash when ringing</string>
   <string name="force_allow_on_external">Force allow apps on external</string>
