@@ -264,8 +264,12 @@ only in frame mode"</string>
   <string name="channelbanding">channel banding:</string>
   <string name="charge_battery_test">Charge/Batt</string>
   <string name="charge_current">Charge Current:</string>
+  <string name="charge_fast_insert_pls">insert charge fast please</string>
   <string name="charge_in_ac">charge in（USB_DCP）</string>
+  <string name="charge_in_hvdcp">charge in(USB_HVDCP)</string>
   <string name="charge_in_usb">charge in（USB）</string>
+  <string name="charge_positive_pls">charge positive please</string>
+  <string name="charge_reverse_pls">charge reverse please</string>
   <string name="charge_test">Charge</string>
   <string name="charge_voltage">Charge Voltage：</string>
   <string name="charger_in_test">Charger Test</string>
@@ -620,6 +624,7 @@ off---Disabling continuous Tx"</string>
   <string name="playing">The recorder is Playing...</string>
   <string name="playover">play recording complete</string>
   <string name="pls_plug_charger_out">Please pull put charger</string>
+  <string name="pls_plug_otg_in_native">Please pull in OTG device nativa</string>
   <string name="pls_plug_otg_out">Please pull out OTG device</string>
   <string name="pls_see_photo">Please see the photo</string>
   <string name="plug_charger">Please plug in charger</string>
