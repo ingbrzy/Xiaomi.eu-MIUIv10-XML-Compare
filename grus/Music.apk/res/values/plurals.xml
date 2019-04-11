@@ -78,6 +78,10 @@ Note: File will be deleted from this device as well."</item>
         <item quantity="other">&lt;font color=\"red\">%d songs&lt;/font> downloading</item>
         <item quantity="one">&lt;font color==\"red\">%d song&lt;/font> downloading</item>
     </plurals>
+    <plurals name="free_downloads_num_hint">
+        <item quantity="other">%d free downloads left</item>
+        <item quantity="one">%d free download left</item>
+    </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d items selected</item>
         <item quantity="one">%d item selected</item>
@@ -117,5 +121,9 @@ Note: File will be deleted from this device as well."</item>
     <plurals name="video_play_count">
         <item quantity="other">%1$s views</item>
         <item quantity="one">%1$s view</item>
+    </plurals>
+    <plurals name="vip_remain_days_hint">
+        <item quantity="other">%d days remaining</item>
+        <item quantity="one">%d day remaining</item>
     </plurals>
 </resources>
