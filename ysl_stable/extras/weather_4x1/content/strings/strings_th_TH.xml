@@ -6,8 +6,8 @@
     <string name="air_quality3">\'AQI \'+#aqi</string>
     <string name="air_quality4">\'AQI \'+#aqi</string>
     <string name="air_quality5">\'AQI \'+#aqi</string>
-    <string name="weather_null"></string>
-    <string name="weather_location_null"></string>
+    <string name="weather_null">แตะเพื่อรับข้อมูลสภาพอากาศ</string>
+    <string name="weather_location_null">ไม่มีข้อมูลที่ตั้ง</string>
     <string name="weather_type_0">แจ่มใส</string>
     <string name="weather_type_1">เมฆมาก</string>
     <string name="weather_type_2">หมอกหนา</string>
