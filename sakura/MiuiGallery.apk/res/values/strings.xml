@@ -886,7 +886,7 @@
   <string name="ext_sdcard_permission_request_title">Allow Gallery to access SD card</string>
   <string name="ext_sdcard_request_failed_button_text">OK</string>
   <string name="ext_sdcard_request_succeed_toast_text">"You're ready to rock!"</string>
-  <string name="face_album_empty">"Not enough photos to recognize people.r
+  <string name="face_album_empty">"Not enough photos to recognize people.
 Take more photos of your friends!"</string>
   <string name="face_album_empty_syncing">Syncing data, come back in a while</string>
   <string name="face_album_empty_syncing_when_connect_wifi">Connect to network to sync info</string>
@@ -1261,6 +1261,7 @@ to personalize Gallery"</string>
   <string name="photo_editor_beautify">Beautify</string>
   <string name="photo_editor_beautify_auto">Auto</string>
   <string name="photo_editor_beauty_compare">Original</string>
+  <string name="photo_editor_compare_tip">Press and hold to view the original image</string>
   <string name="photo_editor_crop_and_rotate">Crop</string>
   <string name="photo_editor_crop_auto">Auto</string>
   <string name="photo_editor_crop_auto_tips">Cropped automatically</string>
@@ -1298,6 +1299,7 @@ to personalize Gallery"</string>
   <string name="photo_editor_navigator_module_download_wait_wlan">Wait for Wi-Fi</string>
   <string name="photo_editor_navigator_module_downloading">Downloading %s…</string>
   <string name="photo_editor_navigator_need_download">Connect to the internet to download %s.</string>
+  <string name="photo_editor_remove_watermark">Remove watermark</string>
   <string name="photo_editor_remover">Erase</string>
   <string name="photo_editor_rotate">Rotate</string>
   <string name="photo_editor_saving">Saving…</string>
