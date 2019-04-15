@@ -18,8 +18,10 @@ this feature will be added to Second space automatically."</string>
   <string name="app_name">Security Core Component</string>
   <string name="back">Back</string>
   <string name="bind_device">Add devices</string>
+  <string name="button_input_password">Enter password</string>
   <string name="button_text_next_step">Next</string>
   <string name="button_text_next_step_timer">Next step (%d)</string>
+  <string name="button_touch">Put your finger on the sensor</string>
   <string name="can_not_delete_when_calling">"Can't delete spaces during a call"</string>
   <string name="can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
   <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
@@ -66,7 +68,7 @@ to be able to view them anytime"</string>
   <string name="create_work_space">Create Work space</string>
   <string name="creating_app_icon">Creating icon…</string>
   <string name="cta_declaration_agree_and_continue">Agree</string>
-  <string name="cta_declaration_message_format" formatted="false">You must read and agree to our &lt;font color=%s&gt;&lt;a href=%s&gt; %s &lt;/a&gt;&lt;/font&gt; before using Enterprise mode. Your device needs to connect to the internet to activate Enterprise mode. Agree?</string>
+  <string name="cta_declaration_message_format" formatted="false">You must read and agree to our &lt;font color=%s&gt;&lt;a href=%s&gt;%s&lt;/a&gt;&lt;/font&gt; before using Enterprise mode. Your device needs to connect to the internet to activate Enterprise mode. Agree?</string>
   <string name="cta_declaration_title">Terms and Conditions</string>
   <string name="current_space">Current space</string>
   <string name="dataSafe">Using Second space is like having two devices.</string>
@@ -84,6 +86,8 @@ to be able to view them anytime"</string>
   <string name="dialog_title">Attention</string>
   <string name="dialog_title_service_error">Server error</string>
   <string name="dialog_undo_negative">"Don't revoke"</string>
+  <string name="dialog_verify">Verify your fingerprint</string>
+  <string name="dialog_verify_fingerprint_retry">"Couldn't verify fingerprint. Try again."</string>
   <string name="dir_switch_out_all_photos">Second space Gallery</string>
   <string name="disable">Turn off</string>
   <string name="do_not_ask">"Don't ask again"</string>
@@ -105,7 +109,7 @@ Make sure the name of your corporation is correct. Read and agree to the related
   <string name="ent_agency_code">Corporate code</string>
   <string name="ent_agency_code_hint">Enter corporate code</string>
   <string name="ent_agency_code_invalid">The corporate code you entered is invalid.</string>
-  <string name="ent_agree_privacy_policy">"I've read and agree to Privacy Policy"</string>
+  <string name="ent_agree_privacy_policy">"I've read and agreed to Privacy Policy"</string>
   <string name="ent_app_verified">Looks like there are enterprise apps installed on your device. Activate Enterprise mode?</string>
   <string name="ent_confirm_dialog_content">"You won't be able to go back to the present state of your system after you activate Enterprise mode. However, all your data will still be stored on this device. You'll have to reboot your device to activate Enterprise mode. Activate now?"</string>
   <string name="ent_disallow_running">The app is forbidden to run</string>
@@ -149,7 +153,7 @@ Make sure the name of your corporation is correct. Read and agree to the related
   <string name="function_not_support">Not supported on this device</string>
   <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>
   <string name="gms_open_button">Turn on</string>
-  <string name="gms_title">Turn on Google services</string>
+  <string name="gms_title">Dual app for Google services</string>
   <string name="goToSecondSpacce">Go to Second space</string>
   <string name="go_on_import">Keep importing</string>
   <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
@@ -204,6 +208,7 @@ You can also download them separately."</string>
   <string name="master_clear_apply_step_1">Revoking authorization requires performing a factory data reset on your device. It will permanently erase all files and data, including accounts, contacts, photos, and apps. Back up all important items to your computer before revoking authorization.</string>
   <string name="master_clear_apply_step_2">Make sure you backed up all the important items to your computer. After you tap \"OK\", a factory data reset will be performed on your device, permanently erasing all files and data, including accounts, contacts, photos, and apps.</string>
   <string name="master_clear_apply_title">Attention</string>
+  <string name="master_clear_not_available">Factory reset is restricted by your company.</string>
   <string name="menu_item_about_privacy_title">Privacy Policy</string>
   <string name="messageData">Messages</string>
   <string name="more_settings">More</string>

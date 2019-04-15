@@ -6,8 +6,8 @@
     <string name="air_quality3">\'IQA \'+#aqi</string>
     <string name="air_quality4">\'IQA \'+#aqi</string>
     <string name="air_quality5">\'IQA \'+#aqi</string>
-    <string name="weather_null"></string>
-    <string name="weather_location_null"></string>
+    <string name="weather_null">Toque para obter informações do clima</string>
+    <string name="weather_location_null">Nenhuma informação de localização</string>
     <string name="weather_type_0">Limpo</string>
     <string name="weather_type_1">Nublado</string>
     <string name="weather_type_2">Nublado</string>
