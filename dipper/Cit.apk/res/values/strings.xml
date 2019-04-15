@@ -61,6 +61,7 @@
   <string name="afdrubberstamp_test">AFD RUBBER STAMP TEST</string>
   <string name="algo_version">算法版本:</string>
   <string name="all_tilt_angle">全局倾斜度:</string>
+  <string name="allow_gpu_maxfreq_summary">GPU overfreq experimental mode could introduce power issues or even more severe problems. However, they will be restored once you turn this mode off. Turn on GPU maxfreq mode?</string>
   <string name="app_name">CIT</string>
   <string name="app_name_far_frr">FRR/FAR测试</string>
   <string name="app_name_goodix">Goodix指纹测试</string>
@@ -922,6 +923,7 @@ the specified position"</string>
   <string name="get_sample_finger">Extract Image:get sample finger</string>
   <string name="get_sensor_info">GET SENSOR INFO</string>
   <string name="get_template_finger">Extract Image:get template finger</string>
+  <string name="gpu_maxfreq_title">GPU Overfreq Mode for Experimental</string>
   <string name="headset_key">Headset button</string>
   <string name="headset_key_tip">You need to test the headset button before you proceed to the next test</string>
   <string name="headset_plug_check_tip">Now play the tape, listen to the headset, please pull out the headset when you cloze testing</string>
