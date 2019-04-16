@@ -79,7 +79,7 @@ and optimizes your photos based on this info"</string>
   <string name="autozoom_click_hint">"Tap an object to keep it in focus while it's moving. Stay at least 3 meters away for best effect."</string>
   <string name="autozoom_disabled_hint">Stopped tracking moving object</string>
   <string name="autozoom_hint">Track moving object</string>
-  <string name="autozoom_landscape_hint">建议横屏下拍摄</string>
+  <string name="autozoom_landscape_hint">Shoot in landscape mode for best effect</string>
   <string name="beauty_body">Figure</string>
   <string name="beauty_body_body">Slender</string>
   <string name="beauty_body_head">Head</string>
@@ -87,6 +87,7 @@ and optimizes your photos based on this info"</string>
   <string name="beauty_body_reset_tip">Removed figure effects successfully</string>
   <string name="beauty_body_shoulder">Shoulders</string>
   <string name="beauty_body_slim_count_tip">Figure effects work only for one person shots</string>
+  <string name="beauty_body_whole">Body</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_makeup">Makeup</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
@@ -149,7 +150,6 @@ and optimizes your photos based on this info"</string>
   <string name="config_name_group">Group selfie</string>
   <string name="config_name_hht">HHT</string>
   <string name="config_name_magic">Magic</string>
-  <string name="config_name_ratio">Ratio</string>
   <string name="config_name_scene">Scene</string>
   <string name="config_name_setting">Settings</string>
   <string name="config_name_straighten">Straighten</string>
@@ -175,7 +175,7 @@ and optimizes your photos based on this info"</string>
   <string name="device_watermark_default_text">AI DUAL CAMERA</string>
   <string name="dialog_google_lens_option_0">Google Lens (Recommended)</string>
   <string name="dialog_ok">OK</string>
-  <string name="dialog_ok_time">OK (&lt;g id="NUMBER"&gt;%d&lt;/g&gt;s)</string>
+  <string name="dialog_ok_time">OK(%ds)</string>
   <string name="do_not_remind_me">"Don't show again"</string>
   <string name="dual_camera_lens_covered_toast">The lens is covered.</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
@@ -285,8 +285,8 @@ in Portrait mode"</string>
   <string name="macro_mode_tip">"Distance between the lens and the object shouldn't exceed 10cm"</string>
   <string name="makeup_reset_toast">Removed makeup effects</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
-  <string name="mimoji_back">back</string>
-  <string name="mimoji_cancle">cancle</string>
+  <string name="mimoji_back">返回</string>
+  <string name="mimoji_cancle">取消</string>
   <string name="mimoji_check_beyond_20_degrees">请正对屏幕，以便识别面部特征</string>
   <string name="mimoji_check_face_occlusion">请整理面部遮挡物，以便识别面部特征</string>
   <string name="mimoji_check_face_too_close">检测面部过大，请将手机移远</string>
@@ -295,9 +295,9 @@ in Portrait mode"</string>
   <string name="mimoji_check_multi_face">请保持一人在取景圈内</string>
   <string name="mimoji_check_no_face">未识别到面部</string>
   <string name="mimoji_check_normal">请按下拍照键</string>
-  <string name="mimoji_confirm">confirm</string>
-  <string name="mimoji_delete_mimoji">delete emoji</string>
-  <string name="mimoji_delete_success">delete success</string>
+  <string name="mimoji_confirm">确认</string>
+  <string name="mimoji_delete_mimoji">删除拟我表情</string>
+  <string name="mimoji_delete_success">删除成功</string>
   <string name="mimoji_detect_faceshape_failed">脸型检测失败</string>
   <string name="mimoji_detect_facial_failed">人脸检测失败</string>
   <string name="mimoji_detect_gender_failed">性别检测失败</string>
@@ -308,14 +308,15 @@ in Portrait mode"</string>
   <string name="mimoji_detect_skincolor_failed">肤色检测失败</string>
   <string name="mimoji_detect_tips">请把脸放在取景框内</string>
   <string name="mimoji_detect_unknow_failed">未知错误</string>
-  <string name="mimoji_edit_mimoji">edit emoji</string>
+  <string name="mimoji_edit_mimoji">编辑拟我表情</string>
   <string name="mimoji_edit_whether_abandon">是否放弃编辑</string>
-  <string name="mimoji_editor">edit</string>
-  <string name="mimoji_on_create">创建拟我表情</string>
-  <string name="mimoji_recapture">recapture</string>
-  <string name="mimoji_save">save</string>
-  <string name="mimoji_save_success">save success</string>
-  <string name="mimoji_selected">select</string>
+  <string name="mimoji_editor">编辑</string>
+  <string name="mimoji_fragment_tab_name">Mimoji</string>
+  <string name="mimoji_on_create">创建Mimoji</string>
+  <string name="mimoji_recapture">重拍</string>
+  <string name="mimoji_save">保存</string>
+  <string name="mimoji_save_success">保存成功</string>
+  <string name="mimoji_selected">请选择</string>
   <string name="mimoji_start_create">正在创建拟我表情，请耐心等待...</string>
   <string name="mimoji_tips">轻触拍照，长按录像</string>
   <string name="module_name_beauty">Beauty</string>
@@ -651,16 +652,15 @@ and brings out the people in the front."</string>
   <string name="pref_video_quality_default">6</string>
   <string name="pref_video_quality_entry_1080p">FHD 1080p, 30fps</string>
   <string name="pref_video_quality_entry_1080p_60fps">FHD 1080p, 60fps</string>
-  <string name="pref_video_quality_entry_480p">SD 480p</string>
+  <string name="pref_video_quality_entry_480p">SD 480p, 30fps</string>
   <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
   <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
-  <string name="pref_video_quality_entry_720p">HD 720p</string>
+  <string name="pref_video_quality_entry_720p">HD 720p, 30fps</string>
   <string name="pref_video_quality_entry_720p_60fps">HD 720p, 60fps</string>
   <string name="pref_video_quality_entry_value_1080p_60fps">6,60</string>
   <string name="pref_video_quality_entry_value_4kuhd">8</string>
   <string name="pref_video_quality_entry_value_4kuhd_60fps">8,60</string>
   <string name="pref_video_quality_entry_value_720p_60fps">5,60</string>
-  <string name="pref_video_quality_summary">4K video cannot be supported in 120FPS mode</string>
   <string name="pref_video_quality_title">Video quality</string>
   <string name="pref_video_quality_value_autozoom">6</string>
   <string name="pref_video_speed_fast_title">Time-lapse</string>
@@ -715,8 +715,8 @@ and brings out the people in the front."</string>
   <string name="ultra_wide_mode">Ultra wide angle</string>
   <string name="ultra_wide_mode_use_hint_text">"Use this mode to include more of the scene in your photo.
 Ultra wide angle mode comes to help when you can't move farther from the scene."</string>
-  <string name="ultra_wide_mode_use_hint_text_sat">"开启0.6X超广角，为您记录更广阔的视野
-探索更多精彩的美"</string>
+  <string name="ultra_wide_mode_use_hint_text_sat">"Try 0.6X Ultra wide angle mode to include more of the scene in your photo.
+Ultra wide angle mode comes to help when you can't move farther from the scene."</string>
   <string name="ultra_wide_open_tip">Ultra wide angle mode</string>
   <string name="ultra_wide_recommend_tip_hint">Try Ultra wide angle mode</string>
   <string name="user_agree">Agree</string>
@@ -736,11 +736,11 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="video_ultra_clear_tip">4K UHD</string>
   <string name="view_privacy_policy">View Privacy Policy</string>
   <string name="wideselfie_press_shoot_key_to_start">Tap the shutter button</string>
-  <string name="wideselfie_result_image_lossless">"Couldn't save panorama"</string>
-  <string name="wideselfie_rotate_slowly">Rotate the phone sideways slowly</string>
+  <string name="wideselfie_result_image_lossless">"Couldn't create panoramic shot"</string>
+  <string name="wideselfie_rotate_slowly">Rotate the phone sideways</string>
   <string name="wideselfie_rotate_to_back">Tilt the phone backward</string>
   <string name="wideselfie_rotate_to_front">Tilt the phone forward</string>
-  <string name="wideselfie_rotate_to_left_slowly">Rotate the phone to the left slowly</string>
-  <string name="wideselfie_rotate_to_right_slowly">Rotate the phone to the right slowly</string>
+  <string name="wideselfie_rotate_to_left_slowly">Rotate the phone to the left</string>
+  <string name="wideselfie_rotate_to_right_slowly">Rotate the phone to the right</string>
   <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
 </resources>
