@@ -2089,7 +2089,8 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="notch_battery_indicator_style_entries">
         <item>Graphical</item>
-        <item>Percentage</item>
+        <item>Percentage (in the icon)</item>
+        <item>Percentage (next to the icon)</item>
     </string-array>
     <string-array name="notifi_importance_entries">
         <item>@string/importance_high</item>
