@@ -756,6 +756,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="gxzw_try_again">Try again</string>
   <string name="gxzw_try_more_again">Try again</string>
   <string name="gxzw_use_password">Use your password to unlock</string>
+  <string name="gxzw_use_password_to_unlock">Enter password</string>
   <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
   <string name="hdcp_checking_title">HDCP checking</string>
   <string name="headset">Headset</string>
