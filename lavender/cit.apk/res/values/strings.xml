@@ -284,6 +284,11 @@ only in frame mode"</string>
   <string name="cit2reporttitle">HW2 Test Report</string>
   <string name="cit3reporttitle">HW3 Test Report</string>
   <string name="cit4reporttitle">HW4 Test Report</string>
+  <string name="cit_bluetooth_logging_confirm_info">this Bluetooth Logging will collect your device Bluetooth protocal datas, only record current Bluetooth releated operations. Involve privacy information data will also be recorded: Bluetooth Phonebook Access/Telephone Call History/SMS/MMS/Exchanged Files/Music Meta Data etc. this data is limited to XiaoMi company internal debugging with users but not be used for other purposes.</string>
+  <string name="cit_bluetooth_logging_confirm_ng">Reject</string>
+  <string name="cit_bluetooth_logging_confirm_notify">Do you agree to enable logging?</string>
+  <string name="cit_bluetooth_logging_confirm_ok">Agree</string>
+  <string name="cit_bluetooth_logging_confirm_title">Bluetooth Logging Privacy Warning</string>
   <string name="cit_nv_flag">"CIT NV Flag: "</string>
   <string name="clear">Clear</string>
   <string name="click_button_to_start_test">click the button to start test</string>
