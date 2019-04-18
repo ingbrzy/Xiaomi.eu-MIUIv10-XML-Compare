@@ -2074,6 +2074,7 @@ For more details, contact your organization's admin."</string>
   <string name="err_binder_died">App stopped unexpectedly.</string>
   <string name="err_filesystem_mount">"Can't access router storage"</string>
   <string name="err_low_storage">Not enough space</string>
+  <string name="err_no_gms">Incompatible app version. Install this app separately</string>
   <string name="err_not_allow">Not supported</string>
   <string name="err_pkg_not_exist">"Couldn't find app."</string>
   <string name="err_router_disconnected">"Check your router's connection and try again."</string>
@@ -5687,6 +5688,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="trans_detail_category_userdata">Apps</string>
   <string name="trans_detail_category_wechat_qq">WeChat and QQ data (including chat history)</string>
   <string name="trans_detail_item_app_data_selected_tip">Selected corresponding apps as well.</string>
+  <string name="trans_detail_item_app_data_skip_data">"Can't transfer app data"</string>
   <string name="trans_detail_item_app_data_too_large_tip">Looks like the item is too big to transfer.</string>
   <string name="trans_detail_list_footer">"1. You can select individual apps you want to transfer.
 2. If you select app data, corresponding apps will be selected as well.
@@ -6700,6 +6702,9 @@ Don't leave this page until the connection is established."</string>
   <string name="wifi_priority_type_summary">Set priority for each access point manually</string>
   <string name="wifi_priority_type_title">Set AP priority manually</string>
   <string name="wifi_property">WLAN properties</string>
+  <string name="wifi_protection_on">On</string>
+  <string name="wifi_protection_settings_title">WIFI probe protection</string>
+  <string name="wifi_protection_tip">MIUI automatically turns on the WIFI probe protection function. When the mobile phone scans the WLAN, it will randomly address the MAC address to prevent the WIFI probe box from stealing user privacy and protecting the mobile phone.</string>
   <string name="wifi_quick_toggle_summary">Turn on WLAN</string>
   <string name="wifi_quick_toggle_title">WLAN</string>
   <string name="wifi_remembered">Saved</string>
