@@ -34,6 +34,8 @@
   <string name="enable_accessibility_dialog_message">You turned on TalkBack by pressing the screen with 2 fingers for more than 10 seconds. TalkBack provides voice feedback for people with visual impairments. If you turned it on by accident, tap the Cancel button, and then double tap the screen.</string>
   <string name="enable_accessibility_dialog_negative_btn">Cancel</string>
   <string name="enable_accessibility_dialog_positive_btn">OK</string>
+  <string name="font_hint_large">Default text size</string>
+  <string name="font_hint_normal">Increase text size</string>
   <string name="ime_privacy_policy">Privacy Policy for selected keyboard</string>
   <string name="ime_privacy_policy_no_network">No network connection. View the Privacy Policy for this keyboard at %s.</string>
   <string name="input_method_category">"Choose the default keyboard that you'll use for writing messages, notes, and just about everything else. Note that you can install other third-party keyboards later."</string>
@@ -88,6 +90,10 @@ View the selected keyboard's Privacy Policy."</string>
   <string name="sim_dectection_next">Continue</string>
   <string name="sim_redetection">Check again</string>
   <string name="sim_scard_detecting_check_mobile_not_available">"Your SIM card couldn't connect to a valid carrier network. Make sure you have sufficient funds on your balance and try to connect again."</string>
+  <string name="skip_gesture_guide_dialog_message">Make sure you know how to use full screen gestures before selecting this option.</string>
+  <string name="skip_gesture_guide_dialog_negative_btn">Cancel</string>
+  <string name="skip_gesture_guide_dialog_positive_btn">OK</string>
+  <string name="skip_gesture_guide_dialog_title">Full screen gestures</string>
   <string name="skip_underline">Skip this step</string>
   <string name="start_up_slogan">Designed for full screen experience</string>
   <string name="suggested_actions_uri">android.resource://com.android.provision/raw/suggested_actions</string>
