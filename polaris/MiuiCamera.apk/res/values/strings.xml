@@ -729,7 +729,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="ultra_wide_mode_use_hint_text_sat">"Try 0.6X Ultra wide angle mode to include more of the scene in your photo.
 Ultra wide angle mode comes to help when you can't move farther from the scene."</string>
   <string name="ultra_wide_open_tip">Ultra wide angle mode</string>
-  <string name="ultra_wide_open_tip_sat">0.6X Ultra wide angle</string>
+  <string name="ultra_wide_open_tip_sat">0.6X ultra wide angle</string>
   <string name="ultra_wide_recommend_tip_hint">Try Ultra wide angle mode</string>
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
