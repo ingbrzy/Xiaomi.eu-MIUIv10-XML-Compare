@@ -1111,7 +1111,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="category_personal">Personal</string>
   <string name="category_work">Work</string>
   <string name="cdma_security_settings_summary">Set My Location, screen unlock, credential storage lock</string>
-  <string name="cell_broadcast_settings">Emergency broadcasts</string>
+  <string name="cell_broadcast_settings">Emergency alerts</string>
   <string name="cell_data_template">^1 mobile data</string>
   <string name="cell_warning_and_limit">%1$s Data warning / %2$s Data limit</string>
   <string name="cell_warning_only">%1$s Data warning</string>
