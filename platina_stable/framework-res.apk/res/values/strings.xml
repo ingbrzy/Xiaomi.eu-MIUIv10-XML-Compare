@@ -319,7 +319,8 @@
   <string name="config_inCallNotificationSound">/system/media/audio/ui/InCallNotification.ogg</string>
   <string name="config_isoImagePath"/>
   <string name="config_keyguardComponent">com.android.systemui/com.android.systemui.keyguard.KeyguardService</string>
-  <string name="config_mainBuiltInDisplayCutout">M0,0 L1080,0 L1080,88 L0,88 L0,0 Z M1079.99999,87.9999988 C1079.99998,81.9187744 1079.99998,52.5854414 1079.99999,0 L720.535689,1.20887355e-06 C709.011598,1.20887355e-06 699.396989,8.80825723 698.40025,20.2875483 C695.219646,56.5845067 667.758935,83 634.838559,83 L445.167024,83 C412.246648,83 384.785937,56.5845067 381.918914,23.7929318 C380.608594,8.80825723 370.993985,1.20887355e-06 359.475494,1.20887355e-06 L1.16015872e-06,0 L1.16015872e-06,87.9999988 L1079.99999,87.9999988 Z</string>
+  <string name="config_mainBuiltInDisplayCutout">M180.535689,0 C169.011598,1.20887355e-06 159.396989,8.80825723 158.40025,20.2875483 C155.219646,56.5845067 127.758935,82 94.8385593,82 L-94.8329761,82 C-127.753352,82 -155.214063,56.5845067 -158.081086,23.7929318 C-159.391406,8.80825723 -169.006015,1.20887355e-06 -180.524506,0 L180.535689,0 Z</string>
+  <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
   <string name="config_managed_provisioning_package">com.android.managedprovisioning</string>
   <string name="config_mediaProjectionPermissionDialogComponent">com.android.systemui/com.android.systemui.media.MediaProjectionPermissionActivity</string>
   <string name="config_mms_user_agent">Android-Mms/2.0</string>

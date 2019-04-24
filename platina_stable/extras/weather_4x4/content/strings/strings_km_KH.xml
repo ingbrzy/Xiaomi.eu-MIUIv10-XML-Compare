@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">ប៉ះដើម្បីទទួលបានព័ត៌មានអាកាសធាតុ</string>
     <string name="date_format">EEEE d MMMM</string>
     <string name="today">ថ្ងៃនេះ</string>
     <string name="tomorrow">ថ្ងៃស្អែក</string>
