@@ -1719,6 +1719,9 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="date_time_set_timezone_title">Time zone</string>
   <string name="date_time_settings">Date &amp; time</string>
   <string name="day_of_week">Day of the week</string>
+  <string name="dc_light_dialog_summary">Image quality might be affected when Anti-flicker mode is on. Turn on anyway?</string>
+  <string name="dc_light_summary">Apply DC dimming to reduce eye strain</string>
+  <string name="dc_light_title">Anti-flicker mode</string>
   <string name="debug_app">Select debug app</string>
   <string name="debug_app_not_set">No debug application set</string>
   <string name="debug_app_set">Debugging application: %1$s</string>
