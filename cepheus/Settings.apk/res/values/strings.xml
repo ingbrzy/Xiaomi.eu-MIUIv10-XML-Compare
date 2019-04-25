@@ -1719,6 +1719,9 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="date_time_set_timezone_title">Time zone</string>
   <string name="date_time_settings">Date &amp; time</string>
   <string name="day_of_week">Day of the week</string>
+  <string name="dc_light_dialog_summary">Image quality might be affected when Anti-flicker mode is on. Turn on anyway?</string>
+  <string name="dc_light_summary">Apply DC dimming to reduce eye strain</string>
+  <string name="dc_light_title">Anti-flicker mode</string>
   <string name="debug_app">Select debug app</string>
   <string name="debug_app_not_set">No debug application set</string>
   <string name="debug_app_set">Debugging application: %1$s</string>
@@ -4470,7 +4473,7 @@ UT Interface: %5$s"</string>
 "&lt;li&gt;Mobile data&lt;/li&gt;"
 "&lt;li&gt;Bluetooth&lt;/li&gt;</string>
   <string name="reset_network_final_button_text">Reset settings</string>
-  <string name="reset_network_final_desc">Reset all network settings? You can’t undo this action!</string>
+  <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to reverse this action."</string>
   <string name="reset_network_title">Reset WLAN, mobile &amp; Bluetooth</string>
   <string name="reset_network_wifi">WLAN</string>
   <string name="reset_second_space_passwd">Reset Second space password</string>
@@ -6716,8 +6719,8 @@ Setting the network as hidden will not change your router settings."</string>
   <string name="wifi_priority_type_title">Set AP priority manually</string>
   <string name="wifi_property">WLAN property</string>
   <string name="wifi_protection_on">On</string>
-  <string name="wifi_protection_settings_title">WIFI probe protection</string>
-  <string name="wifi_protection_tip">MIUI automatically turns on the WIFI probe protection function. When the mobile phone scans the WLAN, it will randomly address the MAC address to prevent the WIFI probe box from stealing user privacy and protecting the mobile phone.</string>
+  <string name="wifi_protection_settings_title">Protection from WLAN probe requests</string>
+  <string name="wifi_protection_tip">MIUI will protect your personal data from WLAN probe requests coming from random MAC addresses and WLAN probe sniffers when your device is searching for WLAN networks.</string>
   <string name="wifi_quick_toggle_summary">Turn on WLAN</string>
   <string name="wifi_quick_toggle_title">WLAN</string>
   <string name="wifi_remembered">Saved</string>
