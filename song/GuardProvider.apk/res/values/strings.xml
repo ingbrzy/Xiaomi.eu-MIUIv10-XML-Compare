@@ -35,6 +35,7 @@
   <string name="avl_dialog_policy">view Privacy Policy</string>
   <string name="avl_dialog_title">"AVL's Privacy Policy"</string>
   <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
+  <string name="common_ids_permission_label">Avast common ids permission</string>
   <string name="default_sdcard_volume_path"/>
   <string name="hello_world">Hello world!</string>
   <string name="menu_settings">Settings</string>
