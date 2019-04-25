@@ -40,7 +40,7 @@
   <string name="account_user_base_info">Personal info</string>
   <string name="account_user_birthday">Birthday</string>
   <string name="account_user_details">Personal info</string>
-  <string name="account_user_email">Recovery Email</string>
+  <string name="account_user_email">Recovery email</string>
   <string name="account_user_gender">Gender</string>
   <string name="account_user_id">Mi Account ID</string>
   <string name="account_user_name">Name</string>
@@ -54,7 +54,7 @@
   <string name="activate_email_notice">Make sure to activate your account within 24 hours</string>
   <string name="activity_not_found_notice">"Can't find the app"</string>
   <string name="add_account">Connect account</string>
-  <string name="agreement_and_privacy">User Agreement and Privacy Policy</string>
+  <string name="agreement_and_privacy">Privacy Policy and User Agreement</string>
   <string name="app_name">Mi Account</string>
   <string name="auth_fail_warning">Session expired, sign in again later</string>
   <string name="authorize_title">Authorization</string>
@@ -428,7 +428,7 @@ To activate your account, follow the
   <string name="restart_phone_bind_message">It may take some time to receive SMS. Start over anyway?</string>
   <string name="restart_phone_bind_title">Change recovery phone</string>
   <string name="same_new_and_old_pwd">"Can't be the same as current password"</string>
-  <string name="scan_barcode">Scan QR code</string>
+  <string name="scan_barcode">Scan QR code to sign in</string>
   <string name="scan_barcode_title">To sign in to your Mi Account, scan the QR code</string>
   <string name="search_account_security">Account security</string>
   <string name="search_account_security_desc">Account Settings</string>
