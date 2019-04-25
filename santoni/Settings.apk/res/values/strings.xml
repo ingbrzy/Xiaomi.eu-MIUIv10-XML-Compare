@@ -3653,7 +3653,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
 "&lt;li&gt;Cellular data&lt;/li&gt;"
 "&lt;li&gt;Bluetooth&lt;/li&gt;</string>
   <string name="reset_network_final_button_text">Reset settings</string>
-  <string name="reset_network_final_desc">Reset all network settings? You can’t undo this action!</string>
+  <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to reverse this action."</string>
   <string name="reset_network_title">Network settings reset</string>
   <string name="reset_network_wifi">WLAN</string>
   <string name="reset_second_space_passwd">Reset Second space password</string>
