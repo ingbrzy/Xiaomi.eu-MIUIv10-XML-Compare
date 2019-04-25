@@ -289,6 +289,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="agps_roaming_summary">Use mobile data to assist GPS while roaming</string>
   <string name="ai_button_title">Mi AI button</string>
   <string name="ai_button_title_global">AI button</string>
+  <string name="ai_settings_click_title">Press</string>
   <string name="ai_settings_double_click_category">Double press AI button</string>
   <string name="ai_settings_double_click_title">Double press</string>
   <string name="ai_settings_long_click_category">Press and hold AI button</string>
