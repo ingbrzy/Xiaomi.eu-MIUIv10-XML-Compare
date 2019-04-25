@@ -93,6 +93,8 @@ to be able to view them anytime"</string>
   <string name="do_not_ask">"Don't ask again"</string>
   <string name="dont_import">Not now</string>
   <string name="downloading_space">Downloading…</string>
+  <string name="dual_animation">Launch animation</string>
+  <string name="dual_animation_description">Show animation when dual apps are launched</string>
   <string name="enable">Turn on</string>
   <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
   <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
