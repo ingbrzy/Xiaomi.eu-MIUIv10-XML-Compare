@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">Հպեք, եղանակի մասին տեղեկություններ ստանալու համար</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">Այսօր</string>
     <string name="tomorrow">Վաղը</string>

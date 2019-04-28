@@ -6,8 +6,8 @@
     <string name="air_quality3">\'AQI \'+#aqi</string>
     <string name="air_quality4">\'AQI \'+#aqi</string>
     <string name="air_quality5">\'AQI \'+#aqi</string>
-    <string name="weather_null"></string>
-    <string name="weather_location_null"></string>
+    <string name="weather_null">હવામાનની માહિતી મેળવવા માટે ટૅપ કરો</string>
+    <string name="weather_location_null">કોઈ સ્થાન માહિતી નથી</string>
     <string name="weather_type_0">સાફ</string>
     <string name="weather_type_1">વાદળછાયું</string>
     <string name="weather_type_2">ધૂંધળું</string>
