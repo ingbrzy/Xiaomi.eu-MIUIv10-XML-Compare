@@ -627,8 +627,6 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_check_opt">sure?</string>
   <string name="cit_tool_check_opt_with_reboot">will reboot, sure?</string>
   <string name="cit_tool_current_modem_test_mode">Current Test Mode:</string>
-  <string name="cit_tool_dc_backlight_toast_off">DC Backlight Off</string>
-  <string name="cit_tool_dc_backlight_toast_on">DC Backlight On</string>
   <string name="cit_tool_drx_only">DRX</string>
   <string name="cit_tool_enable_3A_log">Enable 3A log Switch</string>
   <string name="cit_tool_enable_display_3A_log">Enable Display 3A log</string>
@@ -789,7 +787,6 @@ test fail!"</string>
   <string name="copyright">Copyright © 2015 Goodix All Rights Reserved.</string>
   <string name="current_angle">Current Angle:</string>
   <string name="data_address">数据保存的文件地址 ：</string>
-  <string name="dc_backlight_title">DC Backlight Mode for Low Light</string>
   <string name="delete">Delete</string>
   <string name="description_info">Info</string>
   <string name="detail">详细失败数据：</string>
@@ -1078,7 +1075,6 @@ the specified position"</string>
   <string name="normal_touch_sensor">通过纹路测试头按压指纹模组</string>
   <string name="not_enrolled">请先注册指纹</string>
   <string name="ok">Ok</string>
-  <string name="open_dc_backlight_summary">"Certain display settings aren't compatible with DC backlight mode. However, they will be restored once you turn this mode off. Turn on DC backlight mode?"</string>
   <string name="other_category">其他</string>
   <string name="over_saturated_pixel_num">上饱和点个数:</string>
   <string name="overlay">跟上一张重复:</string>
