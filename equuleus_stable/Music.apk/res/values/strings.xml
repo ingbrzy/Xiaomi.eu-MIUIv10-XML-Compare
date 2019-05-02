@@ -70,7 +70,6 @@
   <string name="already_download_btn">Downloading…</string>
   <string name="already_favorited">Already favorited</string>
   <string name="always_use_metered">Always use mobile data</string>
-  <string name="api">0.45</string>
   <string name="app_code">MYPLAY-ANDROID-MIMUSIC</string>
   <string name="app_label">Downloads</string>
   <string name="app_name">SdkCommon</string>
@@ -84,7 +83,6 @@
   <string name="app_permission_use_group_phone_desc">For Google Push services</string>
   <string name="app_permission_use_group_storage">Storage</string>
   <string name="app_permission_use_group_storage_desc">For finding and playing songs saved on device</string>
-  <string name="app_type">CMSDK</string>
   <string name="artist">Artists</string>
   <string name="artist_area_all">All</string>
   <string name="artist_area_china">China</string>
@@ -107,7 +105,6 @@
   <string name="back_confirm">Tap again to push the app to background</string>
   <string name="banner_op">Mi Music</string>
   <string name="bluetooth_device">Bluetooth audio device</string>
-  <string name="browser_error">Temporarily unavailable, please try again soon</string>
   <string name="buffering">Buffering…</string>
   <string name="button_cancel_download">Cancel</string>
   <string name="button_download_now">Download now</string>
@@ -115,8 +112,6 @@
   <string name="button_sort_by_date">Sort by date</string>
   <string name="button_sort_by_size">Sort by size</string>
   <string name="button_wait_for_wifi">Wait</string>
-  <string name="campaign_refresh_period">600000</string>
-  <string name="campaign_server_refresh_period">600000</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_running_download">Cancel</string>
   <string name="change_download_quality">Change download quality</string>
@@ -125,7 +120,7 @@
   <string name="choose_stream_quality">Choose streaming quality</string>
   <string name="click_to_shuffle">Tap to shuffle</string>
   <string name="close_music_time">"Time remaining: "</string>
-  <string name="com.crashlytics.android.build_id">2ce27331-6a65-4fcd-a5f3-a7a84c4c24bf</string>
+  <string name="com.crashlytics.android.build_id">b97dd28e-9da4-42b9-ab49-43d9756800c8</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -149,8 +144,8 @@
   <string name="confirm_exit">Save changes?</string>
   <string name="connect_now">Connect</string>
   <string name="connecting_apk">Connecting…</string>
-  <string name="connection_timeout">30000</string>
   <string name="count_format">%2$1.1fK</string>
+  <string name="count_million_format">%2$1.2fM</string>
   <string name="create_playlist">Create playlist</string>
   <string name="create_playlist_failure">"Couldn't create playlist"</string>
   <string name="current_album">Current album cover</string>
@@ -160,7 +155,6 @@
   <string name="data_usage_warning_summary">Using your mobile data connection to stream high quality music may increase your data usage charges.</string>
   <string name="data_use_desc">Legal documents</string>
   <string name="date_format_str">MM-dd-yyyy</string>
-  <string name="default_placement_display_num">5</string>
   <string name="default_web_client_id">948829309969-vb4502m250c1iu8aqblkhmhrei9o83ib.apps.googleusercontent.com</string>
   <string name="delete">Delete</string>
   <string name="delete_download">Delete</string>
@@ -313,9 +307,6 @@
   <string name="eq_preset_select">Choose a preset</string>
   <string name="eq_rock">Rock</string>
   <string name="equalizer">Equalizer</string>
-  <string name="event_delivery_attempts_on_500">5</string>
-  <string name="event_flush_batch_size">5</string>
-  <string name="event_serialized_max_number">5</string>
   <string name="exo_controls_fastforward_description">Fast forward</string>
   <string name="exo_controls_fullscreen_description">Fullscreen mode</string>
   <string name="exo_controls_next_description">Next track</string>
@@ -378,11 +369,9 @@
   <string name="filter_by_size_summary">Hide small audio files</string>
   <string name="filter_size_unit">%dKB</string>
   <string name="firebase_database_url">https://mi-music-global.firebaseio.com</string>
-  <string name="flush_period">120000</string>
   <string name="follow">Follow</string>
   <string name="followed">Following</string>
   <string name="font_family">miui</string>
-  <string name="format">3.1</string>
   <string name="format_not_support">"This format isn't supported."</string>
   <string name="format_unsupported_or_corrupted">"This format isn't supported or the file is corrupted"</string>
   <string name="fragment_title_artist_album">Albums</string>
@@ -424,8 +413,6 @@
   <string name="impunity_declaration_summary">Show Terms of Service every time the Music app is launched</string>
   <string name="impunity_declaration_title">Terms of Service</string>
   <string name="in_searching_please_wait">Searching…</string>
-  <string name="inbox_keep_in_heap_limit">10</string>
-  <string name="inbox_request_limit">3</string>
   <string name="include_sensitive_extra">false</string>
   <string name="individuation_card_login_button">Sign in</string>
   <string name="individuation_card_login_message">"Sign in to find more songs you'll love"</string>
@@ -447,7 +434,6 @@
   <string name="language_preference_desc">Select your preferred languages to receive more relevant recommendations</string>
   <string name="languages">Languages</string>
   <string name="latest_song">Play history (%d)</string>
-  <string name="lc_id">en-us</string>
   <string name="like">Like</string>
   <string name="list_item_play_all_tracks">Play all</string>
   <string name="load_shuffle">Loading…</string>
@@ -460,7 +446,6 @@
   <string name="local_page_artist_more">More songs by %s</string>
   <string name="local_page_playlist">Playlists</string>
   <string name="local_page_song_download_history">Downloads</string>
-  <string name="location_fetching_on">true</string>
   <string name="long_press_to_select_lyric">Press &amp; hold to select local lyrics file</string>
   <string name="lrc_search_failed">"Couldn't find lyrics"</string>
   <string name="lrc_searching">Searching…</string>
@@ -557,7 +542,6 @@
   <string name="nowplaying_circle_style_wave">Wave</string>
   <string name="nowplaying_dialog_title_delete_tracks">Remove this song from queue?</string>
   <string name="nowplaying_menu_item_delete">Remove from queue</string>
-  <string name="ntp_host_address">pool.ntp.org</string>
   <string name="ok">OK</string>
   <string name="online_apk_download_error_no_enough_space">"Couldn't download due to insufficient storage space."</string>
   <string name="online_apk_downloading">Downloading…%d%%</string>
@@ -587,7 +571,6 @@
   <string name="pay_now">Current service</string>
   <string name="payment_success_message">Thank you! Your payment was processed successfully. Enjoy PRO services.</string>
   <string name="payment_success_title">Congrats!</string>
-  <string name="pdf_image_url_workaround">http://dl-spa.catchmedia.com/repository/pdf2html.php?url=</string>
   <string name="pending_apk">Pending…</string>
   <string name="permission_declaration_message">Allow access to storage in Security &gt; Permissions &gt; Permissions &gt; Storage &gt; Music to be able to use Music normally.</string>
   <string name="permission_declaration_negative_text">Later</string>
@@ -615,8 +598,6 @@
   <string name="playlist_type_fm">FM</string>
   <string name="playlist_type_my">My playlists</string>
   <string name="playlist_type_recommend">Featured playlists</string>
-  <string name="playlists_max_content_number">1000</string>
-  <string name="playlists_max_number">1000</string>
   <string name="please_download_first">You need to download this song before you can use it as a ringtone</string>
   <string name="please_select_song">Choose a song first</string>
   <string name="power_save_mode_dialog_msg">Battery saver is on. Start downloading now?</string>
@@ -639,7 +620,6 @@
   <string name="recently_played_songs">Recent</string>
   <string name="recommended_file_size_download_in_mobile">Use %s of mobile data to download this file?</string>
   <string name="recommended_no_file_size_download_in_mobile">Use your mobile data connection to download this file?</string>
-  <string name="recordForReadIntervalDelaySeconds">60</string>
   <string name="remove">Remove</string>
   <string name="remove_download">Remove</string>
   <string name="renew_dialog_title">"Go Pro
@@ -662,7 +642,6 @@ Be Happy"</string>
   <string name="s6">Allow Ad to create a calendar event?</string>
   <string name="s7">Test Ad</string>
   <string name="save_changes">Save changes</string>
-  <string name="sdk_ver">1.1.4.0</string>
   <string name="search_album_and_lyric">Search album covers and lyrics</string>
   <string name="search_empty">"Couldn't find any results"</string>
   <string name="search_for_album">Album</string>
@@ -687,7 +666,6 @@ Be Happy"</string>
   <string name="selected_count">Selected %1$d out of %2$d</string>
   <string name="send_to_title">Send to (%1$s)</string>
   <string name="service_and_settings">Service and settings</string>
-  <string name="session_create_error">Server returned SESSION CREATE ERROR code, please contact SDK developers!</string>
   <string name="set_as_ring">Set as ringtone</string>
   <string name="set_ringtones_failed">"Couldn't set ringtone"</string>
   <string name="set_ringtones_successful">%s set as ringtone</string>
@@ -710,9 +688,6 @@ Be Happy"</string>
   <string name="shuffle_music">Shuffle playback</string>
   <string name="shuffle_off_notif">Shuffle is off.</string>
   <string name="shuffle_on_notif">Shuffle is on.</string>
-  <string name="signup_type_silent_default">silent</string>
-  <string name="signup_type_user_default">LoginSDK consumer</string>
-  <string name="silent_username_limit">50</string>
   <string name="similar_albums">Similar albums</string>
   <string name="similar_playlists">Similar playlists</string>
   <string name="similar_songs">Similar songs</string>
@@ -792,7 +767,6 @@ Be Happy"</string>
   <string name="toast_uhd_songs_for_download">Downloading quality set to High</string>
   <string name="toast_uhd_songs_for_stream">Streaming quality set to High</string>
   <string name="ultra_high_quality">Highest</string>
-  <string name="uninterruptedPlayIntervalSeconds">300</string>
   <string name="unknown_album_name">Unknown album</string>
   <string name="unknown_artist_name">Unknown artist</string>
   <string name="unlimited_downloads">Unlimited downloads</string>
@@ -813,14 +787,11 @@ Be Happy"</string>
   <string name="vip_required">Get Premium Song Pack to play this song. Skipped the song for now.</string>
   <string name="vip_required_with_song">%s is available to PRO members only. Skipped this song for now.</string>
   <string name="voice_search_first_hint">Try voice search!</string>
-  <string name="web_service_url">pa-spa.catchmedia.com</string>
-  <string name="web_service_url_version">v47</string>
   <string name="widget_small_text_separator">-</string>
   <string name="wifi_required_body" formatted="false">"Connect to Wi-Fi to complete this %s download. 
 
 Tap %s to start this download the next time you're connected to a Wi-Fi network."</string>
   <string name="wifi_required_title">You should connect to Wi-Fi to download this file</string>
-  <string name="ws_ver">4.4</string>
   <string name="xiaomi_update_sdk_bytes_unit">%1$sB</string>
   <string name="xiaomi_update_sdk_connect_download_manager_fail">Connect Download Manager failed, please check the Download Manager state in the Application Management.</string>
   <string name="xiaomi_update_sdk_dialog_message">"Introducing version %1$s
