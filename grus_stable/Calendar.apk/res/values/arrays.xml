@@ -321,12 +321,33 @@
         <item>White background</item>
     </string-array>
     <string-array name="edit_event_dislike">
-        <item>No event type I want to create</item>
-        <item>More Settings</item>
-        <item>Some Settings cannot be determined</item>
-        <item>Just look around</item>
-        <item>"Don't tell you"</item>
+        <item>没有我想创建的事件类型</item>
+        <item>设置项有点多，懒得填写</item>
+        <item>有些设置信息无法确定</item>
+        <item>只是随便看看</item>
+        <item>不告诉你</item>
     </string-array>
+    <array name="global_football_match">
+        <item>@array/english_premium_league</item>
+        <item>@array/serie_a</item>
+        <item>@array/bundesliga</item>
+        <item>@array/la_liga</item>
+        <item>@array/ligue_1</item>
+    </array>
+    <array name="horoscope_info_arrays">
+        <item>@array/aries_info</item>
+        <item>@array/taurus_info</item>
+        <item>@array/gemini_info</item>
+        <item>@array/cancer_info</item>
+        <item>@array/leo_info</item>
+        <item>@array/virgo_info</item>
+        <item>@array/libra_info</item>
+        <item>@array/scorpio_info</item>
+        <item>@array/sagittarius_info</item>
+        <item>@array/capricorn_info</item>
+        <item>@array/aquarius_info</item>
+        <item>@array/pisces_info</item>
+    </array>
     <array name="account_birthday">
         <item>#ffe99080</item>
         <item>#b3d5a198</item>
@@ -363,6 +384,13 @@
         <item>#ffe9f5f5</item>
         <item>#ff349a97</item>
     </array>
+    <integer-array name="allday_reminder_minutes_values">
+        <item>0</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>10080</item>
+    </integer-array>
     <array name="aqi_level_bg_colors">
         <item>#ff88b932</item>
         <item>#ffbaa419</item>
@@ -379,34 +407,6 @@
         <item>#ff6d5dc9</item>
         <item>#ff8d4370</item>
     </array>
-    <array name="global_football_match">
-        <item>@array/english_premium_league</item>
-        <item>@array/serie_a</item>
-        <item>@array/bundesliga</item>
-        <item>@array/la_liga</item>
-        <item>@array/ligue_1</item>
-    </array>
-    <array name="horoscope_info_arrays">
-        <item>@array/aries_info</item>
-        <item>@array/taurus_info</item>
-        <item>@array/gemini_info</item>
-        <item>@array/cancer_info</item>
-        <item>@array/leo_info</item>
-        <item>@array/virgo_info</item>
-        <item>@array/libra_info</item>
-        <item>@array/scorpio_info</item>
-        <item>@array/sagittarius_info</item>
-        <item>@array/capricorn_info</item>
-        <item>@array/aquarius_info</item>
-        <item>@array/pisces_info</item>
-    </array>
-    <integer-array name="allday_reminder_minutes_values">
-        <item>0</item>
-        <item>1440</item>
-        <item>2880</item>
-        <item>4320</item>
-        <item>10080</item>
-    </integer-array>
     <string-array name="aqi_level_simple_desc">
         <item>优</item>
         <item>良</item>

@@ -74,9 +74,10 @@ and optimizes your photos based on this info"</string>
   <string name="ai_scene_top_moon_off">Low light mode</string>
   <string name="ai_scene_top_tip">Moon mode</string>
   <string name="app_name">algoengine</string>
-  <string name="autozoom_click_hint">请单击选择跟拍主体,三米外效果最佳</string>
-  <string name="autozoom_disabled_hint">运动跟拍已关闭</string>
-  <string name="autozoom_hint">运动跟拍</string>
+  <string name="autozoom_click_hint">Tap an object to start tracking. Stay at least 3 meters away for best effect.</string>
+  <string name="autozoom_disabled_hint">Stopped tracking moving object</string>
+  <string name="autozoom_hint">Track moving object</string>
+  <string name="autozoom_landscape_hint">建议横屏下拍摄</string>
   <string name="beauty_body">Figure</string>
   <string name="beauty_body_body">Slender</string>
   <string name="beauty_body_head">Head</string>
@@ -117,7 +118,7 @@ and optimizes your photos based on this info"</string>
   <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your device."</string>
   <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
-  <string name="capture_back_pressed_hint">Touch again to exit</string>
+  <string name="capture_back_pressed_hint">Tap again to exit</string>
   <string name="close_back_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="close_front_flash_toast">"Your device is overheated. Can't use flash now."</string>
   <string name="color_effect_entry_berry">Berries</string>
@@ -213,6 +214,7 @@ if you rotate your phone"</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
   <string name="hint_ae_af_lock">Auto focus / auto exposure has been locked</string>
+  <string name="hint_ae_lock">Auto exposure has been locked</string>
   <string name="hint_eye_light">Eye light will be better when flash is on</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
   <string name="hint_groupshot">"Camera will take multiple photos
@@ -233,6 +235,7 @@ Clean the lens for better effect."</string>
   <string name="lighting_hint_usage">"You can use studio lighting effects
 in Portrait mode"</string>
   <string name="lighting_pattern_dot">Dots</string>
+  <string name="lighting_pattern_holi">Holi</string>
   <string name="lighting_pattern_leaf">Leaves</string>
   <string name="lighting_pattern_movie">Movie</string>
   <string name="lighting_pattern_nature">Natural</string>
@@ -269,7 +272,7 @@ in Portrait mode"</string>
   <string name="live_speed_fragment_tab_name">Record speed</string>
   <string name="live_speed_normal">Regular</string>
   <string name="live_speed_slow">Slow</string>
-  <string name="live_sticker_fragment_tab_name">Stickers</string>
+  <string name="live_sticker_fragment_tab_name">TikTok Magic Sticker</string>
   <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating…</string>
   <string name="makeup_reset_toast">Removed makeup effects</string>
@@ -295,6 +298,12 @@ in Portrait mode"</string>
   <string name="pano_how_to_use_prompt_slow_down">Slow down…</string>
   <string name="pano_how_to_use_prompt_start">Tap the arrow to switch direction and begin panning slowly.</string>
   <string name="path_settings">System apps/Camera/Settings</string>
+  <string name="permission_camera">android.permission-group.CAMERA@1</string>
+  <string name="permission_contacts">android.permission-group.CONTACTS@1</string>
+  <string name="permission_location">android.permission-group.LOCATION@1</string>
+  <string name="permission_microphone">android.permission-group.MICROPHONE@0</string>
+  <string name="permission_phone_state">android.permission-group.PHONE@0</string>
+  <string name="permission_storage">android.permission-group.STORAGE@0</string>
   <string name="popup_tip_3d_beauty_intro_text">3D Beauty</string>
   <string name="portait_effect_entry_blackwhite">B&amp;W</string>
   <string name="portait_effect_entry_cool">Mint</string>
@@ -615,7 +624,7 @@ and brings out the people in the front."</string>
   <string name="pref_video_volumekey_function_default">shutter</string>
   <string name="preparing_sd">Checking SD card…</string>
   <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
-  <string name="record_back_pressed_hint">Touch again to stop recording</string>
+  <string name="record_back_pressed_hint">Tap again to stop recording</string>
   <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
   <string name="screen_on_proximity_sensor_summary">"Don't cover the earphone area"</string>
   <string name="search_settings">Camera settings;Quality;Image quality;Image location;Picture location;Face detection;Camera sound</string>
@@ -627,7 +636,7 @@ and brings out the people in the front."</string>
   <string name="start_capture">OK</string>
   <string name="sticker_tab1">Cute</string>
   <string name="sticker_tab2">Funny</string>
-  <string name="super_night_toast">Taking a photo, please hold your phone</string>
+  <string name="super_night_toast">Keep your phone steady while taking a photo</string>
   <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
   <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
   <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
@@ -661,6 +670,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="video_effect_entry_polaroid">Polaroid</string>
   <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
   <string name="video_reach_size_limit">Size limit reached.</string>
+  <string name="video_ultra_clear_tip">4K UHD</string>
   <string name="view_privacy_policy">View Privacy Policy</string>
   <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
 </resources>

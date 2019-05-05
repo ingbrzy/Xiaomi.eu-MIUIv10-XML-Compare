@@ -276,6 +276,17 @@ and reverse plug in the charger"</string>
   <string name="cit_emergencycall_check_title">Emergency Call</string>
   <string name="cit_exit_test_summary">When you exit, all related text data will be erased.</string>
   <string name="cit_exit_test_title">Exit test</string>
+  <string name="cit_f2_cali">Calibration</string>
+  <string name="cit_f2_cali_done">Calibration Done!</string>
+  <string name="cit_f2_cali_failed">Calibration Failed, please Retry!</string>
+  <string name="cit_f2_cali_title">Camera Calibration</string>
+  <string name="cit_f2_calibrating">Calibration is ongoing...</string>
+  <string name="cit_f2_camera_check_summary">"Test instructions:
+
+1.Tap the calibration button.
+2.There will be a calibration pass label to indicate the camera has been calibrated."</string>
+  <string name="cit_f2_capture_fail">Capture Failed, please Retry!</string>
+  <string name="cit_f2_capture_success">Click calibration button!</string>
   <string name="cit_fail">Fail</string>
   <string name="cit_fast_screen_touch_check_title">Fast touch screen check test</string>
   <string name="cit_finger_check_title">Finger Print Test</string>
@@ -418,7 +429,8 @@ Touch the screen to start GPS…"</string>
   <string name="cit_power_check_title">Battery indicator</string>
   <string name="cit_pressure_sensor_check_summary">Value for pressure should appear below</string>
   <string name="cit_pressure_sensor_check_title">Pressure sensor</string>
-  <string name="cit_proximity_data_check_summary">Cover the proximity sensor (located at the top of the phone near the receiver) with your hand, then move your hand away. The value should increase from 0.0 when you move your hand further away from the device.</string>
+  <string name="cit_proximity_data_check_summary">"Cover the proximity sensor (located at the top of the phone near the receiver) with your hand, then move your hand away. The value should increase from 0.0 when you move your hand further away from the device. 
+If it is an ultrasonic proximity sensor, please simulate the action of picking up the phone during the test."</string>
   <string name="cit_proximity_sensor_check_summary">"Cover the proximity sensor (located at the top of the phone near the receiver) with your hand, then move your hand away. The value should increase from 0.0 when you move your hand further away from the device.
 When calibrating, make sure there's nothing between the sensor and your hand (e.g. protective screen cover or gloves)."</string>
   <string name="cit_proximity_sensor_check_title">Proximity sensor</string>
@@ -461,7 +473,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_sd_unmount">Unmount SD card</string>
   <string name="cit_sd_unmount_sucess">SD card unmounted</string>
   <string name="cit_signature_check_label">signature check:</string>
-  <string name="cit_sim_check_summary">Confirm that correct the status and info of the SIM card is displayed below, only two SIM cards simultaneously exist and has correct status can pass</string>
+  <string name="cit_sim_check_summary">Confirm that correct the status and info of the SIM card is displayed below, if has two sim slots, only two SIM cards simultaneously exist and has correct status can pass</string>
   <string name="cit_sim_check_title">SIM card</string>
   <string name="cit_sim_error_unknown">Unknown</string>
   <string name="cit_sim_network_operator">Network service provider:</string>
@@ -486,7 +498,10 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_stop_calibration">Stop calibrating</string>
   <string name="cit_tfcard_support_summary">Check if TFCard is supported on this device</string>
   <string name="cit_tfcard_support_title">Support TFCard</string>
+  <string name="cit_tof_sensor_check_summary">Values for TOF should appear below</string>
+  <string name="cit_tof_sensor_check_title">TofSensor</string>
   <string name="cit_tool">Additional tools</string>
+  <string name="cit_tool_active_mbn">active</string>
   <string name="cit_tool_asdiv_ant_pos_setting">set ant position</string>
   <string name="cit_tool_asdiv_get_result_band_title">Current ant band</string>
   <string name="cit_tool_asdiv_get_result_carrier_title">Current ant carrier cell</string>
@@ -607,10 +622,15 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_cal_accelerometer">Acc Calibration Tool</string>
   <string name="cit_tool_cal_camera">Camera Calibration Tool</string>
   <string name="cit_tool_cal_gyroscope">gyro Calibration Tool</string>
+  <string name="cit_tool_check_opt">sure?</string>
+  <string name="cit_tool_check_opt_with_reboot">will reboot, sure?</string>
+  <string name="cit_tool_current_modem_test_mode">Current Test Mode:</string>
   <string name="cit_tool_drx_only">DRX</string>
   <string name="cit_tool_enable_3A_log">Enable 3A log Switch</string>
   <string name="cit_tool_enable_display_3A_log">Enable Display 3A log</string>
   <string name="cit_tool_exit_modem_mbn">Restore to auto MBN</string>
+  <string name="cit_tool_getting_expired">Getting Expired!</string>
+  <string name="cit_tool_getting_wait">Getting! PLS wait</string>
   <string name="cit_tool_log">Get logs</string>
   <string name="cit_tool_log_bugreport">Bug report</string>
   <string name="cit_tool_log_dmesg">DMESG</string>
@@ -623,16 +643,36 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_log_ril">RIL log</string>
   <string name="cit_tool_log_toast">Log saved to %s</string>
   <string name="cit_tool_log_toast_generate_bugreport">Creating bug report… (this takes about 1 minute)</string>
+  <string name="cit_tool_mbn_default_notfiy">default MBN</string>
+  <string name="cit_tool_mbn_no_default_notfiy">No default MBN</string>
+  <string name="cit_tool_mbn_path_select_hit">select the full path of mbn:</string>
+  <string name="cit_tool_mbn_path_select_notice">not find above? search here? As for mcfg, ct, eps ... etc</string>
+  <string name="cit_tool_mbn_recovery_default">Recovery default MBN</string>
   <string name="cit_tool_modem">MODEM test tools</string>
   <string name="cit_tool_modem_bugreport">Force MODEM Coredump</string>
+  <string name="cit_tool_modem_clear_empty">clear</string>
   <string name="cit_tool_modem_exit_ftm">Exit FTM mode</string>
   <string name="cit_tool_modem_mbn">Change Modem Config</string>
+  <string name="cit_tool_modem_mbn_config_load_and_active">MBN config loading and activing tool</string>
   <string name="cit_tool_modem_offline_log">Open/Close Offline Log</string>
+  <string name="cit_tool_modem_rf_ant_test">Modem rf ant Test Setting</string>
+  <string name="cit_tool_modem_test_clr">close gpio test</string>
+  <string name="cit_tool_modem_test_get">update</string>
+  <string name="cit_tool_modem_test_mode">Modem Test Mode Setting</string>
+  <string name="cit_tool_modem_test_mode_closed">test mode closed</string>
+  <string name="cit_tool_modem_test_mode_mismatch">test mode mismatched</string>
+  <string name="cit_tool_modem_test_mode_opened">test mode opened</string>
+  <string name="cit_tool_modem_test_mode_select">Select Test Mode:</string>
+  <string name="cit_tool_modem_test_mode_set">Validate Setting</string>
+  <string name="cit_tool_modem_test_set">validate</string>
   <string name="cit_tool_nfc">NFC test tools</string>
   <string name="cit_tool_nfc_st">Nfc ST:</string>
   <string name="cit_tool_nfc_st_confreq">freq:</string>
   <string name="cit_tool_nfc_st_run">Run</string>
   <string name="cit_tool_nfc_st_stop">Stop</string>
+  <string name="cit_tool_no_repeat">No repetition!</string>
+  <string name="cit_tool_not_support">Not Supported</string>
+  <string name="cit_tool_opt_fail_info_notify">Opt failed, Pls reboot phone to try it again.</string>
   <string name="cit_tool_prx_drx">PRx+DRx</string>
   <string name="cit_tool_prx_drx_select_mode">Select Mode:</string>
   <string name="cit_tool_prx_drx_select_rat">Select RAT:</string>
@@ -640,7 +680,13 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_prx_drx_stop_test">Stop Test</string>
   <string name="cit_tool_prx_only">PRX</string>
   <string name="cit_tool_rf_ant">RF/Antenna tools</string>
+  <string name="cit_tool_select_all">Select All</string>
+  <string name="cit_tool_select_none">Select None</string>
+  <string name="cit_tool_select_opposite">Select Opposite</string>
+  <string name="cit_tool_setting_expired">Setting Expired, pls retry!</string>
+  <string name="cit_tool_setting_wait">Setting! PLS wait</string>
   <string name="cit_tool_switch_autosms">Enable/Disable AutoSMSReg</string>
+  <string name="cit_tool_to_fetching">to fetch</string>
   <string name="cit_tool_wifi">WLAN test tool</string>
   <string name="cit_tool_wifi_chain_1">1</string>
   <string name="cit_tool_wifi_chain_1_2">1+2</string>
@@ -739,6 +785,7 @@ test fail!"</string>
   <string name="download_fw_cfg_hint">注意：请将固件存放于/sdcard/fw目录中，配置文件存放于/sdcard/cfg目录中</string>
   <string name="download_fw_cfg_test_title">固件配置下载</string>
   <string name="download_fw_test_title">固件下载</string>
+  <string name="dsi_sar_on_off_tips">Dsi Sar On/Off Switch</string>
   <string name="dump_base_frame">Dump基帧数据</string>
   <string name="dump_data">Dump数据</string>
   <string name="dump_memory_data_timeout">dump内存数据超时</string>
@@ -1078,6 +1125,9 @@ Click the Push Camera Button to see if the camera comes in"</string>
   <string name="reboot_prompt">重启提示</string>
   <string name="reboot_prompt_detail">重启手机之后内存测试正常运行！</string>
   <string name="reboot_times">Reboot Times:</string>
+  <string name="receiver_off">Receiver Off</string>
+  <string name="receiver_on">Receiver On</string>
+  <string name="receiver_on_off_tips">Receiver On/Off Switch</string>
   <string name="refresh_number_of_keys">refresh number of keys</string>
   <string name="removeFingerprint">Remove Fingerprint</string>
   <string name="remove_headset_and_starttest">Please remove headset and press start to test</string>
@@ -1087,6 +1137,9 @@ Click the Push Camera Button to see if the camera comes in"</string>
   <string name="sample_data">sample data</string>
   <string name="sample_hint">extract %1$s samples for one finger</string>
   <string name="sample_progress_hint">wait for extracting sample datas</string>
+  <string name="sar_authentation_test_title">Sar authentation test</string>
+  <string name="sar_off">Sar Off</string>
+  <string name="sar_on">Sar On</string>
   <string name="sar_sensor_calibrate">Start Calibrate</string>
   <string name="sar_sensor_calibrate_fail">Sar Sensor calibrate fail</string>
   <string name="sar_sensor_calibrate_success">Sar Sensor calibrate success</string>
@@ -1136,6 +1189,7 @@ After calibrate success, control the fixture close and away from the phone"</str
   <string name="sensor_checking">正在检查指纹模组...</string>
   <string name="sensor_information">Sensor Information</string>
   <string name="sensor_validity_test_fail">模组测试失败或未经过测试！</string>
+  <string name="set_dsi_tips">Set DSI</string>
   <string name="show_log">Show Log</string>
   <string name="singular">最大奇异点梯度和:</string>
   <string name="size_max">最大</string>
