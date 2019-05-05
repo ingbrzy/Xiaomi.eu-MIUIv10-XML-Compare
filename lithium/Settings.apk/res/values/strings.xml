@@ -2024,6 +2024,8 @@ For more details, contact your organization's admin."</string>
   <string name="fingerprint_unlock_skip_fingerprint">Continue without fingerprint</string>
   <string name="fingerprint_unlock_title">You can unlock your phone using your fingerprint. For security, this option requires a backup screen lock.</string>
   <string name="fingerprint_usage_category_title">Use fingerprint for</string>
+  <string name="fingerprint_wakeup_summary">Wake screen when no fingerprints have been enrolled.</string>
+  <string name="fingerprint_wakeup_title">Tap fingerprint sensor to wake</string>
   <string name="finish_application">Force stop</string>
   <string name="finish_button">Finish</string>
   <string name="finish_button_label">Finish</string>
