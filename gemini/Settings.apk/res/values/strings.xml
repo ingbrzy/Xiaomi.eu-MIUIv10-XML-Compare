@@ -1135,10 +1135,14 @@ This feature can be turned off in [Settings]"</string>
   <string name="checking_for_updates">Checking for updates…</string>
   <string name="child_mode_settings">Parental controls</string>
   <string name="choose_a_card_to_reset">Select SIM card to reset</string>
+  <string name="choose_keyguard_clock_style">Lock screen clock format</string>
+  <string name="choose_keyguard_clock_summary">"This setting doesn't work with third party themes"</string>
   <string name="choose_profile">Choose profile</string>
   <string name="choose_smartcover_type">Choose case type</string>
   <string name="choose_spell_checker">Choose spell checker</string>
   <string name="choose_timezone">Choose time zone</string>
+  <string name="choose_unlock_face_msg">Set a screen lock before recording face data.</string>
+  <string name="choose_unlock_fingerprint_msg">Set screen lock before adding your fingerprint.</string>
   <string name="choose_voice_input_title">Choose voice input</string>
   <string name="cleaner">Cleaner</string>
   <string name="clear_activities">Clear defaults</string>
@@ -2213,7 +2217,6 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
   <string name="gxzw_anim_light">Neon</string>
-  <string name="gxzw_anim_metal">Metal</string>
   <string name="gxzw_anim_pulse">Pulse</string>
   <string name="gxzw_anim_rhythm">Rhythm</string>
   <string name="gxzw_anim_star">Starlight</string>
@@ -2326,7 +2329,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="ignore_optimizations_on">Don’t optimize</string>
   <string name="ignore_optimizations_on_desc">May drain your battery more quickly</string>
   <string name="ignore_optimizations_title">Allow %s to ignore battery optimizations?</string>
-  <string name="ime_security_warning">%1$s can record everything you type, including passwords, credit card numbers, and other personal data.</string>
+  <string name="ime_security_warning">%1$s might record everything you type, including passwords, credit card numbers, and other personal data.</string>
   <string name="imei_information_summary">IMEI relative information</string>
   <string name="imei_information_title">IMEI information</string>
   <string name="immediately_destroy_activities">Don’t keep activities</string>
@@ -3557,7 +3560,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="passpoint_content">%1$s credentials</string>
   <string name="passpoint_label">Saved via</string>
   <string name="passwordIncorrect">The password you entered is incorrect</string>
-  <string name="password_entrance_title">Screen lock</string>
+  <string name="password_entrance_title">Set screen lock</string>
   <string name="password_guard">Password</string>
   <string name="password_turned_off_text">Password has been turned off</string>
   <string name="password_turned_on_text">Password has been turned on</string>
@@ -4595,7 +4598,6 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="settings_safetylegal_activity_unreachable">You don’t have a data connection. To view this information now, go to %s from any computer connected to the Internet.</string>
   <string name="settings_safetylegal_title">Safety information</string>
   <string name="settings_shortcut">Settings shortcut</string>
-  <string name="setup_choose_unlock_fingerprint_msg">Set screen lock before adding your fingerprint.</string>
   <string name="setup_choose_unlock_mixed_password">Password</string>
   <string name="setup_choose_unlock_mixpassword_title">Set password</string>
   <string name="setup_choose_unlock_password">PIN</string>
