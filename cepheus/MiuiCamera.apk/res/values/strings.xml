@@ -300,6 +300,8 @@ in Portrait mode"</string>
   <string name="mimoji_check_normal">请按下拍照键</string>
   <string name="mimoji_confirm">确认</string>
   <string name="mimoji_create_tips">拍摄正面人脸，为您建立Mimoji</string>
+  <string name="mimoji_delete">删除</string>
+  <string name="mimoji_delete_dialog_title">是否删除当前形象？</string>
   <string name="mimoji_delete_mimoji">删除拟我表情</string>
   <string name="mimoji_delete_success">删除成功</string>
   <string name="mimoji_detect_faceshape_failed">脸型检测失败</string>
@@ -314,8 +316,10 @@ in Portrait mode"</string>
   <string name="mimoji_detect_unknow_failed">未知错误</string>
   <string name="mimoji_ear">耳朵</string>
   <string name="mimoji_earring">耳环</string>
+  <string name="mimoji_edit_mid_back_title">返回将清空当前形象，返回重拍？</string>
+  <string name="mimoji_edit_mid_title">是否放弃当前拍摄的形象？</string>
   <string name="mimoji_edit_mimoji">编辑拟我表情</string>
-  <string name="mimoji_edit_whether_abandon">是否放弃编辑</string>
+  <string name="mimoji_edit_whether_abandon">是否放弃当前编辑的形象？</string>
   <string name="mimoji_editor">编辑</string>
   <string name="mimoji_eye">眼睛</string>
   <string name="mimoji_eye_shape">眼型</string>
@@ -699,7 +703,7 @@ and brings out the people in the front."</string>
   <string name="preparing_sd">Checking SD card…</string>
   <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
   <string name="recapture_dialog_message">确认重拍？</string>
-  <string name="recapture_dialog_title">重新拍摄将清空当前形象</string>
+  <string name="recapture_dialog_title">重拍将清空当前形象，确认重拍？</string>
   <string name="record_back_pressed_hint">Tap again to stop recording</string>
   <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
   <string name="screen_on_proximity_sensor_summary">"Don't cover the earphone area"</string>
