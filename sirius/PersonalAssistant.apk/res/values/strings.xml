@@ -51,8 +51,8 @@
   <string name="alipay_bind_now">立即绑定</string>
   <string name="alipay_bind_success">绑定成功</string>
   <string name="alipay_bind_success_tip">你的支付宝账户名和登录密码，与淘宝账户一致。</string>
-  <string name="alipay_cancel">Cancel</string>
-  <string name="alipay_cancel_sel">Cancel</string>
+  <string name="alipay_cancel">取消</string>
+  <string name="alipay_cancel_sel">取消</string>
   <string name="alipay_changeAccountRegister">换个号码，继续注册</string>
   <string name="alipay_change_account">登录其他账号</string>
   <string name="alipay_change_account_login">换个账号登录</string>
@@ -62,7 +62,7 @@
   <string name="alipay_clearInput">清空输入内容</string>
   <string name="alipay_comfirm">确定</string>
   <string name="alipay_confirm">确定</string>
-  <string name="alipay_confirm_cancel">Cancel</string>
+  <string name="alipay_confirm_cancel">取消</string>
   <string name="alipay_confirm_title">提示</string>
   <string name="alipay_conn_check_3g">• 蜂窝移动网络已开启</string>
   <string name="alipay_conn_check_alipay">• 支付宝的网络权限已开启</string>
@@ -164,7 +164,7 @@
   <string name="alipay_login">登录</string>
   <string name="alipay_loginImmediate">立即登录</string>
   <string name="alipay_loginProblems">遇到问题?</string>
-  <string name="alipay_login_cancel">Cancel</string>
+  <string name="alipay_login_cancel">取消</string>
   <string name="alipay_login_error">人气大爆发，一会接待您</string>
   <string name="alipay_login_query_pwd_tip">请为您的账号 %s 设置登录密码，方便以后快速登录支付宝。</string>
   <string name="alipay_login_rds_suspect">登录失败，请重新登录</string>
@@ -184,7 +184,7 @@
   <string name="alipay_password_login">密码登录</string>
   <string name="alipay_phoneNumber">+86</string>
   <string name="alipay_pre_router_alipay_account">用已登录支付宝账号</string>
-  <string name="alipay_pre_router_cancel">Cancel</string>
+  <string name="alipay_pre_router_cancel">取消</string>
   <string name="alipay_pre_router_has_auth_account">用已授权账号</string>
   <string name="alipay_processing">加载中</string>
   <string name="alipay_protocol">服务协议</string>
@@ -215,7 +215,7 @@
   <string name="alipay_reigsterSuccess">注册成功</string>
   <string name="alipay_reinput">重新输入</string>
   <string name="alipay_risk_account_dialog_tip">该账号暂无法登录，可通过以下方式完成操作</string>
-  <string name="alipay_risk_process_cancel">Cancel</string>
+  <string name="alipay_risk_process_cancel">取消</string>
   <string name="alipay_risk_process_change_account">换个账号</string>
   <string name="alipay_risk_process_verify_by_alipay">去手机支付宝验证</string>
   <string name="alipay_scan">Scanner</string>
@@ -241,7 +241,7 @@
   <string name="alipay_sms_verify_alert">短信可能有延迟，请再等一会。</string>
   <string name="alipay_system_error">人气大爆发，一会接待您</string>
   <string name="alipay_system_error_try_later">人气太旺啦，稍候再试试</string>
-  <string name="alipay_template_month_dialog_cancel">Cancel</string>
+  <string name="alipay_template_month_dialog_cancel">取消</string>
   <string name="alipay_template_month_dialog_confirm">确定</string>
   <string name="alipay_template_month_dialog_title">有效期</string>
   <string name="alipay_text_phone_register">手机号注册</string>
@@ -800,7 +800,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="favorite_title_modify">Modify</string>
   <string name="favorite_title_modify_failed">"Couldn't change title"</string>
   <string name="favorite_title_modify_success">Modified successfully</string>
-  <string name="feedback_cancel">Cancel</string>
+  <string name="feedback_cancel">取消</string>
   <string name="feedback_ok">反馈</string>
   <string name="feedback_tip_msg">亲，您是否遇到了支付问题？您可以选择告诉我们。</string>
   <string name="flight">Flight</string>
@@ -1056,7 +1056,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="mini_bracelet">绑定手环</string>
   <string name="mini_bracelet_connected">我的手环...</string>
   <string name="mini_bracelet_scan">附近手环...</string>
-  <string name="mini_cancel">Cancel</string>
+  <string name="mini_cancel">取消</string>
   <string name="mini_cannot_get_download_url">获取不到安全服务下载地址</string>
   <string name="mini_card_no">卡号</string>
   <string name="mini_card_type">卡类型</string>
@@ -1169,7 +1169,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="msp_memo_app_cancel">人气大爆发，一会再试试。</string>
   <string name="msp_memo_repeat_pay">同一订单禁止同时多次支付。</string>
   <string name="msp_memo_server_cancel">人气太旺啦，稍候再试试。</string>
-  <string name="msp_memo_user_cancel">操作已经Cancel。</string>
+  <string name="msp_memo_user_cancel">操作已经取消。</string>
   <string name="msp_mini_card_type_text">卡类型</string>
   <string name="msp_mini_choose_identitify">选择证件类别</string>
   <string name="msp_mini_layout">mini_layout</string>
