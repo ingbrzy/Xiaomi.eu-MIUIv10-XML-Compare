@@ -263,9 +263,13 @@ only in frame mode"</string>
   <string name="channel_name">Channel Name</string>
   <string name="channelbanding">channel banding:</string>
   <string name="charge_battery_test">Charge/Batt</string>
-  <string name="charge_current">Charge Current：</string>
+  <string name="charge_current">Charge Current:</string>
+  <string name="charge_fast_insert_pls">insert charge fast please</string>
   <string name="charge_in_ac">charge in（USB_DCP）</string>
+  <string name="charge_in_hvdcp">charge in(USB_HVDCP)</string>
   <string name="charge_in_usb">charge in（USB）</string>
+  <string name="charge_positive_pls">charge positive please</string>
+  <string name="charge_reverse_pls">charge reverse please</string>
   <string name="charge_test">Charge</string>
   <string name="charge_voltage">Charge Voltage：</string>
   <string name="charger_in_test">Charger Test</string>
@@ -283,12 +287,13 @@ only in frame mode"</string>
   <string name="close">Close</string>
   <string name="combile">Assemble</string>
   <string name="confirm">Confirm</string>
-  <string name="continue_vib">Continue Vibration</string>
+  <string name="continue_vib">continue vibration</string>
   <string name="continue_vib_info">vibrator 10s</string>
   <string name="correct">correct</string>
   <string name="cpu_id">CPU ID</string>
   <string name="credibility">Cred%</string>
   <string name="cta">CTA version</string>
+  <string name="cta_softver">"CTA  version number:"</string>
   <string name="current_value">"Current value: "</string>
   <string name="custombt">[BT]:</string>
   <string name="customft">[FT]:</string>
@@ -345,6 +350,7 @@ only in frame mode"</string>
   <string name="finger_enrol">Fingerprint Input and verify</string>
   <string name="fingerok">Fingerprint is Good!</string>
   <string name="fingerprint">Fingerprint:</string>
+  <string name="fingerprint_info">Screen Lock is Pattern,PIN or password, need change to None to test fingerprint.</string>
   <string name="fingers">fingerpirnt(s)</string>
   <string name="fingtestFail">FingerPrint Test Failed!</string>
   <string name="fingtestPass">FingerPrint Test Passed!</string>
@@ -422,7 +428,6 @@ only in frame mode"</string>
   <string name="hw_test_fail">IR data send Unsuccess!</string>
   <string name="hw_test_finish">IR data send success</string>
   <string name="hwstart">test running...</string>
-  <string name="hwversion_label">HW Version</string>
   <string name="image_quality_test">IMAGE QUALITY TEST</string>
   <string name="imei">[ IMEI]:</string>
   <string name="imei_no">IMEI:</string>
@@ -430,7 +435,7 @@ only in frame mode"</string>
   <string name="insert_sd_card">Please insert an SD card</string>
   <string name="internal">Internal version:</string>
   <string name="internal_vib_info">vibrator 2s stop 1s</string>
-  <string name="interval_vib">Interval Vibration</string>
+  <string name="interval_vib">interval vibration</string>
   <string name="invalid_freq">Out of frequency range!</string>
   <string name="invalidvalues">Invalid channel</string>
   <string name="ir_test">IR TEST</string>
@@ -568,7 +573,7 @@ off---Disabling continuous Tx"</string>
   <string name="no">No</string>
   <string name="no_neighbore_cell">no neighboring cells</string>
   <string name="no_test">Not tested</string>
-  <string name="no_vib">No Vibration</string>
+  <string name="no_vib">no vibration</string>
   <string name="no_vib_info">cancel vibrator</string>
   <string name="nofinger">No Fingerprint</string>
   <string name="nomatch">NoMatch</string>
@@ -619,6 +624,7 @@ off---Disabling continuous Tx"</string>
   <string name="playing">The recorder is Playing...</string>
   <string name="playover">play recording complete</string>
   <string name="pls_plug_charger_out">Please pull put charger</string>
+  <string name="pls_plug_otg_in_native">Please pull in OTG device nativa</string>
   <string name="pls_plug_otg_out">Please pull out OTG device</string>
   <string name="pls_see_photo">Please see the photo</string>
   <string name="plug_charger">Please plug in charger</string>
@@ -646,8 +652,6 @@ mod:0-15"</string>
   <string name="press_hookkey_hint">Press hookkey than Image below will become green</string>
   <string name="press_record">Press: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 and Press record</string>
   <string name="pretestresult">Previous result</string>
-  <string name="provision">Provision</string>
-  <string name="provision_state">Provision State:</string>
   <string name="proximity_sensor_adjust">Proximity sensor calibration</string>
   <string name="proximity_sensor_test">Proximity sensor test</string>
   <string name="proximity_sensor_test_values">Proximity sensor values</string>
@@ -750,7 +754,7 @@ mod:0-15"</string>
   <string name="speakerinfo">speaker test</string>
   <string name="speed">Speed :</string>
   <string name="start">Start</string>
-  <string name="start_calibrate">Start calibrate</string>
+  <string name="start_calibrate">Start calibrate...</string>
   <string name="start_get_service">get GPS service</string>
   <string name="start_test">Start test</string>
   <string name="stat_notif_frequency">FM radio station %1$sMHz</string>
@@ -777,6 +781,10 @@ mod:0-15"</string>
   <string name="testinf2">TESTINF</string>
   <string name="testinfo">[TESTINF]:</string>
   <string name="testing">AutoTest Running...</string>
+  <string name="testresult_qrcodetext_hint">"0: Fail
+1: Pass
+N: no test"</string>
+  <string name="testresult_qrcodetext_prefix">"Test Result: "</string>
   <string name="textview">TextView</string>
   <string name="top_ant">Top ANt</string>
   <string name="touchpanel_bow">Draw Bow</string>

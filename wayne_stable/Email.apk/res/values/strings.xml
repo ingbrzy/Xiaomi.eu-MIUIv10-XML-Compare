@@ -183,6 +183,10 @@
   <string name="always_show_images">Always show pictures from this sender</string>
   <string name="app_name">Mail</string>
   <string name="application_mime_type">application/email-ls</string>
+  <string name="appraise_des">We are working very hard to develop products, only to your satisfaction. Please support us with your comments.</string>
+  <string name="appraise_good">Praise and encouragement</string>
+  <string name="appraise_ignore">Temporary evaluation</string>
+  <string name="appraise_negative">Negative comment</string>
   <string name="archive">Archive</string>
   <string name="archived">Archived</string>
   <string name="att_download_failed_content">"Couldn't download the attachment for this message."</string>
@@ -549,11 +553,13 @@
   <string name="gmail_server_authorization_deleted">"Couldn't authenticate account. Try adding this account again."</string>
   <string name="gmail_web_login_go">OK</string>
   <string name="gmail_web_login_required_message">Sign in to Gmail</string>
+  <string name="have_auth_code">Login By Code</string>
   <string name="header_category_account">Accounts</string>
   <string name="header_category_general">@string/header_label_general_preferences</string>
   <string name="header_category_other">Feedback</string>
   <string name="header_label_general_preferences">General</string>
   <string name="help_and_info">Help</string>
+  <string name="help_me_get_qq_auth">Help me get the QQ authorization code</string>
   <string name="hide_elided">▼ Hide quoted text</string>
   <string name="hide_password">Hide password</string>
   <string name="hierarchical_folder_parent_top">%1$s∕%2$s∕</string>
@@ -762,6 +768,7 @@ Try a different inbox."</string>
   <string name="notify_channel_no_disterb">No disturb mode</string>
   <string name="notify_channel_permission_notice">Permission Notice reminder</string>
   <string name="notify_channel_send_fail">Send failure reminder</string>
+  <string name="notify_channel_service">Background Synchronized Reminder</string>
   <string name="oauth_error_description">"Couldn't authenticate"</string>
   <string name="oauth_gmail_login_notify">Enter your Google Account username and password on the following sign-in page.</string>
   <string name="oauth_login_continue">Continue</string>
@@ -772,6 +779,7 @@ Try a different inbox."</string>
   <string name="one_day">1 day</string>
   <string name="one_month">1 month</string>
   <string name="one_week">1 week</string>
+  <string name="open_androidp_warning">Open 9.0 Unofficial SDK Warning</string>
   <string name="open_calendar_and_contacts_permission">Allow Mail to access contacts and calendar info in the Settings</string>
   <string name="open_external_storage_and_calendar_permission">Allow Mail to access storage and calendar info in the Settings</string>
   <string name="open_external_storage_and_contacts_and_calendar_permission">Allow Mail to access storage, contacts, and calendar info in the Settings</string>
@@ -891,7 +899,7 @@ to receive reminders about payments and trips"</string>
   <string name="preview_attachment">Preview</string>
   <string name="previous_action">Back</string>
   <string name="print">Print</string>
-  <string name="privacy_des">日志信息包含电子邮件应用打印的调试信息及您的设备信息，用于定位您所反馈的问题。选择下方的“%1$s”表示您已阅读并同意小米的《%2$s》</string>
+  <string name="privacy_des">"The log information contains debugging information printed by the e-mail application and information about your device to locate the questions you feedback.Select the following \"%1$s\" That means you have read and agreed to millet's《%2$s》"</string>
   <string name="privacy_policy">Privacy Policy</string>
   <string name="prompt_title">Prompt</string>
   <string name="protocol_eas">eas</string>
@@ -920,11 +928,13 @@ to receive reminders about payments and trips"</string>
   <string name="qq_bar_send_message">Send SMS</string>
   <string name="qq_login_basecode">Signing in to the web QQ Mail. Enter independent password.</string>
   <string name="qq_login_get_auth">"Turn on password protection if you can't receive SMS"</string>
+  <string name="qq_login_notice">Warm Tip: If you have set up an independent password, you need to enter an independent password to verify your entry into the mailbox.</string>
   <string name="qq_login_open_imap">Tap \"Help\" to turn on IMAP/SMTP</string>
   <string name="qq_login_origin_setting">Enter username and password to sign in &gt;</string>
   <string name="qq_login_send_message">Tap \"Send SMS\" to get a verification code</string>
   <string name="qq_login_webview">Signing in to QQ web client, tap sign in using the password.</string>
   <string name="qq_next_generation_auth_toast">Turn on password protection in your browser</string>
+  <string name="qq_pwd_or_qq_auth_code">QQ authorization code or mailbox password</string>
   <string name="qq_uthentication_failed">"Couldn't verify account, sign in again"</string>
   <string name="qq_verify_code">(Requires verification code from QQ)</string>
   <string name="qq_webview_loading">Just a sec…</string>
@@ -1119,6 +1129,7 @@ to receive reminders about payments and trips"</string>
   <string name="special_text_qq_subscribe">loadScript(_aoFiles){</string>
   <string name="special_text_sender_en">sender</string>
   <string name="special_text_sender_zh">发件人</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="storage">Storage</string>
   <string name="str_select_all">Select all</string>
   <string name="str_select_none">Deselect all</string>

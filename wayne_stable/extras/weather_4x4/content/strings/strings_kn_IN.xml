@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">ಹವಾಮಾನ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">ಇಂದು</string>
     <string name="tomorrow">ನಾಳೆ</string>

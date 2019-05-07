@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">แตะเพื่อรับข้อมูลสภาพอากาศ</string>
     <string name="date_format">EEEE d MMMM</string>
     <string name="today">วันนี้</string>
     <string name="tomorrow">พรุ่งนี้</string>
