@@ -177,7 +177,7 @@ and optimizes your photos based on this info"</string>
   <string name="device_watermark_default_text">AI DUAL CAMERA</string>
   <string name="dialog_google_lens_option_0">Google Lens (Recommended)</string>
   <string name="dialog_ok">OK</string>
-  <string name="dialog_ok_time">OK(%ds)</string>
+  <string name="dialog_ok_time">OK (%ds)</string>
   <string name="do_not_remind_me">"Don't show again"</string>
   <string name="dual_camera_lens_covered_toast">The lens is covered.</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
