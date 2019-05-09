@@ -634,6 +634,19 @@ To restrict the app, first turn on battery optimization."</string>
   <string name="backup_pw_cancel_button_text">Cancel</string>
   <string name="backup_pw_set_button_text">Set backup password</string>
   <string name="backup_section_title">Backup &amp; restore</string>
+  <string name="backup_set_clear_success">Turned off backup password successfully</string>
+  <string name="backup_set_clear_title">Turn off backup password</string>
+  <string name="backup_set_confirm">OK</string>
+  <string name="backup_set_confirm_clear">Turn off</string>
+  <string name="backup_set_enter_new_pw">Enter new backup password</string>
+  <string name="backup_set_enter_new_pw_again">Confirm new backup password</string>
+  <string name="backup_set_enter_old_pw">Enter old backup password</string>
+  <string name="backup_set_enter_pw_title">Enter backup password</string>
+  <string name="backup_set_error_pw">The password you entered is incorrect</string>
+  <string name="backup_set_modify_title">Change backup password</string>
+  <string name="backup_set_new_pw_title">Enter new backup password</string>
+  <string name="backup_set_null_pw">Enter password first</string>
+  <string name="backup_set_pw_confirm_title">Confirm new backup password</string>
   <string name="badge_title">Show desktop app icon badge</string>
   <string name="band_mode_failed">Unsuccessful</string>
   <string name="band_mode_loading">Loading Band List…</string>
@@ -1321,10 +1334,14 @@ This feature can be turned off in [Settings]"</string>
   <string name="checking_find_device_status">Checking Find device status…</string>
   <string name="checking_for_updates">Checking for updates…</string>
   <string name="choose_a_card_to_reset">Select SIM card to reset</string>
+  <string name="choose_keyguard_clock_style">Lock screen clock format</string>
+  <string name="choose_keyguard_clock_summary">"This setting doesn't work with third party themes"</string>
   <string name="choose_profile">Choose profile</string>
   <string name="choose_smartcover_type">Choose case type</string>
   <string name="choose_spell_checker">Choose spell checker</string>
   <string name="choose_timezone">Choose time zone</string>
+  <string name="choose_unlock_face_msg">Set a screen lock before recording face data.</string>
+  <string name="choose_unlock_fingerprint_msg">Set screen lock before adding your fingerprint.</string>
   <string name="choose_voice_input_title">Choose voice input</string>
   <string name="cleaner">Cleaner</string>
   <string name="clear_activities">Clear defaults</string>
@@ -2323,6 +2340,8 @@ For more details, contact your organization's admin."</string>
   <string name="fingerprint_unlock_skip_fingerprint">Continue without fingerprint</string>
   <string name="fingerprint_unlock_title">You can unlock your phone using your fingerprint. For security, this option requires a backup screen lock.</string>
   <string name="fingerprint_usage_category_title">Use fingerprint for</string>
+  <string name="fingerprint_wakeup_summary">Wake screen when no fingerprints have been enrolled.</string>
+  <string name="fingerprint_wakeup_title">Tap fingerprint sensor to wake</string>
   <string name="finish_application">Force stop</string>
   <string name="finish_button">Finish</string>
   <string name="finish_button_label">Finish</string>
@@ -2510,12 +2529,11 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
   <string name="gxzw_anim_light">Neon</string>
-  <string name="gxzw_anim_metal">Metal</string>
   <string name="gxzw_anim_pulse">Pulse</string>
   <string name="gxzw_anim_rhythm">Rhythm</string>
   <string name="gxzw_anim_star">Starlight</string>
   <string name="gxzw_anim_title">Fingerprint animation</string>
-  <string name="gxzw_aod_show_summary">Fingerprint icon will be displayed when the screen is off. This feature increases system power consumption.</string>
+  <string name="gxzw_aod_show_summary">Raise the device or tap the screen to make the fingerprint icon appear. This feature increases system power consumption.</string>
   <string name="gxzw_aod_show_tittle">Show fingerprint icon when the screen is off</string>
   <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
   <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
@@ -2660,7 +2678,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="ignore_optimizations_on">Don’t optimize</string>
   <string name="ignore_optimizations_on_desc">May drain your battery more quickly. App will no longer be restricted from using background battery.</string>
   <string name="ignore_optimizations_title">Allow %s to ignore battery optimizations?</string>
-  <string name="ime_security_warning">%1$s can record everything you type, including passwords, credit card numbers, and other personal data.</string>
+  <string name="ime_security_warning">%1$s might record everything you type, including passwords, credit card numbers, and other personal data.</string>
   <string name="imei_information_summary">IMEI relative information</string>
   <string name="imei_information_title">IMEI information</string>
   <string name="imei_multi_sim">IMEI (sim slot %1$d)</string>
@@ -2778,7 +2796,6 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
   <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
-  <string name="keyguard_vertical_clock_title">Vertical clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
   <string name="keywords_all_apps">apps, download, applications, system</string>
@@ -3383,6 +3400,8 @@ There are other users present on this device.
   <string name="miui_lab_features">MIUI lab features</string>
   <string name="miui_lab_gallery_search_desc">Improved image search</string>
   <string name="miui_lab_gallery_search_title">Find photos in Gallery</string>
+  <string name="miui_lab_gesture_desc">Disable physical buttons and enjoy fullScreen gesture</string>
+  <string name="miui_lab_gesture_title">FullScreen Gesture</string>
   <string name="miui_lab_install_drive_mode_error">"Couldn't install, try again."</string>
   <string name="miui_lab_install_drive_mode_summary">"Car mode is a system app. Installation doesn't require internet connection."</string>
   <string name="miui_lab_install_drive_mode_title">Install Car mode</string>
@@ -3986,7 +4005,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="passpoint_content">%1$s credentials</string>
   <string name="passpoint_label">Saved via</string>
   <string name="passwordIncorrect">The password you entered is incorrect</string>
-  <string name="password_entrance_title">Screen lock</string>
+  <string name="password_entrance_title">Set screen lock</string>
   <string name="password_guard">Password</string>
   <string name="password_turned_off_text">Password has been turned off</string>
   <string name="password_turned_on_text">Password has been turned on</string>
@@ -4733,6 +4752,7 @@ To use screen pinning:
   <string name="search_advanced_settings">Advanced settings;Wifi;Wifi settings;WLAN settings</string>
   <string name="search_airplane_mode">Airplane mode;Aeroplane mode;Flight mode;Airplane;Aeroplane;Flight</string>
   <string name="search_alarm_sound_title">Alarm sound;alarm ringtone;alarm</string>
+  <string name="search_ambient_display_screen_title">Ambient display</string>
   <string name="search_android_beam_settings_title">NFC;Android Beam;Beam</string>
   <string name="search_apn_settings">APN;Access Point Names</string>
   <string name="search_app_invisible">App Invisible;Invisible apps</string>
@@ -4771,6 +4791,7 @@ To use screen pinning:
   <string name="search_dndm_vip_call_setting_title">VIP;Exceptions;Whitelist;white list</string>
   <string name="search_dndm_wristband">Activate with Mi Band;Mi Band</string>
   <string name="search_do_not_disturb_mode">Do not disturb</string>
+  <string name="search_doze_always_on_title">Always on</string>
   <string name="search_dtmf_tone_enable_title">Turn on Dial pad touch tones;Dial pad touch tones;touch tones;touch sounds;dialer tones;dialer sounds</string>
   <string name="search_empty">No search results</string>
   <string name="search_enable_adb">USB debugging</string>
@@ -5059,7 +5080,6 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="settings_safetylegal_activity_unreachable">You don’t have a data connection. To view this information now, go to %s from any computer connected to the internet.</string>
   <string name="settings_safetylegal_title">Safety information</string>
   <string name="settings_shortcut">Settings shortcut</string>
-  <string name="setup_choose_unlock_fingerprint_msg">Set screen lock before adding your fingerprint.</string>
   <string name="setup_choose_unlock_mixed_password">Password</string>
   <string name="setup_choose_unlock_mixpassword_title">Set password</string>
   <string name="setup_choose_unlock_password">PIN</string>
@@ -5945,12 +5965,13 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="usage_log">App usage statistics</string>
   <string name="usage_state_app_timer">Screen time</string>
   <string name="usage_state_app_usage_detail_title">App usage details</string>
-  <string name="usage_state_app_usage_list_title">"Apps' screen time today"</string>
-  <string name="usage_state_app_usage_list_week_title">"Apps' screen time (last 7 days)"</string>
+  <string name="usage_state_app_usage_list_title">"Apps' screen time"</string>
+  <string name="usage_state_app_usage_list_week_title">"Apps' screen time"</string>
   <string name="usage_state_app_usage_tip_title" formatted="false">Screen time between %d:00 and %d:00</string>
   <string name="usage_state_app_use_time">App screen time</string>
   <string name="usage_state_channel_mouth">Last 30 days</string>
   <string name="usage_state_channel_week">Last 7 days</string>
+  <string name="usage_state_date">MMM d</string>
   <string name="usage_state_device_noti_today_tip_title" formatted="false">Notifications between %d:00 and %d:00</string>
   <string name="usage_state_device_unlock_today_tip_title" formatted="false">Unlocked device between %d:00 and %d:00</string>
   <string name="usage_state_friday">Fri</string>
@@ -5958,8 +5979,8 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="usage_state_hour_minute" formatted="false">%dh %dm</string>
   <string name="usage_state_less_one_minute">Less than 1 minute</string>
   <string name="usage_state_monday">Mon</string>
-  <string name="usage_state_mourth_day">"'Screen time on' MMM d"</string>
-  <string name="usage_state_noti_mourth_day">"'Notifications on' MMM d"</string>
+  <string name="usage_state_mourth_day">Screen time on %s</string>
+  <string name="usage_state_noti_mourth_day">Notifications on %s</string>
   <string name="usage_state_notification">Manage notifications</string>
   <string name="usage_state_notification_manager">Manage app notifications</string>
   <string name="usage_state_remind_summary">Turn on to receive screen time alerts. You can set different time limits for weekdays and weekends.</string>
@@ -5972,7 +5993,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="usage_state_today">Today</string>
   <string name="usage_state_today_total_text">Screen time today</string>
   <string name="usage_state_tuesday">Tue</string>
-  <string name="usage_state_unlock_mourth_day">"'Unlocked on' MMM d"</string>
+  <string name="usage_state_unlock_mourth_day">Unlocked on %s</string>
   <string name="usage_state_usage_time">Screen time</string>
   <string name="usage_state_usage_time_remind">Screen time alert</string>
   <string name="usage_state_use_time_remind_title">Screen time alert</string>
@@ -6019,7 +6040,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="usagestats_app_category_miui_video_etc">Music and video</string>
   <string name="usagestats_device_notification_des">Screen time limit for today: %s</string>
   <string name="usagestats_device_notification_des_over">"You've already reached your screen time limit today."</string>
-  <string name="usagestats_device_notification_des_reset" formatted="false">Screen time limit for today: %s | %s remaining</string>
+  <string name="usagestats_device_notification_des_reset" formatted="false">"Today's limit: %s | %s remaining"</string>
   <string name="usagestats_device_notification_title">Screen time alert</string>
   <string name="usagestats_device_timeout_des" formatted="false">"You've been using your device for %dh %dm today. Have some rest!"</string>
   <string name="usagestats_device_timeout_negative">Remind in 1 hour</string>
