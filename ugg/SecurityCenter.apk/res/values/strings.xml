@@ -1277,6 +1277,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
 微信/QQ/米聊抢红包神器
 不支持提醒被屏蔽的群，以及开启电脑登录免打扰功能的软件"</string>
   <string name="lucky_max_chat_title">来自QQ</string>
+  <string name="lucky_money_close">关闭</string>
   <string name="lucky_money_group_summary">个人发送的红包不需抢，建议您仅提醒群红包，以免提醒次数过多。</string>
   <string name="lucky_my_luckymoney">我的红包战绩</string>
   <string name="lucky_sound_mode_lucky">红包来了</string>
