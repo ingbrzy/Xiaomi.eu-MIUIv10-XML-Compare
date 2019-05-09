@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="feature_desc">
-        <item>Morning greetings: Subscribe to receive your greetings every morning.</item>
-        <item>Combine default Lock screen with custom themes to be able to use Wallpaper Carousel.</item>
+        <item>修复了一些已知问题</item>
     </string-array>
     <string-array name="alphabet_table">
         <item>\#</item>
