@@ -634,6 +634,19 @@ To restrict the app, first turn on battery optimization."</string>
   <string name="backup_pw_cancel_button_text">Cancel</string>
   <string name="backup_pw_set_button_text">Set backup password</string>
   <string name="backup_section_title">Backup &amp; restore</string>
+  <string name="backup_set_clear_success">Turned off backup password successfully</string>
+  <string name="backup_set_clear_title">Turn off backup password</string>
+  <string name="backup_set_confirm">OK</string>
+  <string name="backup_set_confirm_clear">Turn off</string>
+  <string name="backup_set_enter_new_pw">Enter new backup password</string>
+  <string name="backup_set_enter_new_pw_again">Confirm new backup password</string>
+  <string name="backup_set_enter_old_pw">Enter old backup password</string>
+  <string name="backup_set_enter_pw_title">Enter backup password</string>
+  <string name="backup_set_error_pw">The password you entered is incorrect</string>
+  <string name="backup_set_modify_title">Change backup password</string>
+  <string name="backup_set_new_pw_title">Enter new backup password</string>
+  <string name="backup_set_null_pw">Enter password first</string>
+  <string name="backup_set_pw_confirm_title">Confirm new backup password</string>
   <string name="badge_title">Show desktop app icon badge</string>
   <string name="band_mode_failed">Unsuccessful</string>
   <string name="band_mode_loading">Loading Band List…</string>
@@ -2518,7 +2531,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_anim_rhythm">Rhythm</string>
   <string name="gxzw_anim_star">Starlight</string>
   <string name="gxzw_anim_title">Fingerprint animation</string>
-  <string name="gxzw_aod_show_summary">Fingerprint icon will be displayed when the screen is off. This feature increases system power consumption.</string>
+  <string name="gxzw_aod_show_summary">Raise the device or tap the screen to make the fingerprint icon appear. This feature increases system power consumption.</string>
   <string name="gxzw_aod_show_tittle">Show fingerprint icon when the screen is off</string>
   <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
   <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
@@ -2787,7 +2800,6 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
   <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
-  <string name="keyguard_vertical_clock_title">Vertical clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
   <string name="keywords_all_apps">apps, download, applications, system</string>
