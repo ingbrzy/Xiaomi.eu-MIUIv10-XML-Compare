@@ -121,6 +121,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="error_retry_later">"Couldn't complete action. Wait a minute or two and try again…"</string>
   <string name="error_unknown">Something went wrong</string>
   <string name="get_device_id_error">"Couldn't get device ID"</string>
+  <string name="hint_restore_cross_space">Home screen layout might be displayed incorrectly if you transfer items between spaces.</string>
   <string name="home_hint_global_launcher">POCO Launcher</string>
   <string name="home_hint_other_launcher">Other launcher</string>
   <string name="home_restore_error">"Couldn't restore Home screen"</string>
@@ -203,6 +204,7 @@ Check your network settings and try again."</string>
   <string name="restoring_file_title_no_progress">Restoring files…</string>
   <string name="restoring_settings">Restoring Settings…</string>
   <string name="retry">Retry</string>
+  <string name="selected">Selected</string>
   <string name="self_device_main_space">"This phone's First space"</string>
   <string name="self_device_second_space">"This phone's Second space"</string>
   <string name="settings_backup">System settings</string>
@@ -216,6 +218,7 @@ Check your network settings and try again."</string>
   <string name="total_space">Total space: %s</string>
   <string name="try_again">Tap to try again</string>
   <string name="try_continue">Tap to continue</string>
+  <string name="unselected">Not selected</string>
   <string name="unsupported_home">Update MIUI to the latest version.</string>
   <string name="wait_icon_download">Downloading app icons</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
