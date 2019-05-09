@@ -410,13 +410,17 @@
   <string name="summary_international">"By using this feature, you're agreeing to our &lt;a href ='%1$s'&gt;User Agreement&lt;/a&gt; and &lt;a href='%2$s'&gt;Privacy Policy&lt;/a&gt;. This feature needs to connect to the internet to work normally.​"</string>
   <string name="tab_user_title_bar_text">Settings</string>
   <string name="theme_apply_failured">"Couldn't apply, try again later"</string>
+  <string name="theme_apply_lockscreen_success">Applied successfully</string>
   <string name="theme_apply_success">Applied successfully</string>
   <string name="theme_applying">Applying…</string>
+  <string name="theme_close_maml">Wallpaper Carousel images will replace Lock screen wallpaper.</string>
   <string name="theme_des">Apply default theme and turn on Wallpaper Carousel again.</string>
   <string name="theme_des_lock_style">Apply default Lock screen and turn on Wallpaper Carousel again.</string>
+  <string name="theme_des_maml">"Other components of the current theme won't be affected. The theme will be refreshed to apply changes."</string>
   <string name="theme_ok">Settings</string>
   <string name="theme_title">Switch to default theme</string>
   <string name="theme_title_lock_style">Switch to default Lock screen</string>
+  <string name="theme_title_subscribe">Subscribe to Wallpaper Carousel</string>
   <string name="ticket_hint">Verification code</string>
   <string name="ticket_invalid">The code you entered is incorrect</string>
   <string name="ticket_sign_in">Sign in via SMS</string>
