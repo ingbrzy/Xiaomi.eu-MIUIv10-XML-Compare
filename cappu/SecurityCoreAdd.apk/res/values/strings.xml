@@ -37,6 +37,7 @@ this feature will be added to Second space automatically."</string>
   <string name="closeSecondSpace">Delete Second space</string>
   <string name="closeSecondSpaceSummary">Delete Second space together with its data</string>
   <string name="closeSuccess">Turned off</string>
+  <string name="close_kid_space_success">Deleted Kid space</string>
   <string name="close_second_space">Deleted Second space</string>
   <string name="close_second_space_success">Deleted Second space</string>
   <string name="closed">Off</string>
@@ -93,6 +94,8 @@ to be able to view them anytime"</string>
   <string name="do_not_ask">"Don't ask again"</string>
   <string name="dont_import">Not now</string>
   <string name="downloading_space">Downloading…</string>
+  <string name="dual_animation">Launch animation</string>
+  <string name="dual_animation_description">Show animation when dual apps are launched</string>
   <string name="enable">Turn on</string>
   <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
   <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
@@ -198,6 +201,7 @@ You can also download them separately."</string>
   <string name="install">Install</string>
   <string name="install_error">"Couldn't install. Try again."</string>
   <string name="invalid_qr_code">Invalid QR code</string>
+  <string name="kid_mode_label">Kid space</string>
   <string name="list_empty_text">Empty</string>
   <string name="list_empty_text_xspace">Install WeChat/QQ/Weibo, create dual apps, and try again.</string>
   <string name="loading">Just a sec…</string>

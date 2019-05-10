@@ -1060,10 +1060,14 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="child_mode_settings">Parental controls</string>
   <string name="choose_a_card_to_reset">Select SIM card to reset</string>
   <string name="choose_assist_title">Choose Assist app</string>
+  <string name="choose_keyguard_clock_style">Lock screen clock format</string>
+  <string name="choose_keyguard_clock_summary">"This setting doesn't work with third party themes"</string>
   <string name="choose_profile">Choose profile</string>
   <string name="choose_smartcover_type">Choose case type</string>
   <string name="choose_spell_checker">Choose spell checker</string>
   <string name="choose_timezone">Choose time zone</string>
+  <string name="choose_unlock_face_msg">Set a screen lock before recording face data.</string>
+  <string name="choose_unlock_fingerprint_msg">Set screen lock before adding your fingerprint.</string>
   <string name="choose_voice_input_title">Choose voice input</string>
   <string name="cleaner">Cleaner</string>
   <string name="clear_activities">Clear defaults</string>
@@ -2127,12 +2131,11 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
   <string name="gxzw_anim_light">Neon</string>
-  <string name="gxzw_anim_metal">Metal</string>
   <string name="gxzw_anim_pulse">Pulse</string>
   <string name="gxzw_anim_rhythm">Rhythm</string>
   <string name="gxzw_anim_star">Starlight</string>
   <string name="gxzw_anim_title">Fingerprint animation</string>
-  <string name="gxzw_aod_show_summary">Fingerprint icon will be displayed when the screen is off. This feature increases system power consumption.</string>
+  <string name="gxzw_aod_show_summary">Raise the device or tap the screen to make the fingerprint icon appear. This feature increases system power consumption.</string>
   <string name="gxzw_aod_show_tittle">Show fingerprint icon when the screen is off</string>
   <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
   <string name="gxzw_dialog_not_show_again">"Don't show again"</string>
@@ -2386,7 +2389,6 @@ you should create an iCloud backup first."</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
   <string name="keyguard_setting_privacy_policy_url">http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s</string>
-  <string name="keyguard_vertical_clock_title">Vertical clock</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_airplane">Airplane;Airplane mode;Aeroplane;Aeroplane mode;Flight;Flight mode</string>
   <string name="keywords_all_apps">apps, download, applications, system</string>
@@ -3512,7 +3514,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="passpoint_label">Saved via</string>
   <string name="password">Password</string>
   <string name="passwordIncorrect">The password you entered is incorrect</string>
-  <string name="password_entrance_title">Screen lock</string>
+  <string name="password_entrance_title">Set screen lock</string>
   <string name="password_guard">Password</string>
   <string name="password_null">"Password can't be empty"</string>
   <string name="password_turned_off_text">Password has been turned off</string>
@@ -3551,6 +3553,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="phone_info_label">Tablet info</string>
   <string name="phone_language">Languages</string>
   <string name="phone_language_summary"/>
+  <string name="phone_title">Phone settings</string>
   <string name="physical_device_title">%1$s - %2$s</string>
   <string name="physical_keyboard_title">Physical keyboard</string>
   <string name="pick_up_gesture_wakeup_title">Raise device to wake</string>
@@ -3951,7 +3954,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
 "&lt;li&gt;Cellular data&lt;/li&gt;"
 "&lt;li&gt;Bluetooth&lt;/li&gt;</string>
   <string name="reset_network_final_button_text">Reset settings</string>
-  <string name="reset_network_final_desc">Reset all network settings? You can’t undo this action!</string>
+  <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to reverse this action."</string>
   <string name="reset_network_title">Network settings reset</string>
   <string name="reset_network_wifi">WLAN</string>
   <string name="reset_second_space_passwd">Reset Second space password</string>
@@ -4568,7 +4571,6 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="settings_safetylegal_title">Safety information</string>
   <string name="settings_shortcut">Settings shortcut</string>
   <string name="settings_summary">Phone and messaging settings</string>
-  <string name="setup_choose_unlock_fingerprint_msg">Set screen lock before adding your fingerprint.</string>
   <string name="setup_choose_unlock_mixed_password">Password</string>
   <string name="setup_choose_unlock_mixpassword_title">Set password</string>
   <string name="setup_choose_unlock_password">PIN</string>
