@@ -1738,6 +1738,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="day_of_week">Day of the week</string>
   <string name="dc_light_dialog_summary">Image quality might be affected when Anti-flicker mode is on. Turn on anyway?</string>
   <string name="dc_light_summary">Apply DC dimming to reduce eye strain</string>
+  <string name="dc_light_summary_new">DC dimming reduces eye strain in low light conditions. However, image quality might be affected when Anti-flicker mode is on.</string>
   <string name="dc_light_title">Anti-flicker mode</string>
   <string name="debug_app">Select debug app</string>
   <string name="debug_app_not_set">No debug application set</string>
@@ -3398,8 +3399,8 @@ There are other users present on this device.
   <string name="miui_lab_features">MIUI lab features</string>
   <string name="miui_lab_gallery_search_desc">Improved image search</string>
   <string name="miui_lab_gallery_search_title">Find photos in Gallery</string>
-  <string name="miui_lab_gesture_desc">Disable physical buttons and enjoy fullScreen gesture</string>
-  <string name="miui_lab_gesture_title">FullScreen Gesture</string>
+  <string name="miui_lab_gesture_desc">Use gestures instead of buttons for navigation</string>
+  <string name="miui_lab_gesture_title">Full screen gestures</string>
   <string name="miui_lab_install_drive_mode_error">"Couldn't install, try again."</string>
   <string name="miui_lab_install_drive_mode_summary">"Car mode is a system app. Installation doesn't require internet connection."</string>
   <string name="miui_lab_install_drive_mode_title">Install Car mode</string>
@@ -4747,6 +4748,7 @@ To use screen pinning:
   <string name="search_accessibility_screen_magnification_title">Magnification gestures;Magnification</string>
   <string name="search_accessibility_settings">Accessibility</string>
   <string name="search_account_list">Other accounts;Account;Accounts</string>
+  <string name="search_add_facerecoginition_text">Face unlock;Face recognition</string>
   <string name="search_advanced_settings">Advanced settings;Wifi;Wifi settings;WLAN settings</string>
   <string name="search_airplane_mode">Airplane mode;Aeroplane mode;Flight mode;Airplane;Aeroplane;Flight</string>
   <string name="search_alarm_sound_title">Alarm sound;alarm ringtone;alarm</string>
@@ -4815,6 +4817,7 @@ To use screen pinning:
   <string name="search_lock_settings">Lock Screen &amp; password;Bluetooth unlock;passcode;Unlock with Bluetooth device</string>
   <string name="search_lock_sounds_enable_title">Screen lock sound;Turn on Screen lock sound</string>
   <string name="search_manage_device_admin">Device administrators;Admin;Administrator</string>
+  <string name="search_manage_facerecoginition_text">Face unlock;Face recognition</string>
   <string name="search_manage_notification_access_title">Notification access;Notifications;Notification permissions</string>
   <string name="search_master_clear_title">Factory data reset</string>
   <string name="search_menu">Search settings</string>
