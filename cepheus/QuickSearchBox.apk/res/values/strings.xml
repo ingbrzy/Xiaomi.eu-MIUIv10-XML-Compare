@@ -98,7 +98,7 @@ You can change this in Settings &gt; Installed apps &gt; Search"</string>
   <string name="search_settings">Search settings</string>
   <string name="search_sources">Searchable items</string>
   <string name="search_sources_summary">Choose what to search on the phone</string>
-  <string name="search_suggestion">Tips</string>
+  <string name="search_suggestion">Suggestions</string>
   <string name="search_title_quicksearchbox">@string/app_name</string>
   <string name="search_videos">Search videos</string>
   <string name="search_videos_url">mivideo://video/search?id=%s&amp;ref=migs-local-video</string>
