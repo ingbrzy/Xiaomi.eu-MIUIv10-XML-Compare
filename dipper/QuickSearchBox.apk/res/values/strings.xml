@@ -40,7 +40,7 @@ To clear your Browser history, use the Browser's settings."</string>
   <string name="cta_declaration_negative_text">"Don't allow"</string>
   <string name="cta_declaration_positive_text">Allow</string>
   <string name="cta_declaration_title">Terms of Service</string>
-  <string name="default_hint">Search apps, music, videos, books…</string>
+  <string name="default_hint">Search locally or the web for…</string>
   <string name="default_search_domain">.google.com</string>
   <string name="device_settings_category_title">Clear shortcuts</string>
   <string name="distance_unit_kilometer">km</string>
