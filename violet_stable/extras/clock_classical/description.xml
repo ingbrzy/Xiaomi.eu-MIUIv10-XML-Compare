@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="clock" size="4:2">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Classical clock</title>
+	<titles>
+		<title locale="zh_CN">天气时钟</title>
+		<title locale="zh_TW">天氣時鐘</title>
+		<title locale="pl_PL">Zegar</title>
+		<title locale="sk_SK">Hodiny</title>
+		<title locale="cs_CZ">Hodiny</title>
+		<title locale="el_GR">Ρολόι</title>
+		<title locale="hr_HR">Vrijeme</title>
+		<title locale="nb_NO">Klokke</title>
+		<title locale="hu_HU">Óra</title>
+		<title locale="fr_FR">Horl</title>
+		<title locale="tr_TR">Saat</title>
+		<title locale="es_ES">Reloj</title>
+		<title locale="de_DE">Uhr</title>
+		<title locale="tr_TR">Saat</title>
+		<title locale="vi_VN">Đồng hồ</title>
+		<title locale="pt_PT">Relógio</title>
+	</titles>
+</MIUI-Theme>
