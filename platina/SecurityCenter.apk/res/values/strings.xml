@@ -570,6 +570,7 @@ You will not lose any app data."</string>
   <string name="charging_text_battery_nearly_full">Almost fully charged</string>
   <string name="charging_text_battery_perfect">Fully charged</string>
   <string name="choose">Choose</string>
+  <string name="choose_gs_show_way">Select home page orientation</string>
   <string name="clean_immediately">Clear</string>
   <string name="cleaned">Cleared</string>
   <string name="clear_garbage">Clear trash to free up space</string>
@@ -966,8 +967,12 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="free_time_traffic_title">Enter off-peak data limit</string>
   <string name="free_traffic_settings">Off-peak data usage settings</string>
   <string name="function_close">Off</string>
-  <string name="function_shield_summary">Restrict auto brightness, screenshot gestures, and Reading mode</string>
-  <string name="function_shield_summary_m">Restrict auto brightness and screenshot gestures</string>
+  <string name="function_shield_auto_bright">Turn off auto brightness</string>
+  <string name="function_shield_eye_shield">Turn off Reading mode</string>
+  <string name="function_shield_pull_notification_bar">"Don't open Notification shade"</string>
+  <string name="function_shield_settings_title">Restrict the following features when playing games</string>
+  <string name="function_shield_summary">Restrict selected system features when playing games</string>
+  <string name="function_shield_three_finger">Restrict screenshot gestures</string>
   <string name="function_shield_title">Enhanced experience</string>
   <string name="fw_blocked">Blocklist</string>
   <string name="fw_blocked_count">"Blocked "</string>
@@ -1124,6 +1129,9 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gs_open_game_booster_summary">Boost network speed for games</string>
   <string name="gs_performance_mode">Performance mode</string>
   <string name="gs_performance_mode_detail">Optimize system performance for gaming</string>
+  <string name="gs_show_way">Home page orientation</string>
+  <string name="gs_show_way_horizontal">Horizontal</string>
+  <string name="gs_show_way_vertical">Vertical</string>
   <string name="gs_sign_notification">Remind to check in at 8 PM daily</string>
   <string name="gs_slip_gamebox_detail">Use slider or swipe from the top side edge of the screen to make the shortcut panel appear</string>
   <string name="guide_get_operator_error">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Wrong carrier?&lt;/U&gt;&lt;/font&gt;"</string>
@@ -1538,6 +1546,8 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="note_sms_none">No messages</string>
   <string name="noti_back_diving_mode_title">Turned on Immersive mode. Tap to turn off.</string>
   <string name="notification_battery_consume_abnormal_title">Battery is being drained too fast</string>
+  <string name="notification_battery_scan_consume_abnormal_summary">Tap to fix the problem</string>
+  <string name="notification_battery_scan_consume_abnormal_title_set">%s is draining battery</string>
   <string name="notification_exit_power_save_mode">Turned off Battery saver</string>
   <string name="notification_exit_power_save_mode_subtitle">Battery %s charged.</string>
   <string name="notification_mask_summary">Hide notification content on the Lock screen and in the Notification shade</string>
@@ -1665,6 +1675,13 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="password_type">Change password</string>
   <string name="password_type_underline">&lt;u&gt;Change password&lt;/u&gt;</string>
   <string name="password_xspace_forget_pattern_message">To change your Second space password, you should delete your current Second space and create a new one.</string>
+  <string name="pc_abnormal_scan_button_text">Close apps</string>
+  <string name="pc_abnormal_scan_reason_prevent_standby">Prevents the system from going into standby mode</string>
+  <string name="pc_abnormal_scan_reason_reconnect">Tries to connect to the network too frequently</string>
+  <string name="pc_abnormal_scan_reason_runtime_exception">Runs abnormally</string>
+  <string name="pc_abnormal_scan_reason_scan_wifi">Searches for WLAN too frequently</string>
+  <string name="pc_abnormal_scan_reason_use_GPS">Uses location services too frequently</string>
+  <string name="pc_abnormal_scan_reason_wake_system">Wakes the system too frequently</string>
   <string name="pc_activity_title">Optimize battery</string>
   <string name="pc_battery_history_show_imei">IMEI:</string>
   <string name="pc_install_manager">Install via USB</string>
@@ -1919,8 +1936,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="privacy_apps_manage_dialog_title">About hidden apps</string>
   <string name="privacy_apps_manager_dialog_message">"This app's icon won't be displayed on the Home screen after you hide this app. Hide this app now?"</string>
   <string name="privacy_apps_tutorial">Tutorial</string>
-  <string name="privacy_apps_tutorial_prompt_pageone">"When you hide an app, it's moved to a hidden folder. Its Home screen shortcut is hidden as well.
-This feature isn't supported for system apps."</string>
+  <string name="privacy_apps_tutorial_prompt_pageone">This feature allows you to hide app icons so they no longer appear on your Home screen.</string>
   <string name="privacy_apps_tutorial_prompt_pagethree">After you enter your password, the folder with hidden apps will appear.</string>
   <string name="privacy_apps_tutorial_prompt_pagetwo">"Spread two fingers on the screen. You'll see a message asking you to enter your App lock password."</string>
   <string name="privacy_declare_dialog_title">Terms of Service</string>
