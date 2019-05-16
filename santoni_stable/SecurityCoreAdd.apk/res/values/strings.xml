@@ -18,6 +18,10 @@ this feature will be added to Second space automatically."</string>
   <string name="app_name">Security Core Component</string>
   <string name="back">Back</string>
   <string name="bind_device">Add devices</string>
+  <string name="button_input_password">Enter password</string>
+  <string name="button_text_next_step">Next</string>
+  <string name="button_text_next_step_timer">Next step (%d)</string>
+  <string name="button_touch">Put your finger on the sensor</string>
   <string name="can_not_delete_when_calling">"Can't delete spaces during a call"</string>
   <string name="can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
   <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
@@ -63,6 +67,9 @@ to be able to view them anytime"</string>
   <string name="create_space_loading">Creating Second space…</string>
   <string name="create_work_space">Create Work space</string>
   <string name="creating_app_icon">Creating icon…</string>
+  <string name="cta_declaration_agree_and_continue">Agree</string>
+  <string name="cta_declaration_message_format" formatted="false">You must read and agree to our &lt;font color=%s&gt;&lt;a href=%s&gt;%s&lt;/a&gt;&lt;/font&gt; before using Enterprise mode. Your device needs to connect to the internet to activate Enterprise mode. Agree?</string>
+  <string name="cta_declaration_title">Terms and Conditions</string>
   <string name="current_space">Current space</string>
   <string name="dataSafe">Using Second space is like having two devices.</string>
   <string name="declare_dialog_title">About dual apps</string>
@@ -74,7 +81,13 @@ to be able to view them anytime"</string>
   <string name="delete_phone_fingerprint">Delete Second space fingerprint</string>
   <string name="delete_src_file">Delete files</string>
   <string name="delete_src_photo">Delete photos</string>
+  <string name="dialog_message_service_error">"Couldn't revoke authorization and perform a factory data reset. Try again.​"</string>
+  <string name="dialog_tip_need_network">Your device needs to connect to the internet to revoke authorization.</string>
   <string name="dialog_title">Attention</string>
+  <string name="dialog_title_service_error">Server error</string>
+  <string name="dialog_undo_negative">"Don't revoke"</string>
+  <string name="dialog_verify">Verify your fingerprint</string>
+  <string name="dialog_verify_fingerprint_retry">"Couldn't verify fingerprint. Try again."</string>
   <string name="dir_switch_out_all_photos">Second space Gallery</string>
   <string name="disable">Turn off</string>
   <string name="do_not_ask">"Don't ask again"</string>
@@ -96,7 +109,7 @@ Make sure the name of your corporation is correct. Read and agree to the related
   <string name="ent_agency_code">Corporate code</string>
   <string name="ent_agency_code_hint">Enter corporate code</string>
   <string name="ent_agency_code_invalid">The corporate code you entered is invalid.</string>
-  <string name="ent_agree_privacy_policy">"I've read and agree to Privacy Policy"</string>
+  <string name="ent_agree_privacy_policy">"I've read and agreed to Privacy Policy"</string>
   <string name="ent_app_verified">Looks like there are enterprise apps installed on your device. Activate Enterprise mode?</string>
   <string name="ent_confirm_dialog_content">"You won't be able to go back to the present state of your system after you activate Enterprise mode. However, all your data will still be stored on this device. You'll have to reboot your device to activate Enterprise mode. Activate now?"</string>
   <string name="ent_disallow_running">The app is forbidden to run</string>
@@ -140,7 +153,7 @@ Make sure the name of your corporation is correct. Read and agree to the related
   <string name="function_not_support">Not supported on this device</string>
   <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>
   <string name="gms_open_button">Turn on</string>
-  <string name="gms_title">Turn on Google services</string>
+  <string name="gms_title">Dual app for Google services</string>
   <string name="goToSecondSpacce">Go to Second space</string>
   <string name="go_on_import">Keep importing</string>
   <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
@@ -151,6 +164,10 @@ Make sure the name of your corporation is correct. Read and agree to the related
   <string name="green_guard_des3">Control installed apps and restrict usage</string>
   <string name="green_guard_title2">View location info</string>
   <string name="green_guard_title3">Manage apps</string>
+  <string name="greenguard_child_des">Use our app to stay connected​</string>
+  <string name="greenguard_child_des_title">I need help from my friends and family</string>
+  <string name="greenguard_parent_des">"Download our app and add other people's devices"</string>
+  <string name="greenguard_parent_des_title">I need to help my friends and family</string>
   <string name="guide_contact_sub_title_desc">"Contacts added to Second space will be private.
 Messages will only appear in Second space."</string>
   <string name="guide_contact_suc_sub_title_desc">Only private contacts and messages will be shown in Second space</string>
@@ -188,8 +205,13 @@ You can also download them separately."</string>
   <string name="loading_space">Just a sec…</string>
   <string name="loading_success">Loaded successfully</string>
   <string name="lock_screen_open_second_space">Enter Second space from Lock screen</string>
+  <string name="master_clear_apply_step_1">Revoking authorization requires performing a factory data reset on your device. It will permanently erase all files and data, including accounts, contacts, photos, and apps. Back up all important items to your computer before revoking authorization.</string>
+  <string name="master_clear_apply_step_2">Make sure you backed up all the important items to your computer. After you tap \"OK\", a factory data reset will be performed on your device, permanently erasing all files and data, including accounts, contacts, photos, and apps.</string>
+  <string name="master_clear_apply_title">Attention</string>
+  <string name="master_clear_not_available">Factory reset is restricted by your company.</string>
   <string name="menu_item_about_privacy_title">Privacy Policy</string>
   <string name="messageData">Messages</string>
+  <string name="more_settings">More</string>
   <string name="msg_switch_file">Delete these files in First space after they are moved?</string>
   <string name="msg_switch_file_second">Delete these files in Second space after they are moved?</string>
   <string name="msg_switch_photo">Delete these photos in First space after they are moved?</string>
@@ -353,7 +375,7 @@ If you don't update, dual apps might not work properly as well."</string>
   <string name="start_new_fingerprint_tips">"Use Second space fingerprint
 to enter Second space from Lock screen"</string>
   <string name="start_setting_guide_desc_title">There are a few things to set up</string>
-  <string name="stop_xspace_alert_content">"You deleted all dual apps. Delete dual app accounts and app data as well? After this, you'll have to create dual apps again when you need them."</string>
+  <string name="stop_xspace_alert_content">"All dual apps and their data will be permanently deleted. You'll have to reboot your device to apply this change. Delete accounts now?"</string>
   <string name="stop_xspace_alert_title">Deleting dual app accounts</string>
   <string name="summary_switch_apps_settings">Select apps used in the current space</string>
   <string name="support_desc">Security services provided by Spaces Mobile</string>
@@ -397,6 +419,11 @@ to enter Second space from Lock screen"</string>
   <string name="transferImage">Photos from Second space will be moved to \"Second space\" album in First space</string>
   <string name="transferMessage">Messages from Second space will be moved to First space</string>
   <string name="tryNow">Try now</string>
+  <string name="undo_activated_dialog_message">"Revoking authorization will deactivate Enterprise mode and perform a factory data reset on your device. All related features will no longer be available. Besides that, Xiaomi will stop collecting the information required for Enterprise mode (IMEI, Device ID, system version, region, etc.). We'd like to remind you that Xiaomi doesn't manage the data it collects for the Enterprise mode. We'll do our best to notify all the related parties, but recommend that you contact your company's supervisors to approve this revocation. Revoke authorization and perform a factory data reset?"</string>
+  <string name="undo_activated_dialog_ok">Revoke</string>
+  <string name="undo_grant_dialog_message">Xiaomi will stop collecting the information required for this feature (IMEI, Device ID, system version, region, etc.) after you revoke authorization. Revoke now?</string>
+  <string name="undo_privacy_menu">Revoke authorization</string>
+  <string name="undo_success">Revoked successfully</string>
   <string name="use_xiaoai_open">Wake using voice assistant</string>
   <string name="wating">Just a sec…</string>
   <string name="weibo_send">Send to Weibo</string>
@@ -427,6 +454,7 @@ Some dual apps require Google Services Framework support. In such cases, dual Go
   <string name="xspace_label">Dual apps</string>
   <string name="xspace_loading_msg">Loading apps…</string>
   <string name="xspace_qq_title">QQ</string>
+  <string name="xspace_remove">"Delete dual apps' accounts"</string>
   <string name="xspace_setting_label">Dual app settings</string>
   <string name="xspace_uninstall_completed">Dual app uninstalled successfully</string>
   <string name="xspace_uninstall_dialog_content">Uninstalling dual app will remove all app data.</string>

@@ -117,6 +117,7 @@
         <item>string/accessibility_data_connection_gprs</item>
         <item>string/accessibility_data_connection_3g</item>
         <item>0</item>
+        <item>string/accessibility_data_connection_4g_plus</item>
     </string-array>
     <string-array name="telephony_data_type_generation_description">
         <item>string/accessibility_data_connection_3g</item>
@@ -1070,117 +1071,10 @@
         <item>US</item>
         <item>TR</item>
     </string-array>
-    <integer-array name="config_input_face_unlock">
-        <item>-8</item>
-        <item>8</item>
-        <item>-13</item>
-        <item>13</item>
-    </integer-array>
-    <string-array name="region_global_support_face_facejiajia">
-        <item>IN</item>
-        <item>ID</item>
-        <item>RU</item>
-        <item>HK</item>
-        <item>TW</item>
-        <item>TR</item>
-        <item>TH</item>
-        <item>SG</item>
-        <item>MY</item>
-        <item>VN</item>
-    </string-array>
-    <string-array name="region_global_support_face_sensetime">
-        <item>IN</item>
-        <item>ID</item>
-        <item>HK</item>
-        <item>TW</item>
-        <item>SG</item>
-        <item>VN</item>
-        <item>MY</item>
-    </string-array>
-    <string-array name="device_support_face">
-        <item>jason</item>
-        <item>polaris</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>whyred</item>
-        <item>nitrogen</item>
-        <item>wayne</item>
-        <item>ysl</item>
-        <item>sakura</item>
-        <item>clover</item>
-        <item>dipper</item>
-        <item>sirius</item>
-        <item>ursa</item>
+    <string-array name="device_support_pickup_by_MTK">
         <item>cactus</item>
         <item>cereus</item>
-        <item>gemini</item>
-        <item>platina</item>
-        <item>capricorn</item>
-        <item>equuleus</item>
-        <item>natrium</item>
-        <item>vince</item>
-        <item>perseus</item>
-    </string-array>
-    <string-array name="device_global_support_face_facejiajia">
-        <item>whyred</item>
-        <item>polaris</item>
-        <item>ysl</item>
-    </string-array>
-    <string-array name="device_global_support_face_sensetime">
-        <item>dipper</item>
-        <item>beryllium</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>nitrogen</item>
-        <item>platina</item>
-        <item>vince</item>
-        <item>tulip</item>
-        <item>sakura_india</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-    </string-array>
-    <string-array name="device_use_cameraone">
-        <item>jason</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>whyred</item>
-        <item>nitrogen</item>
-        <item>wayne</item>
-        <item>ysl</item>
-        <item>sakura</item>
-        <item>clover</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>gemini</item>
-        <item>platina</item>
-        <item>capricorn</item>
-        <item>vince</item>
-        <item>tulip</item>
-        <item>natrium</item>
-        <item>sakura_india</item>
-    </string-array>
-    <string-array name="device_use_cameratwo">
-        <item>polaris</item>
-        <item>dipper</item>
-        <item>sirius</item>
-        <item>ursa</item>
-        <item>beryllium</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-    </string-array>
-    <string-array name="device_support_pickup_by_xiaomi">
-        <item>polaris</item>
-        <item>dipper</item>
-        <item>sirius</item>
-        <item>ursa</item>
-        <item>beryllium</item>
-        <item>perseus</item>
-        <item>equuleus</item>
-    </string-array>
-    <string-array name="device_support_new_pickup_by_xiaomi">
-        <item>jason</item>
-        <item>nitrogen</item>
-        <item>platina</item>
+        <item>lotus</item>
     </string-array>
     <string-array name="device_support_screen_on_delayed">
         <item>dipper</item>
@@ -1191,6 +1085,13 @@
         <item>nitrogen</item>
         <item>whyred</item>
         <item>equuleus</item>
+        <item>perseus</item>
+        <item>platina</item>
+        <item>beryllium</item>
+        <item>capricorn</item>
+        <item>natrium</item>
+        <item>jason</item>
+        <item>sirius</item>
     </string-array>
     <string-array name="lockscreen_sc_slide_not_open_camera">
         <item>com.android.camera</item>
@@ -1212,6 +1113,24 @@
         <item>CT</item>
         <item>SMC HK</item>
     </string-array>
+    <string-array name="data_type_name_default">
+        <item></item>
+        <item></item>
+        <item>E</item>
+        <item>3G</item>
+        <item>H</item>
+        <item>H+</item>
+        <item>4G</item>
+        <item>4G+</item>
+    </string-array>
+    <array name="data_type_name_cus_reg_key" />
+    <array name="data_type_name_cus_reg_value" />
+    <array name="data_type_name_mcc_key" />
+    <array name="data_type_name_mcc_value" />
+    <array name="data_type_name_mcc_mnc_key" />
+    <array name="data_type_name_mcc_mnc_value" />
+    <array name="data_type_name_miui_mcc_key" />
+    <array name="data_type_name_miui_mcc_value" />
     <string-array name="usa_mcc">
         <item>310</item>
         <item>311</item>

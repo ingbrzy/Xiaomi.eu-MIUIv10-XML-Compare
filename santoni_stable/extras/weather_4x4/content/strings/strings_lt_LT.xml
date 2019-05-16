@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_format">MMMM d, EEEE</string>
+    <string name="weather_null">Bakstelėkite, kad gautumėte orų informaciją</string>
+    <string name="date_format">EEEE, MMMM d</string>
     <string name="today">Šiandien</string>
     <string name="tomorrow">Rytoj</string>
     <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>

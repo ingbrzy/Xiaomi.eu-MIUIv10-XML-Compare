@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_format">EEEE, d MMMM</string>
+    <string name="weather_null">ရာသီဥတု အချက်အလက် ရယူရန် ထိနှိပ်ပါ</string>
+    <string name="date_format">EEEE, MMMM d</string>
     <string name="today">ယနေ့</string>
     <string name="tomorrow">မနက်ဖြန်</string>
     <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>

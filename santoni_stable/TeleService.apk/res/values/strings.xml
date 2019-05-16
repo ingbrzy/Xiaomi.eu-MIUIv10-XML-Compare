@@ -144,24 +144,7 @@
   <string name="auto_redial_pref_title">Redial automatically</string>
   <string name="auto_retry_mode_summary">Retry automatically</string>
   <string name="auto_retry_mode_title">Auto-retry</string>
-  <string name="autoip">Auto IP dialing</string>
-  <string name="autoip_add_zero_prefix">Add 0 prefix for mobile</string>
-  <string name="autoip_areacode_required">Area code required</string>
-  <string name="autoip_areacode_required_accept">OK</string>
   <string name="autoip_areacode_required_for_emergency_number">Local area code required for emergency calls</string>
-  <string name="autoip_autoip_current_areacode_summary">Current area code is %s</string>
-  <string name="autoip_current_areacode">Current area code</string>
-  <string name="autoip_current_areacode_summary">"Current location's area code"</string>
-  <string name="autoip_exception">"Numbers that don't need IP prefix"</string>
-  <string name="autoip_exception_summary">%d total</string>
-  <string name="autoip_exception_summary_more">, %d total</string>
-  <string name="autoip_no_exceptions">"Add numbers that don't require an IP prefix"</string>
-  <string name="autoip_phone">Auto IP dialing</string>
-  <string name="autoip_prefix">IP prefix</string>
-  <string name="autoip_prefix_summary">"Carrier's IP prefix is %s"</string>
-  <string name="autoip_setting">Automatic IP settings</string>
-  <string name="autoip_summary">Add an IP prefix for international numbers</string>
-  <string name="autoip_support_local_numbers">Always use IP prefix</string>
   <string name="available_via_passpoint">Available via %1$s</string>
   <string name="back">Back</string>
   <string name="badPin">"The old PIN you entered isn't correct. Try again."</string>
@@ -645,7 +628,7 @@
   <string name="dtmf_tone_entries_normal">Normal</string>
   <string name="dtmf_tones_summary">Set the length of DTMF tones</string>
   <string name="dtmf_tones_title">DTMF tones</string>
-  <string name="dual_4g_switch_summary">Allow 4G connectivity for both SIM slots.</string>
+  <string name="dual_4g_switch_summary">Allow 4G connectivity for both SIM slots</string>
   <string name="dual_4g_switch_title">Dual 4G</string>
   <string name="duration_disable_summary">Display duration is OFF</string>
   <string name="duration_enable_summary">Display duration is ON</string>
@@ -744,7 +727,7 @@
   <string name="fdn_list_with_label">FDN list (%s)</string>
   <string name="fdn_summary">Restrict outgoing calls to listed FDNs or to numbers with certain prefixes</string>
   <string name="fdn_with_label">Fixed Dialing Numbers (%s)</string>
-  <string name="flash_when_ring_summary">Flash notification light for incoming calls</string>
+  <string name="flash_when_ring_summary">Use flash to notify about incoming calls</string>
   <string name="flash_when_ring_title">Flash when ringing</string>
   <string name="force_allow_on_external">Force allow apps on external</string>
   <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
@@ -768,8 +751,8 @@ Switch to the new provider anyway?"</string>
   <string name="goPrivate">go private</string>
   <string name="go_to_virtual_sim_title">Virtual SIM</string>
   <string name="got_it">OK</string>
-  <string name="gsm_umts_network_preferences_dialogtitle">Network Mode</string>
-  <string name="gsm_umts_network_preferences_title">Network Mode</string>
+  <string name="gsm_umts_network_preferences_dialogtitle">Network mode</string>
+  <string name="gsm_umts_network_preferences_title">Network mode</string>
   <string name="gsm_umts_options">GSM/UMTS options</string>
   <string name="hac_mode_summary">Turn on hearing aid compatibility</string>
   <string name="hac_mode_title">Hearing aids</string>
@@ -911,7 +894,7 @@ Switch to the new provider anyway?"</string>
   <string name="missed_call_notify_once">1 time</string>
   <string name="missed_call_notify_ten_times">10 times</string>
   <string name="missed_call_notify_thrice">3 times</string>
-  <string name="missed_call_notify_times_summary">reminders are separated by 5 minute intervals</string>
+  <string name="missed_call_notify_times_summary">Reminders are separated by 5 minute intervals</string>
   <string name="missed_call_notify_times_title">Missed call reminders</string>
   <string name="missed_call_notify_twice">2 times</string>
   <string name="miui_network_selection_reset_text">Reset</string>
@@ -1087,7 +1070,6 @@ Try again or call customer service for more options."</string>
   <string name="path_app_name">System apps/Phone</string>
   <string name="path_auto_answer_pref_title">System apps/Phone/Auto-answer</string>
   <string name="path_auto_retry_mode_title">System apps/Phone/Advanced settings/Auto-retry</string>
-  <string name="path_autoip">System apps/Phone/Advanced settings/Auto IP dialing</string>
   <string name="path_call_advanced_settings_title">System apps/Phone/Advanced settings</string>
   <string name="path_call_forwarding_settings">System apps/Phone/Call forwarding settings</string>
   <string name="path_call_record_auto_title">System apps/Phone/Call recording/Record calls automatically</string>
@@ -1209,10 +1191,14 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_evdo_only_summary">Preferred network mode: EvDo only</string>
   <string name="preferred_network_mode_global_choice">Global</string>
   <string name="preferred_network_mode_global_summary">Preferred network mode: Global</string>
+  <string name="preferred_network_mode_gsm_only">GSM only</string>
   <string name="preferred_network_mode_gsm_only_choice">GSM only</string>
   <string name="preferred_network_mode_gsm_only_summary">Preferred network mode: GSM only</string>
+  <string name="preferred_network_mode_gsm_wcdma_auto">GSM/WCDMA auto</string>
   <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA auto</string>
+  <string name="preferred_network_mode_gsm_wcdma_lte">GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
+  <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA preferred</string>
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA preferred</string>
   <string name="preferred_network_mode_gsm_wcdma_summary">Preferred network mode: GSM / WCDMA</string>
   <string name="preferred_network_mode_lte_cdma_evdo_summary">Preferred network mode: CDMA+LTE/EVDO</string>
@@ -1220,6 +1206,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_lte_choice">LTE</string>
   <string name="preferred_network_mode_lte_gsm_umts_summary">Preferred network mode: LTE / GSM / UMTS</string>
   <string name="preferred_network_mode_lte_gsm_wcdma_summary">Preferred network mode: GSM/WCDMA/LTE</string>
+  <string name="preferred_network_mode_lte_only">LTE only</string>
   <string name="preferred_network_mode_lte_summary">Preferred network mode: LTE</string>
   <string name="preferred_network_mode_lte_tdscdma_cdma_evdo_gsm_wcdma_summary">Preferred network mode: LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
   <string name="preferred_network_mode_lte_tdscdma_gsm_summary">Preferred network mode: LTE/GSM/TDSCDMA</string>
@@ -1231,13 +1218,16 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_summary">Change the network operating mode</string>
   <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
   <string name="preferred_network_mode_td_scdma_gsm_lte_choice">TD-SCDMA/GSM/LTE</string>
+  <string name="preferred_network_mode_td_scdma_gsm_wcdma">TD-SCDMA/GSM/WCDMA</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/GSM/WCDMA/CDMA/EVDO</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_choice">TD-SCDMA/GSM/WCDMA</string>
+  <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte">TD-SCDMA/GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">TD-SCDMA/GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_lte_choice">TD-SCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/LTE/GSM/WCDMA/CDMA/EVDO</string>
   <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA only</string>
   <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA/WCDMA</string>
+  <string name="preferred_network_mode_td_scdma_wcdma_lte">TD-SCDMA/WCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_wcdma_lte_choice">TD-SCDMA/WCDMA/LTE</string>
   <string name="preferred_network_mode_tdscdma_cdma_evdo_gsm_wcdma_summary">Preferred network mode: TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
   <string name="preferred_network_mode_tdscdma_gsm_summary">Preferred network mode: TDSCDMA / GSM</string>
@@ -1245,6 +1235,8 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_mode_tdscdma_summary">Preferred network mode: TDSCDMA</string>
   <string name="preferred_network_mode_tdscdma_wcdma_summary">Preferred network mode: TDSCDMA / WCDMA</string>
   <string name="preferred_network_mode_title">Preferred network type</string>
+  <string name="preferred_network_mode_wcdma_lte">WCDMA/LTE</string>
+  <string name="preferred_network_mode_wcdma_only">WCDMA only</string>
   <string name="preferred_network_mode_wcdma_only_choice">WCDMA only</string>
   <string name="preferred_network_mode_wcdma_only_summary">Preferred network mode: WCDMA only</string>
   <string name="preferred_network_mode_wcdma_perf_summary">Preferred network mode: WCDMA preferred</string>
@@ -1321,7 +1313,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="respond_via_sms_canned_response_2">"I'll call you right back."</string>
   <string name="respond_via_sms_canned_response_3">"I'll call you later."</string>
   <string name="respond_via_sms_canned_response_4">"Can't talk now. What's up?"</string>
-  <string name="respond_via_sms_cannot_empty">Reject messages can not be empty</string>
+  <string name="respond_via_sms_cannot_empty">"Message can't be empty"</string>
   <string name="respond_via_sms_confirmation_format">Message sent to %s.</string>
   <string name="respond_via_sms_edittext_dialog_title">Quick response</string>
   <string name="respond_via_sms_menu_reset_default_activity">Restore defaults</string>
@@ -1364,7 +1356,6 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="search_app_name">Phone;Call recording;Redirect calls;redirection;Call waiting;Blocklist;Country code;Area code;Country codes;Area codes;Record calls;Record call;Dial pad;Call;Calls;Telephony;VoIP;VoLTE;Missed call;Missed calls;SIP;T9;IP Telephony;FDN</string>
   <string name="search_auto_answer_pref_title">@string/auto_answer_pref_title</string>
   <string name="search_auto_retry_mode_title">@string/auto_retry_mode_title</string>
-  <string name="search_autoip_phone">@string/autoip_phone</string>
   <string name="search_call_forwarding_settings">@string/call_forwarding_settings</string>
   <string name="search_call_record_auto_title">@string/call_record_auto_title</string>
   <string name="search_call_record_setting">@string/call_record_setting</string>
@@ -1449,6 +1440,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="sim_service_setting">Mi SIM &amp; Mi Roaming</string>
   <string name="simulate_color_space">Simulate color space</string>
   <string name="singleContactImportedMsg">Imported contact</string>
+  <string name="sip_account_disable">"The account isn't active. Can't accept calls."</string>
   <string name="sip_account_list">SIP accounts</string>
   <string name="sip_accounts">SIP accounts</string>
   <string name="sip_accounts_title">Accounts</string>
@@ -1469,6 +1461,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="sip_menu_discard">Discard</string>
   <string name="sip_menu_save">Save</string>
   <string name="sip_profile_create_error">"Couldn't create a new SIP profile"</string>
+  <string name="sip_receive_call_disable">"Can't accept calls. Allow accepting calls first."</string>
   <string name="sip_receive_calls">Receive incoming calls</string>
   <string name="sip_receive_calls_summary">Uses more battery life</string>
   <string name="sip_save_register_error">"Couldn't register and save a new SIP profile"</string>
@@ -1626,7 +1619,7 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="tty_mode_option_title">TTY mode</string>
   <string name="turn_off_dual_4g_failed">"Couldn't turn off Dual 4G."</string>
   <string name="turn_on_dual_4g_failed">"Couldn't turn on Dual 4G."</string>
-  <string name="turnover_mute_summary">When phone is on a horizontal surface with screen facing up, flip it over to silence ringer.</string>
+  <string name="turnover_mute_summary">When phone is on a horizontal surface with screen facing up, flip it over to silence ringer, turn off vibration, and stop flashing notification light.</string>
   <string name="turnover_mute_title">Flip to silence ringer</string>
   <string name="ui_default_package">com.android.dialer</string>
   <string name="undefined">None</string>
@@ -1715,6 +1708,16 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
   <string name="volte_switch_title">VoLTE enabled</string>
   <string name="volte_switch_title_ct">VoLTE enabled</string>
   <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with VoLTE network coverage. VoLTE services are provided by the carrier.</string>
+  <string name="vowifi_emergency_notification_channel">WLAN Calling emergency warning</string>
+  <string name="vowifi_emergency_notification_content">Emergency calls are possible in areas with mobile network coverage</string>
+  <string name="vowifi_emergency_notification_title">Vodafone WLAN Calling</string>
+  <string name="vowifi_emergency_warning_check">"Don't show again"</string>
+  <string name="vowifi_emergency_warning_message">"WLAN Calling can't be used for emergency calls.
+
+Your device will automatically switch to a mobile network (2G/3G) to place an emergency call.
+
+Emergency calls are only possible in areas with mobile network coverage."</string>
+  <string name="vowifi_emergency_warning_title">Emergency calls via WLAN Calling</string>
   <string name="vpn_settings_not_available">VPN settings are not available for this user</string>
   <string name="vvm_unsupported_message_format">Unsupported message type, call %s to listen.</string>
   <string name="wait_for_debugger">Wait for debugger</string>
@@ -1730,6 +1733,8 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
   <string name="wifi_allow_scan_with_traffic_summary">Allow/Disallow WLAN Roam Scans based on the amount of data traffic present at the interface</string>
   <string name="wifi_auth_password_wrong">Password may be incorrect</string>
   <string name="wifi_call_setting">WLAN calls</string>
+  <string name="wifi_call_setting_vodafone_de">WLAN calling</string>
+  <string name="wifi_call_setting_vodafone_uk">WLAN call</string>
   <string name="wifi_calling">WLAN calling</string>
   <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
   <string name="wifi_connected_no_internet">Connected, no Internet</string>
@@ -1765,7 +1770,7 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
   <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
   <string name="wifi_verbose_logging">Enable WLAN Verbose Logging</string>
   <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show per SSID RSSI in WLAN Picker</string>
-  <string name="wificall_switch_summary">Your device will switch between WLAN and VoLTE when connection is poor</string>
+  <string name="wificall_switch_summary">Use WLAN to make and receive calls whenever possible</string>
   <string name="wificall_switch_title">Make calls using WLAN</string>
   <string name="wild_prompt_str">Replace wild character with</string>
   <string name="window_animation_scale_title">Window animation scale</string>

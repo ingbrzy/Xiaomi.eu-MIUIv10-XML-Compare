@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="antispam_local_marked">Marked locally</string>
-  <string name="antispam_marked_count">Reported by %1$d MIUI users</string>
   <string name="antispam_notification_title">Unknown number</string>
   <string name="antispam_provider">Identified by %s</string>
   <string name="callFailed_cb_enabled">"You can't make outgoing calls while call barring is on."</string>
@@ -33,6 +32,7 @@
   <string name="call_button_tools_text">Features</string>
   <string name="call_contacts_deny_permission_msg">"You denied read contacts permission, can't show contacts info."</string>
   <string name="call_description_recording">Recording…</string>
+  <string name="call_not_support_high_frequency_click">"Don't tap this button so frequently"</string>
   <string name="call_record_wait_label">Waiting</string>
   <string name="call_recording_deny_permission_msg">"You denied record permission, can't record."</string>
   <string name="call_recording_error_low_storage">Not enough space on storage.</string>
@@ -46,7 +46,6 @@
   <string name="call_recording_notification_message_sd_unmounted">SD card has been removed.</string>
   <string name="call_recording_notification_title">Call recorded</string>
   <string name="call_recording_notification_title_error">"Couldn't record call"</string>
-  <string name="call_title_redialing_with_times">Redialed %d times</string>
   <string name="caller_manage_header">Conference call %s</string>
   <string name="can_not_use">"Can't use"</string>
   <string name="cancel">Cancel</string>
@@ -77,7 +76,6 @@
   <string name="close_camera_failed">"Couldn't turn off camera…"</string>
   <string name="close_camera_requesting">Turning off camera…</string>
   <string name="conference_call_description" formatted="false">%s,%s etc. total %s</string>
-  <string name="conference_call_number">%s people</string>
   <string name="conference_call_recorder_title">Conference call</string>
   <string name="conference_call_single_description" formatted="false">%s etc. total %s</string>
   <string name="conference_caller_info_name">"%1$s's conference call"</string>
@@ -128,7 +126,7 @@
   <string name="dialpad_zero">0</string>
   <string name="do_not_support_video_calls_by_remote">"Video calls aren't supported on the other device"</string>
   <string name="emergency_call_dialog_number_for_display">Emergency number</string>
-  <string name="inCallLabel">InCallUI</string>
+  <string name="inCallLabel">Phone</string>
   <string name="incall_call_type_label_sip">Internet call</string>
   <string name="incall_error_supp_service_conference">"Can't use conference call."</string>
   <string name="incall_error_supp_service_hangup">"Can't hang up call."</string>
@@ -198,6 +196,7 @@
   <string name="sim1_description">SIM1</string>
   <string name="sim2_description">SIM2</string>
   <string name="sip_call_not_support_record">"Can't record SIP calls"</string>
+  <string name="supp_service_notification_call_waiting">The number you dialed is busy. Please hold…</string>
   <string name="suspect_info">Be careful with your personal information.</string>
   <string name="unknown">Unknown</string>
   <string name="unlock_phone">Unlock device</string>
@@ -206,6 +205,7 @@
   <string name="video_conference_caller_info_name">"%1$s's video conference call"</string>
   <string name="video_crbt_title">"The other party's video ringback tone is playing"</string>
   <string name="voicemail">Voicemail</string>
+  <string name="volume_boost_text">Boosted volume successfully</string>
   <string name="wait_prompt_str">"Send the following tones?
 "</string>
   <string name="waiting_close_airplane_mode">Just a sec…</string>

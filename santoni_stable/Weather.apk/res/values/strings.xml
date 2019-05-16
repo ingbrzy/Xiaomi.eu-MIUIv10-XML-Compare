@@ -6,6 +6,7 @@
   <string name="act_find_city_hint">Enter location</string>
   <string name="act_find_city_hot_attractions_title">Popular sites</string>
   <string name="act_find_city_hot_city_title">Popular cities</string>
+  <string name="act_location_error_to_find_city">"Couldn't get location info. You can add a city manually."</string>
   <string name="act_set_city_find_side">Locating</string>
   <string name="act_set_city_find_side_error">"Can't locate device"</string>
   <string name="act_weather_find_city_added">Added</string>
@@ -15,11 +16,14 @@
   <string name="act_weather_find_city_searching">Searching…</string>
   <string name="activity_alert_detail_title"/>
   <string name="activity_find_city_dialog_cancel">Cancel</string>
-  <string name="activity_find_city_dialog_message">Let Weather view your location</string>
+  <string name="activity_find_city_dialog_message">Allow Weather to access your location to get accurate location info.</string>
+  <string name="activity_find_city_dialog_message_global">Turn on location services and allow your device to determine location using wireless networks.</string>
+  <string name="activity_find_city_dialog_message_location_service">To get relevant weather info, allow Weather to access your location.</string>
   <string name="activity_find_city_dialog_set">Settings</string>
   <string name="activity_find_city_dialog_title">Location access</string>
   <string name="activity_main_clickable">&gt;</string>
   <string name="activity_main_one_alert"/>
+  <string name="activity_main_pub_time">Published at %1$s</string>
   <string name="activity_main_time_format">E</string>
   <string name="activity_main_update_time">Updated %1$s</string>
   <string name="activity_main_update_time_expire">Data expired</string>
@@ -35,6 +39,7 @@
   <string name="aqi_detail_24_hours">24-hour forecast</string>
   <string name="aqi_detail_5_days">5-day forecast</string>
   <string name="aqi_detail_co">CO</string>
+  <string name="aqi_detail_co_unit">Unit: mg/m³</string>
   <string name="aqi_detail_no2">NO₂</string>
   <string name="aqi_detail_o3">O₃</string>
   <string name="aqi_detail_pm10">PM10</string>
@@ -43,6 +48,8 @@
   <string name="aqi_detail_title">Air Quality Index</string>
   <string name="aqi_detail_unit">Unit: µg/m³</string>
   <string name="aqi_fifteen_dates_time_format">M/d</string>
+  <string name="aqi_first_sub_desc_locate">Station: %1$s (%2$s away)</string>
+  <string name="aqi_first_sub_desc_no_locate">Average AQI in %1$s</string>
   <string name="aqi_publish_time">Updated %1$s</string>
   <string name="aqi_quality_ambient_air_quality">Air quality nearby</string>
   <string name="aqi_quality_co_desc">Carbon monoxide</string>
@@ -84,7 +91,7 @@
   <string name="content_desc_activity_main_more_settings">More settings</string>
   <string name="content_desc_back_button">Back</string>
   <string name="content_desc_city_manage_del">Delete</string>
-  <string name="content_desc_city_manage_edit">Manage cities</string>
+  <string name="content_desc_city_manage_edit">Edit</string>
   <string name="content_desc_close_button">Close</string>
   <string name="daily_forcast_no_stable_direction">Breeze</string>
   <string name="daily_forcast_no_wind">0</string>
@@ -101,19 +108,25 @@
   <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
   <string name="daily_forecast_no_data">"Couldn't get weather info
 Pull down to refresh or check the network settings"</string>
-  <string name="data_provided_by">Data provided by</string>
+  <string name="data_provided_by">Data provided in part by</string>
   <string name="data_source_time_fromat">"yyyy-MM-dd'T'HH:mm:ssz"</string>
   <string name="data_source_timezone">GMT%1$s</string>
-  <string name="edit_city">Manage city</string>
+  <string name="edit_city">Manage cities</string>
   <string name="empty">" "</string>
+  <string name="empty_view_net_loading">Updating…</string>
+  <string name="empty_view_net_unavailable">"Couldn't connect to the network"</string>
+  <string name="empty_view_refresh">Try again</string>
   <string name="eu_region_version_first_start_network_msg">"By using this product, you agree that this product will connect the network, collect, process, and use you personal information, including the coordinates of the cities you search, and other types of data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we collect and process information. By tapping \"Agree\", you agree to Xiaomi's %1$s and %2$s."</string>
-  <string name="feedback_heavy_rain">Heavy rain</string>
-  <string name="feedback_heavy_snow">Snow</string>
-  <string name="feedback_light_rain">Light rain</string>
+  <string name="feedback_cloudy">Cloudy</string>
+  <string name="feedback_foggy">Foggy</string>
+  <string name="feedback_haze">Haze</string>
+  <string name="feedback_moderate_rain">Rain</string>
+  <string name="feedback_moderate_snow">Snow</string>
   <string name="feedback_overcast">Overcast</string>
+  <string name="feedback_report_privacy_msg">Report will contain your location info</string>
   <string name="feedback_result_fail_no_choice">Choose the current weather conditions</string>
   <string name="feedback_result_success">Submitted successfully, thank you for your feedback.</string>
-  <string name="feedback_sand">Sand</string>
+  <string name="feedback_sandy">Sandy</string>
   <string name="feedback_sunny">Clear</string>
   <string name="first_start_network_title">Internet connection and location access</string>
   <string name="global_aqi">AQI: %1$s %2$s</string>
@@ -124,12 +137,14 @@ Pull down to refresh or check the network settings"</string>
   <string name="hourly_forecast_date">M/d</string>
   <string name="hourly_forecast_title_24_hours_desc">24-hour forecast</string>
   <string name="hourly_forecast_title_hourly_desc">Hourly forecast</string>
+  <string name="index_item_downloading">Downloading</string>
   <string name="index_item_experience_now">Install now</string>
   <string name="index_item_install_dialog"/>
   <string name="index_item_install_dialog_cancel"/>
   <string name="index_item_install_dialog_open"/>
   <string name="index_item_install_now">Install now</string>
   <string name="index_item_installing">Installing</string>
+  <string name="index_item_installing2">Installing</string>
   <string name="indices_desc_humidity">Humidity %1$s%%</string>
   <string name="indices_desc_humidity_without_pic">%1$s%%</string>
   <string name="indices_desc_pressure">%1$smb</string>
@@ -139,7 +154,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="install">Install</string>
   <string name="install_progress">%1$s%%</string>
   <string name="international_details_pressure_title">PRESSURE</string>
-  <string name="international_details_real_feel_title">REAL FEEL®</string>
+  <string name="international_details_real_feel_title">@string/indices_title_feel</string>
   <string name="international_details_title">Details</string>
   <string name="international_details_uv_index_title">UV INDEX</string>
   <string name="international_details_wind_connect">%1$s %2$s</string>
@@ -147,6 +162,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="it_is_going_to_rain">"It's going to rain"</string>
   <string name="locate_fail_detail_err">"Can't locate device
 Tap the screen to manually add or reposition city"</string>
+  <string name="location_provider_btn_text">Turn on location services</string>
   <string name="location_tag">Locate</string>
   <string name="menu_location">Locations</string>
   <string name="menu_speaker">Voice broadcast</string>
@@ -171,7 +187,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="no_data">No data</string>
   <string name="no_network_btn">Try again</string>
   <string name="no_vote_ratio">Against %1$s%%</string>
-  <string name="open">Open</string>
+  <string name="open">Open now</string>
   <string name="open_browser">Open in browser</string>
   <string name="open_now">Open</string>
   <string name="other_settings">Other settings</string>
@@ -179,6 +195,14 @@ Tap the screen to manually add or reposition city"</string>
   <string name="particulate_matter_exceeded">High</string>
   <string name="particulate_matter_not_exceeded">Normal</string>
   <string name="particulate_matter_serious_exceeded">Too high</string>
+  <string name="permission_device_info">Device info</string>
+  <string name="permission_device_introduce">For recognizing device ID based on device model and IMEI, and providing localized services based on language preferences</string>
+  <string name="permission_exit">Exit</string>
+  <string name="permission_privacy">Privacy Policy (mandatory)</string>
+  <string name="permission_select_all">Select all</string>
+  <string name="permission_storage">Storage</string>
+  <string name="permission_storage_introduce">For accessing items on device and saving files</string>
+  <string name="permission_user_protocol">User Agreement (mandatory)</string>
   <string name="policy_settings">Terms and conditions</string>
   <string name="precipitation_degree_five">Heavy</string>
   <string name="precipitation_degree_four">Strong</string>
@@ -196,6 +220,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="pull_fresh_updated">Updated successfully</string>
   <string name="pull_fresh_updating">Updating…</string>
   <string name="radar_cloud_image_title">Radar map</string>
+  <string name="radar_cloud_update_time">Before %1$s</string>
   <string name="rainfall_settings_summary">Rainfall alerts</string>
   <string name="rainfall_settings_title">Rainfall</string>
   <string name="real_time_sunrise">Sunrise %1$s</string>
@@ -210,9 +235,9 @@ Tap the screen to manually add or reposition city"</string>
   <string name="retry">Try again</string>
   <string name="search_weather">Weather</string>
   <string name="search_weather_keywords">Temperature;Weather Forecast;Weather;Air Quality;Pollution Degree;Humidity</string>
-  <string name="set">Settings</string>
   <string name="set_degree_centigrade">°C</string>
   <string name="set_fahrenheit">°F</string>
+  <string name="settings">Settings</string>
   <string name="share">Share</string>
   <string name="share_button">Share</string>
   <string name="share_menu_title">Share</string>
@@ -238,6 +263,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="traffic_control_today_numbers">Today: %1$s</string>
   <string name="traffic_control_tomorrow_numbers">Tomorrow: %1$s</string>
   <string name="traffic_controls">Road space rationing</string>
+  <string name="translate_notification_info">Translating in the background…</string>
   <string name="tts_report_aqi"/>
   <string name="tts_report_defautl_head"/>
   <string name="tts_report_split"/>
@@ -253,6 +279,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="unit_wind">Wind speed units</string>
   <string name="update_night_setting_summary_text">Update weather info between 23:00 and 07:00</string>
   <string name="update_night_setting_title_text">Update at night automatically</string>
+  <string name="update_notification_info">Updating data in the background…</string>
   <string name="update_setting_title_text">Update weather info</string>
   <string name="updated_a_moment_ago">Updated a moment ago</string>
   <string name="updating">Updating…</string>
@@ -264,6 +291,10 @@ Tap the screen to manually add or reposition city"</string>
   <string name="view_forecast_item_yesterday">Yesterday</string>
   <string name="view_indexes_item_today">Today</string>
   <string name="view_indexes_item_tommorrow">Tomorrow</string>
+  <string name="weather_alert_channel_name">Alerts</string>
+  <string name="weather_introduce">Always with you, rain or shine.</string>
+  <string name="weather_permission_agree">Accept</string>
+  <string name="weather_service_channel_name">Background services</string>
   <string name="wind_direction_no_data">Wind</string>
   <string name="wind_power_unit_default">0</string>
   <string name="wind_unit">%1$skm/h</string>

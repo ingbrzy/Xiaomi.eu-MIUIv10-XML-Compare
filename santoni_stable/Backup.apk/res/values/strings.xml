@@ -73,6 +73,7 @@
   <string name="cancel_moving_dialog_message">Stop importing now?</string>
   <string name="cancel_moving_dialog_title">Stop importing</string>
   <string name="cancel_restore">Stop</string>
+  <string name="click_soft_ap_to_link">Select a hotspot to connect</string>
   <string name="click_to_view">Tap to view</string>
   <string name="close_twice_auth_btn">Turn off two-factor authentication</string>
   <string name="close_twice_auth_note">"Note:
@@ -99,6 +100,11 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="comma_seperator">", "</string>
   <string name="compute_backup_info">Getting backup info…</string>
   <string name="compute_delete_contact_info">Getting info…</string>
+  <string name="confirm_exit_link">Leave</string>
+  <string name="confirm_exit_link_cancel">"Don't leave"</string>
+  <string name="confirm_exit_link_msg">"Leaving the app now will interrupt the ongoing transfer. You'll have to establish connection between the two devices again. Leave the app anyway?"</string>
+  <string name="confirm_exit_link_title">Interrupting the transfer</string>
+  <string name="connect_soft_ap_label">Connecting to new device…</string>
   <string name="connect_wifi">Connect to WLAN</string>
   <string name="connect_wifi_tip">"Couldn't connect to the network. Connect to WLAN to import items from iCloud."</string>
   <string name="contact_title">Contacts</string>
@@ -134,6 +140,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="err_binder_died">App stopped unexpectedly.</string>
   <string name="err_filesystem_mount">"Can't access router storage"</string>
   <string name="err_low_storage">Not enough space</string>
+  <string name="err_no_gms">Incompatible app version. Install this app separately</string>
   <string name="err_not_allow">Not supported</string>
   <string name="err_pkg_not_exist">"Couldn't find app."</string>
   <string name="err_router_disconnected">"Check your router's connection and try again."</string>
@@ -271,6 +278,8 @@ you should create an iCloud backup first."</string>
   <string name="notif_trans_sending_completed">Data sent successfully</string>
   <string name="notif_trans_sending_failed">"Couldn't send data"</string>
   <string name="notif_trans_wait_for_reconnecting">Connection was interrupted. Connect again.</string>
+  <string name="old_soft_name">Connect via QR code</string>
+  <string name="old_way">You can also connect using a QR code. Tap to generate the code.</string>
   <string name="page_loading">Just a sec…</string>
   <string name="password">Password</string>
   <string name="password_null">"Password can't be empty"</string>
@@ -293,6 +302,7 @@ you should create an iCloud backup first."</string>
   <string name="prompt_writing">Saving…</string>
   <string name="read_encrypt_fail">"Couldn't read encrypted backup"</string>
   <string name="reconnect">Connect again</string>
+  <string name="recreate_soft_ap_tips">Tap the button below to try again.</string>
   <string name="refresh">Refresh</string>
   <string name="remote_receive">Receive</string>
   <string name="restore">Restore</string>
@@ -328,6 +338,8 @@ Free up at least %s."</string>
   <string name="sc_service_unavailable">Mi Cloud unavailable</string>
   <string name="sc_unaccess_password_file">"Can't find WLAN network password"</string>
   <string name="sc_unauthorized">Sign in again</string>
+  <string name="scan_soft_ap">Searching for the new device…</string>
+  <string name="scan_soft_ap_label">Connect to the old device</string>
   <string name="sd_not_available">Insert SD card now</string>
   <string name="sdcard_no_enough_space">Not enough space</string>
   <string name="sdcard_no_enough_space_message">"There's not enough storage space on your SD card."</string>
@@ -351,6 +363,8 @@ Free up at least %s."</string>
   <string name="size_kilo_byte">KB</string>
   <string name="size_mega_byte">MB</string>
   <string name="sms_title">Messaging</string>
+  <string name="soft_ap_create_failed">"Couldn't create hotspot"</string>
+  <string name="soft_ap_creating">Creating hotspot…</string>
   <string name="software_backup_info">App data</string>
   <string name="start_backup">Back up</string>
   <string name="start_restore">Restore</string>
@@ -404,7 +418,6 @@ Free up at least %s."</string>
   <string name="trans_calculating_media_description">Media files</string>
   <string name="trans_calculating_tip">Calculating %s…</string>
   <string name="trans_cancel_confirm">Transfer in progress, stop now?</string>
-  <string name="trans_cancel_dialog_survey_title">Why did you interrupt the transfer?</string>
   <string name="trans_cancel_selection_message">If you exit Mi Mover, the ongoing transfer will be interrupted. Wait until the transfer is complete.</string>
   <string name="trans_cancel_selection_title">Stay in Mi Mover</string>
   <string name="trans_cancelling">Canceling…</string>
@@ -429,8 +442,11 @@ Free up at least %s."</string>
   <string name="trans_detail_category_userdata">Apps</string>
   <string name="trans_detail_category_wechat_qq">WeChat and QQ data (including chat history)</string>
   <string name="trans_detail_item_app_data_selected_tip">Selected corresponding apps as well.</string>
+  <string name="trans_detail_item_app_data_skip_data">"Can't transfer app data"</string>
   <string name="trans_detail_item_app_data_too_large_tip">Looks like the item is too big to transfer.</string>
-  <string name="trans_detail_list_footer">Note: You can choose to transfer apps separately. However, if you select app data, corresponding apps will be transfered as well.</string>
+  <string name="trans_detail_list_footer">"1. You can select individual apps you want to transfer.
+2. If you select app data, corresponding apps will be selected as well.
+3. WeChat and QQ app data might not be transferred due to compatibility issues. You can try in-app transfer features."</string>
   <string name="trans_detail_page_tip">The more items you select the longer the transfer will last.</string>
   <string name="trans_detail_qq_data">QQ data (including chat history)</string>
   <string name="trans_detail_sys_data_list_title">System apps</string>
@@ -446,7 +462,7 @@ Free up at least %s."</string>
   <string name="trans_disconnected_tips_title">Remote device disconnected</string>
   <string name="trans_failed_details_page_title">Unsuccessful transfers</string>
   <string name="trans_generate_qr_code_failed">"Couldn't create QR code"</string>
-  <string name="trans_generate_qrcode_failed">"Couldn't generate QR code. Try again."</string>
+  <string name="trans_generate_qrcode_failed">"Couldn't generate QR code. Close other apps and try again."</string>
   <string name="trans_generating_qrcode">Generating QR code…</string>
   <string name="trans_install_guide_button_start">Start</string>
   <string name="trans_install_guide_page_title">Install Mi Mover on your old phone</string>
@@ -457,6 +473,7 @@ to download and install Mi Mover."</string>
   <string name="trans_install_guide_step2_content">After the installation is complete, tap \"Start\" below.</string>
   <string name="trans_install_guide_step2_title">Step 2</string>
   <string name="trans_intro_desc_1">"On a Mi phone, connect to WLAN and tap \"I'm a recipient\". Select your iOS device, sign in to iCloud, and import data."</string>
+  <string name="trans_intro_desc_10">Tap \"Connect via QR code\" on the new device and scan the QR code to establish connection.</string>
   <string name="trans_intro_desc_3">Cancel the transfer, exit Mi Mover, and start over. Duplicate files will be overwritten during the new transfer.</string>
   <string name="trans_intro_desc_4">"Mi Mover uses WLAN to transfer files. That's why you can't connect to the internet using WLAN on either device during a transfer. You can still use mobile data, though. However, some newer devices (for example, Mi 6) would still be able to connect to the internet using WLAN during transfers."</string>
   <string name="trans_intro_desc_4_market">"Mi Mover uses WLAN to transfer files. That's why you can't connect to the internet using WLAN on either device during a transfer. You can still use mobile data, though."</string>
@@ -471,6 +488,7 @@ to download and install Mi Mover."</string>
   <string name="trans_intro_desc_9_method_3_dec">"Mi Mover's QQ Group: 687338378"</string>
   <string name="trans_intro_desc_9_method_3_title">3. Report issues in QQ</string>
   <string name="trans_intro_desc_account">You have to sign in again to your accounts (e.g., Mi Account, Exchange, Google, etc.) on a new device due to security reasons.</string>
+  <string name="trans_intro_desc_gms">"Due to high probability of unsuccessful transfers caused by compatibility issues, Mi Mover doesn't support transferring the data generated by Google apps."</string>
   <string name="trans_intro_desc_multiapp">"Mi Mover doesn't transfer Dual apps data to avoid conflicts between files."</string>
   <string name="trans_intro_desc_multiuser">"Mi Mover can't access items in Second space. Move items to First space and launch Mi Mover there."</string>
   <string name="trans_intro_desc_new">"Tap \"I'm a recipient\". A QR code will be generated."</string>
@@ -478,6 +496,7 @@ to download and install Mi Mover."</string>
   <string name="trans_intro_desc_old_market">Tap \"Start\". Scan the QR code on the new phone, wait until Mi Mover figures out which files to send, and tap \"Send\".</string>
   <string name="trans_intro_desc_private">"Mi Mover can't access photos in the hidden album because they are encrypted. You can restore these photos from Mi Cloud on a new device."</string>
   <string name="trans_intro_question_1">%d. How do I use Mi Mover to move data from an iOS device?</string>
+  <string name="trans_intro_question_10">"%d. Can't find the hotspot on the old device?"</string>
   <string name="trans_intro_question_2">%d. How do I use Mi Mover to move data from an Android device?</string>
   <string name="trans_intro_question_3">%d. What should I do if Mi Mover got stuck on a certain step?</string>
   <string name="trans_intro_question_4">"%d. Why can't I use WLAN during transfers?"</string>
@@ -489,6 +508,7 @@ to download and install Mi Mover."</string>
   <string name="trans_intro_question_9_market">%d. Feedback.</string>
   <string name="trans_intro_title">FAQ</string>
   <string name="trans_intro_title_account">Accounts and passwords:</string>
+  <string name="trans_intro_title_gms">Data generated by Google apps:</string>
   <string name="trans_intro_title_multiapp">Dual apps data:</string>
   <string name="trans_intro_title_multiuser">Second space data:</string>
   <string name="trans_intro_title_new">On a new phone:</string>
@@ -547,8 +567,9 @@ Keep devices close to each other."</string>
   <string name="trans_select_data">Select items to send</string>
   <string name="trans_select_data_no_space">"There isn't enough storage space on the new device (%s available).
 Free up storage space or transfer only important items."</string>
-  <string name="trans_select_data_tips">"Select items to transfer
-Similar files on the new device will be overwritten"</string>
+  <string name="trans_select_data_tips">"Select items to transfer.
+Similar items on the new device will be overwritten.
+(The size of the transferred items you see know is a rough estimate.)"</string>
   <string name="trans_select_data_too_large">"You selected too many items to transfer.
 Select only important items to make the transfer faster."</string>
   <string name="trans_select_device_receive">Select one device to receive data.</string>
@@ -604,6 +625,9 @@ Free up space or transfer only important items."</string>
   <string name="user_notice_message">Some features require internet connection to work normally.</string>
   <string name="user_notice_title">Attention</string>
   <string name="view_password_description">Show password</string>
+  <string name="wait_link">"Connect your old device to this hotspot.
+Don't leave this page until the connection is established."</string>
+  <string name="waiting">Just a sec…</string>
   <string name="wifi_title">WLAN settings</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
   <string name="xiaomi_bytes_unit">%1$sB</string>

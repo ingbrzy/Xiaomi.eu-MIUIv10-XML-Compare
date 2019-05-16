@@ -4,11 +4,11 @@
   <string name="accessibility_contact_detail">Contact details</string>
   <string name="account_container_title">Imported from</string>
   <string name="account_default">Local</string>
+  <string name="account_dual_sdn">SDN %s</string>
+  <string name="account_dual_sim">SIM card %s</string>
   <string name="account_phone">Device-only, unsynced</string>
   <string name="account_sdn">SDN</string>
-  <string name="account_sdn2">SDN %d</string>
   <string name="account_sim">SIM card</string>
-  <string name="account_sim2">SIM card %d</string>
   <string name="account_type_format">%1$s contact</string>
   <string name="actionIncomingCall">Incoming calls</string>
   <string name="action_menu_overflow_description">More options</string>
@@ -200,6 +200,8 @@
   <string name="config_export_vcard_type">v30_generic</string>
   <string name="config_import_vcard_type">default</string>
   <string name="config_prohibited_phone_number_regexp"/>
+  <string name="confirm_call_log_dial_summary">Ask for confirmation before dialing from call logs to prevent accidental calls.</string>
+  <string name="confirm_call_log_dial_title">Confirm dials from call logs</string>
   <string name="confirm_delete_contact_all_call_logs">"Clear all %s's history?"</string>
   <string name="confirm_delete_selected_all_call_logs">Clear call history?</string>
   <string name="confirm_delete_sim_entry_miui_title">Delete</string>
@@ -273,6 +275,7 @@ Contact cards are turned off"</string>
   <string name="contactsGroupsLabel">Groups</string>
   <string name="contactsJoinedMessage">Contacts merged</string>
   <string name="contactsList">Contacts</string>
+  <string name="contacts_default_notification_channel">Notifications</string>
   <string name="contacts_hybrid_activity_label">Recover contacts</string>
   <string name="contacts_setting_title">Contact settings</string>
   <string name="contacts_unavailable_add_account">Sign in to an account</string>
@@ -342,8 +345,8 @@ Contact cards are turned off"</string>
   <string name="description_image_button_plus">Plus</string>
   <string name="description_image_button_pound">Pound</string>
   <string name="description_image_button_seven">seven</string>
-  <string name="description_image_button_sim1_dial">Dial using SIM1</string>
-  <string name="description_image_button_sim2_dial">Dial using SIM2</string>
+  <string name="description_image_button_sim1_named_dial">Dial using SIM1 %s</string>
+  <string name="description_image_button_sim2_named_dial">Dial using SIM2 %s</string>
   <string name="description_image_button_six">six</string>
   <string name="description_image_button_star">star</string>
   <string name="description_image_button_three">three</string>
@@ -958,7 +961,6 @@ To add a contact to your list of favorites:
   <string name="quickcontact_missing_app">No app was found to handle this action</string>
   <string name="quit_dialog_confirm_message">"You haven't merged any contacts"</string>
   <string name="quit_dialog_confirm_title">Cancel merge contacts</string>
-  <string name="rcs_app_name">Mini app</string>
   <string name="readOnlyContactDeleteConfirmation">This contact contains information from multiple accounts. Information from read-only accounts will be hidden in your contacts lists, not deleted.</string>
   <string name="readOnlyContactWarning">"You can't delete contacts from read-only accounts, but you can hide them in your contacts lists."</string>
   <string name="readingSimContacts">Reading SIM card…</string>
@@ -999,6 +1001,8 @@ To add a contact to your list of favorites:
   <string name="savingContact">Saving contact…</string>
   <string name="savingDisplayGroups">Saving display options…</string>
   <string name="scan">Scan</string>
+  <string name="scan_business_card">Scan business card</string>
+  <string name="scan_bussiness_card_merge_tip">Conflicting data has been replaced</string>
   <string name="scan_duplicate_message">%1$d contacts with identical info</string>
   <string name="scan_merge">Searching for duplicate contacts…</string>
   <string name="scan_qrcode_card_hint1">Scan the QR code above</string>

@@ -3,11 +3,13 @@
   <string name="action_add_to_workspace">Add to workspace</string>
   <string name="activity_not_found">"App isn't installed on your device"</string>
   <string name="add_screen">Add screen</string>
+  <string name="announce_for_app_move_in_folder">Moved to position %1$d in the folder</string>
   <string name="announce_for_checked">%1$s, checked</string>
   <string name="announce_for_choose_default_screen">Set screen %1$d as the default Home screen</string>
   <string name="announce_for_close_default_preview">Closed default Home screen settings</string>
   <string name="announce_for_close_folder">Closed folder</string>
   <string name="announce_for_close_launcher_menu">Closed menu</string>
+  <string name="announce_for_create_folder_with_app">Created a folder with %1$s</string>
   <string name="announce_for_delete_gadget_and_widget">Widget</string>
   <string name="announce_for_delete_item">%1$s was deleted</string>
   <string name="announce_for_drag_enter_delete_zone">Dragged items to the uninstallation zone</string>
@@ -30,6 +32,7 @@
   <string name="announce_for_open_launcher_menu">Opened menu</string>
   <string name="announce_for_show_uninstall_dialog">Uninstallation dialog appeared. Cancel or confirm.</string>
   <string name="announce_for_unchecked">%1$s, unchecked</string>
+  <string name="announce_for_widget_span">Width %1$d, height %2$d</string>
   <string name="app_already_exist">App already exists</string>
   <string name="app_being_backup_message">App is being backed up</string>
   <string name="app_being_restored_message">App is being restored</string>
@@ -95,6 +98,7 @@
   <string name="default_folder_title_services">Services</string>
   <string name="default_folder_title_telcel">Telcel</string>
   <string name="default_folder_title_tools">Tools</string>
+  <string name="default_folder_title_turkcell_uygulamalar">TURKCELL UYGULAMALAR</string>
   <string name="default_screen_preview_title">Tap to set default screen</string>
   <string name="default_shortcut_title_10086">10086.cn</string>
   <string name="delete">Delete</string>
@@ -102,9 +106,11 @@
   <string name="delete_wallpaper_message">Delete %1$d wallpaper?</string>
   <string name="deselect_all">Deselect all</string>
   <string name="disable_wallpaper_scroll">Turn side-scrolling off</string>
+  <string name="double_tap_to_lock_title">Double tap to lock screen</string>
   <string name="download_action">Download</string>
   <string name="drag_multiple_item_name"/>
   <string name="drag_single_item_name"/>
+  <string name="dual_app">Dual apps</string>
   <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
   <string name="durationformatshort">%2$2d:%5$02d</string>
   <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
@@ -152,6 +158,7 @@
   <string name="gadget_clock_24_label">Clock 4x2</string>
   <string name="gadget_clock_34_label">Clock 4x3</string>
   <string name="gadget_clock_label">Clock</string>
+  <string name="gadget_dual_clock_label">Dual Clock</string>
   <string name="gadget_error_text">"Can't load widget"</string>
   <string name="gadget_google_search_label">Google Search</string>
   <string name="gadget_load_error">Loading…</string>
@@ -278,13 +285,15 @@
   <string name="recents_config_title">Recents</string>
   <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
   <string name="recommend_apps_default_title">Empty</string>
-  <string name="recommend_apps_no_data">No Data</string>
+  <string name="recommend_apps_no_data">No data</string>
+  <string name="recommend_apps_no_data_toast">No recommendations for now.</string>
   <string name="recommend_apps_notice">Promoted apps</string>
   <string name="recommend_apps_notice_nodata">Promoted apps (No data)</string>
   <string name="recommend_apps_switch_title">Promoted apps</string>
   <string name="recommend_apps_tips">"This feature needs to connect to the internet to work normally. To turn this feature off, tap this folder's name."</string>
   <string name="recommend_loading">Loading</string>
-  <string name="refresh">Refresh</string>
+  <string name="recommend_refresh">Refresh</string>
+  <string name="recommend_xout">"Don't show"</string>
   <string name="reset_description_first_time">You can restore the layout from %1$s within 2 hours</string>
   <string name="reset_description_others">You can restore the layout from %1$s</string>
   <string name="reset_fail">"Couldn't restore"</string>
@@ -303,6 +312,7 @@
   <string name="sharedUserId"/>
   <string name="show_all">Show all</string>
   <string name="show_mem_info_title">Show memory status</string>
+  <string name="show_recents_recommend_title">Show suggestions</string>
   <string name="sort_by_abc">Sort by name</string>
   <string name="sort_by_frequency">Sort by usage</string>
   <string name="sort_by_not_defined">Auto-sort</string>
@@ -338,7 +348,6 @@
   <string name="uninstall_xspace_dialog_title_format">Uninstall dual \"%s\"?</string>
   <string name="unknown_artist_name">Unknown artist</string>
   <string name="unnamed_folder_name">Folder</string>
-  <string name="use_theme_screen_cells_title">Allow theme to override screen layout</string>
   <string name="wallpaper">Wallpaper</string>
   <string name="wallpaper_auto_change_title">Lock screen</string>
   <string name="wallpaper_failed_message">"Can't set wallpaper"</string>

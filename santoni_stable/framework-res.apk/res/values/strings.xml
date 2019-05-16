@@ -244,7 +244,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_ethernet_iface_regex">eth\\d</string>
   <string name="config_ethernet_tcp_buffers">524288,1048576,3145728,524288,1048576,2097152</string>
   <string name="config_forceVoiceInteractionServicePackage"/>
-  <string name="config_fusedLocationProviderPackageName">com.qualcomm.location</string>
+  <string name="config_fusedLocationProviderPackageName">com.xiaomi.location.fused</string>
   <string name="config_geocoderProviderPackageName">com.xiaomi.metoknlp</string>
   <string name="config_geofenceProviderPackageName">@null</string>
   <string name="config_hardwareFlpPackageName">com.android.location.fused</string>
@@ -914,6 +914,7 @@ Try again in %2$d seconds."</string>
   <string name="no_permissions">No permissions required</string>
   <string name="no_recent_tasks">No recent apps.</string>
   <string name="noon">noon</string>
+  <string name="notification_description">Voice call status</string>
   <string name="notification_header_divider_symbol">•</string>
   <string name="notification_hidden_by_policy_text">Contents hidden by policy</string>
   <string name="notification_hidden_text">Contents hidden</string>
@@ -1442,6 +1443,8 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="status_bar_volume">volume</string>
   <string name="status_bar_wifi">wifi</string>
   <string name="status_bar_zen">zen</string>
+  <string name="status_communication_speaker_summary">A hands-free call is in progress. Audio will still be played through the speaker when headphones are connected.</string>
+  <string name="status_communication_summary">A call is in progress. You can only adjust call volume now.</string>
   <string name="stk_cc_ss_to_dial">SS request is modified to DIAL request.</string>
   <string name="stk_cc_ss_to_ss">SS request is modified to new SS request.</string>
   <string name="stk_cc_ss_to_ussd">SS request is modified to USSD request.</string>

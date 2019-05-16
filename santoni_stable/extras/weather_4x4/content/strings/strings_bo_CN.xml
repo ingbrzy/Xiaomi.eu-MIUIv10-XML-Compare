@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">གནམ་གཤིས་གཞི་གྲངས་རེག་ནས་ཐོབ་ལེན།</string>
     <string name="date_format">ཟླ་MMཚེས་dd E</string>
     <string name="today">དེ་རིང་།</string>
     <string name="tomorrow">སང་ཉིན།</string>
