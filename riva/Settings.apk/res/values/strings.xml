@@ -4279,6 +4279,7 @@ To use screen pinning:
   <string name="search_accessibility_screen_magnification_title">Magnification gestures;Magnification</string>
   <string name="search_accessibility_settings">Accessibility</string>
   <string name="search_account_list">Other accounts;Account;Accounts</string>
+  <string name="search_add_facerecoginition_text">Face unlock;Face recognition</string>
   <string name="search_advanced_settings">Advanced settings;Wifi;Wifi settings;WLAN settings</string>
   <string name="search_airplane_mode">Airplane mode;Aeroplane mode;Flight mode;Airplane;Aeroplane;Flight</string>
   <string name="search_alarm_sound_title">Alarm sound;alarm ringtone;alarm</string>
@@ -4345,6 +4346,7 @@ To use screen pinning:
   <string name="search_lock_settings">Lock Screen &amp; password;Bluetooth unlock;passcode;Unlock with Bluetooth device</string>
   <string name="search_lock_sounds_enable_title">Screen lock sound;Turn on Screen lock sound</string>
   <string name="search_manage_device_admin">Device administrators;Admin;Administrator</string>
+  <string name="search_manage_facerecoginition_text">Face unlock;Face recognition</string>
   <string name="search_manage_notification_access_title">Notification access;Notifications;Notification permissions</string>
   <string name="search_master_clear_title">Factory data reset</string>
   <string name="search_menu">Search settings</string>
