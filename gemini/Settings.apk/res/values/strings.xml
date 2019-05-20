@@ -1356,8 +1356,7 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="dangerous_option_hint">\"%1$s\" is enabled. Tap to change settings.</string>
   <string name="dangerous_option_hint_title">High-risk feature enabled</string>
   <string name="dangerous_option_switch_title">Notify about high-risk features</string>
-  <string name="dark_ui_mode">Night mode</string>
-  <string name="dark_ui_mode_title">Set Night mode</string>
+  <string name="dark_color_mode">Dark mode</string>
   <string name="dashboard_title">Settings</string>
   <string name="data_limit">Data limit</string>
   <string name="data_saver_off">Off</string>
