@@ -160,6 +160,7 @@
   <string name="popup_camera_calibrate_now">Calibrate</string>
   <string name="popup_camera_calibrate_success">Calibrated successfully. You can open the front camera now.</string>
   <string name="popup_camera_front_failed">"Couldn't open front camera. Try again."</string>
+  <string name="popup_camera_front_when_use">The Camera app needs to open the front camera again. Open now?</string>
   <string name="popup_camera_popup_falied_times_calibrate">"Couldn't open front camera multiple times. Try calibrating the camera."</string>
   <string name="popup_camera_sure">Got it</string>
   <string name="popup_camera_sure_wait">Got it (%ds)</string>
@@ -279,6 +280,7 @@
   <string name="twohours">1 hour</string>
   <string name="unknown_caller">Unknown number</string>
   <string name="user_switching_dialog_text">Switching…</string>
+  <string name="voice_assistant_tips">Upgraded to long press the power button to wake up voice assistant</string>
   <string name="voice_begin">What are you looking for?</string>
   <string name="voice_button_action_down">Release to search</string>
   <string name="voice_button_action_up">Press to talk</string>
