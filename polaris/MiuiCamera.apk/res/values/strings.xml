@@ -890,6 +890,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="ultra_wide_open_tip">Ultra wide angle mode</string>
   <string name="ultra_wide_open_tip_sat">0.6X ultra wide angle</string>
   <string name="ultra_wide_recommend_tip_hint">Try Ultra wide angle mode</string>
+  <string name="ultra_wide_recommend_tip_hint_sat">Try 0.6X ultra wide angle mode</string>
   <string name="user_agree">Agree</string>
   <string name="user_notice_identify_summary_format">Before using Camera, you must agree to our &lt;a href="http://www.miui.com/res/doc/eula.html?lang=en_US"&gt;User Agreement&lt;/a&gt; and &lt;a href="http://www.miui.com/res/doc/privacy.html?lang=en_US"&gt;Privacy Policy&lt;/a&gt;. Camera also needs to connect to the internet to work normally. Agree?</string>
   <string name="user_notice_title">Terms and Conditions</string>
