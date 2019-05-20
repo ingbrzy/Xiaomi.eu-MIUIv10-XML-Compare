@@ -6,8 +6,8 @@
     <string name="air_quality3">\'ИКВ \'+#aqi</string>
     <string name="air_quality4">\'ИКВ \'+#aqi</string>
     <string name="air_quality5">\'ИКВ \'+#aqi</string>
-    <string name="weather_null"></string>
-    <string name="weather_location_null"></string>
+    <string name="weather_null">Обновить данные погоды</string>
+    <string name="weather_location_null">Нет данных местоположения</string>
     <string name="weather_type_0">Ясно</string>
     <string name="weather_type_1">Облачно</string>
     <string name="weather_type_2">Пасмурно</string>
