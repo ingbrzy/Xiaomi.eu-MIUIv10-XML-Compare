@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">বতৰ তথ্য লাভৰ বাবে টেপ কৰক</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">আজি</string>
     <string name="tomorrow">অহাকালি</string>
