@@ -5260,6 +5260,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_led_custom">Custom color</string>
   <string name="status_bar_settings_notification_priority">Priority</string>
   <string name="status_bar_settings_notification_priority_summary">Show notifications at the top of the list</string>
+  <string name="status_bar_settings_notification_ringtone">Ringtone</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
   <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
