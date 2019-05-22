@@ -280,7 +280,6 @@
   <string name="twohours">1 hour</string>
   <string name="unknown_caller">Unknown number</string>
   <string name="user_switching_dialog_text">Switching…</string>
-  <string name="voice_assistant_tips">Upgraded to long press the power button to wake up voice assistant</string>
   <string name="voice_begin">What are you looking for?</string>
   <string name="voice_button_action_down">Release to search</string>
   <string name="voice_button_action_up">Press to talk</string>
