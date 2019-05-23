@@ -648,6 +648,9 @@
   <string name="cleaner_video_description">Delete videos that take up storage space</string>
   <string name="cleaner_video_pick_delete_selected">Delete selected videos</string>
   <string name="cleaner_video_title">Delete videos</string>
+  <string name="clear_dup_medias">Clean up duplicate photos</string>
+  <string name="clear_dup_success">Clean up successfully</string>
+  <string name="clear_dup_tip">Clearing duplicate photos</string>
   <string name="click_download_gif">Tap to download GIF</string>
   <string name="click_top_right">Tap this icon</string>
   <string name="close">Close</string>
