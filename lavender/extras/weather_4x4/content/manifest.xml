@@ -55,24 +55,6 @@
     <Var name="not_null" expression="#hasweather*not(isnull(#weather_id))" />
     <Var name="weather_aqi" expression="eval(ifelse(le(#weather_aqilevel,0),@aqi_pure,le(#weather_aqilevel,50),@aqi_good,le(#weather_aqilevel,100),@aqi_moderate,le(#weather_aqilevel,150),@aqi_pollution,le(#weather_aqilevel,200),@aqi_unhealthy,le(#weather_aqilevel,300),@aqi_dangerous,lt(#weather_aqilevel,500),@aqi_hazardous,@aqi_break))" type="string"/>
 
-    <Var name="weather_temphigh"
-        expression="round(ifelse(#temperature_unit,#weather_temphigh_src,18+#weather_temphigh_src*1.8))" />
-    <Var name="weather_temphigh1"
-        expression="round(ifelse(#temperature_unit,#weather_temphigh1_src,18+#weather_temphigh1_src*1.8))" />
-    <Var name="weather_temphigh2"
-        expression="round(ifelse(#temperature_unit,#weather_temphigh2_src,18+#weather_temphigh2_src*1.8))" />
-    <Var name="weather_temphigh3"
-        expression="round(ifelse(#temperature_unit,#weather_temphigh3_src,18+#weather_temphigh3_src*1.8))" />
-
-    <Var name="weather_templow"
-        expression="round(ifelse(#temperature_unit,#weather_templow_src,18+#weather_templow_src*1.8))" />
-    <Var name="weather_templow1"
-        expression="round(ifelse(#temperature_unit,#weather_templow1_src,18+#weather_templow1_src*1.8))" />
-    <Var name="weather_templow2"
-        expression="round(ifelse(#temperature_unit,#weather_templow2_src,18+#weather_templow2_src*1.8))" />
-    <Var name="weather_templow3"
-        expression="round(ifelse(#temperature_unit,#weather_templow3_src,18+#weather_templow3_src*1.8))" />
-
 
     <!--debug-->
     <!--<Text format="weather_id: %d\nweather_forecast_id: %d\nweather_location: %s\nweather_description: %s\nweather_aqilevel: %d\nweather_temperature: %d\nweather_templow: %d\nweather_temphigh: %d" paras="#weather_id,#weather_forecast_id,@weather_location,@weather_description,#weather_aqilevel,#weather_temperature,#weather_templow,#weather_temphigh" size="30" color="#00ff00" multiLine="true"/>-->
@@ -120,22 +102,22 @@
             <Group x="#padding">
                 <Text enableFontScale="true" text="@today" align="center" y="50" size="38" color="@color"/>
                 <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/small_weather.png'" srcid="ifelse(gt(#weather_forecast_id,24)+lt(#weather_forecast_id,0),10000,#weather_forecast_id)" align="center" y="160" alignV="center"/>
-                <Text enableFontScale="true" format="%d%s/%d%s" paras="#weather_temphigh,@degree,#weather_templow,@degree" align="center" y="226" alignV="center" size="38" color="@color"/>
+                <Text enableFontScale="true" format="%d%s/%d%s" paras="#weather_temphigh_src,@degree,#weather_templow_src,@degree" align="center" y="226" alignV="center" size="38" color="@color"/>
             </Group>
             <Group x="#padding+#interval">
                 <Text enableFontScale="true" text="@tomorrow" align="center" y="50" size="38" color="@color"/>
                 <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/small_weather.png'" srcid="ifelse(gt(#weather_forecast_id1,24)+lt(#weather_forecast_id1,0),10000,#weather_forecast_id1)" align="center" y="160" alignV="center"/>
-                <Text enableFontScale="true" format="%d%s/%d%s" paras="#weather_temphigh1,@degree,#weather_templow1,@degree" align="center" y="226" alignV="center" size="38" color="@color"/>
+                <Text enableFontScale="true" format="%d%s/%d%s" paras="#weather_temphigh1_src,@degree,#weather_templow1_src,@degree" align="center" y="226" alignV="center" size="38" color="@color"/>
             </Group>
             <Group x="#padding+#interval*2">
                 <DateTime enableFontScale="true" value="#time_sys+86400000*2" format="dd/MM" align="center" y="50" size="38" color="@color"/>
                 <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/small_weather.png'" srcid="ifelse(gt(#weather_forecast_id2,24)+lt(#weather_forecast_id2,0),10000,#weather_forecast_id2)" align="center" y="160" alignV="center"/>
-                <Text enableFontScale="true" format="%d%s/%d%s" paras="#weather_temphigh2,@degree,#weather_templow2,@degree" align="center" y="226" alignV="center" size="38" color="@color"/>
+                <Text enableFontScale="true" format="%d%s/%d%s" paras="#weather_temphigh2_src,@degree,#weather_templow2_src,@degree" align="center" y="226" alignV="center" size="38" color="@color"/>
             </Group>
             <Group x="#view_width-#padding">
                 <DateTime enableFontScale="true" value="#time_sys+86400000*3" format="dd/MM" align="center" y="50" size="38" color="@color"/>
                 <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/small_weather.png'" srcid="ifelse(gt(#weather_forecast_id3,24)+lt(#weather_forecast_id3,0),10000,#weather_forecast_id3)" align="center" y="160" alignV="center"/>
-                <Text enableFontScale="true" format="%d%s/%d%s" paras="#weather_temphigh3,@degree,#weather_templow3,@degree" align="center" y="226" alignV="center" size="38" color="@color"/>
+                <Text enableFontScale="true" format="%d%s/%d%s" paras="#weather_temphigh3_src,@degree,#weather_templow3_src,@degree" align="center" y="226" alignV="center" size="38" color="@color"/>
             </Group>
 
             <Line x="50" y="305" x1="#view_width-50" y1="305" strokeColor="@line_color" weight="2"/>
