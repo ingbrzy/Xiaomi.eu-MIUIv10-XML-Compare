@@ -792,6 +792,7 @@ test fail!"</string>
   <string name="cit_wifi_fail_to_scan">"Couldn't scan for networks"</string>
   <string name="cit_wifi_state_refresh">Refresh</string>
   <string name="cit_yellow_torch_on">Turn on yellow flash light</string>
+  <string name="close_third_color_led">close three color led</string>
   <string name="confirm">确认</string>
   <string name="continue_vibrator">Continue vibrator</string>
   <string name="copyright">Copyright © 2015 Goodix All Rights Reserved.</string>
@@ -1085,6 +1086,7 @@ the specified position"</string>
   <string name="normal_touch_sensor">通过纹路测试头按压指纹模组</string>
   <string name="not_enrolled">请先注册指纹</string>
   <string name="ok">Ok</string>
+  <string name="open_third_color_led">open three color led</string>
   <string name="other_category">其他</string>
   <string name="over_saturated_pixel_num">上饱和点个数:</string>
   <string name="overlay">跟上一张重复:</string>
