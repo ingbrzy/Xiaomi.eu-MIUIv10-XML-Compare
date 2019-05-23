@@ -1546,6 +1546,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="note_sms_none">No messages</string>
   <string name="noti_back_diving_mode_title">Turned on Immersive mode. Tap to turn off.</string>
   <string name="notification_battery_consume_abnormal_title">Battery is being drained too fast</string>
+  <string name="notification_battery_scan_consume_abnormal_summary">Tap to fix the problem</string>
+  <string name="notification_battery_scan_consume_abnormal_title_set">%s is draining battery</string>
   <string name="notification_exit_power_save_mode">Turned off Battery saver</string>
   <string name="notification_exit_power_save_mode_subtitle">Battery %s charged.</string>
   <string name="notification_mask_summary">Hide notification content on the Lock screen and in the Notification shade</string>
@@ -1673,6 +1675,13 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="password_type">Change password</string>
   <string name="password_type_underline">&lt;u&gt;Change password&lt;/u&gt;</string>
   <string name="password_xspace_forget_pattern_message">To change your Second space password, you should delete your current Second space and create a new one.</string>
+  <string name="pc_abnormal_scan_button_text">Close apps</string>
+  <string name="pc_abnormal_scan_reason_prevent_standby">Prevents the system from going into standby mode</string>
+  <string name="pc_abnormal_scan_reason_reconnect">Tries to connect to the network too frequently</string>
+  <string name="pc_abnormal_scan_reason_runtime_exception">Runs abnormally</string>
+  <string name="pc_abnormal_scan_reason_scan_wifi">Searches for WLAN too frequently</string>
+  <string name="pc_abnormal_scan_reason_use_GPS">Uses location services too frequently</string>
+  <string name="pc_abnormal_scan_reason_wake_system">Wakes the system too frequently</string>
   <string name="pc_activity_title">Optimize battery</string>
   <string name="pc_battery_history_show_imei">IMEI:</string>
   <string name="pc_install_manager">Install via USB</string>
