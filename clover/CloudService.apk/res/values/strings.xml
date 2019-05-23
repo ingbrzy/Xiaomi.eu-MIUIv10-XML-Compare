@@ -40,8 +40,7 @@
   <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
   <string name="find_device_error_network">Check your data connection and try again.</string>
   <string name="find_device_error_server">Server error</string>
-  <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our Privacy Policy. If you need to revoke authorization, turn this feature off.</string>
-  <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
+  <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our &lt;u&gt;&lt;a href="app://com.miui.cloudservice.gdpr.license"&gt;Privacy Policy&lt;/a&gt;&lt;/u&gt;. If you need to revoke authorization, turn this feature off.</string>
   <string name="find_device_operation_failure_rpc">"Couldn't perform the operation due to RPC error."</string>
   <string name="find_device_send_sms_alert">If you switch SIM cards, another SMS may be sent automatically to reactivate this feature.</string>
   <string name="find_device_service_title">Find device</string>
