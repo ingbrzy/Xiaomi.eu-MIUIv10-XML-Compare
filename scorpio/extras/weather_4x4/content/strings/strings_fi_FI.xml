@@ -11,7 +11,7 @@
     <string name="aqi_dangerous">'ILI '+#weather_aqilevel</string>
     <string name="aqi_hazardous">'ILI '+#weather_aqilevel</string>
     <string name="aqi_break">'ILI '+#weather_aqilevel</string>
-    <string name="weather_type_null">Ei tietoja</string>
+    <string name="weather_type_null">Hae säätiedot napauttamalla</string>
     <string name="weather_type_0">Selkeä</string>
     <string name="weather_type_1">Pilvinen</string>
     <string name="weather_type_2">Usvainen</string>
