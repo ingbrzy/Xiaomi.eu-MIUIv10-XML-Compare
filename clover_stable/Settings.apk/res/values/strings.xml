@@ -1455,8 +1455,7 @@ Encryption takes an hour or more. You must start with a charged battery and keep
   <string name="dangerous_option_hint">\"%1$s\" is enabled. Tap to change settings.</string>
   <string name="dangerous_option_hint_title">High-risk feature enabled</string>
   <string name="dangerous_option_switch_title">Notify about high-risk features</string>
-  <string name="dark_ui_mode">Night mode</string>
-  <string name="dark_ui_mode_title">Set Night mode</string>
+  <string name="dark_color_mode">Dark mode</string>
   <string name="dashboard_title">Settings</string>
   <string name="data_detail_description">Details</string>
   <string name="data_item_desc">Data</string>
