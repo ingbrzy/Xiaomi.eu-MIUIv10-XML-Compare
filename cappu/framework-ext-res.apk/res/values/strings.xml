@@ -91,6 +91,7 @@
   <string name="caller_info_name_delimiter">" or "</string>
   <string name="cancel_action">Cancel</string>
   <string name="close">Off</string>
+  <string name="config_camera_component">com.android.camera/com.android.camera.Camera</string>
   <string name="config_xiaoaiComponent">com.miui.voiceassist/com.xiaomi.voiceassistant.VoiceService</string>
   <string name="configure_input_methods">Choose keyboards</string>
   <string name="copy">Copy</string>
@@ -159,6 +160,7 @@
   <string name="popup_camera_calibrate_now">Calibrate</string>
   <string name="popup_camera_calibrate_success">Calibrated successfully. You can open the front camera now.</string>
   <string name="popup_camera_front_failed">"Couldn't open front camera. Try again."</string>
+  <string name="popup_camera_front_when_use">The Camera app needs to open the front camera again. Open now?</string>
   <string name="popup_camera_popup_falied_times_calibrate">"Couldn't open front camera multiple times. Try calibrating the camera."</string>
   <string name="popup_camera_sure">Got it</string>
   <string name="popup_camera_sure_wait">Got it (%ds)</string>
@@ -209,6 +211,8 @@
   <string name="silence_mode">Silent mode</string>
   <string name="sim_added_reboot_confirm">Reboot</string>
   <string name="sim_added_reboot_title">SIM card will activate after you reboot your device.</string>
+  <string name="sim_lock_non_ais_msg">"Your SIM card isn't fully operational with this phone because it doesn't comply with the terms and conditions of your subscription. If you have any questions or need more information about this matter, please contact Xiaomi service centers or the store that sold products to you."</string>
+  <string name="sim_lock_now_ais_title">SIM%1$d</string>
   <string name="softap_notifif_summary">%d connected</string>
   <string name="softap_notifif_title">Hotspot \"%s\" is on</string>
   <string name="standard">Silent</string>
