@@ -194,6 +194,8 @@
   <string name="liked">Added to favorites</string>
   <string name="lks_left_net_deny">Network connection is restricted</string>
   <string name="lks_left_net_error">"Couldn't connect to the network."</string>
+  <string name="lks_left_top_notice">Tap here to go back to the top</string>
+  <string name="lks_left_top_notice_refresh">Tap to view new items</string>
   <string name="lks_logo_desc2">Fresh wallpapers daily</string>
   <string name="lks_subscription_toast">Changed wallpaper successfully</string>
   <string name="llks_pop_btm_des">Start your day with a smile</string>
@@ -205,6 +207,17 @@
   <string name="llks_pop_top_des_backup">Delivered to your screen daily</string>
   <string name="llks_pop_top_title">New wallpapers</string>
   <string name="llks_pop_top_title_backup">Fresh images</string>
+  <string name="llks_setting_view_title">Additional screen</string>
+  <string name="llks_simple_mode">Lite mode</string>
+  <string name="llks_simple_mode_desc">Simplified layout and additional shortcuts</string>
+  <string name="llks_standard_mode">Default</string>
+  <string name="llks_standard_mode_desc">Wallpapers, stories, and daily recommendations</string>
+  <string name="llks_tools_gallery_name">Wallpaper Carousel</string>
+  <string name="llks_tools_mipay_wallet_name">Mi Wallet</string>
+  <string name="llks_tools_nfc_data">%s CNY</string>
+  <string name="llks_tools_nfc_name">NFC</string>
+  <string name="llks_tools_remote_control_name">Mi Remote</string>
+  <string name="llks_tools_smart_devices_name">Mi Home</string>
   <string name="load_hdpicture_complete">Loaded original image successfully</string>
   <string name="loading">&lt;CDATA&gt;Just a sec&amp;#8230;&lt;/CDATA&gt;</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
@@ -226,6 +239,7 @@
   <string name="mode_des">Wallpaper Carousel is showing recommendations now. Switch to the slideshow to be able to view your custom items.</string>
   <string name="mode_ok">Switch to slideshow</string>
   <string name="mode_title">Showing recommendations</string>
+  <string name="more">More</string>
   <string name="more_article">More articles</string>
   <string name="need_open_gallery">Turn on Wallpaper Carousel</string>
   <string name="new_feature_title">"What's new"</string>
@@ -389,6 +403,8 @@
   <string name="sst_wifi_only_desc">Turn off to update wallpapers over Wi-Fi only</string>
   <string name="sst_wifi_only_title">Update wallpapers using mobile data</string>
   <string name="status_bar_notification_info_overflow">999+</string>
+  <string name="subscribe_apply_wp">Applied Lock screen wallpaper successfully</string>
+  <string name="subscribe_dlg_content">Subscribe to get fresh wallpapers delivered to your Lock screen daily and receive morning greetings.</string>
   <string name="subscribe_item_checked">Subscribed</string>
   <string name="subscribe_item_unchecked">Unsubscribed</string>
   <string name="summary">"Agree to our &lt;a href='%s'&gt;Privacy Policy&lt;/a&gt; to view online content. If you disagree, local wallpapers will still be available."</string>
@@ -396,13 +412,17 @@
   <string name="summary_international">"By using this feature, you're agreeing to our &lt;a href ='%1$s'&gt;User Agreement&lt;/a&gt; and &lt;a href='%2$s'&gt;Privacy Policy&lt;/a&gt;. This feature needs to connect to the internet to work normally.​"</string>
   <string name="tab_user_title_bar_text">Settings</string>
   <string name="theme_apply_failured">"Couldn't apply, try again later"</string>
+  <string name="theme_apply_lockscreen_success">Applied successfully</string>
   <string name="theme_apply_success">Applied successfully</string>
   <string name="theme_applying">Applying…</string>
+  <string name="theme_close_maml">Wallpaper Carousel images will replace Lock screen wallpaper.</string>
   <string name="theme_des">Apply default theme and turn on Wallpaper Carousel again.</string>
   <string name="theme_des_lock_style">Apply default Lock screen and turn on Wallpaper Carousel again.</string>
+  <string name="theme_des_maml">"Other components of the current theme won't be affected. The theme will be refreshed to apply changes."</string>
   <string name="theme_ok">Settings</string>
   <string name="theme_title">Switch to default theme</string>
   <string name="theme_title_lock_style">Switch to default Lock screen</string>
+  <string name="theme_title_subscribe">Subscribe to Wallpaper Carousel</string>
   <string name="ticket_hint">Verification code</string>
   <string name="ticket_invalid">The code you entered is incorrect</string>
   <string name="ticket_sign_in">Sign in via SMS</string>
@@ -411,7 +431,9 @@
   <string name="toast_ad_down_tip2">Downloading %s…</string>
   <string name="toast_load_hd_fail">"Couldn't load original image"</string>
   <string name="toast_neterror_tip">A network error occurred</string>
+  <string name="toast_update_no_more_newest_feeds">No new items for now</string>
   <string name="top_search_tip">Search for the categories you like</string>
+  <string name="torch">Flashlight</string>
   <string name="uninstall_introducation_text_desc">Wallpaper Carousel delivers new quality images directly to your Lock screen. Make sure you can do without its features before you uninstall the app.</string>
   <string name="uninstall_introduction_text_title">About Wallpaper Carousel</string>
   <string name="uninstall_warning_text_desc">"Without Wallpaper Carousel you won't be able to receive new Lock screen wallpapers regularly. However, you'll be able to download and install the app again. Delete Wallpaper Carousel?"</string>

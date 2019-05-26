@@ -140,6 +140,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="err_binder_died">App stopped unexpectedly.</string>
   <string name="err_filesystem_mount">"Can't access router storage"</string>
   <string name="err_low_storage">Not enough space</string>
+  <string name="err_no_gms">Incompatible app version. Install this app separately</string>
   <string name="err_not_allow">Not supported</string>
   <string name="err_pkg_not_exist">"Couldn't find app."</string>
   <string name="err_router_disconnected">"Check your router's connection and try again."</string>
@@ -441,6 +442,7 @@ Free up at least %s."</string>
   <string name="trans_detail_category_userdata">Apps</string>
   <string name="trans_detail_category_wechat_qq">WeChat and QQ data (including chat history)</string>
   <string name="trans_detail_item_app_data_selected_tip">Selected corresponding apps as well.</string>
+  <string name="trans_detail_item_app_data_skip_data">"Can't transfer app data"</string>
   <string name="trans_detail_item_app_data_too_large_tip">Looks like the item is too big to transfer.</string>
   <string name="trans_detail_list_footer">"1. You can select individual apps you want to transfer.
 2. If you select app data, corresponding apps will be selected as well.
