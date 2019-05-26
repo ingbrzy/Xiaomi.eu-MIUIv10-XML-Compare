@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="feature_desc">
-        <item>修复了一些已知问题</item>
+        <item>Morning greetings now support \"Swipe up to unlock\" for smoother unlocking.</item>
+        <item>Added \"Select all\" toggle when adding slideshow wallpapers.</item>
     </string-array>
     <string-array name="alphabet_table">
         <item>\#</item>
