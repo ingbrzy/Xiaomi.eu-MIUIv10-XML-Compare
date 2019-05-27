@@ -3028,6 +3028,7 @@ There are other users present on this device.
   <string name="miui_sos_statusbar_summary">Tap to turn off</string>
   <string name="miui_sos_statusbar_title">Emergency SOS is activated</string>
   <string name="miui_special_feature">Special features</string>
+  <string name="miui_touch_filtered_touchassistant_warning">The permissions dialog is covered by Quick ball. Move Quick ball away or turn this feature off.</string>
   <string name="miui_touch_filtered_warning">If an app is blocking a permissions dialog, drag the overlapping item away or close the app.</string>
   <string name="miui_updater">System update</string>
   <string name="miui_userguide">User guide</string>
@@ -4002,7 +4003,7 @@ UT Interface: %5$s"</string>
 "&lt;li&gt;Mobile data&lt;/li&gt;"
 "&lt;li&gt;Bluetooth&lt;/li&gt;</string>
   <string name="reset_network_final_button_text">Reset settings</string>
-  <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to reverse this action."</string>
+  <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to undo this action."</string>
   <string name="reset_network_title">Network settings reset</string>
   <string name="reset_network_wifi">WLAN</string>
   <string name="reset_second_space_passwd">Reset Second space password</string>
@@ -4819,8 +4820,6 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_notification_bar">Notification shade</string>
-  <string name="status_bar_settings_notification_led_custom">Custom color</string>
-  <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
