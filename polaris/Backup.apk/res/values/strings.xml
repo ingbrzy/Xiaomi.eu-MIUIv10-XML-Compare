@@ -179,6 +179,7 @@ Make sure the USB drive has enough storage space before you start."</string>
   <string name="flash_drive_restore_btn">Restore from USB drive</string>
   <string name="flash_drive_search_backup_files">"Searching for the USB backup…
 Don't change or rename backup files."</string>
+  <string name="gallery_summary">Gallery settings (not including photos)</string>
   <string name="guarded_mode_dialog_backup_message">"Backups aren't allowed in Guest mode."</string>
   <string name="guarded_mode_dialog_title">"You're in Guest mode"</string>
   <string name="guarded_mode_dialog_transfer_message">"Can't use Mi Mover in Guest mode."</string>
@@ -627,6 +628,7 @@ Free up space or make multiple smaller transfers."</string>
   <string name="usb_trans_old_phone_low_space_title">Not enough storage space</string>
   <string name="usb_trans_select_data_no_space">"Only %s is available on your USB drive.
 Free up space or transfer only important items."</string>
+  <string name="user_feedback">Feedback</string>
   <string name="user_name">Apple ID or email</string>
   <string name="user_name_null">"Username can't be empty"</string>
   <string name="user_notice_declaration_ignore">"Don't show again"</string>

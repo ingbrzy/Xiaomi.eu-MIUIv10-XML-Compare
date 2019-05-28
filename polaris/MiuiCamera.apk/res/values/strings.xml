@@ -316,6 +316,7 @@ in Portrait mode"</string>
   <string name="live_sticker_fragment_tab_name">TikTok effects</string>
   <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating…</string>
+  <string name="lying_direct_hint">照片方向</string>
   <string name="macro_mode">Macro</string>
   <string name="macro_mode_tip">"Distance between the lens and the object shouldn't exceed 10cm"</string>
   <string name="makeup_reset_toast">Cleared makeup effects successfully</string>
