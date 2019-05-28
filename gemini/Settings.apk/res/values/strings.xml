@@ -4131,6 +4131,7 @@ This setting affects all users on this phone."</string>
   <string name="screen_paper_mode_global_summary">Use Reading mode for all apps</string>
   <string name="screen_paper_mode_global_title">All apps</string>
   <string name="screen_paper_mode_hdr_toast">"Reading mode will be turned off while you're playing HDR videos. It will be turned back on automatically after the playback is over."</string>
+  <string name="screen_paper_mode_hdr_toast_new">Reading mode will be turned off automatically during HDR video playback and fingerprint verification. Your device will switch back to Reading mode once these actions are completed.</string>
   <string name="screen_paper_mode_local_summary">Use Reading mode for apps you select</string>
   <string name="screen_paper_mode_local_title">Selected apps</string>
   <string name="screen_paper_mode_off_apps_title">"Don't use Reading mode"</string>
