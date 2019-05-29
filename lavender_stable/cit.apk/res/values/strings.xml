@@ -266,8 +266,12 @@ only in frame mode"</string>
   <string name="channelbanding">channel banding:</string>
   <string name="charge_battery_test">Charge/Batt</string>
   <string name="charge_current">Charge Current：</string>
+  <string name="charge_fast_insert_pls">insert charge fast please</string>
   <string name="charge_in_ac">charge in（USB_DCP）</string>
+  <string name="charge_in_hvdcp">charge in(USB_HVDCP)</string>
   <string name="charge_in_usb">charge in（USB）</string>
+  <string name="charge_positive_pls">charge positive please</string>
+  <string name="charge_reverse_pls">charge reverse please</string>
   <string name="charge_test">Charge</string>
   <string name="charge_voltage">Charge Voltage：</string>
   <string name="charger_in_test">Charger Test</string>
@@ -280,6 +284,11 @@ only in frame mode"</string>
   <string name="cit2reporttitle">HW2 Test Report</string>
   <string name="cit3reporttitle">HW3 Test Report</string>
   <string name="cit4reporttitle">HW4 Test Report</string>
+  <string name="cit_bluetooth_logging_confirm_info">this Bluetooth Logging will collect your device Bluetooth protocal datas, only record current Bluetooth releated operations. Involve privacy information data will also be recorded: Bluetooth Phonebook Access/Telephone Call History/SMS/MMS/Exchanged Files/Music Meta Data etc. this data is limited to XiaoMi company internal debugging with users but not be used for other purposes.</string>
+  <string name="cit_bluetooth_logging_confirm_ng">Reject</string>
+  <string name="cit_bluetooth_logging_confirm_notify">Do you agree to enable logging?</string>
+  <string name="cit_bluetooth_logging_confirm_ok">Agree</string>
+  <string name="cit_bluetooth_logging_confirm_title">Bluetooth Logging Privacy Warning</string>
   <string name="cit_nv_flag">"CIT NV Flag: "</string>
   <string name="clear">Clear</string>
   <string name="click_button_to_start_test">click the button to start test</string>
@@ -595,6 +604,7 @@ off---Disabling continuous Tx"</string>
   <string name="no">No</string>
   <string name="no_neighbore_cell">no neighboring cells</string>
   <string name="no_test">Not tested</string>
+  <string name="no_test_done">No test done</string>
   <string name="no_vib">no vibration</string>
   <string name="no_vib_info">cancel vibrator</string>
   <string name="nofinger">No Fingerprint</string>
