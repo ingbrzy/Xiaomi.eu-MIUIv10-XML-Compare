@@ -312,7 +312,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_bind_app_widget_activity_allow_bind_title">Create widget and allow access?</string>
   <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
   <string name="allow_data_usage_title">Allow data usage when roaming</string>
-  <string name="allow_device_id_access">Apps with access to Device ID</string>
+  <string name="allow_device_id_access">Select apps that can use device ID</string>
   <string name="allow_float_summary">Allow floating notifications</string>
   <string name="allow_float_title">Floating notifications</string>
   <string name="allow_interruption">Allow interruptions</string>
@@ -322,6 +322,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_lights_title">Allow using LED light</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
+  <string name="allow_oaid_used">Allow using device ID</string>
   <string name="allow_overlay_description">Allow this app to display on top of other apps you’re using. It may interfere with your use of those apps or change the way they seem to appear or behave.</string>
   <string name="allow_sound_title">Allow sound</string>
   <string name="allow_vibrate_title">Allow vibration</string>
@@ -626,7 +627,7 @@ To restrict the app, first turn on battery optimization."</string>
   <string name="backup_set_new_pw_title">Enter new backup password</string>
   <string name="backup_set_null_pw">Enter password first</string>
   <string name="backup_set_pw_confirm_title">Confirm new backup password</string>
-  <string name="badge_title">Show desktop app icon badge</string>
+  <string name="badge_title">Show app icon badges</string>
   <string name="band_mode_failed">Unsuccessful</string>
   <string name="band_mode_loading">Loading Band List…</string>
   <string name="band_mode_set">Set</string>
@@ -1835,7 +1836,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_display_layout_title">Mi 5 Features</string>
   <string name="device_edit_title">Rename phone</string>
   <string name="device_feedback">Send feedback about this device</string>
-  <string name="device_id">Device ID</string>
+  <string name="device_id">Device ID for personalized recommendations</string>
   <string name="device_info_default">Unknown</string>
   <string name="device_info_label">Device info</string>
   <string name="device_info_not_available">Not available</string>
@@ -1851,6 +1852,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_name_input_hint">Enter name</string>
   <string name="device_name_input_overlength">You went over the character limit</string>
   <string name="device_name_usage_point">Other nearby devices can see this name.</string>
+  <string name="device_oaid">Device ID</string>
   <string name="device_picker">Choose Bluetooth device</string>
   <string name="device_rear_camera">Rear camera</string>
   <string name="device_screen_consumption">Screen consumption</string>
@@ -4504,11 +4506,14 @@ UT Interface: %5$s"</string>
   <string name="resolver_settings_label">Sort</string>
   <string name="restore_default_apn">Restoring default APN settings.</string>
   <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
-  <string name="restore_device_id_content">Reset personalized recommendations</string>
-  <string name="restore_device_id_title">Restore Device ID</string>
-  <string name="restore_dialog_content">Restoring Device ID will reset your personalized recommendations.</string>
-  <string name="restore_dialog_positive">Restore</string>
+  <string name="restore_device_id_content">Personalized recommendations will be reset</string>
+  <string name="restore_device_id_title">Reset device ID</string>
+  <string name="restore_dialog_content">Resetting your current device ID will also reset personalized recommendations. Reset now?</string>
+  <string name="restore_dialog_positive">Reset</string>
   <string name="restore_dialog_title">Attention</string>
+  <string name="restore_oaid_content">Resetting your current device ID will create a new one. Reset now?</string>
+  <string name="restore_oaid_positive">Reset</string>
+  <string name="restore_oaid_title">Resetting device ID</string>
   <string name="restr_pin_enter_admin_pin">Enter admin PIN</string>
   <string name="restrict_background_blacklisted">Background data is turned off</string>
   <string name="restrict_bg_app">Restrict</string>

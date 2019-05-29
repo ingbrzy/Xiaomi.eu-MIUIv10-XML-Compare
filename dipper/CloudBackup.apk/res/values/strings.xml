@@ -198,7 +198,7 @@ Check your network settings and try again."</string>
   <string name="restore_init_description">Start restoring</string>
   <string name="restore_network_pause">%s (Tap to resume)</string>
   <string name="restore_network_unconnect">%s (Waiting for connection)</string>
-  <string name="restore_task_cancelling">Cancelling…</string>
+  <string name="restore_task_cancelling">Canceling…</string>
   <string name="restore_task_in_process">Restoring…</string>
   <string name="restore_unfinished">Restoring, try again later</string>
   <string name="restoring_file_title_no_progress">Restoring files…</string>
