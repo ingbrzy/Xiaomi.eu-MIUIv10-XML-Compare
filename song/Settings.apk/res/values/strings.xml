@@ -226,7 +226,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="allow_bind_app_widget_activity_allow_bind_title">Create widget and allow access?</string>
   <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
   <string name="allow_data_usage_title">Allow data usage when roaming</string>
-  <string name="allow_device_id_access">Apps with access to Device ID</string>
+  <string name="allow_device_id_access">Select apps that can use device ID</string>
   <string name="allow_float_summary">Allow floating notifications</string>
   <string name="allow_float_title">Floating notifications</string>
   <string name="allow_keyguard_summary">Allow notifications on the Lock screen</string>
@@ -234,6 +234,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="allow_lights_title">Allow using LED light</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
+  <string name="allow_oaid_used">Allow using device ID</string>
   <string name="allow_overlay_description">This permission allows an app to display on top of other apps you’re using and may interfere with your use of the interface in other applications, or change what you think you are seeing in other applications.</string>
   <string name="allow_sound_title">Allow sound</string>
   <string name="allow_vibrate_title">Allow vibration</string>
@@ -456,7 +457,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="backup_pw_cancel_button_text">Cancel</string>
   <string name="backup_pw_set_button_text">Set backup password</string>
   <string name="backup_section_title">Backup &amp; restore</string>
-  <string name="badge_title">Show desktop app icon badge</string>
+  <string name="badge_title">Show app icon badges</string>
   <string name="band_mode_failed">Unsuccessful</string>
   <string name="band_mode_loading">Loading Band List…</string>
   <string name="band_mode_set">Set</string>
@@ -1406,7 +1407,7 @@ This setting affects all users on this phone."</string>
   <string name="device_display_layout_title">Mi 5 Features</string>
   <string name="device_edit_title">Rename phone</string>
   <string name="device_feedback">Send feedback about this device</string>
-  <string name="device_id">Device ID</string>
+  <string name="device_id">Device ID for personalized recommendations</string>
   <string name="device_info_default">Unknown</string>
   <string name="device_info_label">Device info</string>
   <string name="device_info_not_available">Not available</string>
@@ -1421,6 +1422,7 @@ This setting affects all users on this phone."</string>
   <string name="device_name_input_hint">Enter name</string>
   <string name="device_name_input_overlength">You went over the character limit</string>
   <string name="device_name_usage_point">Other nearby devices can see this name.</string>
+  <string name="device_oaid">Device ID</string>
   <string name="device_picker">Choose Bluetooth device</string>
   <string name="device_rear_camera">Rear camera</string>
   <string name="device_reset_title">Reset device</string>
@@ -2237,7 +2239,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="keywords_wifi_calling">wifi, wi-fi, call, calling</string>
   <string name="keywords_write_settings">write modify system settings</string>
   <string name="kilobyteShort">KB</string>
-  <string name="kilobyte_per_second">K/s</string>
+  <string name="kilobyte_per_second">KB/s</string>
   <string name="label_global_roaming_settings">Roaming Settings</string>
   <string name="label_mi_stats">Mi analytics</string>
   <string name="language_keyboard_settings_title">Languages &amp; input</string>
@@ -2623,7 +2625,7 @@ There are other users present on this device.
   <string name="media_volume_title">Media</string>
   <string name="medium_font">Medium</string>
   <string name="megabyteShort">MB</string>
-  <string name="megabyte_per_second">M/s</string>
+  <string name="megabyte_per_second">MB/s</string>
   <string name="mem_details_title">Memory details</string>
   <string name="mem_state_subtitle">Memory states</string>
   <string name="mem_use_free_type">Free</string>
@@ -3667,11 +3669,14 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="resource_ringtone_volume_mute">Your ringer is currently silenced</string>
   <string name="restore_default_apn">Restoring default APN settings.</string>
   <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
-  <string name="restore_device_id_content">Reset personalized recommendations</string>
-  <string name="restore_device_id_title">Restore Device ID</string>
-  <string name="restore_dialog_content">Restoring Device ID will reset your personalized recommendations.</string>
-  <string name="restore_dialog_positive">Restore</string>
+  <string name="restore_device_id_content">Personalized recommendations will be reset</string>
+  <string name="restore_device_id_title">Reset device ID</string>
+  <string name="restore_dialog_content">Resetting your current device ID will also reset personalized recommendations. Reset now?</string>
+  <string name="restore_dialog_positive">Reset</string>
   <string name="restore_dialog_title">Attention</string>
+  <string name="restore_oaid_content">Resetting your current device ID will create a new one. Reset now?</string>
+  <string name="restore_oaid_positive">Reset</string>
+  <string name="restore_oaid_title">Resetting device ID</string>
   <string name="restr_pin_enter_admin_pin">Enter administrator PIN</string>
   <string name="restrict_background_blacklisted">Background data is turned off</string>
   <string name="restrict_bg_app">Restrict</string>
@@ -3780,7 +3785,7 @@ This setting affects all users on this phone."</string>
   <string name="screen_paper_mode_off_apps_title">"Don't use Reading mode"</string>
   <string name="screen_paper_mode_range_title">Settings</string>
   <string name="screen_paper_mode_set_apps_title">Reading mode apps</string>
-  <string name="screen_paper_mode_summary">Reading mode makes the colors of your display warmer allowing your eyes to relax.</string>
+  <string name="screen_paper_mode_summary">Reading mode makes the colors of your display warmer allowing your eyes to relax</string>
   <string name="screen_paper_mode_time_summary">Schedule time to turn Reading mode on and off</string>
   <string name="screen_paper_mode_time_title">Schedule</string>
   <string name="screen_paper_mode_title">Reading mode</string>
@@ -4442,8 +4447,6 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_notification_bar">Notification shade</string>
-  <string name="status_bar_settings_notification_led_custom">Custom color</string>
-  <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
@@ -4941,7 +4944,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
-  <string name="unlogin_account_summary">All Mi services. One Mi Account</string>
+  <string name="unlogin_account_summary">All Mi services. One Mi Account.</string>
   <string name="unlogin_account_title">Sign in to Mi Account</string>
   <string name="unmount_inform_text">USB storage will be unmounted.</string>
   <string name="unmute_sound_title">Unmute sound</string>
