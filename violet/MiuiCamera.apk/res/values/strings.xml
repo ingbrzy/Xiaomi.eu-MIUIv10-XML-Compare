@@ -316,6 +316,7 @@ in Portrait mode"</string>
   <string name="live_sticker_fragment_tab_name">TikTok effects</string>
   <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating…</string>
+  <string name="lying_direct_hint">照片方向</string>
   <string name="macro_mode">Macro</string>
   <string name="macro_mode_tip">"Distance between the lens and the object shouldn't exceed 10cm"</string>
   <string name="makeup_reset_toast">Cleared makeup effects successfully</string>
@@ -757,7 +758,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_front_mirror_entryvalue_on">on</string>
   <string name="pref_front_mirror_label_auto">Auto</string>
   <string name="pref_front_mirror_title">Mirror front camera</string>
-  <string name="pref_google_lens">Google lens</string>
+  <string name="pref_google_lens">Google Lens</string>
   <string name="pref_google_lens_default">true</string>
   <string name="pref_google_lens_summary">Point your camera at contact info, URLs, and QR codes to view available options</string>
   <string name="pref_google_lens_title">Lens suggestions</string>
