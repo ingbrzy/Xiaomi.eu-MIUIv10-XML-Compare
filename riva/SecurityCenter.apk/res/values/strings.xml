@@ -149,7 +149,7 @@
   <string name="app_manager_app_storage">"Storage: "</string>
   <string name="app_manager_app_traffic">"Data usage: "</string>
   <string name="app_manager_app_update">Updates</string>
-  <string name="app_manager_app_version_name">Version:</string>
+  <string name="app_manager_app_version_name">"Version: "</string>
   <string name="app_manager_appupdate_remind">Notify about updates</string>
   <string name="app_manager_as_dlg_msg">Allowing apps to autostart may require additional RAM and battery resources. Allow anyway?</string>
   <string name="app_manager_as_dlg_title">Attention</string>
@@ -929,7 +929,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_item4_content">Battery</string>
   <string name="first_aid_item5_content">Other issues</string>
   <string name="first_aid_result_feedback_button">Submit</string>
-  <string name="first_aid_result_feedback_summary">"Couldn't find any problems. However, I spotted some."</string>
+  <string name="first_aid_result_feedback_summary">"Security scan couldn't find any problems. However, I spotted some."</string>
   <string name="first_aid_result_feedback_title">Feedback</string>
   <string name="first_aid_result_summary_normal">Everything looks good!</string>
   <string name="first_aid_result_summary_not_finished">"Scan wasn't completed. Some risks may be undetected."</string>
@@ -1207,7 +1207,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="item_usb_debug">USB debugging</string>
   <string name="item_virus_lib">Update virus definitions automatically</string>
   <string name="kilobyteShort">KB</string>
-  <string name="kilobyte_per_second">K/s</string>
+  <string name="kilobyte_per_second">KB/s</string>
   <string name="label_callwait">Call waiting notification</string>
   <string name="label_mi_stats">Mi analytics</string>
   <string name="last_check_canceled">Previous scan was canceled</string>
@@ -1338,7 +1338,7 @@ to respond"</string>
   <string name="managed_user_title">All work apps</string>
   <string name="manual_input_free_traffic">Set off-peak data usage</string>
   <string name="manual_input_traffic">Set data usage</string>
-  <string name="manual_item_white_list_summary">Prevent selected apps from being optimized</string>
+  <string name="manual_item_white_list_summary">Prevent selected items from being optimized</string>
   <string name="manual_item_white_list_title">Exceptions</string>
   <string name="mark_agent">Block reported agencies</string>
   <string name="mark_agent_block">Reported as agency</string>
@@ -1370,7 +1370,7 @@ to respond"</string>
   <string name="mark_time_text">%d</string>
   <string name="marked_by_user">"You marked it as "</string>
   <string name="megabyteShort">MB</string>
-  <string name="megabyte_per_second">M/s</string>
+  <string name="megabyte_per_second">MB/s</string>
   <string name="memory_check_content">Freed %s</string>
   <string name="memory_clean_memory_size_tip">Cache</string>
   <string name="memory_clean_no_need_clean">Everything looks good</string>
