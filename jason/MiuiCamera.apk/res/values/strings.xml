@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="access_sd_fail">"Couldn't access USB storage."</string>
+  <string name="access_sd_fail">"Couldn't access SD card."</string>
   <string name="accessibility_ai_scene_off">AI camera is off</string>
   <string name="accessibility_ai_scene_on">AI camera is on</string>
   <string name="accessibility_audio_shutter_bg">Audio Shutter background</string>
@@ -304,7 +304,7 @@ in Portrait mode"</string>
   <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
   <string name="network_access_user_notice_title">Connecting to the internet</string>
   <string name="no_storage">Insert SD card before using camera</string>
-  <string name="not_enough_space">Internal storage is full</string>
+  <string name="not_enough_space">SD card is full</string>
   <string name="object_track_enable_toast">To select an object, simultaneously tap two diagonal points around its border.</string>
   <string name="pano_file_name_format">"'PANO'_yyyyMMdd_HHmmss"</string>
   <string name="pano_how_to_use_prompt_align_reference_line">Align the arrow with the reference line</string>
@@ -743,7 +743,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_front_mirror_entryvalue_on">on</string>
   <string name="pref_front_mirror_label_auto">Auto</string>
   <string name="pref_front_mirror_title">Mirror front camera</string>
-  <string name="pref_google_lens">Google lens</string>
+  <string name="pref_google_lens">Google Lens</string>
   <string name="pref_google_lens_default">true</string>
   <string name="pref_google_lens_summary">Point your camera at contact info, URLs, and QR codes to view available options</string>
   <string name="pref_google_lens_title">Lens suggestions</string>
@@ -831,7 +831,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
   <string name="pref_video_volumekey_function_default">shutter</string>
-  <string name="preparing_sd">Checking internal storage…</string>
+  <string name="preparing_sd">Checking SD card…</string>
   <string name="record_back_pressed_hint">Touch again to stop recording</string>
   <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
   <string name="screen_on_proximity_sensor_summary">"Don't cover the earphone area"</string>
