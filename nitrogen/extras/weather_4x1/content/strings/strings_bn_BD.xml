@@ -7,7 +7,7 @@
     <string name="air_quality4">\'AQI \'+#aqi</string>
     <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">আবহাওয়া তথ্য পেতে ট্যাপ করুন</string>
-    <string name="weather_location_null">কোনো অবস্থান তথ্য় পাওয়া যায় নি</string>
+    <string name="weather_location_null">কোনো লোকেশন তথ্য় পাওয়া যায় নি</string>
     <string name="weather_type_0">আকাশ পরিষ্কার</string>
     <string name="weather_type_1">মেঘলা</string>
     <string name="weather_type_2">কুয়াশাচ্ছন্ন</string>
