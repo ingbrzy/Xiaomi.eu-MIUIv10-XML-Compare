@@ -1,9 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="add">Add</string>
-  <string name="add_manual_printer">Add manual printer</string>
+  <string name="add_named">Add %1$s</string>
+  <string name="add_printer_by_ip">Add printer by IP address</string>
   <string name="app_name">Default Print Service</string>
-  <string name="forget_printer">Forget printer</string>
+  <string name="connect_hint_text">"You may need to approve this connection on your printer's front panel"</string>
+  <string name="connecting_to">Connecting to %1$s</string>
+  <string name="connects_via_network">Connects via current network at %1$s</string>
+  <string name="connects_via_wifi_direct">Connects via WLAN Direct</string>
+  <string name="failed_connection">Could not connect to %1$s</string>
+  <string name="failed_printer_connection">Could not connect to printer</string>
+  <string name="find_wifi_direct">Find WLAN Direct printers</string>
+  <string name="forget">Forget</string>
   <string name="hostname_or_ip">Hostname or IP address</string>
   <string name="ip_hint">192.168.0.4</string>
   <string name="media_size_4x6in">4x6 in</string>
@@ -26,8 +34,11 @@
   <string name="printer_out_of_paper">Out of paper</string>
   <string name="printer_out_of_toner">Out of toner</string>
   <string name="resolution_300_dpi">300 dpi</string>
-  <string name="title_activity_add_printer">Manually Added Printers</string>
+  <string name="saved_printers">Saved printers</string>
+  <string name="searching">Searching…</string>
+  <string name="title_activity_add_printer">Add printer</string>
   <string name="unreadable_input">Could not read document</string>
   <string name="waiting_to_send">Waiting to send</string>
-  <string name="wifi_not_connected">WLAN not connected</string>
+  <string name="wifi_direct">WLAN Direct</string>
+  <string name="wifi_direct_printers">WLAN Direct printers</string>
 </resources>

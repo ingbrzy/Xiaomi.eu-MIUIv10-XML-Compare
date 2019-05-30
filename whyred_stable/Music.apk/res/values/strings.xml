@@ -83,6 +83,7 @@
   <string name="app_permission_use_group_phone_desc">For Google Push services</string>
   <string name="app_permission_use_group_storage">Storage</string>
   <string name="app_permission_use_group_storage_desc">For finding and playing songs saved on device</string>
+  <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
   <string name="artist">Artists</string>
   <string name="artist_area_all">All</string>
   <string name="artist_area_china">China</string>
@@ -105,6 +106,7 @@
   <string name="back_confirm">Tap again to push the app to background</string>
   <string name="banner_op">Mi Music</string>
   <string name="bluetooth_device">Bluetooth audio device</string>
+  <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
   <string name="buffering">Buffering…</string>
   <string name="button_cancel_download">Cancel</string>
   <string name="button_download_now">Download now</string>
@@ -115,12 +117,13 @@
   <string name="cancel">Cancel</string>
   <string name="cancel_running_download">Cancel</string>
   <string name="change_download_quality">Change download quality</string>
+  <string name="character_counter_pattern">%1$d / %2$d</string>
   <string name="checking_new_version">Checking for updates…</string>
   <string name="choose_download_quality">Choose download quality</string>
   <string name="choose_stream_quality">Choose streaming quality</string>
   <string name="click_to_shuffle">Tap to shuffle</string>
   <string name="close_music_time">"Time remaining: "</string>
-  <string name="com.crashlytics.android.build_id">94434b23-e895-455a-963e-257d60f32e6d</string>
+  <string name="com.crashlytics.android.build_id">00b53bed-fd94-4e3d-9ce0-32cfc151f4a1</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -561,6 +564,11 @@
   <string name="open_service">Turn on</string>
   <string name="other_song_in_album">Other songs from this album</string>
   <string name="partner_id">3041</string>
+  <string name="password_toggle_content_description">Toggle password visibility</string>
+  <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+  <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+  <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+  <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
   <string name="paused_by_app">Paused</string>
   <string name="paused_in_power_save_mode">Paused when Battery saver is on</string>
   <string name="paused_insufficient_space">Waiting</string>
