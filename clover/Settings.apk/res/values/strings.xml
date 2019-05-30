@@ -266,7 +266,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_bind_app_widget_activity_allow_bind_title">Create widget and allow access?</string>
   <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
   <string name="allow_data_usage_title">Allow data usage when roaming</string>
-  <string name="allow_device_id_access">Apps with access to Device ID</string>
+  <string name="allow_device_id_access">Select apps that can use device ID</string>
   <string name="allow_float_summary">Allow floating notifications</string>
   <string name="allow_float_title">Floating notifications</string>
   <string name="allow_keyguard_summary">Allow notifications on the Lock screen</string>
@@ -274,6 +274,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="allow_lights_title">Allow using LED light</string>
   <string name="allow_mock_location">Allow mock locations</string>
   <string name="allow_mock_location_summary">Allow mock locations</string>
+  <string name="allow_oaid_used">Allow using device ID</string>
   <string name="allow_overlay_description">Allow this app to display on top of other apps you’re using. It may interfere with your use of those apps or change the way they seem to appear or behave.</string>
   <string name="allow_sound">Allow sound</string>
   <string name="allow_sound_title">Allow sound</string>
@@ -599,7 +600,7 @@ Last ran on %2$s"</string>
   <string name="backup_set_null_pw">Enter password first</string>
   <string name="backup_set_pw_confirm_title">Confirm new backup password</string>
   <string name="backup_update">Update</string>
-  <string name="badge_title">Show desktop app icon badge</string>
+  <string name="badge_title">Show app icon badges</string>
   <string name="band_mode_failed">Unsuccessful</string>
   <string name="band_mode_loading">Loading Band List…</string>
   <string name="band_mode_set">Set</string>
@@ -1700,7 +1701,7 @@ Since data usage is measured by your tablet, and your carrier may account for us
   <string name="device_display_layout_title">Mi 5 Features</string>
   <string name="device_edit_title">Rename pad</string>
   <string name="device_feedback">Send feedback about this device</string>
-  <string name="device_id">Device ID</string>
+  <string name="device_id">Device ID for personalized recommendations</string>
   <string name="device_info_default">Unknown</string>
   <string name="device_info_label">Device info</string>
   <string name="device_info_not_available">Not available</string>
@@ -1716,6 +1717,7 @@ Since data usage is measured by your tablet, and your carrier may account for us
   <string name="device_name_input_hint">Enter name</string>
   <string name="device_name_input_overlength">You went over the character limit</string>
   <string name="device_name_usage_point">Other nearby devices can see this name.</string>
+  <string name="device_oaid">Device ID</string>
   <string name="device_picker">Choose Bluetooth device</string>
   <string name="device_rear_camera">Rear camera</string>
   <string name="device_screen_consumption">Screen consumption</string>
@@ -2358,6 +2360,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gadget_toggle_wifi">Updating WLAN settings</string>
   <string name="gadget_wifi">WLAN</string>
   <string name="gallery_privacy_password_role_instruction">Your private photos will be stored here.</string>
+  <string name="gallery_summary">Gallery settings (not including photos)</string>
   <string name="game_booster">Game;Games;Turbo;Gaming;Gaming mode</string>
   <string name="game_controller_settings_category">Game Controller</string>
   <string name="game_mode_cta_dialog_agree">Agree</string>
@@ -2734,7 +2737,7 @@ you should create an iCloud backup first."</string>
   <string name="keywords_wifi_calling">wifi, wi-fi, call, calling</string>
   <string name="keywords_write_settings">write modify system settings</string>
   <string name="kilobyteShort">KB</string>
-  <string name="kilobyte_per_second">K/s</string>
+  <string name="kilobyte_per_second">KB/s</string>
   <string name="label_mi_stats">Mi analytics</string>
   <string name="lack_perm_msg">Mi Mover needs the following permissions: &lt;b&gt;%s&lt;/b&gt;.</string>
   <string name="lack_perm_title">Permissions required</string>
@@ -3132,7 +3135,7 @@ There are other users present on this device.
   <string name="media_volume_summary">Set volume for music and videos</string>
   <string name="media_volume_title">Media</string>
   <string name="megabyteShort">MB</string>
-  <string name="megabyte_per_second">M/s</string>
+  <string name="megabyte_per_second">MB/s</string>
   <string name="mem_details_title">Memory details</string>
   <string name="mem_state_subtitle">Memory states</string>
   <string name="mem_use_free_type">Free</string>
@@ -3288,6 +3291,7 @@ There are other users present on this device.
   <string name="miui_sos_statusbar_summary">Tap to turn off</string>
   <string name="miui_sos_statusbar_title">Emergency SOS is activated</string>
   <string name="miui_special_feature">Special features</string>
+  <string name="miui_touch_filtered_touchassistant_warning">The permissions dialog is covered by Quick ball. Move Quick ball away or turn this feature off.</string>
   <string name="miui_touch_filtered_warning">If an app is blocking a permissions dialog, drag the overlapping item away or close the app.</string>
   <string name="miui_updater">System update</string>
   <string name="miui_userguide">User guide</string>
@@ -3732,7 +3736,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="okay">OK</string>
   <string name="old_sdk_deny_warning">"The app isn't compatible with the latest Android permission requirements. Denied permissions may affect the way this app works."</string>
   <string name="old_soft_name">Connect via QR code</string>
-  <string name="old_way">You can also connect using a QR code. Tap to generate the code.</string>
+  <string name="old_way">You can also generate a QR code on your new device and scan it using the old one.</string>
   <string name="oldman_app_label">Lite mode</string>
   <string name="oldman_installed_current_btn">Restore original Home screen</string>
   <string name="oldman_installed_current_des">"You've set Lite mode as your default Home screen. Tap the button below to switch back to the original Home screen."</string>
@@ -4346,7 +4350,7 @@ UT Interface: %5$s"</string>
 "&lt;li&gt;Mobile data&lt;/li&gt;"
 "&lt;li&gt;Bluetooth&lt;/li&gt;</string>
   <string name="reset_network_final_button_text">Reset settings</string>
-  <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to reverse this action."</string>
+  <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to undo this action."</string>
   <string name="reset_network_title">Network settings reset</string>
   <string name="reset_network_wifi">WLAN</string>
   <string name="reset_second_space_passwd">Reset Second space password</string>
@@ -4366,15 +4370,18 @@ UT Interface: %5$s"</string>
   <string name="restore_data">Choose items to restore</string>
   <string name="restore_default_apn">Restoring default APN settings.</string>
   <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
-  <string name="restore_device_id_content">Reset personalized recommendations</string>
-  <string name="restore_device_id_title">Restore Device ID</string>
-  <string name="restore_dialog_content">Restoring Device ID will reset your personalized recommendations.</string>
-  <string name="restore_dialog_positive">Restore</string>
+  <string name="restore_device_id_content">Personalized recommendations will be reset</string>
+  <string name="restore_device_id_title">Reset device ID</string>
+  <string name="restore_dialog_content">Resetting your current device ID will also reset personalized recommendations. Reset now?</string>
+  <string name="restore_dialog_positive">Reset</string>
   <string name="restore_dialog_title">Attention</string>
   <string name="restore_failed">"Couldn't restore"</string>
   <string name="restore_finished">Restored successfully</string>
   <string name="restore_is_running">Restoring device</string>
   <string name="restore_launcher_layout_hit">Restore launcher settings</string>
+  <string name="restore_oaid_content">Resetting your current device ID will create a new one. Reset now?</string>
+  <string name="restore_oaid_positive">Reset</string>
+  <string name="restore_oaid_title">Resetting device ID</string>
   <string name="restore_progress">Restoring…</string>
   <string name="restore_report">Restore details</string>
   <string name="restore_telephony_hit">Restoring will restart the Phone app.</string>
@@ -4508,12 +4515,13 @@ Free up at least %s."</string>
   <string name="screen_paper_mode_global_summary">Use Reading mode for all apps</string>
   <string name="screen_paper_mode_global_title">All apps</string>
   <string name="screen_paper_mode_hdr_toast">"Reading mode will be turned off while you're playing HDR videos. It will be turned back on automatically after the playback is over."</string>
+  <string name="screen_paper_mode_hdr_toast_new">Reading mode will be turned off automatically during HDR video playback and fingerprint verification. Your device will switch back to Reading mode once these actions are completed.</string>
   <string name="screen_paper_mode_local_summary">Use Reading mode for apps you select</string>
   <string name="screen_paper_mode_local_title">Selected apps</string>
   <string name="screen_paper_mode_off_apps_title">"Don't use Reading mode"</string>
   <string name="screen_paper_mode_range_title">Settings</string>
   <string name="screen_paper_mode_set_apps_title">Reading mode apps</string>
-  <string name="screen_paper_mode_summary">Reading mode makes the colors of your display warmer allowing your eyes to relax.</string>
+  <string name="screen_paper_mode_summary">Reading mode makes the colors of your display warmer allowing your eyes to relax</string>
   <string name="screen_paper_mode_time_summary">Schedule time to turn Reading mode on and off</string>
   <string name="screen_paper_mode_time_title">Schedule</string>
   <string name="screen_paper_mode_title">Reading mode</string>
@@ -5222,8 +5230,6 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_notification_bar">Notification shade</string>
-  <string name="status_bar_settings_notification_led_custom">Custom color</string>
-  <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
@@ -6020,7 +6026,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
-  <string name="unlogin_account_summary">All Mi services. One Mi Account</string>
+  <string name="unlogin_account_summary">All Mi services. One Mi Account.</string>
   <string name="unlogin_account_title">Sign in to Mi Account</string>
   <string name="unmount_inform_text">SD card will be unmounted.</string>
   <string name="unmute_sound_title">Unmute sound</string>
@@ -6202,6 +6208,7 @@ Tap the plus to add words."</string>
   <string name="user_experience_program">User Experience Program</string>
   <string name="user_experience_program_summary">Help us improve our products and services by sharing your usage stats with us</string>
   <string name="user_experience_program_title">User Experience Program</string>
+  <string name="user_feedback">Feedback</string>
   <string name="user_guest">Guest</string>
   <string name="user_image_choose_photo">Choose photo from Gallery</string>
   <string name="user_image_photo_selector">Select photo</string>
@@ -6411,8 +6418,9 @@ Tap the plus to add words."</string>
   <string name="vt_provisioned_switch_string">Video Calling Provisioned</string>
   <string name="wait_for_debugger">Wait for debugger</string>
   <string name="wait_for_debugger_summary">Debugged application waits for debugger to attach before executing</string>
-  <string name="wait_link">"Connect your old device to this hotspot.
-Don't leave this page until the connection is established."</string>
+  <string name="wait_link">"Open Mi Mover on the old device,
+tap \"I'm a sender\" and select a hotspot to connect.
+Don't close the page before connection is established."</string>
   <string name="waiting">Just a sec…</string>
   <string name="wakeup_for_keyguard_notification_title">Wake Lock screen for notifications</string>
   <string name="wallpaper_attributions">Wallpapers</string>
