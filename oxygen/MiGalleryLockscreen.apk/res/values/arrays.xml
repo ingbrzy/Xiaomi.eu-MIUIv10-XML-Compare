@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="feature_desc">
-        <item>Morning greetings now support "Slide up to unlock" for smoother unlocking.</item>
-        <item>Added "Select all" toggle when adding slideshow wallpapers.</item>
+        <item>Fixed some known issues.</item>
     </string-array>
     <string-array name="alphabet_table">
         <item>\#</item>
