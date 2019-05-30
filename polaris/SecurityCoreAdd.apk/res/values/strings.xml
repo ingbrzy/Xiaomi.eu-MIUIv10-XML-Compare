@@ -119,7 +119,7 @@ Make sure the name of your corporation is correct. Read and agree to the related
   <string name="ent_download_install_dialog_content">You must install corporate apps to activate Enterprise mode. Install now?</string>
   <string name="ent_download_install_dialog_title">Download corporate apps</string>
   <string name="ent_downloading_message">Downloading %d%%</string>
-  <string name="ent_error_dialog_content">At least one of the codes you entered was inorrect. Check your corporate and license codes, and enter them again.</string>
+  <string name="ent_error_dialog_content">At least one of the codes you entered was incorrect. Check your corporate and license codes, and enter them again.</string>
   <string name="ent_get_code_hint">You can get corporate and license codes from your supervisor</string>
   <string name="ent_install_dialog_content">Install apps and reboot your device now?</string>
   <string name="ent_installing">Installing…</string>
