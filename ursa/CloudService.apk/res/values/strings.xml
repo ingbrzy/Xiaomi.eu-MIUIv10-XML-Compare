@@ -35,7 +35,7 @@
   <string name="error_server">Server error</string>
   <string name="error_unknown">"Can't sign in"</string>
   <string name="find_device">Find device</string>
-  <string name="find_device_dspt_provision">If you lose your device, you can go to %s to locate, lock, or reset it. You can turn this feature on or off anytime in Settings.</string>
+  <string name="find_device_dspt_provision">If you lose your device, you can go to &lt;font color=#ff0000&gt;%s&lt;/font&gt; to locate, lock, or reset it. You can turn this feature on or off anytime in Settings.</string>
   <string name="find_device_dspt_provision_2">i.mi.com</string>
   <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
   <string name="find_device_error_network">Check your data connection and try again.</string>
@@ -195,7 +195,7 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_main_network_error">"Can't connect to the network"</string>
   <string name="micloud_main_simple_last_sync_time">Last sync time： %s</string>
   <string name="micloud_main_simple_off">Sync Off</string>
-  <string name="micloud_main_sync_mode_summary">"The items above will be synced in real time when this feature is on. This might increase your device's power consumption."</string>
+  <string name="micloud_main_sync_mode_summary">Sync all items except photos and videos in real time. Power consumption will increase when this feature is on.</string>
   <string name="micloud_main_sync_mode_title">Sync in real time</string>
   <string name="micloud_main_wait_charge">Fully charge your device to resume sync.</string>
   <string name="micloud_main_wait_charge_sleep">Turn off screen and fully charge your device to resume sync.</string>
