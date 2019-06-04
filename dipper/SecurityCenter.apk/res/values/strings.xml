@@ -1032,7 +1032,6 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gateway_exception_summary2">"Can't connect to the server"</string>
   <string name="gateway_exception_title">Test router</string>
   <string name="gb_ad_game_size">MB</string>
-  <string name="gb_add_game_hint">Add items from the list of apps</string>
   <string name="gb_advance_settings_edge_gear1">None</string>
   <string name="gb_advance_settings_edge_gear2">Small</string>
   <string name="gb_advance_settings_edge_gear3">Medium</string>
@@ -1070,7 +1069,6 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_first_window_summary">Boost speed and performance on a system level</string>
   <string name="gb_first_window_title">Game speed booster</string>
   <string name="gb_get_gift_right_now">Check in now</string>
-  <string name="gb_global_settings">General settings</string>
   <string name="gb_have_signed">Checked in today</string>
   <string name="gb_msg_completely_shielded">Hide messages</string>
   <string name="gb_msg_completely_shielded_summary">Hide</string>
