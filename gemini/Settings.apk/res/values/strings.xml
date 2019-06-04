@@ -3879,6 +3879,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="qtifeedback_settings_subtitle">Qualcomm Technologies Reporting</string>
   <string name="qtifeedback_settings_title">Hardware Feedback</string>
   <string name="query_hint_text">Search settings</string>
+  <string name="quick_reply_title">Quick replies</string>
   <string name="quick_settings_developer_tiles">Quick settings developer tiles</string>
   <string name="quiet">Do not disturb</string>
   <string name="quiet_group">Do not disturb</string>
