@@ -539,6 +539,10 @@ Last ran on %2$s"</string>
   <string name="backup_set_enter_pw_title">Enter backup password</string>
   <string name="backup_set_error_pw">The password you entered is incorrect</string>
   <string name="backup_set_modify_title">Change backup password</string>
+  <string name="backup_set_new_continue">Continue</string>
+  <string name="backup_set_new_exit">Exit</string>
+  <string name="backup_set_new_pw_confirm_hint">Attention</string>
+  <string name="backup_set_new_pw_confirm_summary">Your items are backed up automatically now. Creating a backup password will stop automatic backups. Continue anyway?</string>
   <string name="backup_set_new_pw_title">Enter new backup password</string>
   <string name="backup_set_null_pw">Enter password first</string>
   <string name="backup_set_pw_confirm_title">Confirm new backup password</string>
@@ -1582,6 +1586,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_miui_more">View more</string>
   <string name="device_miui_version">MIUI version</string>
   <string name="device_miui_version_for_POCO">MIUI version (For POCO)</string>
+  <string name="device_miui_version_parameters">MIUI version</string>
   <string name="device_miui_version_update">MIUI update is available</string>
   <string name="device_name">Device name</string>
   <string name="device_name_input_error">"Couldn't save device name"</string>
@@ -3872,6 +3877,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="qtifeedback_settings_subtitle">Qualcomm Technologies Reporting</string>
   <string name="qtifeedback_settings_title">Hardware Feedback</string>
   <string name="query_hint_text">Search settings</string>
+  <string name="quick_reply_title">Quick replies</string>
   <string name="quick_settings_developer_tiles">Quick settings developer tiles</string>
   <string name="quiet">Do not disturb</string>
   <string name="quiet_group">Do not disturb</string>
