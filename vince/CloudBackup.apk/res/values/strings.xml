@@ -8,9 +8,12 @@
   <string name="as_new_device_summary">Erase previous Mi Cloud backups</string>
   <string name="authentication_failed">"Couldn't verify account."</string>
   <string name="back_up_task_in_process">Backing up…</string>
-  <string name="back_up_task_unfinished">Not finished backing up</string>
+  <string name="back_up_task_unfinished">"Couldn't back up"</string>
   <string name="backing_up_to_micloud">Backing up…</string>
   <string name="backup_fail_wifi_needed">"Couldn't back up, WLAN needed."</string>
+  <string name="backup_failed_reason_cloud_space_not_enough">Not enough storage space in Mi Cloud. Upgrade your plan or free up storage space.</string>
+  <string name="backup_failed_reason_disk_space_not_enough">Not enough storage space. Free up storage first.</string>
+  <string name="backup_failed_reason_network_error">Network error. Wait a minute or two and try again.</string>
   <string name="backup_finished_notification_content">Backed up Home screen apps, system settings, etc.</string>
   <string name="backup_now">Back up now</string>
   <string name="backup_size">Size: %s</string>
@@ -189,6 +192,8 @@ Check your network settings and try again."</string>
   <string name="restore_detail_category_settings">Settings</string>
   <string name="restore_detail_more">More</string>
   <string name="restore_detail_title">Select items to restore</string>
+  <string name="restore_failed_reason_disk_space_not_enough">Not enough storage space. Free up storage first.</string>
+  <string name="restore_failed_reason_network_error">Network error. Wait a minute or two and try again.</string>
   <string name="restore_finish_description">Restore finished</string>
   <string name="restore_finished_notification_content">Restored Home screen apps, system settings, etc.</string>
   <string name="restore_from_cloud">Restore from Mi Cloud backup</string>
@@ -200,6 +205,7 @@ Check your network settings and try again."</string>
   <string name="restore_network_unconnect">%s (Waiting for connection)</string>
   <string name="restore_task_cancelling">Canceling…</string>
   <string name="restore_task_in_process">Restoring…</string>
+  <string name="restore_task_unfinished">"Couldn't restore"</string>
   <string name="restore_unfinished">Restoring, try again later</string>
   <string name="restoring_file_title_no_progress">Restoring files…</string>
   <string name="restoring_settings">Restoring Settings…</string>
