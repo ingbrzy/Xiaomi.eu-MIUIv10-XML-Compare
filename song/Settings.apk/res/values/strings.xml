@@ -3537,6 +3537,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="proxy_url_title">"PAC URL: "</string>
   <string name="proxy_warning_limited_support">The HTTP proxy is used by the browser but may not be used by the other apps.</string>
   <string name="query_hint_text">Search settings</string>
+  <string name="quick_reply_title">Quick replies</string>
   <string name="quiet">Do not disturb</string>
   <string name="quiet_group">Do not disturb</string>
   <string name="quiet_important_interruptions_mode">Only allow exceptions</string>
