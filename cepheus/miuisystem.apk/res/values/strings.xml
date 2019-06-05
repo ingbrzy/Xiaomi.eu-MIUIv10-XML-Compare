@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="acousticguitar">Acoustic guitar</string>
-  <string name="add_frequent_phrases">Add frequent phrases</string>
   <string name="alarmclock">Alarm clock</string>
   <string name="android_ringtone_default_with_actual">Default ringtone (%1$s)</string>
   <string name="android_ringtone_silent">None</string>
@@ -59,8 +58,6 @@
   <string name="def_sms_received_sound">/system/media/audio/ui/notice_audition.ogg</string>
   <string name="def_sms_received_sound_slot_1">/system/media/audio/ui/notice_audition.ogg</string>
   <string name="def_sms_received_sound_slot_2">/system/media/audio/ui/notice_audition.ogg</string>
-  <string name="delete_frequent_phrases">Delete frequent phrases</string>
-  <string name="delete_frequent_phrases_confirm">Delete selected frequent phrases?</string>
   <string name="device_hongmi">Redmi</string>
   <string name="device_pad">Mi Pad</string>
   <string name="device_poco_global">POCOPHONE</string>
@@ -71,7 +68,6 @@
   <string name="double_seventh_day">七夕</string>
   <string name="easter">復活節</string>
   <string name="echo">Echo</string>
-  <string name="edit_frequent_phrases">Edit frequent phrases</string>
   <string name="fadein">Fade in</string>
   <string name="fadeout">Fade out</string>
   <string name="fairyland">Fairyland</string>
@@ -80,8 +76,6 @@
   <string name="fireflies">Fireflies</string>
   <string name="flute">Flute</string>
   <string name="fools_day">愚人节</string>
-  <string name="frequent_phrases_des">Enter frequent phrases with only a few taps while editing text</string>
-  <string name="frequent_phrases_size_exceeded">Can add up to %1$d frequent phrases. Delete unnecessary ones to add more.</string>
   <string name="fresh">Fresh</string>
   <string name="frog">Frog</string>
   <string name="glee">Glee</string>
@@ -134,9 +128,6 @@
   <string name="lunar_yi">一</string>
   <string name="lunar_yue">月</string>
   <string name="lunar_zheng">正</string>
-  <string name="menu_add_frequent_phrases">Add</string>
-  <string name="menu_delete">Delete</string>
-  <string name="menu_edit">Edit</string>
   <string name="messagesent">Message sent</string>
   <string name="mi">Mi</string>
   <string name="miremix">Mi (Remix)</string>
