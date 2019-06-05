@@ -28,6 +28,7 @@
   <string name="enable_find_device_error">"Can't turn on Find device. %1$s"</string>
   <string name="enable_find_device_success">Find device is on.</string>
   <string name="enable_micloud">Sign in to use Mi Cloud</string>
+  <string name="enable_sync_setting_title">Configuring cloud services…</string>
   <string name="error_data_in_transfer">Sync will finish in %s hours.</string>
   <string name="error_data_in_transfer_title">Mi Cloud unavailable</string>
   <string name="error_network">"Can't connect to network"</string>
@@ -341,6 +342,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="pref_title_sync_contacts_title">Sync contacts</string>
   <string name="pref_title_sync_display_photo_on_wifi_only">Only use WLAN to sync photos</string>
   <string name="privacy_policy">Privacy Policy</string>
+  <string name="provision_sync_items_loading">Preparing to sync items</string>
   <string name="reading_status">Loading status…</string>
   <string name="reading_status_failure">"Couldn't load status."</string>
   <string name="search_cloudbackup_pref">Cloud Backup</string>
