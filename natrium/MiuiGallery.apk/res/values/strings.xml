@@ -15,7 +15,7 @@
   <string name="add_to_album_success">Added to album</string>
   <string name="add_to_album_tip">Cloud photos</string>
   <string name="add_to_favorites_failed">"Couldn't add to favorites"</string>
-  <string name="add_to_secret_exist">Photo already exists in hidden album</string>
+  <string name="add_to_secret_exist">This item already exists in hidden album</string>
   <string name="add_to_secret_fail">"Couldn't add to hidden album"</string>
   <string name="add_to_secret_failed_with_reason">"Can't add to hidden album. %1$s."</string>
   <string name="add_to_secret_successful">Added to hidden album</string>
@@ -196,6 +196,14 @@
   <string name="begin_share_toast">Create a separate album for this kid before sharing?</string>
   <string name="blank_app_name"/>
   <string name="browse_category_title">Browse</string>
+  <string name="burst_image_download_item_title" formatted="false">Download original (%s|%s)</string>
+  <string name="burst_preview_title">Burst shot</string>
+  <string name="burst_save_all">Save all</string>
+  <string name="burst_save_choice_title" formatted="false">Selected %d out of %d</string>
+  <string name="burst_save_confirm_dialog_title">Saving photos</string>
+  <string name="burst_save_error_msg">"Couldn't save"</string>
+  <string name="burst_save_processing">Processing…</string>
+  <string name="burst_transition_image_view">photo_view_burst</string>
   <string name="buy_member_tip">Become a member</string>
   <string name="by_email">Email</string>
   <string name="by_others">Other</string>
@@ -739,6 +747,8 @@
   <string name="custom_select_title_select_item">Select items</string>
   <string name="debugging_info">Debug info has been generated successfully. Tap OK to open folder.</string>
   <string name="debugging_tip">Generating debug data</string>
+  <string name="decrypt_video_failed">"Couldn't prepare video"</string>
+  <string name="decrypting_video">Preparing video…</string>
   <string name="default_relation_name">New group</string>
   <string name="define_by_user">Custom</string>
   <string name="delete">Delete</string>
@@ -794,6 +804,10 @@
   <string name="downloading_dialog_message">You can select the quality of the downloaded images or turn off automatic downloads in the Settings.</string>
   <string name="downloading_title">Downloading photos from Mi Cloud</string>
   <string name="edit_baby_info">View baby info</string>
+  <string name="editor_cancel">Cancel</string>
+  <string name="editor_export">Save</string>
+  <string name="editor_talkback_redo">Redo</string>
+  <string name="editor_talkback_undo">Undo</string>
   <string name="email_picker_title">Add shared email</string>
   <string name="empty_description_conditions">Remember the stories that matter</string>
   <string name="empty_description_no_cards">Remember the stories that matter</string>
@@ -921,7 +935,7 @@ Take more photos of your friends!"</string>
 are available"</string>
   <string name="feature_guidance_video_editor_smart_effects">New effects are available</string>
   <string name="fileSizeSuffix">%1$s%2$s</string>
-  <string name="filter_bg_color_component">1.0</string>
+  <string name="filter_bg_color_component">0.968</string>
   <string name="filter_bi_bw">B&amp;W</string>
   <string name="filter_bi_dusk">Dusk</string>
   <string name="filter_bi_lilt">Lilt</string>
@@ -970,7 +984,7 @@ are available"</string>
   <string name="filter_people_movie">Movie</string>
   <string name="filter_people_nature">Natural</string>
   <string name="filter_people_pink">Blush</string>
-  <string name="filter_people_riddle">Riddle</string>
+  <string name="filter_people_riddle">Candy</string>
   <string name="filter_people_sepia">Sepia</string>
   <string name="filter_people_story">Story</string>
   <string name="filter_people_tea">Tea</string>
@@ -995,6 +1009,7 @@ are available"</string>
   <string name="filter_sky_sunset">Sunset</string>
   <string name="finish_create_baby_album_toast">Created an album for \"%s\" in Mi Cloud</string>
   <string name="finish_fill_baby">Create</string>
+  <string name="first_time_add_video_to_secret_tips">Update Gallery to be able to hide videos</string>
   <string name="flash_off">No flash</string>
   <string name="flash_on">Flash used</string>
   <string name="frame_not_support_image_ratio">"This aspect ratio isn't supported"</string>
@@ -1287,7 +1302,7 @@ to personalize Gallery"</string>
   <string name="photo_editor_crop_rotation_format">%d°</string>
   <string name="photo_editor_doodle">Doodle</string>
   <string name="photo_editor_filter">Filter</string>
-  <string name="photo_editor_font_default">&gt;Mi Lanting (Regular)</string>
+  <string name="photo_editor_font_default">Mi Lanting (Regular)</string>
   <string name="photo_editor_frame">Frame</string>
   <string name="photo_editor_label">Edit</string>
   <string name="photo_editor_long_crop">Crop</string>
@@ -1318,6 +1333,7 @@ to personalize Gallery"</string>
   <string name="photo_editor_navigator_module_downloading">Downloading %s…</string>
   <string name="photo_editor_navigator_need_download">Connect to the internet to download %s.</string>
   <string name="photo_editor_remove_watermark">Remove watermark</string>
+  <string name="photo_editor_remove_watermark_on">Add watermark</string>
   <string name="photo_editor_remover">Erase</string>
   <string name="photo_editor_rotate">Rotate</string>
   <string name="photo_editor_saving">Saving…</string>
@@ -1326,6 +1342,7 @@ to personalize Gallery"</string>
   <string name="photo_editor_talkback_confirm">Confirm</string>
   <string name="photo_editor_talkback_crop_16_9">Sixteen to nine</string>
   <string name="photo_editor_talkback_crop_1_1">One to one</string>
+  <string name="photo_editor_talkback_crop_2_3">Two to three</string>
   <string name="photo_editor_talkback_crop_3_4">Three to four</string>
   <string name="photo_editor_talkback_crop_4_3">Four to three</string>
   <string name="photo_editor_talkback_crop_9_16">Nine to sixteen</string>
@@ -1606,6 +1623,12 @@ to personalize Gallery"</string>
   <string name="slim_running">Optimizing…</string>
   <string name="slim_space">freed up</string>
   <string name="slim_stop">Stop optimizing</string>
+  <string name="special_type_eye_repair">Fixed closed eyes using AI</string>
+  <string name="special_type_hdr">HDR</string>
+  <string name="special_type_night_beauty">AI Low Light Beautify</string>
+  <string name="special_type_night_mode">AI night mode</string>
+  <string name="special_type_portrait">AI light painting portrait</string>
+  <string name="special_type_wide_angle">AI ultra wide angle</string>
   <string name="start_debug">Debug Gallery</string>
   <string name="start_to_use_face_albumset">Sort by people</string>
   <string name="status_bar_notification_info_overflow">999+</string>
@@ -1728,14 +1751,14 @@ to personalize Gallery"</string>
   <string name="video_editor_adjust">Enhance</string>
   <string name="video_editor_analyzing">Analyzing video…</string>
   <string name="video_editor_audio">Audio</string>
+  <string name="video_editor_audio_antiquity">Retro</string>
   <string name="video_editor_audio_custom">Select</string>
-  <string name="video_editor_audio_dynamic">Techno</string>
-  <string name="video_editor_audio_love">Romantic</string>
-  <string name="video_editor_audio_memory">Memory</string>
+  <string name="video_editor_audio_dream">Dream</string>
+  <string name="video_editor_audio_electronics">Electro</string>
   <string name="video_editor_audio_none">None</string>
-  <string name="video_editor_audio_rock">Rock</string>
-  <string name="video_editor_audio_sad">Ballad</string>
-  <string name="video_editor_audio_young">Ukulele</string>
+  <string name="video_editor_audio_quiet">Zen</string>
+  <string name="video_editor_audio_summertime">Summer</string>
+  <string name="video_editor_audio_vitality">Vigor</string>
   <string name="video_editor_auto_trim">Auto trim</string>
   <string name="video_editor_auto_trim_tip">Auto trimming…</string>
   <string name="video_editor_cancel">Cancel</string>
