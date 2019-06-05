@@ -1001,6 +1001,11 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
   <string name="gamebox_app_not_find">Install the app first.</string>
   <string name="gamebox_browser_not_find">Install Mi Browser first</string>
+  <string name="gamebox_display_1">None</string>
+  <string name="gamebox_display_2">Saturated</string>
+  <string name="gamebox_display_3">Bright</string>
+  <string name="gamebox_display_4">Bright &amp; saturated</string>
+  <string name="gamebox_display_set">"Visual enhancement: "</string>
   <string name="gamebox_dnd">DND</string>
   <string name="gamebox_func_antimsg_close">Floating notifications are allowed now</string>
   <string name="gamebox_func_antimsg_open">Floating notifications are restricted now</string>
@@ -1957,6 +1962,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="protocol_exception_title">Network protocol diagnostics</string>
   <string name="protocol_loop_back_exception_summary">Local loop back test failed. To report this issue to MIUI, go to the Feedback app and send a log from your device.</string>
   <string name="qq_lucky_warning">QQ红包</string>
+  <string name="qucick_replay_instrument">Use quick replies in the notifications of the selected messengers (e.g. WhatsApp, WeChat, QQ)</string>
   <string name="quick_optimize_checking">Scanning</string>
   <string name="quick_optimize_no_fix_issue_subtitle">"Couldn't extend battery life"</string>
   <string name="quick_optimize_no_fix_issue_title">"Couldn't fix battery issues"</string>
@@ -1966,6 +1972,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="quick_optimize_sub_summary_text">Added %s to battery life</string>
   <string name="quick_optimize_suggest_battery_consume_too_fast">The phone is draining battery, fix it</string>
   <string name="quick_optimize_suggest_battery_over_heat">The phone is overheating, fix it</string>
+  <string name="quick_replay_list_title">Available apps</string>
+  <string name="quick_reply_title">Quick replies</string>
   <string name="quite_all_string">Cancel</string>
   <string name="random_expression">速抢模式</string>
   <string name="reach_daily_limit_value_body">Reduce your mobile data usage.</string>
