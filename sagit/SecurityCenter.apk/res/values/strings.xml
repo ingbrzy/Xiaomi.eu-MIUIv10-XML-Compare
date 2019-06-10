@@ -240,6 +240,8 @@ You will not lose any app data."</string>
   <string name="app_manager_show_detail_infos">View all</string>
   <string name="app_manager_start_by">Started by %s</string>
   <string name="app_manager_system_mobile_disable">Turn off data</string>
+  <string name="app_manager_thumbnail_blur_summary">Blur app previews in Recents</string>
+  <string name="app_manager_thumbnail_blur_title">Blur app previews</string>
   <string name="app_manager_title">Manage apps</string>
   <string name="app_manager_total_size">Total</string>
   <string name="app_manager_uninstall">Uninstall</string>
