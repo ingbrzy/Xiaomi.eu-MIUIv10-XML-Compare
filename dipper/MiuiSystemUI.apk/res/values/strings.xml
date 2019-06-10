@@ -1095,6 +1095,8 @@ MMMM d"</string>
   <string name="lockscreen_sim_error_message_short">SIM card is invalid.</string>
   <string name="lockscreen_unlock_left">Left shortcut also unlocks</string>
   <string name="lockscreen_unlock_right">Right shortcut also unlocks</string>
+  <string name="long_screenshot_guide_text">"Tap to make
+a scrolling screenshot"</string>
   <string name="long_screenshot_not_support_msg">"Current app doesn't support scrolling screenshots"</string>
   <string name="long_screenshot_out_of_memory_error">Image is too big</string>
   <string name="long_screenshot_processing">Processing…</string>
