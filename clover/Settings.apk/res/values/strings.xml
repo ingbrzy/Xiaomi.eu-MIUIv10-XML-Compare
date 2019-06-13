@@ -1243,6 +1243,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
   <string name="close_optimization_message">Text layout, accounts, and other parts of MIUI might be affected after you turn this feature off.</string>
   <string name="close_optimization_option">Turn off</string>
+  <string name="close_privacy_thumbnail_blur_title">"Previews aren't blurred"</string>
   <string name="close_twice_auth_btn">Turn off two-factor authentication</string>
   <string name="close_twice_auth_note">"Note:
 After creating a new security question and confirming your date of birth, your Apple ID two-factor authentication will be turned off. If you don't see the option to turn off two-factor authentication on the Apple ID account page, you can't turn it off."</string>
@@ -1342,12 +1343,15 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="confirm_exit_link_cancel">"Don't leave"</string>
   <string name="confirm_exit_link_msg">"Leaving the app now will interrupt the ongoing transfer. You'll have to establish connection between the two devices again. Leave the app anyway?"</string>
   <string name="confirm_exit_link_title">Interrupting the transfer</string>
+  <string name="confirm_fingerprint">Verify your fingerprint</string>
   <string name="confirm_fingerprint_icon_content_description">Use your fingerprint to continue.</string>
   <string name="confirm_fingerprint_msg">Put your finger on the sensor</string>
   <string name="confirm_frp_credential_message">You device was factory reset. You can unlock it using your previous password.</string>
   <string name="confirm_frp_credential_skip_txt">Use Google account instead</string>
   <string name="confirm_frp_credential_title">Unlock after Factory reset</string>
   <string name="confirm_new_backup_pw_prompt">Retype your new full backup password here</string>
+  <string name="confirm_password_with_fingerprint">Use fingerprint</string>
+  <string name="confirm_password_with_password">Enter password</string>
   <string name="confirm_privacy_password">Enter Privacy protection password</string>
   <string name="confirm_privacy_password_fingerprint">Scan fingerprint or enter Privacy protection password</string>
   <string name="confirm_prompt_all_permission">Ask for permissions for all apps?</string>
@@ -3767,6 +3771,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
   <string name="open_optimization_message">Turn on optimization to enjoy a smoother, faster UI.</string>
   <string name="open_optimization_option">Turn on</string>
+  <string name="open_privacy_thumbnail_blur_title">Previews are blurred</string>
   <string name="open_wifi_connect_summary">Tap to view details.</string>
   <string name="open_wifi_connect_title">Connected to %1$s</string>
   <string name="opening_paragraph_delete_profile_unknown_company">This work profile is managed by:</string>
@@ -4152,6 +4157,8 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="privacy_relative">Privacy</string>
   <string name="privacy_settings">Backup &amp; reset</string>
   <string name="privacy_settings_title">Backup</string>
+  <string name="privacy_thumbnail_blur_progress_message">Just a sec…</string>
+  <string name="privacy_thumbnail_blur_title">Blur app previews</string>
   <string name="private_gallery_need_to_unlock">Password required:</string>
   <string name="private_gallery_recording_intro_header">Draw an unlock pattern:</string>
   <string name="private_gallery_reset_by_account">To reset your password, sign in to your Mi Account</string>
