@@ -81,7 +81,32 @@
         <item>435</item>
         <item>462</item>
     </integer-array>
-    <array name="config_autoBrightnessGame" />
+    <integer-array name="config_autoBrightnessGame">
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>320</item>
+        <item>320</item>
+        <item>320</item>
+        <item>320</item>
+        <item>496</item>
+        <item>624</item>
+        <item>688</item>
+        <item>688</item>
+        <item>704</item>
+        <item>720</item>
+        <item>768</item>
+        <item>880</item>
+        <item>960</item>
+        <item>1008</item>
+        <item>1072</item>
+        <item>1344</item>
+        <item>1488</item>
+        <item>1680</item>
+        <item>3200</item>
+        <item>3840</item>
+        <item>4095</item>
+    </integer-array>
     <array name="config_autoBrightnessKeyboardBacklightValues" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>32</item>
