@@ -162,6 +162,8 @@ Pull down to refresh or check the network settings"</string>
   <string name="international_details_wind_connect">%1$s %2$s</string>
   <string name="international_details_wind_title">WIND</string>
   <string name="it_is_going_to_rain">"It's going to rain"</string>
+  <string name="item_city_list_region_no_data">-- / --</string>
+  <string name="item_city_list_temperature_no_data">--</string>
   <string name="locate_fail_detail_err">"Can't locate device
 Tap the screen to manually add or reposition city"</string>
   <string name="location_provider_btn_text">Turn on location services</string>

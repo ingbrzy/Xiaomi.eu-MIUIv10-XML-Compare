@@ -87,7 +87,6 @@
   <string name="button_text_next_step">Next</string>
   <string name="button_text_next_step_timer">Next (%d)</string>
   <string name="call_record_or">" or "</string>
-  <string name="call_record_sample_prefix_miui">Call</string>
   <string name="caller_info_name_delimiter">" or "</string>
   <string name="cancel_action">Cancel</string>
   <string name="close">Off</string>
