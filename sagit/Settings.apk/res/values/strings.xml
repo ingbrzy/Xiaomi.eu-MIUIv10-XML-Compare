@@ -2127,6 +2127,8 @@ You can view generated logs in File Manager."</string>
   <string name="enable_service_pin_reason">Because turning on %1$s affects data encryption, you need to confirm your PIN.</string>
   <string name="enable_service_title">The service will perform these actions:</string>
   <string name="enable_snapshot_screenlock">Long press Back to take photo</string>
+  <string name="enable_tcp_rtt_support">Display TCP RTT</string>
+  <string name="enable_tcp_rtt_support_summary">Evaluate the performance of network communication quality</string>
   <string name="enable_terminal_summary">Enable terminal app that offers local shell access</string>
   <string name="enable_terminal_title">Local terminal</string>
   <string name="enable_text">Enable</string>
