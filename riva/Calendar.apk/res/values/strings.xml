@@ -693,7 +693,10 @@ Check network settings and try again."</string>
   <string name="repeat_label_frequency">Frequency</string>
   <string name="repeat_label_interval">Every</string>
   <string name="repeat_label_week">Week</string>
+  <string name="repeat_lunar_monthly"/>
+  <string name="repeat_lunar_monthly_detail"/>
   <string name="repeat_lunar_yearly"/>
+  <string name="repeat_lunar_yearly_detail"/>
   <string name="repeat_month_day_splitter">" "</string>
   <string name="repeat_week_info">" %1$s %2$s"</string>
   <string name="repeats_label">Repeat</string>
