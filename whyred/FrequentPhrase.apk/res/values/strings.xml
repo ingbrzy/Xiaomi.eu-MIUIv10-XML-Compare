@@ -9,6 +9,6 @@
   <string name="menu_add_frequent_phrases">Add</string>
   <string name="menu_delete">Delete</string>
   <string name="menu_edit">Edit</string>
-  <string name="sync_phrase_label">Frequent Phrases</string>
+  <string name="sync_phrase_label">Frequent phrases</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
 </resources>
