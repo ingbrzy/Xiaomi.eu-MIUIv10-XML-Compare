@@ -145,7 +145,7 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_dspt">Use Mi Cloud to sync data, locate your device,</string>
   <string name="micloud_dspt_provision">Use Mi Cloud to sync data, locate your device, and share things with friends.</string>
   <string name="micloud_dspt_provision_xms">Use Mi Cloud to sync data.</string>
-  <string name="micloud_find_device_close_alert_content">"If you turn this feature off, you won't be able to locate your device in case it's lost."</string>
+  <string name="micloud_find_device_close_alert_content">"If you turn off Find device, you won't be able to locate your phone using this feature. If your phone supports NFC functionality, all your bank cards and keycards will be deleted from Mi Pay."</string>
   <string name="micloud_find_device_close_alert_negtive">Turn off anyway</string>
   <string name="micloud_find_device_close_alert_positive">Keep on</string>
   <string name="micloud_find_device_close_alert_title">Turn off Find device?</string>
@@ -266,6 +266,7 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_request_permission_confirm">Got it</string>
   <string name="micloud_request_permission_content">Mi Cloud needs permissions to sync data. Allow Mi Cloud to access Calendar, Contacts, Mi Account, SIM card status, call history, and messages.</string>
   <string name="micloud_request_permission_title">Mi Cloud needs permissions</string>
+  <string name="micloud_request_sync_too_frequent">Too many requests. Wait a minute or two and try again.</string>
   <string name="micloud_sec_dspt">and share things with friends.</string>
   <string name="micloud_setting_antispam_summary">Exceptions and blocked phone numbers</string>
   <string name="micloud_setting_browser_summary">Bookmarks, history, and tabs</string>
@@ -399,6 +400,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sync_sub_1_sms_1_intl_sms">1 domestic and 1 international SMS message may be required to activate this service. Your carrier will charge you for these messages.</string>
   <string name="sync_sub_2_intl_sms">2 outgoing international SMS messages may be required to activate this service. Your carrier will charge you for these messages.</string>
   <string name="sync_sub_2_sms">2 outgoing SMS messages may be required to activate this service. Your carrier will charge you for these messages.</string>
+  <string name="system_busy_or_network_error">An error occurred. Wait a minute or two and try again.</string>
   <string name="title_back">Back</string>
   <string name="title_reg">Create Mi Account</string>
   <string name="trying_to_connect_to_network">Connecting to the network…</string>
@@ -410,6 +412,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="user_detail_agreement">User Agreement</string>
   <string name="user_detail_privacy_policy">Privacy Policy</string>
   <string name="user_storage_info_available_text_prefix">%s available</string>
+  <string name="waiting_for_sync">Waiting…</string>
   <string name="warning_bar_action_add_short_cut">Add</string>
   <string name="warning_bar_action_close">Close</string>
   <string name="warning_bar_action_turn_on_master_sync">Turn on</string>
