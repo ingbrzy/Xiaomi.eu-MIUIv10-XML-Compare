@@ -1018,6 +1018,7 @@ Switch to the new provider anyway?"</string>
   <string name="network_info_message">Network message</string>
   <string name="network_lte">LTE (recommended)</string>
   <string name="network_message">Network message</string>
+  <string name="network_mode_updating_title">Network Type</string>
   <string name="network_operator_settings_class">com.android.phone.settings.MobileNetworkSetting</string>
   <string name="network_operator_settings_package">com.android.phone</string>
   <string name="network_query_error">Error while searching for networks.</string>
@@ -1294,6 +1295,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_type_pref_entries_4g_preferred">Prefer LTE</string>
   <string name="preferred_network_type_pref_entries_4g_preferred_cdma">Prefer 4G (CDMA)</string>
   <string name="preferred_network_type_pref_entries_4g_preferred_lm_cr">LTE/WCDMA/GSM auto</string>
+  <string name="preferred_network_type_pref_entries_5g_preferred">Prefer 5G</string>
   <string name="preferred_network_type_pref_entries_auto">Automatic</string>
   <string name="preferred_network_type_pref_entries_global">Global</string>
   <string name="preferred_network_type_pref_entries_only_2g">2G only (saves battery)</string>
