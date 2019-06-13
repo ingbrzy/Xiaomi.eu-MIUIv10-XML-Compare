@@ -1105,7 +1105,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gigabyteShort">GB</string>
   <string name="give_lucky_money">红包大派送</string>
   <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
-  <string name="gmscore_support_service">Google Services</string>
+  <string name="gmscore_support_service">Basic Google services</string>
   <string name="go_to">Proceed</string>
   <string name="go_to_setting_fingerprint">Settings</string>
   <string name="google_base_app_install_choice">The application requires Google Services Framework to work normally, download and install it?</string>

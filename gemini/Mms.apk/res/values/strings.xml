@@ -99,7 +99,16 @@
   <string name="cm_privacy_dialog_title">Attention</string>
   <string name="cmcc_key">43a489fcb42b4372b10f0586fe6dbf88</string>
   <string name="cmcc_privacy">China Mobile Carrier Privacy Agreement</string>
+  <string name="complain_input_number">Enter your phone number</string>
+  <string name="complain_jump">Skip</string>
   <string name="complain_message_title">Report</string>
+  <string name="complain_ok">OK</string>
+  <string name="complain_phone_number">Phone number (optional)</string>
+  <string name="complain_reason">Why are you reporting this message?</string>
+  <string name="complain_success">Thanks for your feedback. It helps us make Messaging better!</string>
+  <string name="complain_tips">"The content of the most recent message you report will be uploaded to our servers along with the phone number you provide. Our service providers will review the reported message.
+"</string>
+  <string name="complain_upload">Complaint has been submitted</string>
   <string name="compressing">Picture is too large. Compressing…</string>
   <string name="confirm">OK</string>
   <string name="confirm_add_blacklist_dialog_dspt">Add this number to your blocklist?</string>
@@ -163,7 +172,6 @@
   <string name="delete_wild_sims_title">Delete selected numbers</string>
   <string name="delivery_report_activity">Delivery report</string>
   <string name="delivery_toast_body">Message received by %s</string>
-  <string name="dialog_complain_tips">Allow Messaging to connect to the network to be able to report items.</string>
   <string name="dialog_message_fake_cell_detect_error">Correct the info about this message? To do this, MIUI needs to upload the phone number (%1$s), the contents of the message, and the info about nearby location to its servers.</string>
   <string name="dialog_message_mx">Mi Message allows you to send messages to other MIUI users without incurring charges. An outgoing SMS message is required to activate Mi Message. Your carrier will charge you for this message. You must agree to our \"%1$s\" and \"%2$s\" before using Mi Message.</string>
   <string name="dialog_message_networking">Messaging needs to use Yellow pages to be able to provide Sender ID recognition. Messaging and Yellow pages need to connect to the internet and access your location to work normally. Allow?</string>
@@ -410,7 +418,7 @@
   <string name="networking_allow_desc_without_mx">Mi Message needs to connect to the internet to work normally. In order to recognize unknown numbers, filter spam, and enable other features, Mi Message needs to use Yellow pages. Allow Yellow pages to connect to the internet, get your location info, and read your contacts?</string>
   <string name="networking_allow_title">Attention</string>
   <string name="new_message">Compose</string>
-  <string name="new_message_arrived">Click to view</string>
+  <string name="new_message_arrived">You have a new message</string>
   <string name="new_phrase">Add reply</string>
   <string name="new_phrase_hint">Enter new reply</string>
   <string name="no">Cancel</string>
@@ -663,7 +671,7 @@
   <string name="security_alert_dialog_title">Report</string>
   <string name="select_audio">Choose audio</string>
   <string name="select_bottom_text">Text on bottom</string>
-  <string name="select_copy_text">Select and copy text</string>
+  <string name="select_copy_text">Select text to copy</string>
   <string name="select_different_attachment">Choose a different attachment.</string>
   <string name="select_different_audio">Choose a different audio.</string>
   <string name="select_different_picture">Choose a different image.</string>
@@ -808,7 +816,7 @@ Attempt made: %s."</string>
   <string name="undelivered_msg_dialog_title">Undelivered message</string>
   <string name="undelivered_sms_dialog_body">"Couldn't send this message."</string>
   <string name="unknown_num">Unknown number</string>
-  <string name="unknown_sender">You have a new message</string>
+  <string name="unknown_sender">Unknown sender</string>
   <string name="unstick">Unpin</string>
   <string name="unstick_conversation">Unpin current conversation</string>
   <string name="unsticked_conversation">Conversation is already unpinned</string>
