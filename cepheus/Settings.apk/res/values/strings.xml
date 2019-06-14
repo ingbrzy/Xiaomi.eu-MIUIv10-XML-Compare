@@ -1354,6 +1354,7 @@ This feature can be turned off in [Settings]"</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
   <string name="close_optimization_message">Text layout, accounts, and other parts of MIUI might be affected after you turn this feature off.</string>
   <string name="close_optimization_option">Turn off</string>
+  <string name="close_privacy_thumbnail_blur_title">"Previews aren't blurred"</string>
   <string name="cloud_backup_section_title">Mi Cloud backup</string>
   <string name="cloud_backup_settings_section_title">Backup settings</string>
   <string name="cloud_restore_section_summary">Restore system settings, Home screen layout, and apps</string>
@@ -1456,12 +1457,15 @@ This feature can be turned off in [Settings]"</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
   <string name="confirm_erase">Erase</string>
+  <string name="confirm_fingerprint">Verify your fingerprint</string>
   <string name="confirm_fingerprint_icon_content_description">Use your fingerprint to continue.</string>
   <string name="confirm_fingerprint_msg">Put your finger on the sensor</string>
   <string name="confirm_frp_credential_message">You device was factory reset. You can unlock it using your previous password.</string>
   <string name="confirm_frp_credential_skip_txt">Use Google account instead</string>
   <string name="confirm_frp_credential_title">Unlock after Factory reset</string>
   <string name="confirm_new_backup_pw_prompt">Retype your new full backup password here</string>
+  <string name="confirm_password_with_fingerprint">Use fingerprint</string>
+  <string name="confirm_password_with_password">Enter password</string>
   <string name="confirm_privacy_password">Enter Privacy protection password</string>
   <string name="confirm_privacy_password_fingerprint">Scan fingerprint or enter Privacy protection password</string>
   <string name="confirm_reset_aaid">OK</string>
@@ -2123,6 +2127,8 @@ You can view generated logs in File Manager."</string>
   <string name="enable_service_pin_reason">Because turning on %1$s affects data encryption, you need to confirm your PIN.</string>
   <string name="enable_service_title">The service will perform these actions:</string>
   <string name="enable_snapshot_screenlock">Long press Back to take photo</string>
+  <string name="enable_tcp_rtt_support">Display TCP RTT</string>
+  <string name="enable_tcp_rtt_support_summary">Evaluate the performance of network communication quality</string>
   <string name="enable_terminal_summary">Enable terminal app that offers local shell access</string>
   <string name="enable_terminal_title">Local terminal</string>
   <string name="enable_text">Enable</string>
@@ -3927,6 +3933,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
   <string name="open_optimization_message">Turn on optimization to enjoy a smoother, faster UI.</string>
   <string name="open_optimization_option">Turn on</string>
+  <string name="open_privacy_thumbnail_blur_title">Previews are blurred</string>
   <string name="open_wifi_connect_summary">Tap to view details.</string>
   <string name="open_wifi_connect_title">Connected to %1$s</string>
   <string name="opening_paragraph_delete_profile_unknown_company">This work profile is managed by:</string>
@@ -4298,6 +4305,8 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="privacy_relative">Privacy</string>
   <string name="privacy_settings">Backup &amp; reset</string>
   <string name="privacy_settings_title">Backup</string>
+  <string name="privacy_thumbnail_blur_progress_message">Just a sec…</string>
+  <string name="privacy_thumbnail_blur_title">Blur app previews</string>
   <string name="private_dns_help_message">&lt;annotation id="url"&gt;Learn more&lt;/annotation&gt; about Private DNS features</string>
   <string name="private_dns_mode_off">Off</string>
   <string name="private_dns_mode_opportunistic">Automatic</string>
