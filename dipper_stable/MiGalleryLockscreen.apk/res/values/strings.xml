@@ -213,7 +213,6 @@
   <string name="llks_standard_mode">Default</string>
   <string name="llks_standard_mode_desc">Wallpapers, stories, and daily recommendations</string>
   <string name="llks_tools_gallery_name">Wallpaper Carousel</string>
-  <string name="llks_tools_mipay_wallet_name">Mi Wallet</string>
   <string name="llks_tools_nfc_data">%s CNY</string>
   <string name="llks_tools_nfc_name">NFC</string>
   <string name="llks_tools_remote_control_name">Mi Remote</string>
@@ -239,7 +238,6 @@
   <string name="mode_des">Wallpaper Carousel is showing recommendations now. Switch to the slideshow to be able to view your custom items.</string>
   <string name="mode_ok">Switch to slideshow</string>
   <string name="mode_title">Showing recommendations</string>
-  <string name="more">More</string>
   <string name="more_article">More articles</string>
   <string name="need_open_gallery">Turn on Wallpaper Carousel</string>
   <string name="new_feature_title">"What's new"</string>
@@ -433,7 +431,6 @@
   <string name="toast_neterror_tip">A network error occurred</string>
   <string name="toast_update_no_more_newest_feeds">No new items for now</string>
   <string name="top_search_tip">Search for the categories you like</string>
-  <string name="torch">Flashlight</string>
   <string name="uninstall_introducation_text_desc">Wallpaper Carousel delivers new quality images directly to your Lock screen. Make sure you can do without its features before you uninstall the app.</string>
   <string name="uninstall_introduction_text_title">About Wallpaper Carousel</string>
   <string name="uninstall_warning_text_desc">"Without Wallpaper Carousel you won't be able to receive new Lock screen wallpapers regularly. However, you'll be able to download and install the app again. Delete Wallpaper Carousel?"</string>
