@@ -158,6 +158,8 @@ and optimizes your photos based on this info"</string>
   <string name="button_fisheye_camera_title">Fisheye</string>
   <string name="button_front_camera_title">Make a selfie</string>
   <string name="button_normal_video_title">Record video</string>
+  <string name="calibration_guide_tittle">Uncalibrated camera</string>
+  <string name="calibration_hint_usage">Uncalibrated camera will have a negative impact on image quality.Please contact after sales service.</string>
   <string name="camera_disabled">Camera has been disabled</string>
   <string name="camera_error_title">Camera error</string>
   <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
