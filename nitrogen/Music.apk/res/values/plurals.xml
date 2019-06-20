@@ -48,6 +48,10 @@ total %2$d song"</item>
         <item quantity="other">%d comments</item>
         <item quantity="one">%d comment</item>
     </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+    </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Delete %d items?</item>
         <item quantity="one">Delete %d item?</item>
