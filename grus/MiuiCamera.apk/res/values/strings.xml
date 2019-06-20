@@ -66,6 +66,8 @@
   <string name="accessibility_ultra_pixel_photography_32mp_on">32MP is on</string>
   <string name="accessibility_ultra_pixel_photography_48mp_off">48MP is off</string>
   <string name="accessibility_ultra_pixel_photography_48mp_on">48MP is on</string>
+  <string name="accessibility_ultra_pixel_photography_64mp_off">6400万超清,关闭状态</string>
+  <string name="accessibility_ultra_pixel_photography_64mp_on">6400万超清,开启状态</string>
   <string name="accessibility_ultra_wide_off">Turned off Ultra wide angle mode</string>
   <string name="accessibility_ultra_wide_on">Turned on Ultra wide angle mode</string>
   <string name="accessibility_video_btn_play">Play video</string>
@@ -182,6 +184,7 @@ and optimizes your photos based on this info"</string>
   <string name="custom_watermark_words_input_hint">Enter text</string>
   <string name="custom_watermark_words_save_success">Saved successfully</string>
   <string name="device_48m_watermark_default_text">48MP TRIPLE CAMERA</string>
+  <string name="device_64m_watermark_default_text">64MP DUAL CAMERA</string>
   <string name="device_watermark_default_text">AI TRIPLE CAMERA</string>
   <string name="dialog_google_lens_option_0">Google Lens (Recommended)</string>
   <string name="dialog_ok">OK</string>
@@ -758,6 +761,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_menu_ultra_pixel_photography_32mp">32MP</string>
   <string name="pref_menu_ultra_pixel_photography_48mp">48MP</string>
+  <string name="pref_menu_ultra_pixel_photography_64mp">6400万超清</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
   <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720p videos with 240fps</string>
@@ -882,6 +886,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="ultra_pixel_photography_32mp_open_tip">32MP</string>
   <string name="ultra_pixel_photography_48mp_close_tip">48MP is off</string>
   <string name="ultra_pixel_photography_48mp_open_tip">48MP</string>
+  <string name="ultra_pixel_photography_64mp_close_tip">6400万超清已关闭</string>
+  <string name="ultra_pixel_photography_64mp_open_tip">6400万超清</string>
   <string name="ultra_wide_bokeh_close_tip">Full body mode is off</string>
   <string name="ultra_wide_bokeh_open_tip">Full body mode</string>
   <string name="ultra_wide_close_tip">Ultra wide angle mode is off</string>
