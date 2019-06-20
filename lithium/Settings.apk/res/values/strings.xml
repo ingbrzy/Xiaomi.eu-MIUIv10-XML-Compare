@@ -2112,10 +2112,6 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="force_stop">Force stop</string>
   <string name="force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
   <string name="force_stop_dlg_title">Force stop?</string>
-  <string name="force_touch">3D Touch</string>
-  <string name="force_touch_demo">Demo show</string>
-  <string name="force_touch_enable">Turn on 3D Touch</string>
-  <string name="force_touch_enable_tips">Press app icons in the launcher with an effort in order to view shortcut menus when 3D Touch is on.</string>
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget">Forget</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
