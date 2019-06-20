@@ -2,6 +2,7 @@
 <resources>
   <string name="action_add_to_workspace">Add to workspace</string>
   <string name="activity_not_found">"App isn't installed on your device"</string>
+  <string name="activity_not_unlocked">Wait until your device is fully rebooted before opening apps</string>
   <string name="add_screen">Add screen</string>
   <string name="announce_for_app_move_in_folder">Moved to position %1$d in the folder</string>
   <string name="announce_for_checked">%1$s, checked</string>
@@ -94,6 +95,7 @@
   <string name="defalut_launcher_title">Default launcher</string>
   <string name="default_folder_title_claro">Claro</string>
   <string name="default_folder_title_game">Games</string>
+  <string name="default_folder_title_meitu">Meitu apps</string>
   <string name="default_folder_title_microsoft">Microsoft</string>
   <string name="default_folder_title_recommend">More apps</string>
   <string name="default_folder_title_security">System</string>
@@ -326,6 +328,9 @@
   <string name="setting_wallpaper_tip">Pinch or swipe to adjust</string>
   <string name="settings">Settings</string>
   <string name="settings_shortcut">Settings</string>
+  <string name="shake_to_align_icons">Shake device to fill empty cells with icons</string>
+  <string name="shake_to_align_icons_summary">Shake your device while in editing mode to fill empty cells with icons automatically</string>
+  <string name="shake_to_align_icons_title">Shake to fill empty cells</string>
   <string name="share">Share</string>
   <string name="sharedUserId"/>
   <string name="show_all">Show all</string>
@@ -342,6 +347,7 @@
   <string name="status_installing">Installing</string>
   <string name="status_paused">Paused</string>
   <string name="status_pending">Waiting</string>
+  <string name="system_shortcuts_more_operation">App info</string>
   <string name="title_jeejen">Jeejen Home screen</string>
   <string name="title_select_live_folder">Select folder</string>
   <string name="title_select_shortcut">Select shortcut</string>
