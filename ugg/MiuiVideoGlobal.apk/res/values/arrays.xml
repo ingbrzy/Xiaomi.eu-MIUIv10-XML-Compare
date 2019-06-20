@@ -141,4 +141,11 @@
         <item>zeetv</item>
         <item>http://www.ozee.com/zeetv</item>
     </array>
+    <string-array name="playback_streaming_quality">
+        <item>Auto</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Very High</item>
+    </string-array>
 </resources>
