@@ -1529,7 +1529,7 @@ Some accounts may also automatically copy any changes you make on the tablet to 
   <string name="data_usage_disable_4g_limit">Set 4G data limit</string>
   <string name="data_usage_disable_mobile">Turn off mobile data?</string>
   <string name="data_usage_disable_mobile_limit">Set mobile data limit</string>
-  <string name="data_usage_disable_wifi_limit">Set WLAN data limit</string>
+  <string name="data_usage_disable_wifi_limit">Set Wi-Fi data limit</string>
   <string name="data_usage_disclaimer">Carrier data accounting may differ from your device.</string>
   <string name="data_usage_empty">No apps used data during this period.</string>
   <string name="data_usage_enable_3g">2G-3G data</string>
@@ -2302,10 +2302,6 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="force_stop">Force stop</string>
   <string name="force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
   <string name="force_stop_dlg_title">Force stop?</string>
-  <string name="force_touch">3D Touch</string>
-  <string name="force_touch_demo">Demo show</string>
-  <string name="force_touch_enable">Turn on 3D Touch</string>
-  <string name="force_touch_enable_tips">Press app icons in the launcher with an effort in order to view shortcut menus when 3D Touch is on.</string>
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget">Forget</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
