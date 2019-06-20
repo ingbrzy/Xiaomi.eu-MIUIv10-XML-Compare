@@ -621,6 +621,19 @@ To restrict the app, first turn on battery optimization."</string>
   <string name="backup_pw_cancel_button_text">Cancel</string>
   <string name="backup_pw_set_button_text">Set backup password</string>
   <string name="backup_section_title">Backup &amp; restore</string>
+  <string name="backup_set_clear_success">Turned off backup password successfully</string>
+  <string name="backup_set_clear_title">Turn off backup password</string>
+  <string name="backup_set_confirm">OK</string>
+  <string name="backup_set_confirm_clear">Turn off</string>
+  <string name="backup_set_enter_new_pw">Enter new backup password</string>
+  <string name="backup_set_enter_new_pw_again">Confirm new backup password</string>
+  <string name="backup_set_enter_old_pw">Enter old backup password</string>
+  <string name="backup_set_enter_pw_title">Enter backup password</string>
+  <string name="backup_set_error_pw">The password you entered is incorrect</string>
+  <string name="backup_set_modify_title">Change backup password</string>
+  <string name="backup_set_new_pw_title">Enter new backup password</string>
+  <string name="backup_set_null_pw">Enter password first</string>
+  <string name="backup_set_pw_confirm_title">Confirm new backup password</string>
   <string name="band_mode_failed">Unsuccessful</string>
   <string name="band_mode_loading">Loading Band List…</string>
   <string name="band_mode_set">Set</string>
@@ -1293,6 +1306,8 @@ This feature can be turned off in [Settings]"</string>
   <string name="checking_find_device_status">Checking Find device status…</string>
   <string name="checking_for_updates">Checking for updates…</string>
   <string name="choose_a_card_to_reset">Select SIM card to reset</string>
+  <string name="choose_keyguard_clock_style">Lock screen clock format</string>
+  <string name="choose_keyguard_clock_summary">"This setting doesn't work with third party themes"</string>
   <string name="choose_profile">Choose profile</string>
   <string name="choose_smartcover_type">Choose case type</string>
   <string name="choose_spell_checker">Choose spell checker</string>
@@ -2281,6 +2296,8 @@ For more details, contact your organization's admin."</string>
   <string name="fingerprint_unlock_skip_fingerprint">Continue without fingerprint</string>
   <string name="fingerprint_unlock_title">You can unlock your phone using your fingerprint. For security, this option requires a backup screen lock.</string>
   <string name="fingerprint_usage_category_title">Use fingerprint for</string>
+  <string name="fingerprint_wakeup_summary">Wake screen when no fingerprints have been enrolled.</string>
+  <string name="fingerprint_wakeup_title">Tap fingerprint sensor to wake</string>
   <string name="finish_application">Force stop</string>
   <string name="finish_button">Finish</string>
   <string name="finish_button_label">Finish</string>
@@ -2465,7 +2482,6 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_put_finger_title">Press and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add your fingerprint</string>
   <string name="gxzw_anim_light">Neon</string>
-  <string name="gxzw_anim_metal">Metal</string>
   <string name="gxzw_anim_pulse">Pulse</string>
   <string name="gxzw_anim_rhythm">Rhythm</string>
   <string name="gxzw_anim_star">Starlight</string>
@@ -4631,6 +4647,7 @@ To use screen pinning:
   <string name="search_advanced_settings">Advanced settings;Wifi;Wifi settings;WLAN settings</string>
   <string name="search_airplane_mode">Airplane mode;Aeroplane mode;Flight mode;Airplane;Aeroplane;Flight</string>
   <string name="search_alarm_sound_title">Alarm sound;alarm ringtone;alarm</string>
+  <string name="search_ambient_display_screen_title">Ambient display</string>
   <string name="search_android_beam_settings_title">NFC;Android Beam;Beam</string>
   <string name="search_apn_settings">APN;Access Point Names</string>
   <string name="search_app_invisible">App Invisible;Invisible apps</string>
@@ -4669,6 +4686,7 @@ To use screen pinning:
   <string name="search_dndm_vip_call_setting_title">VIP;Exceptions;Whitelist;white list</string>
   <string name="search_dndm_wristband">Activate with Mi Band;Mi Band</string>
   <string name="search_do_not_disturb_mode">Do not disturb</string>
+  <string name="search_doze_always_on_title">Always on</string>
   <string name="search_dtmf_tone_enable_title">Turn on Dial pad touch tones;Dial pad touch tones;touch tones;touch sounds;dialer tones;dialer sounds</string>
   <string name="search_empty">No search results</string>
   <string name="search_enable_adb">USB debugging</string>
@@ -5255,12 +5273,11 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_no_carrier">None</string>
   <string name="status_bar_settings_notification_bar">Notification shade</string>
   <string name="status_bar_settings_notification_led">Notification light</string>
-  <string name="status_bar_settings_notification_led_custom">Custom color</string>
   <string name="status_bar_settings_notification_priority">Priority</string>
   <string name="status_bar_settings_notification_priority_summary">Show notifications at the top of the list</string>
+  <string name="status_bar_settings_notification_ringtone">Ringtone</string>
   <string name="status_bar_settings_notification_shade_shortcut">Notification shade shortcut</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
-  <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_style">Notification style</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>

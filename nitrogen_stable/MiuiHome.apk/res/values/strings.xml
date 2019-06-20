@@ -92,6 +92,7 @@
   <string name="defalut_launcher_title">Default launcher</string>
   <string name="default_folder_title_claro">Claro</string>
   <string name="default_folder_title_game">Games</string>
+  <string name="default_folder_title_meitu">Meitu apps</string>
   <string name="default_folder_title_microsoft">Microsoft</string>
   <string name="default_folder_title_recommend">More apps</string>
   <string name="default_folder_title_security">System</string>
@@ -198,7 +199,6 @@
   <string name="invalid_contact_shortcut">Invalid contact</string>
   <string name="is_setting_wallpaper_message">Setting wallpaper…</string>
   <string name="is_system_wallpaper_message">"Can't delete system resources"</string>
-  <string name="launcher_auto_fill_empty_title">Fill empty cells</string>
   <string name="launcher_not_exist">An error occurred. Go back to Home screen and try again.</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
   <string name="like">Add to favorites</string>
@@ -214,7 +214,7 @@
   <string name="memory_clear_nothing_result">Nothing to clear in cache</string>
   <string name="memory_clear_result">%1$sB cleared</string>
   <string name="menu_add">Add</string>
-  <string name="menu_auto_fill">Fill empty cells</string>
+  <string name="menu_auto_fill_of_uninstall">Fill cells of uninstalled apps</string>
   <string name="menu_back_desktop">Back to Home screen</string>
   <string name="menu_cell_setting">Home screen layout</string>
   <string name="menu_customize">Settings</string>
