@@ -6,8 +6,8 @@
     <string name="air_quality3">\'AQI \'+#aqi</string>
     <string name="air_quality4">\'AQI \'+#aqi</string>
     <string name="air_quality5">\'AQI \'+#aqi</string>
-    <string name="weather_null"></string>
-    <string name="weather_location_null"></string>
+    <string name="weather_null">לחץ בכדי לקבל מידע אודות מזג האוויר</string>
+    <string name="weather_location_null">אין מידע על המיקום שלך</string>
     <string name="weather_type_0">בהיר</string>
     <string name="weather_type_1">מעונן</string>
     <string name="weather_type_2">אביך</string>

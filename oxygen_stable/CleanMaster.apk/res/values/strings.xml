@@ -208,7 +208,7 @@
   <string name="facebook_clean_exit_confirm_msg">"Haven't finished scanning Facebook yet. Stop scanning now?"</string>
   <string name="facebook_clean_exit_confirm_ok">Stop</string>
   <string name="facebook_clean_exit_confirm_title">Stop scanning?</string>
-  <string name="facebook_cleaner">Facebook Cleaner</string>
+  <string name="facebook_cleaner">Facebook cleaner</string>
   <string name="facebook_function_summery">Clear the items cached by Facebook</string>
   <string name="facebook_function_title">Facebook cleaner</string>
   <string name="facebook_group_cache">Cache files</string>
@@ -389,7 +389,7 @@
   <string name="mainbtn_text_quick_cleanup_default">Clean up</string>
   <string name="megabyteShort">MB</string>
   <string name="memeory_check_content">%1$d apps, memory %2$s</string>
-  <string name="memory_clean_icon_text">Clear memory</string>
+  <string name="memory_clean_icon_text">RAM Jet</string>
   <string name="memory_clean_no_trash_tip">Everything looks good</string>
   <string name="menu_add_to_white_list">Add to exceptions</string>
   <string name="menu_clear">Clear</string>
@@ -411,13 +411,17 @@
   <string name="news_change">Change</string>
   <string name="no_network">"Couldn't connect to network, try again later"</string>
   <string name="no_network_btn">Try again</string>
+  <string name="notification_garbage_cleanup_summary">Trash size reached %s</string>
+  <string name="notification_garbage_cleanup_title">Clear trash files</string>
+  <string name="notification_low_memory_cache_summary">Less than 1.5GB of storage space available</string>
+  <string name="notification_low_memory_cache_title">Clear cache</string>
+  <string name="notification_low_memory_deepclean_summary">Deep clean can free up storage on your device</string>
+  <string name="notification_low_memory_deepclean_title">Storage space running low</string>
   <string name="notification_summary_after_auto_cleanup">Cleaned %s.</string>
-  <string name="notification_summary_of_garbage_cleanup">Tap to free up space.</string>
-  <string name="notification_title_of_garbage_cleanup">%s of trash files</string>
   <string name="notify_when">Get a notification when trash size reaches 100MB</string>
   <string name="ok">OK</string>
-  <string name="one_tap_clean_GB">%sG</string>
-  <string name="one_tap_clean_M">%dM</string>
+  <string name="one_tap_clean_GB">%sGB</string>
+  <string name="one_tap_clean_M">%dMB</string>
   <string name="onekeyclean_boost_available">%s available</string>
   <string name="onekeyclean_boost_cleaned">Cleared %s</string>
   <string name="onekeyclean_boosted_title">Cleared successfully</string>
@@ -444,7 +448,7 @@
   <string name="pref_content_cleanup_white_list_none">None</string>
   <string name="pref_summary_auto_clean_and_alert">Schedule cleaner to run automatically</string>
   <string name="pref_summary_auto_update_cleanup_db">Last updated %s</string>
-  <string name="pref_summary_cleanup_white_list">Prevent selected apps from being cleaned up</string>
+  <string name="pref_summary_cleanup_white_list">Prevent selected files from being cleaned up</string>
   <string name="pref_summary_expand_cache_group">Show cache details automatically</string>
   <string name="pref_summary_garbage_auto_clean_content">Choose which items to clean automatically</string>
   <string name="pref_summary_garbage_cleanup_check_size">Clean automatically when trash reaches a certain size</string>
@@ -521,6 +525,7 @@
   <string name="sc_allow_network_dialog_message">Allow this app to connect to the internet to receive updates?</string>
   <string name="scanning">Scanning…</string>
   <string name="search_history">Search history</string>
+  <string name="security_center_slogan">Security. Always on guard.</string>
   <string name="see_more">More</string>
   <string name="set_immediately">Set</string>
   <string name="seton_immediately">Turn on</string>
