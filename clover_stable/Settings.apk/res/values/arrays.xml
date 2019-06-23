@@ -3254,16 +3254,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>2</item>
         <item>3</item>
     </string-array>
-    <string-array name="aod_clock_style_entries">
-        <item>Horizontal</item>
-        <item>Vertical</item>
-        <item>Inline</item>
-    </string-array>
-    <string-array name="aod_clock_style_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="dark_ui_mode_entries">
         <item>Automatic (based on time of day)</item>
         <item>Always on</item>
