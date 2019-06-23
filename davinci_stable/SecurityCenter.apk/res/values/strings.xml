@@ -994,6 +994,11 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
   <string name="gamebox_app_not_find">Install the app first.</string>
   <string name="gamebox_browser_not_find">Install Mi Browser first</string>
+  <string name="gamebox_display_1">None</string>
+  <string name="gamebox_display_2">Saturated</string>
+  <string name="gamebox_display_3">Bright</string>
+  <string name="gamebox_display_4">Bright &amp; saturated</string>
+  <string name="gamebox_display_set">"Visual enhancement: "</string>
   <string name="gamebox_dnd">DND</string>
   <string name="gamebox_func_antimsg_close">Floating notifications are allowed now</string>
   <string name="gamebox_func_antimsg_open">Floating notifications are restricted now</string>
