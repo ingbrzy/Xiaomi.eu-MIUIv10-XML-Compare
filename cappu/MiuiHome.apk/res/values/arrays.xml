@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="app_locating_animation_scaler">
+        <item>1.0</item>
+        <item>1.4</item>
+        <item>0.9</item>
+        <item>1.1</item>
+        <item>1.0</item>
+    </array>
     <string-array name="cell_layout_size_entries">
         <item>4x4</item>
         <item>4x5</item>
@@ -12,6 +19,11 @@
         <item>Wallpaper</item>
         <item>Widgets</item>
         <item>Settings</item>
+    </string-array>
+    <string-array name="editing_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="gadget_weather_image">
         <item>Clear</item>
@@ -44,35 +56,6 @@
         <item>Default</item>
         <item>Classic</item>
     </string-array>
-    <string-array name="transformation_entries">
-        <item>Slide</item>
-        <item>Crossfade</item>
-        <item>Tumble</item>
-        <item>Page</item>
-        <item>Cascade</item>
-        <item>Rotate</item>
-        <item>Cube</item>
-    </string-array>
-    <string-array name="wallpaper_scroll_entries">
-        <item>Theme default</item>
-        <item>Center</item>
-        <item>Left</item>
-        <item>Right</item>
-    </string-array>
-    <array name="app_locating_animation_scaler">
-        <item>1.0</item>
-        <item>1.4</item>
-        <item>0.9</item>
-        <item>1.1</item>
-        <item>1.0</item>
-    </array>
-    <array name="device_prefix" />
-    <string-array name="editing_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <array name="filter_prefix" />
     <array name="item_shake_animation_scaler">
         <item>0.0dip</item>
         <item>-4.0dip</item>
@@ -83,7 +66,15 @@
     <string-array name="quality_business_devices">
         <item>lithium</item>
     </string-array>
-    <array name="region_prefix" />
+    <string-array name="transformation_entries">
+        <item>Slide</item>
+        <item>Crossfade</item>
+        <item>Tumble</item>
+        <item>Page</item>
+        <item>Cascade</item>
+        <item>Rotate</item>
+        <item>Cube</item>
+    </string-array>
     <string-array name="transformation_values">
         <item>1</item>
         <item>2</item>
@@ -92,6 +83,12 @@
         <item>7</item>
         <item>8</item>
         <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>Theme default</item>
+        <item>Center</item>
+        <item>Left</item>
+        <item>Right</item>
     </string-array>
     <string-array name="wallpaper_scroll_values">
         <item>byTheme</item>
