@@ -1209,6 +1209,12 @@ This feature can be turned off in [Settings]"</string>
   <string name="call_manager_enable_title">Enable Call Manager</string>
   <string name="call_manager_summary">%1$s</string>
   <string name="call_manager_title">Call Manager</string>
+  <string name="call_records_name_1">Debbie Smith</string>
+  <string name="call_records_name_2">Jason Lee</string>
+  <string name="call_records_name_3">Tom Fowles</string>
+  <string name="call_records_summary_1">9:35 AM | 26 seconds | China Unicom</string>
+  <string name="call_records_summary_2">August 16 | 1m 16s | China Mobile</string>
+  <string name="call_records_summary_3">August 16 | 2m 24s | China Unicom</string>
   <string name="call_settings_primary_user_only">Change call settings in First space</string>
   <string name="call_settings_summary">Set up voicemail, call forwarding, call waiting, caller ID</string>
   <string name="call_settings_title">Call settings</string>
@@ -1812,6 +1818,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_miui_more">View more</string>
   <string name="device_miui_version">MIUI version</string>
   <string name="device_miui_version_for_POCO">MIUI version (For POCO)</string>
+  <string name="device_miui_version_parameters">MIUI version</string>
   <string name="device_miui_version_update">MIUI update is available</string>
   <string name="device_name">Device name</string>
   <string name="device_name_input_error">"Couldn't save device name"</string>
@@ -2851,10 +2858,14 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="launch_recents">Launch Recents</string>
   <string name="launch_voice_assistant">Launch Voice assistant</string>
   <string name="launch_wifi_text">View details</string>
+  <string name="launcher_icon">Icons</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
   <string name="launching_cit">Launching CIT</string>
   <string name="launching_pho">Launching phone info…</string>
   <string name="launching_rep">Reporting…</string>
+  <string name="layout_exhuge_font_take_effect_tips">XXL text size works only in Phone, Messaging, and Contacts</string>
+  <string name="layout_exhuge_font_tips">More options are available in %1$s</string>
+  <string name="layout_exhuge_font_tips_reg">Accessibility &gt; Display size</string>
   <string name="layout_size_exhuge">XXL</string>
   <string name="layout_size_exhuge_text">XXL</string>
   <string name="layout_size_huge">XL</string>
@@ -3863,6 +3874,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="page_layout_31">Jack Tang</string>
   <string name="page_layout_32">Play Store</string>
   <string name="page_layout_33">Google</string>
+  <string name="page_layout_34">Phone</string>
+  <string name="page_layout_35">Notes</string>
   <string name="page_layout_4">Music</string>
   <string name="page_layout_5">Video</string>
   <string name="page_layout_6">Apps</string>
@@ -3870,7 +3883,11 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="page_layout_8">Mi Life</string>
   <string name="page_layout_9">Themes</string>
   <string name="page_layout_confirm_message">Your device needs to reboot to apply these changes. This takes about 1 minute.</string>
+  <string name="page_layout_confirm_message_enlarge">Text, images, and icons will be enlarged. Some icons might change their places.</string>
+  <string name="page_layout_confirm_message_narrow">Text, images, and icons will become smaller. Some icons might change their places.</string>
   <string name="page_layout_confirm_title">Change display settings</string>
+  <string name="page_layout_confirm_title_enlarge">Bigger items</string>
+  <string name="page_layout_confirm_title_narrow">Smaller items</string>
   <string name="page_layout_godzilla_title">XXL</string>
   <string name="page_layout_huge_title">XL</string>
   <string name="page_layout_large_title">L</string>
@@ -4565,6 +4582,7 @@ To use screen pinning:
   <string name="screen_timeout_summary">After %1$s of inactivity</string>
   <string name="screen_timeout_title">Sleep mode</string>
   <string name="screen_usage_summary">Amount of time screen has been on since full charge</string>
+  <string name="screen_zoom_big">L</string>
   <string name="screen_zoom_conversation_icon_alex">A</string>
   <string name="screen_zoom_conversation_icon_pete">P</string>
   <string name="screen_zoom_conversation_message_1">Hi Pete!</string>
@@ -4578,8 +4596,10 @@ To use screen pinning:
   <string name="screen_zoom_keywords">display density, screen zoom, scale, scaling</string>
   <string name="screen_zoom_make_larger_desc">Make larger</string>
   <string name="screen_zoom_make_smaller_desc">Make smaller</string>
+  <string name="screen_zoom_normal">S</string>
   <string name="screen_zoom_preview_title">Preview</string>
   <string name="screen_zoom_short_summary">Make items on screen larger or smaller</string>
+  <string name="screen_zoom_small">XS</string>
   <string name="screen_zoom_summary">Make the items on your screen smaller or larger. Some apps on your screen may change position.</string>
   <string name="screen_zoom_summary_custom">Custom (%d)</string>
   <string name="screen_zoom_summary_default">Default</string>
@@ -6843,6 +6863,7 @@ Looks like credential storage isn't enabled."</string>
   <string name="wizard_back">Back</string>
   <string name="wizard_finish">Finish</string>
   <string name="wizard_next">Next</string>
+  <string name="words_title">Text</string>
   <string name="work_alarm_ringtone_title">Default work alarm sound</string>
   <string name="work_mode_label">Work profile</string>
   <string name="work_mode_off_summary">Apps and notifications are off</string>

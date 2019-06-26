@@ -299,6 +299,7 @@ you should create an iCloud backup first."</string>
   <string name="perm_read_phone_state">"Read phone's status"</string>
   <string name="perm_read_sms">Read SMS</string>
   <string name="perm_storage">Read and write on external storage</string>
+  <string name="phone_title">Phone settings</string>
   <string name="platform_chooser_item_android_mi">Mi phone</string>
   <string name="platform_chooser_item_android_others">Other brands</string>
   <string name="platform_chooser_item_ios">Import from an iOS device</string>
