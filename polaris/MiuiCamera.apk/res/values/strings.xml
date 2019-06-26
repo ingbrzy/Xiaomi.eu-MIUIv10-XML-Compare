@@ -183,9 +183,9 @@ and optimizes your photos based on this info"</string>
   <string name="custom_watermark_words">Custom watermark</string>
   <string name="custom_watermark_words_input_hint">Enter text</string>
   <string name="custom_watermark_words_save_success">Saved successfully</string>
-  <string name="device_48m_watermark_default_text">48MP DUAL CAMERA</string>
-  <string name="device_64m_watermark_default_text">64MP DUAL CAMERA</string>
   <string name="device_feature_configuration_file_name">default</string>
+  <string name="device_ultra_pixel_app_watermark_family_name_suffix">_48m</string>
+  <string name="device_ultra_pixel_watermark_default_text">48MP DUAL CAMERA</string>
   <string name="device_watermark_default_text">AI DUAL CAMERA</string>
   <string name="dialog_google_lens_option_0">Google Lens (Recommended)</string>
   <string name="dialog_ok">OK</string>
@@ -288,12 +288,14 @@ in Portrait mode"</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
+  <string name="live_appid"/>
   <string name="live_edit_exit_confirm">Stop</string>
   <string name="live_edit_exit_message">Stop shooting now?</string>
   <string name="live_edit_share_title">Share</string>
   <string name="live_error_confirm">Adjust time</string>
   <string name="live_error_message">Some features might not work properly when system time is incorrect.</string>
   <string name="live_error_title">"System time isn't correct"</string>
+  <string name="live_license"/>
   <string name="live_music_change_bgm">Change background music</string>
   <string name="live_music_close_cancel_message">Cancel</string>
   <string name="live_music_close_message">Turn off music now?</string>
