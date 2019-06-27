@@ -90,13 +90,16 @@
   <string name="auth_fail_warning">Session expired, sign in again later</string>
   <string name="authorize_title">Authorization</string>
   <string name="bind_facebook">Connect your Facebook Account</string>
+  <string name="bind_google">Connect your Google Account</string>
   <string name="bind_qq">QQ</string>
   <string name="bind_safe_phone_msg">Add your phone number to be able to sign in to your Mi Account next time.</string>
   <string name="bind_sina_weibo">Connect Sina Weibo Account</string>
   <string name="bind_sns_description">Sign in with %s</string>
   <string name="bind_weibo_description">Add your friends from Sina Weibo</string>
+  <string name="bind_weixin">Connect your WeChat Account</string>
   <string name="binded">Connected</string>
-  <string name="binded_description" formatted="false">%s has been connected to your Mi Account. Your profile has been updated with info from your %s Account.</string>
+  <string name="binded_description" formatted="false">"%s has been connected to your Mi Account.
+You can sign in to your Mi Account using %s now."</string>
   <string name="button_unbind">Disconnect</string>
   <string name="change_activate_email">Change email address</string>
   <string name="change_email_address">Change email address</string>
@@ -203,6 +206,7 @@ Send this code to the supervisor."</string>
   <string name="get_device_list_failed">"Can't get devices"</string>
   <string name="get_phone_bind_exceed_limit">"You can associate up to 3 Mi Accounts with a phone number. Can't add new accounts."</string>
   <string name="get_phone_verifycode_exceed_limit">Too many verification codes have been sent to this number. Wait 24 hours and try again.</string>
+  <string name="google">Google</string>
   <string name="guest_account_label">Mi Guest Account</string>
   <string name="i_agree">OK</string>
   <string name="i_agree_continue">Agree</string>
@@ -240,6 +244,7 @@ Send this code to the supervisor."</string>
   <string name="multi_user_not_show_sync_activity_message_2">"In such case, all the data will be synced to your Second space. To avoid this, don't turn on sync with Mi Cloud."</string>
   <string name="multi_user_not_show_sync_activity_title">"Don't turn on sync with Mi Cloud"</string>
   <string name="my_device_title">Current device</string>
+  <string name="need_install_wechat">Install WeChat first</string>
   <string name="no_network_btn">Refresh</string>
   <string name="no_network_title">"Can't connect to the network."</string>
   <string name="no_phone">No phone number</string>
@@ -552,5 +557,6 @@ To activate your account, follow the
   <string name="user_avatar_uploading">Just a sec…</string>
   <string name="vip_account_settings">VIP Settings</string>
   <string name="vip_settings_info">VIP settings</string>
+  <string name="weixin">WeChat</string>
   <string name="xiao_mi_vip">Mi VIP</string>
 </resources>

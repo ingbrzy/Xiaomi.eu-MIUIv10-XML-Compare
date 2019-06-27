@@ -673,6 +673,7 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="deep_save_memory_clean_summary">Clear cache when you lock device to prevent apps from using battery</string>
   <string name="deep_save_ontime_boot_shutdown_summary">Schedule time to turn device on and off</string>
   <string name="delete">Delete</string>
+  <string name="delete_all_sms">Delete all</string>
   <string name="delete_from_manual_item_white_list">Remove from exceptions</string>
   <string name="delete_input">Delete</string>
   <string name="deleted_apps">Deleted apps</string>
@@ -2148,6 +2149,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_blacklist">SMS blocklist</string>
   <string name="sms_cloud_block">Cloud blocklist</string>
   <string name="sms_contact_block">Block SMS from contacts</string>
+  <string name="sms_delete_all_hint">Delete all messages now?</string>
   <string name="sms_delete_hint">Delete all blocked messages from this number?</string>
   <string name="sms_delete_title">Delete messages</string>
   <string name="sms_detail_correct_success_text">"Here's the data usage stats from the previous calibration (%1$s):"</string>
