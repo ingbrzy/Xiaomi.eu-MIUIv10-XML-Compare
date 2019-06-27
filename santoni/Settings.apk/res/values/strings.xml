@@ -2730,6 +2730,8 @@ There are other users present on this device.
   <string name="miui_lab_features">MIUI lab features</string>
   <string name="miui_lab_gallery_search_desc">Improved image search</string>
   <string name="miui_lab_gallery_search_title">Find photos in Gallery</string>
+  <string name="miui_lab_home_feed_desc">Bright ideas. Compelling stories.</string>
+  <string name="miui_lab_home_feed_title">Media Center</string>
   <string name="miui_lab_install_drive_mode_error">"Couldn't install, try again."</string>
   <string name="miui_lab_install_drive_mode_summary">"Car mode is a system app. Installation doesn't require internet connection."</string>
   <string name="miui_lab_install_drive_mode_title">Install Car mode</string>
