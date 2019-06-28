@@ -182,6 +182,7 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_find_device_verify_progress">Reactivating Find device…</string>
   <string name="micloud_footer_international_url">mi.com/micloud</string>
   <string name="micloud_footer_normal_url">i.mi.com</string>
+  <string name="micloud_last_sync_canceled">Sync was canceled. Try again.</string>
   <string name="micloud_main_button_set_internet">Setting</string>
   <string name="micloud_main_head_menu_cloud_backup">Home screen backup</string>
   <string name="micloud_main_head_menu_finddevice_unavailable">Find device is unavailable in Second space, you can use it in First space.</string>
