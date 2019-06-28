@@ -176,6 +176,8 @@
   <string name="dialog_message_mx">Mi Message allows you to send messages to other MIUI users without incurring charges. An outgoing SMS message is required to activate Mi Message. Your carrier will charge you for this message. You must agree to our \"%1$s\" and \"%2$s\" before using Mi Message.</string>
   <string name="dialog_message_networking">Messaging needs to use Yellow pages to be able to provide Sender ID recognition. Messaging and Yellow pages need to connect to the internet and access your location to work normally. Allow?</string>
   <string name="dialog_message_rcs">China Mobile Messaging allows you to send messages to other China Mobile users in Mainland China without incurring charges. You must agree to \"%1$s\" before using China Mobile Messaging.</string>
+  <string name="dialog_sim_locked_confirm">OK</string>
+  <string name="dialog_sim_locked_message">"Your SIM card isn't fully operational with this phone because it doesn't comply with the terms and conditions of your subscription. If you have any questions or need more information about this matter, please contact Xiaomi service centers or the store that sold products to you."</string>
   <string name="dialog_title_fake_cell_detect_error">Correction</string>
   <string name="dialog_title_mx_rcs">Mi Message</string>
   <string name="dialog_title_networking">Terms and Conditions</string>
@@ -261,6 +263,7 @@
   <string name="guild_add_recipients">Tap to add recipients from contacts</string>
   <string name="guild_msim_switcher">Tap to switch SIM cards</string>
   <string name="has_invalid_recipient">Invalid recipients: &lt;%1$s&gt;</string>
+  <string name="heduohao_sub_sim_card">Sub</string>
   <string name="hidden_sender_address">Hidden sender address</string>
   <string name="hold_to_talk">Hold to talk</string>
   <string name="hybrid_check_network">Network settings</string>
@@ -589,6 +592,7 @@
   <string name="received_label">"Received: "</string>
   <string name="recipient_editor_count_format">%d</string>
   <string name="recipient_label">"Recipient: "</string>
+  <string name="recipients_contain_sub_sim_number">"Looks like there's a secondary SIM number among the recipients. Send this message using secondary SIM."</string>
   <string name="recipients_over_size">Too many recipients.</string>
   <string name="recommend_bar_cancel">Ignore</string>
   <string name="recommend_bar_message_mx">Mi Message allows you to send messages to other MIUI users without incurring charges.</string>
@@ -766,6 +770,9 @@
   <string name="storage_limits_setting">Set limits</string>
   <string name="storage_limits_setting_dismiss">No limits</string>
   <string name="storage_unavailable">No space available</string>
+  <string name="sub_sim_card">Sub</string>
+  <string name="sub_sim_card_indicator">Sub%d</string>
+  <string name="sub_sim_not_support_mms">"Can't send MMS using secondary SIM"</string>
   <string name="subject_hint">Subject</string>
   <string name="subject_label">"Subject: "</string>
   <string name="subscribe">Subscribe</string>
