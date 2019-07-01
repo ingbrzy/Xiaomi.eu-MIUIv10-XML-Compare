@@ -81,6 +81,10 @@
   <string name="auto_start_warning_deny">Deny</string>
   <string name="auto_start_warning_title">Allow %s to start automatically?</string>
   <string name="autofill">Autofill</string>
+  <string name="autofill_save_message">Allow MIUI to save your accounts and passwords?</string>
+  <string name="autofill_save_ok">Allow</string>
+  <string name="autofill_save_sub_message">"You'll be able to manage saved passwords in Settings &gt; Additional settings &gt; Privacy &gt; Manage passwords."</string>
+  <string name="autofill_save_title">Save passwords automatically</string>
   <string name="button_text_cancel">Cancel</string>
   <string name="button_text_delete">Uninstall</string>
   <string name="button_text_delete_timer">Uninstall (%d)</string>

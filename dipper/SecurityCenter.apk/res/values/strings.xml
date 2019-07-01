@@ -978,6 +978,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="function_shield_summary">Restrict selected system features when playing games</string>
   <string name="function_shield_three_finger">Restrict screenshot gestures</string>
   <string name="function_shield_title">Enhanced experience</string>
+  <string name="function_shield_voice_trigger">"Don't wake Mi AI with voice"</string>
   <string name="fw_blocked">Blocklist</string>
   <string name="fw_blocked_count">"Blocked "</string>
   <string name="fw_blocked_join">" and "</string>
