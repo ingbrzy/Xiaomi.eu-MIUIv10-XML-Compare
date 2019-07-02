@@ -162,9 +162,13 @@
   <string name="popup_camera_calibrate_failed">"Couldn't calibrate"</string>
   <string name="popup_camera_calibrate_now">Calibrate</string>
   <string name="popup_camera_calibrate_success">Calibrated successfully. You can open the front camera now.</string>
+  <string name="popup_camera_cancel_popup">Cancel</string>
+  <string name="popup_camera_continue_popup">Open Camera</string>
   <string name="popup_camera_front_failed">"Couldn't open front camera. Try again."</string>
   <string name="popup_camera_front_when_use">The Camera app needs to open the front camera again. Open now?</string>
+  <string name="popup_camera_hid_device_name">黑鲨</string>
   <string name="popup_camera_popup_falied_times_calibrate">"Couldn't open front camera multiple times. Try calibrating the camera."</string>
+  <string name="popup_camera_remove_hid_device">Looks like your device is connected to a game controller. You might not be able to open the front camera when a game controller is connected.</string>
   <string name="popup_camera_sure">Got it</string>
   <string name="popup_camera_sure_wait">Got it (%ds)</string>
   <string name="popup_camera_takeback_falied_times_calibrate">"Couldn't close front camera multiple times. Try calibrating the camera."</string>
