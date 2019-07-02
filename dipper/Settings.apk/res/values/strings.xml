@@ -1162,8 +1162,11 @@ Selection"</string>
   <string name="bootloader_status_unlocked">Unlocked</string>
   <string name="bootloader_status_unlocked_info">This device is unlocked</string>
   <string name="bootloader_summary">Flash your device via USB</string>
-  <string name="bootloader_tips">"After you add your Mi Account, don't sign out of it, perform a factory reset, or clear system apps' data. If you do any of the above, add your account again or you won't be able to unlock your device."</string>
+  <string name="bootloader_tips">"%s
+
+If you've already done any of the above, add your Mi Account again; otherwise, you won't be able to unlock your device."</string>
   <string name="bootloader_tips_ok">Got it</string>
+  <string name="bootloader_tips_warning">"Don't disconnect from the network, sign out of your Mi Account, perform a factory reset, or erase system data."</string>
   <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
   <string name="breathing_light_color_menu_title">Light color</string>
   <string name="breathing_light_color_summary">Light color when receiving new notification</string>
@@ -1956,6 +1959,7 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
   <string name="disabled_dependent_setting_summary">Depends on another setting</string>
   <string name="disabled_for_user_setting_summary">Setting can’t be changed by current user</string>
   <string name="disabled_low_ram_device">This feature is not available on this device</string>
+  <string name="disallow_lock_screen_summary">Allow notifications in \"App notifications\" first</string>
   <string name="disconnect">disconnect</string>
   <string name="disconnected">Not connected</string>
   <string name="display_auto_rotate_rotate">On</string>
@@ -3094,7 +3098,6 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="lock_screen_notifications_title">On lock screen</string>
   <string name="lock_screen_signature_summary">This message will be displayed on the Lock screen</string>
   <string name="lock_screen_signature_title">Lock screen owner info</string>
-  <string name="lock_screen_tip_toast">please allow first in notification application settings</string>
   <string name="lock_screen_unlock_show">Skip Lock screen</string>
   <string name="lock_screen_unlock_show_summary">Open Home screen or enter password directly</string>
   <string name="lock_secure_after_timeout_click_me_to_change_text">Tap to change</string>
