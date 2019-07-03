@@ -2273,7 +2273,7 @@ For more details, contact your organization's admin."</string>
   <string name="ethernet_data_usage">Ethernet data usage</string>
   <string name="every_day">Every day</string>
   <string name="expand_button_title">Advanced</string>
-  <string name="expandable_under_keyguard_title">Show on secure Lock screen</string>
+  <string name="expandable_under_keyguard_title">Expandable under secure Lock screen</string>
   <string name="experimental_category_title">Experimental</string>
   <string name="experimental_preference">(Experimental)</string>
   <string name="extended_power_menu">Extended power menu</string>
@@ -2832,7 +2832,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_double_tap_to_sleep_title">Double tap to sleep</string>
+  <string name="keyguard_double_tap_to_sleep_title">Double tap screen to sleep</string>
   <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
@@ -3274,6 +3274,8 @@ as your First space PIN."</string>
   <string name="manage_notification_access_summary_zero">Apps cannot read notifications</string>
   <string name="manage_notification_access_title">Notification access</string>
   <string name="manage_notification_title">App notifications</string>
+  <string name="manage_password">Manage passwords</string>
+  <string name="manage_password_summary">Autofill saved accounts and passwords</string>
   <string name="manage_space_text">Manage space</string>
   <string name="manage_trust_agents">Trust agents</string>
   <string name="manage_trust_agents_summary">None</string>
@@ -4426,6 +4428,8 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="quick_reply_title">Quick replies</string>
   <string name="quick_settings_developer_tiles">Quick settings developer tiles</string>
   <string name="quick_settings_label">Toggles</string>
+  <string name="quick_settings_under_keyguard_summary">Allow access to quick settings while the device is locked</string>
+  <string name="quick_settings_under_keyguard_title">Quick settings access</string>
   <string name="quiet">Do not disturb</string>
   <string name="quiet_group">Do not disturb</string>
   <string name="quiet_important_interruptions_mode">Only allow exceptions</string>
@@ -4973,7 +4977,7 @@ To use screen pinning:
   <string name="search_sound_settings">Sound;Volumes;vibration;Suppress noise;noise suppression</string>
   <string name="search_status_bar_settings">Notifications &amp; status bar;Notifications;Status bar</string>
   <string name="search_status_bar_settings_custom_carrier">Edit carrier name;Carrier name</string>
-  <string name="search_status_bar_settings_expandable_under_keyguard">Show on secure Lock screen;show on secure lockscreen</string>
+  <string name="search_status_bar_settings_expandable_under_keyguard">Expandable under secure Lock screen;expandable under secure lockscreen</string>
   <string name="search_status_bar_settings_manage_notification">App Notifications;Notifications</string>
   <string name="search_status_bar_settings_show_carrier">Show carrier name;Carrier name</string>
   <string name="search_status_bar_settings_show_network_speed">Show connection speed;connection speed</string>
