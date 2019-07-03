@@ -3272,6 +3272,8 @@ as your First space PIN."</string>
   <string name="manage_notification_access_summary_zero">Apps cannot read notifications</string>
   <string name="manage_notification_access_title">Notification access</string>
   <string name="manage_notification_title">App notifications</string>
+  <string name="manage_password">Manage passwords</string>
+  <string name="manage_password_summary">Autofill saved accounts and passwords</string>
   <string name="manage_space_text">Manage space</string>
   <string name="manage_trust_agents">Trust agents</string>
   <string name="manage_trust_agents_summary">None</string>
