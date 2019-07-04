@@ -978,6 +978,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="function_shield_summary">Restrict selected system features when playing games</string>
   <string name="function_shield_three_finger">Restrict screenshot gestures</string>
   <string name="function_shield_title">Enhanced experience</string>
+  <string name="function_shield_voice_trigger">"Don't wake Mi AI with voice"</string>
   <string name="fw_blocked">Blocklist</string>
   <string name="fw_blocked_count">"Blocked "</string>
   <string name="fw_blocked_join">" and "</string>
@@ -1068,6 +1069,11 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_description_image_button_answer">Answer</string>
   <string name="gb_description_image_button_reject">Decline</string>
   <string name="gb_description_image_button_video_answer">Video call</string>
+  <string name="gb_first_guide_function_shiled_title">Turn off system features when Game Turbo is on</string>
+  <string name="gb_first_guide_gamebox_des">Use shortcuts while playing games</string>
+  <string name="gb_first_guide_handsfree_des">Answer calls in the background</string>
+  <string name="gb_first_guide_shortcut_des">A Home screen shortcut for Game Turbo has been created</string>
+  <string name="gb_first_guide_title">Boost speed and performance on a system level</string>
   <string name="gb_first_window_antimsg_summary_quick_answer">Use quick replies</string>
   <string name="gb_first_window_antimsg_summary_transparent_show">See text on transparent background</string>
   <string name="gb_first_window_antimsg_title">Convenient notifications</string>
