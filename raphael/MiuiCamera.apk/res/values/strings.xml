@@ -403,14 +403,14 @@ in Portrait mode"</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
-  <string name="live_appid"/>
+  <string name="live_appid">100072</string>
   <string name="live_edit_exit_confirm">Stop</string>
   <string name="live_edit_exit_message">Stop shooting now?</string>
   <string name="live_edit_share_title">Share</string>
   <string name="live_error_confirm">Adjust time</string>
   <string name="live_error_message">Some features might not work properly when system time is incorrect.</string>
   <string name="live_error_title">"System time isn't correct"</string>
-  <string name="live_license"/>
+  <string name="live_license">9ac2ed462d28187ae35e2ce2dd8ca53783059abaa5214122ecd0bd1dad7531698b50df8091f74ae264af4a45f55d97ff24aeee16bc62fd9a67d70eac8dc5572066f1c03f2181027b24a7ad252a068788</string>
   <string name="live_music_change_bgm">Change background music</string>
   <string name="live_music_close_cancel_message">Cancel</string>
   <string name="live_music_close_message">Turn off music now?</string>
@@ -725,8 +725,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_long_pressing_shutter_title">Press &amp; hold Shutter button to lock AE/AF/AWB</string>
   <string name="pref_camera_long_pressing_viewfinder_entry_google_lens">Google Lens</string>
   <string name="pref_camera_long_pressing_viewfinder_entry_lock_ae_af">AE/AF lock</string>
-  <string name="pref_camera_lying_summary">手机平行于地平面时，会在拍照界面实时给出照片方向的提示</string>
-  <string name="pref_camera_lying_title">横竖屏引导提示</string>
+  <string name="pref_camera_lying_summary">Notify about current orientation when the phone is parallel to the ground</string>
+  <string name="pref_camera_lying_title">Notify about orientation</string>
   <string name="pref_camera_magic_mirror_title">Magic mirror</string>
   <string name="pref_camera_manual_mode_title">Manual</string>
   <string name="pref_camera_mfnr_sat_enable_title">Turn on MFNR</string>
@@ -1042,8 +1042,8 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="ultra_wide_recommend_tip_hint">Try Ultra wide angle mode</string>
   <string name="ultra_wide_recommend_tip_hint_sat">Try 0.6X ultra wide angle mode</string>
   <string name="user_agree">Agree</string>
-  <string name="user_define_watermark_cancel">cancel</string>
-  <string name="user_define_watermark_save">save</string>
+  <string name="user_define_watermark_cancel">Cancel</string>
+  <string name="user_define_watermark_save">Save</string>
   <string name="user_notice_identify_summary_format">Before using Camera, you must agree to our &lt;a href="http://www.miui.com/res/doc/eula.html?lang=en_US"&gt;User Agreement&lt;/a&gt; and &lt;a href="http://www.miui.com/res/doc/privacy.html?lang=en_US"&gt;Privacy Policy&lt;/a&gt;. Camera also needs to connect to the internet to work normally. Agree?</string>
   <string name="user_notice_title">Terms and Conditions</string>
   <string name="video_beauty_tip">Beautify for videos</string>
@@ -1067,4 +1067,5 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="wideselfie_rotate_to_left_slowly">Rotate the phone to the left</string>
   <string name="wideselfie_rotate_to_right_slowly">Rotate the phone to the right</string>
   <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
+  <string name="zoom_no_support_tip_64M">6400万超清模式下不支持变焦</string>
 </resources>
