@@ -244,6 +244,9 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="always_running">Always running (%s)</string>
   <string name="amber_alerts_summary">Receive bulletins about child abductions</string>
   <string name="amber_alerts_title">AMBER alerts</string>
+  <string name="ambient_display_screen_summary_always_on">Always on / Increased battery usage</string>
+  <string name="ambient_display_screen_summary_notifications">New notifications</string>
+  <string name="ambient_display_screen_title">Ambient display</string>
   <string name="android_beam_disabled_summary">To use this feature, turn on NFC</string>
   <string name="android_beam_explained">You can beam a webpage, a video, or other content from your screen to another device, by touching the devices together (typically back to back).</string>
   <string name="android_beam_label">Android Beam</string>
@@ -255,9 +258,12 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
+  <string name="aod_and_lock_screen_settings_title">Ambient display &amp; Lock screen</string>
   <string name="aod_clock_style_title">Clock style</string>
   <string name="aod_mode_summary">Always show time, date and messages when the screen is off</string>
   <string name="aod_mode_title">Always on mode</string>
+  <string name="aod_settings_category_name">Ambient display</string>
+  <string name="aod_settings_title">Ambient display</string>
   <string name="apn_apn">APN</string>
   <string name="apn_auth_type">Authentication type</string>
   <string name="apn_auth_type_chap">CHAP</string>
@@ -847,8 +853,11 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bootloader_status_unlocked">Unlocked</string>
   <string name="bootloader_status_unlocked_info">This device is unlocked</string>
   <string name="bootloader_summary">Flash your device via USB</string>
-  <string name="bootloader_tips">"After you add your Mi Account, don't sign out of it, perform a factory reset, or clear system apps' data. If you do any of the above, add your account again or you won't be able to unlock your device."</string>
+  <string name="bootloader_tips">"%s
+
+If you've already done any of the above, add your Mi Account again; otherwise, you won't be able to unlock your device."</string>
   <string name="bootloader_tips_ok">Got it</string>
+  <string name="bootloader_tips_warning">"Don't disconnect from the network, sign out of your Mi Account, perform a factory reset, or erase system data."</string>
   <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
   <string name="breathing_light_color_menu_title">Light color</string>
   <string name="breathing_light_color_summary">Light color when receiving new notification</string>
@@ -1467,6 +1476,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="disabled_by_admin_summary_text">Controlled by admin</string>
   <string name="disabled_by_administrator_summary">Disabled by administrator</string>
   <string name="disabled_by_policy_title">Action not allowed</string>
+  <string name="disallow_lock_screen_summary">Allow notifications in \"App notifications\" first</string>
   <string name="disconnect">disconnect</string>
   <string name="disconnected">Disconnected</string>
   <string name="display_auto_rotate_rotate">On</string>
@@ -1711,7 +1721,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="ethernet_data_template">%1$s ethernet data</string>
   <string name="ethernet_data_usage">Ethernet data usage</string>
   <string name="every_day">Every day</string>
-  <string name="expandable_under_keyguard_title">Show on secure Lock screen</string>
+  <string name="expandable_under_keyguard_title">Expandable under secure Lock screen</string>
   <string name="experimental_preference">(Experimental)</string>
   <string name="extended_power_menu">Extended power menu</string>
   <string name="external_code_size_label">USB storage app</string>
@@ -2178,7 +2188,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_double_tap_to_sleep_title">Double tap to sleep</string>
+  <string name="keyguard_double_tap_to_sleep_title">Double tap screen to sleep</string>
   <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
@@ -2385,6 +2395,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="lock_profile_wipe_warning_content_pattern">If you enter an incorrect work pattern on this attempt, your work profile and associated data will be removed from this device.</string>
   <string name="lock_profile_wipe_warning_content_pin">If you enter an incorrect work PIN on this attempt, your work profile and associated data will be removed from this device.</string>
   <string name="lock_profile_wipe_warning_title">Last try</string>
+  <string name="lock_screen_display_category_name">Lock screen</string>
   <string name="lock_screen_intro_skip_dialog_text">Device protection features will not be activated. You won’t be able to prevent others from using this phone if it’s lost or stolen.</string>
   <string name="lock_screen_intro_skip_dialog_text_frp">Device protection features will not be activated. You won’t be able to prevent others from using this phone if it’s lost, stolen or wiped.</string>
   <string name="lock_screen_notifications_interstitial_message">When your device is locked, how do you want notifications to show?</string>
@@ -2464,8 +2475,8 @@ as your First space PIN."</string>
   <string name="lockpassword_password_requires_digit">Password must contain at least one digit.</string>
   <string name="lockpassword_password_requires_symbol">Password must contain at least one symbol.</string>
   <string name="lockpassword_password_set_toast">Password has been set</string>
-  <string name="lockpassword_password_too_long">Password must be fewer than %d characters.</string>
-  <string name="lockpassword_password_too_short">Password must be at least %d characters</string>
+  <string name="lockpassword_password_too_long">Must be fewer than %d characters</string>
+  <string name="lockpassword_password_too_short">Must be at least %d characters</string>
   <string name="lockpassword_pattern_set_toast">Pattern has been set</string>
   <string name="lockpassword_pin_contains_non_digits">PIN can only contain numbers</string>
   <string name="lockpassword_pin_no_sequential_digits">An ascending, descending or repeated sequence of digits is forbidden</string>
@@ -2750,6 +2761,7 @@ There are other users present on this device.
   <string name="miui_sos_contacts_add">Emergency contacts</string>
   <string name="miui_sos_contacts_category">Emergency contacts</string>
   <string name="miui_sos_emergency_contacts">Emergency contacts</string>
+  <string name="miui_sos_emergency_delete">Delete</string>
   <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s (%2s) has already accepted.</string>
   <string name="miui_sos_emergency_delivered_sms_noname">%1s has already accepted</string>
   <string name="miui_sos_emergency_failed_sms" formatted="false">"Couldn't send message to %1s (%2s)."</string>
@@ -3026,8 +3038,10 @@ Select your operating system:"</string>
   <string name="normal_smartcover_title">Opaque front cover</string>
   <string name="not_battery_optimizing">Not using battery optimization</string>
   <string name="not_installed">Not installed for this user</string>
+  <string name="notch_and_status_bar_settings">Notch &amp; status bar</string>
   <string name="notch_force_black_desc">Turn on to darken the area around the notch</string>
   <string name="notch_force_black_title">Hide notch</string>
+  <string name="notch_settings">Notch</string>
   <string name="notes_privacy_password_role_instruction">Your private notes will be stored here.</string>
   <string name="notifi_channels">Notification categories</string>
   <string name="notifi_channels_other">Other</string>
@@ -3041,6 +3055,7 @@ Select your operating system:"</string>
   <string name="notification_app_settings_button">Notification settings</string>
   <string name="notification_breathing_light_color_title">Notifications light color</string>
   <string name="notification_breathing_light_freq_title">Notifications pulse frequency</string>
+  <string name="notification_center">Notifications</string>
   <string name="notification_fold_description1">Notifications folder was introduced in MIUI 9. This feature filters unimportant notifications and places them into a separate folder.</string>
   <string name="notification_fold_description2">MIUI will remember which notifications you tap, and then use multiple criteria to determine whether they are important.</string>
   <string name="notification_fold_description3">"If the notifications you consider important still go into the Notifications folder, make sure that you report such issues to us. We'd appreciate your feedback."</string>
@@ -3545,6 +3560,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="proxy_warning_limited_support">The HTTP proxy is used by the browser but may not be used by the other apps.</string>
   <string name="query_hint_text">Search settings</string>
   <string name="quick_reply_title">Quick replies</string>
+  <string name="quick_settings_under_keyguard_summary">Allow access to quick settings while the device is locked</string>
+  <string name="quick_settings_under_keyguard_title">Quick settings access</string>
   <string name="quiet">Do not disturb</string>
   <string name="quiet_group">Do not disturb</string>
   <string name="quiet_important_interruptions_mode">Only allow exceptions</string>
@@ -4050,7 +4067,7 @@ To use screen pinning:
   <string name="search_sound_settings">Sound;Volumes;vibration;Suppress noise;noise suppression</string>
   <string name="search_status_bar_settings">Notifications &amp; status bar;Notifications;Status bar</string>
   <string name="search_status_bar_settings_custom_carrier">Edit carrier name;Carrier name</string>
-  <string name="search_status_bar_settings_expandable_under_keyguard">Show on secure Lock screen;show on secure lockscreen</string>
+  <string name="search_status_bar_settings_expandable_under_keyguard">Expandable under secure Lock screen;expandable under secure lockscreen</string>
   <string name="search_status_bar_settings_manage_notification">App Notifications;Notifications</string>
   <string name="search_status_bar_settings_show_carrier">Show carrier name;Carrier name</string>
   <string name="search_status_bar_settings_show_network_speed">Show connection speed;connection speed</string>
@@ -4225,6 +4242,7 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="settings_license_activity_unavailable">There is a problem loading the licenses.</string>
   <string name="settings_manual_activity_title">Manual</string>
   <string name="settings_manual_activity_unavailable">There is a problem loading the manual.</string>
+  <string name="settings_new_version_btn">Update</string>
   <string name="settings_notify_need_backup">Back up your settings to Mi Cloud to access them after you switch phones.</string>
   <string name="settings_notify_new_version">An update is available. Tap to view details.</string>
   <string name="settings_notify_phone_recycled">Your phone number has been recycled. Tap to add a different phone number.</string>
@@ -4459,6 +4477,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
   <string name="status_bar_settings_status_bar">Status bar</string>
+  <string name="status_bar_title">Status bar</string>
   <string name="status_bt_address">Bluetooth address</string>
   <string name="status_data_state">Cellular network state</string>
   <string name="status_failed_to_write">Unable to write data to NFC tag. If the problem persists, try a different tag</string>
@@ -5222,6 +5241,7 @@ Tap the plus to add words."</string>
   <string name="volume_bluetooth_description">Bluetooth</string>
   <string name="volume_category_title">Volume</string>
   <string name="volume_hifi_description">Hi-Fi settings</string>
+  <string name="volume_launch_camera_summary">Double press the volume button to open Camera when the screen is locked</string>
   <string name="volume_media_description">Music, video, games, and other media</string>
   <string name="volume_media_mute">Mute music &amp; other media</string>
   <string name="volume_notification_description">Notifications</string>
@@ -5299,6 +5319,7 @@ Tap the plus to add words."</string>
   <string name="vr_listeners_title">VR helper services</string>
   <string name="wait_for_debugger">Wait for debugger</string>
   <string name="wait_for_debugger_summary">Debugged application waits for debugger to attach before executing</string>
+  <string name="wakeup_and_sleep_settings_category_name">Lock screen settings</string>
   <string name="wakeup_for_keyguard_notification_title">Wake Lock screen for notifications</string>
   <string name="wallpaper_attributions">Wallpapers</string>
   <string name="wallpaper_attributions_values">"Satellite imagery providers:
