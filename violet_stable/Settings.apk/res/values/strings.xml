@@ -1567,7 +1567,8 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="dangerous_option_hint_title">High-risk feature enabled</string>
   <string name="dangerous_option_switch_title">Notify about high-risk features</string>
   <string name="dark_color_mode">Dark mode</string>
-  <string name="dark_color_summary">Use darker color palette for system backgrounds and compatible apps</string>
+  <string name="dark_color_summary_lcd">"Use darker color palette for system backgrounds and compatible apps. Dark mode can help you to relieve eye strain when you're using your device in the dark."</string>
+  <string name="dark_color_summary_oled">Use darker color palette for system backgrounds and compatible apps. Dark mode reduces power consumption and helps to relieve eye strain.</string>
   <string name="dark_ui_mode">Night mode</string>
   <string name="dark_ui_mode_title">Set Night mode</string>
   <string name="dashboard_suggestion_condition_footer_content_description">Collapse</string>
@@ -2745,7 +2746,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_double_tap_to_sleep_title">Double tap to sleep</string>
+  <string name="keyguard_double_tap_to_sleep_title">Double tap screen to sleep</string>
   <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
@@ -3823,8 +3824,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="onehour">30 minutes</string>
   <string name="onekey_migrate">Mi Mover</string>
   <string name="onscreen_keyboard_settings_summary">Onscreen keyboard settings</string>
-  <string name="open_dark_mode_dialog_summary">"Certain display settings aren't compatible with Dark mode. However, they will be restored once you turn Dark mode off. Turn on Dark mode?"</string>
-  <string name="open_dark_mode_dialog_title">Dark mode compatibility</string>
   <string name="open_demo_mode">Turn on</string>
   <string name="open_demo_mode_warning_message">When Demo mode is on, the clock in the status bar will stop, battery and signal icons will be displayed as full. You can turn Demo mode off or reboot the device to change this.</string>
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
@@ -4258,6 +4257,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="qtifeedback_settings_subtitle">Qualcomm Technologies, Inc Reporting</string>
   <string name="qtifeedback_settings_title">Hardware Feedback</string>
   <string name="quick_settings_developer_tiles">Quick settings developer tiles</string>
+  <string name="quick_settings_under_keyguard_summary">Allow access to quick settings while the device is locked</string>
+  <string name="quick_settings_under_keyguard_title">Quick settings access</string>
   <string name="quiet">Do not disturb</string>
   <string name="quiet_group">Do not disturb</string>
   <string name="quiet_important_interruptions_mode">Only allow exceptions</string>
@@ -4793,7 +4794,7 @@ To use screen pinning:
   <string name="search_sound_settings">Sound;Volumes;vibration;Suppress noise;noise suppression</string>
   <string name="search_status_bar_settings">Notifications &amp; status bar;Notifications;Status bar</string>
   <string name="search_status_bar_settings_custom_carrier">Edit carrier name;Carrier name</string>
-  <string name="search_status_bar_settings_expandable_under_keyguard">Show on secure Lock screen;show on secure lockscreen</string>
+  <string name="search_status_bar_settings_expandable_under_keyguard">Expandable under secure Lock screen;expandable under secure lockscreen</string>
   <string name="search_status_bar_settings_manage_notification">App Notifications;Notifications</string>
   <string name="search_status_bar_settings_show_carrier">Show carrier name;Carrier name</string>
   <string name="search_status_bar_settings_show_network_speed">Show connection speed;connection speed</string>
@@ -5286,7 +5287,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
-  <string name="status_bar_settings_expandable_under_keyguard">Show on secure Lock screen</string>
+  <string name="status_bar_settings_expandable_under_keyguard">Expandable under secure Lock screen</string>
   <string name="status_bar_settings_function_description">About this feature</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
