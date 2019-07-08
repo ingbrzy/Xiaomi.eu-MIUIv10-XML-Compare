@@ -256,6 +256,7 @@ across all your devices with Xunlei"</string>
   <string name="other">Other</string>
   <string name="other_filter">Other</string>
   <string name="package_filter">Packages</string>
+  <string name="path_not_available">该路径不可用</string>
   <string name="pause_download">Pause</string>
   <string name="paused">Paused</string>
   <string name="paused_by_app">Paused</string>
