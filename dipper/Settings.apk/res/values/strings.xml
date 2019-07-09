@@ -2534,7 +2534,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gesture_setting_off">Off</string>
   <string name="gesture_setting_on">On</string>
   <string name="gesture_w">W pattern</string>
-  <string name="gesture_wakeup_summary">This feature works when either Default or Classic theme is applied</string>
+  <string name="gesture_wakeup_summary">You can double tap to turn the screen off when either Default or Classic theme is applied</string>
   <string name="gesture_wakeup_title">Double tap to wake or turn off screen</string>
   <string name="gesture_z">Z pattern</string>
   <string name="getConfiguredNetworks">getConfiguredNetworks</string>
@@ -3806,6 +3806,11 @@ Select your operating system:"</string>
   <string name="notch_force_black_desc">Turn on to darken the area around the notch</string>
   <string name="notch_force_black_title">Hide notch</string>
   <string name="notch_settings">Notch</string>
+  <string name="notch_style_mod_description">Notch and status bar display options</string>
+  <string name="notch_style_mod_title">Hide notch</string>
+  <string name="notch_style_show">"Don't hide"</string>
+  <string name="notch_style_status_bar_inside">Hide without moving status bar</string>
+  <string name="notch_style_status_bar_outside">Hide and move status bar</string>
   <string name="notes_privacy_password_role_instruction">Your private notes will be stored here.</string>
   <string name="notifi_channels">Notification categories</string>
   <string name="notifi_channels_other">Other</string>
