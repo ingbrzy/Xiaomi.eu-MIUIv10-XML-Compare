@@ -3097,6 +3097,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="lock_screen_notifications_summary_show">Show all notifications and their contents</string>
   <string name="lock_screen_notifications_summary_show_profile">Show all work notification content</string>
   <string name="lock_screen_notifications_title">On lock screen</string>
+  <string name="lock_screen_settings_title">Lock screen</string>
   <string name="lock_screen_signature_summary">This message will be displayed on the Lock screen</string>
   <string name="lock_screen_signature_title">Lock screen owner info</string>
   <string name="lock_screen_unlock_show">Skip Lock screen</string>
@@ -4124,7 +4125,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="pointer_location_summary">Show touch coordinates</string>
   <string name="pointer_settings_category">Mouse/track pad</string>
   <string name="pointer_speed">Pointer speed</string>
-  <string name="popup_gesture_summary">Lift the phone and look at the screen to open the front camera automatically</string>
+  <string name="popup_gesture_summary">Go back to Home screen, lift the phone, and look at the screen to open the front camera automatically</string>
   <string name="popup_gesture_title">Lift to open front camera</string>
   <string name="popup_led_summary">Show animation when the front camera appears and retracts</string>
   <string name="popup_led_title">Visual effect</string>
@@ -5770,7 +5771,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
 %1$s"</string>
   <string name="sync_plug">&lt;font fgcolor="#ffffffff"&gt;Welcome to Google sync!&lt;/font&gt;" 
 A Google approach to syncing data to allow access to your contacts, appointments, and more from wherever you are. "</string>
-  <string name="sync_settings">Sync</string>
+  <string name="sync_settings">Accounts &amp; sync</string>
   <string name="sync_wifi_label">WLAN</string>
   <string name="sync_wifi_only">WLAN only</string>
   <string name="system">System</string>
@@ -7140,6 +7141,8 @@ Looks like credential storage isn't enabled."</string>
   <string name="xiaomi_account">Mi Account</string>
   <string name="xiaomi_cloud_service">Mi Cloud</string>
   <string name="xiaomi_cloud_service_description">Mi Cloud syncs your contacts and photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
+  <string name="xiaomi_cloud_service_description_contact">contacts and</string>
+  <string name="xiaomi_cloud_service_description_format">Mi Cloud syncs your %s photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
   <string name="xiaomi_cloud_service_disabled">Off</string>
   <string name="xiaomi_cloud_service_unknown">Unknown</string>
   <string name="xiaomi_money_service">Mi Credit</string>
