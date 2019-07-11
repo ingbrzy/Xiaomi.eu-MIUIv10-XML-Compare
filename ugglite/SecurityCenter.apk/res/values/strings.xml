@@ -409,6 +409,7 @@ You will not lose any app data."</string>
   <string name="battery_charge_estimating">Calculating</string>
   <string name="battery_charge_full">Charged</string>
   <string name="battery_charging_prompt">Charging</string>
+  <string name="battery_desc_ambient_display">Power consumed by Ambient display</string>
   <string name="battery_desc_apps">Battery used by app</string>
   <string name="battery_desc_bluetooth">Battery used by Bluetooth</string>
   <string name="battery_desc_display">Battery used by the display and backlight</string>
@@ -1745,6 +1746,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="pm_root_success_notification_infomation">Make sure you understand the risks related with root access</string>
   <string name="pm_root_success_notification_title">Allowed root access</string>
   <string name="power_20s_shutdown">Device will power off in %d seconds</string>
+  <string name="power_ambient_display">Ambient display</string>
   <string name="power_analysis_consume_title">Battery usage</string>
   <string name="power_analysis_suggestion_need_optimize">Battery usage issues detected.</string>
   <string name="power_autorun_apps_empty">No autostart apps</string>
@@ -2168,7 +2170,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_service">Block service SMS</string>
   <string name="sms_smart_engine_update">Automatically update SMS filter</string>
   <string name="sms_smart_engine_update_now">Update</string>
-  <string name="sms_stranger_block">Block SMS from strangers</string>
+  <string name="sms_stranger_block">Blocked</string>
   <string name="sorted_dialog_title">Sort by</string>
   <string name="sp_background_risk_dialog_summary">, check and fix payment issues.</string>
   <string name="sp_background_risk_dialog_summary_wifi_approve">You are connected to a public WLAN network which may be unsecure. Make sure your payment is protected before you complete it.</string>
@@ -2237,6 +2239,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_antispam_title_contact_incoming">Calls from Contacts</string>
   <string name="st_antispam_title_contact_sms">Messages from Contacts</string>
   <string name="st_antispam_title_contactandanoy_group">Settings</string>
+  <string name="st_antispam_title_mms">MMS</string>
   <string name="st_antispam_title_null_incoming">Private numbers</string>
   <string name="st_antispam_title_service_sms">Service notifications</string>
   <string name="st_antispam_title_whitelist">Exceptions</string>
@@ -2270,7 +2273,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_msg_keyword_white">Keyword exceptions</string>
   <string name="st_msg_other_group">Other</string>
   <string name="st_msg_settings">SMS blocklist</string>
-  <string name="st_msg_stranger_group">Block SMS from strangers</string>
+  <string name="st_msg_stranger_group">Block messages from strangers</string>
   <string name="st_settings_name">Blocklist settings</string>
   <string name="st_share_settings">Use SIM 1 settings</string>
   <string name="st_sub_title_customize_mode_name">Name</string>
