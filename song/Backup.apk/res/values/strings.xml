@@ -195,8 +195,8 @@ Don't change or rename backup files."</string>
   <string name="hsa_send_again_countdown">Send again (%ds)</string>
   <string name="hsa_send_failed">"Couldn't send verification code. Wait a minute or two and try again."</string>
   <string name="hsa_sending">Sending…</string>
-  <string name="hsa_tip_message">"1. A message with the verification code has been sent to the device associated with your Apple ID.
-2. Turn off two-factor authentication if the verification code doesn't work."</string>
+  <string name="hsa_tip_message">"1. If you can't receive the verification code, make sure that you've already signed in to iCloud on your Apple device.
+2. If entering the verification code doesn't help, turn off two-factor authentication. "</string>
   <string name="hsa_tip_message_shutdown_hsa">How to turn off two-factor authentication</string>
   <string name="hsa_tip_message_with_device">"1. A message with the verification code has been sent to %s associated with your Apple ID.
 2. Turn off two-factor authentication if the verification code doesn't work."</string>
@@ -206,7 +206,7 @@ Don't change or rename backup files."</string>
   <string name="hsa_verify_failed_message">Two-factor authentication failed. You can retry or turn off two-factor authentication.</string>
   <string name="hsa_verify_retry">Try again</string>
   <string name="hsa_verify_shutdown">Turn off</string>
-  <string name="iCloud_ID_verification_tip">"Enter the SMS verification code sent to the phone number associated with your Apple ID. Ignore the pop-up code displayed on your iPhone's screen."</string>
+  <string name="iCloud_ID_verification_tip">Tap \"Allow\" on your Apple device to make the verification code appear. Enter the verification code here.</string>
   <string name="icloud_backup_tip">Sign in to the iCloud account of your old iOS device</string>
   <string name="icloud_how_to_backup_tip_steps">"1. Open Settings on your iOS device, and select iCloud.
 2. Toggle the switches for contacts and other items.
