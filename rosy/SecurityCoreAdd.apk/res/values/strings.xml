@@ -163,16 +163,18 @@ Make sure the name of your corporation is correct. Read and agree to the related
   <string name="go_on_import">Keep importing</string>
   <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
   <string name="gpg_title">Dual app for Google Play Games</string>
-  <string name="green_guard">Parental controls</string>
+  <string name="green_guard">Family Guard</string>
   <string name="green_guard_des1">Add devices to manage them remotely</string>
   <string name="green_guard_des2">Know where exactly all managed devices are</string>
   <string name="green_guard_des3">Control installed apps and restrict usage</string>
   <string name="green_guard_title2">View location info</string>
   <string name="green_guard_title3">Manage apps</string>
-  <string name="greenguard_child_des">Use our app to stay connected​</string>
-  <string name="greenguard_child_des_title">I need help from my friends and family</string>
-  <string name="greenguard_parent_des">"Download our app and add other people's devices"</string>
-  <string name="greenguard_parent_des_title">I need to help my friends and family</string>
+  <string name="greenguard_child_des">Manage the devices of your friends and family</string>
+  <string name="greenguard_child_des_title">Scan QR code to add device</string>
+  <string name="greenguard_functional_description">"Manage devices remotely, view location info,
+control installed apps and restrict usage"</string>
+  <string name="greenguard_parent_des">Manage the devices of your friends and family</string>
+  <string name="greenguard_parent_des_title">Use Kite Guard to add devices</string>
   <string name="guide_contact_sub_title_desc">"Contacts added to Second space will be private.
 Messages will only appear in Second space."</string>
   <string name="guide_contact_suc_sub_title_desc">Only private contacts and messages will be shown in Second space</string>

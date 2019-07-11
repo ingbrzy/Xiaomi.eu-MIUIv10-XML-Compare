@@ -156,7 +156,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="account_settings_menu_auto_sync">Auto-sync data</string>
   <string name="account_settings_menu_auto_sync_personal">Auto-sync personal data</string>
   <string name="account_settings_menu_auto_sync_work">Auto-sync work data</string>
-  <string name="account_settings_title">Accounts</string>
+  <string name="account_settings_title">Google &amp; accounts</string>
   <string name="account_sync_settings_title">Sync</string>
   <string name="account_sync_title">Account sync</string>
   <string name="action_drag_label_move_bottom">Move to bottom</string>
@@ -407,6 +407,7 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="applications_settings">Manage apps</string>
   <string name="applications_settings_header">App settings</string>
   <string name="applications_settings_summary">Manage apps, set up quick launch shortcuts</string>
+  <string name="applications_settings_title">Apps</string>
   <string name="apply_fingerprint_to_category_title">Apply fingerprint to…</string>
   <string name="apply_now_button_text">Update</string>
   <string name="apply_password_to_category_title">Require unlock</string>
@@ -1414,7 +1415,7 @@ Some accounts may also automatically copy any changes you make on the phone to t
   <string name="data_usage_disable_4g_limit">Set 4G data limit</string>
   <string name="data_usage_disable_mobile">Turn off mobile data?</string>
   <string name="data_usage_disable_mobile_limit">Set mobile data limit</string>
-  <string name="data_usage_disable_wifi_limit">Set Wi-Fi data limit</string>
+  <string name="data_usage_disable_wifi_limit">Set WLAN data limit</string>
   <string name="data_usage_disclaimer">Carrier data accounting may differ from your device.</string>
   <string name="data_usage_empty">No apps used data during this period.</string>
   <string name="data_usage_enable_3g">2G-3G data</string>
@@ -1973,6 +1974,7 @@ For more details, contact your organization's admin."</string>
   <string name="fallback_home_title">Just a sec…</string>
   <string name="fcc_equipment_id">Equipment ID</string>
   <string name="feedback">Feedback</string>
+  <string name="feedback_settings">Feedback</string>
   <string name="file_privacy_password_role_instruction">Your private files will be stored here.</string>
   <string name="filter">Filter</string>
   <string name="filter_all_apps">All apps</string>
@@ -2188,6 +2190,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gadget_wifi">WLAN</string>
   <string name="gallery_privacy_password_role_instruction">Your private photos will be stored here.</string>
   <string name="game_booster">Game;Games;Turbo;Gaming;Gaming mode</string>
+  <string name="game_booster_title">Game Turbo</string>
   <string name="game_controller_settings_category">Game Controller</string>
   <string name="game_mode_settings">Gaming mode</string>
   <string name="game_storage_settings">Games</string>
@@ -2197,17 +2200,21 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gesture_preference_title">Gestures</string>
   <string name="gesture_setting_off">Off</string>
   <string name="gesture_setting_on">On</string>
-  <string name="gesture_wakeup_title">Double tap screen to wake</string>
+  <string name="gesture_wakeup_summary">You can double tap to turn the screen off when either Default or Classic theme is applied</string>
+  <string name="gesture_wakeup_title">Double tap to wake or turn off screen</string>
   <string name="getConfiguredNetworks">getConfiguredNetworks</string>
   <string name="getConnectionInfo">getConnectionInfo</string>
   <string name="giga_hertz">GHz</string>
   <string name="gigabyteShort">GB</string>
   <string name="global_change_warning">This setting affects all users on this phone.</string>
   <string name="global_locale_change_title">Change language</string>
+  <string name="gmscore_settings_title">Basic Google services</string>
   <string name="go_back_button_label">Go back</string>
   <string name="go_to_sleep">Turn off screen</string>
+  <string name="google_account_title">Google</string>
   <string name="google_backup_enable">Turn on backups</string>
   <string name="google_backup_section_title">Google backup &amp; reset</string>
+  <string name="google_service_title">Google services</string>
   <string name="google_title">Google</string>
   <string name="got_it">Got it</string>
   <string name="gsm_to_wifi_connect_type_title">GSM to WLAN</string>
@@ -2272,6 +2279,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="header_category_system">System</string>
   <string name="header_category_wireless_networks">Wireless &amp; networks</string>
   <string name="header_data_and_synchronization">Data &amp; synchronization</string>
+  <string name="headset_settings_title">Earphones</string>
   <string name="heavy_weight_stop_description">This app can’t safely be stopped. If you stop it, you may lose some of your current work.</string>
   <string name="help_feedback_label">Help &amp; feedback</string>
   <string name="help_label">Help &amp; feedback</string>
@@ -2329,6 +2337,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="home">Home screen settings</string>
   <string name="home_app">Launcher</string>
   <string name="home_key">Home</string>
+  <string name="home_title">Home screen</string>
   <string name="home_work_profile_not_supported">"Doesn't support work profiles"</string>
   <string name="http_invoke_app">Web apps</string>
   <string name="http_invoke_app_summary">Open apps faster without installing them</string>
@@ -2433,6 +2442,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="key_position_cat">Button positions</string>
   <string name="key_settings">Button and gesture shortcuts</string>
   <string name="key_settings_title">Button and gesture shortcuts</string>
+  <string name="key_shortcut_settings_title">Button shortcuts</string>
   <string name="key_system_control">System control</string>
   <string name="keyboard_and_input_methods_category">Keyboard</string>
   <string name="keyboard_assistance_category">Keyboard assistance</string>
@@ -2667,6 +2677,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="lock_screen_notifications_summary_show">Show all notifications and their contents</string>
   <string name="lock_screen_notifications_summary_show_profile">Show all work notification content</string>
   <string name="lock_screen_notifications_title">On the lock screen</string>
+  <string name="lock_screen_settings_title">Lock screen</string>
   <string name="lock_screen_signature_summary">This message will be displayed on the Lock screen</string>
   <string name="lock_screen_signature_title">Lock screen owner info</string>
   <string name="lock_screen_unlock_show">Skip Lock screen</string>
@@ -2822,6 +2833,8 @@ as your First space PIN."</string>
   <string name="manage_notification_access_summary_zero">Apps cannot read notifications</string>
   <string name="manage_notification_access_title">Notification access</string>
   <string name="manage_notification_title">App notifications</string>
+  <string name="manage_password">Manage passwords</string>
+  <string name="manage_password_summary">Autofill saved accounts and passwords</string>
   <string name="manage_space_text">Manage space</string>
   <string name="manage_trust_agents">Trust agents</string>
   <string name="manage_trust_agents_summary">None</string>
@@ -3072,6 +3085,7 @@ There are other users present on this device.
   <string name="model_number">Device model</string>
   <string name="modify_instruction_password_settings">Set password</string>
   <string name="modify_privacy_password">Change password</string>
+  <string name="more_account_settings_title">Other accounts</string>
   <string name="more_dangerous_option_hint">High-risk features including \"%1$s\" are enabled. Tap to change settings.</string>
   <string name="more_installed_services_title">More downloaded services</string>
   <string name="move_app">Move</string>
@@ -3327,15 +3341,20 @@ Select your operating system:"</string>
   <string name="notch_force_black_desc">Turn on to darken the area around the notch</string>
   <string name="notch_force_black_title">Hide notch</string>
   <string name="notch_settings">Notch</string>
+  <string name="notch_style_mod_description">Notch and status bar display options</string>
+  <string name="notch_style_mod_title">Hide notch</string>
+  <string name="notch_style_show">"Don't hide"</string>
+  <string name="notch_style_status_bar_inside">Hide without moving status bar</string>
+  <string name="notch_style_status_bar_outside">Hide and move status bar</string>
   <string name="notes_privacy_password_role_instruction">Your private notes will be stored here.</string>
   <string name="notifi_channels">Notification categories</string>
   <string name="notifi_channels_other">Other</string>
-  <string name="notifi_importance_default">Play sound and show on the Lock screen</string>
-  <string name="notifi_importance_high">Play sound, show on the Lock screen, allow using fullscreen options</string>
-  <string name="notifi_importance_low">"Don't play sound"</string>
-  <string name="notifi_importance_min">"Don't show on the Lock screen, don't play sound"</string>
-  <string name="notifi_importance_none">Off</string>
-  <string name="notifi_importance_unspecified">Let the app decide</string>
+  <string name="notifi_importance_default">Make sound</string>
+  <string name="notifi_importance_high">Make sound and pop on screen</string>
+  <string name="notifi_importance_low">Show silently</string>
+  <string name="notifi_importance_min">Show silently and minimize</string>
+  <string name="notifi_importance_none">Never show notifications</string>
+  <string name="notifi_importance_unspecified">Allow sound</string>
   <string name="notifi_no_channels">"This app hasn't received any notifications yet"</string>
   <string name="notification_app_settings_button">Notification settings</string>
   <string name="notification_badge_title">Allow notification dot</string>
@@ -3495,6 +3514,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="other_settings_sync_settings">Sync</string>
   <string name="other_sound_category_preference_title">Other sounds and vibrations</string>
   <string name="other_sound_settings">Other sounds</string>
+  <string name="other_sound_settings_title">Additional settings</string>
   <string name="others">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overlay_settings">Display over other apps</string>
@@ -3578,8 +3598,10 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="passwordIncorrect">The password you entered is incorrect</string>
   <string name="password_entrance_title">Set screen lock</string>
   <string name="password_guard">Password</string>
+  <string name="password_security_settings_title">Passwords &amp; security</string>
   <string name="password_turned_off_text">Password has been turned off</string>
   <string name="password_turned_on_text">Password has been turned on</string>
+  <string name="password_unlock_title">Password</string>
   <string name="payment_summary">%1$s is default</string>
   <string name="peek_notification_icon_title">Show icons for incoming notifications</string>
   <string name="performance_category">Performance</string>
@@ -3829,6 +3851,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="privacy_password_use_finger_success">Turned on</string>
   <string name="privacy_password_visible_pattern">Show pattern</string>
   <string name="privacy_protect_title">Privacy protection</string>
+  <string name="privacy_protection_title">Privacy</string>
   <string name="privacy_relative">Privacy</string>
   <string name="privacy_settings">Backup &amp; reset</string>
   <string name="privacy_settings_title">Backup</string>
@@ -3991,6 +4014,7 @@ UT Interface: %5$s"</string>
   <string name="recommend_item_3">Power bank</string>
   <string name="recommend_item_4">Earphones</string>
   <string name="recommend_item_title">Recommendations</string>
+  <string name="recommend_tip">Need other settings?</string>
   <string name="recompute_size">Recomputing size…</string>
   <string name="regulatory_info_text"/>
   <string name="regulatory_labels">Regulatory labels</string>
@@ -5138,7 +5162,7 @@ Consider using a faster ^1 for better performance."</string>
 %1$s"</string>
   <string name="sync_plug">&lt;font fgcolor="#ffffffff"&gt;Welcome to Google sync!&lt;/font&gt;" 
 A Google approach to syncing data to allow access to your contacts, appointments, and more from wherever you are."</string>
-  <string name="sync_settings">Sync</string>
+  <string name="sync_settings">Accounts &amp; sync</string>
   <string name="sync_wifi_label">WLAN</string>
   <string name="sync_wifi_only">WLAN only</string>
   <string name="system">System</string>
@@ -5383,6 +5407,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_disable_frp_warning_title_profile">Remove profile protection?</string>
   <string name="unlock_disable_lock_pin_summary">Turn off PIN</string>
   <string name="unlock_disable_lock_title">Turn off screen lock</string>
+  <string name="unlock_mode_title">Screen lock</string>
   <string name="unlock_set_do_later_title">Not now</string>
   <string name="unlock_set_enter_system">Skip screen lock</string>
   <string name="unlock_set_enter_system_summary">Go directly to Home screen from wake</string>
@@ -6209,7 +6234,7 @@ Allow this for all apps that want to scan?"</string>
 Tap"&lt;b&gt; Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_setup_description_connecting">Connecting can take a few minutes…</string>
   <string name="wifi_setup_detail">Network details</string>
-  <string name="wifi_setup_eap_not_supported">"You can't configure an EAP WLAN connection during setup. After setup, you can go to Settings &gt; Wireless &amp; networks."</string>
+  <string name="wifi_setup_eap_not_supported">"You can't configure an EAP Wi-Fi connection during setup. After setup, you can go to Settings &gt; Wireless &amp; networks."</string>
   <string name="wifi_setup_forget">Forget</string>
   <string name="wifi_setup_next">Next</string>
   <string name="wifi_setup_not_connected">Not connected</string>
@@ -6401,6 +6426,8 @@ Tap"&lt;b&gt; Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="xiaomi_account">Mi Account</string>
   <string name="xiaomi_cloud_service">Mi Cloud</string>
   <string name="xiaomi_cloud_service_description">Mi Cloud syncs your contacts and photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
+  <string name="xiaomi_cloud_service_description_contact">contacts and</string>
+  <string name="xiaomi_cloud_service_description_format">Mi Cloud syncs your %s photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
   <string name="xiaomi_cloud_service_disabled">Off</string>
   <string name="xiaomi_cloud_service_unknown">Unknown</string>
   <string name="xiaomi_money_service">Mi Credit</string>
