@@ -44,6 +44,8 @@
   <string name="choose_open_picture">Select action</string>
   <string name="choose_open_time">"Choose when you'd like to begin"</string>
   <string name="clear_data">Clear</string>
+  <string name="close">Close</string>
+  <string name="close_ad">Close AD</string>
   <string name="complete_time">Completed:</string>
   <string name="confirm">OK</string>
   <string name="confirm_delete_downloads_message">%d downloads will be deleted.</string>
