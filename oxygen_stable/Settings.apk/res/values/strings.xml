@@ -2138,7 +2138,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_double_tap_to_sleep_title">Double tap to sleep</string>
+  <string name="keyguard_double_tap_to_sleep_title">Double tap screen to sleep</string>
   <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
@@ -3459,6 +3459,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="proxy_url_title">"PAC URL: "</string>
   <string name="proxy_warning_limited_support">The HTTP proxy is used by the browser but may not be used by the other apps.</string>
   <string name="query_hint_text">Search settings</string>
+  <string name="quick_settings_under_keyguard_summary">Allow access to quick settings while the device is locked</string>
+  <string name="quick_settings_under_keyguard_title">Quick settings access</string>
   <string name="quiet">Do not disturb</string>
   <string name="quiet_group">Do not disturb</string>
   <string name="quiet_important_interruptions_mode">Only allow exceptions</string>
@@ -3957,7 +3959,7 @@ To use screen pinning:
   <string name="search_sound_settings">Sound;Volumes;vibration;Suppress noise;noise suppression</string>
   <string name="search_status_bar_settings">Notifications &amp; status bar;Notifications;Status bar</string>
   <string name="search_status_bar_settings_custom_carrier">Edit carrier name;Carrier name</string>
-  <string name="search_status_bar_settings_expandable_under_keyguard">Show on secure Lock screen;show on secure lockscreen</string>
+  <string name="search_status_bar_settings_expandable_under_keyguard">Expandable under secure Lock screen;expandable under secure lockscreen</string>
   <string name="search_status_bar_settings_manage_notification">App Notifications;Notifications</string>
   <string name="search_status_bar_settings_show_carrier">Show carrier name;Carrier name</string>
   <string name="search_status_bar_settings_show_network_speed">Show connection speed;connection speed</string>
@@ -4371,7 +4373,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_customer_feedback">Feedback</string>
   <string name="status_bar_settings_enable_notification">Show notifications</string>
   <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
-  <string name="status_bar_settings_expandable_under_keyguard">Show on secure Lock screen</string>
+  <string name="status_bar_settings_expandable_under_keyguard">Expandable under secure Lock screen</string>
   <string name="status_bar_settings_function_description">About this feature</string>
   <string name="status_bar_settings_long_click_sort">Press &amp; hold to pick up a toggle</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
