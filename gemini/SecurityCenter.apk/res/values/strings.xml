@@ -2389,6 +2389,18 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sys_title_gamebooster_unit_mb">MB</string>
   <string name="system_app">System apps</string>
   <string name="system_application">System apps</string>
+  <string name="system_permission_declare_agree">Agree</string>
+  <string name="system_permission_declare_double_link">&lt;Data&gt;Read and agree to our &amp;lt;a href=\"%1$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt; and &amp;lt;a href=\"%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using this feature.&lt;/Data&gt;</string>
+  <string name="system_permission_declare_main_purpose" formatted="false">Welcome to %1s! This app allows you to use the following feature: %2s.</string>
+  <string name="system_permission_declare_no_say_no">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work normally."</string>
+  <string name="system_permission_declare_privacy_declare">"We respect and protect your peivacy.
+Note that %1s needs to collect your data and requires the following permissions to work normally:"</string>
+  <string name="system_permission_declare_revoke_path">You can uninstall this app, sign out of your account, or manage your permissions and authorization in Security &gt; Manage apps &gt; Permissions &gt; Other permissions.</string>
+  <string name="system_permission_declare_use_network">Connect to the network</string>
+  <string name="system_permission_perm_answer_call">Make calls</string>
+  <string name="system_permission_perm_read_mms">Read MMS</string>
+  <string name="system_permission_perm_read_numbers">Read phone numbers</string>
+  <string name="system_permission_perm_send_mms">Send MMS</string>
   <string name="tab_blacklist">Blocklist</string>
   <string name="tab_block_log_unKnowNumber">Private number</string>
   <string name="tab_call">Calls</string>
