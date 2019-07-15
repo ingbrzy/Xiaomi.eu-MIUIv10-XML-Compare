@@ -97,6 +97,11 @@
   <string name="config_camera_component">com.android.camera/com.android.camera.Camera</string>
   <string name="config_xiaoaiComponent">com.miui.voiceassist/com.xiaomi.voiceassistant.VoiceService</string>
   <string name="configure_input_methods">Choose keyboards</string>
+  <string name="content_description_dial">Call</string>
+  <string name="content_description_search">Search</string>
+  <string name="content_description_share">Share</string>
+  <string name="content_description_translate">Translate</string>
+  <string name="content_description_web_url">Browse</string>
   <string name="copy">Copy</string>
   <string name="cut">Cut</string>
   <string name="default_name">Default</string>
@@ -115,6 +120,7 @@
   <string name="fp_nav_center_action_choose_dlg_negative_btn_text">Not now</string>
   <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Turn on</string>
   <string name="fp_nav_center_action_choose_dlg_title">Turn on Quick tap</string>
+  <string name="frequent_email">Frequent email</string>
   <string name="frequent_phrases">Frequent phrases</string>
   <string name="global_actions_airplane_mode">Airplane mode</string>
   <string name="global_actions_reboot">Reboot</string>
