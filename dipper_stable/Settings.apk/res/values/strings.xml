@@ -344,7 +344,6 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
-  <string name="aod_clock_style_title">Clock style</string>
   <string name="aod_close_color_inversion">"This feature can't be combined with color inversion. Turn off color inversion first."</string>
   <string name="aod_dual_togother">HH:MM</string>
   <string name="aod_dual_togother_12">hh:mm aa</string>
@@ -2750,7 +2749,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_double_tap_to_sleep_title">Double tap screen to sleep</string>
+  <string name="keyguard_double_tap_to_sleep_title">Double tap to turn off screen</string>
   <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
