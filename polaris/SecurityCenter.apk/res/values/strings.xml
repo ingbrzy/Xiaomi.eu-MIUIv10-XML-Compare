@@ -524,6 +524,7 @@ You will not lose any app data."</string>
   <string name="call_blacklist">Call blocklist</string>
   <string name="call_cloud_block">Cloud blocklist</string>
   <string name="call_contact_block">Block calls from contacts</string>
+  <string name="call_delete_all_hint">Delete all blocked calls?</string>
   <string name="call_delete_hint">Delete all blocked calls from this number?</string>
   <string name="call_delete_title">Delete call history</string>
   <string name="call_oversea_block">Block calls from abroad</string>
