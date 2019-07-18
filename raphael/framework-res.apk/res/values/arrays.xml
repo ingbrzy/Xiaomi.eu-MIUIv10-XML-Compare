@@ -44,6 +44,13 @@
     <array name="config_allowedManagedServicesOnLowRamDevices" />
     <array name="config_allowedSecureInstantAppSettings" />
     <array name="config_allowedSystemInstantAppSettings" />
+    <integer-array name="config_ambientBrighteningThresholds">
+        <item>100</item>
+    </integer-array>
+    <integer-array name="config_ambientDarkeningThresholds">
+        <item>200</item>
+    </integer-array>
+    <array name="config_ambientThresholdLevels" />
     <integer-array name="config_apfEthTypeBlackList">
         <item>0x000088A2</item>
         <item>0x000088A4</item>
@@ -416,6 +423,7 @@
         <item>logout</item>
         <item>bugreport</item>
         <item>screenshot</item>
+        <item>emergency</item>
     </string-array>
     <string-array name="config_gpsParameters">
         <item>SUPL_HOST=supl.google.com</item>
@@ -542,8 +550,15 @@
         <item>500</item>
         <item>600</item>
     </integer-array>
+    <integer-array name="config_screenBrighteningThresholds">
+        <item>100</item>
+    </integer-array>
     <array name="config_screenBrightnessBacklight" />
     <array name="config_screenBrightnessNits" />
+    <integer-array name="config_screenDarkeningThresholds">
+        <item>200</item>
+    </integer-array>
+    <array name="config_screenThresholdLevels" />
     <integer-array name="config_scrollBarrierVibePattern">
         <item>0</item>
         <item>15</item>
@@ -641,12 +656,12 @@
         <item>com.tencent.tmgp.sgame</item>
     </string-array>
     <array name="correct_brightness_video">
-        <item>0.0733</item>
-        <item>0.0733</item>
-        <item>0.0733</item>
-        <item>0.0782</item>
-        <item>0.0879</item>
-        <item>0.0938</item>
+        <item>0.0425</item>
+        <item>0.0425</item>
+        <item>0.0425</item>
+        <item>0.0582</item>
+        <item>0.0679</item>
+        <item>0.0838</item>
         <item>0.0977</item>
         <item>0.1075</item>
         <item>0.1075</item>
