@@ -409,6 +409,7 @@ You will not lose any app data."</string>
   <string name="battery_charge_estimating">Calculating</string>
   <string name="battery_charge_full">Charged</string>
   <string name="battery_charging_prompt">Charging</string>
+  <string name="battery_desc_ambient_display">Power consumed by Ambient display</string>
   <string name="battery_desc_apps">Battery used by app</string>
   <string name="battery_desc_bluetooth">Battery used by Bluetooth</string>
   <string name="battery_desc_display">Battery used by the display and backlight</string>
@@ -523,6 +524,7 @@ You will not lose any app data."</string>
   <string name="call_blacklist">Call blocklist</string>
   <string name="call_cloud_block">Cloud blocklist</string>
   <string name="call_contact_block">Block calls from contacts</string>
+  <string name="call_delete_all_hint">Delete all blocked calls?</string>
   <string name="call_delete_hint">Delete all blocked calls from this number?</string>
   <string name="call_delete_title">Delete call history</string>
   <string name="call_oversea_block">Block calls from abroad</string>
@@ -1745,6 +1747,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="pm_root_success_notification_infomation">Make sure you understand the risks related with root access</string>
   <string name="pm_root_success_notification_title">Allowed root access</string>
   <string name="power_20s_shutdown">Device will power off in %d seconds</string>
+  <string name="power_ambient_display">Ambient display</string>
   <string name="power_analysis_consume_title">Battery usage</string>
   <string name="power_analysis_suggestion_need_optimize">Battery usage issues detected.</string>
   <string name="power_autorun_apps_empty">No autostart apps</string>
@@ -2168,7 +2171,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_service">Block service SMS</string>
   <string name="sms_smart_engine_update">Automatically update SMS filter</string>
   <string name="sms_smart_engine_update_now">Update</string>
-  <string name="sms_stranger_block">Block SMS from strangers</string>
+  <string name="sms_stranger_block">Blocked</string>
   <string name="sorted_dialog_title">Sort by</string>
   <string name="sp_background_risk_dialog_summary">, check and fix payment issues.</string>
   <string name="sp_background_risk_dialog_summary_wifi_approve">You are connected to a public WLAN network which may be unsecure. Make sure your payment is protected before you complete it.</string>
@@ -2237,6 +2240,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_antispam_title_contact_incoming">Calls from Contacts</string>
   <string name="st_antispam_title_contact_sms">Messages from Contacts</string>
   <string name="st_antispam_title_contactandanoy_group">Settings</string>
+  <string name="st_antispam_title_mms">MMS</string>
   <string name="st_antispam_title_null_incoming">Private numbers</string>
   <string name="st_antispam_title_service_sms">Service notifications</string>
   <string name="st_antispam_title_whitelist">Exceptions</string>
@@ -2270,7 +2274,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_msg_keyword_white">Keyword exceptions</string>
   <string name="st_msg_other_group">Other</string>
   <string name="st_msg_settings">SMS blocklist</string>
-  <string name="st_msg_stranger_group">Block SMS from strangers</string>
+  <string name="st_msg_stranger_group">Block messages from strangers</string>
   <string name="st_settings_name">Blocklist settings</string>
   <string name="st_share_settings">Use SIM 1 settings</string>
   <string name="st_sub_title_customize_mode_name">Name</string>
@@ -2378,6 +2382,33 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="summary_virus_cloudscan">Upload app names and details and scan using online virus definitions</string>
   <string name="summary_virus_update">Get latest virus definitions automatically</string>
   <string name="summary_xiaomi_roaming">CNY 0.01/MB for mobile data roaming.</string>
+  <string name="superpower_dialog_button_disable_dialog">"Don't show again"</string>
+  <string name="superpower_dialog_button_ok">OK</string>
+  <string name="superpower_dialog_massage">"Ultra battery saver restricts most power-consuming features and decreases your device's performance in order to leave basic functionality (e.g. calls, SMS, and connecting to the network) available as long as possible. Turn on Ultra battery saver?"</string>
+  <string name="superpower_dialog_title">Ultra battery saver</string>
+  <string name="superpower_notification_hint_enter">Turn on</string>
+  <string name="superpower_notification_summary">Turn on Ultra battery saver</string>
+  <string name="superpower_notification_time_12">MMMM dd, EEEE</string>
+  <string name="superpower_notification_time_24">MMMM dd, EEEE</string>
+  <string name="superpower_notification_title">Less than 10% of battery remaining</string>
+  <string name="superpower_progress_content">Turning on Ultra battery saver…</string>
+  <string name="superpower_progress_left_time">%1$dh %2$dm</string>
+  <string name="superpower_progress_switch_home">Switching to Dark theme</string>
+  <string name="superpower_progress_title">Remaining time</string>
+  <string name="superpower_progress_turndown_brightness">Decreasing screen brightness</string>
+  <string name="superpower_progress_turnoff_items">Restricting power-consuming activity</string>
+  <string name="superpower_progress_turnoff_process">Restrict background activity</string>
+  <string name="superpower_savemode_limit1">Dark theme</string>
+  <string name="superpower_savemode_limit2">Restrict background activity</string>
+  <string name="superpower_savemode_limit3">Restrict power-consuming activity (sync, GPS, vibration, Ambient display, etc.)</string>
+  <string name="superpower_savemode_limit4">Allow selected apps to work normally</string>
+  <string name="superpower_settings">Ultra battery saver</string>
+  <string name="superpower_settins_autoenter_summary">Turn on Ultra battery saver automatically when the battery is only 10% charged</string>
+  <string name="superpower_settins_autoenter_title">Turn on automatically</string>
+  <string name="superpower_settins_autoleave_summary">Turn off Ultra battery saver automatically when the battery is 50% charged</string>
+  <string name="superpower_settins_autoleave_title">Turn off automatically</string>
+  <string name="superpower_settins_other">Additional settings</string>
+  <string name="superpower_settins_switch_summary">Restricts most power-consuming features in order to leave basic functionality (e.g. calls, SMS, and selected apps) available as long as possible</string>
   <string name="support_game_booster_tips">Boost speed &amp; improve gaming experience</string>
   <string name="sys_app_prot_cracked_confirm">Got it</string>
   <string name="sys_cpu_title">CPU usage</string>
@@ -2386,6 +2417,18 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sys_title_gamebooster_unit_mb">MB</string>
   <string name="system_app">System apps</string>
   <string name="system_application">System apps</string>
+  <string name="system_permission_declare_agree">Agree</string>
+  <string name="system_permission_declare_double_link">&lt;Data&gt;Read and agree to our &amp;lt;a href=\"%1$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt; and &amp;lt;a href=\"%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using this feature.&lt;/Data&gt;</string>
+  <string name="system_permission_declare_main_purpose" formatted="false">Welcome to %1s! This app allows you to use the following feature: %2s.</string>
+  <string name="system_permission_declare_no_say_no">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work normally."</string>
+  <string name="system_permission_declare_privacy_declare">"We respect and protect your peivacy.
+Note that %1s needs to collect your data and requires the following permissions to work normally:"</string>
+  <string name="system_permission_declare_revoke_path">You can uninstall this app, sign out of your account, or manage your permissions and authorization in Security &gt; Manage apps &gt; Permissions &gt; Other permissions.</string>
+  <string name="system_permission_declare_use_network">Connect to the network</string>
+  <string name="system_permission_perm_answer_call">Make calls</string>
+  <string name="system_permission_perm_read_mms">Read MMS</string>
+  <string name="system_permission_perm_read_numbers">Read phone numbers</string>
+  <string name="system_permission_perm_send_mms">Send MMS</string>
   <string name="tab_blacklist">Blocklist</string>
   <string name="tab_block_log_unKnowNumber">Private number</string>
   <string name="tab_call">Calls</string>

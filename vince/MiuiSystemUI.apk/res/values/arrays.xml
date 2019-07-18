@@ -367,6 +367,8 @@
         <item>com.baidao.ytxaegis</item>
         <item>com.xiaomi.gameboosterglobal</item>
         <item>com.google.android.dialer</item>
+        <item>com.miui.miservice</item>
+        <item>com.miui.mishare.connectivity</item>
     </string-array>
     <string-array name="config_allowKeyguardPackages">
         <item>com.google.android.apps.messaging</item>
@@ -433,6 +435,10 @@
         <item>com.google.android.dialer</item>
         <item>abbanza.bixpe.orange.dispositivos.android</item>
         <item>edu.okstate.membership</item>
+        <item>com.milink.service</item>
+        <item>com.xiaomi.account</item>
+        <item>com.zing.zalo</item>
+        <item>com.miui.mishare.connectivity</item>
     </string-array>
     <integer-array name="config_cameraLaunchGestureVibePattern">
         <item>0</item>
@@ -1403,6 +1409,10 @@
         <item>com.android.mms</item>
         <item>com.miui.securitycore</item>
         <item>com.miui.notification</item>
+        <item>com.mi.health</item>
+        <item>com.xiaomi.mipicks</item>
+        <item>com.xiaomi.discover</item>
+        <item>com.miui.mishare.connectivity</item>
     </string-array>
     <string-array name="telephony_data_activity_1x_sim1">
         <item>0</item>
