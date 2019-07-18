@@ -259,7 +259,6 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
   <string name="aod_and_lock_screen_settings_title">Ambient display &amp; Lock screen</string>
-  <string name="aod_clock_style_title">Clock style</string>
   <string name="aod_mode_summary">Always show time, date and messages when the screen is off</string>
   <string name="aod_mode_title">Always on mode</string>
   <string name="aod_settings_category_name">Ambient display</string>
@@ -2189,7 +2188,6 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_double_tap_to_sleep_title">Double tap screen to sleep</string>
   <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
@@ -2477,8 +2475,8 @@ as your First space PIN."</string>
   <string name="lockpassword_password_requires_digit">Password must contain at least one digit.</string>
   <string name="lockpassword_password_requires_symbol">Password must contain at least one symbol.</string>
   <string name="lockpassword_password_set_toast">Password has been set</string>
-  <string name="lockpassword_password_too_long">Must be fewer than %d characters</string>
-  <string name="lockpassword_password_too_short">Must be at least %d characters</string>
+  <string name="lockpassword_password_too_long">Password must be fewer than %d characters.</string>
+  <string name="lockpassword_password_too_short">Password must be at least %d characters</string>
   <string name="lockpassword_pattern_set_toast">Pattern has been set</string>
   <string name="lockpassword_pin_contains_non_digits">PIN can only contain numbers</string>
   <string name="lockpassword_pin_no_sequential_digits">An ascending, descending or repeated sequence of digits is forbidden</string>
@@ -3488,6 +3486,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="privacy_password_remind_bindaccount_title">Add Mi Account</string>
   <string name="privacy_password_settings">Use Privacy protection password</string>
   <string name="privacy_password_settings_next">Next</string>
+  <string name="privacy_password_settings_summary">Privacy protection password is used for the apps that might contain sensitive information</string>
   <string name="privacy_password_settings_titles">Privacy protection password protects your messages, photos, files, and notes.</string>
   <string name="privacy_password_settings_titles_elder_mode">Privacy protection password protects your photos, files, and notes.</string>
   <string name="privacy_password_settings_titles_second_space">Privacy protection password protects your messages, photos, and notes.</string>
@@ -4477,7 +4476,6 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings">Notifications &amp; status bar</string>
   <string name="status_bar_settings_all_app_display_loading">Just a sec…</string>
   <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
-  <string name="status_bar_settings_expand_top_notification">Expand top notification</string>
   <string name="status_bar_settings_manage_notification">App notifications</string>
   <string name="status_bar_settings_notification_bar">Notification shade</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
