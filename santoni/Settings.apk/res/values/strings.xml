@@ -2480,8 +2480,8 @@ as your First space PIN."</string>
   <string name="lockpassword_password_requires_digit">Password must contain at least one digit.</string>
   <string name="lockpassword_password_requires_symbol">Password must contain at least one symbol.</string>
   <string name="lockpassword_password_set_toast">Password has been set</string>
-  <string name="lockpassword_password_too_long">Must be fewer than %d characters</string>
-  <string name="lockpassword_password_too_short">Must be at least %d characters</string>
+  <string name="lockpassword_password_too_long">Password must be fewer than %d characters.</string>
+  <string name="lockpassword_password_too_short">Password must be at least %d characters</string>
   <string name="lockpassword_pattern_set_toast">Pattern has been set</string>
   <string name="lockpassword_pin_contains_non_digits">PIN can only contain numbers</string>
   <string name="lockpassword_pin_no_sequential_digits">An ascending, descending or repeated sequence of digits is forbidden</string>
@@ -3491,6 +3491,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="privacy_password_remind_bindaccount_title">Add Mi Account</string>
   <string name="privacy_password_settings">Use Privacy protection password</string>
   <string name="privacy_password_settings_next">Next</string>
+  <string name="privacy_password_settings_summary">Privacy protection password is used for the apps that might contain sensitive information</string>
   <string name="privacy_password_settings_titles">Privacy protection password protects your messages, photos, files, and notes.</string>
   <string name="privacy_password_settings_titles_elder_mode">Privacy protection password protects your photos, files, and notes.</string>
   <string name="privacy_password_settings_titles_second_space">Privacy protection password protects your messages, photos, and notes.</string>
