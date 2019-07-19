@@ -15,7 +15,7 @@
   <string name="add_to_album_success">Added to album</string>
   <string name="add_to_album_tip">Cloud photos</string>
   <string name="add_to_favorites_failed">"Couldn't add to favorites"</string>
-  <string name="add_to_secret_exist">Photo already exists in hidden album</string>
+  <string name="add_to_secret_exist">This item already exists in hidden album</string>
   <string name="add_to_secret_fail">"Couldn't add to hidden album"</string>
   <string name="add_to_secret_failed_with_reason">"Can't add to hidden album. %1$s."</string>
   <string name="add_to_secret_successful">Added to hidden album</string>
@@ -39,6 +39,7 @@
   <string name="agreement_summary">Legal documents</string>
   <string name="ai_album_open_switch_button_title">Start analyzing photos</string>
   <string name="ai_album_requesting_title">AI algorithm is still processing your photos. Come back in a while.</string>
+  <string name="ai_album_setting_key_word">Search for photos</string>
   <string name="ai_album_setting_sub_title">Allow AI algorithm to identify people, places, and objects on your photos so you could find them faster.</string>
   <string name="ai_album_setting_title">Identify objects on photos</string>
   <string name="album_already_exists_check">View</string>
@@ -105,7 +106,9 @@
   <string name="app_name">Gallery</string>
   <string name="app_name_view_picture">View photos</string>
   <string name="app_name_view_video">View videos</string>
+  <string name="assistant_page_discovery">Discover</string>
   <string name="assistant_page_label">Memories</string>
+  <string name="assistant_page_server_error">Check your network settings</string>
   <string name="associate_face_album">Choose an album</string>
   <string name="auto_backup_introduce">Back up photos and videos automatically (Mi Account is required)</string>
   <string name="auto_download_media_title">Download photos from Mi Cloud automatically</string>
@@ -194,7 +197,17 @@
   <string name="begin_share">Created Baby album \"%s\", you can share it now</string>
   <string name="begin_share_toast">Create a separate album for this kid before sharing?</string>
   <string name="blank_app_name"/>
+  <string name="blur_refocus_enter"/>
   <string name="browse_category_title">Browse</string>
+  <string name="burst_image_download_item_title" formatted="false">Download original (%s|%s)</string>
+  <string name="burst_photo_enter"/>
+  <string name="burst_preview_title">Burst shot</string>
+  <string name="burst_save_all">Save all</string>
+  <string name="burst_save_choice_title" formatted="false">Selected %d out of %d</string>
+  <string name="burst_save_confirm_dialog_title">Saving photos</string>
+  <string name="burst_save_error_msg">"Couldn't save"</string>
+  <string name="burst_save_processing">Processing…</string>
+  <string name="burst_transition_image_view">photo_view_burst</string>
   <string name="buy_member_tip">Become a member</string>
   <string name="by_email">Email</string>
   <string name="by_others">Other</string>
@@ -647,6 +660,9 @@
   <string name="cleaner_video_description">Delete videos that take up storage space</string>
   <string name="cleaner_video_pick_delete_selected">Delete selected videos</string>
   <string name="cleaner_video_title">Delete videos</string>
+  <string name="clear_dup_medias">Clean up duplicate photos</string>
+  <string name="clear_dup_success">Clean up successfully</string>
+  <string name="clear_dup_tip">Clearing duplicate photos</string>
   <string name="click_download_gif">Tap to download GIF</string>
   <string name="click_top_right">Tap this icon</string>
   <string name="close">Close</string>
@@ -735,6 +751,8 @@
   <string name="custom_select_title_select_item">Select items</string>
   <string name="debugging_info">Debug info has been generated successfully. Tap OK to open folder.</string>
   <string name="debugging_tip">Generating debug data</string>
+  <string name="decrypt_video_failed">"Couldn't prepare video"</string>
+  <string name="decrypting_video">Preparing video…</string>
   <string name="default_relation_name">New group</string>
   <string name="define_by_user">Custom</string>
   <string name="delete">Delete</string>
@@ -790,6 +808,10 @@
   <string name="downloading_dialog_message">You can select the quality of the downloaded images or turn off automatic downloads in the Settings.</string>
   <string name="downloading_title">Downloading photos from Mi Cloud</string>
   <string name="edit_baby_info">View baby info</string>
+  <string name="editor_cancel">Cancel</string>
+  <string name="editor_export">Save</string>
+  <string name="editor_talkback_redo">Redo</string>
+  <string name="editor_talkback_undo">Undo</string>
   <string name="email_picker_title">Add shared email</string>
   <string name="empty_description_conditions">Remember the things that matter</string>
   <string name="empty_description_no_cards">Remember the things that matter</string>
@@ -917,7 +939,7 @@ Take more photos of your friends!"</string>
 are available"</string>
   <string name="feature_guidance_video_editor_smart_effects">New effects are available</string>
   <string name="fileSizeSuffix">%1$s%2$s</string>
-  <string name="filter_bg_color_component">1.0</string>
+  <string name="filter_bg_color_component">0.968</string>
   <string name="filter_bi_bw">B&amp;W</string>
   <string name="filter_bi_dusk">Dusk</string>
   <string name="filter_bi_lilt">Lilt</string>
@@ -966,7 +988,7 @@ are available"</string>
   <string name="filter_people_movie">Movie</string>
   <string name="filter_people_nature">Natural</string>
   <string name="filter_people_pink">Blush</string>
-  <string name="filter_people_riddle">Riddle</string>
+  <string name="filter_people_riddle">Candy</string>
   <string name="filter_people_sepia">Sepia</string>
   <string name="filter_people_story">Story</string>
   <string name="filter_people_tea">Tea</string>
@@ -991,6 +1013,7 @@ are available"</string>
   <string name="filter_sky_sunset">Sunset</string>
   <string name="finish_create_baby_album_toast">Created an album for \"%s\" in Mi Cloud</string>
   <string name="finish_fill_baby">Create</string>
+  <string name="first_time_add_video_to_secret_tips">Update Gallery to be able to hide videos</string>
   <string name="flash_off">No flash</string>
   <string name="flash_on">Flash used</string>
   <string name="frame_not_support_image_ratio">"This aspect ratio isn't supported"</string>
@@ -1121,23 +1144,25 @@ to personalize Gallery"</string>
   <string name="more_album_hint">, etc.</string>
   <string name="more_face">More people who look alike</string>
   <string name="more_face_album_name">More people</string>
+  <string name="motion_photo_enter"/>
   <string name="motion_photo_play">Play</string>
   <string name="move_to_other_albums_tip">Move this album to Other albums?</string>
   <string name="movie_add_disable">You can select up to 20 photos</string>
+  <string name="movie_audio_antiquity">Retro</string>
   <string name="movie_audio_custom">Local</string>
-  <string name="movie_audio_default">Memory</string>
-  <string name="movie_audio_kawaii">Romantic</string>
-  <string name="movie_audio_light">Ballad</string>
-  <string name="movie_audio_linear">Rock</string>
+  <string name="movie_audio_dream">Dream</string>
+  <string name="movie_audio_electronics">Electro</string>
   <string name="movie_audio_none">None</string>
-  <string name="movie_audio_soft">Ukulele</string>
-  <string name="movie_audio_sport">Techno</string>
+  <string name="movie_audio_quiet">Zen</string>
+  <string name="movie_audio_summertime">Summer</string>
+  <string name="movie_audio_vitality">Vigor</string>
   <string name="movie_cancel_download">Cancel</string>
   <string name="movie_change_to_long_video">You selected more than 5 photos. Switched to longer video.</string>
   <string name="movie_content_describe_add">Add photos</string>
   <string name="movie_content_describe_delete">Delete photos</string>
   <string name="movie_content_describe_pause">Pause</string>
   <string name="movie_content_describe_play">Play</string>
+  <string name="movie_customer_unsupport_audio_file">Unsupport audio file</string>
   <string name="movie_delete_disable">You need at least 3 photos to create a clip.</string>
   <string name="movie_download">Download</string>
   <string name="movie_download_failed">"Couldn't download"</string>
@@ -1275,6 +1300,7 @@ to personalize Gallery"</string>
   <string name="photo_editor_beautify">Beautify</string>
   <string name="photo_editor_beautify_auto">Auto</string>
   <string name="photo_editor_beauty_compare">Original</string>
+  <string name="photo_editor_compare_tip">Press and hold to view the original image</string>
   <string name="photo_editor_crop_and_rotate">Crop</string>
   <string name="photo_editor_crop_auto">Auto</string>
   <string name="photo_editor_crop_auto_tips">Cropped automatically</string>
@@ -1312,6 +1338,8 @@ to personalize Gallery"</string>
   <string name="photo_editor_navigator_module_download_wait_wlan">Wait for Wi-Fi</string>
   <string name="photo_editor_navigator_module_downloading">Downloading %s…</string>
   <string name="photo_editor_navigator_need_download">Connect to the internet to download %s.</string>
+  <string name="photo_editor_remove_watermark">Remove watermark</string>
+  <string name="photo_editor_remove_watermark_on">Add watermark</string>
   <string name="photo_editor_remover">Erase</string>
   <string name="photo_editor_rotate">Rotate</string>
   <string name="photo_editor_saving">Saving…</string>
@@ -1320,6 +1348,8 @@ to personalize Gallery"</string>
   <string name="photo_editor_talkback_confirm">Confirm</string>
   <string name="photo_editor_talkback_crop_16_9">Sixteen to nine</string>
   <string name="photo_editor_talkback_crop_1_1">One to one</string>
+  <string name="photo_editor_talkback_crop_2_3">Two to three</string>
+  <string name="photo_editor_talkback_crop_3_2">Three to two</string>
   <string name="photo_editor_talkback_crop_3_4">Three to four</string>
   <string name="photo_editor_talkback_crop_4_3">Four to three</string>
   <string name="photo_editor_talkback_crop_9_16">Nine to sixteen</string>
@@ -1585,7 +1615,6 @@ to personalize Gallery"</string>
   <string name="slideshow_interval_dialog_title">Enter interval</string>
   <string name="slideshow_interval_invalid">Interval must be between 3 and 3600 seconds</string>
   <string name="slideshow_interval_title">Show each slide for</string>
-  <string name="slideshow_interval_value">%1$d seconds</string>
   <string name="slim_complete">Done</string>
   <string name="slim_complete_action_title">Optimized successfully</string>
   <string name="slim_cost_time_minute">%dm remaining</string>
@@ -1600,6 +1629,13 @@ to personalize Gallery"</string>
   <string name="slim_running">Optimizing…</string>
   <string name="slim_space">freed up</string>
   <string name="slim_stop">Stop optimizing</string>
+  <string name="slow_motion_enter"/>
+  <string name="special_type_eye_repair">Fixed closed eyes using AI</string>
+  <string name="special_type_hdr">HDR</string>
+  <string name="special_type_night_beauty">AI low light portrait</string>
+  <string name="special_type_night_mode">AI night mode</string>
+  <string name="special_type_portrait">AI light painting portrait</string>
+  <string name="special_type_wide_angle">AI ultra wide angle</string>
   <string name="start_debug">Debug Gallery</string>
   <string name="start_to_use_face_albumset">Sort by people</string>
   <string name="status_bar_notification_info_overflow">999+</string>
@@ -1642,6 +1678,7 @@ to personalize Gallery"</string>
   <string name="sub_discard_negative_btn">Discard</string>
   <string name="sub_discard_positive_btn">Save</string>
   <string name="success_create_quick_icon_on_desk">Created successfully</string>
+  <string name="super_slow_motion_enter"/>
   <string name="sync_album_in_proecess">Syncing album…</string>
   <string name="sync_battery_low">Low battery</string>
   <string name="sync_cloud_space_full">Not enough space in Mi Cloud</string>
@@ -1697,6 +1734,7 @@ to personalize Gallery"</string>
   <string name="today">Today</string>
   <string name="too_many_recipients">"Can't add more than %2$s recipients (You've currently added %1$s)."</string>
   <string name="trash_bin">Trash bin</string>
+  <string name="trash_bin_key_word">Deleted photos</string>
   <string name="trash_bin_summary">Browse backed up photos which were deleted recently</string>
   <string name="try_again_later">Try again later.</string>
   <string name="try_to_send">Send</string>

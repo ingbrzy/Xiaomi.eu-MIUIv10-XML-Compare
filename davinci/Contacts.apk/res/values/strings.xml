@@ -51,6 +51,7 @@
   <string name="blacklist">Block</string>
   <string name="bluetooth_connection_failed_toast">Bluetooth connection interrupted</string>
   <string name="blurbJoinContactDataWith">Choose the contact you want to merge with %s:</string>
+  <string name="btn_call_fuhao_txt">Sub</string>
   <string name="btn_rotation">Rotate</string>
   <string name="btn_split_contact">Separate</string>
   <string name="button_cancel_scan">Stop</string>
@@ -167,6 +168,7 @@
   <string name="chat_skype">Chat using Skype</string>
   <string name="chat_yahoo">Chat using Yahoo</string>
   <string name="checkhint">Check the target device</string>
+  <string name="china_mobile_palm_hall">CMCC Online Service Hall</string>
   <string name="clearCallLogConfirmation">All your call records will be deleted.</string>
   <string name="clearCallLogConfirmation_title">Clear all call logs?</string>
   <string name="clearCallLogProgress_title">Clearing call log…</string>
@@ -264,6 +266,7 @@ Contact cards are turned off"</string>
   <string name="contact_import_methods_dialog_bluetooth">Bluetooth</string>
   <string name="contact_import_methods_dialog_mi_mover">Mi Mover</string>
   <string name="contact_import_methods_dialog_title">Select import method</string>
+  <string name="contact_is_deleted">This contact was deleted</string>
   <string name="contact_is_readOnly">"Can't edit read-only contacts"</string>
   <string name="contact_list_loading">Loading…</string>
   <string name="contact_pick_photo">Photo</string>
@@ -342,6 +345,7 @@ Contact cards are turned off"</string>
   <string name="description_image_button_eight">eight</string>
   <string name="description_image_button_five">five</string>
   <string name="description_image_button_four">four</string>
+  <string name="description_image_button_fuhao_named_dial">Sub call</string>
   <string name="description_image_button_nine">nine</string>
   <string name="description_image_button_one">one</string>
   <string name="description_image_button_plus">Plus</string>
@@ -529,6 +533,11 @@ Reason: \"%s\""</string>
   <string name="group_sms_progress_msg">Grouping…</string>
   <string name="groupsLabel">Groups</string>
   <string name="groups_list_empty">No groups</string>
+  <string name="heduohao_fuhao_call_menu_title">Dial on sub%d</string>
+  <string name="heduohao_fuhao_order">Sub%d</string>
+  <string name="heduohao_label">HeDuoHao</string>
+  <string name="heduohao_main_call_menu_title">Dial on main</string>
+  <string name="heduohao_popup_txt">Sub%d</string>
   <string name="help_url_people_add"/>
   <string name="help_url_people_edit"/>
   <string name="help_url_people_main"/>
@@ -670,6 +679,9 @@ Reason: \"%s\""</string>
   <string name="menu_set_ring_tone">Set ringtone</string>
   <string name="menu_settings">Settings</string>
   <string name="menu_share">Share</string>
+  <string name="menu_share_qrcode">QR code</string>
+  <string name="menu_share_text">Text</string>
+  <string name="menu_share_vcard_file">File</string>
   <string name="menu_show_all_calls">Show all calls</string>
   <string name="menu_show_voicemails_only">Show voicemails only</string>
   <string name="menu_splitAggregate">Separate</string>
@@ -1057,14 +1069,18 @@ To add a contact to your list of favorites:
   <string name="set_data_package">Set data plan first</string>
   <string name="set_default">Set default</string>
   <string name="set_photo_failed_msg">"Couldn't assign photo"</string>
+  <string name="share_contact_as">Share contact as</string>
   <string name="share_error">"This contact can't be shared"</string>
   <string name="share_over_limit">"Can't share over 1000 contacts"</string>
+  <string name="share_qrcode">Share QR code</string>
   <string name="share_via">Send using</string>
   <string name="share_visible_contacts">Share contacts</string>
   <string name="shortcutActivityTitle">Choose a shortcut</string>
   <string name="shortcutContact">Contact</string>
   <string name="shortcutDialContact">"Direct dial "</string>
   <string name="shortcutMessageContact">Direct message</string>
+  <string name="shortcut_new_contact_label">New contact</string>
+  <string name="shortcut_scan_label">Scan business card</string>
   <string name="showAllContactsJoinItem">Show all contacts</string>
   <string name="simContacts_airplaneMode">To import contacts from SIM card, turn off Airplane mode</string>
   <string name="simContacts_empty">No contacts on SIM card</string>

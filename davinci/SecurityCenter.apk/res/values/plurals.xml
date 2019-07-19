@@ -132,11 +132,69 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">Add %d minutes</item>
         <item quantity="one">Add %d minute</item>
     </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">%s days</item>
+        <item quantity="one">%s day</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">%s hours</item>
+        <item quantity="one">%s hour</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">%s minute</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">%s days remaining</item>
+        <item quantity="one">%s day remaining</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">%s hours remaining</item>
+        <item quantity="one">%s hour remaining</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">%s minutes remaining</item>
+        <item quantity="one">%s minute remaining</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">%s days remaining</item>
+        <item quantity="one">%s day remaining</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">%s hours remaining</item>
+        <item quantity="one">%s hour remaining</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">%s minutes remaining</item>
+        <item quantity="one">%s minute remaining</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">%s days until fully charged</item>
+        <item quantity="one">%s day until fully charged</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">%s hours until fully charged</item>
+        <item quantity="one">%s hour until fully charged</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">%s minutes until fully charged</item>
+        <item quantity="one">%s minute until fully charged</item>
+    </plurals>
+    <plurals name="notification_battery_scan_consume_abnormal_title_split">
+        <item quantity="other">%2$d apps, including %1$s, are draining battery</item>
+        <item quantity="one">%2$d app, including %1$s, is draining battery</item>
+    </plurals>
+    <plurals name="pc_abnormal_scan_result_model_result_title">
+        <item quantity="other">%d apps are draining battery</item>
+        <item quantity="one">%d app is draining battery</item>
+    </plurals>
     <plurals name="people">
         <item quantity="other">Downloaded by %1$d people</item>
+        <item quantity="one">Downloaded by %1$d people</item>
     </plurals>
     <plurals name="people_million">
         <item quantity="other">Downloaded by %1$d people</item>
+        <item quantity="one">Downloaded by %1$d people</item>
     </plurals>
     <plurals name="gb_ad_people_play">
         <item quantity="other">%1$d people are playing</item>
@@ -148,11 +206,7 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d views</item>
-        <item quantity="zero">%1$d views</item>
         <item quantity="one">%1$d view</item>
-        <item quantity="two">%1$d views</item>
-        <item quantity="few">%1$d views</item>
-        <item quantity="many">%1$d views</item>
     </plurals>
     <plurals name="result_virus_header">
         <item quantity="other">Found %d viruses and insecure apps</item>
@@ -308,7 +362,6 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     </plurals>
     <plurals name="found_apps_title">
         <item quantity="other">%d apps found</item>
-        <item quantity="zero">0 app found</item>
         <item quantity="one">%d app found</item>
     </plurals>
     <plurals name="reset_data_dialog_ok_tick">
@@ -371,6 +424,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">Checked in %d days in a row</item>
         <item quantity="one">Checked in %d time</item>
     </plurals>
+    <plurals name="function_shield_num">
+        <item quantity="other">%d features</item>
+        <item quantity="one">%d feature</item>
+    </plurals>
     <plurals name="hide_txt_hint_with_blank_2">
         <item quantity="other">    +%1$d more characters</item>
         <item quantity="one">    +%1$d more character</item>
@@ -389,8 +446,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     </plurals>
     <plurals name="game_booster_incoming_call_duration_p1">
         <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
     </plurals>
     <plurals name="game_booster_incoming_call_duration_p2">
         <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
     </plurals>
 </resources>
