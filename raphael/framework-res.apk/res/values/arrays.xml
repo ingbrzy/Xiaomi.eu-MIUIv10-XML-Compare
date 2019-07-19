@@ -45,12 +45,34 @@
     <array name="config_allowedSecureInstantAppSettings" />
     <array name="config_allowedSystemInstantAppSettings" />
     <integer-array name="config_ambientBrighteningThresholds">
+        <item>5</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
         <item>100</item>
+        <item>400</item>
+        <item>600</item>
+        <item>1000</item>
     </integer-array>
     <integer-array name="config_ambientDarkeningThresholds">
-        <item>200</item>
+        <item>800</item>
+        <item>800</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
     </integer-array>
-    <array name="config_ambientThresholdLevels" />
+    <integer-array name="config_ambientThresholdLevels">
+        <item>2</item>
+        <item>10</item>
+        <item>30</item>
+        <item>100</item>
+        <item>800</item>
+        <item>2000</item>
+        <item>4000</item>
+    </integer-array>
     <integer-array name="config_apfEthTypeBlackList">
         <item>0x000088A2</item>
         <item>0x000088A4</item>
@@ -380,21 +402,21 @@
         <item>com.android.inputmethod.latin</item>
     </string-array>
     <integer-array name="config_dynamicHysteresisBrightLevels">
-        <item>5</item>
-        <item>5</item>
-        <item>10</item>
-        <item>30</item>
-        <item>100</item>
-        <item>400</item>
-        <item>600</item>
+        <item>2000</item>
+        <item>2000</item>
         <item>1000</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
     </integer-array>
     <integer-array name="config_dynamicHysteresisDarkLevels">
         <item>800</item>
         <item>800</item>
-        <item>500</item>
-        <item>500</item>
-        <item>500</item>
+        <item>800</item>
+        <item>800</item>
+        <item>800</item>
         <item>500</item>
         <item>500</item>
         <item>500</item>
@@ -551,12 +573,12 @@
         <item>600</item>
     </integer-array>
     <integer-array name="config_screenBrighteningThresholds">
-        <item>100</item>
+        <item>0</item>
     </integer-array>
     <array name="config_screenBrightnessBacklight" />
     <array name="config_screenBrightnessNits" />
     <integer-array name="config_screenDarkeningThresholds">
-        <item>200</item>
+        <item>0</item>
     </integer-array>
     <array name="config_screenThresholdLevels" />
     <integer-array name="config_scrollBarrierVibePattern">
