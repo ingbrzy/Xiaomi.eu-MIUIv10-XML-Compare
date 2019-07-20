@@ -14,6 +14,7 @@
     </plurals>
     <plurals name="miui_sos_emergency_contacts_quantity">
         <item quantity="other">%d added</item>
+        <item quantity="one">%d added</item>
     </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">"%d apps can't show notifications"</item>
@@ -271,6 +272,14 @@ For more information about this certificate, contact your admin."</item>
     <plurals name="lockpassword_pin_too_long">
         <item quantity="other">You can enter up to %d digits</item>
         <item quantity="one">You can enter up to %d digit</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Enter at least %d characters</item>
+        <item quantity="one">Enter at least %d character</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">You can enter up to %d characters</item>
+        <item quantity="one">You can enter up to %d character</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Connect at least %d dots. Try again.</item>
