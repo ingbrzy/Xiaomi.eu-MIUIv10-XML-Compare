@@ -2617,6 +2617,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>600000</item>
         <item>2147483647</item>
     </string-array>
+    <string-array name="screen_zoom_level">
+        <item>XS</item>
+        <item>S</item>
+        <item>L</item>
+    </string-array>
     <string-array name="security_settings_premium_sms_values">
         <item>Ask</item>
         <item>Never allow</item>
@@ -3325,15 +3330,5 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="default_vol_stream_values">
         <item>2</item>
         <item>3</item>
-    </string-array>
-    <string-array name="aod_clock_style_entries">
-        <item>Horizontal</item>
-        <item>Vertical</item>
-        <item>Inline</item>
-    </string-array>
-    <string-array name="aod_clock_style_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>
