@@ -162,6 +162,8 @@ only in frame mode"</string>
   <string name="back_camera0">Master Back Camera</string>
   <string name="back_camera1">Vice Back Camera</string>
   <string name="back_camera2">Twin Back Camera</string>
+  <string name="back_camera4">Back Camera Aux_4</string>
+  <string name="back_camera5">Back Camera Aux_5</string>
   <string name="back_key">back key</string>
   <string name="back_to_test">Back</string>
   <string name="background_result">Back ground test result</string>
@@ -245,6 +247,7 @@ only in frame mode"</string>
   <string name="call_test">Call test</string>
   <string name="call_test_hint">Talk to the main mic, see if you can hear your voice.</string>
   <string name="camera_click_to_capture">Click screen to capture</string>
+  <string name="camera_switch">switch</string>
   <string name="camera_test">Camera</string>
   <string name="camera_zoom">zoom</string>
   <string name="camerainfo">Camera information</string>
