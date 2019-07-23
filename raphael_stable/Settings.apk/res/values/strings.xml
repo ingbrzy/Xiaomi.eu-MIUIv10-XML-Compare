@@ -343,7 +343,6 @@ Your admin has the ability to monitor and manage settings, access, apps, and dat
   <string name="animator_duration_scale_title">Animator duration scale</string>
   <string name="another_migration_already_in_progress">Another migration is already in progress.</string>
   <string name="anti_spam">Blocklist</string>
-  <string name="aod_clock_style_title">Clock style</string>
   <string name="aod_close_color_inversion">"This feature can't be combined with color inversion. Turn off color inversion first."</string>
   <string name="aod_dual_togother">HH:MM</string>
   <string name="aod_dual_togother_12">hh:mm aa</string>
@@ -1433,12 +1432,15 @@ This feature can be turned off in [Settings]"</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
   <string name="confirm_erase">Erase</string>
+  <string name="confirm_fingerprint">Verify your fingerprint</string>
   <string name="confirm_fingerprint_icon_content_description">Use your fingerprint to continue.</string>
   <string name="confirm_fingerprint_msg">Put your finger on the sensor</string>
   <string name="confirm_frp_credential_message">You device was factory reset. You can unlock it using your previous password.</string>
   <string name="confirm_frp_credential_skip_txt">Use Google account instead</string>
   <string name="confirm_frp_credential_title">Unlock after Factory reset</string>
   <string name="confirm_new_backup_pw_prompt">Retype your new full backup password here</string>
+  <string name="confirm_password_with_fingerprint">Use fingerprint</string>
+  <string name="confirm_password_with_password">Enter password</string>
   <string name="confirm_privacy_password">Enter Privacy protection password</string>
   <string name="confirm_privacy_password_fingerprint">Scan fingerprint or enter Privacy protection password</string>
   <string name="confirm_reset_aaid">OK</string>
@@ -1576,7 +1578,8 @@ To resume using your phone, you need to perform a factory reset. When you set up
   <string name="dangerous_option_hint_title">High-risk feature enabled</string>
   <string name="dangerous_option_switch_title">Notify about high-risk features</string>
   <string name="dark_color_mode">Dark mode</string>
-  <string name="dark_color_summary">Use darker color palette for system backgrounds and compatible apps</string>
+  <string name="dark_color_summary_lcd">"Use darker color palette for system backgrounds and compatible apps. Dark mode can help you to relieve eye strain when you're using your device in the dark."</string>
+  <string name="dark_color_summary_oled">Use darker color palette for system backgrounds and compatible apps. Dark mode reduces power consumption and helps to relieve eye strain.</string>
   <string name="dark_ui_mode">Night mode</string>
   <string name="dark_ui_mode_title">Set Night mode</string>
   <string name="dashboard_suggestion_condition_footer_content_description">Collapse</string>
@@ -2765,7 +2768,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keyboard_shortcuts_helper">Keyboard shortcuts helper</string>
   <string name="keyboard_shortcuts_helper_summary">Display available shortcuts</string>
   <string name="keyguard_advance_setting_title">Advanced settings</string>
-  <string name="keyguard_double_tap_to_sleep_title">Double tap screen to sleep</string>
+  <string name="keyguard_double_tap_to_sleep_title">Double tap to turn off screen</string>
   <string name="keyguard_notification_status_title">When notifications come and the screen is off</string>
   <string name="keyguard_security_setting_others">Others</string>
   <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
@@ -3843,8 +3846,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="onehour">30 minutes</string>
   <string name="onekey_migrate">Mi Mover</string>
   <string name="onscreen_keyboard_settings_summary">Onscreen keyboard settings</string>
-  <string name="open_dark_mode_dialog_summary">"Certain display settings aren't compatible with Dark mode. However, they will be restored once you turn Dark mode off. Turn on Dark mode?"</string>
-  <string name="open_dark_mode_dialog_title">Dark mode compatibility</string>
   <string name="open_demo_mode">Turn on</string>
   <string name="open_demo_mode_warning_message">When Demo mode is on, the clock in the status bar will stop, battery and signal icons will be displayed as full. You can turn Demo mode off or reboot the device to change this.</string>
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
@@ -5749,6 +5750,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="to_close">Turn off</string>
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
+  <string name="toggle_auto_speaker_preference_summary">Device will switch to speaker when you move it away from your ear during calls. This feature works only when TalkBack is on.</string>
+  <string name="toggle_auto_speaker_preference_title">Switch to speaker automatically</string>
   <string name="total">DND</string>
   <string name="total_info">Silence sounds and turn off vibration except for the alarms</string>
   <string name="total_info_no_vibrator">Silence sounds except for the alarms</string>

@@ -399,12 +399,14 @@ in Portrait mode"</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
+  <string name="live_appid">100072</string>
   <string name="live_edit_exit_confirm">Stop</string>
   <string name="live_edit_exit_message">Stop shooting now?</string>
   <string name="live_edit_share_title">Share</string>
   <string name="live_error_confirm">Adjust time</string>
   <string name="live_error_message">Some features might not work properly when system time is incorrect.</string>
   <string name="live_error_title">"System time isn't correct"</string>
+  <string name="live_license">9ac2ed462d28187ae35e2ce2dd8ca53783059abaa5214122ecd0bd1dad7531698b50df8091f74ae264af4a45f55d97ff24aeee16bc62fd9a67d70eac8dc5572066f1c03f2181027b24a7ad252a068788</string>
   <string name="live_music_change_bgm">Change background music</string>
   <string name="live_music_close_cancel_message">Cancel</string>
   <string name="live_music_close_message">Turn off music now?</string>
