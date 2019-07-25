@@ -21,7 +21,7 @@
   <string name="ac_pre_notification_contentText">Protect your personal info</string>
   <string name="ac_pre_notification_contentTitle">Try App Lock</string>
   <string name="ac_summaryOff">Turned off, no password is required to open apps</string>
-  <string name="ac_summaryOn">Turned on, password is required to open apps</string>
+  <string name="ac_summaryOn">Enter password to open protected apps</string>
   <string name="ac_unmask_all_apps">Unhide for all apps</string>
   <string name="access_control_app_is_launching">App is starting</string>
   <string name="access_control_failed_need_to_unlock_nofingerprint">Enter password before unlocking with a new fingerprint</string>
@@ -90,6 +90,7 @@
   <string name="alarm_setting_title">红包闹钟设置</string>
   <string name="alert_back_diving_mode_summary">Turn off Immersive mode now?</string>
   <string name="alert_back_diving_mode_title">Immersive mode</string>
+  <string name="alert_back_milink_hangup_tips_content">"Casting won't be interrupted while you're ending a call. You can press the Power button to wake the screen."</string>
   <string name="all_address_choose_hint">All numbers in this province</string>
   <string name="already_close_gamebooster">Game speed booster is off</string>
   <string name="anti_disturb_msg_detail">Turn off all notifications except for incoming calls</string>
@@ -118,7 +119,7 @@
   <string name="antivirus_privacy_dialog_cloudscan_description">Upload and scan app names and details using online virus definitions.</string>
   <string name="antivirus_privacy_dialog_ok">OK</string>
   <string name="antivirus_privacy_dialog_summary">"This feature encrypts and uploads your device's ID to Avast, AVL and Tencent's servers (%s)."</string>
-  <string name="antivirus_privacy_dialog_summary_link">view Privacy Policy</string>
+  <string name="antivirus_privacy_dialog_summary_link">Privacy Policy</string>
   <string name="antivirus_privacy_dialog_title">Privacy Policy</string>
   <string name="antivirus_sec_network_unavailable">"Security app can't update because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
   <string name="antivirus_toast_already_update">Up to date</string>
@@ -1029,6 +1030,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gamebox_immersion_tips_content">Immersive mode restricts all SIM card functionality except for the mobile data connection. You will neither be interrupted by calls nor receive notifications about missed calls. All SIM card features will be restored when Immersive mode is turned off. Turn on Immersive mode?</string>
   <string name="gamebox_immersion_tips_title">Attention</string>
   <string name="gamebox_immerson_open">"Turning on Immersive mode, don't switch networks…"</string>
+  <string name="gamebox_milink">Cast</string>
   <string name="gamebox_positive_button_text">OK (%1$ds)</string>
   <string name="gamebox_qq_not_find">Install QQ and try again.</string>
   <string name="gamebox_recent_task_expand_fail">"Apps that work with shortcuts aren't installed"</string>
@@ -1569,8 +1571,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notification_battery_scan_consume_abnormal_title_set">%s is draining battery</string>
   <string name="notification_exit_power_save_mode">Turned off Battery saver</string>
   <string name="notification_exit_power_save_mode_subtitle">Battery %s charged.</string>
-  <string name="notification_mask_summary">Hide notification content on the Lock screen and in the Notification shade</string>
-  <string name="notification_mask_title">Hide content</string>
+  <string name="notification_mask_summary">"Don't display notification content for protected apps"</string>
+  <string name="notification_mask_title">Hide notification content</string>
   <string name="notification_masked_item">Hide notifications</string>
   <string name="notification_masked_subtitle">Hide notifications from apps protected with App lock</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
@@ -1677,6 +1679,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="other">Other settings</string>
   <string name="other_exception_summary">"You don't have an internet connection"</string>
   <string name="other_exception_title">Checking for other issues</string>
+  <string name="other_milink_connect">"Can't cast. Another feature is being cast now."</string>
   <string name="package_change_notification_summary">Tap to learn more.</string>
   <string name="package_change_notification_title">Adjust data limit automatically</string>
   <string name="package_setted_error_notification_summary">Tap to view data usage details.</string>
@@ -1974,6 +1977,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="preferred_app_entries_messaging">Messaging</string>
   <string name="preferred_app_entries_music">Music</string>
   <string name="privacy_apps">Hidden apps</string>
+  <string name="privacy_apps_begin_use">Start</string>
+  <string name="privacy_apps_button_know">Got it</string>
   <string name="privacy_apps_category_title">Hidden apps</string>
   <string name="privacy_apps_checkbox_remind_choice">"Don't show again"</string>
   <string name="privacy_apps_close">Close</string>
@@ -1982,7 +1987,11 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="privacy_apps_manage">Manage hidden apps</string>
   <string name="privacy_apps_manage_dialog_title">About hidden apps</string>
   <string name="privacy_apps_manager_dialog_message">"This app's icon won't be displayed on the Home screen after you hide this app. Hide this app now?"</string>
+  <string name="privacy_apps_next_stup">Next</string>
+  <string name="privacy_apps_shield_message_summary">"Don't show notifications for protected apps"</string>
+  <string name="privacy_apps_shield_message_title">"Don't show notifications"</string>
   <string name="privacy_apps_tutorial">Tutorial</string>
+  <string name="privacy_apps_tutorial_dlg_title">How to find hidden apps</string>
   <string name="privacy_apps_tutorial_prompt_pageone">This feature allows you to hide app icons so they no longer appear on your Home screen.</string>
   <string name="privacy_apps_tutorial_prompt_pagethree">After you enter your password, the folder with hidden apps will appear.</string>
   <string name="privacy_apps_tutorial_prompt_pagetwo">"Spread two fingers on the screen. You'll see a message asking you to enter your App lock password."</string>
@@ -2333,6 +2342,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="status_bar_network_flow_purchase">"   Purchase &gt;"</string>
   <string name="status_bar_network_flow_setup_data_plan">"   Setup data plan &gt;"</string>
   <string name="still_retain_btn">Keep</string>
+  <string name="stop_milink_connect">Stopped casting</string>
   <string name="suggest_app_tolock">Suggestions</string>
   <string name="suggest_app_tolock_masked">Hidden</string>
   <string name="suggest_app_tolock_unmasked">Visible notifications</string>
@@ -2418,13 +2428,20 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="system_app">System apps</string>
   <string name="system_application">System apps</string>
   <string name="system_permission_declare_agree">Agree</string>
+  <string name="system_permission_declare_disagree">Disagree</string>
   <string name="system_permission_declare_double_link">&lt;Data&gt;Read and agree to our &amp;lt;a href=\"%1$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt; and &amp;lt;a href=\"%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using this feature.&lt;/Data&gt;</string>
   <string name="system_permission_declare_main_purpose" formatted="false">Welcome to %1s! This app allows you to use the following feature: %2s.</string>
   <string name="system_permission_declare_no_say_no">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work normally."</string>
-  <string name="system_permission_declare_privacy_declare">"We respect and protect your peivacy.
+  <string name="system_permission_declare_privacy_declare">"We respect and protect your privacy.
 Note that %1s needs to collect your data and requires the following permissions to work normally:"</string>
-  <string name="system_permission_declare_revoke_path">You can uninstall this app, sign out of your account, or manage your permissions and authorization in Security &gt; Manage apps &gt; Permissions &gt; Other permissions.</string>
+  <string name="system_permission_declare_privacy_no_permission">"Note that %1s needs to collect your data to work normally.
+We respect and protect your privacy."</string>
+  <string name="system_permission_declare_privacy_policy">&lt;Data&gt;Read and agree to our &amp;lt;a href=\"%1$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using this feature.&lt;/Data&gt;</string>
+  <string name="system_permission_declare_revoke_system">You can exit this app.</string>
+  <string name="system_permission_declare_revoke_uninstallable">You can uninstall this app or manage your permissions and authorization in Security &gt; Manage apps &gt; Permissions &gt; Other permissions.</string>
   <string name="system_permission_declare_use_network">Connect to the network</string>
+  <string name="system_permission_declare_use_network_no_permission">Connect to the network</string>
+  <string name="system_permission_declare_user_agreement">&lt;Data&gt;Read and agree to our &amp;lt;a href=\"%1$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt; before using this feature.&lt;/Data&gt;</string>
   <string name="system_permission_perm_answer_call">Make calls</string>
   <string name="system_permission_perm_read_mms">Read MMS</string>
   <string name="system_permission_perm_read_numbers">Read phone numbers</string>

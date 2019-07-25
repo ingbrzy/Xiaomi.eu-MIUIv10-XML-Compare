@@ -1226,6 +1226,7 @@
         <item>com.miui.securitycenter</item>
         <item>com.tencent.mobileqq</item>
         <item>com.tencent.mm</item>
+        <item>com.miui.smarttravel</item>
     </string-array>
     <string-array name="config_canShowBadgePackages">
         <item>com.google.android.apps.messaging</item>
