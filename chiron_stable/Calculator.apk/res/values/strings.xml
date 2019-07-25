@@ -4,10 +4,15 @@
   <string name="angle">deg</string>
   <string name="app_name">Calculator</string>
   <string name="app_name_danfa">Mi Calculator</string>
+  <string name="app_notification_info">Calculator is working in the background</string>
   <string name="arccos">arccos</string>
   <string name="arcsin">arcsin</string>
   <string name="arctan">arctan</string>
   <string name="base_rate">Base interest rate</string>
+  <string name="btn_float_window_alpha">Adjust opacity</string>
+  <string name="btn_float_window_back_to_app">Maximize Calculator</string>
+  <string name="btn_float_window_close">Close minimized Calculator</string>
+  <string name="btn_float_window_resize">Resize minimized calculator</string>
   <string name="cal_convert_to_word_figure">Convert to financial characters</string>
   <string name="cal_copy">Copy</string>
   <string name="cal_edit_mode">Edit mode</string>
@@ -102,6 +107,7 @@
   <string name="factorialDesc">factorial</string>
   <string name="far_relationship_result">关系有点远，年长就叫老祖宗，同龄人就叫美女帅哥吧~</string>
   <string name="father">爸爸</string>
+  <string name="float_window_guide_text">Tap here to minimize calculator</string>
   <string name="from_num">100</string>
   <string name="from_unit">km/h</string>
   <string name="from_unit_en">Kilometer per hour</string>
@@ -128,6 +134,7 @@
   <string name="golbal_search_calculator_setting">Calculator;Calculator settings;Settings</string>
   <string name="golbal_search_path_calculator_setting">System apps/Calculator/Settings</string>
   <string name="help_content_desc">Help</string>
+  <string name="hint_floatwindow_alpha_guide_text">Tap to adjust opacity</string>
   <string name="home_loan">Mortgage interest</string>
   <string name="home_title_calculator">Calculator</string>
   <string name="house_rent">Rent</string>
@@ -142,7 +149,7 @@
   <string name="item_title_currency">Currency</string>
   <string name="item_title_dress_size">Clothing size</string>
   <string name="item_title_length_conversion">Length</string>
-  <string name="item_title_mortgage">Mortgage</string>
+  <string name="item_title_mortgage">Home loan</string>
   <string name="item_title_relationship">Terms of kinship</string>
   <string name="item_title_scientific_calculator">Scientific</string>
   <string name="item_title_tax">Taxes</string>
@@ -177,9 +184,7 @@
   <string name="loan_interest_rate">Interest</string>
   <string name="loan_pay_years">Loan period</string>
   <string name="loan_payback_way">Repayment</string>
-  <string name="loan_repayment_detail">Detailed repayment</string>
   <string name="loan_repayment_detail_loading">Loading detailed repayment…</string>
-  <string name="loan_repayment_detail_unit">Detailed repayment (CNY)</string>
   <string name="loan_unit">(×10K)</string>
   <string name="medical_treatment">Medical treatment</string>
   <string name="menuDesc">menu</string>
@@ -210,7 +215,7 @@
   <string name="mortgage_interest_rate">Commercial interest</string>
   <string name="mortgage_item_repayment">Repayment method</string>
   <string name="mortgage_item_start_time">Start date</string>
-  <string name="mortgage_item_years">Mortgage period</string>
+  <string name="mortgage_item_years">Loan tenure</string>
   <string name="mortgage_loans_amount">Mortgage amount</string>
   <string name="mortgage_provident_found_interest_rate">"Fund's interest rate"</string>
   <string name="mortgage_repayment_amount">Repayment amount</string>
@@ -656,6 +661,7 @@
   <string name="unit_yuan">CNY</string>
   <string name="updating">Updating calculator…</string>
   <string name="user_agreement">User Agreement</string>
+  <string name="view_float_window_move">Move minimized Calculator</string>
   <string name="voiceDesc">Voice controls</string>
   <string name="wf_word_figure">Financial characters</string>
   <string name="wife">妻子</string>

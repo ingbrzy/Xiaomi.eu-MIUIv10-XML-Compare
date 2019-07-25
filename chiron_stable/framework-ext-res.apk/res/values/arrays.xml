@@ -45,6 +45,7 @@
         <item>com.miui.miwallpaper</item>
         <item>com.miui.contentextension</item>
         <item>com.xiaomi.mimobile.cloudsim</item>
+        <item>com.miui.aod</item>
     </string-array>
     <string-array name="process_disable_trim_list">
         <item>com.miui.home</item>
@@ -99,6 +100,7 @@
         <item>com.bbm</item>
         <item>jp.naver.line.android</item>
         <item>com.bsb.hike</item>
+        <item>com.hike.chat.stickers</item>
         <item>org.telegram.messenger</item>
         <item>com.viber.voip</item>
         <item>com.vkontakte.android</item>
@@ -162,6 +164,7 @@
         <item>com.bbm</item>
         <item>jp.naver.line.android</item>
         <item>com.bsb.hike</item>
+        <item>com.hike.chat.stickers</item>
         <item>org.telegram.messenger</item>
         <item>com.viber.voip</item>
         <item>com.vkontakte.android</item>
@@ -1440,5 +1443,17 @@
     <array name="config_BrightnessCurvesLux" />
     <array name="config_maxBrightnessCurvesNits" />
     <array name="config_minBrightnessCurvesNits" />
+    <integer-array name="config_originalLux">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessMinNitForOriginalLux">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
     <array name="screen_resolution_supported" />
 </resources>

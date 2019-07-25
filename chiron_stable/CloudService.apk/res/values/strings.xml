@@ -28,19 +28,19 @@
   <string name="enable_find_device_error">"Can't turn on Find device. %1$s"</string>
   <string name="enable_find_device_success">Find device is on.</string>
   <string name="enable_micloud">Sign in to use Mi Cloud</string>
+  <string name="enable_sync_setting_title">Configuring cloud services…</string>
   <string name="error_data_in_transfer">Sync will finish in %s hours.</string>
   <string name="error_data_in_transfer_title">Mi Cloud unavailable</string>
   <string name="error_network">"Can't connect to network"</string>
   <string name="error_server">Server error</string>
   <string name="error_unknown">"Can't sign in"</string>
   <string name="find_device">Find device</string>
-  <string name="find_device_dspt_provision">If you lose your device, you can go to %s to locate, lock, or reset it. You can turn this feature on or off anytime in Settings.</string>
+  <string name="find_device_dspt_provision">If you lose your device, you can go to &lt;font color=#ff0000&gt;%s&lt;/font&gt; to locate, lock, or reset it. You can turn this feature on or off anytime in Settings.</string>
   <string name="find_device_dspt_provision_2">i.mi.com</string>
   <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
   <string name="find_device_error_network">Check your data connection and try again.</string>
   <string name="find_device_error_server">Server error</string>
-  <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our Privacy Policy. If you need to revoke authorization, turn this feature off.</string>
-  <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
+  <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our &lt;u&gt;&lt;a href="app://com.miui.cloudservice.gdpr.license"&gt;Privacy Policy&lt;/a&gt;&lt;/u&gt;. If you need to revoke authorization, turn this feature off.</string>
   <string name="find_device_operation_failure_rpc">"Couldn't perform the operation due to RPC error."</string>
   <string name="find_device_send_sms_alert">If you switch SIM cards, another SMS may be sent automatically to reactivate this feature.</string>
   <string name="find_device_service_title">Find device</string>
@@ -195,8 +195,8 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_main_network_error">"Can't connect to the network"</string>
   <string name="micloud_main_simple_last_sync_time">Last sync time： %s</string>
   <string name="micloud_main_simple_off">Sync Off</string>
-  <string name="micloud_main_sync_mode_summary">Sync most items when charger is connected and screen is off</string>
-  <string name="micloud_main_sync_mode_title">Power-saving sync</string>
+  <string name="micloud_main_sync_mode_summary">Sync all items except photos and videos in real time. Power consumption will increase when this feature is on.</string>
+  <string name="micloud_main_sync_mode_title">Sync in real time</string>
   <string name="micloud_main_wait_charge">Fully charge your device to resume sync.</string>
   <string name="micloud_main_wait_charge_sleep">Turn off screen and fully charge your device to resume sync.</string>
   <string name="micloud_main_wait_wlan">Waiting for WLAN</string>
@@ -341,6 +341,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="pref_title_sync_contacts_title">Sync contacts</string>
   <string name="pref_title_sync_display_photo_on_wifi_only">Only use WLAN to sync photos</string>
   <string name="privacy_policy">Privacy Policy</string>
+  <string name="provision_sync_items_loading">Preparing to sync items</string>
   <string name="reading_status">Loading status…</string>
   <string name="reading_status_failure">"Couldn't load status."</string>
   <string name="search_cloudbackup_pref">Cloud Backup</string>
@@ -406,6 +407,8 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="user_agreement_p5">"
 "</string>
   <string name="user_agreement_title">"Mi Cloud's Terms of Service"</string>
+  <string name="user_detail_agreement">User Agreement</string>
+  <string name="user_detail_privacy_policy">Privacy Policy</string>
   <string name="user_storage_info_available_text_prefix">%s available</string>
   <string name="warning_bar_action_add_short_cut">Add</string>
   <string name="warning_bar_action_close">Close</string>

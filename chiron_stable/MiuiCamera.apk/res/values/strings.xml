@@ -75,7 +75,7 @@ and optimizes your photos based on this info"</string>
   <string name="ai_scene_top_moon_off">Low light mode</string>
   <string name="ai_scene_top_tip">Moon mode</string>
   <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
-  <string name="autozoom_click_hint">Tap an object to start tracking. Stay at least 3 meters away for best effect.</string>
+  <string name="autozoom_click_hint">"Tap an object to keep it in focus while it's moving. Stay at least 3 meters away for best effect."</string>
   <string name="autozoom_disabled_hint">Stopped tracking moving object</string>
   <string name="autozoom_hint">Track moving object</string>
   <string name="autozoom_landscape_hint">Shoot in landscape mode for best effect</string>
@@ -84,15 +84,16 @@ and optimizes your photos based on this info"</string>
   <string name="beauty_body_body">Slender</string>
   <string name="beauty_body_head">Head</string>
   <string name="beauty_body_legged">Legs</string>
-  <string name="beauty_body_reset_tip">Reset figure effects successfully</string>
+  <string name="beauty_body_reset_tip">Removed figure effects successfully</string>
   <string name="beauty_body_shoulder">Shoulders</string>
   <string name="beauty_body_slim_count_tip">Figure effects work only for one person shots</string>
+  <string name="beauty_body_whole">Body</string>
   <string name="beauty_fragment_tab_name_3d_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_3d_makeup">Makeup</string>
   <string name="beauty_fragment_tab_name_3d_remodeling">Remodeling</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
-  <string name="beauty_reset_toast">Removed Beautify effects successfully</string>
+  <string name="beauty_reset_toast">Reset figure effects successfully</string>
   <string name="beauty_tab_name_live_beauty">Beautify</string>
   <string name="beauty_tab_name_live_filter">Filters</string>
   <string name="bokeh_use_hint">Depth effect</string>
@@ -167,6 +168,7 @@ and optimizes your photos based on this info"</string>
   <string name="custom_watermark_words">Custom watermark</string>
   <string name="custom_watermark_words_input_hint">Enter text</string>
   <string name="custom_watermark_words_save_success">Saved successfully</string>
+  <string name="dialog_google_lens_option_0">Google Lens (Recommended)</string>
   <string name="dialog_ok">OK</string>
   <string name="do_not_remind_me">"Don't show again"</string>
   <string name="dual_camera_lens_covered_toast">The lens is covered.</string>
@@ -230,7 +232,9 @@ if you rotate your phone"</string>
   <string name="hibernate_hint">Tap the screen to wake Camera</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
-  <string name="hint_ae_af_lock">Auto focus / auto exposure has been locked</string>
+  <string name="hint_ae_af_lock">Auto focus and auto exposure have been locked.</string>
+  <string name="hint_ae_af_lock_extra">Auto focus and auto exposure have been locked. Switch to Google Lens in the Camera settings</string>
+  <string name="hint_ae_lock">Automatic exposure is locked</string>
   <string name="hint_device_water_mark">Photo watermark will be added automatically.</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
   <string name="hint_groupshot">"Camera will take multiple photos
@@ -278,12 +282,14 @@ in Portrait mode"</string>
   <string name="live_speed_extreme_fast">Super fast</string>
   <string name="live_speed_extreme_slow">Super slow</string>
   <string name="live_speed_fast">Fast</string>
-  <string name="live_speed_fragment_tab_name">Speed</string>
+  <string name="live_speed_fragment_tab_name">Record speed</string>
   <string name="live_speed_normal">Regular</string>
   <string name="live_speed_slow">Slow</string>
-  <string name="live_sticker_fragment_tab_name">Stickers</string>
+  <string name="live_sticker_fragment_tab_name">TikTok Magic Sticker</string>
   <string name="live_sticker_network_error_hint">Network error</string>
   <string name="live_sticker_updating">Updating…</string>
+  <string name="macro_mode">Macro</string>
+  <string name="macro_mode_tip">"Distance between the lens and the object shouldn't exceed 10cm"</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="module_name_beauty">Beauty</string>
   <string name="module_name_capture">Photo</string>
@@ -336,7 +342,6 @@ the background on your photos"</string>
 and brings out the people in the front."</string>
   <string name="portrait_mode_use_hint_for_bokeh">"Try Portrait mode.
 Keep the subject sharp while blurring the background."</string>
-  <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
   <string name="pref_advance_settings">Additional settings</string>
   <string name="pref_ai_detect">AI detection</string>
   <string name="pref_audio_focus_default">normal</string>
@@ -552,9 +557,15 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_jpegquality_value_normal">normal</string>
   <string name="pref_camera_long_press_shutter_feature_default">burst</string>
   <string name="pref_camera_long_press_shutter_feature_title">Press &amp; hold Shutter button</string>
+  <string name="pref_camera_long_press_viewfinder_default">@string/pref_camera_long_press_viewfinder_google_lens</string>
+  <string name="pref_camera_long_press_viewfinder_google_lens">Google Lens</string>
+  <string name="pref_camera_long_press_viewfinder_lock_ae_af">AE/AF Lock</string>
+  <string name="pref_camera_long_press_viewfinder_title">Viewfinder settings</string>
   <string name="pref_camera_long_pressing_burst_shooting_entry_burst">Burst shoot</string>
   <string name="pref_camera_long_pressing_burst_shooting_entry_focus">Focus</string>
   <string name="pref_camera_long_pressing_shutter_title">Press &amp; hold Shutter button to lock AE/AF/AWB</string>
+  <string name="pref_camera_long_pressing_viewfinder_entry_google_lens">Google Lens</string>
+  <string name="pref_camera_long_pressing_viewfinder_entry_lock_ae_af">AE/AF lock</string>
   <string name="pref_camera_magic_mirror_title">Magic mirror</string>
   <string name="pref_camera_manual_mode_title">Manual</string>
   <string name="pref_camera_mfnr_sat_enable_title">Turn on MFNR</string>
@@ -582,9 +593,9 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_picture_format_value_jpeg">jpeg</string>
   <string name="pref_camera_picture_format_value_raw">raw</string>
   <string name="pref_camera_picturesize_entry_16_9">16:9</string>
-  <string name="pref_camera_picturesize_entry_18_9">18:9</string>
+  <string name="pref_camera_picturesize_entry_18_9">@string/pref_camera_picturesize_entry_fullscreen</string>
   <string name="pref_camera_picturesize_entry_4_3">4:3</string>
-  <string name="pref_camera_picturesize_entry_fullscreen">Full screen 16:9</string>
+  <string name="pref_camera_picturesize_entry_fullscreen">Full screen</string>
   <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
   <string name="pref_camera_picturesize_title_simple_mode">Camera frame</string>
   <string name="pref_camera_portrait_mode_entry_off">Portrait mode is off</string>
@@ -661,6 +672,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_ultra_wide_ldc_description">Correct distorted objects automatically</string>
   <string name="pref_camera_ultra_wide_ldc_title">Correct distortion in ultra wide shots</string>
   <string name="pref_camera_ultra_wide_mode_title">Ultra wide angle mode</string>
+  <string name="pref_camera_video_bokeh_off">Video bokeh is off</string>
+  <string name="pref_camera_video_bokeh_on">Video bokeh</string>
   <string name="pref_camera_video_duration_entry_10">10 minutes</string>
   <string name="pref_camera_video_duration_entry_120">No limit</string>
   <string name="pref_camera_video_duration_entry_30">30 minutes</string>
@@ -730,7 +743,10 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_front_mirror_entryvalue_on">on</string>
   <string name="pref_front_mirror_label_auto">Auto</string>
   <string name="pref_front_mirror_title">Mirror front camera</string>
-  <string name="pref_google_lens">Google lens</string>
+  <string name="pref_google_lens">Google Lens</string>
+  <string name="pref_google_lens_default">true</string>
+  <string name="pref_google_lens_summary">Point your camera at contact info, URLs, and QR codes to view available options</string>
+  <string name="pref_google_lens_title">Lens suggestions</string>
   <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_menu_ultra_pixel_photography_32mp">32MP</string>
@@ -874,7 +890,7 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="user_agree">Agree</string>
   <string name="user_agreement2">Terms of Service</string>
   <string name="user_agreement4">Privacy Policy</string>
-  <string name="user_notice_identify_summary_format">"By using this service, you agree to Xiaomi's %1$s and %2$s."</string>
+  <string name="user_notice_identify_summary_format">"By using this service, you agree to Xiaomi's %1$s and %2$s. Do you agree to connect to the internet?"</string>
   <string name="user_notice_title">Terms and Conditions</string>
   <string name="video_camera_label">Camcorder</string>
   <string name="video_effect_entry_blackwhite">B&amp;W</string>
@@ -888,5 +904,12 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="video_ultra_clear_tip">4K UHD</string>
   <string name="view_privacy_policy">View Privacy Policy</string>
   <string name="wait">Just a sec…</string>
+  <string name="wideselfie_press_shoot_key_to_start">Tap the shutter button</string>
+  <string name="wideselfie_result_image_lossless">"Couldn't save panorama"</string>
+  <string name="wideselfie_rotate_slowly">Rotate the phone sideways slowly</string>
+  <string name="wideselfie_rotate_to_back">Tilt the phone backward</string>
+  <string name="wideselfie_rotate_to_front">Tilt the phone forward</string>
+  <string name="wideselfie_rotate_to_left_slowly">Rotate the phone to the left slowly</string>
+  <string name="wideselfie_rotate_to_right_slowly">Rotate the phone to the right slowly</string>
   <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
 </resources>
