@@ -125,6 +125,10 @@
   <string name="fingerprint_name">Auto Fingerprint Test</string>
   <string name="fingerprint_remain_count">Remain count:</string>
   <string name="fingerprint_tips">Please put your finger on the sensor</string>
+  <string name="flag_info_test">History test results</string>
+  <string name="flag_info_tips">"0:fail
+1:pass
+N:no test"</string>
   <string name="flag_type">persist</string>
   <string name="flag_write_fail">flag write fail</string>
   <string name="flash_cali_name">Dual Flash Calibration</string>
