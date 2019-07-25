@@ -2215,6 +2215,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="google_title">Google</string>
   <string name="got_it">Got it</string>
   <string name="gsm_to_wifi_connect_type_title">GSM to WLAN</string>
+  <string name="gxzw_add_fingerprint_area">Fingerprint scanner</string>
   <string name="gxzw_add_fingerprint_continue">Continue</string>
   <string name="gxzw_add_fingerprint_edge_message">Move your finger to record the edges of your fingerprint</string>
   <string name="gxzw_add_fingerprint_edge_title">Adjust your grip</string>
@@ -2518,6 +2519,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keywords_wifi">wifi;wi-fi;WLAN;WLAN;wlan;WLAN</string>
   <string name="keywords_wifi_calling">wifi, wi-fi, call, calling</string>
   <string name="keywords_write_settings">write modify system settings</string>
+  <string name="kid_space_settings">Kid space</string>
   <string name="kilobyteShort">KB</string>
   <string name="kilobyte_per_second">KB/s</string>
   <string name="label_mi_stats">Mi analytics</string>
