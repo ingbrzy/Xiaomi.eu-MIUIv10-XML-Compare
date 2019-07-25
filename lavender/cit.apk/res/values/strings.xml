@@ -861,6 +861,7 @@ N: no test"</string>
   <string name="uit87">[ UIT87]:</string>
   <string name="uit88">[ UIT88]:</string>
   <string name="uit89">[ UIT89]:</string>
+  <string name="ultrasonic_warning">Please simulate the action of picking up the mobile phone to answer the call during the test</string>
   <string name="unit">" MHz"</string>
   <string name="unknown">unknown</string>
   <string name="unlock">Unlock</string>
