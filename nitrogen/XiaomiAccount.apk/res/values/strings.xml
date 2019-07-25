@@ -507,7 +507,6 @@ To activate your account, follow the
   <string name="restart_phone_bind_message">It may take some time to receive SMS. Start over anyway?</string>
   <string name="restart_phone_bind_title">Change recovery phone</string>
   <string name="same_new_and_old_pwd">"Can't be the same as current password"</string>
-  <string name="scan_barcode">Scan QR code to sign in</string>
   <string name="scan_barcode_title">To sign in to your Mi Account, scan the QR code</string>
   <string name="search_account_security">Account security</string>
   <string name="search_account_security_desc">Account Settings</string>
