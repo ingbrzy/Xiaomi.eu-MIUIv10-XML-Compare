@@ -17,6 +17,8 @@
   <string name="channel_update">New version available</string>
   <string name="check_new_version">Check</string>
   <string name="chengelog">%1$s</string>
+  <string name="default_filedownloader_notification_content">FileDownloader is running.</string>
+  <string name="default_filedownloader_notification_title">FileDownloader</string>
   <string name="dialog_3g_desc">Be aware that using Mobile Data to download ROMs might take significant quota of your packet.</string>
   <string name="dialog_3g_title">Warning!</string>
   <string name="dialog_btn_3g">Continue Anyway</string>
@@ -29,7 +31,7 @@
   <string name="download_fail_desc">MD5 Sum does not match…</string>
   <string name="downloading">Downloading:</string>
   <string name="downloading_desc">Downloading in progress, check status in notification area.</string>
-  <string name="install_desc">Device will reboot to recovery and install chosen file:&lt;b&gt; %1$s&lt;/b&gt;"
+  <string name="install_desc">Device will reboot to recovery and install chosen file: &lt;b&gt;%1$s&lt;/b&gt;"
 Data will not be wiped."</string>
   <string name="install_title">Are you sure to continue?</string>
   <string name="menu_title_current_version_log">What is new?</string>
