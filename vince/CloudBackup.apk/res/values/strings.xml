@@ -165,7 +165,6 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="provision_restore_item_backup_name_with_size">%1$s %2$s</string>
   <string name="query_restore_description">Restore Home screen apps and settings using this backup. This will overwrite app data for duplicate apps already installed on this device. Apps not included in the backup will be moved to the last Home screen.</string>
   <string name="query_restore_summary">Found a Mi Cloud backup for this device. Restore Home screen apps and settings or use it as a new device and erase previous Mi Cloud backups?</string>
-  <string name="recover_from_micloud">Restore from Mi Cloud backup</string>
   <string name="recover_home_settings">Restore Home screen settings</string>
   <string name="recover_miui_settings">Restore system settings</string>
   <string name="recover_settings_description">Keep your device powered on</string>
@@ -207,6 +206,7 @@ Check your network settings and try again."</string>
   <string name="restore_task_in_process">Restoring…</string>
   <string name="restore_task_unfinished">"Couldn't restore"</string>
   <string name="restore_unfinished">Restoring, try again later</string>
+  <string name="restoring_data">Restoring data…</string>
   <string name="restoring_file_title_no_progress">Restoring files…</string>
   <string name="restoring_settings">Restoring Settings…</string>
   <string name="retry">Retry</string>
