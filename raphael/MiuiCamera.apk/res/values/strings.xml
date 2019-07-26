@@ -800,7 +800,6 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_snap_entry_take_picture">Quick snap mode (photo)</string>
   <string name="pref_camera_snap_label_take_movie">Video</string>
   <string name="pref_camera_snap_label_take_picture">Photo</string>
-  <string name="pref_camera_snap_toast_when_volume_can_wake_screen">"Can't use Quick snap mode while \"Wake with Volume buttons\" is on."</string>
   <string name="pref_camera_snap_value_off">Off</string>
   <string name="pref_camera_snap_value_take_movie">Movie</string>
   <string name="pref_camera_snap_value_take_picture">Picture</string>
