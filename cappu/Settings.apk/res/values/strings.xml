@@ -2144,6 +2144,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="guarded_mode_dialog_backup_message">"Backups aren't allowed in Guest mode."</string>
   <string name="guarded_mode_dialog_title">"You're in Guest mode"</string>
   <string name="guarded_mode_dialog_transfer_message">"Can't use Mi Mover in Guest mode."</string>
+  <string name="gxzw_add_fingerprint_area">Fingerprint scanner</string>
   <string name="gxzw_add_fingerprint_continue">Continue</string>
   <string name="gxzw_add_fingerprint_edge_message">Move your finger to record the edges of your fingerprint</string>
   <string name="gxzw_add_fingerprint_edge_title">Adjust your grip</string>
