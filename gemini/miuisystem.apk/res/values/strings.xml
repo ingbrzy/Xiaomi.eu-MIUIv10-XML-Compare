@@ -34,9 +34,9 @@
   <string name="citylight">City lights</string>
   <string name="clank">Clank</string>
   <string name="clear_and_bright">清明</string>
-  <string name="cloud_state_disabled">Sync with Mi Cloud is off</string>
-  <string name="cloud_state_finished">Synced with Mi Cloud</string>
-  <string name="cloud_state_syncing">Synced with Mi Cloud</string>
+  <string name="cloud_state_disabled">Sync with Cloud is off</string>
+  <string name="cloud_state_finished">Synced with Cloud</string>
+  <string name="cloud_state_syncing">Synced with Cloud</string>
   <string name="cold_dews">寒露</string>
   <string name="country">Country</string>
   <string name="countryside">Countryside</string>
