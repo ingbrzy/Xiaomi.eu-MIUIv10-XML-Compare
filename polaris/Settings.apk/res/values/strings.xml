@@ -905,8 +905,8 @@ Apps:
   <string name="bluetooth_disable_absolute_volume_summary">Disables the Bluetooth absolute volume feature in case of volume issues with remote devices such as unacceptably loud volume or lack of control.</string>
   <string name="bluetooth_disable_inband_ringing">Disable in-band ringing</string>
   <string name="bluetooth_disable_inband_ringing_summary">Don’t play custom phone ringtones on Bluetooth headsets</string>
-  <string name="bluetooth_disable_mi_fast_connect">Disable Mi Fast Connect</string>
-  <string name="bluetooth_disable_mi_fast_connect_summary">Disable Mi Fast Connect Feature</string>
+  <string name="bluetooth_disable_mi_fast_connect">Disable Mi Link</string>
+  <string name="bluetooth_disable_mi_fast_connect_summary">Disable Mi Link functionality</string>
   <string name="bluetooth_disable_profile_message">This will disable:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;From:&lt;br&gt;&lt;b&gt;%2$s&lt;/b&gt;</string>
   <string name="bluetooth_disable_profile_title">Disable profile?</string>
   <string name="bluetooth_disabled">Off</string>
@@ -3440,6 +3440,7 @@ There are other users present on this device.
   <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
+  <string name="mi_transfer">Mi Mover</string>
   <string name="mi_upi_settings">Mi Pay Account</string>
   <string name="mipush_fake_channel_group_name">Mi Push</string>
   <string name="misc_files">Misc files</string>
@@ -5490,6 +5491,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
+  <string name="status_bar_settings_show_weather">Show weather in notification shade</string>
   <string name="status_bar_settings_status_bar">Status bar</string>
   <string name="status_bar_title">Status bar</string>
   <string name="status_bt_address">Bluetooth address</string>
