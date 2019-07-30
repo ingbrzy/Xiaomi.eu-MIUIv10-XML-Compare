@@ -411,9 +411,13 @@
   <string name="news_change">Change</string>
   <string name="no_network">"Couldn't connect to network, try again later"</string>
   <string name="no_network_btn">Try again</string>
+  <string name="notification_garbage_cleanup_summary">Clear trash (%s) to speed up your device</string>
+  <string name="notification_garbage_cleanup_title">Clear trash files</string>
+  <string name="notification_low_memory_cache_summary">Less than 1.5GB of storage space available</string>
+  <string name="notification_low_memory_cache_title">Clear cache</string>
+  <string name="notification_low_memory_deepclean_summary">Deep clean can free up storage on your device</string>
+  <string name="notification_low_memory_deepclean_title">Storage space running low</string>
   <string name="notification_summary_after_auto_cleanup">Cleaned %s.</string>
-  <string name="notification_summary_of_garbage_cleanup">Tap to free up space.</string>
-  <string name="notification_title_of_garbage_cleanup">%s of trash files</string>
   <string name="notify_when">Get a notification when trash size reaches 100MB</string>
   <string name="ok">OK</string>
   <string name="one_tap_clean_GB">%sGB</string>
@@ -444,7 +448,7 @@
   <string name="pref_content_cleanup_white_list_none">None</string>
   <string name="pref_summary_auto_clean_and_alert">Schedule cleaner to run automatically</string>
   <string name="pref_summary_auto_update_cleanup_db">Last updated %s</string>
-  <string name="pref_summary_cleanup_white_list">Prevent selected apps from being cleaned up</string>
+  <string name="pref_summary_cleanup_white_list">Prevent selected files from being cleaned up</string>
   <string name="pref_summary_expand_cache_group">Show cache details automatically</string>
   <string name="pref_summary_garbage_auto_clean_content">Choose which items to clean automatically</string>
   <string name="pref_summary_garbage_cleanup_check_size">Clean automatically when trash reaches a certain size</string>
