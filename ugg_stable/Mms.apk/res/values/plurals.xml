@@ -14,13 +14,17 @@
         <item quantity="one">"%d message hasn't been synced"</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Delete %1$d selected conversations?</item>
-        <item quantity="one">Delete %1$d selected conversation?</item>
+        <item quantity="other">Delete %1$s selected conversations?</item>
+        <item quantity="one">Delete this conversation?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d selected</item>
         <item quantity="zero">Select items</item>
         <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="delivery_toast_body_more_plurals">
+        <item quantity="other">Message received by %1$s and %2$d other people</item>
+        <item quantity="one">Message received by %1$s and %2$d other person</item>
     </plurals>
     <plurals name="group_message_failed_title">
         <item quantity="other">"Couldn't send to %d contacts"</item>
@@ -38,6 +42,10 @@
     <plurals name="message_count">
         <item quantity="other">%1$s messages</item>
         <item quantity="one">%1$s message</item>
+    </plurals>
+    <plurals name="rcs_group_notification_invitation_receive">
+        <item quantity="other">You received %d group chat invitations</item>
+        <item quantity="one">You received %d group chat invitation</item>
     </plurals>
     <plurals name="recipient_count">
         <item quantity="other">%1$s people</item>

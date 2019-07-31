@@ -59,6 +59,16 @@
         <item>960</item>
         <item>720</item>
     </string-array>
+    <string-array name="screenrecorder_settings_resolution_f9_full_values">
+        <item>1920*910</item>
+        <item>1280*720</item>
+        <item>800*480</item>
+    </string-array>
+    <string-array name="screenrecorder_settings_resolution_f9_values">
+        <item>910</item>
+        <item>720</item>
+        <item>480</item>
+    </string-array>
     <string-array name="screenrecorder_settings_resolution_full_values">
         <item>1920*1080</item>
         <item>1280*720</item>
@@ -90,5 +100,6 @@
     <string-array name="screenrecorder_utils_support_high_frames_cpu">
         <item>Qualcomm Technologies, Inc SDM845</item>
         <item>Qualcomm Technologies, Inc MSM8998</item>
+        <item>Qualcomm Technologies, Inc SM8150</item>
     </string-array>
 </resources>

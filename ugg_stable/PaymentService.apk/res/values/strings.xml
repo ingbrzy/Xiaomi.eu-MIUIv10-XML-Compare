@@ -19,6 +19,8 @@
   <string name="abc_shareactionprovider_share_with">Share with</string>
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
+  <string name="app_name">Mi Credit</string>
+  <string name="hybrid_provider">Provided by %1$s</string>
   <string name="mibi_all_license_message">"You're about to use Mi Credit, which is a service provided by Xiaomi Inc. Before you can use this service, you must agree to the Terms of Service. Touch OK if you agree to the terms and conditions described in the %1$s and %2$s. You need to connect to the internet, locate you device to use Mi Credit."</string>
   <string name="mibi_app_name">Mi Credit</string>
   <string name="mibi_applock_config">"Can't set App lock while using Split screen."</string>
@@ -141,7 +143,7 @@ Please check your local date and try again."</string>
   <string name="mibi_get_phone_num_title">Enter phone number</string>
   <string name="mibi_get_phone_sms_prompt">Verification code sent to %1$s</string>
   <string name="mibi_giftcard_acitivity_and_denomination">%2$s-Mi Credit gift card from %1$s</string>
-  <string name="mibi_giftcard_available">available</string>
+  <string name="mibi_giftcard_available">Available</string>
   <string name="mibi_giftcard_denom">Mi Credit</string>
   <string name="mibi_giftcard_denom_available">Mi Credit available</string>
   <string name="mibi_giftcard_denom_frozen">Mi Credit frozen</string>
@@ -159,9 +161,9 @@ Please check your local date and try again."</string>
   <string name="mibi_giftcard_push_notification_prime_title">"You've received a gift certificate"</string>
   <string name="mibi_giftcard_push_notification_sub_title">%1$s: %2$s Mi Credit giveaway.</string>
   <string name="mibi_giftcard_record">My gift cards</string>
-  <string name="mibi_giftcard_unavailable">expired</string>
+  <string name="mibi_giftcard_unavailable">Expired</string>
   <string name="mibi_giftcard_use_now">Redeem</string>
-  <string name="mibi_giftcard_used">redeemed</string>
+  <string name="mibi_giftcard_used">Redeemed</string>
   <string name="mibi_giftcard_vaild_util">vaild util %1$s</string>
   <string name="mibi_giftcard_will_expire">Expires on %1$s</string>
   <string name="mibi_giftcard_with_num">&lt;Data&gt;&amp;lt;font color=#FF7700&amp;gt;&amp;lt;xliff:g id=value&amp;gt;%1$d&amp;lt;/xliff:g&amp;gt; Mi Credit coupon available&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
@@ -179,10 +181,12 @@ Please check your local date and try again."</string>
   <string name="mibi_menu_feedback">Feedback</string>
   <string name="mibi_menu_lock">Add App lock</string>
   <string name="mibi_menu_qa">FAQ</string>
+  <string name="mibi_menu_qa_feedback">FAQ &amp; feedback</string>
   <string name="mibi_menu_shotcut">Place on Home screen</string>
   <string name="mibi_mili_center">Mi Credit</string>
   <string name="mibi_milicenter_title">Mi Credit</string>
   <string name="mibi_mipay_error">Mipay failed</string>
+  <string name="mibi_more_operation">More operations</string>
   <string name="mibi_msg_denomination_type">Mi Credit</string>
   <string name="mibi_msg_error">Top-up failed</string>
   <string name="mibi_msg_order_hint_1_1">After you touch Confirm purchase, your phone will</string>
@@ -226,7 +230,7 @@ Please check your local date and try again."</string>
   <string name="mibi_password_hint">Enter account password</string>
   <string name="mibi_password_prompt">To secure your spendings, verify your Mi account</string>
   <string name="mibi_pay_grid_error_denomination">Amount must be between Mi Credits %1$s and %2$s.</string>
-  <string name="mibi_pay_success_summary">"You've paid%1$sMi Credit"</string>
+  <string name="mibi_pay_success_summary">"You've paid %1$s Mi Credit"</string>
   <string name="mibi_pay_success_with_recharge_summary">%1$s Mi Credits recharged，%2$s Mi Credits paied</string>
   <string name="mibi_payment_recharge_group_title">Choose top-up method</string>
   <string name="mibi_payment_success_title">Payment received</string>
@@ -239,6 +243,7 @@ Please check your local date and try again."</string>
   <string name="mibi_paytool_msp_not_installed">You have not installed %1$s mobile security plugin, install it now?</string>
   <string name="mibi_paytool_paypal">Paypal</string>
   <string name="mibi_paytool_tenpay">Tenpay</string>
+  <string name="mibi_paytool_wechat_return_cancel">WeChat return cancel</string>
   <string name="mibi_paytool_weixin">WeChat</string>
   <string name="mibi_prepaid_card_order_info">%1$s top-up card: CNY %2$s</string>
   <string name="mibi_prepaid_carriers_picker_hint">Select carrier</string>
@@ -258,6 +263,7 @@ Please check your local date and try again."</string>
   <string name="mibi_prepaid_picker_title_default">Select amount</string>
   <string name="mibi_prepaid_picker_title_selected">amount</string>
   <string name="mibi_privacy_license_name">Privacy Policy</string>
+  <string name="mibi_privacy_policy">Privacy Policy</string>
   <string name="mibi_privacy_tip_message">"You can't use Mi Credits after authorization has been revoked."</string>
   <string name="mibi_privacy_tip_title">Grant authorization first</string>
   <string name="mibi_process_expired">"Where'd you go? This operation has timed out."</string>
@@ -349,6 +355,7 @@ Customer service center：400-100-3399"</string>
   <string name="mibi_web_login_description">Login</string>
   <string name="mibi_web_login_waiting">Please wait…</string>
   <string name="mibi_web_sso_login_fail">You need to sign in again</string>
+  <string name="no_network">"Can't connect to the network"</string>
   <string name="passport_access_denied">Access denied</string>
   <string name="passport_account_hint_text">Email address, phone number or Mi Account ID</string>
   <string name="passport_account_identity_title">Verify your identity</string>
@@ -545,4 +552,7 @@ To activate your account, follow the
   <string name="passport_wrong_vcode">The code you entered is incorrect</string>
   <string name="passport_yes">Yes</string>
   <string name="status_bar_notification_info_overflow">999+</string>
+  <string name="web_sso_login_fail">You need to sign in again</string>
+  <string name="web_sso_login_message">Signing in…</string>
+  <string name="webview_reload">Try again</string>
 </resources>

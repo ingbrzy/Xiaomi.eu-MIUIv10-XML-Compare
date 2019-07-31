@@ -5,18 +5,18 @@
   <string name="agree_terms">"I've read and agree to the Terms of Service and Privacy Policy."</string>
   <string name="agree_terms_input_method_facemoji">"I've read and agreed to Facemoji Privacy Policy."</string>
   <string name="agree_terms_input_method_kika">"I've read and agreed to Kika Privacy Policy."</string>
-  <string name="ai_button_desc">Use this button to trigger Mi AI and complete tasks on your phone using just your voice</string>
+  <string name="ai_button_desc">Get instant access to your smart voice assistant</string>
   <string name="ai_button_double_press">Double press</string>
-  <string name="ai_button_double_press_desc">Set up Mi AI features</string>
+  <string name="ai_button_double_press_desc">Double press AI button to complete custom tasks</string>
   <string name="ai_button_long_press">Press and hold</string>
-  <string name="ai_button_long_press_desc">Say your command and release the button</string>
+  <string name="ai_button_long_press_desc">Press and hold AI button to talk to Mi AI</string>
   <string name="ai_button_single_press">Press</string>
-  <string name="ai_button_single_press_desc">Trigger Mi AI</string>
-  <string name="ai_button_title">About AI button</string>
+  <string name="ai_button_single_press_desc">Press AI button to view Mi AI shortcuts</string>
+  <string name="ai_button_title">AI button</string>
   <string name="app_name">Provision</string>
   <string name="application_permissions">App permissions</string>
   <string name="back">Back</string>
-  <string name="cm_terms_content">"In order to improve the services provided to you, the mobile network operator of your choice may upload your personal data and the info about this device to its servers using WLAN networks or mobile data connection. This information will only be used for statistical purposes in order to improve the quality of the services and provide more personalized content. This information won't be used to identify you personally and won't be disclosed to third parties."</string>
+  <string name="cm_terms_content">"In order to improve the services provided to you, the mobile network operator of your choice may upload your personal data and the info about this device to its servers using Wi-Fi networks or mobile data connection. This information will only be used for statistical purposes in order to improve the quality of the services and provide more personalized content. This information won't be used to identify you personally and won't be disclosed to third parties."</string>
   <string name="cm_terms_title">Mobile Network Operator Agreement</string>
   <string name="congratulation_label">"You're ready to rock!​"</string>
   <string name="congratulation_swipe">Swipe up to enter the system</string>
@@ -43,6 +43,7 @@
   <string name="item_lock_screen_password">Only screen lock</string>
   <string name="language_picker_other_languages_title">More languages</string>
   <string name="language_settings">Choose language</string>
+  <string name="locale_picker_other_locale_title">More regions</string>
   <string name="locale_picker_title">Choose your region</string>
   <string name="miui_privacy_policy_no_network">"You don't have an internet connection. View the Privacy Policy at %s."</string>
   <string name="miui_terms_no_network">"You don't have an internet connection. View the Terms of Service at %s."</string>
@@ -58,6 +59,9 @@
   <string name="other_settings_ad_enable_summary">Receive personalized ads based on your behavior data</string>
   <string name="other_settings_auto_update">Update automatically</string>
   <string name="other_settings_auto_update_summary">MIUI will select the best moment to install updates</string>
+  <string name="other_settings_enhanced_lockscreen">Wallpaper Carousel</string>
+  <string name="other_settings_enhanced_lockscreen_summary">Get curated images and stories delivered to your Lock screen daily. Terms and conditions apply.</string>
+  <string name="other_settings_enhanced_lockscreen_summary_index">Terms and conditions</string>
   <string name="other_settings_location">Location</string>
   <string name="other_settings_location_summary">Allow apps to access your location</string>
   <string name="other_settings_upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
@@ -103,6 +107,7 @@ You must agree to Facemoji Privacy Policy before using this feature."</string>
 You must agree to Kika Privacy Policy before using this feature."</string>
   <string name="terms_of_use_lable_gms">, Google Play services</string>
   <string name="terms_of_use_lable_smart_cards">, Smart cards</string>
+  <string name="terms_of_use_lable_vsimcore">, MConnService</string>
   <string name="terms_privacy_policy_input_method_facemoji">Facemoji Privacy Policy</string>
   <string name="terms_privacy_policy_input_method_kika">Kika Privacy Policy</string>
   <string name="title_fingerprint">Set password</string>
@@ -115,4 +120,5 @@ You must agree to Kika Privacy Policy before using this feature."</string>
   <string name="voice_assist_title">Wake with voice</string>
   <string name="welcome">Welcome</string>
   <string name="wizard_script_uri">android.resource://com.android.provision/raw/wizard_script</string>
+  <string name="zone_picker_title">Choose time zone</string>
 </resources>

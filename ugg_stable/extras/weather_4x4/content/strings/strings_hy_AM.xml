@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_format">EEEE, MMMM d</string>
+    <string name="weather_null">Հպեք, եղանակի մասին տեղեկություններ ստանալու համար</string>
+    <string name="date_format">EEEE, d MMMM</string>
     <string name="today">Այսօր</string>
     <string name="tomorrow">Վաղը</string>
     <string name="aqi_pure">\'AQI \'+#weather_aqileve</string>
@@ -9,11 +10,9 @@
     <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
     <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
     <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel
- 
-</string>
+ </string>
     <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel
- 
-</string>
+ </string>
     <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
     <string name="weather_type_null">'Տվյալներ չկան'</string>
     <string name="weather_type_0">Մաքրել</string>

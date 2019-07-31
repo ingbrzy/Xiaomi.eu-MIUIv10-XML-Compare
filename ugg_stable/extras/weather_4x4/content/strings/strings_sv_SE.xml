@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_format">EEEE, MMMM d</string>
+    <string name="weather_null">Tryck för att få väderinformation</string>
+    <string name="date_format">EEEE, d MMMM</string>
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>
     <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>

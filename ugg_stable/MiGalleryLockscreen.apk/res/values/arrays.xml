@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="passport_alphabet_table">
+    <string-array name="feature_desc">
+        <item>Fixed some known issues.</item>
+    </string-array>
+    <string-array name="alphabet_table">
         <item>\#</item>
         <item>A</item>
         <item>B</item>
