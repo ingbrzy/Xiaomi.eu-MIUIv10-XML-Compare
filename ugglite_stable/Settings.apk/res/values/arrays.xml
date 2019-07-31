@@ -2989,74 +2989,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Files</item>
         <item>Notes</item>
     </string-array>
-    <string-array name="region_global_support_face_facejiajia">
-        <item>IN</item>
-        <item>ID</item>
-        <item>RU</item>
-        <item>HK</item>
-        <item>TW</item>
-        <item>TR</item>
-        <item>TH</item>
-        <item>SG</item>
-        <item>MY</item>
-        <item>VN</item>
-    </string-array>
-    <string-array name="region_global_support_face_sensetime">
-        <item>IN</item>
-        <item>ID</item>
-        <item>HK</item>
-        <item>TW</item>
-        <item>SG</item>
-        <item>VN</item>
-        <item>MY</item>
-    </string-array>
-    <string-array name="device_support_face">
-        <item>jason</item>
-        <item>polaris</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>whyred</item>
-        <item>nitrogen</item>
-        <item>wayne</item>
-        <item>ysl</item>
-        <item>sakura</item>
-        <item>clover</item>
-        <item>dipper</item>
-        <item>sirius</item>
-        <item>ursa</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>gemini</item>
-        <item>platina</item>
-        <item>capricorn</item>
-        <item>equuleus</item>
-        <item>natrium</item>
-        <item>vince</item>
-        <item>perseus</item>
-        <item>lavender</item>
-        <item>lotus</item>
-        <item>onc</item>
-    </string-array>
-    <string-array name="device_global_support_face_facejiajia">
-        <item>whyred</item>
-        <item>polaris</item>
-        <item>ysl</item>
-    </string-array>
-    <string-array name="device_global_support_face_sensetime">
-        <item>dipper</item>
-        <item>beryllium</item>
-        <item>cactus</item>
-        <item>cereus</item>
-        <item>nitrogen</item>
-        <item>platina</item>
-        <item>vince</item>
-        <item>tulip</item>
-        <item>sakura_india</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-        <item>onc</item>
-        <item>lavender</item>
-    </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>Wake screen</item>
         <item>Show animation</item>
@@ -3067,4 +2999,30 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>2</item>
         <item>0</item>
     </string-array>
-<string-array name="status_bar_settings_qs_layout_entries"><item>Default</item><item>Compact</item></string-array><string-array name="status_bar_settings_qs_layout_values"><item>0</item><item>1</item></string-array><string-array name="default_vol_stream_entries"><item>Ringtone</item><item>Media</item></string-array><string-array name="default_vol_stream_values"><item>2</item><item>3</item></string-array><string-array name="aod_clock_style_entries"><item>Horizontal</item><item>Vertical</item><item>Inline</item></string-array><string-array name="aod_clock_style_values"><item>0</item><item>1</item><item>2</item></string-array></resources>
+    <string-array name="status_bar_settings_qs_layout_entries">
+        <item>Default</item>
+        <item>Compact</item>
+    </string-array>
+    <string-array name="status_bar_settings_qs_layout_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="default_vol_stream_entries">
+        <item>Ringtone</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="default_vol_stream_values">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Automatic (based on time of day)</item>
+        <item>Always on</item>
+        <item>Always off</item>
+    </string-array>
+    <string-array name="dark_ui_mode_values">
+        <item>auto</item>
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+</resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">കാലാവസ്ഥ വിവരം ലഭിക്കാൻ ടാപ്പുചെയ്യുക</string>
     <string name="date_format">EEEE, d MMMM</string>
     <string name="today">ഇന്ന്</string>
     <string name="tomorrow">നാളെ</string>

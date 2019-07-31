@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_null">Toque para recibir información del tiempo</string>
     <string name="date_format">EEEE, d \'de\' MMMM</string>
     <string name="today">Hoy</string>
     <string name="tomorrow">Mañana</string>
