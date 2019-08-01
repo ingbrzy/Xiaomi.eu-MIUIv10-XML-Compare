@@ -2,6 +2,7 @@
 <resources>
   <string name="ErrorTooManyRequests">Too many requests are being processed. Try again later.</string>
   <string name="ack_record">Ack record</string>
+  <string name="airplane_can_not_share">"Airplane can't use Bluetooth to share"</string>
   <string name="airplane_error_msg">"You can't use Bluetooth in Airplane mode."</string>
   <string name="airplane_error_title">Airplane mode</string>
   <string name="app_name">Bluetooth Share</string>
@@ -10,6 +11,7 @@
   <string name="auth_notif_title">Session Key</string>
   <string name="bluetooth_connected">Bluetooth audio connected</string>
   <string name="bluetooth_disconnected">Bluetooth audio disconnected</string>
+  <string name="bluetooth_in_airplane_mode">In Airplane mode</string>
   <string name="bluetooth_map_settings_app_icon">Application Icon</string>
   <string name="bluetooth_map_settings_cancel">Cancel</string>
   <string name="bluetooth_map_settings_count">Slots left:</string>
@@ -59,13 +61,15 @@
   <string name="download_succ_ok">Open</string>
   <string name="download_success">%1$s Received complete.</string>
   <string name="download_title">File transfer</string>
+  <string name="empty_file_notification_sent">Bluetooth share: Remote rejected zero length file %1$s</string>
   <string name="enabling_progress_content">Turning on Bluetooth…</string>
   <string name="enabling_progress_title">Please wait…</string>
   <string name="hello">Hello World, TestActivity</string>
   <string name="inbound_history_title">Inbound transfers</string>
   <string name="inbound_noti_title">Bluetooth share: Received files</string>
+  <string name="incoming_file_confirm_Notification_caption">Do you want to receive this file?</string>
   <string name="incoming_file_confirm_Notification_content">%1$s is ready to send %2$s</string>
-  <string name="incoming_file_confirm_Notification_title">Incoming file</string>
+  <string name="incoming_file_confirm_Notification_title">Bluetooth share: Incoming file</string>
   <string name="incoming_file_confirm_cancel">Decline</string>
   <string name="incoming_file_confirm_content">Accept incoming file?</string>
   <string name="incoming_file_confirm_ok">Accept</string>
@@ -85,6 +89,7 @@
   <string name="not_exist_file">No file</string>
   <string name="not_exist_file_desc">"The file doesn't exist. 
 "</string>
+  <string name="noti_caption">%1$s successful, %2$s unsuccessful.</string>
   <string name="notification_received">Bluetooth share: Received %1$s</string>
   <string name="notification_received_fail">Bluetooth share: File %1$s not received</string>
   <string name="notification_receiving">Bluetooth share: Receiving %1$s</string>

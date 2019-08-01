@@ -219,6 +219,7 @@
   <string name="app_manager_permission_power_saving_title">Battery saver</string>
   <string name="app_manager_permission_startself_title">Autostart</string>
   <string name="app_manager_permission_summary_reject">Restrict all</string>
+  <string name="app_manager_power_consume">%.1f%%</string>
   <string name="app_manager_powerkeeper_miui_auto">MIUI Battery saver</string>
   <string name="app_manager_powerkeeper_no_bg">Restrict background activity</string>
   <string name="app_manager_powerkeeper_no_restrict">No restrictions</string>
@@ -431,6 +432,7 @@ You will not lose any app data."</string>
   <string name="battery_history_hours">%1$dh %2$dm %3$ds</string>
   <string name="battery_history_minutes">%1$dm %2$ds</string>
   <string name="battery_history_seconds">%1$ds</string>
+  <string name="battery_statistics_activity_title">Battery usage stats</string>
   <string name="battery_stats_charging_label">Charging</string>
   <string name="battery_stats_gps_on_label">GPS on</string>
   <string name="battery_stats_on_battery">%1$s on battery</string>
@@ -478,7 +480,7 @@ You will not lose any app data."</string>
   <string name="btn_start_diagnostic">Test network</string>
   <string name="btn_stop_diagnostic">Stop</string>
   <string name="btn_text_already_opened">On</string>
-  <string name="btn_text_goto_power_rank">View battery ranking</string>
+  <string name="btn_text_goto_power_rank">View all stats</string>
   <string name="btn_text_goto_setup">Go to Settings</string>
   <string name="btn_text_network_speed_detail">Connection</string>
   <string name="btn_text_open_now">Turn on</string>
@@ -1705,6 +1707,12 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="pc_abnormal_scan_reason_use_GPS">Uses location services too frequently</string>
   <string name="pc_abnormal_scan_reason_wake_system">Wakes the system too frequently</string>
   <string name="pc_activity_title">Optimize battery</string>
+  <string name="pc_battery_detail_curve_reference_now">Now</string>
+  <string name="pc_battery_detail_device_item_title">Battery usage stats</string>
+  <string name="pc_battery_history_battery_detail_menu_item">Details</string>
+  <string name="pc_battery_history_consume_rank_menu_item">Ranking</string>
+  <string name="pc_battery_history_rank_mha_menu_item">Milliampere hour</string>
+  <string name="pc_battery_history_rank_percent_menu_item">Percentage</string>
   <string name="pc_battery_history_show_imei">IMEI:</string>
   <string name="pc_install_manager">Install via USB</string>
   <string name="pc_main_activity_back">Back</string>
@@ -1718,6 +1726,10 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="pc_main_sub_battery_text_day_hour">%1$sd %2$sh remaining</string>
   <string name="pc_main_sub_battery_text_hour_minute">%1$sh %2$sm remaining</string>
   <string name="pc_settings_title">Battery optimization settings</string>
+  <string name="pc_statistics_battery_last_hour_minute">%1$dh %2$dm remaining</string>
+  <string name="pc_statistics_battery_use_hour_minute">%1$dh %2$dm since last charge</string>
+  <string name="pc_statistics_battery_use_summary">%s since last charge</string>
+  <string name="pc_statistics_battery_use_title">Battery usage</string>
   <string name="pc_to_phone_install">Blocked installation of %s via USB</string>
   <string name="per_month_pkg_traffic_settings">Set data limit</string>
   <string name="percent_formatted_text">%s%%</string>
@@ -2398,8 +2410,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="superpower_dialog_title">Ultra battery saver</string>
   <string name="superpower_notification_hint_enter">Turn on</string>
   <string name="superpower_notification_summary">Turn on Ultra battery saver</string>
-  <string name="superpower_notification_time_12">MMMM dd, EEEE</string>
-  <string name="superpower_notification_time_24">MMMM dd, EEEE</string>
+  <string name="superpower_notification_time_12">EEEE, MMMM dd</string>
+  <string name="superpower_notification_time_24">EEEE, MMMM dd</string>
   <string name="superpower_notification_title">Less than 10% of battery remaining</string>
   <string name="superpower_progress_content">Turning on Ultra battery saver…</string>
   <string name="superpower_progress_left_time">%1$dh %2$dm</string>
@@ -2432,6 +2444,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="system_permission_declare_double_link">&lt;Data&gt;Read and agree to our &amp;lt;a href=\"%1$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt; and &amp;lt;a href=\"%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; before using this feature.&lt;/Data&gt;</string>
   <string name="system_permission_declare_main_purpose" formatted="false">Welcome to %1s! This app allows you to use the following feature: %2s.</string>
   <string name="system_permission_declare_no_say_no">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work normally."</string>
+  <string name="system_permission_declare_no_say_no_non_mandatory">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work partially."</string>
   <string name="system_permission_declare_privacy_declare">"We respect and protect your privacy.
 Note that %1s needs to collect your data and requires the following permissions to work normally:"</string>
   <string name="system_permission_declare_privacy_no_permission">"Note that %1s needs to collect your data to work normally.
