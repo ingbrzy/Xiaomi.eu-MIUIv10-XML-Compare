@@ -2216,7 +2216,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sp_settings_check_item_title_root">Root</string>
   <string name="sp_settings_check_item_title_sign_exception">Signature exceptions</string>
   <string name="sp_settings_check_item_title_update">System updates</string>
-  <string name="sp_settings_check_item_title_virus_exception">Virus exceptions</string>
+  <string name="sp_settings_check_item_title_virus_exception">Exceptions</string>
   <string name="sp_settings_check_item_title_wifi">WLAN</string>
   <string name="sp_settings_exception_count_zero">No items</string>
   <string name="sp_settings_group_title_check_item">Multiple items</string>
