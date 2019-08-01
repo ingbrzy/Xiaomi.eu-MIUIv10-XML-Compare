@@ -152,7 +152,7 @@
   <string name="choose_stream_quality">Choose streaming quality</string>
   <string name="click_to_shuffle">Tap to shuffle</string>
   <string name="close_music_time">"Time remaining: "</string>
-  <string name="com.crashlytics.android.build_id">46465a69-ee83-4c9f-b8cc-01ce1adf261d</string>
+  <string name="com.crashlytics.android.build_id">2a81da4d-9112-46ed-89b8-d0d3e230d9b1</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -216,6 +216,10 @@
   <string name="dialog_insufficient_space_on_cache">"Can't complete download, not enough internal storage left."</string>
   <string name="dialog_insufficient_space_on_external">"Can't finish download. Not enough space on the SD card."</string>
   <string name="dialog_media_not_found">"Can't download. SD card isn't available."</string>
+  <string name="dialog_my_playlist_online_changed_merge">Keep</string>
+  <string name="dialog_my_playlist_online_changed_message">Looks like this playlist changed. You can replace it with the new version or keep the old one.</string>
+  <string name="dialog_my_playlist_online_changed_replace">Replace</string>
+  <string name="dialog_my_playlist_set_to_public">Share this playlist to Mi Music</string>
   <string name="dialog_queued_body">This file is queued for future download.</string>
   <string name="dialog_renew_failure">Sorry, action failed</string>
   <string name="dialog_renew_free_end">Your free trial is over. Subscribe to Hungama PRO?​</string>
@@ -435,10 +439,10 @@
   <string name="hot_icon_in_fast_indexer">H</string>
   <string name="hungama">Hungama</string>
   <string name="hungama_batch_download_alert_summary">Only PRO members can download multiple songs. Get a PRO membership now?</string>
-  <string name="hungama_category_chart">Chart</string>
-  <string name="hungama_category_playlist">Playlist</string>
+  <string name="hungama_category_chart">Top Charts</string>
+  <string name="hungama_category_playlist">Playlists</string>
   <string name="hungama_category_radio">Radio</string>
-  <string name="hungama_category_video">Video</string>
+  <string name="hungama_category_video">Videos</string>
   <string name="hungama_free_download_out_summary">"You can't download more free songs. Get a PRO membership to download unlimited songs?"</string>
   <string name="hungama_playlist_category">Playlist category</string>
   <string name="hungama_privacy_desc">Hungama Privacy Policy (optional)</string>
@@ -552,6 +556,10 @@
   <string name="my_account">Mi Account</string>
   <string name="my_music_empty">Playlist is empty.</string>
   <string name="my_music_empty_goto_online">No songs found</string>
+  <string name="my_playlist_add_song">Add songs</string>
+  <string name="my_playlist_create_self_playlist">Create playlists with your favorite songs</string>
+  <string name="my_playlist_set_to_private">Make private</string>
+  <string name="my_playlist_set_to_public">Make public</string>
   <string name="network_error_and_retry">"Couldn't connect, tap to try again"</string>
   <string name="network_request_error">"Can't connect to the network"</string>
   <string name="network_settings_error">"Can't connect to the network"</string>
@@ -648,6 +656,8 @@
   <string name="permission_declaration_negative_text">Later</string>
   <string name="permission_declaration_positive_text">Go to Security</string>
   <string name="permission_declaration_title">Allow access</string>
+  <string name="permission_open">Allow</string>
+  <string name="permission_required">Permissions required</string>
   <string name="pick_favorite_song">Favorites</string>
   <string name="pick_local_song">Local songs</string>
   <string name="pick_recent_song">Recently played</string>
@@ -661,7 +671,7 @@
   <string name="play_video_with_traffic">CONTINUE</string>
   <string name="play_video_with_traffic_toast">"You're using mobile data now."</string>
   <string name="playlist_empty">No playlists found.</string>
-  <string name="playlist_recommend_title">Recommend</string>
+  <string name="playlist_recommend_title">Recommended</string>
   <string name="playlist_title">Playlist name</string>
   <string name="playlist_title_is_empty">"Playlist name can't be blank"</string>
   <string name="playlist_title_is_invalid">Playlist already exists</string>
@@ -699,6 +709,7 @@
 Be Happy"</string>
   <string name="repeat_all_notif">Repeating all songs.</string>
   <string name="repeat_current_notif">Repeating current song.</string>
+  <string name="request_overlay_permission_desc">Allow Mi Music to display floating windows to be able to use this feature.</string>
   <string name="request_share_info">Just a sec…</string>
   <string name="request_subscription_status">Just a sec…</string>
   <string name="restart_immediate">Restart</string>
@@ -731,6 +742,7 @@ Be Happy"</string>
   <string name="search_hint_online">Search for artists, albums, songs, playlists, and videos online</string>
   <string name="search_history_clear_all">Clear</string>
   <string name="search_history_delete_all_dialog_titile">Clear search history now?</string>
+  <string name="search_in_youtube">Search on YouTube</string>
   <string name="search_instant_online_music">Online</string>
   <string name="search_menu_title">Search</string>
   <string name="search_result_local_songs">Local</string>
@@ -770,6 +782,7 @@ Be Happy"</string>
   <string name="share_image_error">"Couldn't share image due to a download error"</string>
   <string name="share_text_list">"Playlist from Mi Music: "</string>
   <string name="share_text_song">"Song in Mi Music: "</string>
+  <string name="show_float_first_hint">Minimize player</string>
   <string name="show_more">Show %s more</string>
   <string name="shuffle_music">Shuffle playback</string>
   <string name="shuffle_off_notif">Shuffle is off.</string>
@@ -847,6 +860,9 @@ Be Happy"</string>
   <string name="toast_download_error_by_vip_required">Get Premium Song Pack to download this song.</string>
   <string name="toast_download_in_process">Download in process</string>
   <string name="toast_is_pro">"You're already a PRO member."</string>
+  <string name="toast_my_playlist_illegal_name">"The title of this playlist isn't valid. Rename this playlist."</string>
+  <string name="toast_my_playlist_set_to_private">"This playlist is private now. Other people can't see it."</string>
+  <string name="toast_my_playlist_set_to_public">This playlist is public now. Other people can see it.</string>
   <string name="toast_new_playlist_name_no_enter">"Can't start a new paragraph"</string>
   <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
   <string name="toast_normal_songs_for_download">Downloading quality set to Standard</string>

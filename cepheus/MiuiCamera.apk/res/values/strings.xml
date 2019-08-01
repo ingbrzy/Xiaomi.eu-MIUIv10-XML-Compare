@@ -62,12 +62,8 @@
   <string name="accessibility_setting">Settings</string>
   <string name="accessibility_shutter_button">Shutter button</string>
   <string name="accessibility_stereo_button">Focus adjustment</string>
-  <string name="accessibility_ultra_pixel_photography_32mp_off">32MP is off</string>
-  <string name="accessibility_ultra_pixel_photography_32mp_on">32MP is on</string>
-  <string name="accessibility_ultra_pixel_photography_48mp_off">48MP is off</string>
-  <string name="accessibility_ultra_pixel_photography_48mp_on">48MP is on</string>
-  <string name="accessibility_ultra_pixel_photography_64mp_off">6400万超清,关闭状态</string>
-  <string name="accessibility_ultra_pixel_photography_64mp_on">6400万超清,开启状态</string>
+  <string name="accessibility_ultra_pixel_photography_off">%s Ultra HD is off</string>
+  <string name="accessibility_ultra_pixel_photography_on">%s Ultra HD is on</string>
   <string name="accessibility_ultra_wide_off">Turned off Ultra wide angle mode</string>
   <string name="accessibility_ultra_wide_on">Turned on Ultra wide angle mode</string>
   <string name="accessibility_video_btn_play">Play video</string>
@@ -325,6 +321,9 @@ in Portrait mode"</string>
   <string name="lying_direct_hint">Current orientation</string>
   <string name="macro_mode">Macro</string>
   <string name="macro_mode_tip">"Distance between the lens and the object shouldn't exceed 10cm"</string>
+  <string name="macro_mode_use_hint_text_body">"开启微距模式，为您记录更微观的世界
+探索更多细节的美"</string>
+  <string name="macro_mode_use_hint_text_title">微距模式</string>
   <string name="makeup_reset_toast">Cleared makeup effects successfully</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
   <string name="mimoji_app_name">Fun Cam</string>
@@ -680,7 +679,6 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_snap_entry_take_picture">Quick snap mode (photo)</string>
   <string name="pref_camera_snap_label_take_movie">Video</string>
   <string name="pref_camera_snap_label_take_picture">Photo</string>
-  <string name="pref_camera_snap_toast_when_volume_can_wake_screen">"Can't use Quick snap mode while \"Wake with Volume buttons\" is on."</string>
   <string name="pref_camera_snap_value_off">Off</string>
   <string name="pref_camera_snap_value_take_movie">Movie</string>
   <string name="pref_camera_snap_value_take_picture">Picture</string>
@@ -732,7 +730,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_zoom_mode_entry_high_pixel">LOW LIGHT</string>
   <string name="pref_camera_zoom_mode_entry_macro">MACRO</string>
   <string name="pref_camera_zoom_mode_entry_standard">REGULAR</string>
-  <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
+  <string name="pref_camera_zoom_mode_entry_tele">TELE 2X</string>
   <string name="pref_camera_zoom_mode_entry_ultra">ULTRA WIDE</string>
   <string name="pref_camera_zoom_mode_entry_wide">WIDE</string>
   <string name="pref_camera_zoom_mode_title">LENS</string>
@@ -757,12 +755,10 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_google_lens_summary">Point your camera at contact info, URLs, and QR codes to view available options</string>
   <string name="pref_google_lens_title">Lens suggestions</string>
   <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
-  <string name="pref_hdr_value_default">off</string>
+  <string name="pref_hdr_value_default">auto</string>
   <string name="pref_live_volumekey_function_default">volume</string>
   <string name="pref_manual_exposure_title">S</string>
-  <string name="pref_menu_ultra_pixel_photography_32mp">32MP</string>
-  <string name="pref_menu_ultra_pixel_photography_48mp">48MP</string>
-  <string name="pref_menu_ultra_pixel_photography_64mp">6400万超清</string>
+  <string name="pref_menu_ultra_pixel_photography">%s Ultra HD</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
   <string name="pref_new_slow_motion_video_quality_240_720only">You can only record 720p videos with 240fps</string>
@@ -886,12 +882,14 @@ Keep the subject sharp while blurring the background."</string>
   <string name="toast_start_audio_capture">Make a sound to take a photo</string>
   <string name="ubi_focus_capture_fail">"Couldn't take photo"</string>
   <string name="ubifocus_capture_warning_message">For best results, your photo should contain objects both near (less than 1 meter from the lens) and far</string>
-  <string name="ultra_pixel_photography_32mp_close_tip">32MP is off</string>
-  <string name="ultra_pixel_photography_32mp_open_tip">32MP</string>
-  <string name="ultra_pixel_photography_48mp_close_tip">48MP is off</string>
-  <string name="ultra_pixel_photography_48mp_open_tip">48MP</string>
-  <string name="ultra_pixel_photography_64mp_close_tip">6400万超清已关闭</string>
-  <string name="ultra_pixel_photography_64mp_open_tip">6400万超清</string>
+  <string name="ultra_pixel_32mp">32MP</string>
+  <string name="ultra_pixel_48mp">48MP</string>
+  <string name="ultra_pixel_64mp">64MP</string>
+  <string name="ultra_pixel_device">64MP</string>
+  <string name="ultra_pixel_photography_close_tip">%s Ultra HD is off</string>
+  <string name="ultra_pixel_photography_open_tip">%s Ultra HD is on</string>
+  <string name="ultra_pixel_portrait_hint">超清人像</string>
+  <string name="ultra_pixel_zoom_no_support_tip">"Zoom doesn't work in %s Ultra HD mode"</string>
   <string name="ultra_wide_bokeh_close_tip">Full body mode is off</string>
   <string name="ultra_wide_bokeh_open_tip">Full body mode</string>
   <string name="ultra_wide_close_tip">Ultra wide angle mode is off</string>
@@ -929,6 +927,4 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="wideselfie_rotate_to_front">Tilt the phone forward</string>
   <string name="wideselfie_rotate_to_left_slowly">Rotate the phone to the left</string>
   <string name="wideselfie_rotate_to_right_slowly">Rotate the phone to the right</string>
-  <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
-  <string name="zoom_no_support_tip_64M">6400万超清模式下不支持变焦</string>
 </resources>
