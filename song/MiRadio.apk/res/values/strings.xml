@@ -384,9 +384,7 @@
   <string name="fm_has_turned_off">FM radio turned off</string>
   <string name="fm_headline">News</string>
   <string name="fm_history">Playback history</string>
-  <string name="fm_local_album_count">%1$s Chapter</string>
   <string name="fm_local_not_listening">Not listening</string>
-  <string name="fm_local_progress">listened: %1$s%%</string>
   <string name="fm_progress">Progress %1$s%%</string>
   <string name="fm_progress_finish">Played</string>
   <string name="fm_select_category">Select category</string>
@@ -698,7 +696,6 @@
   <string name="play_mode_single">Single Mode</string>
   <string name="play_next">Play next</string>
   <string name="play_song_continue">Continue playing</string>
-  <string name="played_progress">Progress%1$s%%</string>
   <string name="playlist_empty">No playlists found.</string>
   <string name="playlist_type_album">Albums</string>
   <string name="playlist_type_artist">Artist</string>

@@ -1963,6 +1963,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="google_title">Google</string>
   <string name="got_it">Got it</string>
   <string name="gsm_to_wifi_connect_type_title">GSM to WLAN</string>
+  <string name="gxzw_add_fingerprint_area">Fingerprint scanner</string>
   <string name="gxzw_add_fingerprint_continue">Continue</string>
   <string name="gxzw_add_fingerprint_edge_message">Move your finger to record the edges of your fingerprint</string>
   <string name="gxzw_add_fingerprint_edge_title">Adjust your grip</string>
@@ -2715,6 +2716,7 @@ There are other users present on this device.
   <string name="mi_service">Mi Service</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_shopping_mall">Mi Store</string>
+  <string name="mi_transfer">Mi Mover</string>
   <string name="mi_upi_settings">Mi Pay Account</string>
   <string name="mipush_fake_channel_group_name">Mi Push</string>
   <string name="misc_files">Misc files</string>
@@ -4484,6 +4486,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
+  <string name="status_bar_settings_show_weather">Show weather in notification shade</string>
   <string name="status_bar_settings_status_bar">Status bar</string>
   <string name="status_bar_title">Status bar</string>
   <string name="status_bt_address">Bluetooth address</string>

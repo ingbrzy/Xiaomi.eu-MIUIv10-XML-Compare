@@ -347,6 +347,8 @@
   <string name="china_mobile_palm_title">CMCC Online Service Hall</string>
   <string name="choose_profile">Choose Profile</string>
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
+  <string name="clear_all_set_button">clear setting</string>
+  <string name="clear_all_set_title">this button is for clear all setting</string>
   <string name="clir_choices_hide_number">Hide number</string>
   <string name="clir_choices_network_default">Network default</string>
   <string name="clir_choices_show_number">Show number</string>
@@ -611,6 +613,8 @@
   <string name="entertainment_news_settings">Entertainment News</string>
   <string name="eo_disable">Employment Opportunities disabled</string>
   <string name="eo_enable">Employment Opportunities enabled</string>
+  <string name="eps_only_set_button">set eps only</string>
+  <string name="eps_only_set_title">this button is for setting eps only</string>
   <string name="error_updating_title">Call settings error</string>
   <string name="exception_error">Network or SIM card error.</string>
   <string name="failedToImportSingleContactMsg">Failed to import contact</string>
@@ -667,6 +671,7 @@
   <string name="force_resizable_activities_summary">Make all activities resizable for multi-window, regardless of manifest values.</string>
   <string name="force_rtl_layout_all_locales">Force RTL layout direction</string>
   <string name="force_rtl_layout_all_locales_summary">Force screen layout direction to RTL for all locales</string>
+  <string name="frequecy_num">lte channel num</string>
   <string name="fw_change_failed">"Couldn't change the forwarding number.
 Contact your carrier if this problem persists."</string>
   <string name="fw_get_in_vm_failed">"Couldn't retrieve and save current forwarding number settings.
@@ -794,6 +799,9 @@ Switch to the new provider anyway?"</string>
   <string name="local_weather_enable">Local Weather enabled</string>
   <string name="lodgings_disable">Lodgings disabled</string>
   <string name="lodgings_enable">Lodgings enabled</string>
+  <string name="lte_band_sel_setting">band list</string>
+  <string name="lte_band_set_status">lte band set</string>
+  <string name="lte_freq_set_button">set freq and pci</string>
   <string name="maintenance_disable">Maintenance disabled</string>
   <string name="maintenance_enable">Maintenance enabled</string>
   <string name="manageConferenceLabel">Manage conference call</string>
@@ -839,6 +847,10 @@ Switch to the new provider anyway?"</string>
   <string name="mock_location_app_set">Mock location app: %1$s</string>
   <string name="modem_dialog_body">Mobile network is unstable which results in interruptions and network problems. Send feedback to Mi for analysis? This report may contain personally identifiable information. Your report will be used to help us fix this bug and will never be shared in any commercial context.</string>
   <string name="modem_dialog_title">Mobile network is unstable</string>
+  <string name="modem_set_title">MODEM SETTING</string>
+  <string name="modem_setting_button_title">Enter into setting manu</string>
+  <string name="modem_setting_info">MODEM SETTING INFO</string>
+  <string name="modem_setting_text_title">modem test property setting</string>
   <string name="msim_apn_not_set">Not set</string>
   <string name="msim_cmcc_dds_switch_not_support">"Can't switch SIM cards due to carrier restrictions."</string>
   <string name="msim_default_setting">Default settings</string>
@@ -1040,6 +1052,7 @@ Try again or call customer service for more options."</string>
 "</string>
   <string name="pause_prompt_yes">Yes</string>
   <string name="payphone">Payphone</string>
+  <string name="pci_num">lte pci num</string>
   <string name="phoneAppLabel">Phone Services</string>
   <string name="phoneIconLabel">Phone</string>
   <string name="phone_account_settings">Calling accounts</string>
@@ -1592,10 +1605,10 @@ This tablet doesn't have an earpiece. You can switch to hands-free mode or use e
   <string name="volte_provision_title">Activate VoLTE calls</string>
   <string name="volte_switch_not_support_summary">"VoLTE calls aren't supported for the mobile data SIM card."</string>
   <string name="volte_switch_not_support_summary2">"VoLTE calls aren't supported by the carrier."</string>
-  <string name="volte_switch_summary">Use VoLTE to improve voice and video call quality</string>
+  <string name="volte_switch_summary">Use VoLTE to improve the quality of voice calls</string>
   <string name="volte_switch_summary2">Confirm that your carrier supports this feature before turning on. Otherwise, regular calls might be affected.</string>
-  <string name="volte_switch_title">VoLTE enabled</string>
-  <string name="volte_switch_title_ct">VoLTE enabled</string>
+  <string name="volte_switch_title">Use VoLTE</string>
+  <string name="volte_switch_title_ct">VoLTE</string>
   <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with VoLTE network coverage. VoLTE services are provided by the carrier.</string>
   <string name="vowifi_emergency_notification_channel">WLAN Calling emergency warning</string>
   <string name="vowifi_emergency_notification_content">Emergency calls are possible in areas with mobile network coverage</string>
