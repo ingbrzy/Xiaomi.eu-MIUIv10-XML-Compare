@@ -18,11 +18,16 @@
   <string name="cloud_find_device">Find Device</string>
   <string name="cloud_find_device_off">Off</string>
   <string name="cloud_find_device_on">On</string>
+  <string name="cloud_lab_title">Cloud Lab</string>
+  <string name="cloud_storage_already_used">Used: %1$s/%2$s</string>
+  <string name="cloud_storage_info_type_others">Others</string>
+  <string name="cloud_storage_manage_title">Manage cloud space</string>
   <string name="cloudservice_new_sync">Sync %s with Mi Cloud</string>
   <string name="confirm_delete">Delete</string>
   <string name="confirm_save">Keep</string>
   <string name="connect_network">Connect to WLAN or insert a SIM card</string>
   <string name="connect_wlan">Connect to WLAN</string>
+  <string name="data_protection_title">Data Protection</string>
   <string name="detect_sim_card">Search for SIM card</string>
   <string name="disable_find_device_error">"Can't turn off Find device. %1$s"</string>
   <string name="enable_find_device_error">"Can't turn on Find device. %1$s"</string>
@@ -396,6 +401,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sync_item_title">Sync app data</string>
   <string name="sync_off">Off</string>
   <string name="sync_on">On</string>
+  <string name="sync_setting_title">Sync Settings</string>
   <string name="sync_sub_1_intl_sms">An outgoing international SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
   <string name="sync_sub_1_sms">An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
   <string name="sync_sub_1_sms_1_intl_sms">1 domestic and 1 international SMS message may be required to activate this service. Your carrier will charge you for these messages.</string>
