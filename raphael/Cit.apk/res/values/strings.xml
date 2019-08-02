@@ -678,6 +678,7 @@ The second line shows the name and version number of Default MBN and Carrier MBN
   <string name="cit_tool_modem_test_device_value_set">modify device state</string>
   <string name="cit_tool_modem_test_get">update</string>
   <string name="cit_tool_modem_test_mode">Modem Test Mode Setting</string>
+  <string name="cit_tool_modem_test_mode_close">close test mode</string>
   <string name="cit_tool_modem_test_mode_closed">test mode closed</string>
   <string name="cit_tool_modem_test_mode_mismatch">test mode mismatched</string>
   <string name="cit_tool_modem_test_mode_opened">test mode opened</string>
