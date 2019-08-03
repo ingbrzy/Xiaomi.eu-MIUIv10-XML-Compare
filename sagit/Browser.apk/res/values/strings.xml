@@ -303,6 +303,8 @@
   <string name="aqi_quality_index_unhealthy">Unhealthy</string>
   <string name="at_miui_browser">\@小米浏览器</string>
   <string name="autoSwithcingSearchEngineTips">Switched to the frequent search engine</string>
+  <string name="auto_download_e_c">盗版网址导流页</string>
+  <string name="auto_download_show_e_n">盗版网址导流页曝光</string>
   <string name="auto_floatlayer_click_close_e_n">点击关闭按钮</string>
   <string name="auto_floatlayer_click_e_a">点击</string>
   <string name="auto_floatlayer_click_page_e_n">点击页面</string>
@@ -1083,7 +1085,6 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="pref_notifications_title">Notifications</string>
   <string name="pref_other_title">Other</string>
   <string name="pref_paper_mode_title">Reading mode</string>
-  <string name="pref_personalized_customization">Personalized customization</string>
   <string name="pref_privacy_clear_cache">Clear cache</string>
   <string name="pref_privacy_clear_cache_dlg">Delete locally cached content and databases?</string>
   <string name="pref_privacy_clear_cache_summary">Clear locally cached contents and databases</string>
