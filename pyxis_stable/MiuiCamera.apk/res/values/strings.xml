@@ -183,8 +183,9 @@ and optimizes your photos based on this info"</string>
   <string name="custom_watermark_words">Custom watermark</string>
   <string name="custom_watermark_words_input_hint">Enter text</string>
   <string name="custom_watermark_words_save_success">Saved successfully</string>
-  <string name="device_48m_watermark_default_text">48MP TRIPLE CAMERA</string>
-  <string name="device_64m_watermark_default_text">64MP DUAL CAMERA</string>
+  <string name="device_feature_configuration_file_name">default</string>
+  <string name="device_ultra_pixel_app_watermark_family_name_suffix">_48m</string>
+  <string name="device_ultra_pixel_watermark_default_text">48MP TRIPLE CAMERA</string>
   <string name="device_watermark_default_text">AI TRIPLE CAMERA</string>
   <string name="dialog_google_lens_option_0">Google Lens (Recommended)</string>
   <string name="dialog_ok">OK</string>
@@ -326,6 +327,7 @@ in Portrait mode"</string>
   <string name="macro_mode_tip">"Distance between the lens and the object shouldn't exceed 10cm"</string>
   <string name="makeup_reset_toast">Cleared makeup effects successfully</string>
   <string name="message_snap_double_confirm">Long pressing the volume button triggers NFC now. Replace this feature?</string>
+  <string name="mimoji_app_name">Fun Cam</string>
   <string name="mimoji_back">Back</string>
   <string name="mimoji_cancle">Cancel</string>
   <string name="mimoji_check_beyond_20_degrees">Look straight into the camera</string>
@@ -604,6 +606,8 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_long_pressing_shutter_title">Press &amp; hold Shutter button to lock AE/AF/AWB</string>
   <string name="pref_camera_long_pressing_viewfinder_entry_google_lens">Google Lens</string>
   <string name="pref_camera_long_pressing_viewfinder_entry_lock_ae_af">AE/AF lock</string>
+  <string name="pref_camera_lying_summary">Notify about current orientation when the phone is parallel to the ground</string>
+  <string name="pref_camera_lying_title">Notify about orientation</string>
   <string name="pref_camera_magic_mirror_title">Magic mirror</string>
   <string name="pref_camera_manual_mode_title">Manual</string>
   <string name="pref_camera_mfnr_sat_enable_title">Turn on MFNR</string>
@@ -626,13 +630,6 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_peak_entry_on">On</string>
   <string name="pref_camera_peak_title">Focus peaking</string>
   <string name="pref_camera_picture_format_entry_raw">Raw</string>
-  <string name="pref_camera_picturesize_entry_16_9">16:9</string>
-  <string name="pref_camera_picturesize_entry_18_9">@string/pref_camera_picturesize_entry_fullscreen</string>
-  <string name="pref_camera_picturesize_entry_195_9">@string/pref_camera_picturesize_entry_fullscreen</string>
-  <string name="pref_camera_picturesize_entry_19_9">@string/pref_camera_picturesize_entry_fullscreen</string>
-  <string name="pref_camera_picturesize_entry_1_1">1:1</string>
-  <string name="pref_camera_picturesize_entry_4_3">4:3</string>
-  <string name="pref_camera_picturesize_entry_fullscreen">Full screen</string>
   <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
   <string name="pref_camera_picturesize_title_simple_mode">Camera frame</string>
   <string name="pref_camera_portrait_mode_entry_off">Portrait mode is off</string>
@@ -683,7 +680,6 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_snap_entry_take_picture">Quick snap mode (photo)</string>
   <string name="pref_camera_snap_label_take_movie">Video</string>
   <string name="pref_camera_snap_label_take_picture">Photo</string>
-  <string name="pref_camera_snap_toast_when_volume_can_wake_screen">"Can't use Quick snap mode while \"Wake with Volume buttons\" is on."</string>
   <string name="pref_camera_snap_value_off">Off</string>
   <string name="pref_camera_snap_value_take_movie">Movie</string>
   <string name="pref_camera_snap_value_take_picture">Picture</string>
@@ -698,6 +694,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_camera_tilt_shift_entryvalue_circle">circle</string>
   <string name="pref_camera_tilt_shift_entryvalue_parallel">parallel</string>
   <string name="pref_camera_tilt_shift_title">Tilt-shift</string>
+  <string name="pref_camera_touch_focus_delay_title">延长触摸对焦超时时间</string>
   <string name="pref_camera_touchafaec_default">touch-on</string>
   <string name="pref_camera_touchafaec_entry_off">Off</string>
   <string name="pref_camera_touchafaec_entry_on">On</string>
@@ -759,6 +756,7 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_google_lens_summary">Point your camera at contact info, URLs, and QR codes to view available options</string>
   <string name="pref_google_lens_title">Lens suggestions</string>
   <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
+  <string name="pref_hdr_value_default">off</string>
   <string name="pref_live_volumekey_function_default">volume</string>
   <string name="pref_manual_exposure_title">S</string>
   <string name="pref_menu_ultra_pixel_photography_32mp">32MP</string>
@@ -839,6 +837,9 @@ Keep the subject sharp while blurring the background."</string>
   <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
   <string name="pref_video_volumekey_function_default">shutter</string>
+  <string name="pref_watermark_off">Off</string>
+  <string name="pref_watermark_on">On</string>
+  <string name="pref_watermark_title">Watermark</string>
   <string name="preparing_sd">Checking SD card…</string>
   <string name="provider_authority">com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider</string>
   <string name="record_back_pressed_hint">Tap again to stop recording</string>
@@ -903,6 +904,8 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="ultra_wide_recommend_tip_hint">Try Ultra wide angle mode</string>
   <string name="ultra_wide_recommend_tip_hint_sat">Try 0.6X ultra wide angle mode</string>
   <string name="user_agree">Agree</string>
+  <string name="user_define_watermark_cancel">Cancel</string>
+  <string name="user_define_watermark_save">Save</string>
   <string name="user_notice_identify_summary_format">Before using Camera, you must agree to our &lt;a href="http://www.miui.com/res/doc/eula.html?lang=en_US"&gt;User Agreement&lt;/a&gt; and &lt;a href="http://www.miui.com/res/doc/privacy.html?lang=en_US"&gt;Privacy Policy&lt;/a&gt;. Camera also needs to connect to the internet to work normally. Agree?</string>
   <string name="user_notice_title">Terms and Conditions</string>
   <string name="video_beauty_tip">Beautify for videos</string>
@@ -926,4 +929,5 @@ Ultra wide angle mode comes to help when you can't move farther from the scene."
   <string name="wideselfie_rotate_to_left_slowly">Rotate the phone to the left</string>
   <string name="wideselfie_rotate_to_right_slowly">Rotate the phone to the right</string>
   <string name="zoom_no_support_tip_48M">"Zoom doesn't work in 48MP mode"</string>
+  <string name="zoom_no_support_tip_64M">6400万超清模式下不支持变焦</string>
 </resources>
