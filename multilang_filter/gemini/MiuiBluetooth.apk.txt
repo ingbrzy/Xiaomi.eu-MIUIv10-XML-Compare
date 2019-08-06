@@ -1,0 +1,1 @@
+Removed: [de] string/bluetooth_connected (format mismatch)
