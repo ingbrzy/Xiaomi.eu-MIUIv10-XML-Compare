@@ -162,6 +162,8 @@ only in frame mode"</string>
   <string name="back_camera0">Master Back Camera</string>
   <string name="back_camera1">Vice Back Camera</string>
   <string name="back_camera2">Twin Back Camera</string>
+  <string name="back_camera4">Back Camera Aux_4</string>
+  <string name="back_camera5">Back Camera Aux_5</string>
   <string name="back_key">back key</string>
   <string name="back_to_test">Back</string>
   <string name="background_result">Back ground test result</string>
@@ -241,10 +243,26 @@ only in frame mode"</string>
   <string name="burntest">Burn Test</string>
   <string name="button_ok">OK</string>
   <string name="calibrate">Adjust</string>
+  <string name="calibration_button_text">Calibration</string>
   <string name="calibration_distance">Calibration distance</string>
+  <string name="calibration_fail">Calibration Fail</string>
+  <string name="calibration_pass">Calibration Success</string>
   <string name="call_test">Call test</string>
   <string name="call_test_hint">Talk to the main mic, see if you can hear your voice.</string>
+  <string name="camera_cal_calibration">Calibration</string>
+  <string name="camera_cal_caling_message">Calibrating</string>
+  <string name="camera_cal_fail">Fail</string>
+  <string name="camera_cal_fail_message">Calibrate fail</string>
+  <string name="camera_cal_get_picture_success">Getting picture success, you can begin calibrate</string>
+  <string name="camera_cal_message">"Testing step:
+ 1.Click capture button
+ 2.It will autosave picture after capture
+ 3.According the message to calibration, click the pass button after calibration success"</string>
+  <string name="camera_cal_pass">Pass</string>
+  <string name="camera_cal_success_message">Calibrate success</string>
+  <string name="camera_cal_title">Camera calibration</string>
   <string name="camera_click_to_capture">Click screen to capture</string>
+  <string name="camera_switch">switch</string>
   <string name="camera_test">Camera</string>
   <string name="camera_zoom">zoom</string>
   <string name="camerainfo">Camera information</string>
@@ -695,6 +713,7 @@ mod:0-15"</string>
   <string name="press_hookkey_hint">Press hookkey than Image below will become green</string>
   <string name="press_record">Press: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 and Press record</string>
   <string name="pretestresult">Previous result</string>
+  <string name="processing_text">processing...</string>
   <string name="proximity_info">Proximity Info</string>
   <string name="proximity_info_distance">Distance:</string>
   <string name="proximity_info_noise">Ground Noise:</string>
@@ -835,6 +854,7 @@ mod:0-15"</string>
   <string name="speakerinfo">speaker test</string>
   <string name="speed">Speed :</string>
   <string name="start">Start</string>
+  <string name="start_ant">Start ANt</string>
   <string name="start_calibrate">Start calibrate...</string>
   <string name="start_get_service">get GPS service</string>
   <string name="start_test">Start test</string>
