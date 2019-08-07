@@ -126,7 +126,6 @@ Removed: [es] string/power_remaining_duration_shutdown_imminent (format mismatch
 Removed: [es] string/tts_engine_settings_title (format mismatch)
 Removed: [fi-rFI] array/app_ops_labels (item mismatch)
 Removed: [fi-rFI] array/app_ops_summaries (item mismatch)
-Removed: [fi-rFI] array/battery_indicator_style_entries (item mismatch)
 Removed: [fi-rFI] array/bluetooth_a2dp_codec_summaries (item mismatch)
 Removed: [fi-rFI] array/bluetooth_a2dp_codec_titles (item mismatch)
 Removed: [fi-rFI] array/bluetooth_avrcp_versions (item mismatch)
