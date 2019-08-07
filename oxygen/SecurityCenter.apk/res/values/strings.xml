@@ -1725,6 +1725,11 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="pc_main_power_manager_hour_minute">%1$sh %2$sm until fully charged</string>
   <string name="pc_main_sub_battery_text_day_hour">%1$sd %2$sh remaining</string>
   <string name="pc_main_sub_battery_text_hour_minute">%1$sh %2$sm remaining</string>
+  <string name="pc_search_keywords_battery">Battery</string>
+  <string name="pc_search_keywords_battery_save">Battery saver</string>
+  <string name="pc_search_keywords_battery_use">Battery usage</string>
+  <string name="pc_search_keywords_capacity">Battery capacity</string>
+  <string name="pc_search_keywords_property">Performance</string>
   <string name="pc_settings_title">Battery optimization settings</string>
   <string name="pc_statistics_battery_last_hour_minute">%1$dh %2$dm remaining</string>
   <string name="pc_statistics_battery_use_hour_minute">%1$dh %2$dm since last charge</string>
@@ -2216,7 +2221,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sp_settings_check_item_title_root">Root</string>
   <string name="sp_settings_check_item_title_sign_exception">Signature exceptions</string>
   <string name="sp_settings_check_item_title_update">System updates</string>
-  <string name="sp_settings_check_item_title_virus_exception">Virus exceptions</string>
+  <string name="sp_settings_check_item_title_virus_exception">Exceptions</string>
   <string name="sp_settings_check_item_title_wifi">WLAN</string>
   <string name="sp_settings_exception_count_zero">No items</string>
   <string name="sp_settings_group_title_check_item">Multiple items</string>
