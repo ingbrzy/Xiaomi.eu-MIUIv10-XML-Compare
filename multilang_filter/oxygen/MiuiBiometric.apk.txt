@@ -1,0 +1,2 @@
+Removed: [ro] array/device_need_operating_mode (item mismatch)
+Removed: [ro] array/device_use_cameraone (item mismatch)
