@@ -1,0 +1,2 @@
+Removed: [es-rUS] string/resource_comment_name_default (format mismatch)
+Removed: [ko] string/resource_comment_name_default (format mismatch)
