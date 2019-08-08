@@ -1,2 +1,0 @@
-Removed: [vi] array/di_zhi (item mismatch)
-Removed: [vi] array/tian_gan (item mismatch)
