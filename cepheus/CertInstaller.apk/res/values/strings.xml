@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="action_missing_private_key">Private key required to install a certificate</string>
+  <string name="action_missing_user_cert">Certificate required to install a private key</string>
   <string name="app_name">Certificate Installer</string>
   <string name="cert_is_added">%s is installed.</string>
   <string name="cert_missing_error">"Couldn't install because the certificate file couldn't be located."</string>
@@ -20,7 +22,6 @@
   <string name="name_char_error">Type a name that contains only letters and numbers.</string>
   <string name="name_credential_dialog_title">Name the certificate</string>
   <string name="name_empty_error">Type a name.</string>
-  <string name="no_cert_file_found">No certificate file found in USB storage.</string>
   <string name="no_cert_to_saved">No certificate to install.</string>
   <string name="one_cacrt">one CA certificate</string>
   <string name="one_usercrt">one user certificate</string>
@@ -32,8 +33,8 @@
   <string name="pick_file_title">Choose a certificate</string>
   <string name="pkcs12_file_password_dialog_title">Extract from %s</string>
   <string name="pkcs12_password_dialog_title">Extract certificate</string>
-  <string name="sdcard_not_present">USB storage not available.</string>
   <string name="unable_to_save_cert">"Couldn't save the certificate. The credential storage isn't enabled or properly initialized."</string>
+  <string name="userkey_type">Algorithm:</string>
   <string name="wifi_cancel_label">Cancel</string>
   <string name="wifi_config_text">"Name: %1$s
 FQDN: %2$s

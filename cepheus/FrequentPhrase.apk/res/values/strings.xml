@@ -9,6 +9,7 @@
   <string name="menu_add_frequent_phrases">Add</string>
   <string name="menu_delete">Delete</string>
   <string name="menu_edit">Edit</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="sync_phrase_label">Frequent phrases</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
 </resources>

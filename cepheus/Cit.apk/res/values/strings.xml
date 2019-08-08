@@ -133,6 +133,7 @@ Charger test end, please plug out the charger"</string>
   <string name="cit_accelermeter_sensor_check_summary">"Move the device quickly in one direction. X，Y，Z coordinate values are displayed below. (when phone is in motion: X is represents left/right, y represents front/back, z represents up and down).
 Before you calibrate the device, place it on a flat surface."</string>
   <string name="cit_accelermeter_sensor_check_title">Accelerometer</string>
+  <string name="cit_analog_headset_plug_hint">Connect analog headphones now</string>
   <string name="cit_apk_signature_failed">apk signature FAILED</string>
   <string name="cit_apk_signature_passed">apk signature PASSED</string>
   <string name="cit_aud_current_state">Current State:</string>
@@ -678,7 +679,6 @@ The second line shows the name and version number of Default MBN and Carrier MBN
   <string name="cit_tool_modem_test_device_value_set">modify device state</string>
   <string name="cit_tool_modem_test_get">update</string>
   <string name="cit_tool_modem_test_mode">Modem Test Mode Setting</string>
-  <string name="cit_tool_modem_test_mode_close">close test mode</string>
   <string name="cit_tool_modem_test_mode_closed">test mode closed</string>
   <string name="cit_tool_modem_test_mode_mismatch">test mode mismatched</string>
   <string name="cit_tool_modem_test_mode_opened">test mode opened</string>
@@ -710,7 +710,7 @@ The second line shows the name and version number of Default MBN and Carrier MBN
   <string name="cit_tool_splash_test_title">Splash Test</string>
   <string name="cit_tool_switch_autosms">Enable/Disable AutoSMSReg</string>
   <string name="cit_tool_to_fetching">to fetch</string>
-  <string name="cit_tool_wifi">WLAN test tool</string>
+  <string name="cit_tool_wifi">Wi-Fi test tool</string>
   <string name="cit_tool_wifi_chain_1">1</string>
   <string name="cit_tool_wifi_chain_1_2">1+2</string>
   <string name="cit_tool_wifi_chain_2">2</string>
@@ -730,7 +730,7 @@ The second line shows the name and version number of Default MBN and Carrier MBN
   <string name="cit_tool_wifi_rxn_test">Rx: n</string>
   <string name="cit_tool_wifi_rxn_test_bw">bandwidth:</string>
   <string name="cit_tool_wifi_rxn_test_channel">channel:</string>
-  <string name="cit_tool_wifi_sniffer">WLAN Sniffer tool</string>
+  <string name="cit_tool_wifi_sniffer">Wi-Fi Sniffer tool</string>
   <string name="cit_tool_wifi_sniffer_settings">Sniffer Settings</string>
   <string name="cit_tool_wifi_tx_ac">Tx: ac</string>
   <string name="cit_tool_wifi_tx_bg">Tx: a/b/g</string>
@@ -783,11 +783,11 @@ test fail!"</string>
   <string name="cit_vibrator_play_touch_pattern">Vibration</string>
   <string name="cit_vibrator_short">Short vibration</string>
   <string name="cit_vibrator_show_advanced">Show advanced options</string>
-  <string name="cit_wifi_address_check_summary">Below is the address of the WLAN network that the phone is currently connected to. Confirm that the info highlighted in green is correct.</string>
-  <string name="cit_wifi_address_check_title">WLAN Address</string>
-  <string name="cit_wifi_address_error">"Couldn't get WLAN address. Make sure that WLAN is enabled."</string>
-  <string name="cit_wifi_ap_scan_check_summary">Below is the WLAN AP info of the devices in the area that were detected. Confirm that the info highlighted in green is correct.</string>
-  <string name="cit_wifi_ap_scan_check_title">WLAN AP Scan</string>
+  <string name="cit_wifi_address_check_summary">Below is the address of the Wi-Fi network that the phone is currently connected to. Confirm that the info highlighted in green is correct.</string>
+  <string name="cit_wifi_address_check_title">Wi-Fi Address</string>
+  <string name="cit_wifi_address_error">"Couldn't get Wi-Fi address. Make sure that Wi-Fi is enabled."</string>
+  <string name="cit_wifi_ap_scan_check_summary">Below is the Wi-Fi AP info of the devices in the area that were detected. Confirm that the info highlighted in green is correct.</string>
+  <string name="cit_wifi_ap_scan_check_title">Wi-Fi AP Scan</string>
   <string name="cit_wifi_ap_scan_retry">Scanning again…</string>
   <string name="cit_wifi_ap_scanning">Scanning…</string>
   <string name="cit_wifi_fail_to_scan">"Couldn't scan for networks"</string>
@@ -1235,6 +1235,7 @@ After calibrate success, control the fixture close and away from the phone"</str
   <string name="start_far">Start FAR</string>
   <string name="start_frr">Start FRR</string>
   <string name="status">Status</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="status_failed">One or more tests failed</string>
   <string name="status_passed">Passed</string>
   <string name="status_running">Running</string>

@@ -9,6 +9,7 @@
   <string name="external_storage_permission_denied">This application needs to access External Storage permission in order to access files. You can manage Tag permission in Settings</string>
   <string name="import_vcard">Import ^1</string>
   <string name="mime_display_name">Data from NFC tag</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="tag_empty">Empty tag</string>
   <string name="tag_unknown">Unknown tag type</string>
   <string name="title_existing_tag">Tag</string>

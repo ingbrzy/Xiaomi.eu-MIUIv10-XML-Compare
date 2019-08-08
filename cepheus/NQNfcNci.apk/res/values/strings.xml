@@ -35,6 +35,7 @@
   <string name="pairing_peripheral_failed">Could not pair %1$s</string>
   <string name="pay_with">Pay with</string>
   <string name="prompt_connect_to_network">Connect to network %1$s?</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="status_unable_to_connect">Unable to connect to network</string>
   <string name="status_wifi_connected">Connected</string>
   <string name="tap_again_to_complete">Tap again to complete with %1$s</string>
