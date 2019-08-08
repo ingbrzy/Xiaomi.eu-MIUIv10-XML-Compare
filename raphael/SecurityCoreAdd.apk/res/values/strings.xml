@@ -385,6 +385,7 @@ If you don't update, dual apps might not work properly as well."</string>
   <string name="start_new_fingerprint_tips">"Use Second space fingerprint
 to enter Second space from Lock screen"</string>
   <string name="start_setting_guide_desc_title">There are a few things to set up</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="stop_xspace_alert_content">Delete all dual apps along with their accounts and app data? Your device will be rebooted to apply this change.</string>
   <string name="stop_xspace_alert_title">"Delete dual apps' accounts"</string>
   <string name="summary_switch_apps_settings">Select apps used in the current space</string>

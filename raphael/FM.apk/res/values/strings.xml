@@ -5,4 +5,5 @@
   <string name="notification_rec_title">Tap to view recording</string>
   <string name="record_completed">Recording completed</string>
   <string name="station_freq_format">%sMHz</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
 </resources>
