@@ -1,0 +1,1 @@
+Removed: [ro] array/support_rotate_calibrate_devices (item mismatch)
