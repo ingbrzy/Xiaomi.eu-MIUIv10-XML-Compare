@@ -936,7 +936,11 @@
         <item>com.xiaomi.mipicks</item>
         <item>com.xiaomi.discover</item>
         <item>com.miui.mishare.connectivity</item>
-        <item>com.milink.service</item>
+        <item>com.qualcomm.wfd.service</item>
+        <item>com.miui.notes</item>
+    </string-array>
+    <string-array name="system_alert_window_notification_whitelist">
+        <item>com.miui.notes</item>
     </string-array>
     <string-array name="avoid_disturb_app_whitelist">
         <item>com.baidu.BaiduMap</item>
@@ -1191,6 +1195,9 @@
     <array name="data_type_name_mcc_mnc_value" />
     <array name="data_type_name_miui_mcc_key" />
     <array name="data_type_name_miui_mcc_value" />
+    <string-array name="promote_tiles_on_update_successed">
+        <item>custom(com.milink.service/com.milink.ui.service.MiLinkTileService)</item>
+    </string-array>
     <integer-array name="config_5g_signal_rsrp_thresholds">
         <item>-140</item>
         <item>-125</item>
