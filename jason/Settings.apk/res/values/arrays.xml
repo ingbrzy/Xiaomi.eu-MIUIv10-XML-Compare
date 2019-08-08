@@ -502,16 +502,16 @@
         <item>49154</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_summaries">
-        <item>Optimized for Connection Quality</item>
-        <item>Balanced Audio And Connection Quality</item>
-        <item>Optimized for Audio Quality</item>
-        <item>Best Effort (Auto Bit Rate)</item>
+        <item>Optimized for connection quality</item>
+        <item>Balanced audio and connection quality</item>
+        <item>Optimized for audio quality</item>
+        <item>Best effort (Auto bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
-        <item>Optimized for Connection Quality (400kbps)</item>
-        <item>Balanced Audio And Connection Quality (500/560kbps)</item>
-        <item>Optimized for Audio Quality (900kbps)</item>
-        <item>Best Effort (Auto Bit Rate)</item>
+        <item>Optimized for connection quality (400kbps)</item>
+        <item>Balanced audio and connection quality (500/560kbps)</item>
+        <item>Optimized for audio quality (900kbps)</item>
+        <item>Best effort (Auto bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_values">
         <item>32768</item>
@@ -1568,6 +1568,18 @@
         <item>yes</item>
         <item>no</item>
     </string-array>
+    <string-array name="data_network_type_name_default">
+        <item>4G</item>
+        <item>4G+</item>
+    </string-array>
+    <array name="data_type_name_cus_reg_key" />
+    <array name="data_type_name_cus_reg_value" />
+    <array name="data_type_name_mcc_key" />
+    <array name="data_type_name_mcc_mnc_key" />
+    <array name="data_type_name_mcc_mnc_value" />
+    <array name="data_type_name_mcc_value" />
+    <array name="data_type_name_miui_mcc_key" />
+    <array name="data_type_name_miui_mcc_value" />
     <string-array name="data_usage_data_range">
         <item>Last 30 days</item>
         <item>Set usage cycle...</item>
@@ -2542,6 +2554,41 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@drawable/powerclick05</item>
         <item>@drawable/powerclick06</item>
         <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_long_press">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick02</item>
         <item>@drawable/powerclick01</item>
         <item>@drawable/powerclick01</item>
         <item>@drawable/powerclick01</item>
