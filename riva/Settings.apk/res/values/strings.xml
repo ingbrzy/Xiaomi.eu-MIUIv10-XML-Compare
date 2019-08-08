@@ -1171,10 +1171,10 @@ This feature can be turned off in [Settings]"</string>
   <string name="close_optimization_message">Text layout, accounts, and other parts of MIUI might be affected after you turn this feature off.</string>
   <string name="close_optimization_option">Turn off</string>
   <string name="close_privacy_thumbnail_blur_title">"Previews aren't blurred"</string>
-  <string name="cloud_backup_section_title">Mi Cloud backup</string>
+  <string name="cloud_backup_section_title">Cloud backup</string>
   <string name="cloud_backup_settings_section_title">Backup settings</string>
   <string name="cloud_restore_section_summary">Restore system settings, Home screen layout, and apps</string>
-  <string name="cloud_restore_section_title">Restore from Mi Cloud</string>
+  <string name="cloud_restore_section_title">Restore from Cloud</string>
   <string name="cmcc_hardware_version">Hardware version</string>
   <string name="color_black">Black</string>
   <string name="color_blue">Blue</string>
@@ -1771,6 +1771,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="double_twist_for_camera_mode_title">Flip camera</string>
   <string name="download_current_rom">Get latest version of MIUI</string>
   <string name="downloading_description">Downloading…</string>
+  <string name="doze_always_on_title">Always on</string>
   <string name="doze_summary">Wake screen when you receive notifications</string>
   <string name="doze_title">Ambient display</string>
   <string name="draw_overlay">Display over other apps</string>
@@ -2800,7 +2801,7 @@ as your First space PIN."</string>
   <string name="lockscreen_magazine_title">Wallpaper Carousel</string>
   <string name="lockscreen_remote_input">If device is locked, prevent typing replies or other text in notifications</string>
   <string name="lockscreen_settings_title">Lock screen preferences</string>
-  <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with Mi Cloud.</string>
+  <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with Cloud.</string>
   <string name="login_account_dialog_title">Sign in with Mi Account</string>
   <string name="login_account_summary">Manage accounts, cloud services, payments, and more</string>
   <string name="login_action">Sign in</string>
@@ -2809,7 +2810,9 @@ as your First space PIN."</string>
   <string name="long_press_home_key">Long press the Home button</string>
   <string name="long_press_menu_key">Long press the Menu button</string>
   <string name="long_press_menu_key_when_lock">Long press Menu on the Lock screen</string>
+  <string name="long_press_power_key">Long press the Power button</string>
   <string name="long_press_power_key_half_of_second">Press and hold the Power button for 0.5s to turn on Google Assistant</string>
+  <string name="long_press_power_key_tips">&lt;Data&gt;Long press the Power button &amp;lt;font color=#999999&amp;gt;Faster and more convenient&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
   <string name="long_press_volume_down">Long press Volume down</string>
   <string name="lost_internet_access_cancel">Stay on WLAN</string>
   <string name="lost_internet_access_persist">Never show again</string>
@@ -3701,6 +3704,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="power_usage_not_available">Battery usage data isn’t available.</string>
   <string name="power_usage_summary">What has been using the battery</string>
   <string name="power_usage_summary_title">Battery &amp; performance</string>
+  <string name="power_usage_summary_title_new">Battery &amp; performance</string>
   <string name="power_user">User</string>
   <string name="power_wifi">WLAN</string>
   <string name="pre_installed_application">Pre-installed apps</string>
@@ -4641,7 +4645,7 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="settings_manual_activity_title">Manual</string>
   <string name="settings_manual_activity_unavailable">There is a problem loading the manual.</string>
   <string name="settings_new_version_btn">Update</string>
-  <string name="settings_notify_need_backup">Back up your settings to Mi Cloud to access them after you switch phones.</string>
+  <string name="settings_notify_need_backup">Back up your settings to Cloud to access them after you switch phones.</string>
   <string name="settings_notify_new_version">An update is available. Tap to view details.</string>
   <string name="settings_notify_phone_recycled">Your phone number has been recycled. Tap to add a different phone number.</string>
   <string name="settings_package">com.android.settings</string>
@@ -5163,7 +5167,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="sync_plug">&lt;font fgcolor="#ffffffff"&gt;Welcome to Google sync!&lt;/font&gt;" 
 A Google approach to syncing data to allow access to your contacts, appointments, and more from wherever you are."</string>
   <string name="sync_settings">Accounts &amp; sync</string>
-  <string name="sync_wifi_label">WLAN</string>
+  <string name="sync_wifi_label">Wi-Fi</string>
   <string name="sync_wifi_only">WLAN only</string>
   <string name="system">System</string>
   <string name="system_alert_window_access_title">Display over other apps</string>
@@ -6234,7 +6238,7 @@ Allow this for all apps that want to scan?"</string>
 Tap"&lt;b&gt; Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_setup_description_connecting">Connecting can take a few minutes…</string>
   <string name="wifi_setup_detail">Network details</string>
-  <string name="wifi_setup_eap_not_supported">"You can't configure an EAP Wi-Fi connection during setup. After setup, you can go to Settings &gt; Wireless &amp; networks."</string>
+  <string name="wifi_setup_eap_not_supported">"You can't configure an EAP WLAN connection during setup. After setup, you can go to Settings &gt; Wireless &amp; networks."</string>
   <string name="wifi_setup_forget">Forget</string>
   <string name="wifi_setup_next">Next</string>
   <string name="wifi_setup_not_connected">Not connected</string>
@@ -6424,10 +6428,9 @@ Tap"&lt;b&gt; Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="write_tag">Write</string>
   <string name="wrong_pin_code_pukked">Incorrect SIM PIN code you must now contact your carrier to unlock your device.</string>
   <string name="xiaomi_account">Mi Account</string>
-  <string name="xiaomi_cloud_service">Mi Cloud</string>
-  <string name="xiaomi_cloud_service_description">Mi Cloud syncs your contacts and photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
-  <string name="xiaomi_cloud_service_description_contact">contacts and</string>
-  <string name="xiaomi_cloud_service_description_format">Mi Cloud syncs your %s photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
+  <string name="xiaomi_cloud_service">Cloud</string>
+  <string name="xiaomi_cloud_service_description">Cloud syncs your contacts and photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
+  <string name="xiaomi_cloud_service_description_without_contacts">Cloud syncs your photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
   <string name="xiaomi_cloud_service_disabled">Off</string>
   <string name="xiaomi_cloud_service_unknown">Unknown</string>
   <string name="xiaomi_money_service">Mi Credit</string>

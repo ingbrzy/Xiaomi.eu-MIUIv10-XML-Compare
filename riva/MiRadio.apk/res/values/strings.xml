@@ -105,6 +105,8 @@
   <string name="asset_sync_power_alert_title">Low battery</string>
   <string name="audio_recognition_setting_summary">Find album covers and lyrics for local songs automatically</string>
   <string name="auth_activity_title">Xunlei Account</string>
+  <string name="author_other_albums">"Author's other albums"</string>
+  <string name="author_other_albums_empty">"The author hasn't uploaded any other album yet"</string>
   <string name="auto_enter_nowplaying_setting_title">Show maximized player automatically</string>
   <string name="auto_payment">Automatic renewal</string>
   <string name="auto_payment_date">Next payment: %s</string>
@@ -212,6 +214,7 @@
   <string name="deselect_all">Deselect all</string>
   <string name="desktop_lyric_lock_toast">Locked. You can unlock Music in Notification shade.</string>
   <string name="desktop_lyric_setting_title">Home screen lyrics</string>
+  <string name="detail">Details</string>
   <string name="device_connected">Connected</string>
   <string name="device_not_connected">Not connected</string>
   <string name="dialog_cannot_resume">"Download interrupted. It can't be resumed."</string>
@@ -503,6 +506,7 @@
   <string name="menu_headset">Switch to headset</string>
   <string name="menu_label">Menu</string>
   <string name="menu_new_station">Add</string>
+  <string name="menu_online_service">Online Service</string>
   <string name="menu_preferences">Download settings</string>
   <string name="menu_privacy">Privacy Policy</string>
   <string name="menu_record_list">Recordings</string>
@@ -556,6 +560,7 @@
   <string name="msg_noantenna_message">No headphones detected. Some functions may not be available.</string>
   <string name="msg_try_plug_headset">Connect headphones and try again.</string>
   <string name="multiple_select">Select</string>
+  <string name="multiply_prefix">X%1$s</string>
   <string name="music_filter">Filter audio files</string>
   <string name="my_account">Mi Account</string>
   <string name="my_download">My Download</string>
@@ -570,6 +575,7 @@
   <string name="new_comment">最新评论(%s条)</string>
   <string name="new_frequency">New frequency</string>
   <string name="new_search_instant_title">Search：%1$s</string>
+  <string name="news_not_interest_positive">Not interested</string>
   <string name="next_station">Next station</string>
   <string name="next_time">Not now</string>
   <string name="nick_name">Name</string>
@@ -621,7 +627,10 @@
   <string name="online_music_enabled_summary">Listen and download your favorite songs. View top songs and curated playlists wherever you go!</string>
   <string name="online_music_enabled_title">Free streaming is here</string>
   <string name="online_recommend">Recommend</string>
+  <string name="online_service_dialog_message">Turning off online content will affect all online recommendations and syncs, confirm closing?</string>
+  <string name="online_service_dialog_title">Online Service</string>
   <string name="online_service_open_tip">Online music services are on</string>
+  <string name="online_service_switch">Online service</string>
   <string name="online_service_title">Online services</string>
   <string name="online_switch">Online content services</string>
   <string name="online_switch_message">Turning off online services will affect VIP services and recommendations. Turn off anyway?</string>
@@ -629,6 +638,7 @@
   <string name="online_tip_text">Allow the app to connect to the internet to be able to listen to online radio</string>
   <string name="open_download">Open</string>
   <string name="open_online_service">You need to turn on online services to use this feature. Turn on now?</string>
+  <string name="open_online_service_tip">Online service is enabled</string>
   <string name="open_service">Turn on</string>
   <string name="optimize_all_until_optimized">Applying new cover and lyrics…</string>
   <string name="optimize_all_until_scanned">Wait until Music finishes checking storage for songs.</string>
@@ -696,6 +706,7 @@
   <string name="play_mode_single">Single Mode</string>
   <string name="play_next">Play next</string>
   <string name="play_song_continue">Continue playing</string>
+  <string name="play_speed">Play Speed</string>
   <string name="playlist_empty">No playlists found.</string>
   <string name="playlist_type_album">Albums</string>
   <string name="playlist_type_artist">Artist</string>
@@ -836,8 +847,14 @@
   <string name="sleep_close">Close</string>
   <string name="sleep_custom">Custom</string>
   <string name="sleep_mode">Sleep timer</string>
+  <string name="sleep_mode_cancel">Cancel</string>
   <string name="sleep_mode_canceled">Sleep mode turned off</string>
+  <string name="sleep_mode_ok">Ok</string>
+  <string name="sleep_mode_one">played now</string>
   <string name="sleep_mode_state">"Sleep timer: "</string>
+  <string name="sleep_mode_three">played three songs</string>
+  <string name="sleep_mode_two">played two songs</string>
+  <string name="sleep_mode_warning">Player will stop after %1$d set</string>
   <string name="sns_sign_in">Other way to sign in</string>
   <string name="song_exist_in_playlist">This song is already in the queue</string>
   <string name="song_group_float_save_picture">Save cover</string>
@@ -850,6 +867,8 @@
   <string name="sort">Sort</string>
   <string name="sort_by_name">Name</string>
   <string name="sort_by_time">Date</string>
+  <string name="spammy_contents">Spam</string>
+  <string name="speed">"Speed "</string>
   <string name="splash_bottom_hint">by Xiaomi Music</string>
   <string name="splash_skip_button">Skip</string>
   <string name="start_to_download">Added to download list</string>
@@ -915,6 +934,7 @@
   <string name="talkback_view_type">View songs by</string>
   <string name="task_already_exist">Task already exists</string>
   <string name="text_separator">|</string>
+  <string name="thanks_for_feedback">Thanks for your feedback!</string>
   <string name="ticket_hint">Verification code</string>
   <string name="ticket_invalid">The code you entered is incorrect</string>
   <string name="ticket_sign_in">Sign in via SMS</string>
@@ -955,6 +975,7 @@
   <string name="txt_divider">" | "</string>
   <string name="txt_sleep_mode">Sleep mode</string>
   <string name="ultra_high_quality">Highest</string>
+  <string name="unable_to_play">"Can't play"</string>
   <string name="unknown_album_name">Unknown album</string>
   <string name="unknown_artist_name">Unknown artist</string>
   <string name="unknown_program_name">Unknown program</string>
@@ -977,6 +998,7 @@
   <string name="v_code_title">Enter 2-Step verification code</string>
   <string name="version_info">Version</string>
   <string name="view_all_comment">查看全部%s条评论</string>
+  <string name="view_all_news">View all news</string>
   <string name="view_stations_list">View stations list</string>
   <string name="vip_after_tomorrow_auto_renew_message">Your Music subscription will be renewed automatically the evening of day after tomorrow. Make sure you have enough Mi Credits in your account to complete this payment.</string>
   <string name="vip_after_tomorrow_renew_message">"You won't be able to stream high quality audio, but some songs will be available in regular quality."</string>
