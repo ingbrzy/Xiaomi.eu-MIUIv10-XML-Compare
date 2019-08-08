@@ -105,7 +105,7 @@ You can sign in to your Mi Account using %s now."</string>
   <string name="change_email_address">Change email address</string>
   <string name="change_password">Change password</string>
   <string name="change_phone_number">Change phone number</string>
-  <string name="cloud_service">Mi Cloud</string>
+  <string name="cloud_service">Xiaomi Cloud</string>
   <string name="collect_diagnosis_log">Generate diagnostic log</string>
   <string name="com_facebook_device_auth_instructions">Visit &lt;b&gt;facebook.com/device&lt;/b&gt; and enter the code shown above.</string>
   <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
@@ -216,7 +216,7 @@ Send this code to the supervisor."</string>
   <string name="input_new_pwd">Enter new password</string>
   <string name="io_error_title">Confirm your network</string>
   <string name="just_a_second">Just a sec…</string>
-  <string name="kr_license_desc">You must agree to our User Agreement and Privacy Policy before using Mi Account and Mi Cloud services.</string>
+  <string name="kr_license_desc">You must agree to our User Agreement and Privacy Policy before using Mi Account and Xiaomi Cloud services.</string>
   <string name="kr_permission_contacts_desc">For accessing contact info</string>
   <string name="kr_permission_desc">Permissions required</string>
   <string name="kr_permission_phone_desc">For protecting your account</string>
@@ -241,8 +241,8 @@ Send this code to the supervisor."</string>
   <string name="mipay_others">Other</string>
   <string name="mipay_transit_card">Transport card</string>
   <string name="multi_user_not_show_sync_activity_message_1">"Looks like you're using your First space Mi Account."</string>
-  <string name="multi_user_not_show_sync_activity_message_2">"In such case, all the data will be synced to your Second space. To avoid this, don't turn on sync with Mi Cloud."</string>
-  <string name="multi_user_not_show_sync_activity_title">"Don't turn on sync with Mi Cloud"</string>
+  <string name="multi_user_not_show_sync_activity_message_2">"In such case, all the data will be synced to your Second space. To avoid this, don't turn on sync with the cloud."</string>
+  <string name="multi_user_not_show_sync_activity_title">"Don't turn on sync with the cloud"</string>
   <string name="my_device_title">Current device</string>
   <string name="need_install_wechat">Install WeChat first</string>
   <string name="no_network_btn">Refresh</string>
@@ -444,7 +444,7 @@ To activate your account, follow the
   <string name="passport_skip_login">Skip</string>
   <string name="passport_skip_register">Skip sign-up</string>
   <string name="passport_skip_setup_account_msg">You can set up a Mi Account later in Settings.</string>
-  <string name="passport_skip_setup_account_title">"Don't use Mi Cloud?"</string>
+  <string name="passport_skip_setup_account_title">"Don't use Xiaomi Cloud?"</string>
   <string name="passport_sms_send_success">Sent</string>
   <string name="passport_sms_verification_code_login">Sign in using SMS</string>
   <string name="passport_sms_verification_code_login_or_register">Sign in or create account using SMS</string>
@@ -516,7 +516,7 @@ To activate your account, follow the
   <string name="search_menu_title">Search</string>
   <string name="search_mi_account">Mi Account</string>
   <string name="search_mi_account_desc">Mi Account</string>
-  <string name="search_mi_account_key_words">Mi Cloud,Account Setting,Mi Pay Info,Sign out</string>
+  <string name="search_mi_account_key_words">Xiaomi Cloud,Account settings,Mi Pay info,Sign out</string>
   <string name="search_mi_account_path">Settings/Mi Account</string>
   <string name="search_user_detail">Personal info</string>
   <string name="search_user_detail_bottom_key_words">Change Income,Change Education,Change Location,Change Region</string>
