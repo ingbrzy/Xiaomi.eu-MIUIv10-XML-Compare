@@ -1,1 +1,0 @@
-Removed: [ro] array/action_bar_bg_colors (untranslatable)
