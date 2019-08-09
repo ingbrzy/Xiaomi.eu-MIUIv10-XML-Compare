@@ -920,6 +920,9 @@
         <item>1920x1080/320|3840x2160/640,secure</item>
         <item>1280x720/213;1920x1080/320</item>
     </string-array>
+    <string-array name="promote_tiles_on_update_successed">
+        <item>custom(com.milink.service/com.milink.ui.service.MiLinkTileService)</item>
+    </string-array>
     <array name="recents_blacklist_array" />
     <string-array name="recents_thumbnail_blur_white_pkgs">
         <item>com.android.camera</item>
@@ -1397,6 +1400,9 @@
         <item>@drawable/stat_sys_signal_4_3g_fully</item>
         <item>@drawable/stat_sys_signal_4_4g_fully</item>
     </array>
+    <string-array name="system_alert_window_notification_whitelist">
+        <item>com.miui.notes</item>
+    </string-array>
     <string-array name="system_foreground_notification_whitelist">
         <item>com.xiaomi.joyose</item>
         <item>com.miui.home</item>
@@ -1418,7 +1424,8 @@
         <item>com.xiaomi.mipicks</item>
         <item>com.xiaomi.discover</item>
         <item>com.miui.mishare.connectivity</item>
-        <item>com.milink.service</item>
+        <item>com.qualcomm.wfd.service</item>
+        <item>com.miui.notes</item>
     </string-array>
     <string-array name="telephony_data_activity_1x_sim1">
         <item>0</item>
