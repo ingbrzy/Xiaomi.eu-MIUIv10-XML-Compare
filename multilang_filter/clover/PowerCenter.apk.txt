@@ -1,0 +1,2 @@
+Removed: [uk] string/power_consume_total_hardware (format mismatch)
+Removed: [uk] string/power_consume_total_software (format mismatch)
