@@ -1481,6 +1481,18 @@
     <string-array name="darkcode_device_list">
         <item>clover</item>
     </string-array>
+    <string-array name="data_network_type_name_default">
+        <item>4G</item>
+        <item>4G+</item>
+    </string-array>
+    <array name="data_type_name_cus_reg_key" />
+    <array name="data_type_name_cus_reg_value" />
+    <array name="data_type_name_mcc_key" />
+    <array name="data_type_name_mcc_mnc_key" />
+    <array name="data_type_name_mcc_mnc_value" />
+    <array name="data_type_name_mcc_value" />
+    <array name="data_type_name_miui_mcc_key" />
+    <array name="data_type_name_miui_mcc_value" />
     <string-array name="data_usage_data_range">
         <item>Last 30 days</item>
         <item>Set usage cycle...</item>
@@ -2446,6 +2458,41 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@drawable/powerclick05</item>
         <item>@drawable/powerclick06</item>
         <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_long_press">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick02</item>
         <item>@drawable/powerclick01</item>
         <item>@drawable/powerclick01</item>
         <item>@drawable/powerclick01</item>
