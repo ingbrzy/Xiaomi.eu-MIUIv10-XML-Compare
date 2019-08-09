@@ -1,0 +1,3 @@
+Removed: [es-rUS] array/thermal_summaries (item mismatch)
+Removed: [nl] array/emode_app_groups (item mismatch)
+Removed: [nl] array/hmode_app_classify2 (item mismatch)
