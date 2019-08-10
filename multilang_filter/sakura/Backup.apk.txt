@@ -1,4 +1,5 @@
 Removed: [fi-rFI] array/trans_cancel_survey_title (item mismatch)
+Removed: [fr] array/trans_succeed_survey_title (item mismatch)
 Removed: [hr] array/trans_cancel_survey_title (item mismatch)
 Removed: [ja] array/trans_cancel_survey_title (item mismatch)
 Removed: [ro] array/trans_cancel_survey_title (item mismatch)
