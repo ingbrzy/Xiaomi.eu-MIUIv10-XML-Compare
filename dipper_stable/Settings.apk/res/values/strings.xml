@@ -1710,6 +1710,10 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="date_time_set_timezone_title">Time zone</string>
   <string name="date_time_settings">Date &amp; time</string>
   <string name="day_of_week">Day of the week</string>
+  <string name="dc_light_dialog_summary">Image quality might be affected when Anti-flicker mode is on. Turn on anyway?</string>
+  <string name="dc_light_summary">Apply DC dimming to reduce eye strain</string>
+  <string name="dc_light_summary_new">DC dimming reduces eye strain in low light conditions. However, image quality might be affected when Anti-flicker mode is on.</string>
+  <string name="dc_light_title">Anti-flicker mode</string>
   <string name="debug_app">Select debug app</string>
   <string name="debug_app_not_set">No debug application set</string>
   <string name="debug_app_set">Debugging application: %1$s</string>
@@ -3920,6 +3924,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="paper_mode_get_location_dlg_negative_btn_text">Cancel</string>
   <string name="paper_mode_get_location_dlg_positive_btn_text">Go to Settings</string>
   <string name="paper_mode_get_location_dlg_title">Set location</string>
+  <string name="paper_mode_side_effect_hint">Higher intensity might affect the way content is displayed.</string>
   <string name="paper_mode_start_time_title">Turn on</string>
   <string name="passpoint_content">%1$s credentials</string>
   <string name="passpoint_label">Saved via</string>
@@ -4541,6 +4546,7 @@ This setting affects all users on this phone."</string>
   <string name="screen_paper_mode_global_summary">Use Reading mode for all apps</string>
   <string name="screen_paper_mode_global_title">All apps</string>
   <string name="screen_paper_mode_hdr_toast">"Reading mode will be turned off while you're playing HDR videos. It will be turned back on automatically after the playback is over."</string>
+  <string name="screen_paper_mode_hdr_toast_new">Reading mode will be turned off automatically during HDR video playback and fingerprint verification. Your device will switch back to Reading mode once these actions are completed.</string>
   <string name="screen_paper_mode_local_summary">Use Reading mode for apps you select</string>
   <string name="screen_paper_mode_local_title">Selected apps</string>
   <string name="screen_paper_mode_off_apps_title">"Don't use Reading mode"</string>
@@ -5319,6 +5325,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
   <string name="status_bar_settings_show_network_speed">Show connection speed</string>
   <string name="status_bar_settings_show_notification_icon">Show notification icons</string>
+  <string name="status_bar_settings_show_weather">Show weather in notification shade</string>
   <string name="status_bar_settings_show_wifi_name">Show WLAN</string>
   <string name="status_bar_settings_status_bar">Status bar</string>
   <string name="status_bar_settings_style">Notifications &amp; toggles layout</string>

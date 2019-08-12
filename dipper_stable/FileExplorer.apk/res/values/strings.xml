@@ -13,7 +13,7 @@
   <string name="album_name">Daily selection: %s</string>
   <string name="all_topic">All topics</string>
   <string name="already_liked">"You've already starred this item"</string>
-  <string name="app_name">File Manager</string>
+  <string name="app_name">Files</string>
   <string name="app_name_bluetooth">Bluetooth</string>
   <string name="app_name_camera">Camera</string>
   <string name="app_name_downloadedrom">Packages</string>
@@ -25,7 +25,7 @@
   <string name="app_name_miuiringtone">Ringtone</string>
   <string name="app_name_miuiwallpaper">Wallpapers</string>
   <string name="app_name_screenshot">Screenshots</string>
-  <string name="auto_play">Play automatically when connected to WLAN</string>
+  <string name="auto_play">Play automatically when connected to Wi-Fi</string>
   <string name="auto_play_later">Later</string>
   <string name="auto_play_now">Turn on</string>
   <string name="auto_play_recommend">Play automatically</string>
@@ -90,15 +90,8 @@
   <string name="click_to_switch_volume">Tap to switch between internal storage and SD card</string>
   <string name="click_to_switch_volume_pad">Tap to switch between internal storage and SD card</string>
   <string name="clock_in">Checking in…</string>
-  <string name="clockin_failed">"Couldn't check in, try again"</string>
-  <string name="clockin_success">Checked in successfully</string>
-  <string name="clockin_use">Get a prize</string>
   <string name="comment_delete_message">The comment will be deleted permanently.</string>
   <string name="comment_delete_title">Delete comment</string>
-  <string name="comment_fail">"Couldn't publish comment, try again"</string>
-  <string name="comment_fail_banned_forever">"You've been permanently banned for inappropriate comments. Contact our QQ group (374463568) for more information."</string>
-  <string name="comment_fail_banned_forever_positive">Got it</string>
-  <string name="comment_fail_banned_temporary">"You've been temporarily banned for inappropriate comments"</string>
   <string name="comment_hint">Add comment</string>
   <string name="comment_reply">Reply %1$s: </string>
   <string name="compress_fail">"Couldn't compress. A file with the same name already exists."</string>
@@ -111,14 +104,12 @@
   <string name="connecting">Connecting…</string>
   <string name="connection_error">"Couldn't connect"</string>
   <string name="connection_lost">Disconnected</string>
-  <string name="contain_sensitive_words">Remove inappropriate words and try again</string>
   <string name="copied">Copied</string>
   <string name="copy_failed">"Couldn't copy"</string>
   <string name="copy_text">Copy text</string>
   <string name="copy_to">Copy to…</string>
   <string name="count_down">Countdown: %1$s</string>
   <string name="create_shortcut_success">Added shortcut successfully</string>
-  <string name="daily_clockin">Check in</string>
   <string name="data_consumption_cancel">"Don't agree"</string>
   <string name="data_consumption_checkbox_hint">"Don't show again"</string>
   <string name="data_consumption_confirm">OK</string>
@@ -210,11 +201,9 @@
   <string name="file_loading">Just a sec…</string>
   <string name="file_name_invalid">"File names can't contain the following characters: /\\:*?&lt;&gt;"</string>
   <string name="file_not_exist">"File doesn't exist"</string>
-  <string name="finish_str">Done</string>
   <string name="folder_name_empty">"Folder name can't be empty"</string>
   <string name="folder_name_illegal">Invalid folder name</string>
   <string name="follow_fail">"Couldn't follow, try again later"</string>
-  <string name="follow_success_tip">Followed successfully</string>
   <string name="follow_tip_1">Follow me to watch more videos</string>
   <string name="follow_tip_2">Follow me to watch more videos</string>
   <string name="force_touch_clean">Clean up</string>
@@ -332,13 +321,10 @@
   <string name="move_icon_to_desktop_success">Shortcut added to Home screen.</string>
   <string name="move_to">Move to…</string>
   <string name="msg_notify_setting">Notification settings</string>
-  <string name="msg_page_video_default_title">I uploaded a video, take a look!</string>
   <string name="msg_set_password">Set password first</string>
   <string name="mtp_device">Media device (MTP)</string>
   <string name="mtp_label">MTP</string>
-  <string name="my_follows">My feed</string>
   <string name="name_empty">Enter a name</string>
-  <string name="need_login">Sign in first</string>
   <string name="need_read_storage_permission">"File Manager requires permission to access device's storage to work normally."</string>
   <string name="network_dialog_checkbox_tip">"Don't show again"</string>
   <string name="network_not_available">"Can't connect to the network"</string>
@@ -361,9 +347,7 @@
   <string name="no_message">No messages</string>
   <string name="no_new_content_tip">All items are up to date</string>
   <string name="no_recent_files">No recent files</string>
-  <string name="no_search_content">"Couldn't find results"</string>
   <string name="no_topic">No topics</string>
-  <string name="no_videos">Nothing here. Check out the ones below!</string>
   <string name="no_wifi">No network detected</string>
   <string name="no_wifi_hint">No connection</string>
   <string name="not_installed_documentsui">DocumentsUI not installed</string>
@@ -409,7 +393,6 @@
   <string name="operation_rename_message">Rename folder</string>
   <string name="operation_reply">Comment</string>
   <string name="operation_send">Send</string>
-  <string name="operation_share">Share</string>
   <string name="operation_show_privacy_policy">Show Privacy Policy</string>
   <string name="operation_show_sys">Show hidden files</string>
   <string name="operation_unfavorite">Unfavorite</string>
@@ -430,9 +413,6 @@
   <string name="partial_delete_failure">"Couldn't delete some files, try again"</string>
   <string name="partial_encrypt_success">"Couldn't hide some files, try again"</string>
   <string name="path_download">Manage your downloads</string>
-  <string name="path_hot_sticker">Popular stickers</string>
-  <string name="path_hot_video">View popular short videos for free</string>
-  <string name="path_kuai_chuan">Peer-to-peer file transfers</string>
   <string name="path_recent_file">Manage files on your device</string>
   <string name="permission_denial">"Couldn't access files. Allow File Manager to access files in the Settings."</string>
   <string name="permission_required">"Couldn't access files. Allow File Manager to access files in the Settings.​"</string>
@@ -487,12 +467,9 @@
   <string name="qq_not_installed">"QQ isn't installed"</string>
   <string name="qq_platform">QQ</string>
   <string name="qzone_platform">Qzone</string>
-  <string name="recent_show">Recent</string>
   <string name="recommend">Recommended</string>
-  <string name="recommend_popup_title">Recommendations</string>
   <string name="recommend_topic">Recommended topics</string>
   <string name="recommend_user">Recommended profiles</string>
-  <string name="recommend_users">%1$s+</string>
   <string name="remote_video_report_success">"Thank you for your feedback! We'll follow up as soon as possible."</string>
   <string name="rename_alert">"If you change this file's extension, you may not be able to open it."</string>
   <string name="rename_alert2">The file will be hidden after you change its extension.</string>
@@ -522,10 +499,6 @@
   <string name="rlv_release_to_close">Release to close</string>
   <string name="rlv_release_to_refresh">Release to refresh</string>
   <string name="save">Save</string>
-  <string name="save_desc_success">Changed successfully​</string>
-  <string name="save_failed">"Couldn't save, try again"</string>
-  <string name="save_failed_for_length">Signature is too long, try a shorter one</string>
-  <string name="save_name_success">Changed successfully</string>
   <string name="save_to_local">Download</string>
   <string name="search_app">Apps &amp; folders</string>
   <string name="search_app_more">More</string>
@@ -541,11 +514,7 @@
   <string name="search_guid_hint">Search files</string>
   <string name="search_hint">Search</string>
   <string name="search_history">Search history</string>
-  <string name="search_hot_sticker">Stickers; Download stickers</string>
-  <string name="search_hot_video">Popular videos;Upload videos;Upload video;Short video;Short videos;Small video;Small videos</string>
   <string name="search_keyword">Tags</string>
-  <string name="search_kuai_chuan">Mi Drop;Transfer</string>
-  <string name="search_popup_tip">You can search for people and topics</string>
   <string name="search_recent_file">File explorer;Explorer;File;Files;Manage files;File manager</string>
   <string name="search_result">Results</string>
   <string name="search_result_more">More</string>
@@ -556,14 +525,8 @@
   <string name="search_statistic_tag">tag</string>
   <string name="search_title">Search</string>
   <string name="search_title_hint">Search</string>
-  <string name="search_topic">Search for topics</string>
-  <string name="search_user">Search for people</string>
-  <string name="see_more_topic">More topics</string>
-  <string name="see_more_user">More users</string>
   <string name="select_dest_folder">Select folder</string>
   <string name="select_image">Images</string>
-  <string name="select_interest_str">Select the topics you like</string>
-  <string name="select_interest_tip">"There's a lot to discover!"</string>
   <string name="select_music">Audio files</string>
   <string name="select_video">Video files</string>
   <string name="select_volume">Select volume</string>
@@ -598,8 +561,6 @@
   <string name="share_title_09">%s I shared a video, take a look!</string>
   <string name="share_title_1">Found a cool sticker bundle!</string>
   <string name="share_to">Share using…</string>
-  <string name="share_topic_desc">Upload videos to get prizes</string>
-  <string name="share_topic_title">"I'm watching #%1$s#, take a look!"</string>
   <string name="shared_sticker_network_permission_tip">"Couldn't connect to the network. Check your network connection and try again."</string>
   <string name="shared_sticker_page_no_file">"Couldn't connect to the network. Check your network connection and try again."</string>
   <string name="shared_sticker_str">Recent</string>
@@ -659,7 +620,6 @@
   <string name="topic_follow">Follow</string>
   <string name="topic_followed">Following</string>
   <string name="topic_message">&lt;font color=#fc7050&gt;%1$s: &lt;/font&gt;%2$s</string>
-  <string name="topic_title">Topics</string>
   <string name="transfer_done">Files moved successfully.</string>
   <string name="transfer_private_data">Moving hidden folders from SD card…</string>
   <string name="type_not_support">"This file format isn't supported. Unpack this file and try again."</string>
@@ -704,7 +664,6 @@
   <string name="uploading_video">Uploading video…</string>
   <string name="usb_label">USB</string>
   <string name="used">Used</string>
-  <string name="user">Users</string>
   <string name="user_cancel">Canceled</string>
   <string name="user_center_title">Home</string>
   <string name="user_desc_default_tip">Sign in to collect points and win prizes.</string>
@@ -780,7 +739,6 @@
   <string name="video_publish_hint">A good description will help other people find your video</string>
   <string name="video_publish_hint2">Description</string>
   <string name="video_publish_origin_tag">Original tag</string>
-  <string name="video_publish_watchable_limit">You can do this twice every day</string>
   <string name="video_publish_watchable_tag">Follow me to watch this video</string>
   <string name="video_status_reject">Rejected</string>
   <string name="video_status_review">Being reviewed</string>
@@ -812,7 +770,7 @@
   <string name="weibo_str">Weibo</string>
   <string name="weixin_not_installed">"WeChat isn't installed"</string>
   <string name="weixin_sticker_tag_str">Sticker</string>
-  <string name="wifi_state">WLAN network</string>
+  <string name="wifi_state">Wi-Fi network</string>
   <string name="wxcircle_platform">Moments</string>
   <string name="xiaomi_btn_bind">Mi Account</string>
   <string name="xiaomi_btn_str">Mi</string>
