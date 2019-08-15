@@ -127,7 +127,7 @@
   <string name="hide_bottom_view_on_scroll_behavior">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
   <string name="image_file_name_format">"'scanner'_yyyyMMdd_HHmmss"</string>
   <string name="import_contact">Import contact</string>
-  <string name="impunity_declaration_content">"Scanner needs to use your camera and process the images you take while using the app. Don't use Scanner to take photos of the objects containing your personal information. By tapping \"Agree\", you're agreeing to our &lt;font color=\"#ff32b4ff\"&gt;&lt;a href=\"http://privacy.mi.com/all/%1$s\" style=\"color:#ff32b4ff;\"&gt;Privacy Policy&lt;/a&gt;&lt;/font&gt; and allow Scanner to connect to the internet."</string>
+  <string name="impunity_declaration_content">"Scanner needs to use your camera and process the images you take while using the app. Don't use Scanner to take photos of the objects containing your personal information. By tapping \"Agree\", you're agreeing to our &lt;font color=\"#ff32b4ff\"&gt;&lt;a href=\"http://privacy.mi.com/all/%1$s\" style=\"color:#ff32b4ff;\"&gt;Privacy Policy&lt;/a&gt;&lt;/font&gt; and allowing Scanner to connect to the internet."</string>
   <string name="impunity_declaration_negative_text">Exit</string>
   <string name="impunity_declaration_title">Privacy Policy</string>
   <string name="jd_shopping_title">Search on JD</string>
@@ -271,9 +271,9 @@
   <string name="wifi_details">Wi-Fi:</string>
   <string name="wifi_exist_fail">Wi-Fi hotspot \"%1$s\" already exists. Delete it and try again.</string>
   <string name="wifi_open_fail">"Can't turn on Wi-Fi"</string>
-  <string name="wifi_psd_toolong">The password length is too long, please enter it manually</string>
+  <string name="wifi_psd_toolong">The password is too long. Enter the password manually.</string>
   <string name="wifi_pwd">Password:</string>
   <string name="wifi_security">Security:</string>
   <string name="wifi_ssid">SSID:</string>
-  <string name="wx_not_installed_toast">This function needs to open WeChat, please install WeChat</string>
+  <string name="wx_not_installed_toast">This feature needs to use WeChat. Install WeChat first.</string>
 </resources>
