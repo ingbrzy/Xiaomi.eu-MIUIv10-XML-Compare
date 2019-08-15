@@ -121,6 +121,7 @@
   <string name="enable_usb_diag">Diag USB port enable</string>
   <string name="english">English</string>
   <string name="error_pass">Please correct test!</string>
+  <string name="factory_test_reset_name">factory test reset</string>
   <string name="fail">Fail</string>
   <string name="fingerprint_compare">Please enroll fingerprint again for compare</string>
   <string name="fingerprint_enrol_success">Enroll Success!</string>
