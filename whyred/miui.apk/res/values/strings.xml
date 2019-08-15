@@ -483,6 +483,7 @@
   <string name="saturday">Saturday</string>
   <string name="saturday_short">Sat</string>
   <string name="saturday_shortest">S</string>
+  <string name="search_action_mode_cancel">Cancel</string>
   <string name="search_input_description">Search</string>
   <string name="search_mode_button_back_description">Back</string>
   <string name="select_all">Select all</string>
