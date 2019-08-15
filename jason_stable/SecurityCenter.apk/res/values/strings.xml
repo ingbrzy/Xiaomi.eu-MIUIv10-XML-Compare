@@ -149,7 +149,7 @@
   <string name="app_manager_app_storage">"Storage: "</string>
   <string name="app_manager_app_traffic">"Data usage: "</string>
   <string name="app_manager_app_update">Updates</string>
-  <string name="app_manager_app_version_name">Version:</string>
+  <string name="app_manager_app_version_name">"Version: "</string>
   <string name="app_manager_appupdate_remind">Notify about updates</string>
   <string name="app_manager_as_dlg_msg">Allowing apps to autostart may require additional RAM and battery resources. Allow anyway?</string>
   <string name="app_manager_as_dlg_title">Attention</string>
@@ -190,6 +190,7 @@
   <string name="app_manager_factory_reset">Uninstall updates</string>
   <string name="app_manager_factory_reset_dlg_msg">All updates to this Android system app will be uninstalled.</string>
   <string name="app_manager_factory_reset_dlg_title">Uninstall updates?</string>
+  <string name="app_manager_find_apps">Find apps</string>
   <string name="app_manager_force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
   <string name="app_manager_force_stop_dlg_title">Force stop?</string>
   <string name="app_manager_full_screen_summary">Allow selected apps to work in fullscreen mode</string>
@@ -239,6 +240,8 @@ You will not lose any app data."</string>
   <string name="app_manager_show_detail_infos">View all</string>
   <string name="app_manager_start_by">Started by %s</string>
   <string name="app_manager_system_mobile_disable">Turn off data</string>
+  <string name="app_manager_thumbnail_blur_summary">Blur app previews in Recents</string>
+  <string name="app_manager_thumbnail_blur_title">Blur app previews</string>
   <string name="app_manager_title">Manage apps</string>
   <string name="app_manager_total_size">Total</string>
   <string name="app_manager_uninstall">Uninstall</string>
@@ -406,6 +409,7 @@ You will not lose any app data."</string>
   <string name="battery_charge_estimating">Calculating</string>
   <string name="battery_charge_full">Charged</string>
   <string name="battery_charging_prompt">Charging</string>
+  <string name="battery_desc_ambient_display">Power consumed by Ambient display</string>
   <string name="battery_desc_apps">Battery used by app</string>
   <string name="battery_desc_bluetooth">Battery used by Bluetooth</string>
   <string name="battery_desc_display">Battery used by the display and backlight</string>
@@ -490,6 +494,7 @@ You will not lose any app data."</string>
   <string name="button_background_connection">Allow</string>
   <string name="button_block_calls_from_cantacts">Unblock</string>
   <string name="button_block_calls_from_strangers">Unblock</string>
+  <string name="button_dark_mode">Fix</string>
   <string name="button_do_not_disturb">Turn off</string>
   <string name="button_eye_shield">Turn off</string>
   <string name="button_first_aid_kit">Fix now</string>
@@ -569,6 +574,7 @@ You will not lose any app data."</string>
   <string name="charging_text_battery_nearly_full">Almost fully charged</string>
   <string name="charging_text_battery_perfect">Fully charged</string>
   <string name="choose">Choose</string>
+  <string name="choose_gs_show_way">Select home page orientation</string>
   <string name="clean_immediately">Clear</string>
   <string name="cleaned">Cleared</string>
   <string name="clear_garbage">Clear trash to free up space</string>
@@ -609,6 +615,7 @@ You will not lose any app data."</string>
   <string name="create_table_report_sms">CREATE TABLE reportSms( id TEXT NOT NULL );</string>
   <string name="create_table_report_sms_pending">CREATE TABLE reportSmsPending( id TEXT NOT NULL, address TEXT, body TEXT, date TEXT );</string>
   <string name="create_table_sim">CREATE TABLE sim( _id INTEGER PRIMARY KEY AUTOINCREMENT, sim_id TEXT NOT NULL, call_wait TEXT DEFAULT -1, name TEXT DEFAULT NULL, backsound_mode INTEGER DEFAULT 0 );</string>
+  <string name="create_table_thirddesktop">CREATE TABLE THIRD_DESKTOP( _id INTEGER PRIMARY KEY AUTOINCREMENT, package_name TEXT NOT NULL, application_name TEXT NOT NULL, type INTEGER NOT NULL );</string>
   <string name="create_table_vaid">CREATE TABLE VAID( _id INTEGER PRIMARY KEY AUTOINCREMENT, package_name TEXT NOT NULL, vaid TEXT NOT NULL );</string>
   <string name="create_talbe_fwlog">CREATE TABLE fwlog( _id INTEGER PRIMARY KEY AUTOINCREMENT, number TEXT DEFAULT NULL, date INTEGER NOT NULL DEFAULT 0, type INTEGER NOT NULL DEFAULT 0, reason INTEGER NOT NULL DEFAULT 0, data1 TEXT DEFAULT NULL, data2 TEXT DEFAULT NULL, read INTEGER NOT NULL DEFAULT 0, simid TEXT DEFAULT -1, mode INTEGER NOT NULL DEFAULT 0, callType INTEGER NOT NULL DEFAULT 0 );</string>
   <string name="cta_dialog_msg">&lt;Data&gt;You must agree to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy policy&amp;lt;/a&amp;gt; before using Security. Security also needs to connect to the internet and access your location to work normally and keep antivirus definitions up to date. Agree?&lt;/Data&gt;</string>
@@ -667,6 +674,7 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="deep_save_memory_clean_summary">Clear cache when you lock device to prevent apps from using battery</string>
   <string name="deep_save_ontime_boot_shutdown_summary">Schedule time to turn device on and off</string>
   <string name="delete">Delete</string>
+  <string name="delete_all_sms">Delete all</string>
   <string name="delete_from_manual_item_white_list">Remove from exceptions</string>
   <string name="delete_input">Delete</string>
   <string name="deleted_apps">Deleted apps</string>
@@ -926,7 +934,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="first_aid_item4_content">Battery</string>
   <string name="first_aid_item5_content">Other issues</string>
   <string name="first_aid_result_feedback_button">Submit</string>
-  <string name="first_aid_result_feedback_summary">"Couldn't find any problems. However, I spotted some."</string>
+  <string name="first_aid_result_feedback_summary">"Security scan couldn't find any problems. However, I spotted some."</string>
   <string name="first_aid_result_feedback_title">Feedback</string>
   <string name="first_aid_result_summary_normal">Everything looks good!</string>
   <string name="first_aid_result_summary_not_finished">"Scan wasn't completed. Some risks may be undetected."</string>
@@ -964,9 +972,14 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="free_time_traffic_title">Enter off-peak data limit</string>
   <string name="free_traffic_settings">Off-peak data usage settings</string>
   <string name="function_close">Off</string>
-  <string name="function_shield_summary">Restrict auto brightness, screenshot gestures, and Reading mode</string>
-  <string name="function_shield_summary_m">Restrict auto brightness and screenshot gestures</string>
+  <string name="function_shield_auto_bright">Turn off auto brightness</string>
+  <string name="function_shield_eye_shield">Turn off Reading mode</string>
+  <string name="function_shield_pull_notification_bar">"Don't open Notification shade"</string>
+  <string name="function_shield_settings_title">Restrict the following features when playing games</string>
+  <string name="function_shield_summary">Restrict selected system features when playing games</string>
+  <string name="function_shield_three_finger">Restrict screenshot gestures</string>
   <string name="function_shield_title">Enhanced experience</string>
+  <string name="function_shield_voice_trigger">"Don't wake Mi AI with voice"</string>
   <string name="fw_blocked">Blocklist</string>
   <string name="fw_blocked_count">"Blocked "</string>
   <string name="fw_blocked_join">" and "</string>
@@ -994,6 +1007,11 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
   <string name="gamebox_app_not_find">Install the app first.</string>
   <string name="gamebox_browser_not_find">Install Mi Browser first</string>
+  <string name="gamebox_display_1">None</string>
+  <string name="gamebox_display_2">Saturated</string>
+  <string name="gamebox_display_3">Bright</string>
+  <string name="gamebox_display_4">Bright &amp; saturated</string>
+  <string name="gamebox_display_set">"Visual enhancement: "</string>
   <string name="gamebox_dnd">DND</string>
   <string name="gamebox_func_antimsg_close">Floating notifications are allowed now</string>
   <string name="gamebox_func_antimsg_open">Floating notifications are restricted now</string>
@@ -1019,10 +1037,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gamebox_type_gesture">Swipe to show</string>
   <string name="gamebox_wechat_not_find">Install WeChat and try again.</string>
   <string name="gamebox_wifi">WLAN</string>
+  <string name="gamecenter_install_fail">"Couldn't install"</string>
+  <string name="gamecenter_install_sucessfull">Installed successfully</string>
   <string name="gateway_exception_summary">Check your router and try again.</string>
   <string name="gateway_exception_summary2">"Can't connect to the server"</string>
   <string name="gateway_exception_title">Test router</string>
   <string name="gb_ad_game_size">MB</string>
+  <string name="gb_add_game_hint">Add items from the list of apps</string>
   <string name="gb_advance_settings_edge_gear1">None</string>
   <string name="gb_advance_settings_edge_gear2">Small</string>
   <string name="gb_advance_settings_edge_gear3">Medium</string>
@@ -1049,6 +1070,11 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_description_image_button_answer">Answer</string>
   <string name="gb_description_image_button_reject">Decline</string>
   <string name="gb_description_image_button_video_answer">Video call</string>
+  <string name="gb_first_guide_function_shiled_title">Turn off system features when Game Turbo is on</string>
+  <string name="gb_first_guide_gamebox_des">Use shortcuts while playing games</string>
+  <string name="gb_first_guide_handsfree_des">Answer calls in the background</string>
+  <string name="gb_first_guide_shortcut_des">A Home screen shortcut for Game Turbo has been created</string>
+  <string name="gb_first_guide_title">Boost speed and performance on a system level</string>
   <string name="gb_first_window_antimsg_summary_quick_answer">Use quick replies</string>
   <string name="gb_first_window_antimsg_summary_transparent_show">See text on transparent background</string>
   <string name="gb_first_window_antimsg_title">Convenient notifications</string>
@@ -1060,6 +1086,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_first_window_summary">Boost speed and performance on a system level</string>
   <string name="gb_first_window_title">Game speed booster</string>
   <string name="gb_get_gift_right_now">Check in now</string>
+  <string name="gb_global_settings">General settings</string>
   <string name="gb_have_signed">Checked in today</string>
   <string name="gb_msg_completely_shielded">Hide messages</string>
   <string name="gb_msg_completely_shielded_summary">Hide</string>
@@ -1070,6 +1097,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
   <string name="gb_network_status_bad">A connection error occurred.</string>
   <string name="gb_new_feature">New feature</string>
+  <string name="gb_shortcut_pref_title">Home screen shortcut</string>
   <string name="gb_sign_gift">Check in to get rewards</string>
   <string name="gb_sign_gift_button_text">Receive</string>
   <string name="gb_sign_notification_summary">Check in daily to receive Xunyou boost</string>
@@ -1086,7 +1114,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gigabyteShort">GB</string>
   <string name="give_lucky_money">红包大派送</string>
   <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
-  <string name="gmscore_support_service">Google Services</string>
+  <string name="gmscore_support_service">Basic Google services</string>
   <string name="go_to">Proceed</string>
   <string name="go_to_setting_fingerprint">Settings</string>
   <string name="google_base_app_install_choice">The application requires Google Services Framework to work normally, download and install it?</string>
@@ -1119,8 +1147,11 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gs_open_game_booster_summary">Boost network speed for games</string>
   <string name="gs_performance_mode">Performance mode</string>
   <string name="gs_performance_mode_detail">Optimize system performance for gaming</string>
+  <string name="gs_show_way">Home page orientation</string>
+  <string name="gs_show_way_horizontal">Horizontal</string>
+  <string name="gs_show_way_vertical">Vertical</string>
   <string name="gs_sign_notification">Remind to check in at 8 PM daily</string>
-  <string name="gs_slip_gamebox_detail">Use slider to make the shortcut panel appear. Quick replies and screen recording options are available.</string>
+  <string name="gs_slip_gamebox_detail">Use slider or swipe from the top side edge of the screen to make the shortcut panel appear</string>
   <string name="guide_get_operator_error">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Wrong carrier?&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="guide_operator_text">"Your current carrier: "</string>
   <string name="guide_quck_open">Turn on</string>
@@ -1193,23 +1224,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="item_system_auto_download">Download updates automatically</string>
   <string name="item_usb_debug">USB debugging</string>
   <string name="item_virus_lib">Update virus definitions automatically</string>
-  <string name="keywords_antispam">Blocklist;Block;Black list;Smart blocklist;Fraud;Sales;Agents;Call blocklist;Message blocklist;Messaging blocklist;SMS blocklist;blacklist;black list;blocklist;block list;fraud;block contact;block contacts</string>
-  <string name="keywords_antivirus">Virus;Risk;Antivirus;Scan;Check payment security;payment security;secure payment;secure payments;payment protection;protect payments;protected payments;secure zone;payment zone</string>
-  <string name="keywords_app_permissions">Permissions;Location;Access contacts;Permissions;App permissions</string>
-  <string name="keywords_auto_restart">Autostart; Permissions;Auto start;Autostart; Manage autostart; MIUI autostart; App autostart; autostart apps;Chain start;chained start;triggered start</string>
-  <string name="keywords_buy_flow">data;mobile data;buy data;buy mobile data;topup data;data plan</string>
-  <string name="keywords_cleanmaster">Trash;Clear;Speed;Storage;Cache;Clear storage;clear trash;trash;free up;free up storage;free up space;clean;deep clean;cleaner</string>
-  <string name="keywords_gamebooster">Game;speed booster;King of Glory;Performance mode;DND;Games;Gaming;Gaming speed;boost</string>
-  <string name="keywords_networkassistant_1">Data;Traffic</string>
-  <string name="keywords_networkassistant_2">Data;Calibrate</string>
-  <string name="keywords_networkassistant_4">Connection;Internet;Test</string>
-  <string name="keywords_powercenter">Save battery;Heating;Turn on;Turn off;Battery;Draining;Battery;Battery issues;Energy;Draining;Heating;Battery saver;Energy saver;Energy saving;Battery saving</string>
-  <string name="keywords_powercenter_powerrank">Power usage</string>
-  <string name="keywords_securitycenter">Security;Check;Scan</string>
-  <string name="keywords_securitycenter_settings">Battery usage;Manage autostart;Install via USB;App permissions;Buy mobile data;Blocklist;Data usage;Calibrate data plan;Test network; Save battery;Heating;Turn on;Turn off;Battery;Draining;Battery issues;Energy;Battery saver;Energy saver;Energy saving;Battery saving; Autostart;Permissions;Auto start;MIUI autostart; App autostart; autostart apps;Chain start;chained start;triggered start; USB install;install from computer;ADB install; Location;Access contacts; data;mobile data;buy data;topup data;data plan; Block;Black list;Smart blocklist;Fraud;Sales;Agents;Call blocklist;Message blocklist;Messaging blocklist;SMS blocklist;blacklist;black list;blocklist;block list;fraud;block contact;block contacts; Traffic; Calibrate; Connection;Internet;Test; Battery use;Battery optimization;Power usage; Game;speed booster;Glory of the king;Performance mode;DND</string>
-  <string name="keywords_usb_install">USB install;install from computer;ADB install</string>
   <string name="kilobyteShort">KB</string>
-  <string name="kilobyte_per_second">K/s</string>
+  <string name="kilobyte_per_second">KB/s</string>
   <string name="label_callwait">Call waiting notification</string>
   <string name="label_mi_stats">Mi analytics</string>
   <string name="last_check_canceled">Previous scan was canceled</string>
@@ -1275,6 +1291,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="lucky_alarm_app">红包活动倒计时</string>
   <string name="lucky_alarm_app_after">红包活动已经结束</string>
   <string name="lucky_alarm_app_tail">倒计时</string>
+  <string name="lucky_alarm_back">返回红包助手</string>
   <string name="lucky_alarm_count_down">0:00:00</string>
   <string name="lucky_alarm_count_down_default">0:00:00</string>
   <string name="lucky_alarm_item_date">27</string>
@@ -1286,6 +1303,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
 微信/QQ/米聊抢红包神器
 不支持提醒被屏蔽的群，以及开启电脑登录免打扰功能的软件"</string>
   <string name="lucky_max_chat_title">来自QQ</string>
+  <string name="lucky_money_close">关闭</string>
   <string name="lucky_money_group_summary">个人发送的红包不需抢，建议您仅提醒群红包，以免提醒次数过多。</string>
   <string name="lucky_my_luckymoney">我的红包战绩</string>
   <string name="lucky_sound_mode_lucky">红包来了</string>
@@ -1338,7 +1356,7 @@ to respond"</string>
   <string name="managed_user_title">All work apps</string>
   <string name="manual_input_free_traffic">Set off-peak data usage</string>
   <string name="manual_input_traffic">Set data usage</string>
-  <string name="manual_item_white_list_summary">Prevent selected apps from being optimized</string>
+  <string name="manual_item_white_list_summary">Prevent selected items from being optimized</string>
   <string name="manual_item_white_list_title">Exceptions</string>
   <string name="mark_agent">Block reported agencies</string>
   <string name="mark_agent_block">Reported as agency</string>
@@ -1370,7 +1388,7 @@ to respond"</string>
   <string name="mark_time_text">%d</string>
   <string name="marked_by_user">"You marked it as "</string>
   <string name="megabyteShort">MB</string>
-  <string name="megabyte_per_second">M/s</string>
+  <string name="megabyte_per_second">MB/s</string>
   <string name="memory_check_content">Freed %s</string>
   <string name="memory_clean_memory_size_tip">Cache</string>
   <string name="memory_clean_no_need_clean">Everything looks good</string>
@@ -1546,6 +1564,8 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="note_sms_none">No messages</string>
   <string name="noti_back_diving_mode_title">Turned on Immersive mode. Tap to turn off.</string>
   <string name="notification_battery_consume_abnormal_title">Battery is being drained too fast</string>
+  <string name="notification_battery_scan_consume_abnormal_summary">Tap to fix the problem</string>
+  <string name="notification_battery_scan_consume_abnormal_title_set">%s is draining battery</string>
   <string name="notification_exit_power_save_mode">Turned off Battery saver</string>
   <string name="notification_exit_power_save_mode_subtitle">Battery %s charged.</string>
   <string name="notification_mask_summary">Hide notification content on the Lock screen and in the Notification shade</string>
@@ -1585,7 +1605,6 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="om_locked_apps_summary">Locked apps will be ignored by the speed boost.</string>
   <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
   <string name="om_not_finish_speedboost">Speed boost is required</string>
-  <string name="om_promotion">Ad</string>
   <string name="om_running_locked_apps">Locked running apps</string>
   <string name="om_running_system_apps">Running system apps</string>
   <string name="om_running_third_apps">Running third party apps</string>
@@ -1622,7 +1641,6 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="operator_number_telcom">10000</string>
   <string name="operator_number_unicom">10010</string>
   <string name="optimize_manage_title">Boost speed</string>
-  <string name="optimize_result_ads_close_text">Ad</string>
   <string name="optimize_result_available_memory_info">Available memory</string>
   <string name="optimize_result_button_cloudspace">Add cloud storage</string>
   <string name="optimize_result_button_consume_power_analysis">Scan battery</string>
@@ -1644,7 +1662,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="optimize_result_summary_system_default_settings">"Using default MIUI apps increases the level of the system's stability and security."</string>
   <string name="optimize_result_title_sucurity_risk">Security risks found</string>
   <string name="optimize_result_title_system_default_settings">Default settings have been changed</string>
-  <string name="optimize_result_title_uninstall_apps">Apps</string>
+  <string name="optimize_result_title_uninstall_apps">Uninstall apps</string>
   <string name="optimize_result_toast_system_default_settings">Restored default settings</string>
   <string name="optimize_result_toast_system_no_item_selected">No items selected</string>
   <string name="optmizingbar_optimize_done">Optimized</string>
@@ -1675,25 +1693,26 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="password_type">Change password</string>
   <string name="password_type_underline">&lt;u&gt;Change password&lt;/u&gt;</string>
   <string name="password_xspace_forget_pattern_message">To change your Second space password, you should delete your current Second space and create a new one.</string>
-  <string name="path_antispam">System apps/Security/Blocklist</string>
-  <string name="path_antivirus">System apps/Security/Virus scan</string>
-  <string name="path_app_permissions">System apps/Security/Permissions/App permissions</string>
-  <string name="path_auto_restart">System apps/Security/Permissions/Autostart</string>
-  <string name="path_buy_flow">System apps/Security/Data usage/Buy mobile data</string>
-  <string name="path_cleanmaster">System apps/Security/Cleaner</string>
-  <string name="path_gamebooster">System apps/Security/Game speed booster</string>
-  <string name="path_networkassistant_1">System apps/Security/Data usage</string>
-  <string name="path_networkassistant_2">System apps/Security/Data usage</string>
-  <string name="path_networkassistant_4">System apps/Security/Data usage/Test network</string>
-  <string name="path_powercenter">System apps/Security/Battery optimization</string>
-  <string name="path_powercenter_powerrank">Battery &amp; performance/Battery use</string>
-  <string name="path_securitycenter">System apps/Security</string>
-  <string name="path_securitycenter_settings">System apps/Security</string>
-  <string name="path_usb_install">System apps/Security/Permissions/Install via USB</string>
+  <string name="pc_abnormal_scan_button_text">Close apps</string>
+  <string name="pc_abnormal_scan_reason_prevent_standby">Prevents the system from going into standby mode</string>
+  <string name="pc_abnormal_scan_reason_reconnect">Tries to connect to the network too frequently</string>
+  <string name="pc_abnormal_scan_reason_runtime_exception">Runs abnormally</string>
+  <string name="pc_abnormal_scan_reason_scan_wifi">Searches for WLAN too frequently</string>
+  <string name="pc_abnormal_scan_reason_use_GPS">Uses location services too frequently</string>
+  <string name="pc_abnormal_scan_reason_wake_system">Wakes the system too frequently</string>
   <string name="pc_activity_title">Optimize battery</string>
   <string name="pc_battery_history_show_imei">IMEI:</string>
   <string name="pc_install_manager">Install via USB</string>
   <string name="pc_main_activity_back">Back</string>
+  <string name="pc_main_battery_text_day">Added %1$sm, about %2$sd remaining</string>
+  <string name="pc_main_battery_text_day_hour">Added %1$sm, about %2$sd %3$sh remaining</string>
+  <string name="pc_main_battery_text_hour">Added %1$sm, about %2$sh remaining</string>
+  <string name="pc_main_battery_text_hour_minute">Added %1$sm, about %2$sh %3$sm remaining</string>
+  <string name="pc_main_battery_text_minute">Added %1$sm, about %2$sm remaining</string>
+  <string name="pc_main_power_manager_day_hour">%1$sd %2$sh until fully charged</string>
+  <string name="pc_main_power_manager_hour_minute">%1$sh %2$sm until fully charged</string>
+  <string name="pc_main_sub_battery_text_day_hour">%1$sd %2$sh remaining</string>
+  <string name="pc_main_sub_battery_text_hour_minute">%1$sh %2$sm remaining</string>
   <string name="pc_settings_title">Battery optimization settings</string>
   <string name="pc_to_phone_install">Blocked installation of %s via USB</string>
   <string name="per_month_pkg_traffic_settings">Set data limit</string>
@@ -1727,6 +1746,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="pm_root_success_notification_infomation">Make sure you understand the risks related with root access</string>
   <string name="pm_root_success_notification_title">Allowed root access</string>
   <string name="power_20s_shutdown">Device will power off in %d seconds</string>
+  <string name="power_ambient_display">Ambient display</string>
   <string name="power_analysis_consume_title">Battery usage</string>
   <string name="power_analysis_suggestion_need_optimize">Battery usage issues detected.</string>
   <string name="power_autorun_apps_empty">No autostart apps</string>
@@ -1735,7 +1755,10 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="power_cell">Cell standby</string>
   <string name="power_center_auto_shutdown">Schedule power on/off</string>
   <string name="power_center_back">Back</string>
+  <string name="power_center_battery_last">%s remaining</string>
   <string name="power_center_charge_time">%1$suntil full</string>
+  <string name="power_center_dialog_msg_bottom">You can inrease battery life up to %1$dh %2$dm. Turn on Battery saver?</string>
+  <string name="power_center_dialog_msg_top">When Battery saver is on, MIUI will perform the following optimizations:</string>
   <string name="power_center_hints_scan_danger_result">You can fix battery issues now</string>
   <string name="power_center_list_item_auto_brightness">Adjust screen brightness automatically</string>
   <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
@@ -1748,8 +1771,11 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="power_center_list_item_deep_save_title">Advanced settings</string>
   <string name="power_center_list_item_set_lockscreen_time">Put screen to sleep after 30 seconds of inactivity</string>
   <string name="power_center_main_percent_formatted">%s%%</string>
+  <string name="power_center_one_key_save">Optimize</string>
   <string name="power_center_ontime_boot">Power on time</string>
   <string name="power_center_ontime_shutdown">Power off time</string>
+  <string name="power_center_power_save_summary_text">Increase remaining time up to %1$dh %2$dm</string>
+  <string name="power_center_power_save_title_text">Battery saver</string>
   <string name="power_center_repeat">Repeat</string>
   <string name="power_center_scan_item_title_GPS">Adjust GPS accuracy</string>
   <string name="power_center_scan_item_title_abnormal">Battery issues</string>
@@ -1766,6 +1792,8 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="power_center_state_off">Off</string>
   <string name="power_center_state_on">On</string>
   <string name="power_center_stop_scan_title">Stop scanning</string>
+  <string name="power_center_super_save_summary_text">Increase remaining time up to %1$dh %2$dm</string>
+  <string name="power_center_super_save_title_text">Ultra battery saver</string>
   <string name="power_center_time_to_boot">Power on time</string>
   <string name="power_center_time_to_shutdown">Power off time</string>
   <string name="power_center_title">Battery optimization</string>
@@ -1778,7 +1806,11 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="power_customize_giveup_change">Discard changes?</string>
   <string name="power_dialog_cancel">Cancel</string>
   <string name="power_dialog_ok">OK</string>
+  <string name="power_dialog_super_save_msg">"Ultra battery saver restricts most power-consuming features and decreases your device's performance in order to leave basic functionality (e.g. calls, SMS, and connecting to the network) available as long as possible. Turn on Ultra battery saver?"</string>
+  <string name="power_dialog_super_save_title">Ultra battery saver</string>
   <string name="power_idle">Phone idle</string>
+  <string name="power_main_battery_last_day_hour">%1$sd %2$sh remaining</string>
+  <string name="power_main_battery_last_hour_minute">%1$sh %2$sm remaining</string>
   <string name="power_optimize_auto_catagory_title">Battery issues</string>
   <string name="power_optimize_battery_save_idea">Optimize battery</string>
   <string name="power_optimize_battery_save_more">More</string>
@@ -1805,11 +1837,21 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="power_save_mode_summary">Monitor background processes and turn off sync.</string>
   <string name="power_save_on_time_end_time_summary_na">To</string>
   <string name="power_save_on_time_start_time_summary_na">From</string>
+  <string name="power_save_ps_clean">Clear cache whenever device is locked</string>
+  <string name="power_save_ps_close_setting">Turn off background services (sync, GPS) to save battery</string>
+  <string name="power_save_ps_freeze">Freeze apps in the background</string>
+  <string name="power_save_ps_limit">Restrict the activity of system apps</string>
   <string name="power_save_started_summary_text">"Battery saver is on. It reduces apps' background activity, stops sync, and minimizes system animations."</string>
   <string name="power_save_summary_text">"Turn on Battery saver to reduce apps' background activity, stop sync, and minimize system animations."</string>
   <string name="power_save_title_text">Battery saver</string>
   <string name="power_screen">Screen</string>
+  <string name="power_setting_background_app_save_summary">Limit the activity of the apps in the background without affecting functionality</string>
+  <string name="power_setting_background_app_save_title">Background battery saver</string>
+  <string name="power_setting_category_other">Additional settings</string>
+  <string name="power_setting_power_save_summary_text">Optimize system settings to save battery</string>
+  <string name="power_setting_super_save_summary_text">Restrict most system features to save battery</string>
   <string name="power_settings_category_title">Battery indicator</string>
+  <string name="power_settings_lock_screen_saver_title">Lock screen settings</string>
   <string name="power_settings_number">Percentage</string>
   <string name="power_settings_saver_title">Power saver</string>
   <string name="power_settings_shape">Graphical</string>
@@ -1940,8 +1982,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="privacy_apps_manage_dialog_title">About hidden apps</string>
   <string name="privacy_apps_manager_dialog_message">"This app's icon won't be displayed on the Home screen after you hide this app. Hide this app now?"</string>
   <string name="privacy_apps_tutorial">Tutorial</string>
-  <string name="privacy_apps_tutorial_prompt_pageone">"When you hide an app, it's moved to a hidden folder. Its Home screen shortcut is hidden as well.
-This feature isn't supported for system apps."</string>
+  <string name="privacy_apps_tutorial_prompt_pageone">This feature allows you to hide app icons so they no longer appear on your Home screen.</string>
   <string name="privacy_apps_tutorial_prompt_pagethree">After you enter your password, the folder with hidden apps will appear.</string>
   <string name="privacy_apps_tutorial_prompt_pagetwo">"Spread two fingers on the screen. You'll see a message asking you to enter your App lock password."</string>
   <string name="privacy_declare_dialog_title">Terms of Service</string>
@@ -1960,15 +2001,20 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="protocol_exception_title">Network protocol diagnostics</string>
   <string name="protocol_loop_back_exception_summary">Local loop back test failed. To report this issue to MIUI, go to the Feedback app and send a log from your device.</string>
   <string name="qq_lucky_warning">QQ红包</string>
+  <string name="qucick_replay_instrument">Use quick replies in the notifications of the selected messengers (e.g. WhatsApp, WeChat, QQ)</string>
   <string name="quick_optimize_checking">Scanning</string>
   <string name="quick_optimize_no_fix_issue_subtitle">"Couldn't extend battery life"</string>
   <string name="quick_optimize_no_fix_issue_title">"Couldn't fix battery issues"</string>
   <string name="quick_optimize_no_issue">No battery issues</string>
   <string name="quick_optimize_no_issue_subtitle">Everything looks good</string>
   <string name="quick_optimize_no_issue_title">"Couldn't find battery issues"</string>
+  <string name="quick_optimize_sub_battery_text">About %s remaining</string>
   <string name="quick_optimize_sub_summary_text">Added %s to battery life</string>
+  <string name="quick_optimize_sub_summary_with_battery_text">Added %1$s, about %2$s remaining</string>
   <string name="quick_optimize_suggest_battery_consume_too_fast">The phone is draining battery, fix it</string>
   <string name="quick_optimize_suggest_battery_over_heat">The phone is overheating, fix it</string>
+  <string name="quick_replay_list_title">Available apps</string>
+  <string name="quick_reply_title">Quick replies</string>
   <string name="quite_all_string">Cancel</string>
   <string name="random_expression">速抢模式</string>
   <string name="reach_daily_limit_value_body">Reduce your mobile data usage.</string>
@@ -2000,21 +2046,6 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="reset_data_dialog_message">"This device isn't associated with your Mi Account. Can't restore or reset password. Back up all imporant items and perform a factory reset. All data will be permanently deleted and your SD card will be formatted during the factory reset."</string>
   <string name="reset_data_dialog_ok">Factory reset</string>
   <string name="reset_data_title">"Can't restore password"</string>
-  <string name="resource_antispam">Blocklist</string>
-  <string name="resource_antivirus">Virus scan</string>
-  <string name="resource_app_permissions">App permissions</string>
-  <string name="resource_auto_restart">Manage autostart</string>
-  <string name="resource_buy_flow">Buy mobile data</string>
-  <string name="resource_cleanmaster">Cleaner</string>
-  <string name="resource_gamebooster">Game speed booster</string>
-  <string name="resource_networkassistant_1">Data usage</string>
-  <string name="resource_networkassistant_2">Calibrate data plan</string>
-  <string name="resource_networkassistant_4">Test network</string>
-  <string name="resource_powercenter">Battery optimization</string>
-  <string name="resource_powercenter_powerrank">Battery &amp; performance</string>
-  <string name="resource_securitycenter">Security</string>
-  <string name="resource_securitycenter_settings">Security</string>
-  <string name="resource_usb_install">Install via USB</string>
   <string name="result_autoscan_header">Payment monitoring</string>
   <string name="result_autoscan_info">Automatically monitor system environment when payment apps are started</string>
   <string name="result_sms_header">Messaging risks detected</string>
@@ -2073,7 +2104,13 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="section_title_clear_acc">Clear cache</string>
   <string name="section_title_security_defend">Security</string>
   <string name="section_title_system">System security</string>
+  <string name="security_center_slogan">Security. Always on guard.</string>
   <string name="security_scan_optimizing">Optimizing…</string>
+  <string name="securityadd_install_fail">"Couldn't update plug-in. Try again."</string>
+  <string name="securityadd_update_tips_cancle">Not now</string>
+  <string name="securityadd_update_tips_message">Update Security service plug-in to get access to the latest gaming features. %1$dMB will be downloaded.</string>
+  <string name="securityadd_update_tips_now">Update</string>
+  <string name="securityadd_update_tips_title">Update</string>
   <string name="see_detail">Details</string>
   <string name="see_more_content">Update Games to see more highlights</string>
   <string name="set_applock_password">Set password</string>
@@ -2120,6 +2157,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_blacklist">SMS blocklist</string>
   <string name="sms_cloud_block">Cloud blocklist</string>
   <string name="sms_contact_block">Block SMS from contacts</string>
+  <string name="sms_delete_all_hint">Delete all messages now?</string>
   <string name="sms_delete_hint">Delete all blocked messages from this number?</string>
   <string name="sms_delete_title">Delete messages</string>
   <string name="sms_detail_correct_success_text">"Here's the data usage stats from the previous calibration (%1$s):"</string>
@@ -2132,7 +2170,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_service">Block service SMS</string>
   <string name="sms_smart_engine_update">Automatically update SMS filter</string>
   <string name="sms_smart_engine_update_now">Update</string>
-  <string name="sms_stranger_block">Block SMS from strangers</string>
+  <string name="sms_stranger_block">Blocked</string>
   <string name="sorted_dialog_title">Sort by</string>
   <string name="sp_background_risk_dialog_summary">, check and fix payment issues.</string>
   <string name="sp_background_risk_dialog_summary_wifi_approve">You are connected to a public WLAN network which may be unsecure. Make sure your payment is protected before you complete it.</string>
@@ -2201,6 +2239,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_antispam_title_contact_incoming">Calls from Contacts</string>
   <string name="st_antispam_title_contact_sms">Messages from Contacts</string>
   <string name="st_antispam_title_contactandanoy_group">Settings</string>
+  <string name="st_antispam_title_mms">MMS</string>
   <string name="st_antispam_title_null_incoming">Private numbers</string>
   <string name="st_antispam_title_service_sms">Service notifications</string>
   <string name="st_antispam_title_whitelist">Exceptions</string>
@@ -2219,8 +2258,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_confirm_dialog_summary_oversea_call">Turn on to block all incoming calls from foreign phone numbers.</string>
   <string name="st_confirm_dialog_summary_stranger_call">All calls from strangers will be blocked.</string>
   <string name="st_filter_keywords_setting_summary1">Messages from unknown numbers that contain the words in this list will be blocked.</string>
-  <string name="st_filter_keywords_setting_summary2">"
-(Use a comma to separate multiple keywords)"</string>
+  <string name="st_filter_keywords_setting_summary2">(Use a comma to separate multiple keywords)</string>
   <string name="st_filter_keywords_setting_summary3">Messages from unknown numbers that contain the words in this list will be allowed in.</string>
   <string name="st_group_list_management">Manage blocklist</string>
   <string name="st_hint_add_head_number">Enter prefix</string>
@@ -2235,7 +2273,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_msg_keyword_white">Keyword exceptions</string>
   <string name="st_msg_other_group">Other</string>
   <string name="st_msg_settings">SMS blocklist</string>
-  <string name="st_msg_stranger_group">Block SMS from strangers</string>
+  <string name="st_msg_stranger_group">Block messages from strangers</string>
   <string name="st_settings_name">Blocklist settings</string>
   <string name="st_share_settings">Use SIM 1 settings</string>
   <string name="st_sub_title_customize_mode_name">Name</string>
@@ -2310,6 +2348,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="summary_cloud_space_full">Get more storage space and access to more features</string>
   <string name="summary_cmcc_app_check">"Some apps couldn't be verified"</string>
   <string name="summary_consume_power">Heating issues found, they can affect battery life span</string>
+  <string name="summary_dark_mode">Some pages are rendered black because of third party services</string>
   <string name="summary_data_flow">Control mobile data usage to avoid additional fees</string>
   <string name="summary_default_app">"%s isn't set as a default system app"</string>
   <string name="summary_dev">Avoid malware and protect personal data</string>
@@ -2460,6 +2499,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="thermal_tips_message">Playing games in the Performance mode may lead to overheating issues.</string>
   <string name="thermal_tips_title">Attention</string>
   <string name="third_application">Installed apps</string>
+  <string name="third_desktop_dialog_content">As launcher apps from third parties may result in problems like data leak, abnormal battery drain and lagging, etc., only those verified by MIUI can be set as your default launcher.</string>
+  <string name="third_desktop_dialog_ok">Got it</string>
+  <string name="third_desktop_dialog_title">Error</string>
   <string name="three_percent_total_pkg">%s (3%% of monthly data)</string>
   <string name="timeshow_h">%.1fh</string>
   <string name="timeshow_h_int">%dh</string>
@@ -2483,6 +2525,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_cloud_space_full">Cloud is full</string>
   <string name="title_cmcc_app_check">"Verification isn't complete"</string>
   <string name="title_consume_power_rank">App power usage</string>
+  <string name="title_dark_mode">"Some items aren't displayed correctly"</string>
   <string name="title_data_flow">Control mobile data</string>
   <string name="title_data_flow_monitor">Data usage monitor is on</string>
   <string name="title_dev_model_off">Developer options are off</string>
@@ -2538,6 +2581,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="toast_add_virus_white_list_no_need_repeat">This exception already exists</string>
   <string name="toast_auto_traffic_correct">Data usage is adjusted automatically</string>
   <string name="toast_cleaner_cloudscan">Cleaner will use online definitions</string>
+  <string name="toast_dark_mode_fixed">Fixed successfully. Leave this page to apply changes.</string>
   <string name="toast_flow_notification">Turned on data usage notifications</string>
   <string name="toast_garbage_lib">Turned on automatic updates for Cleaner</string>
   <string name="toast_keyword_blank">You need to enter a keyword</string>
@@ -2672,8 +2716,9 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="usbsharenet_pc_exception_summary">"Can't connect to the internet using shared USB connection. Check your computer's internet connection."</string>
   <string name="use_immediately">Use</string>
   <string name="user_define_title">Add rules</string>
+  <string name="user_guide">Swipe up to discover more fresh games</string>
+  <string name="user_guide_title">Joystick Picks</string>
   <string name="video_repeat">Play again</string>
-  <string name="virus_ad_icon_text">Ad</string>
   <string name="virus_auto_update_engine">Auto updates: %s</string>
   <string name="virus_scan_process_pre">%</string>
   <string name="virus_update_tips_title">Warning</string>

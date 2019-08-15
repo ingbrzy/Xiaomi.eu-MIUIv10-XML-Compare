@@ -23,6 +23,8 @@
         <item>org.simalliance.openmobileapi.service</item>
         <item>com.qualcomm.wfd.service</item>
         <item>com.baidu.duersdk.opensdk</item>
+        <item>com.qualcomm.qti.autoregistration</item>
+        <item>com.qualcomm.qti.smcinvokepkgmgr</item>
         <item>com.miui.powerkeeper</item>
         <item>com.miui.antispam</item>
         <item>com.miui.securitycenter</item>
@@ -45,6 +47,11 @@
         <item>com.miui.miwallpaper</item>
         <item>com.miui.contentextension</item>
         <item>com.xiaomi.mimobile.cloudsim</item>
+        <item>com.miui.aod</item>
+        <item>com.miui.systemAdSolution</item>
+        <item>com.miui.analytics</item>
+        <item>android.ext.services</item>
+        <item>com.android.smspush</item>
     </string-array>
     <string-array name="process_disable_trim_list">
         <item>com.miui.home</item>
@@ -73,11 +80,13 @@
         <item>com.xiaomi.drivemode</item>
         <item>com.caiharbor.esim</item>
         <item>com.miui.backup</item>
+        <item>com.android.thememanager</item>
     </string-array>
     <string-array name="process_camera_boost_protect_list">
         <item>android.process.media</item>
         <item>com.miui.gallery</item>
         <item>com.android.systemui:sliderview</item>
+        <item>com.android.camera</item>
     </string-array>
     <item type="array" name="android_config_keyboardTapVibePattern">@android:array/config_keyboardTapVibePattern</item>
     <item type="array" name="android_config_longPressVibePattern">@android:array/config_longPressVibePattern</item>
@@ -99,6 +108,7 @@
         <item>com.bbm</item>
         <item>jp.naver.line.android</item>
         <item>com.bsb.hike</item>
+        <item>com.hike.chat.stickers</item>
         <item>org.telegram.messenger</item>
         <item>com.viber.voip</item>
         <item>com.vkontakte.android</item>
@@ -162,6 +172,7 @@
         <item>com.bbm</item>
         <item>jp.naver.line.android</item>
         <item>com.bsb.hike</item>
+        <item>com.hike.chat.stickers</item>
         <item>org.telegram.messenger</item>
         <item>com.viber.voip</item>
         <item>com.vkontakte.android</item>
@@ -1381,7 +1392,6 @@
         <item>20813</item>
         <item>22210</item>
         <item>23402</item>
-        <item>23410</item>
         <item>23411</item>
         <item>26202</item>
         <item>26209</item>
@@ -1440,5 +1450,17 @@
     <array name="config_BrightnessCurvesLux" />
     <array name="config_maxBrightnessCurvesNits" />
     <array name="config_minBrightnessCurvesNits" />
+    <integer-array name="config_originalLux">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessMinNitForOriginalLux">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
     <array name="screen_resolution_supported" />
 </resources>

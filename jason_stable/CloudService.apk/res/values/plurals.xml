@@ -52,13 +52,17 @@
         <item quantity="other">%d App vault entries</item>
         <item quantity="one">%d App vault entry</item>
     </plurals>
+    <plurals name="dirty_phrase_count">
+        <item quantity="other">%d frequent phrases</item>
+        <item quantity="one">%d frequent phrase</item>
+    </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">"%d hidden photos aren't synced. Sign out after all items are synced to keep them; otherwise, items will be deleted."</item>
         <item quantity="one">"%d hidden photo isn't synced. Sign out after all items are synced to keep them; otherwise, items will be deleted."</item>
     </plurals>
     <plurals name="micloud_manual_pause_and_resume">
-        <item quantity="other">Sync is paused. Resuming in %d minutes…</item>
-        <item quantity="one">Sync is paused. Resuming in %d minute…</item>
+        <item quantity="other">Resuming sync in %d minutes</item>
+        <item quantity="one">Resuming sync in %d minute</item>
     </plurals>
     <plurals name="last_sync_time_mins_ago">
         <item quantity="other">%s mins ago</item>
@@ -67,5 +71,9 @@
     <plurals name="last_sync_time_hours_ago">
         <item quantity="other">%s hrs ago</item>
         <item quantity="one">%s hr ago</item>
+    </plurals>
+    <plurals name="provision_sync_items_status_title">
+        <item quantity="other">%s services will be synced with Mi Cloud</item>
+        <item quantity="one">%s service will be synced with Mi Cloud</item>
     </plurals>
 </resources>

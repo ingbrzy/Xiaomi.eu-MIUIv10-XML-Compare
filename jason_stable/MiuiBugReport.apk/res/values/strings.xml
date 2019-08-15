@@ -40,6 +40,12 @@
   <string name="catch_full_log_item_title_wifi">Wi-Fi and Mi Drop</string>
   <string name="catch_full_log_notification_content">Tap to go back to logs</string>
   <string name="catch_full_log_notification_title">Generating log…</string>
+  <string name="catch_full_log_privacy_content_audio">"You're generating logs and saving them on your device. The logs may contain the information about the audio on your device, including playback history and recording history. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+  <string name="catch_full_log_privacy_content_bt">"You're generating logs and saving them on your device. The logs may contain Bluetooth device usage info (including call history, messages, transferred files etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+  <string name="catch_full_log_privacy_content_gps">"You're generating logs and saving them on your device. The logs may contain your personal info and location info. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+  <string name="catch_full_log_privacy_content_sensor">"You're generating logs and saving them on your device. The logs may contain the information collected by your device's sensors (including ambient light sensor, barometer, pedometer, magnetometer, etc.). Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+  <string name="catch_full_log_privacy_content_signal">"You're generating logs and saving them on your device. The logs may contain your messages, call history, network info, and communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
+  <string name="catch_full_log_privacy_content_wifi">"You're generating logs and saving them on your device. The logs may contain your personal info, location info, as well as the IP and MAC addresses of your device. If you're connected to an unencrypted Wi-Fi network, we might also be able to access parts of your communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
   <string name="catch_full_log_start_dump_hprof">Generate lagging log</string>
   <string name="catch_full_log_submit_directly">Submit</string>
   <string name="close_feedback_main">Hide</string>
@@ -93,6 +99,7 @@
   <string name="feedback_description">Description</string>
   <string name="feedback_description_bugreport_hint">In some cases (…) my phone misbehaves (…).</string>
   <string name="feedback_description_hint">"Describe the issue you've encountered"</string>
+  <string name="feedback_description_hint_suggestion">"Tell us how you'd like to improve MIUI."</string>
   <string name="feedback_description_label">Description</string>
   <string name="feedback_description_suggest_hint">"I'd like you to add a new feature () because I need ()."</string>
   <string name="feedback_detail_tile">Progress</string>
@@ -101,6 +108,7 @@
   <string name="feedback_history_remind_login_desc">"Sign in with your Mi Account to view details and your report's progress"</string>
   <string name="feedback_id">ID: %d</string>
   <string name="feedback_jira_key">JIRA Key: %s</string>
+  <string name="feedback_jira_key_place_holder">Creating a Jira…</string>
   <string name="feedback_package_log_failed">"Couldn't compress logs"</string>
   <string name="feedback_phone_model_label">Phone model</string>
   <string name="feedback_probability_label">Probability</string>
@@ -528,7 +536,7 @@ To activate your account, follow the
   <string name="toast_report_copied_to_clipboard">Report copied to clipboard</string>
   <string name="toast_report_sent_failed">"Can't send report"</string>
   <string name="toast_report_sent_succeed">Report has been sent</string>
-  <string name="toast_screenshot_too_large">"Can't upload images or videos bigger than 10MB."</string>
+  <string name="toast_screenshot_too_large">"Can't upload images or videos bigger than 100MB."</string>
   <string name="toast_third_packagename_required">Enter app name</string>
   <string name="toast_title_required">Describe your issue</string>
   <string name="topic_author">1#</string>
