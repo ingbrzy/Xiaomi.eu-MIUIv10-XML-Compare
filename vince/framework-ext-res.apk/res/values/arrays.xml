@@ -45,6 +45,7 @@
         <item>com.miui.miwallpaper</item>
         <item>com.miui.contentextension</item>
         <item>com.xiaomi.mimobile.cloudsim</item>
+        <item>com.miui.tsmclient</item>
         <item>com.miui.aod</item>
         <item>com.magiear.handsfree.assistant</item>
     </string-array>
@@ -76,6 +77,9 @@
         <item>com.caiharbor.esim</item>
         <item>com.miui.backup</item>
         <item>com.android.thememanager</item>
+        <item>com.miui.mishare.connectivity</item>
+        <item>com.miui.notes</item>
+        <item>com.milink.service</item>
     </string-array>
     <string-array name="process_camera_boost_protect_list">
         <item>android.process.media</item>
