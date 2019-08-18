@@ -938,6 +938,7 @@
         <item>com.miui.mishare.connectivity</item>
         <item>com.qualcomm.wfd.service</item>
         <item>com.miui.notes</item>
+        <item>com.miui.tsmclient</item>
     </string-array>
     <string-array name="system_alert_window_notification_whitelist">
         <item>com.miui.notes</item>
@@ -1362,6 +1363,7 @@
         <item>com.miui.huanji</item>
         <item>com.amazon.dee.app</item>
         <item>com.xiaomi.misettings</item>
+        <item>com.miui.cleanmaster</item>
     </string-array>
     <string-array name="config_allowKeyguardPackages">
         <item>com.google.android.apps.messaging</item>
@@ -1434,6 +1436,7 @@
         <item>com.miui.mishare.connectivity</item>
         <item>com.mi.oa</item>
         <item>com.amazon.dee.app</item>
+        <item>com.miui.smarttravel</item>
     </string-array>
     <string-array name="usa_mcc">
         <item>310</item>

@@ -1113,7 +1113,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="cloud_app_name">Mi Cloud backup</string>
   <string name="cloud_backup_hint">To access your backups, sign in now</string>
   <string name="cloud_backup_login">Sign in to your Mi Account</string>
-  <string name="cloud_backup_section_title">Cloud backup</string>
+  <string name="cloud_backup_section_title">Xiaomi Cloud backup</string>
   <string name="cloud_backup_settings_section_title">Backup settings</string>
   <string name="cloud_backup_window_title">Mi Cloud backup</string>
   <string name="cloud_home_title">Mi Cloud</string>
@@ -1122,7 +1122,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="cloud_no_backup">No backups</string>
   <string name="cloud_restore_guide">To restore user data for %s, touch Restore</string>
   <string name="cloud_restore_section_summary">Restore system settings, Home screen layout, and apps</string>
-  <string name="cloud_restore_section_title">Restore from Cloud</string>
+  <string name="cloud_restore_section_title">Restore from Xiaomi Cloud</string>
   <string name="cloud_restore_title">Restore backup data</string>
   <string name="cloud_restore_window_title">Mi Cloud restore</string>
   <string name="cloud_search">Searching…</string>
@@ -2777,7 +2777,7 @@ as your First space PIN."</string>
   <string name="lockscreen_magazine_title">Wallpaper Carousel</string>
   <string name="lockscreen_remote_input">If device is locked, prevent typing replies or other text in notifications</string>
   <string name="login">Sign in</string>
-  <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with Cloud.</string>
+  <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with the cloud.</string>
   <string name="login_account_dialog_title">Sign in with Mi Account</string>
   <string name="login_account_summary">Manage accounts, cloud services, payments, and more</string>
   <string name="login_action">Sign in</string>
@@ -3742,7 +3742,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="privacy_authorize_cloud_msg">"To ensure your account's security, sign in to i.mi.com if you want to revoke authorization for Mi Cloud services (including sync and backups)."</string>
   <string name="privacy_authorize_dialog_agree">Agree</string>
   <string name="privacy_authorize_dialog_exit">Exit</string>
-  <string name="privacy_authorize_dialog_message">&lt;Data&gt;"In order to use the basic features of this service, you must agree that Xiaomi will collect, process, and use your personal data. Refer to our Privacy Policy to learn how we collect and process personal data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;.&amp;#8203;"&lt;/Data&gt;</string>
+  <string name="privacy_authorize_dialog_message">&lt;Data&gt;"In order to use the basic features of this service, you must agree that Xiaomi will collect, process, and use your personal data. Refer to our Privacy Policy to learn how we collect and process personal data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
   <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
   <string name="privacy_authorize_revoke">Revoke</string>
@@ -4617,7 +4617,7 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="settings_manual_activity_title">Manual</string>
   <string name="settings_manual_activity_unavailable">There is a problem loading the manual.</string>
   <string name="settings_new_version_btn">Update</string>
-  <string name="settings_notify_need_backup">Back up your settings to Cloud to access them after you switch phones.</string>
+  <string name="settings_notify_need_backup">Back up your settings to Xiaomi Cloud to access them after you switch phones.</string>
   <string name="settings_notify_new_version">An update is available. Tap to view details.</string>
   <string name="settings_notify_phone_recycled">Your phone number has been recycled. Tap to add a different phone number.</string>
   <string name="settings_package">com.android.settings</string>
@@ -6475,8 +6475,8 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="xiaomi_account">Mi Account</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
   <string name="xiaomi_bytes_unit">%1$sB</string>
-  <string name="xiaomi_cloud_service">Cloud</string>
-  <string name="xiaomi_cloud_service_description">Cloud syncs contacts, photos, and other items across your devices. \"Find device\" also requires Cloud to work normally.</string>
+  <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
+  <string name="xiaomi_cloud_service_description">Xiaomi Cloud syncs contacts, photos, and other items across your devices. \"Find device\" also requires Xiaomi Cloud to work normally.</string>
   <string name="xiaomi_cloud_service_disabled">Off</string>
   <string name="xiaomi_cloud_service_unknown">Unknown</string>
   <string name="xiaomi_connect_download_manager_fail">"Couldn't start the download. Make sure Download Manager works normally."</string>
