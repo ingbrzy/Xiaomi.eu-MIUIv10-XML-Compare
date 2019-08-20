@@ -1,4 +1,5 @@
 Removed: [fr] array/menu_copy_or_move (item mismatch)
 Removed: [nl] array/menu_copy_or_move (item mismatch)
 Removed: [pt-rBR] array/menu_copy_or_move (item mismatch)
+Removed: [sk] string/show_hidden_album_title (duplicate)
 Removed: [sr] string/burst_image_download_item_title (format mismatch)
