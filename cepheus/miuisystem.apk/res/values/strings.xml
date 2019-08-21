@@ -14,6 +14,7 @@
   <string name="autumn_equinox">秋分</string>
   <string name="beep">Beep</string>
   <string name="bells">Bells</string>
+  <string name="birdcicada_preview">Nature sound 2</string>
   <string name="blues">Blues</string>
   <string name="bottle">Bottle</string>
   <string name="breeze">Breeze</string>
@@ -54,16 +55,16 @@
   <string name="day_following_good_friday">耶穌受難節翌日</string>
   <string name="daydream">Daydream</string>
   <string name="def_alarm_alert">/system/media/audio/alarms/Dewdrops.ogg</string>
-  <string name="def_notification_sound">/system/media/audio/ui/notice_audition.ogg</string>
+  <string name="def_notification_sound">/system/media/audio/ui/WaterDrop_preview.ogg</string>
   <string name="def_ringtone">/system/media/audio/ringtones/MiRemix.ogg</string>
   <string name="def_ringtone_slot_1">/system/media/audio/ringtones/MiRemix.ogg</string>
   <string name="def_ringtone_slot_2">/system/media/audio/ringtones/MiRemix.ogg</string>
   <string name="def_sms_delivered_sound">/system/media/audio/notifications/MessageSent.ogg</string>
   <string name="def_sms_delivered_sound_slot_1">/system/media/audio/notifications/MessageSent.ogg</string>
   <string name="def_sms_delivered_sound_slot_2">/system/media/audio/notifications/MessageSent.ogg</string>
-  <string name="def_sms_received_sound">/system/media/audio/ui/notice_audition.ogg</string>
-  <string name="def_sms_received_sound_slot_1">/system/media/audio/ui/notice_audition.ogg</string>
-  <string name="def_sms_received_sound_slot_2">/system/media/audio/ui/notice_audition.ogg</string>
+  <string name="def_sms_received_sound">/system/media/audio/ui/WaterDrop_preview.ogg</string>
+  <string name="def_sms_received_sound_slot_1">/system/media/audio/ui/WaterDrop_preview.ogg</string>
+  <string name="def_sms_received_sound_slot_2">/system/media/audio/ui/WaterDrop_preview.ogg</string>
   <string name="device_hongmi">Redmi</string>
   <string name="device_pad">Mi Pad</string>
   <string name="device_poco_global">POCOPHONE</string>
@@ -204,6 +205,7 @@
   <string name="vip_login">Tap to sign in</string>
   <string name="vip_not_login">Not signed in</string>
   <string name="vip_sign">Signature:</string>
+  <string name="waterdrop_preview">Nature sound 1</string>
   <string name="white_dews">白露</string>
   <string name="winter_begins">立冬</string>
   <string name="winter_solstice">冬至</string>
