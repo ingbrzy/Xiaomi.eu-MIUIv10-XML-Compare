@@ -20,7 +20,10 @@
   <string name="cloud_find_device_on">On</string>
   <string name="cloud_lab_title">Lab</string>
   <string name="cloud_storage_already_used">Occupied: %1$s/%2$s</string>
+  <string name="cloud_storage_info_type_drive">Mi Drive</string>
+  <string name="cloud_storage_info_type_duokan">Duokan</string>
   <string name="cloud_storage_info_type_others">Other</string>
+  <string name="cloud_storage_info_type_pdc">System settings</string>
   <string name="cloud_storage_manage_title">Manage storage</string>
   <string name="cloud_storage_no_data">No items in the cloud yet</string>
   <string name="cloudservice_new_sync">Sync %s with Xiaomi Cloud</string>
@@ -389,6 +392,11 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="soundrecorder_sync_only_in_wifi">Only use WLAN to sync</string>
   <string name="soundrecorder_sync_only_in_wifi_summary">Recorder will not use mobile data to download or upload recordings</string>
   <string name="soundrecorder_sync_records">Sync with Xiaomi Cloud</string>
+  <string name="storage_manage_expansion">Get more</string>
+  <string name="storage_manage_list_title">Cloud data</string>
+  <string name="storage_manage_list_title_action">View more</string>
+  <string name="storage_manage_renewal">Renew</string>
+  <string name="storage_manage_upgrade">Upgrade</string>
   <string name="sub_alert_notif_content">Turn on Xiaomi Cloud</string>
   <string name="sub_alert_notif_title">Sync with Xiaomi Cloud</string>
   <string name="sub_sync_item_sms_summary">"Only sync messages containing photos, audio, or other media when you're connected to a WLAN network"</string>
