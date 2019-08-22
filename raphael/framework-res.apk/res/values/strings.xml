@@ -313,7 +313,7 @@
   <string name="config_datause_iface">rmnet0</string>
   <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
   <string name="config_defaultAppPredictionService"/>
-  <string name="config_defaultAssistant"/>
+  <string name="config_defaultAssistant">com.miui.voiceassist</string>
   <string name="config_defaultAssistantAccessComponent">android.ext.services/android.ext.services.notification.Assistant</string>
   <string name="config_defaultAttentionService"/>
   <string name="config_defaultAugmentedAutofillService"/>
