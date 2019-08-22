@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Gadget version="1" resDensity="320">
 	<Var name="temp_scale" expression="#view_width/456" />
-	<MusicControl name="music_control" x="#view_width/2-228*#temp_scale" y="#view_height/2-343*#temp_scale" autoShow="true" defAlbumCover="default_album_cover.png" enableProgress="true" systemPlayer="true" frameRate="1">
+	<MusicControl name="music_control" x="#view_width/2-228*#temp_scale" y="#view_height/2-343*#temp_scale" autoShow="false" defAlbumCover="default_album_cover.png" enableProgress="true" systemPlayer="true" frameRate="1">
 		<Image x="0" y="0" src="music_bg.png" w="#view_width" h="#view_height" />
 		<Group x="0" y="0" w="456*#temp_scale" h="686*#temp_scale" clip="true" >
 			<Image name="music_album_cover" x="230*#temp_scale" y="346*#temp_scale" w="700*#temp_scale" h="700*#temp_scale" align="center" alignV="center" antiAlias="true"/>
