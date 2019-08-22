@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="weather_null">Cek për të marr informacionet e kohes</string>
-    <string name="date_format">EEEE, d MMMM</string>
+    <string name="date_format">EEEE d MMMM</string>
     <string name="today">Sot</string>
     <string name="tomorrow">Nesër</string>
     <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
