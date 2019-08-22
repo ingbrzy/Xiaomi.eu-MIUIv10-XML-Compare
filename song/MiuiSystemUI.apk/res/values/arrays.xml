@@ -1198,6 +1198,7 @@
     <array name="data_type_name_miui_mcc_value" />
     <string-array name="promote_tiles_on_update_successed">
         <item>custom(com.milink.service/com.milink.ui.service.MiLinkTileService)</item>
+        <item>custom(com.miui.mishare.connectivity/.tile.MiShareTileService)</item>
     </string-array>
     <integer-array name="config_5g_signal_rsrp_thresholds">
         <item>-140</item>
@@ -1364,6 +1365,7 @@
         <item>com.amazon.dee.app</item>
         <item>com.xiaomi.misettings</item>
         <item>com.miui.cleanmaster</item>
+        <item>com.xiaomi.market</item>
     </string-array>
     <string-array name="config_allowKeyguardPackages">
         <item>com.google.android.apps.messaging</item>
