@@ -4264,6 +4264,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
   <string name="privacy_password_remind_bindaccount_title">Add Mi Account</string>
   <string name="privacy_password_settings">Use Privacy protection password</string>
   <string name="privacy_password_settings_next">Next</string>
+  <string name="privacy_password_settings_summary">Privacy protection password is used for the apps that might contain sensitive information</string>
   <string name="privacy_password_settings_titles">Privacy protection password protects your messages, photos, files, and notes.</string>
   <string name="privacy_password_settings_titles_elder_mode">Privacy protection password protects your photos, files, and notes.</string>
   <string name="privacy_password_settings_titles_second_space">Privacy protection password protects your messages, photos, and notes.</string>
@@ -5383,6 +5384,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
   <string name="status_bar_settings_qs_layout">Quick settings layout</string>
   <string name="status_bar_settings_show_lte_for_4g">Show LTE icon for 4G</string>
+  <string name="status_bar_settings_show_weather">Show weather in notification shade</string>
   <string name="status_bar_settings_status_bar">Status bar</string>
   <string name="status_bt_address">Bluetooth address</string>
   <string name="status_data_network_type">Mobile data network type</string>
