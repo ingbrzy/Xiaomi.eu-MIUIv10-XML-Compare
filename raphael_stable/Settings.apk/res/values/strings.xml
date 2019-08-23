@@ -3939,6 +3939,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="paper_mode_get_location_dlg_negative_btn_text">Cancel</string>
   <string name="paper_mode_get_location_dlg_positive_btn_text">Go to Settings</string>
   <string name="paper_mode_get_location_dlg_title">Set location</string>
+  <string name="paper_mode_side_effect_hint">Higher intensity might affect the way content is displayed.</string>
   <string name="paper_mode_start_time_title">Turn on</string>
   <string name="passpoint_content">%1$s credentials</string>
   <string name="passpoint_label">Saved via</string>
@@ -4205,6 +4206,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="privacy_password_remind_bindaccount_title">Add Mi Account</string>
   <string name="privacy_password_settings">Use Privacy protection password</string>
   <string name="privacy_password_settings_next">Next</string>
+  <string name="privacy_password_settings_summary">Privacy protection password is used for the apps that might contain sensitive information</string>
   <string name="privacy_password_settings_titles">Privacy protection password protects your messages, photos, files, and notes.</string>
   <string name="privacy_password_settings_titles_elder_mode">Privacy protection password protects your photos, files, and notes.</string>
   <string name="privacy_password_settings_titles_second_space">Privacy protection password protects your messages, photos, and notes.</string>
@@ -4571,6 +4573,7 @@ This setting affects all users on this phone."</string>
   <string name="screen_paper_mode_global_summary">Use Reading mode for all apps</string>
   <string name="screen_paper_mode_global_title">All apps</string>
   <string name="screen_paper_mode_hdr_toast">"Reading mode will be turned off while you're playing HDR videos. It will be turned back on automatically after the playback is over."</string>
+  <string name="screen_paper_mode_hdr_toast_new">Reading mode will be turned off automatically during HDR video playback and fingerprint verification. Your device will switch back to Reading mode once these actions are completed.</string>
   <string name="screen_paper_mode_local_summary">Use Reading mode for apps you select</string>
   <string name="screen_paper_mode_local_title">Selected apps</string>
   <string name="screen_paper_mode_off_apps_title">"Don't use Reading mode"</string>
