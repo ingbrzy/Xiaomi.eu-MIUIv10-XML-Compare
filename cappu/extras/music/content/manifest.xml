@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Gadget version="1" resDensity="320">
-	<MusicControl name="music_control" x="#view_width/2-228" y="#view_height/2-343" autoShow="true" defAlbumCover="default_album_cover.png" enableProgress="true" systemPlayer="true" frameRate="1">
+	<MusicControl name="music_control" x="#view_width/2-228" y="#view_height/2-343" autoShow="false" defAlbumCover="default_album_cover.png" enableProgress="true" systemPlayer="true" frameRate="1">
 		<Image x="0" y="0" src="music_bg.png" />
 		<Group x="0" y="0" w="456" h="686" clip="true" >
 			<Image name="music_album_cover" x="230" y="346" w="700" h="700" align="center" alignV="center" antiAlias="true"/>
