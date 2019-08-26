@@ -1,4 +1,3 @@
 Removed: [ko] array/feature_desc (item mismatch)
 Removed: [pt-rBR] array/feature_desc (item mismatch)
-Removed: [pt-rPT] array/feature_desc (item mismatch)
 Removed: [vi] array/feature_desc (item mismatch)
