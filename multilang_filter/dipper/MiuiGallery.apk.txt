@@ -1,6 +1,3 @@
 Removed: [fr] array/menu_copy_or_move (item mismatch)
-Removed: [ko] string/auto_upload_before_share_title (duplicate)
-Removed: [ko] string/search_mark_feedback_false_negative_title (duplicate)
 Removed: [nl] array/menu_copy_or_move (item mismatch)
-Removed: [pt-rBR] array/menu_copy_or_move (item mismatch)
 Removed: [sr] string/burst_image_download_item_title (format mismatch)
