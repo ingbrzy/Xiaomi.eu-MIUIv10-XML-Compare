@@ -256,6 +256,7 @@
   <string name="select">Select</string>
   <string name="select_all">Select all</string>
   <string name="send_files_to">Send items to</string>
+  <string name="service_not_subscribed">WITHOUT SUBSCRIPTION TO SERVICE -33-</string>
   <string name="set_password_action">Set password</string>
   <string name="set_password_message">Set a password to use this feature.</string>
   <string name="set_password_title">Set a password</string>
@@ -341,6 +342,7 @@
   <string name="unknown_caller">Unknown number</string>
   <string name="unrecognized_manufacture">Unknown</string>
   <string name="unrecognized_model">Unknown device</string>
+  <string name="user_authentication_failed">AUTHENTICATION FAILURE -29-</string>
   <string name="user_switching_dialog_switch_into_kid_space">Switching to Kid space…</string>
   <string name="user_switching_dialog_switch_out_kid_space">Leaving Kid space…</string>
   <string name="user_switching_dialog_text">Switching…</string>
