@@ -73,6 +73,8 @@
         <item>com.xiaomi.drivemode</item>
         <item>com.caiharbor.esim</item>
         <item>com.miui.backup</item>
+        <item>com.miui.notes</item>
+        <item>com.milink.service</item>
     </string-array>
     <string-array name="process_camera_boost_protect_list">
         <item>android.process.media</item>
@@ -205,6 +207,8 @@
         <item>com.miui.systemAdSolution</item>
         <item>com.techown.emm</item>
         <item>com.miui.hybrid.accessory</item>
+        <item>abbanza.bixpe.orange.dispositivos.android</item>
+        <item>edu.okstate.membership</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />
