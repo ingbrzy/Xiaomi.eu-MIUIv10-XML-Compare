@@ -1,2 +1,1 @@
 Removed: [fi-rFI] string/createContactShortcutSuccessful (format mismatch)
-Removed: [pt-rPT] string/use_photo_as_primary2 (format mismatch)
