@@ -28,6 +28,8 @@
   <string name="already_updated">Up to date</string>
   <string name="app_label">Messaging</string>
   <string name="app_name">Devices</string>
+  <string name="application_list_title">Mini apps</string>
+  <string name="attach_group_chat">Group chat</string>
   <string name="attach_image">Pictures</string>
   <string name="attach_rcs_file">File</string>
   <string name="attach_rcs_location">Location</string>
@@ -39,6 +41,7 @@
   <string name="attach_take_photo">Take photo</string>
   <string name="attach_transaction">Transfer money</string>
   <string name="attach_video">Video</string>
+  <string name="attach_video_call">Video call</string>
   <string name="audio_download_failed">"Couldn't download audio"</string>
   <string name="audio_message_expired">This voice message has expired.</string>
   <string name="audio_message_mx_offline">"Couldn't download audio. Mi Message is offline or isn't available."</string>
@@ -72,6 +75,7 @@
   <string name="button_unfold">Unfold</string>
   <string name="call_sender">Call sender</string>
   <string name="can_not_send_by_rcs">"Can't use China Mobile Messaging"</string>
+  <string name="can_not_view_group_chat_stranger">"Can't view the details of strangers."</string>
   <string name="cannot_add_picture_and_video">"Can't add video and picture to one slide."</string>
   <string name="cannot_add_slide_anymore">"Can't add more slides."</string>
   <string name="cannot_forward_drm_obj">"The DRM object included in the message can't be forwarded."</string>
@@ -130,6 +134,7 @@
   <string name="confirm_restore_positive">Restore</string>
   <string name="confirm_restore_title">Restore messages</string>
   <string name="confirm_send_mms">One of your recipients includes an email address. This message will be sent as an MMS, which may result in extra charges from you carrier.</string>
+  <string name="contact_not_exists">"This person isn't in your contacts."</string>
   <string name="context_menu_add_calendar">Add to Calendar</string>
   <string name="context_menu_add_contact">Add to contacts</string>
   <string name="context_menu_add_to_browser_favorite">Add to Browser bookmarks</string>
@@ -171,6 +176,8 @@
   <string name="dialog_message_mx">Mi Message allows you to send messages to other MIUI users without incurring charges. An outgoing SMS message is required to activate Mi Message. Your carrier will charge you for this message. You must agree to our \"%1$s\" and \"%2$s\" before using Mi Message.</string>
   <string name="dialog_message_networking">Messaging needs to use Yellow pages to be able to provide Sender ID recognition. Messaging and Yellow pages need to connect to the internet and access your location to work normally. Allow?</string>
   <string name="dialog_message_rcs">China Mobile Messaging allows you to send messages to other China Mobile users in Mainland China without incurring charges. You must agree to \"%1$s\" before using China Mobile Messaging.</string>
+  <string name="dialog_sim_locked_confirm">OK</string>
+  <string name="dialog_sim_locked_message">"Your SIM card isn't fully operational with this phone because it doesn't comply with the terms and conditions of your subscription. If you have any questions or need more information about this matter, please contact Xiaomi service centers or the store that sold products to you."</string>
   <string name="dialog_title_fake_cell_detect_error">Correction</string>
   <string name="dialog_title_mx_rcs">Mi Message</string>
   <string name="dialog_title_networking">Terms and Conditions</string>
@@ -251,10 +258,12 @@
   <string name="group_verification_codes_title">Group one-time passwords</string>
   <string name="group_view_settings_disolved">"Can't view items. This group chat was deleted."</string>
   <string name="group_view_settings_not_memeber">"Can't view items. You aren't a member of this group chat."</string>
+  <string name="groupchat_list_title">Group chats</string>
   <string name="guild_add_attachments">Tap to add emoticons and other items</string>
   <string name="guild_add_recipients">Tap to add recipients from contacts</string>
   <string name="guild_msim_switcher">Tap to switch SIM cards</string>
   <string name="has_invalid_recipient">Invalid recipients: &lt;%1$s&gt;</string>
+  <string name="heduohao_sub_sim_card">Sub</string>
   <string name="hidden_sender_address">Hidden sender address</string>
   <string name="hold_to_talk">Hold to talk</string>
   <string name="hybrid_check_network">Network settings</string>
@@ -293,6 +302,7 @@
   <string name="menu_edit">Edit</string>
   <string name="menu_forward">Forward</string>
   <string name="menu_lock">Add to favorites</string>
+  <string name="menu_make_call">Call</string>
   <string name="menu_mark">Mark</string>
   <string name="menu_more">More</string>
   <string name="menu_new_contact">New contact</string>
@@ -303,6 +313,7 @@
   <string name="menu_traffic_destination">Destination</string>
   <string name="menu_unlock">Remove from favorites</string>
   <string name="menu_view_contact">View contact</string>
+  <string name="menu_view_group_info">Group info</string>
   <string name="message_class_label">"Message class: "</string>
   <string name="message_contact">Contact:</string>
   <string name="message_details_title">Message details</string>
@@ -414,6 +425,7 @@
   <string name="no_block_button_msg">Unblock</string>
   <string name="no_conversations">No conversations</string>
   <string name="no_delivery_report">No delivery report</string>
+  <string name="no_network_description">"Couldn't connect to the network. Check your network settings and try again."</string>
   <string name="no_subject">(No subject)</string>
   <string name="no_subject_view">(No subject)</string>
   <string name="non_english_subject_limit">13 characters</string>
@@ -540,6 +552,9 @@
   <string name="prvate_contact">Private contacts</string>
   <string name="quick_reply">Reply</string>
   <string name="rate_limit_surpassed">OK</string>
+  <string name="rcs_auto_resend_as_sms_remind_change">Change settings</string>
+  <string name="rcs_auto_resend_as_sms_remind_desp">"Messages up to 900B can be converted and sent as SMS when network signal is poor. Tap \"Change settings\" if you don't want to convert your messages to SMS."</string>
+  <string name="rcs_auto_resend_as_sms_remind_title">Convert to SMS</string>
   <string name="rcs_auto_resend_mms">Convert to MMS</string>
   <string name="rcs_auto_resend_sms">Convert to SMS</string>
   <string name="rcs_auto_resume">Resume interrupted uploads automatically</string>
@@ -550,10 +565,12 @@
   <string name="rcs_forward_faild">"Couldn't forward"</string>
   <string name="rcs_forward_successful">Forwarded successfully</string>
   <string name="rcs_group_notification_invitation">Group chat invitation</string>
+  <string name="rcs_hello_from_pc">Sign in to Fetion on your computer to transfer files.</string>
   <string name="rcs_message">China Mobile Messaging</string>
   <string name="rcs_message_disable">"Can't view this message in Second space"</string>
   <string name="rcs_msg">China Mobile Messaging</string>
   <string name="rcs_not_online">"Can't use China Mobile Messaging. Check your network settings and try again."</string>
+  <string name="rcs_offline">Not signed in to UC. Wait a minute or two and try again.</string>
   <string name="rcs_offline_hint">"China Mobile Messaging is offline. Can't forward this message."</string>
   <string name="rcs_recipient_type_contact">Forward to contact</string>
   <string name="rcs_recipient_type_group">Forward to group chat</string>
@@ -575,6 +592,7 @@
   <string name="received_label">"Received: "</string>
   <string name="recipient_editor_count_format">%d</string>
   <string name="recipient_label">"Recipient: "</string>
+  <string name="recipients_contain_sub_sim_number">"Looks like there's a secondary SIM number among the recipients. Send this message using secondary SIM."</string>
   <string name="recipients_over_size">Too many recipients.</string>
   <string name="recommend_bar_cancel">Ignore</string>
   <string name="recommend_bar_message_mx">Mi Message allows you to send messages to other MIUI users without incurring charges.</string>
@@ -653,6 +671,7 @@
   <string name="security_alert_dialog_title">Report</string>
   <string name="select_audio">Choose audio</string>
   <string name="select_bottom_text">Text on bottom</string>
+  <string name="select_copy_text">Select text to copy</string>
   <string name="select_different_attachment">Choose a different attachment.</string>
   <string name="select_different_audio">Choose a different audio.</string>
   <string name="select_different_picture">Choose a different image.</string>
@@ -751,6 +770,9 @@
   <string name="storage_limits_setting">Set limits</string>
   <string name="storage_limits_setting_dismiss">No limits</string>
   <string name="storage_unavailable">No space available</string>
+  <string name="sub_sim_card">Sub</string>
+  <string name="sub_sim_card_indicator">Sub%d</string>
+  <string name="sub_sim_not_support_mms">"Can't send MMS using secondary SIM"</string>
   <string name="subject_hint">Subject</string>
   <string name="subject_label">"Subject: "</string>
   <string name="subscribe">Subscribe</string>

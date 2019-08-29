@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="feature_desc">
-        <item>「锁屏右滑界面」全新改版，拥有更顺畅的浏览体验</item>
-        <item>锁屏右滑支持「极简模式」，简单使用小工具</item>
+        <item>Fixed some known issues.</item>
     </string-array>
     <string-array name="alphabet_table">
         <item>\#</item>
