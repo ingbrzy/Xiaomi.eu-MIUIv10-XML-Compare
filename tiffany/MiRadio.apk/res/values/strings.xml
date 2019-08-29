@@ -114,7 +114,7 @@
   <string name="auto_upgrade">Update automatically</string>
   <string name="available_playlist_name_format">New playlist %d</string>
   <string name="back_confirm">Tap again to push the app to background</string>
-  <string name="backup_complete">All songs are backed up to Mi Cloud</string>
+  <string name="backup_complete">All songs are backed up to Xiaomi Cloud</string>
   <string name="backup_empty_button">No songs selected</string>
   <string name="backup_immediate">Back up</string>
   <string name="backup_song_title">Select songs to back up</string>
@@ -153,18 +153,18 @@
   <string name="click_login">Tap to sign in</string>
   <string name="click_to_shuffle">Tap to shuffle</string>
   <string name="cloud_empty_local_empty_button">No songs on this device</string>
-  <string name="cloud_empty_message">No songs in Mi Cloud</string>
-  <string name="cloud_empty_summary">Back up songs to Mi Cloud to access them from other devices</string>
-  <string name="cloud_enable">Sync music with Mi Cloud</string>
+  <string name="cloud_empty_message">No songs in Xiaomi Cloud</string>
+  <string name="cloud_empty_summary">Back up songs to Xiaomi Cloud to access them from other devices</string>
+  <string name="cloud_enable">Sync music with the cloud</string>
   <string name="cloud_loading_message">Searching for songs…</string>
-  <string name="cloud_music">Songs in Mi Cloud</string>
-  <string name="cloud_state_cloud_space_full">Not enough Mi Cloud storage, paused backup</string>
+  <string name="cloud_music">Songs in Xiaomi Cloud</string>
+  <string name="cloud_state_cloud_space_full">Not enough Xiaomi Cloud storage. Paused backup.</string>
   <string name="cloud_state_low_power">Connect charger to resume backup</string>
   <string name="cloud_state_network_data">"Couldn't find Wi-Fi networks, paused backup"</string>
   <string name="cloud_state_network_unavailable">"Couldn't connect to the network, paused backup"</string>
   <string name="cloud_state_storage_full">Not enough phone storage, paused backup</string>
   <string name="cloud_welcome_message">Back up songs</string>
-  <string name="cloud_welcome_summary">Back up your songs to Mi Cloud and listen to them on other devices</string>
+  <string name="cloud_welcome_summary">Back up your songs to Xiaomi Cloud and listen to them on other devices</string>
   <string name="collect_to_desktop">Add to Home screen</string>
   <string name="comment">Comment</string>
   <string name="comment_action_title">"%s's comment"</string>
@@ -262,8 +262,8 @@
   <string name="download_auto_cancel">Download favorites is off</string>
   <string name="download_auto_message">"Songs that you favorite will be downloaded automatically when you're connected to Wi-Fi. You can change this in Settings."</string>
   <string name="download_cloud_error_not_auth">Sign in to Mi Account and try again.</string>
-  <string name="download_cloud_error_retryable">Mi Cloud server error, try again later.</string>
-  <string name="download_cloud_error_unknow">"Couldn't connect to Mi Cloud"</string>
+  <string name="download_cloud_error_retryable">Xiaomi Cloud server error. Wait a minute or two and try again.</string>
+  <string name="download_cloud_error_unknow">"Couldn't connect to Xiaomi Cloud"</string>
   <string name="download_complete">Downloaded successfully</string>
   <string name="download_complete_start_install">Installing…</string>
   <string name="download_completed">Downloaded</string>
@@ -447,6 +447,7 @@
   <string name="i_know">OK</string>
   <string name="impunity_declaration_content">You must read and agree with our %1$s and %2$s before using this product.</string>
   <string name="impunity_declaration_content_agreement">User Agreement</string>
+  <string name="impunity_declaration_content_html">&lt;Data&gt;Before using FM Radio, you must read and agree to our &amp;lt;font color=#29b496&amp;gt;&amp;lt;a href=%1$s&amp;gt;User Agreement&amp;lt;/a&amp;gt;&amp;lt;/font&amp;gt; and &amp;lt;font color=#29b496&amp;gt;&amp;lt;a href=%2$s&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;&amp;lt;/font&amp;gt;. FM Radio also needs to connect to the internet and access your location info to work normally. Agree?&lt;/Data&gt;</string>
   <string name="impunity_declaration_content_online">You must read and agree with our %1$s and %2$s before using online content.</string>
   <string name="impunity_declaration_content_policy">Privacy Policy</string>
   <string name="impunity_declaration_enjoy_now">Start</string>
@@ -490,7 +491,7 @@
   <string name="lrc_searching">Searching…</string>
   <string name="lyric_open_other_connect">Download lyrics using mobile network</string>
   <string name="lyric_setting">Lyrics settings</string>
-  <string name="manager_cloud_space">Manage Mi Cloud storage</string>
+  <string name="manager_cloud_space">Manage Xiaomi Cloud storage</string>
   <string name="market_download_failure">Error，please try it again？</string>
   <string name="max_count">999+</string>
   <string name="max_message_count">99+</string>
@@ -553,6 +554,7 @@
   <string name="more_share">Share</string>
   <string name="msg_do_not_support_fm">"This device doesn't support FM Radio"</string>
   <string name="msg_fm_starting">Starting…</string>
+  <string name="msg_internalantenna_optimal">Connect earphones for best effect</string>
   <string name="msg_noantenna_message">No headphones detected. Some functions may not be available.</string>
   <string name="msg_try_plug_headset">Connect headphones and try again.</string>
   <string name="multiple_select">Select</string>
@@ -622,7 +624,7 @@
   <string name="online_listen">Listen</string>
   <string name="online_music_enabled_summary">Listen and download your favorite songs. View top songs and curated playlists wherever you go!</string>
   <string name="online_music_enabled_title">Free streaming is here</string>
-  <string name="online_recommend">Recommended</string>
+  <string name="online_recommend">Audiobooks</string>
   <string name="online_service_dialog_message">"You won't be able to receive content recommendations and sync items if you turn off online services. Turn off anyway?"</string>
   <string name="online_service_dialog_title">Online services</string>
   <string name="online_service_open_tip">Online music services are on</string>
@@ -748,6 +750,7 @@
   <string name="radio_cancel_subscribe">Removed from favorites successfully</string>
   <string name="radio_not_support">Radio not support</string>
   <string name="radio_subscribe_success">Added to favorites successfully</string>
+  <string name="rank_list">Top charts</string>
   <string name="recently_played">Recently played</string>
   <string name="recently_played_songs">Recently played</string>
   <string name="recognize_calling_network_error">"Couldn't connect to the network. Wait a minute or two and try again."</string>
@@ -845,9 +848,10 @@
   <string name="sleep_mode">Sleep timer</string>
   <string name="sleep_mode_cancel">Cancel</string>
   <string name="sleep_mode_canceled">Sleep mode turned off</string>
+  <string name="sleep_mode_close">Close</string>
   <string name="sleep_mode_ok">Ok</string>
   <string name="sleep_mode_one">played now</string>
-  <string name="sleep_mode_state">"Sleep timer: "</string>
+  <string name="sleep_mode_state">Sleep timer</string>
   <string name="sleep_mode_three">played three songs</string>
   <string name="sleep_mode_two">played two songs</string>
   <string name="sleep_mode_warning">Player will stop after %1$d set</string>
@@ -934,6 +938,8 @@
   <string name="ticket_hint">Verification code</string>
   <string name="ticket_invalid">The code you entered is incorrect</string>
   <string name="ticket_sign_in">Sign in via SMS</string>
+  <string name="time_picker_hour">hours</string>
+  <string name="time_picker_min">minutes</string>
   <string name="time_to_upgrade">Find a new version</string>
   <string name="title_album_list">Album</string>
   <string name="title_fm_list">FM</string>
