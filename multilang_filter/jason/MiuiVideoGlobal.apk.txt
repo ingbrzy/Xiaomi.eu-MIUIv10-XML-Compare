@@ -1,3 +1,1 @@
-Removed: [ro] string/today (duplicate)
-Removed: [ro] string/tuesday (duplicate)
 Removed: [tr] string/cast_casting_to_device (format mismatch)
