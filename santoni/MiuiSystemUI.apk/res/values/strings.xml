@@ -352,8 +352,6 @@
   <string name="block_notification_content_text">"%1$s's notifications won't be shown again. You can change this in the Settings."</string>
   <string name="block_notification_desc">"The app's notifications won't be shown again. You can change this in the Settings."</string>
   <string name="block_notification_text">Hide</string>
-  <string name="block_record_notification_text">Hiding notifications from %1$s.</string>
-  <string name="block_record_notification_title">Notifications hidden</string>
   <string name="bluetooth_a2dp_profile_summary_connected">Connected to media audio</string>
   <string name="bluetooth_a2dp_profile_summary_use_for">Use for media audio</string>
   <string name="bluetooth_connected">Connected</string>
@@ -523,6 +521,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="description_direction_left">Swipe left for %s.</string>
   <string name="description_direction_up">Swipe up for %s.</string>
   <string name="description_image_button_answer">Answer</string>
+  <string name="description_image_button_bubble_answer">Speaker</string>
   <string name="description_image_button_reject">Decline</string>
   <string name="description_image_icon_sim_card">SIM %1$d</string>
   <string name="description_target_search">Search</string>
@@ -534,7 +533,6 @@ If you resume, charges may apply for data usage."</string>
   <string name="development_settings_summary">Set options for app development</string>
   <string name="development_settings_title">Developer options</string>
   <string name="digital_clock_dot">:</string>
-  <string name="disable_notification_summary">Never show notifications from selected apps</string>
   <string name="disable_notification_title">Hide notifications</string>
   <string name="disable_overlays">Disable HW overlay</string>
   <string name="disable_overlays_summary">Always use GPU for screen rendering</string>
@@ -594,7 +592,6 @@ If you resume, charges may apply for data usage."</string>
   <string name="enable_webview_multiprocess_desc">Run WebView renderers separately</string>
   <string name="enabled_by_admin">Enabled by administrator</string>
   <string name="ethernet_label">Ethernet</string>
-  <string name="expanded_confirm_disable_notification">Hide</string>
   <string name="expanded_header_battery_charged">Charged</string>
   <string name="expanded_header_battery_charging">Charging</string>
   <string name="expanded_header_battery_charging_with_time">%s until full</string>
@@ -1221,8 +1218,8 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="oldman_incall_text">Back to call</string>
   <string name="open_camera_hint_text">Drag the icon to open Camera</string>
   <string name="open_extreme_power_save_mode_title">Turn on Extreme battery saver</string>
-  <string name="open_lock_screen_magazine_hint_text">Drag the icon to open Wallpaper Carousel</string>
-  <string name="open_remote_center_hint_text">Drag the icon to view shortcuts</string>
+  <string name="open_lock_screen_magazine_hint_text">Swipe right for more options</string>
+  <string name="open_remote_center_hint_text">Swipe right to view controls</string>
   <string name="other">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="overview">Overview</string>
@@ -1327,6 +1324,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="qs_dnd_replace">Replace</string>
   <string name="qs_dnd_until">Until %s</string>
   <string name="qs_edit">Edit</string>
+  <string name="qs_open_night_mode_alert_summary">"Certain display settings aren't compatible with Dark mode. However, they will be restored once you turn Dark mode off."</string>
   <string name="qs_paging">Use the new Quick settings</string>
   <string name="qs_rearrange">Rearrange Quick settings</string>
   <string name="quick_settings">Quick settings</string>
@@ -1396,6 +1394,7 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_night_secondary_label_on_at">On at %s</string>
   <string name="quick_settings_night_secondary_label_on_at_sunset">On at sunset</string>
   <string name="quick_settings_night_secondary_label_until_sunrise">Until sunrise</string>
+  <string name="quick_settings_nightmode_label">Dark mode</string>
   <string name="quick_settings_notifications_label">Notifications</string>
   <string name="quick_settings_papermode_label">Reading mode</string>
   <string name="quick_settings_powermode_label">Performance mode</string>
@@ -1417,9 +1416,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_sync_label">Sync</string>
   <string name="quick_settings_tethering_label">Tethering</string>
   <string name="quick_settings_tiles">default</string>
-  <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.milink.service/com.milink.ui.service.MiLinkTileService),powermode,custom(com.miui.screenrecorder/com.miui.screenrecorder.service.QuickService),vibrate,hotspot,sync,screenbutton,nfc,edit</string>
+  <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.milink.service/com.milink.ui.service.MiLinkTileService),powermode,custom(com.miui.screenrecorder/.service.QuickService),vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit</string>
   <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
-  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,custom(com.milink.service/com.milink.ui.service.MiLinkTileService),powermode,custom(com.miui.screenrecorder/com.miui.screenrecorder.service.QuickService),vibrate,hotspot,sync,screenbutton,nfc,edit,drivemode</string>
+  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,night,quietmode,batterysaver,extremebatterysaver,powermode,vibrate,hotspot,sync,screenbutton,wirelesspower,nfc,edit,drivemode</string>
   <string name="quick_settings_time_label">Time</string>
   <string name="quick_settings_toast_drag_to_enable_custom_tile">To add an item, press and hold it, and then drag it to the upper part of the panel.</string>
   <string name="quick_settings_user_label">Me</string>

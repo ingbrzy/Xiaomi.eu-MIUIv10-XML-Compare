@@ -105,7 +105,7 @@ You can sign in to your Mi Account using %s now."</string>
   <string name="change_email_address">Change email address</string>
   <string name="change_password">Change password</string>
   <string name="change_phone_number">Change phone number</string>
-  <string name="cloud_service">Mi Cloud</string>
+  <string name="cloud_service">Xiaomi Cloud</string>
   <string name="collect_diagnosis_log">Generate diagnostic log</string>
   <string name="com_facebook_device_auth_instructions">Visit &lt;b&gt;facebook.com/device&lt;/b&gt; and enter the code shown above.</string>
   <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
@@ -173,6 +173,7 @@ You can sign in to your Mi Account using %s now."</string>
 ID:%s
 Send this code to the supervisor."</string>
   <string name="empty_device_list_notice">No devices</string>
+  <string name="ep_unsupported">Your device does not support login to Xiaomi account</string>
   <string name="error_dup_binded_email">This email address is already associated with another Mi Account.</string>
   <string name="error_invalid_bind_address">The email address you entered is invalid.</string>
   <string name="exceed_binded_phone_times_notice">This phone number is already associated with another Mi Account.</string>
@@ -216,7 +217,7 @@ Send this code to the supervisor."</string>
   <string name="input_new_pwd">Enter new password</string>
   <string name="io_error_title">Confirm your network</string>
   <string name="just_a_second">Just a sec…</string>
-  <string name="kr_license_desc">You must agree to our User Agreement and Privacy Policy before using Mi Account and Mi Cloud services.</string>
+  <string name="kr_license_desc">You must agree to our User Agreement and Privacy Policy before using Mi Account and Xiaomi Cloud services.</string>
   <string name="kr_permission_contacts_desc">For accessing contact info</string>
   <string name="kr_permission_desc">Permissions required</string>
   <string name="kr_permission_phone_desc">For protecting your account</string>
@@ -241,8 +242,8 @@ Send this code to the supervisor."</string>
   <string name="mipay_others">Other</string>
   <string name="mipay_transit_card">Transport card</string>
   <string name="multi_user_not_show_sync_activity_message_1">"Looks like you're using your First space Mi Account."</string>
-  <string name="multi_user_not_show_sync_activity_message_2">"In such case, all the data will be synced to your Second space. To avoid this, don't turn on sync with Mi Cloud."</string>
-  <string name="multi_user_not_show_sync_activity_title">"Don't turn on sync with Mi Cloud"</string>
+  <string name="multi_user_not_show_sync_activity_message_2">"In such case, all the data will be synced to your Second space. To avoid this, don't turn on sync with the cloud."</string>
+  <string name="multi_user_not_show_sync_activity_title">"Don't turn on sync with the cloud"</string>
   <string name="my_device_title">Current device</string>
   <string name="need_install_wechat">Install WeChat first</string>
   <string name="no_network_btn">Refresh</string>
@@ -444,7 +445,7 @@ To activate your account, follow the
   <string name="passport_skip_login">Skip</string>
   <string name="passport_skip_register">Skip sign-up</string>
   <string name="passport_skip_setup_account_msg">You can set up a Mi Account later in Settings.</string>
-  <string name="passport_skip_setup_account_title">"Don't use Mi Cloud?"</string>
+  <string name="passport_skip_setup_account_title">"Don't use Xiaomi Cloud?"</string>
   <string name="passport_sms_send_success">Sent</string>
   <string name="passport_sms_verification_code_login">Sign in using SMS</string>
   <string name="passport_sms_verification_code_login_or_register">Sign in or create account using SMS</string>
@@ -463,10 +464,7 @@ To activate your account, follow the
   <string name="passport_use_generated_pwd_message">Make sure you remember your password. You can use it to sign in to other Mi services.</string>
   <string name="passport_use_generated_pwd_title">Remember your password!</string>
   <string name="passport_user_agreement">User Agreement</string>
-  <string name="passport_user_agreement_p1">Agree to </string>
-  <string name="passport_user_agreement_p2">User Agreement</string>
-  <string name="passport_user_agreement_p3"> and </string>
-  <string name="passport_user_agreement_p4">Privacy Policy</string>
+  <string name="passport_user_agreement_link">&lt;Data&gt;"I've read and agreed to Xiaomi's &amp;lt;a href=%1$s&amp;gt;User Agreement&amp;lt;/a&amp;gt; and &amp;lt;a href=%2$s&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="passport_user_agreement_required">User Agreement (mandatory)</string>
   <string name="passport_user_id_notice">Your Mi Account ID is %s.</string>
   <string name="passport_user_reg_region">Country/Region</string>
@@ -507,7 +505,6 @@ To activate your account, follow the
   <string name="restart_phone_bind_message">It may take some time to receive SMS. Start over anyway?</string>
   <string name="restart_phone_bind_title">Change recovery phone</string>
   <string name="same_new_and_old_pwd">"Can't be the same as current password"</string>
-  <string name="scan_barcode">Scan QR code to sign in</string>
   <string name="scan_barcode_title">To sign in to your Mi Account, scan the QR code</string>
   <string name="search_account_security">Account security</string>
   <string name="search_account_security_desc">Account Settings</string>
@@ -517,7 +514,7 @@ To activate your account, follow the
   <string name="search_menu_title">Search</string>
   <string name="search_mi_account">Mi Account</string>
   <string name="search_mi_account_desc">Mi Account</string>
-  <string name="search_mi_account_key_words">Mi Cloud,Account Setting,Mi Pay Info,Sign out</string>
+  <string name="search_mi_account_key_words">Xiaomi Cloud,Account settings,Mi Pay info,Sign out</string>
   <string name="search_mi_account_path">Settings/Mi Account</string>
   <string name="search_user_detail">Personal info</string>
   <string name="search_user_detail_bottom_key_words">Change Income,Change Education,Change Location,Change Region</string>
@@ -539,10 +536,22 @@ To activate your account, follow the
   <string name="sms_send_success">Sent</string>
   <string name="sns_access_token_expired_warning">Account sign-in has expired. Sign in again to reconnect this account.</string>
   <string name="status_bar_notification_info_overflow">999+</string>
+  <string name="system_ad">Ads in system apps</string>
+  <string name="system_ad_list">View related apps.</string>
+  <string name="system_ad_summary">"Turn this feature on to allow showing a small number of ads in system apps. These ads help us develop and improve our products and services. You can choose to turn this feature off anytime. Thanks for your support! "</string>
+  <string name="system_ad_switch">Ads in system apps</string>
+  <string name="system_ad_switch_failed">failed</string>
   <string name="talkback_scan_barcode">Scan QR code</string>
   <string name="temporary_not_available">"This feature isn't available yet."</string>
   <string name="turn_off_find_device_failed_title">"Can't turn off Find device"</string>
   <string name="turning_off_find_device">Turning off Find device…</string>
+  <string name="two_factor_auth">Two factor authentication</string>
+  <string name="two_factor_auth_click_confirm">Confirm to sign in</string>
+  <string name="two_factor_auth_click_confirm_summary">"You'll see a notification on other connected Mi devices. Tap the notification to allow signing in on a new device."</string>
+  <string name="two_factor_auth_method">Authentication method</string>
+  <string name="two_factor_auth_need_code">Enter code</string>
+  <string name="two_factor_auth_need_code_summary">"You'll see a code on other connected Mi devices. Enter this code on a new device to sign in."</string>
+  <string name="two_factor_auth_summary">"When you try to sign in on a new device or in a new location, you'll be notified about this on other connected devices. You'll have to confirm whether such sign-in attempts are authorized by you."</string>
   <string name="unbind_sns_description">"After you disconnect this account, you won't be able to use your %s Account info to sign to your Mi Account."</string>
   <string name="unlock_help_notice">"Help:
 1. If you forgot your password, go to id.mi.com to reset it.

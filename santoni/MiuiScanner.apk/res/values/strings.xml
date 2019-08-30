@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="abc_action_bar_home_description">Navigate home</string>
-  <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-  <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
   <string name="abc_action_bar_up_description">Navigate up</string>
   <string name="abc_action_menu_overflow_description">More options</string>
   <string name="abc_action_mode_done">Done</string>
@@ -22,6 +20,16 @@
   <string name="abc_font_family_menu_material">sans-serif</string>
   <string name="abc_font_family_subhead_material">sans-serif</string>
   <string name="abc_font_family_title_material">sans-serif-medium</string>
+  <string name="abc_menu_alt_shortcut_label">Alt+</string>
+  <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+  <string name="abc_menu_delete_shortcut_label">delete</string>
+  <string name="abc_menu_enter_shortcut_label">enter</string>
+  <string name="abc_menu_function_shortcut_label">Function+</string>
+  <string name="abc_menu_meta_shortcut_label">Meta+</string>
+  <string name="abc_menu_shift_shortcut_label">Shift+</string>
+  <string name="abc_menu_space_shortcut_label">space</string>
+  <string name="abc_menu_sym_shortcut_label">Sym+</string>
+  <string name="abc_prepend_shortcut_label">Menu+</string>
   <string name="abc_search_hint">Search…</string>
   <string name="abc_searchview_description_clear">Clear query</string>
   <string name="abc_searchview_description_query">Search query</string>
@@ -42,10 +50,12 @@
   <string name="app_description_title">About Scanner</string>
   <string name="app_details">App:</string>
   <string name="app_name">Scanner</string>
+  <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
   <string name="back">Back</string>
   <string name="barcode_into_rectangle">Place the code inside the frame</string>
   <string name="birthday">Birthday:</string>
   <string name="blog">Weibo</string>
+  <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
   <string name="business_card">Business card</string>
   <string name="business_card_result_title">Business card</string>
   <string name="business_card_title">Place the business card inside the frame</string>
@@ -57,6 +67,8 @@
   <string name="call_anyone">Call</string>
   <string name="camera_error_title">Camera error</string>
   <string name="cancel">Cancel</string>
+  <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
+  <string name="character_counter_pattern">%1$d / %2$d</string>
   <string name="choose_pay_title">Select payment method</string>
   <string name="choose_picture">Select QR code image</string>
   <string name="common_retake_picture">Retake</string>
@@ -103,6 +115,8 @@
   <string name="error_media_storage_failure">"Couldn't save photo"</string>
   <string name="error_permissions">"Scanner doesn't have the permissions required for it to work normally. Go to Settings and check permissions to continue."</string>
   <string name="error_server_error">A server error occurred.</string>
+  <string name="fab_transformation_scrim_behavior">android.support.design.transformation.FabTransformationScrimBehavior</string>
+  <string name="fab_transformation_sheet_behavior">android.support.design.transformation.FabTransformationSheetBehavior</string>
   <string name="fax">Fax</string>
   <string name="feed_search_fail">No results, try again</string>
   <string name="feedback_description_camera_access">"Scanner can't connect to Camera"</string>
@@ -110,11 +124,13 @@
   <string name="global_default_language">@string/language_value_english</string>
   <string name="got_it">Got it</string>
   <string name="gps">Navigate</string>
+  <string name="hide_bottom_view_on_scroll_behavior">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
   <string name="image_file_name_format">"'scanner'_yyyyMMdd_HHmmss"</string>
   <string name="import_contact">Import contact</string>
-  <string name="impunity_declaration_content">"Scanner needs to use your camera and process the images you take while using the app. Don't use Scanner to take photos of the objects containing your personal information. By tapping \"Agree\", you're agreeing to our &lt;font color=\"#ff32b4ff\"&gt;&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\" style=\"color:#ff32b4ff;\"&gt;Privacy Policy&lt;/a&gt;&lt;/font&gt; and allow Scanner to connect to the internet."</string>
+  <string name="impunity_declaration_content">"Scanner needs to use your camera and process the images you take while using the app. Don't use Scanner to take photos of the objects containing your personal information. By tapping \"Agree\", you're agreeing to our &lt;font color=\"#ff32b4ff\"&gt;&lt;a href=\"http://privacy.mi.com/all/%1$s\" style=\"color:#ff32b4ff;\"&gt;Privacy Policy&lt;/a&gt;&lt;/font&gt; and allowing Scanner to connect to the internet."</string>
   <string name="impunity_declaration_negative_text">Exit</string>
   <string name="impunity_declaration_title">Privacy Policy</string>
+  <string name="jd_shopping_title">Search on JD</string>
   <string name="keywords_search_code">Scanner;Scan;QR code;QR;Recognition;Barcode;Barcodes;Product;Products;Alipay;WeChat;How to scan QR code;How to scan barcode;How to scan;MIUI Scanner</string>
   <string name="keywords_search_document">Scanner;Scan document;Scan documents;OCR;Scan text;Scan</string>
   <string name="keywords_search_namecard">Scanner;Business card;Business cards;Scan;Scan cards;Card;Cards;Contacts;Contact</string>
@@ -151,6 +167,7 @@
   <string name="module_title_shopping">Shopping</string>
   <string name="module_title_study">Homework</string>
   <string name="module_title_translation">Translate</string>
+  <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
   <string name="name">Name:</string>
   <string name="new_schedule">Create event</string>
   <string name="nickname">Nickname:</string>
@@ -161,6 +178,11 @@
   <string name="not_recommend_access_web_url">Go anyway</string>
   <string name="note">Remark:</string>
   <string name="open_url">Open URL</string>
+  <string name="password_toggle_content_description">Show password</string>
+  <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+  <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+  <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+  <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
   <string name="pay_no_tip">"Don't show again"</string>
   <string name="pay_save_this_choose">Remember my choice</string>
   <string name="payment_text">Open with %s</string>
@@ -249,7 +271,9 @@
   <string name="wifi_details">Wi-Fi:</string>
   <string name="wifi_exist_fail">Wi-Fi hotspot \"%1$s\" already exists. Delete it and try again.</string>
   <string name="wifi_open_fail">"Can't turn on Wi-Fi"</string>
+  <string name="wifi_psd_toolong">The password is too long. Enter the password manually.</string>
   <string name="wifi_pwd">Password:</string>
   <string name="wifi_security">Security:</string>
   <string name="wifi_ssid">SSID:</string>
+  <string name="wx_not_installed_toast">This feature needs to use WeChat. Install WeChat first.</string>
 </resources>

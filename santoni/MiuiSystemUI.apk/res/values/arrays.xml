@@ -936,6 +936,12 @@
         <item>com.xiaomi.mipicks</item>
         <item>com.xiaomi.discover</item>
         <item>com.miui.mishare.connectivity</item>
+        <item>com.qualcomm.wfd.service</item>
+        <item>com.miui.notes</item>
+        <item>com.miui.tsmclient</item>
+    </string-array>
+    <string-array name="system_alert_window_notification_whitelist">
+        <item>com.miui.notes</item>
     </string-array>
     <string-array name="avoid_disturb_app_whitelist">
         <item>com.baidu.BaiduMap</item>
@@ -1101,28 +1107,6 @@
         <item>cereus</item>
         <item>lotus</item>
     </string-array>
-    <string-array name="device_support_screen_on_delayed">
-        <item>dipper</item>
-        <item>polaris</item>
-        <item>wayne</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>nitrogen</item>
-        <item>whyred</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-        <item>platina</item>
-        <item>beryllium</item>
-        <item>capricorn</item>
-        <item>natrium</item>
-        <item>jason</item>
-        <item>sirius</item>
-        <item>lavender</item>
-        <item>cepheus</item>
-        <item>grus</item>
-        <item>andromeda</item>
-        <item>ursa</item>
-    </string-array>
     <string-array name="lockscreen_sc_slide_not_open_camera">
         <item>com.android.camera</item>
         <item>com.android.phone</item>
@@ -1190,6 +1174,10 @@
     <array name="data_type_name_mcc_mnc_value" />
     <array name="data_type_name_miui_mcc_key" />
     <array name="data_type_name_miui_mcc_value" />
+    <string-array name="promote_tiles_on_update_successed">
+        <item>custom(com.milink.service/com.milink.ui.service.MiLinkTileService)</item>
+        <item>custom(com.miui.mishare.connectivity/.tile.MiShareTileService)</item>
+    </string-array>
     <integer-array name="config_5g_signal_rsrp_thresholds">
         <item>-140</item>
         <item>-125</item>
@@ -1226,6 +1214,7 @@
         <item>com.miui.securitycenter</item>
         <item>com.tencent.mobileqq</item>
         <item>com.tencent.mm</item>
+        <item>com.miui.smarttravel</item>
     </string-array>
     <string-array name="config_canShowBadgePackages">
         <item>com.google.android.apps.messaging</item>
@@ -1349,6 +1338,12 @@
         <item>com.google.android.dialer</item>
         <item>com.miui.miservice</item>
         <item>com.miui.mishare.connectivity</item>
+        <item>com.mi.oa</item>
+        <item>com.miui.huanji</item>
+        <item>com.amazon.dee.app</item>
+        <item>com.xiaomi.misettings</item>
+        <item>com.miui.cleanmaster</item>
+        <item>com.xiaomi.market</item>
     </string-array>
     <string-array name="config_allowKeyguardPackages">
         <item>com.google.android.apps.messaging</item>
@@ -1419,6 +1414,13 @@
         <item>com.xiaomi.account</item>
         <item>com.zing.zalo</item>
         <item>com.miui.mishare.connectivity</item>
+        <item>com.mi.oa</item>
+        <item>com.amazon.dee.app</item>
+        <item>com.miui.smarttravel</item>
+    </string-array>
+    <string-array name="config_pluginWhitelist">
+        <item>com.android.systemui</item>
+        <item>miui.systemui.plugin</item>
     </string-array>
     <string-array name="usa_mcc">
         <item>310</item>

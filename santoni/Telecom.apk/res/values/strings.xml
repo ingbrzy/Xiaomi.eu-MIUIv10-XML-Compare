@@ -219,6 +219,7 @@
   <string name="local_backup_password_toast_validation_failure">Failure setting backup password</string>
   <string name="managed_user_title">All work apps</string>
   <string name="media_category">Media</string>
+  <string name="missedcall_notification_public_version_title">Phone</string>
   <string name="mobile_data_always_on">Cellular data always active</string>
   <string name="mobile_data_always_on_summary">Always keep mobile data active, even when WLAN is active (for fast network switching).</string>
   <string name="mock_location_app">Select mock location app</string>
