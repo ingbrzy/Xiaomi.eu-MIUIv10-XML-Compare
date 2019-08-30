@@ -1107,28 +1107,6 @@
         <item>cereus</item>
         <item>lotus</item>
     </string-array>
-    <string-array name="device_support_screen_on_delayed">
-        <item>dipper</item>
-        <item>polaris</item>
-        <item>wayne</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>nitrogen</item>
-        <item>whyred</item>
-        <item>equuleus</item>
-        <item>perseus</item>
-        <item>platina</item>
-        <item>beryllium</item>
-        <item>capricorn</item>
-        <item>natrium</item>
-        <item>jason</item>
-        <item>sirius</item>
-        <item>lavender</item>
-        <item>cepheus</item>
-        <item>grus</item>
-        <item>andromeda</item>
-        <item>ursa</item>
-    </string-array>
     <string-array name="lockscreen_sc_slide_not_open_camera">
         <item>com.android.camera</item>
         <item>com.android.phone</item>
@@ -1439,6 +1417,10 @@
         <item>com.mi.oa</item>
         <item>com.amazon.dee.app</item>
         <item>com.miui.smarttravel</item>
+    </string-array>
+    <string-array name="config_pluginWhitelist">
+        <item>com.android.systemui</item>
+        <item>miui.systemui.plugin</item>
     </string-array>
     <string-array name="usa_mcc">
         <item>310</item>
