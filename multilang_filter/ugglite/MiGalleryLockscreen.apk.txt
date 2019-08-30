@@ -1,0 +1,2 @@
+Removed: [ko] array/feature_desc (item mismatch)
+Removed: [vi] array/feature_desc (item mismatch)
