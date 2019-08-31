@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="about_weather_setting">About Weather</string>
+  <string name="about_weather_setting_feedback">Feedback</string>
+  <string name="abrupt_weather_settings_summary_type">Receive alerts about expected rainfall, air quality changes, and other significant changes</string>
   <string name="abrupt_weather_settings_summary_type_a">Unusual Weather Warning Switch</string>
   <string name="abrupt_weather_settings_summary_type_b">Unusual Weather Warning Switch</string>
   <string name="abrupt_weather_settings_title">Unusual Weather Warning</string>
@@ -32,6 +35,8 @@
   <string name="add_city">Add</string>
   <string name="alert_detail_title">Alert details</string>
   <string name="alert_warning">Weather alerts</string>
+  <string name="alert_weather_enable_settings_summary">Receive official weather warnings</string>
+  <string name="alert_weather_enable_settings_title">Weather warnings</string>
   <string name="already_voted_toast">"You've already voted today"</string>
   <string name="app_name">Weather</string>
   <string name="aqi_data_source">Powered by Colorful Clouds</string>
@@ -81,6 +86,7 @@
   <string name="button_settings_confirm_to_revoke_msg">"You won't be able to use Weather after revoking authorization."</string>
   <string name="button_settings_confirm_to_revoke_title">Revoke authorization?</string>
   <string name="button_sure_abandon">Discard changes?</string>
+  <string name="card_item_ad_text">广告</string>
   <string name="card_vote_item_vs">VS</string>
   <string name="change_alert">Check your network connection and try again</string>
   <string name="china_version_first_start_network_msg">"You need to agree to Xiaomi's %1$s and %2$s to be able to use Weather. Weather needs to access your location and connect to the internet to work normally. Agree?"</string>
@@ -97,7 +103,7 @@
   <string name="content_desc_close_button">Close</string>
   <string name="daily_forcast_no_stable_direction">Breeze</string>
   <string name="daily_forcast_no_wind">0</string>
-  <string name="daily_forcast_temperature_transfer">%1$s° / %2$s°</string>
+  <string name="daily_forcast_temperature_transfer">"%1$s° /  %2$s°"</string>
   <string name="daily_forcast_temperature_transfer_C">%1$s / %2$s℃</string>
   <string name="daily_forcast_temperature_transfer_F">%1$s / %2$s℉</string>
   <string name="daily_forcast_weather_transfer">%1$s. %2$s later.</string>
@@ -119,6 +125,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="empty_view_net_unavailable">"Couldn't connect to the network"</string>
   <string name="empty_view_refresh">Try again</string>
   <string name="eu_region_version_first_start_network_msg">"By using this product, you agree that this product will connect the network, collect, process, and use you personal information, including the coordinates of the cities you search, and other types of data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we collect and process information. By tapping \"Agree\", you agree to Xiaomi's %1$s and %2$s."</string>
+  <string name="feedback">Report incorrect weather info</string>
   <string name="feedback_cloudy">Cloudy</string>
   <string name="feedback_foggy">Foggy</string>
   <string name="feedback_haze">Haze</string>
@@ -188,7 +195,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="more_details">More details</string>
   <string name="network_not_available">"Can't connect to the network"</string>
   <string name="network_unavailable">"Can't connect to the network."</string>
-  <string name="night_not_disturb_settings_summary">Silence alerts coming between 23:00 and 07:00</string>
+  <string name="night_not_disturb_settings_summary">Block alerts between 23:00 and 7:00</string>
   <string name="night_not_disturb_settings_title">"Don't disturb at night"</string>
   <string name="no_data">No data</string>
   <string name="no_network_btn">Try again</string>
@@ -257,6 +264,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="some_where_on_earth">Somewhere on Earth</string>
   <string name="sunrise">Sunrise</string>
   <string name="sunset">Sunset</string>
+  <string name="temperature_normal_unit">%1$s°</string>
   <string name="temperature_unit_C">%1$s℃</string>
   <string name="temperature_unit_F">%1$s℉</string>
   <string name="temperature_unit_default">0</string>
@@ -298,6 +306,8 @@ Tap the screen to manually add or reposition city"</string>
   <string name="view_forecast_item_yesterday">Yesterday</string>
   <string name="view_indexes_item_today">Today</string>
   <string name="view_indexes_item_tommorrow">Tomorrow</string>
+  <string name="warning_weather_day_and_night_settings_summary">Receive daily summaries containing weather info at 7:00 and 19:00</string>
+  <string name="warning_weather_day_and_night_settings_title">Daily summaries</string>
   <string name="weather_alert_channel_name">Alerts</string>
   <string name="weather_introduce">Always with you, rain or shine.</string>
   <string name="weather_permission_agree">Accept</string>
