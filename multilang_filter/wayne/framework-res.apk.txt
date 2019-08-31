@@ -65,7 +65,6 @@ Removed: [nl-rNL] string/ext_media_nomedia_notification_message (format mismatch
 Removed: [nl-rNL] string/ext_media_unmountable_notification_message (format mismatch)
 Removed: [pl] array/fingerprint_error_vendor (untranslatable)
 Removed: [pl-v29] string/wifi_no_internet (format mismatch)
-Removed: [pt-rBR] array/fingerprint_error_vendor (untranslatable)
 Removed: [pt-rPT] string/ext_media_badremoval_notification_message (format mismatch)
 Removed: [pt-rPT] string/ext_media_new_notification_message (format mismatch)
 Removed: [pt-rPT] string/ext_media_nomedia_notification_message (format mismatch)
