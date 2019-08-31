@@ -2,7 +2,7 @@
 <resources>
     <string name="weather_null">Докоснете, за да получите инф. за времето</string>
     <string name="date_format">EEEE, d MMMM</string>
-    <string name="today">В момента</string>
+    <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>
     <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
     <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>

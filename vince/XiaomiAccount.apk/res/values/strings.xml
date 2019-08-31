@@ -173,6 +173,7 @@ You can sign in to your Mi Account using %s now."</string>
 ID:%s
 Send this code to the supervisor."</string>
   <string name="empty_device_list_notice">No devices</string>
+  <string name="ep_unsupported">Your device does not support login to Xiaomi account</string>
   <string name="error_dup_binded_email">This email address is already associated with another Mi Account.</string>
   <string name="error_invalid_bind_address">The email address you entered is invalid.</string>
   <string name="exceed_binded_phone_times_notice">This phone number is already associated with another Mi Account.</string>
@@ -463,10 +464,7 @@ To activate your account, follow the
   <string name="passport_use_generated_pwd_message">Make sure you remember your password. You can use it to sign in to other Mi services.</string>
   <string name="passport_use_generated_pwd_title">Remember your password!</string>
   <string name="passport_user_agreement">User Agreement</string>
-  <string name="passport_user_agreement_p1">Agree to </string>
-  <string name="passport_user_agreement_p2">User Agreement</string>
-  <string name="passport_user_agreement_p3"> and </string>
-  <string name="passport_user_agreement_p4">Privacy Policy</string>
+  <string name="passport_user_agreement_link">&lt;Data&gt;"I've read and agreed to Xiaomi's &amp;lt;a href=%1$s&amp;gt;User Agreement&amp;lt;/a&amp;gt; and &amp;lt;a href=%2$s&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="passport_user_agreement_required">User Agreement (mandatory)</string>
   <string name="passport_user_id_notice">Your Mi Account ID is %s.</string>
   <string name="passport_user_reg_region">Country/Region</string>
@@ -538,6 +536,11 @@ To activate your account, follow the
   <string name="sms_send_success">Sent</string>
   <string name="sns_access_token_expired_warning">Account sign-in has expired. Sign in again to reconnect this account.</string>
   <string name="status_bar_notification_info_overflow">999+</string>
+  <string name="system_ad">Ads in system apps</string>
+  <string name="system_ad_list">View related apps.</string>
+  <string name="system_ad_summary">"Turn this feature on to allow showing a small number of ads in system apps. These ads help us develop and improve our products and services. You can choose to turn this feature off anytime. Thanks for your support! "</string>
+  <string name="system_ad_switch">Ads in system apps</string>
+  <string name="system_ad_switch_failed">failed</string>
   <string name="talkback_scan_barcode">Scan QR code</string>
   <string name="temporary_not_available">"This feature isn't available yet."</string>
   <string name="turn_off_find_device_failed_title">"Can't turn off Find device"</string>
