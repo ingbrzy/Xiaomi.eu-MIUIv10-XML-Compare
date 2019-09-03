@@ -50,6 +50,7 @@ Contact your sales agent for details."</string>
   <string name="phone_locked_account_email">, associated email: %s</string>
   <string name="phone_locked_account_phone">, associated phone number: %s</string>
   <string name="return_to_call">Return to call</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="stop_on_empty_captcha">"Captcha can't be blank"</string>
   <string name="stop_on_empty_password">"Password can't be blank"</string>
   <string name="sys_notification_async_open_failed_content">Tap to try again or cancel.</string>

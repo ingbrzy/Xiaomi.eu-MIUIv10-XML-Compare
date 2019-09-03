@@ -190,11 +190,16 @@
   <string name="respond_via_sms_custom_message">Custom SMS</string>
   <string name="select_audio_dialog_title">Select answering mode</string>
   <string name="select_one_sim_title">Can only use SIM %1$d</string>
+  <string name="select_one_sim_title_for_heduohao">Can only use SIM %1$d Sub %2$d</string>
   <string name="select_sim_hint">"Can't use SIM %2$d, while SIM %1$d is in use."</string>
+  <string name="select_sim_hint_for_heduohao">"Can't use other, while SIM %1$d Sub %2$d is in use."</string>
   <string name="select_voice_call_sim">Choose SIM card</string>
   <string name="separate_from_conference">Separate call</string>
   <string name="sim1_description">SIM1</string>
+  <string name="sim1_heduohao_card">Sub1</string>
   <string name="sim2_description">SIM2</string>
+  <string name="sim2_heduohao_card">Sub2</string>
+  <string name="sim3_heduohao_card">Sub3</string>
   <string name="sip_call_not_support_record">"Can't record SIP calls"</string>
   <string name="supp_service_notification_call_waiting">The number you dialed is busy. Please hold…</string>
   <string name="suspect_info">Be careful with your personal information.</string>
@@ -205,6 +210,7 @@
   <string name="video_conference_caller_info_name">"%1$s's video conference call"</string>
   <string name="video_crbt_title">"The other party's video ringback tone is playing"</string>
   <string name="voicemail">Voicemail</string>
+  <string name="volte_call">VoLTE call</string>
   <string name="volume_boost_text">Boosted volume successfully</string>
   <string name="wait_prompt_str">"Send the following tones?
 "</string>

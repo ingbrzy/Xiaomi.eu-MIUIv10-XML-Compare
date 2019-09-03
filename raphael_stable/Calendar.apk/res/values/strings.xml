@@ -80,6 +80,7 @@
   <string name="arbor_day_tradition">植樹節</string>
   <string name="armed_forces_day">军人节</string>
   <string name="armed_forces_day_tradition">軍人節</string>
+  <string name="at_least_one_channel">至少需要关注1个频道</string>
   <string name="autumn_begins">立秋</string>
   <string name="autumn_begins_tradition">立秋</string>
   <string name="autumn_equinox">秋分</string>
@@ -103,6 +104,7 @@
   <string name="birthday_notification_type_term_lunar"/>
   <string name="birthday_saved">Birthday saved</string>
   <string name="birthday_term">Birthday</string>
+  <string name="birthday_term_chinese_calendar">"%1$s's birthday (Traditional Chinese calendar)"</string>
   <string name="book_card_free">免费</string>
   <string name="book_card_rating_text">|   %1$s 条评论</string>
   <string name="can_not_create_long_event">Event name is too long</string>
@@ -139,6 +141,7 @@
   <string name="close_alarm">Turn off</string>
   <string name="cold_dews">寒露</string>
   <string name="cold_dews_tradition">寒露</string>
+  <string name="content_confirm_close_chinese_calendar">All your events based on the Traditional Chinese calendar will be converted to the Gregorian calendar after you turn this feature off. Years and months of the Gregorian calendar will be used for repeated events.</string>
   <string name="copy_email">Copy email address</string>
   <string name="copy_number">Copy phone number</string>
   <string name="countdown_event_title">Countdown: %1$s</string>
@@ -278,8 +281,8 @@
   <string name="feed_close_open_feed">开启今日关注</string>
   <string name="feed_dislike_reason">不感兴趣</string>
   <string name="feed_guide_dialog_title">选择感兴趣频道</string>
-  <string name="feed_guide_setting_close">关闭今日关注</string>
-  <string name="feed_guide_setting_mananger">更多订阅频道</string>
+  <string name="feed_guide_setting_close">退订今日关注</string>
+  <string name="feed_guide_setting_mananger">更多频道</string>
   <string name="feed_guide_subscribe">立即开启</string>
   <string name="feed_guide_subscribe_failed">开启失败</string>
   <string name="feed_guide_subscribe_msg">至少选择一个频道</string>
@@ -295,9 +298,9 @@
   <string name="feed_list_tips_success">已更新%1$d条新鲜事</string>
   <string name="feed_manager_edit">编辑</string>
   <string name="feed_manager_ok">完成</string>
-  <string name="feed_manager_subscribed">我的订阅</string>
+  <string name="feed_manager_subscribed">已关注</string>
   <string name="feed_manager_subscribed_empty_msg">暂未订阅频道,赶紧订阅吧</string>
-  <string name="feed_manager_title">订阅感兴趣的频道</string>
+  <string name="feed_manager_title">关注感兴趣的频道</string>
   <string name="feed_manager_unsubscribed">推荐频道</string>
   <string name="feed_manager_unsubscribed_empty_msg">敬请期待更多精彩频道</string>
   <string name="feed_share_weibo_title">【%1$s】来自小米日历：%2$s</string>
@@ -478,6 +481,7 @@
   <string name="lunar_chu_shi">初十</string>
   <string name="lunar_date">Lunar date</string>
   <string name="lunar_day"/>
+  <string name="lunar_day_chinese_calendar">农历%1$s</string>
   <string name="lunar_er">二</string>
   <string name="lunar_er_shi">二十</string>
   <string name="lunar_jiu">九</string>
@@ -493,6 +497,7 @@
   <string name="lunar_shi_yi">十一</string>
   <string name="lunar_si">四</string>
   <string name="lunar_to_solar"/>
+  <string name="lunar_to_solar_chinese_calendar">Chinese to Gregorian</string>
   <string name="lunar_wu">五</string>
   <string name="lunar_year">年</string>
   <string name="lunar_yi">一</string>
@@ -501,6 +506,11 @@
   <string name="match_ed">已结束</string>
   <string name="match_not_started">未开始</string>
   <string name="match_select_activity_label">Leagues</string>
+  <string name="menstruation_card_default_title">暂无经期助手数据</string>
+  <string name="menstruation_card_error_sub_title">可尝试退出并重启日历</string>
+  <string name="menstruation_card_error_title">当前数据请求异常</string>
+  <string name="menstruation_card_private_mode_sub_title">当前为私密模式哦</string>
+  <string name="menstruation_card_private_mode_title">生理周期****</string>
   <string name="menu_general_preferences">General</string>
   <string name="menu_reminder_preferences">Reminders</string>
   <string name="missing_name">(No name)</string>
@@ -608,6 +618,7 @@ Check network settings and try again."</string>
   <string name="prefDefault_alerts_vibrate_false">never</string>
   <string name="prefDefault_alerts_vibrate_true">always</string>
   <string name="prefDialogTitle_vibrateWhen">Vibrate</string>
+  <string name="pref_default_popup_alert_value">smart</string>
   <string name="pref_reminder_time">Reminder time</string>
   <string name="pref_title_alarm_remind">Alarm reminders</string>
   <string name="pref_title_no_remind">No reminders</string>
@@ -638,6 +649,10 @@ Check network settings and try again."</string>
   <string name="preferences_import_train">火车票</string>
   <string name="preferences_import_travel">机票火车票</string>
   <string name="preferences_notification_ringtone_title">Sound</string>
+  <string name="preferences_popup_alert_smart_summary">MIUI will identify which events are most relevant automatically</string>
+  <string name="preferences_popup_alert_smart_summary_new">Time-sensitive events are the events with an exact time</string>
+  <string name="preferences_popup_alert_smart_tips">"Replace traditional notifications with pop-up alerts to avoid missing important events. Pop-up alerts won't appear when you're playing games, watching fullscreen videos, or using Car mode."</string>
+  <string name="preferences_popup_alert_title">Pop-up alerts</string>
   <string name="preferences_title">Calendar</string>
   <string name="preferences_use_home_tz_descrip">Displays calendars and event times in your home time zone when traveling</string>
   <string name="preferences_use_home_tz_title">Use home time zone</string>
@@ -689,7 +704,14 @@ Check network settings and try again."</string>
   <string name="repeat_label_frequency">Frequency</string>
   <string name="repeat_label_interval">Every</string>
   <string name="repeat_label_week">Week</string>
+  <string name="repeat_lunar_monthly"/>
+  <string name="repeat_lunar_monthly_chinese_calendar">农历每月</string>
+  <string name="repeat_lunar_monthly_detail"/>
+  <string name="repeat_lunar_monthly_detail_chinese_calendar">农历每月（%1$s）</string>
   <string name="repeat_lunar_yearly"/>
+  <string name="repeat_lunar_yearly_chinese_calendar">农历每年</string>
+  <string name="repeat_lunar_yearly_detail"/>
+  <string name="repeat_lunar_yearly_detail_chinese_calendar">农历每年（%1$s）</string>
   <string name="repeat_month_day_splitter">" "</string>
   <string name="repeat_week_info">" %1$s %2$s"</string>
   <string name="repeats_label">Repeat</string>
@@ -697,6 +719,7 @@ Check network settings and try again."</string>
   <string name="response_no">No</string>
   <string name="response_yes">Yes</string>
   <string name="rest_day_indication">: )</string>
+  <string name="rest_day_indication_chinese_calendar">休</string>
   <string name="retrocession_day">光复节</string>
   <string name="retrocession_day_tradition">光復節</string>
   <string name="saving_event">Event saved</string>
@@ -715,6 +738,7 @@ Check network settings and try again."</string>
   <string name="setting_about_miui_version">MIUI version:</string>
   <string name="setting_about_summary">Version:</string>
   <string name="setting_accounts">Calendar accounts</string>
+  <string name="setting_chinese_calendar">Chinese calendar</string>
   <string name="setting_content_promotion">内容推广</string>
   <string name="setting_daysoff_no_update">The info about public holidays is up to date.</string>
   <string name="setting_daysoff_update">Update info about public holidays</string>
@@ -722,6 +746,7 @@ Check network settings and try again."</string>
   <string name="setting_daysoff_update_net_err">"Couldn't check for updates. Wait a minute or two and try again."</string>
   <string name="setting_daysoff_update_schedule">Updating…</string>
   <string name="setting_daysoff_update_success">Updated successfully</string>
+  <string name="setting_desc_import_todo">Import scheduled tasks from Notes</string>
   <string name="setting_features_title">Feature settings</string>
   <string name="setting_holiday_display_desc">Holiday cards are located below your agenda on the home page</string>
   <string name="setting_holiday_reminder">Holiday reminder</string>
@@ -732,6 +757,7 @@ Check network settings and try again."</string>
   <string name="setting_title_about">About</string>
   <string name="setting_title_debug">导出日志</string>
   <string name="setting_title_holiday_display">Show holidays</string>
+  <string name="setting_title_import_todo">Import tasks</string>
   <string name="setting_title_limit_card_desc">位于日历首页的限行卡片,该服务需要联网</string>
   <string name="setting_title_limit_card_display">显示限行服务</string>
   <string name="setting_title_lottery_card_desc">位于日历首页的彩票开奖卡片，该服务需要联网</string>
@@ -780,6 +806,9 @@ Check network settings and try again."</string>
   <string name="shift_type_night">夜班</string>
   <string name="shift_type_noon">中班</string>
   <string name="shift_type_rest">休息</string>
+  <string name="shortcut_new_event">Add event</string>
+  <string name="shortcut_next_agenda">Next event</string>
+  <string name="shortcut_settings">Settings</string>
   <string name="show_day_view">Show day</string>
   <string name="slight_cold">小寒</string>
   <string name="slight_cold_tradition">小寒</string>
@@ -787,9 +816,10 @@ Check network settings and try again."</string>
   <string name="slight_heat_tradition">小暑</string>
   <string name="sms_import_description">更好地管理与时间相关的短信事件</string>
   <string name="solar_lunar_convert_date"/>
-  <string name="solar_lunar_convert_description"/>
-  <string name="solar_lunar_convert_tab"/>
+  <string name="solar_lunar_convert_description">Gregorian to Traditional Chinese</string>
+  <string name="solar_lunar_convert_tab">Convert</string>
   <string name="solar_to_lunar"/>
+  <string name="solar_to_lunar_chinese_calendar">Gregorian to Chinese</string>
   <string name="spring_begins">立春</string>
   <string name="spring_begins_tradition">立春</string>
   <string name="start_date_calculate">Calculate</string>
@@ -808,6 +838,7 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="subscribe_channel_subscribing">Subscribed</string>
   <string name="subscribe_channel_title">Channel</string>
   <string name="subscribing_card">Subscribed</string>
+  <string name="subscription_service">订阅服务</string>
   <string name="summer_begins">立夏</string>
   <string name="summer_begins_tradition">立夏</string>
   <string name="summer_solstice">夏至</string>
@@ -851,10 +882,13 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="ticket_card_phase">- 第%1$s期</string>
   <string name="time_zone">Time zone</string>
   <string name="timezone_label">Time zone</string>
+  <string name="title_confirm_close_chinese_calendar">Turning off Chinese calendar</string>
   <string name="today">Today</string>
   <string name="today_at_time_fmt">Today at %s</string>
   <string name="today_icon_voice_contentdescription">Back to today</string>
   <string name="today_no_events">No events</string>
+  <string name="todo_audio_event">"[Voice task] "</string>
+  <string name="todo_event">Upcoming tasks</string>
   <string name="tomorrow">Tomorrow</string>
   <string name="tomorrow_at_time_fmt">Tomorrow at %s</string>
   <string name="too_long_content">Content is too long</string>
@@ -947,9 +981,11 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="winter_solstice_tradition">冬至</string>
   <string name="work_day_default_banner_title">Have a productive day at work!</string>
   <string name="work_day_indication">: (</string>
+  <string name="work_day_indication_chinese_calendar">班</string>
   <string name="wuxing">五行</string>
   <string name="xiaomi_calendar_display_name">Mi Account Calendar</string>
   <string name="xingxiu">星宿</string>
+  <string name="year_indicator_month">农历初一</string>
   <string name="yearly">Yearly (every %s)</string>
   <string name="yearly_plain">Yearly</string>
   <string name="yiji_app_download_card_lebal">宜</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="weather_null">انقر للحصول على معلومات الطقس</string>
-    <string name="date_format">EEEE, d MMMM</string>
+    <string name="date_format">EEEE، d MMMM</string>
     <string name="today">اليوم</string>
     <string name="tomorrow">غداً</string>
     <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
@@ -36,6 +36,6 @@
     <string name="weather_type_20">عاصفة رملية خفيفة</string>
     <string name="weather_type_21">عاصفة رملية</string>
     <string name="weather_type_22">برد</string>
-    <string name="weather_type_23">غبار في الهواء</string>
+    <string name="weather_type_23">غبار</string>
     <string name="weather_type_24">ضباب</string>
 </resources>

@@ -195,10 +195,10 @@ Don't change or rename backup files."</string>
   <string name="hsa_send_again_countdown">Send again (%ds)</string>
   <string name="hsa_send_failed">"Couldn't send verification code. Wait a minute or two and try again."</string>
   <string name="hsa_sending">Sending…</string>
-  <string name="hsa_tip_message">"1. If you can't receive the verification code, make sure that you've already signed in to iCloud on your Apple device.
+  <string name="hsa_tip_message">"1. If you can't receive the verification code, make sure that you've already signed in to iCloud on your Apple device.r
 2. If entering the verification code doesn't help, turn off two-factor authentication. "</string>
   <string name="hsa_tip_message_shutdown_hsa">How to turn off two-factor authentication</string>
-  <string name="hsa_tip_message_with_device">"1. A message with the verification code has been sent to %s associated with your Apple ID.
+  <string name="hsa_tip_message_with_device">"1. A message with the verification code has been sent to %s associated with your Apple ID.r
 2. Turn off two-factor authentication if the verification code doesn't work."</string>
   <string name="hsa_tip_title">Tips:</string>
   <string name="hsa_title">Two-factor authentication</string>
@@ -208,13 +208,13 @@ Don't change or rename backup files."</string>
   <string name="hsa_verify_shutdown">Turn off</string>
   <string name="iCloud_ID_verification_tip">Tap \"Allow\" on your Apple device to make the verification code appear. Enter the verification code here.</string>
   <string name="icloud_backup_tip">Sign in to the iCloud account of your old iOS device</string>
-  <string name="icloud_how_to_backup_tip_steps">"1. Open Settings on your iOS device, and select iCloud.
-2. Toggle the switches for contacts and other items.
+  <string name="icloud_how_to_backup_tip_steps">"1. Open Settings on your iOS device, and select iCloud.r
+2. Toggle the switches for contacts and other items.r
 3. Select Photos and toggle the switch for iCloud Photo Library."</string>
   <string name="icloud_how_to_backup_tip_summary">To import data from iOS, you must create an iCloud backup.</string>
   <string name="icloud_how_to_backup_tip_title">Tips:</string>
   <string name="icloud_login_title">Sign in to iCloud</string>
-  <string name="icloud_need_sync">"To import data from iOS,
+  <string name="icloud_need_sync">"To import data from iOS,r
 you should create an iCloud backup first."</string>
   <string name="icloud_need_wifi_message">"You aren't connected to WLAN now. To import data from iCloud, connect to WLAN."</string>
   <string name="icloud_need_wifi_title">Connect to WLAN</string>
@@ -336,12 +336,12 @@ you should create an iCloud backup first."</string>
   <string name="retry">Try again</string>
   <string name="reverse_all">Clear all</string>
   <string name="router_backup_hint">Keep your device powered on</string>
-  <string name="save_finish_with_failing_items">"Transfer was interrupted.
+  <string name="save_finish_with_failing_items">"Transfer was interrupted.r
 The data which wasn't imported must be imported again."</string>
-  <string name="saving_data">"Importing data from iCloud…
+  <string name="saving_data">"Importing data from iCloud…r
 Don't turn off WLAN"</string>
   <string name="saving_data_no_time">Restoring data…</string>
-  <string name="saving_data_space_low">"Not enough storage space.
+  <string name="saving_data_space_low">"Not enough storage space.r
 Free up at least %s."</string>
   <string name="sc_bad_request">Invalid request</string>
   <string name="sc_internal_server_error">Internal server error</string>
@@ -384,6 +384,7 @@ Free up at least %s."</string>
   <string name="start_restore">Restore</string>
   <string name="state_mounting">Accessing router storage…</string>
   <string name="state_waiting">Just a sec…</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="storage_sd_card">SD card</string>
   <string name="storage_usb">USB drive</string>
   <string name="succ_description">Successfully</string>
@@ -584,7 +585,7 @@ Keep devices close to each other."</string>
 Free up storage space or transfer only important items."</string>
   <string name="trans_select_data_tips">"Select items to transfer.
 Similar items on the new device will be overwritten.
-(The size of the transferred items you see know is a rough estimate.)"</string>
+(The size of the transferred items you see now is a rough estimate.)"</string>
   <string name="trans_select_data_too_large">"You selected too many items to transfer.
 Select only important items to make the transfer faster."</string>
   <string name="trans_select_device_receive">Select one device to receive data.</string>
