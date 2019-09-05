@@ -1,5 +1,4 @@
 Removed: [hr] string/dialog_message_rcs (format mismatch)
 Removed: [pl] string/dialog_message_rcs (format mismatch)
 Removed: [sl] string/dialog_message_rcs (format mismatch)
-Removed: [tl] array/contact_entries (item mismatch)
 Removed: [vi] string/cm_privacy_dialog_tips (format mismatch)
