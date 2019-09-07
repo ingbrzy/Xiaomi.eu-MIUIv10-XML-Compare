@@ -3,7 +3,6 @@
   <string name="access_change_text" formatted="false">当前选中的是第%d项, 与第%d项交换位置.</string>
   <string name="access_select">Selected %s</string>
   <string name="access_unselect">Deselected %s</string>
-  <string name="accessibility_title">App vault</string>
   <string name="accessibilty_back_button">返回</string>
   <string name="accessibilty_move_down">下移</string>
   <string name="accessibilty_move_up">上移</string>
@@ -27,8 +26,6 @@
   <string name="agenda_assistant_payment_day">Payment day</string>
   <string name="agenda_assistant_repayment_day">Payment day</string>
   <string name="agenda_assistant_tail_num">Number</string>
-  <string name="agenda_disclaimer">Disclaimer</string>
-  <string name="agenda_disclaimer_content">This feature is provided by Alipay. Alipay shall bear all responsibility related to the services it provides. You can contact Alipay if you have any questions.</string>
   <string name="agenda_i_known">Got it</string>
   <string name="agenda_need_install_alipay">Install Alipay before using this feature.</string>
   <string name="agenda_no_title">(Unnamed)</string>
@@ -54,8 +51,8 @@
   <string name="alipay_bind_now">立即绑定</string>
   <string name="alipay_bind_success">绑定成功</string>
   <string name="alipay_bind_success_tip">你的支付宝账户名和登录密码，与淘宝账户一致。</string>
-  <string name="alipay_cancel">Cancel</string>
-  <string name="alipay_cancel_sel">Cancel</string>
+  <string name="alipay_cancel">取消</string>
+  <string name="alipay_cancel_sel">取消</string>
   <string name="alipay_changeAccountRegister">换个号码，继续注册</string>
   <string name="alipay_change_account">登录其他账号</string>
   <string name="alipay_change_account_login">换个账号登录</string>
@@ -65,7 +62,7 @@
   <string name="alipay_clearInput">清空输入内容</string>
   <string name="alipay_comfirm">确定</string>
   <string name="alipay_confirm">确定</string>
-  <string name="alipay_confirm_cancel">Cancel</string>
+  <string name="alipay_confirm_cancel">取消</string>
   <string name="alipay_confirm_title">提示</string>
   <string name="alipay_conn_check_3g">• 蜂窝移动网络已开启</string>
   <string name="alipay_conn_check_alipay">• 支付宝的网络权限已开启</string>
@@ -167,7 +164,7 @@
   <string name="alipay_login">登录</string>
   <string name="alipay_loginImmediate">立即登录</string>
   <string name="alipay_loginProblems">遇到问题?</string>
-  <string name="alipay_login_cancel">Cancel</string>
+  <string name="alipay_login_cancel">取消</string>
   <string name="alipay_login_error">人气大爆发，一会接待您</string>
   <string name="alipay_login_query_pwd_tip">请为您的账号 %s 设置登录密码，方便以后快速登录支付宝。</string>
   <string name="alipay_login_rds_suspect">登录失败，请重新登录</string>
@@ -187,7 +184,7 @@
   <string name="alipay_password_login">密码登录</string>
   <string name="alipay_phoneNumber">+86</string>
   <string name="alipay_pre_router_alipay_account">用已登录支付宝账号</string>
-  <string name="alipay_pre_router_cancel">Cancel</string>
+  <string name="alipay_pre_router_cancel">取消</string>
   <string name="alipay_pre_router_has_auth_account">用已授权账号</string>
   <string name="alipay_processing">加载中</string>
   <string name="alipay_protocol">服务协议</string>
@@ -218,7 +215,7 @@
   <string name="alipay_reigsterSuccess">注册成功</string>
   <string name="alipay_reinput">重新输入</string>
   <string name="alipay_risk_account_dialog_tip">该账号暂无法登录，可通过以下方式完成操作</string>
-  <string name="alipay_risk_process_cancel">Cancel</string>
+  <string name="alipay_risk_process_cancel">取消</string>
   <string name="alipay_risk_process_change_account">换个账号</string>
   <string name="alipay_risk_process_verify_by_alipay">去手机支付宝验证</string>
   <string name="alipay_scan">Scanner</string>
@@ -244,7 +241,7 @@
   <string name="alipay_sms_verify_alert">短信可能有延迟，请再等一会。</string>
   <string name="alipay_system_error">人气大爆发，一会接待您</string>
   <string name="alipay_system_error_try_later">人气太旺啦，稍候再试试</string>
-  <string name="alipay_template_month_dialog_cancel">Cancel</string>
+  <string name="alipay_template_month_dialog_cancel">取消</string>
   <string name="alipay_template_month_dialog_confirm">确定</string>
   <string name="alipay_template_month_dialog_title">有效期</string>
   <string name="alipay_text_phone_register">手机号注册</string>
@@ -336,15 +333,15 @@
   <string name="book_add_dialog_continue">"Don't exit"</string>
   <string name="book_add_dialog_exit">Exit</string>
   <string name="book_add_dialog_save">Discard changes and exit now?</string>
-  <string name="book_arr_city">目的地</string>
-  <string name="book_arr_station">添加到达站</string>
+  <string name="book_arr_city">Destination</string>
+  <string name="book_arr_station">Add destination</string>
   <string name="book_assistant">Book a trip</string>
   <string name="book_assistant_empty">No bookings yet.</string>
   <string name="book_assistant_go">Departure |  </string>
   <string name="book_assistant_todaybook">"Today's trips"</string>
   <string name="book_assistant_train_start">Departure time</string>
   <string name="book_assistant_train_started">Left station</string>
-  <string name="book_dep_city">出发地</string>
+  <string name="book_dep_city">Origin</string>
   <string name="book_his">Booking history</string>
   <string name="book_input_lack">Fill in all the required fields first</string>
   <string name="book_save_fail">"Couldn't add booking. Try again."</string>
@@ -363,8 +360,8 @@
   <string name="cannot_get_download_url">获取不到安全服务下载地址</string>
   <string name="card_agenda_settings">Settings</string>
   <string name="card_already_fly">Took off</string>
-  <string name="card_banner_close_never">不再提示</string>
-  <string name="card_banner_close_tomorrow">明天提醒我</string>
+  <string name="card_banner_close_never">"Don't remind again"</string>
+  <string name="card_banner_close_tomorrow">Remind tomorrow</string>
   <string name="card_book_all">All bookings</string>
   <string name="card_book_nodata">No bookings</string>
   <string name="card_bookall_flight">Plane tickets</string>
@@ -498,6 +495,8 @@
   <string name="didi_trip">Call a taxi</string>
   <string name="didi_trip_content">Estimate the fare and call a taxi</string>
   <string name="didi_trip_content_detail">Estimate the approximate taxi fare and call a taxi.</string>
+  <string name="disclaimer_content">This feature is provided by %1$s. %1$s shall bear all responsibility related to the services it provides. You can contact %1$s if you have any questions.</string>
+  <string name="disclaimer_title">Disclaimer</string>
   <string name="drive">Drive</string>
   <string name="dummy_tip">请将银行卡片正面置于此区域尝试对齐边缘。</string>
   <string name="duokan_open">Add Duokan card</string>
@@ -549,6 +548,9 @@
   <string name="express_banner_header">%1$s / Tracking number</string>
   <string name="express_booking_txt">Order express delivery</string>
   <string name="express_cancel_order">Cancel</string>
+  <string name="express_card_item_desc_no_info">No info</string>
+  <string name="express_card_item_number_prefix">Order Number: %s</string>
+  <string name="express_card_item_source_prefix">From %s</string>
   <string name="express_code_txt">Code:</string>
   <string name="express_company_list_empty">No companies</string>
   <string name="express_company_phone_prefix">"Contact: "</string>
@@ -616,13 +618,11 @@ Check your tracking number."</string>
   <string name="express_mi_shop">Mi Store</string>
   <string name="express_more_service">More services</string>
   <string name="express_no_address">Empty</string>
-  <string name="express_no_info">No info</string>
   <string name="express_no_order">No orders</string>
   <string name="express_no_order_info">No order info</string>
   <string name="express_not_authorized">Restricted</string>
   <string name="express_num_setting_des">Receive order numbers from the delivery apps installed on your phone.</string>
   <string name="express_num_setting_title">Access order info</string>
-  <string name="express_number_txt">Order Number:</string>
   <string name="express_open">Show delivery tracking cards</string>
   <string name="express_open_locker">一键开柜</string>
   <string name="express_open_txt">Open</string>
@@ -646,7 +646,6 @@ Check your tracking number."</string>
   <string name="express_order_state_unknown">Unknown</string>
   <string name="express_order_state_wait_picking">Await picking</string>
   <string name="express_order_succeeded">Completed</string>
-  <string name="express_origin_prev">From</string>
   <string name="express_other_app">Allow MIUI to access the order info from other apps.</string>
   <string name="express_phone">Telephone</string>
   <string name="express_phone_tip">Delivering, stay tuned</string>
@@ -785,8 +784,9 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="favorite_main">History</string>
   <string name="favorite_title_limit">Enter up to 40 characters</string>
   <string name="favorite_title_modify">Modify</string>
+  <string name="favorite_title_modify_failed">"Couldn't change title"</string>
   <string name="favorite_title_modify_success">Modified successfully</string>
-  <string name="feedback_cancel">Cancel</string>
+  <string name="feedback_cancel">取消</string>
   <string name="feedback_ok">反馈</string>
   <string name="feedback_tip_msg">亲，您是否遇到了支付问题？您可以选择告诉我们。</string>
   <string name="flight">Flight</string>
@@ -977,9 +977,11 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="main_paste_add">Add</string>
   <string name="main_search_hint">Search</string>
   <string name="main_select">Select</string>
+  <string name="map_baidu">Baidu Map</string>
   <string name="map_detail">View route</string>
   <string name="map_didi">Call a taxi</string>
   <string name="map_empty_btn">"You haven't added any addresses"</string>
+  <string name="map_gaode">Gaode Map</string>
   <string name="map_home_didi">Go home</string>
   <string name="map_home_way">Way home</string>
   <string name="map_install_tip">Install Gaode or Baidu maps to use this feature</string>
@@ -1038,7 +1040,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="mini_bracelet">绑定手环</string>
   <string name="mini_bracelet_connected">我的手环...</string>
   <string name="mini_bracelet_scan">附近手环...</string>
-  <string name="mini_cancel">Cancel</string>
+  <string name="mini_cancel">取消</string>
   <string name="mini_cannot_get_download_url">获取不到安全服务下载地址</string>
   <string name="mini_card_no">卡号</string>
   <string name="mini_card_type">卡类型</string>
@@ -1097,7 +1099,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="miot_device_all_device">All devices</string>
   <string name="miot_device_cancel">Cancel</string>
   <string name="miot_device_card_title">Mi home</string>
-  <string name="miot_device_click_show_detail">Tap to know about smart household devices</string>
+  <string name="miot_device_click_show_detail">.(Tap to know about smart household devices)</string>
   <string name="miot_device_click_show_img">Tap to view image</string>
   <string name="miot_device_cta_and"> and </string>
   <string name="miot_device_cta_end">. (</string>
@@ -1118,6 +1120,9 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="miot_device_mijia_uninstall_title">Not installed</string>
   <string name="miot_device_network_error">No connection</string>
   <string name="miot_device_no_recent_frame">Tap to view</string>
+  <string name="miot_device_personal_assistant_eula">User Agreement</string>
+  <string name="miot_device_personal_assistant_eula_priv">" and App vault's "</string>
+  <string name="miot_device_personal_assistant_priv">Privacy Policy</string>
   <string name="miot_device_show_frame_toast">Display image</string>
   <string name="miot_device_shrink_list">Collapse</string>
   <string name="miuishare_account_activate_confirmation">Activate Mi Account</string>
@@ -1152,7 +1157,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="msp_memo_app_cancel">人气大爆发，一会再试试。</string>
   <string name="msp_memo_repeat_pay">同一订单禁止同时多次支付。</string>
   <string name="msp_memo_server_cancel">人气太旺啦，稍候再试试。</string>
-  <string name="msp_memo_user_cancel">操作已经Cancel。</string>
+  <string name="msp_memo_user_cancel">操作已经取消。</string>
   <string name="msp_mini_card_type_text">卡类型</string>
   <string name="msp_mini_choose_identitify">选择证件类别</string>
   <string name="msp_mini_layout">mini_layout</string>
@@ -1281,11 +1286,15 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="not_installed">Not installed</string>
   <string name="note_name">Create</string>
   <string name="note_parent">Notes</string>
+  <string name="notification_channel_default">Default</string>
+  <string name="notification_channel_default_description">Other notifications</string>
+  <string name="notification_channel_favorite_description">Notifications about items added to favorites in different apps</string>
+  <string name="notification_channel_payment_description">Notifications about payments</string>
+  <string name="notification_channel_shopping_description">Notifications about products added to favorites or your shopping cart</string>
   <string name="notification_content_fail_not_support">"Couldn't get payment info, add the record manually."</string>
   <string name="notification_content_fail_stay_longer">Stay on the payment page for at least 1 second</string>
   <string name="notification_content_success">%2$s CNY payment in %1$s</string>
   <string name="notification_express_app_open">Turn on</string>
-  <string name="notification_express_content">Track orders using App vault</string>
   <string name="notification_express_title">Turn on cards from shopping apps</string>
   <string name="notification_title">Added to favorites</string>
   <string name="notification_title_fail">"Couldn't add payment"</string>
@@ -1340,7 +1349,6 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="payment_pref_source_wechat_summary">Get payment info from WeChat</string>
   <string name="payment_pref_source_wechat_title">WeChat</string>
   <string name="payment_privacy_dialog_cancel">Exit</string>
-  <string name="payment_privacy_dialog_message">"\"My payments\" allows you to collect bills from major payment apps in one place. All yout payment info will be encrypted and securely stored on your device. It won't be synced with Mi Cloud or uploaded to any other server. You can turn off \"My payments\" in the Settings or simply remove this card from App vault to stop using this service. Agree?"</string>
   <string name="payment_privacy_dialog_ok">Agree</string>
   <string name="payment_privacy_dialog_title">\"My payments\" Privacy Policy</string>
   <string name="payment_record_add">Add payment</string>
@@ -1517,6 +1525,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="shopping_enable">Shopping is on</string>
   <string name="shopping_label">Shopping</string>
   <string name="shopping_notification_title">Added to Shopping</string>
+  <string name="shopping_rmb">￥%s</string>
   <string name="shopping_search">购物搜索</string>
   <string name="shopping_setting_authorize">Allow exporting info about purchases</string>
   <string name="shopping_setting_authorize_sub">App vault will have access to your favorites and shopping cart items.</string>
@@ -1526,10 +1535,11 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="shopping_setting_jingdong">JD</string>
   <string name="shopping_setting_mishop">Mi Store</string>
   <string name="shopping_setting_notification">Notify about new items</string>
+  <string name="shopping_setting_pinduoduo">Pinduoduo</string>
   <string name="shopping_setting_remove">After you revoke authorization, App vault will stop collecting the info about your purchases, and the Shopping card will be removed. Revoke anyway?</string>
   <string name="shopping_setting_taobao">Taobao</string>
   <string name="shopping_setting_tmall">Tmall</string>
-  <string name="shopping_source">From</string>
+  <string name="shopping_source">From %s</string>
   <string name="shopping_support">Supported apps</string>
   <string name="shortcut">Shortcuts</string>
   <string name="show_more">Show more</string>
@@ -1590,13 +1600,13 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="stock_web_lable">Stocks</string>
   <string name="study_parent">Study</string>
   <string name="system_favorite_dialog_link">Security &amp; privacy</string>
-  <string name="system_favorite_dialog_message">Favorites from multiple apps and services will be added to App vault. Allow?我的收藏会同步各应用中新增的收藏内容，方便查阅。您是否同意授权开启？</string>
+  <string name="system_favorite_dialog_message">Favorites from multiple apps and services will be added to App vault. Allow?</string>
   <string name="system_favorite_dialog_negative">Exit</string>
   <string name="system_favorite_dialog_positive">Allow</string>
   <string name="system_favorite_dialog_title_confirm">Authorization required</string>
   <string name="tag_view_nav">tag_view_nav</string>
   <string name="take_off">Take off</string>
-  <string name="taked_off">已起飞</string>
+  <string name="taked_off">Departed</string>
   <string name="taobao_auth_login">淘宝用户快速登录</string>
   <string name="taobao_protocol">淘宝服务协议</string>
   <string name="taxi">Taxi</string>
@@ -1617,6 +1627,7 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="template_network_error_try_later">网络错误，请稍候再试</string>
   <string name="template_retry_button">重试</string>
   <string name="template_update_error">模板更新失败</string>
+  <string name="time_default">—:—</string>
   <string name="time_just_now">Just now</string>
   <string name="time_month">MM/dd</string>
   <string name="time_year">MM/dd/yyyy</string>
@@ -1657,7 +1668,6 @@ Several orders sent via SF Express from the vendors outside of Taobao, Tmall, an
   <string name="upgrade_log_default">"1. Improved performance.
 2. Fixed bugs."</string>
   <string name="upgrade_log_subtitle">(Downloaded using Wi-Fi)</string>
-  <string name="upgrade_log_title">App vault update</string>
   <string name="upgrade_now">Install now</string>
   <string name="upgrade_now_bottom">Install now</string>
   <string name="uploads_disabled">"Can't upload files"</string>

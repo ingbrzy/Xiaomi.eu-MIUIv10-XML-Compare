@@ -1105,9 +1105,13 @@ Hold the other hand close to the bottom of the phone
 Look at the value of CS0
 The value of CS0 ranges from 3000 to 30000 , the pass button is highlight"</string>
   <string name="sar_sensor_test_description">Sar Sensor Calibrate and Data Collect</string>
+  <string name="sar_sensor_test_err_angle">The phone is not placed at the right angle</string>
+  <string name="sar_sensor_test_next_step">Control baffle close to mobile phone</string>
+  <string name="sar_sensor_test_success">Sar Sensor test success</string>
   <string name="sar_sensor_test_summary">"Rotate the phone, put it to the fixture
 Click the Start Calibrate button
 After calibrate success, control the fixture close and away from the phone"</string>
+  <string name="sar_sensor_test_timeout">Sar Sensor test timeout</string>
   <string name="screen_off_fail_retry">灭屏解锁失败重试次数：</string>
   <string name="screen_on_fail_retry">亮屏解锁失败重试次数：</string>
   <string name="search_menu_title">Search</string>

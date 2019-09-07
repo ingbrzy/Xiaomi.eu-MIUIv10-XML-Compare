@@ -480,6 +480,9 @@ Selection"</string>
   <string name="change_theme_reboot">Changing the theme requires a restart.</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="chooseUsbActivity">Select an app for the USB device</string>
+  <string name="choose_clock_title_left_top">Left-aligned</string>
+  <string name="choose_clock_title_middle">Centered</string>
+  <string name="choose_clock_title_vertical">Vertical</string>
   <string name="choose_profile">Choose profile</string>
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
   <string name="clear_all_notifications_text">Clear all</string>
@@ -777,6 +780,7 @@ If you resume, charges may apply for data usage."</string>
   <string name="guest_wipe_session_message">Do you want to continue your session?</string>
   <string name="guest_wipe_session_title">Welcome back, guest!</string>
   <string name="guest_wipe_session_wipe">Start over</string>
+  <string name="gxzw_area">Fingerprint scanner</string>
   <string name="gxzw_long_press_tip"/>
   <string name="gxzw_press_harder">Press a bit harder</string>
   <string name="gxzw_quick_open_add_event">Add event</string>
@@ -1474,9 +1478,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
   <string name="quick_settings_sync_label">Sync</string>
   <string name="quick_settings_tethering_label">Tethering</string>
   <string name="quick_settings_tiles">default</string>
-  <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,quietmode,batterysaver,extremebatterysaver,drivemode,powermode,vibrate,hotspot,sync,screenbutton,edit</string>
+  <string name="quick_settings_tiles_default">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,quietmode,batterysaver,extremebatterysaver,drivemode,powermode,vibrate,hotspot,sync,screenbutton,nfc,edit</string>
   <string name="quick_settings_tiles_retail_mode">cell,batterysaver,powermode,flashlight,rotation,location</string>
-  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,quietmode,batterysaver,extremebatterysaver,drivemode,powermode,vibrate,hotspot,sync,screenbutton,edit</string>
+  <string name="quick_settings_tiles_stock">cell,wifi,flashlight,mute,screenshot,bt,autobrightness,airplane,screenlock,gps,rotation,papermode,quietmode,batterysaver,extremebatterysaver,drivemode,powermode,vibrate,hotspot,sync,screenbutton,nfc,edit</string>
   <string name="quick_settings_time_label">Time</string>
   <string name="quick_settings_toast_drag_to_enable_custom_tile">To add an item, press and hold it, and then drag it to the upper part of the panel.</string>
   <string name="quick_settings_user_label">Me</string>
@@ -1710,6 +1714,7 @@ Slide down to lock"</string>
   <string name="stream_system">System</string>
   <string name="stream_system_enforced">System enforced</string>
   <string name="stream_tts">Transmitted Through Speaker</string>
+  <string name="stream_voice_assist">Voice Assist</string>
   <string name="stream_voice_call">Call</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>

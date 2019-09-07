@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Gadget version="1" screenWidth="1080" scaleByDensity="false" useVariableUpdater="DateTime.Hour">
+    <ExternalCommands>
+        <Trigger action="resume" condition="not(#not_null)">
+            <BinderCommand name="weather_provider" command="refresh"/>
+        </Trigger>
+    </ExternalCommands>
     <Var name="hour_counter" expression="#hour12" threshold="1">
         <Trigger>
             <BinderCommand name="weather_provider" command="refresh"/>
         </Trigger>
     </Var>
     <VariableBinders>
-         <ContentProviderBinder 
-            name="weather_provider" 
-            uri="content://weather/weather"
+        <ContentProviderBinder
+            name="weather_provider"
+            uri="content://weather/actualWeatherData/1"
             columns="city_name,weather_type,temperature,city_id,aqilevel"
             countName="hasweather">
             <Variable name="weather_location" type="string" column="city_name"/>
             <Variable name="weather_id" type="int" column="weather_type"/>
             <Variable name="weather_temperature" type="int" column="temperature"/>
             <Variable name="weather_temperature_str" type="string" column="temperature"/>
-            <Variable name="temperature_unit" type="number" column="temperature_unit"/>
+            <Variable name="temperature_unit" type="int" column="temperature_unit"/>
             <Variable name="city_id" type="string" column="city_id"/>
             <Variable name="aqi" type="int" column="aqilevel"/>
-         </ContentProviderBinder>
+        </ContentProviderBinder>
     </VariableBinders>
     <Var name="air_quality" expression="eval(ifelse(ge(#aqi,0)*le(#aqi,50),@air_quality0,gt(#aqi,50)*le(#aqi,100),@air_quality1,gt(#aqi,100)*le(#aqi,150),@air_quality2,gt(#aqi,150)*le(#aqi,200),@air_quality3,gt(#aqi,200)*le(#aqi,300),@air_quality4,gt(#aqi,300),@air_quality5,''))" type="string"/>
 
@@ -32,20 +37,21 @@
 
     <Var name="color_temp" expression="ifelse(#applied_light_wallpaper,'#b3000000','#ffffffff')" type="string"/>
     <Var name="color_desc" expression="ifelse(#applied_light_wallpaper,'#80000000','#ccffffff')" type="string"/>
-    <!-- weather_temperature -->
-    <Text name="text_temp" x="35" y="#view_height-224" fontFamily="miui-thin" color="@color_temp" size="130" textExp="ifelse(#not_null,#weather_temperature + ifelse(eq(#temperature_unit,1),'℃',eq(#temperature_unit,'0'),'℉','℃'),'--')"/>
-    <!-- 晴丨轻度污染 -->
-    <Text x="42" y="#view_height-24" fontFamily="miui-reguler" alignV="bottom" color="@color_desc" size="33.73" textExp="ifelse(#not_null,@weather_description+ifelse(len(@air_quality),'丨'+@air_quality,''),@weather_null)"/>
+    <Group visibility="#not_null">
+        <!-- weather_temperature -->
+        <Text name="text_temp" x="35" y="#view_height-224" fontFamily="miui-thin" color="@color_temp" size="130" textExp="ifelse(#not_null,#weather_temperature + ifelse(eq(#temperature_unit,1),'℃','℉'),'--')"/>
+        <!-- 晴丨轻度污染 -->
+        <Text x="42" y="#view_height-24" fontFamily="miui-reguler" alignV="bottom" color="@color_desc" size="33.73" textExp="ifelse(#not_null,@weather_description+ifelse((#aqi!=0)*(#aqi!=(-1))*len(@air_quality),' | '+@air_quality,''),@weather_null)"/>
+    </Group>
     <!-- weather_location -->
-    <Text x="#view_width-35-8" y="#view_height-24" fontFamily="miui-reguler" align="right" alignV="bottom" color="@color_desc" size="33.73" textExp="ifelse(#not_null,@weather_location,@weather_location_null)"/>
+    <Text x="#view_width-35-8" y="#view_height-24" fontFamily="miui-reguler" align="right" alignV="bottom" color="@color_desc" size="33.73" textExp="ifelse(#not_null,@weather_location,@weather_null)"/>
     <!-- weather_icon -->
-    <Image x="#view_width-35" y="#view_height-221" align="right" src="weather_icon/weather.png" srcid="#icon_index"/>
+    <Image x="#view_width-35" y="#view_height-221" align="right" src="weather_icon/weather.png" srcid="ifelse(#not_null,#icon_index,1)"/>
     <Button x="0" y="0" w="#view_width" h="#view_height">
         <Triggers>
             <Trigger action="up">
-                <IntentCommand action="android.intent.action.MAIN" package="com.miui.weather2" class="com.miui.weather2.ActivityWeatherMain"/>
+                <IntentCommand action="com.miui.weather.widget_weather_detail" package="com.miui.weather2" class="com.miui.weather2.ActivityWeatherMain"/>
             </Trigger>
         </Triggers>
     </Button>
 </Gadget>
-
