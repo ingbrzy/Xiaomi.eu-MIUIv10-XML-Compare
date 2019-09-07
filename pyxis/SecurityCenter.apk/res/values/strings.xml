@@ -626,6 +626,7 @@ You will not lose any app data."</string>
   <string name="create_table_thirddesktop">CREATE TABLE THIRD_DESKTOP( _id INTEGER PRIMARY KEY AUTOINCREMENT, package_name TEXT NOT NULL, application_name TEXT NOT NULL, type INTEGER NOT NULL );</string>
   <string name="create_table_vaid">CREATE TABLE VAID( _id INTEGER PRIMARY KEY AUTOINCREMENT, package_name TEXT NOT NULL, vaid TEXT NOT NULL );</string>
   <string name="create_talbe_fwlog">CREATE TABLE fwlog( _id INTEGER PRIMARY KEY AUTOINCREMENT, number TEXT DEFAULT NULL, date INTEGER NOT NULL DEFAULT 0, type INTEGER NOT NULL DEFAULT 0, reason INTEGER NOT NULL DEFAULT 0, data1 TEXT DEFAULT NULL, data2 TEXT DEFAULT NULL, read INTEGER NOT NULL DEFAULT 0, simid TEXT DEFAULT -1, mode INTEGER NOT NULL DEFAULT 0, callType INTEGER NOT NULL DEFAULT 0 );</string>
+  <string name="cta_HIPS_Perm_Location_Desc">get precise location (GPS and network-based)</string>
   <string name="cta_dialog_negative">Exit</string>
   <string name="cta_dialog_positive">Agree</string>
   <string name="cta_dialog_title">Internet connection</string>
