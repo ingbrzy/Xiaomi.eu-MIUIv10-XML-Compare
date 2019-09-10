@@ -1,1 +1,0 @@
-Removed: [tr] string/wifi_tls_config_text (format mismatch)

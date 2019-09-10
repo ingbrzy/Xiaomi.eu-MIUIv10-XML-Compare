@@ -1,1 +1,0 @@
-Removed: [fi-rFI] string/createContactShortcutSuccessful (format mismatch)
