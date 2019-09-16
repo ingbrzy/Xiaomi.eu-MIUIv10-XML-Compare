@@ -1150,6 +1150,11 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="sync_and_backup_bookmark">Sync and back up bookmarks</string>
   <string name="sync_and_backup_history">Sync and back up history</string>
   <string name="sync_cloud_tabs">Sync</string>
+  <string name="system_permission_accounts_purpose">Used for system account login and management</string>
+  <string name="system_permission_main_purpose">Browse the web, search for information, read news, watch videos, etc</string>
+  <string name="system_permission_phone_state_purpose">Used to obtain the device IMEI identifier to provide the corresponding service</string>
+  <string name="system_permission_storage_purpose">Used to read and write files such as saved images and to enable file upload/download functions</string>
+  <string name="system_permission_user_agreement_url">http://www.miui.com/res/doc/eula/en.html</string>
   <string name="tab_hotpage">News feed</string>
   <string name="tab_quicklinks">Start page</string>
   <string name="tab_yellowpage">Links</string>
