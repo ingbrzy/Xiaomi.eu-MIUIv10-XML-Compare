@@ -44,7 +44,7 @@ Data will not be wiped."</string>
   <string name="new_version">New version found!</string>
   <string name="no_info">No info available.</string>
   <string name="no_network">No network access.</string>
-  <string name="no_update">You are up to date or there is a server issue, check xiaomi.eu for new version!</string>
+  <string name="no_update">You are up to date!</string>
   <string name="no_xioamieu">"You are not using MIUI Rom created by Xiaomi.eu team!
 Updates are not available for you!"</string>
   <string name="notif_cancel">Cancel</string>
