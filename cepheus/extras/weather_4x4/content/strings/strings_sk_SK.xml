@@ -1,16 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_format">dd.MM. EEEE</string>
+    <string name="weather_null">Ťuknite pre informácie o počasí</string>
+    <string name="date_format">EEEE, d. MMMM</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zajtra</string>
-    <string name="aqi_pure"/>
-    <string name="aqi_good"/>
-    <string name="aqi_moderate"/>
-    <string name="aqi_pollution"/>
-    <string name="aqi_unhealthy"/>
-    <string name="aqi_dangerous"/>
-    <string name="aqi_hazardous"/>
-    <string name="aqi_break"/>
-    <string name="weather_type_null">Žiadne dáta</string>
+    <string name="aqi_pure">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_good">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_moderate">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_pollution">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_unhealthy">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
+    <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
+    <string name="weather_type_null">'Žiadne údaje'</string>
     <string name="weather_type_0">Jasno</string>
     <string name="weather_type_1">Oblačno</string>
     <string name="weather_type_2">Zamračené</string>
@@ -22,7 +24,7 @@
     <string name="weather_type_8">Dážď</string>
     <string name="weather_type_9">Lejak</string>
     <string name="weather_type_10">Dážď</string>
-    <string name="weather_type_11">Jemný Dážď</string>
+    <string name="weather_type_11">Jemný dážď</string>
     <string name="weather_type_12">Dážď so snehom</string>
     <string name="weather_type_13">Snehová búrka</string>
     <string name="weather_type_14">Sneženie</string>
@@ -36,6 +38,4 @@
     <string name="weather_type_22">Krupobitie</string>
     <string name="weather_type_23">Prašno</string>
     <string name="weather_type_24">Mrznúci dážď</string>
-	<string name="weather_null">Načítať dáta</string>
-	<string name="weather_location_null">Žiadna poloha</string>	
 </resources>

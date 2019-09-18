@@ -1,25 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+		<title locale="no">Notater</title>
 <MIUI-Theme category="notes" size="2:2">
 	<version>1</version>
 	<uiVersion>1</uiVersion>
 	<title>Notes</title>
 	<titles>
-		<title locale="zh_CN">Notes</title>
-		<title locale="zh_TW">便條</title>
-		<title locale="cs_CZ">Poznámky</title>
-		<title locale="sk_SK">Poznámky</title>
-		<title locale="pl_PL">Notatki</title>
-		<title locale="fr_FR">Notes</title>
-		<title locale="hu_HU">Jegyzetek</title>
-		<title locale="bg_BG">Бележки</title>
-		<title locale="hr_HR">Bilješke</title>	
-		<title locale="it_IT">Note</title>
-		<title locale="pt_BR">Notas</title>
-		<title locale="el_GR">Σημειώσεις</title>
-		<title locale="es_ES">Notas</title>
+		<title locale="in_ID">Catatan</title>
+		<title locale="ms_MY">Nota</title>
 		<title locale="de_DE">Notizen</title>
+		<title locale="es_ES">Notas</title>
+		<title locale="es_US">Notas</title>
+		<title locale="fr_FR">Notes</title>
+		<title locale="it_IT">Note</title>
+		<title locale="lt_LT">Užrašai</title>
+		<title locale="hu_HU">Jegyzetek</title>
+		<title locale="uz_UZ">Qaydlar</title>
+		<title locale="pl_PL">Notatki</title>
+		<title locale="pt_BR">Anotações</title>
+		<title locale="ro_RO">Note</title>
+		<title locale="sk_SK">Poznámky</title>
+		<title locale="sl_SI">Beležke</title>
+		<title locale="sv_SE">Anteckningar</title>
 		<title locale="vi_VN">Ghi chú</title>
 		<title locale="tr_TR">Notlar</title>
+		<title locale="cs_CZ">Poznámky</title>
+		<title locale="hr_HR">Bilješke</title>
+		<title locale="ru_RU">Заметки</title>
+		<title locale="uk_UA">Нотатки</title>
+		<title locale="bg_BG">Бележки</title>
+		<title locale="el_GR">Σημειώσεις</title>
+		<title locale="hi_IN">नोट्स</title>
+		<title locale="mr_IN">नोट्स</title>
+		<title locale="bn_IN">নোট</title>
+		<title locale="gu_IN">નોંધ</title>
+		<title locale="pa_IN">ਨੋਟਸ</title>
+		<title locale="as_IN">টোকা</title>
+		<title locale="ta_IN">குறிப்புகள்</title>
+		<title locale="te_IN">గమనికలు</title>
+		<title locale="kn_IN">ಟಿಪ್ಪಣಿಗಳು</title>
+		<title locale="ml_IN">കുറിപ്പുകൾ</title>
+		<title locale="ne_IN">नोटहरू</title>
+		<title locale="or_IN">ଟିକାଗୁଡ଼ିକ</title>
+		<title locale="ur_IN">نوٹس</title>
+		<title locale="ur_PK">نوٹس</title>
+		<title locale="bn_BD">নোট</title>
+		<title locale="ne_NP">नोटहरू</title>
+		<title locale="th_TH">บันทึก</title>
+		<title locale="my_MM">မှတ်စုများ</title>
+		<title locale="ar_EG">الملاحظات</title>
+		<title locale="fa_IR">یادداشت‌ها</title>
+		<title locale="iw_IL">פתקים</title>
+		<title locale="ko_KR">메모</title>
+		<title locale="zh_CN">便签</title>
+		<title locale="mt_MT">Noti</title>
+		<title locale="lo_LA">Notes</title>
+		<title locale="bs_BA">Bilješke</title>
+		<title locale="en_GB">Notes</title>
+		<title locale="en_IN">Notes</title>
+		<title locale="me_ME">Bilješke</title>
+		<title locale="mk_MK">Белешки</title>
+		<title locale="hy_AM">Նշումներ</title>
+		<title locale="sq_AL">Shënime</title>
+		<title locale="eu_ES">Oharrak</title>
+		<title locale="be_BY">Нататкі</title>
+		<title locale="nl_NL">Opmerkingen</title>
+		<title locale="da_DK">Noter</title>
+		<title locale="nb_NO">Notater</title>
+		<title locale="gl_ES">Notas</title>
+		<title locale="ca_ES">Notes</title>
+		<title locale="km_KH">កំណត់​សម្គាល់</title>
+		<title locale="zh_HK">便條</title>
+		<title locale="ka_GE">შენიშვნები</title>
+		<title locale="ha_NG">Rubutu</title>
+		<title locale="lv_LV">Piezīmes</title>
+		<title locale="fi_FI">Muistiinpanot</title>
+		<title locale="et_EE">Märkmed</title>
+		<title locale="az_AZ">Qeydlər</title>
+		<title locale="sr_RS">Белешке</title>
+		<title locale="kk_KZ">Жазбалар</title>
+		<title locale="ja_JP">メモ</title>
 		<title locale="pt_PT">Notas</title>
-		</titles>
+		<title locale="zh_TW">便條</title>
+		<title locale="bo_CN">སྟབས་ཤོག</title>
+		<title locale="ug_CN">باغاقچە</title>
+	</titles>
 </MIUI-Theme>

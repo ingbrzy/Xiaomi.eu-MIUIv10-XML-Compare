@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="weather_type_null">'정보 없음'</string>
+    <string name="air_quality0">\'AQI \'+#aqi</string>
+    <string name="air_quality1">\'AQI \'+#aqi</string>
+    <string name="air_quality2">\'AQI \'+#aqi</string>
+    <string name="air_quality3">\'AQI \'+#aqi</string>
+    <string name="air_quality4">\'AQI \'+#aqi</string>
+    <string name="air_quality5">\'AQI \'+#aqi</string>
+    <string name="weather_null">탭하여 날씨 정보 얻기</string>
+    <string name="weather_location_null">위치 정보 없음</string>
     <string name="weather_type_0">맑음</string>
     <string name="weather_type_1">흐림</string>
     <string name="weather_type_2">연무</string>
     <string name="weather_type_3">안개</string>
     <string name="weather_type_4">집중 호우</string>
     <string name="weather_type_5">호우</string>
-    <string name="weather_type_6">집중 호우</string>
+    <string name="weather_type_6">집중 폭우</string>
     <string name="weather_type_7">뇌우</string>
     <string name="weather_type_8">소나기</string>
     <string name="weather_type_9">폭우</string>
