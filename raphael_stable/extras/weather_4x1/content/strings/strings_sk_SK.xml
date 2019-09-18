@@ -1,5 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="weather_type_null">Žiadne dáta</string>
+    <string name="air_quality0">\'AQI \'+#aqi</string>
+    <string name="air_quality1">\'AQI \'+#aqi</string>
+    <string name="air_quality2">\'AQI \'+#aqi</string>
+    <string name="air_quality3">\'AQI \'+#aqi</string>
+    <string name="air_quality4">\'AQI \'+#aqi</string>
+    <string name="air_quality5">\'AQI \'+#aqi</string>
+    <string name="weather_null">Ťuknite pre informácie o počasí</string>
+    <string name="weather_location_null">Žiadne informácie o polohe</string>
     <string name="weather_type_0">Jasno</string>
     <string name="weather_type_1">Oblačno</string>
     <string name="weather_type_2">Zamračené</string>
@@ -11,7 +19,7 @@
     <string name="weather_type_8">Dážď</string>
     <string name="weather_type_9">Lejak</string>
     <string name="weather_type_10">Dážď</string>
-    <string name="weather_type_11">Jemný Dážď</string>
+    <string name="weather_type_11">Jemný dážď</string>
     <string name="weather_type_12">Dážď so snehom</string>
     <string name="weather_type_13">Snehová búrka</string>
     <string name="weather_type_14">Sneženie</string>
@@ -25,6 +33,4 @@
     <string name="weather_type_22">Krupobitie</string>
     <string name="weather_type_23">Prašno</string>
     <string name="weather_type_24">Mrznúci dážď</string>
-	<string name="weather_null">Načítať dáta</string>
-	<string name="weather_location_null">Žiadna poloha</string>
 </resources>

@@ -83,7 +83,7 @@
     <Group visibility="#not_null">
         <!-- top fragment -->
         <Image srcExp="ifelse(#applied_light_wallpaper,'dark','light')+'/weather.png'" srcid="ifelse(gt(#weather_id,24)+lt(#weather_id,0),10000,#weather_id)" x="#view_width/2" y="235" align="center" alignV="center" visibility="#hasweather"/>
-        <Text enableFontScale="true" textExp="@weather_description+ifelse((#weather_aqilevel!=0)*(#weather_aqilevel!=(-1))*len(@weather_aqi),' '+@weather_aqi,'')" x="#view_width/2"  y="375" align="center" size="48" color="@color" visibility="#hasweather"/>
+        <Text enableFontScale="true" textExp="@weather_description+ifelse((#weather_aqilevel!=0)*(#weather_aqilevel!=(-1))*len(@weather_aqi), @weather_aqi,'')" x="#view_width/2"  y="375" align="center" size="48" color="@color" visibility="#hasweather"/>
         <Text enableFontScale="true" textExp="@weather_description_null" x="#view_width/2"  y="375" align="center" size="48" color="@color" visibility="1-#hasweather"/>
         <!-- based on first horizontal line -->
         <Group y="#view_height-467" visibility="#hasweather">

@@ -41,7 +41,7 @@
         <!-- weather_temperature -->
         <Text name="text_temp" x="35" y="#view_height-224" fontFamily="miui-thin" color="@color_temp" size="130" textExp="ifelse(#not_null,#weather_temperature + ifelse(eq(#temperature_unit,1),'℃','℉'),'--')"/>
         <!-- 晴丨轻度污染 -->
-        <Text x="42" y="#view_height-24" fontFamily="miui-reguler" alignV="bottom" color="@color_desc" size="33.73" textExp="ifelse(#not_null,@weather_description+ifelse((#aqi!=0)*(#aqi!=(-1))*len(@air_quality),' | '+@air_quality,''),@weather_null)"/>
+        <Text x="42" y="#view_height-24" fontFamily="miui-reguler" alignV="bottom" color="@color_desc" size="33.73" textExp="ifelse(#not_null,@weather_description+ifelse((#aqi!=0)*(#aqi!=(-1))*len(@air_quality), @air_quality,''),@weather_null)"/>
     </Group>
     <!-- weather_location -->
     <Text x="#view_width-35-8" y="#view_height-24" fontFamily="miui-reguler" align="right" alignV="bottom" color="@color_desc" size="33.73" textExp="ifelse(#not_null,@weather_location,@weather_null)"/>
