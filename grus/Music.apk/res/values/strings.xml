@@ -149,10 +149,11 @@
   <string name="chart_third_song">3.%s</string>
   <string name="checking_new_version">Checking for updates…</string>
   <string name="choose_download_quality">Choose download quality</string>
+  <string name="choose_music_lang_pref">Preferred languages for songs</string>
   <string name="choose_stream_quality">Choose streaming quality</string>
   <string name="click_to_shuffle">Tap to shuffle</string>
   <string name="close_music_time">"Time remaining: "</string>
-  <string name="com.crashlytics.android.build_id">9aa4fd85-784a-4e47-97d5-0d0480de94ed</string>
+  <string name="com.crashlytics.android.build_id">e74f99b8-0379-4b96-b19a-d29ce1dd63d1</string>
   <string name="comment_format" formatted="false">%s: %s</string>
   <string name="common_google_play_services_enable_button">Enable</string>
   <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
@@ -809,10 +810,10 @@ Be Happy"</string>
   <string name="sleep_mode_summary">Stop player after a certain time</string>
   <string name="sleep_mode_title">Sleep timer</string>
   <string name="sliding_pro_center">PRO center</string>
-  <string name="song_already_in_playlist">This song is already in the queue</string>
+  <string name="song_already_in_playlist">This song is already in the playlist</string>
   <string name="song_exist_in_playlist">This song is already in the queue</string>
   <string name="song_info">Song details</string>
-  <string name="song_is_added_to_playlist">Added to queue</string>
+  <string name="song_is_added_to_playlist">Added to playlist</string>
   <string name="song_is_empty">Song name can not be empty.</string>
   <string name="song_name">Song</string>
   <string name="song_not_find">"This song isn't available."</string>
@@ -838,6 +839,7 @@ Be Happy"</string>
   <string name="tab_artist_list">Artists</string>
   <string name="tab_folder">Folders</string>
   <string name="tab_playlist">Playlists</string>
+  <string name="tab_top_results">Top result</string>
   <string name="tab_track">Songs</string>
   <string name="tab_track_list">Songs</string>
   <string name="tab_video">Videos</string>
@@ -879,6 +881,7 @@ Be Happy"</string>
   <string name="toast_my_playlist_illegal_name">"The title of this playlist isn't valid. Rename this playlist."</string>
   <string name="toast_my_playlist_set_to_private">"This playlist is private now. Other people can't see it."</string>
   <string name="toast_my_playlist_set_to_public">This playlist is public now. Other people can see it.</string>
+  <string name="toast_my_playlist_sync_failed">"Couldn't sync playlists due to a network error."</string>
   <string name="toast_new_playlist_name_no_enter">"Can't start a new paragraph"</string>
   <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
   <string name="toast_normal_songs_for_download">Downloading quality set to Standard</string>
