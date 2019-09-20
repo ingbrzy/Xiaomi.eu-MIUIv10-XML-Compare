@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="air_quality0">\'IJP \'+#aqi</string>
     <string name="air_quality1">\'IJP \'+#aqi</string>
@@ -7,7 +8,6 @@
     <string name="air_quality5">\'IJP \'+#aqi</string>
     <string name="weather_null">Kliknij, aby uzyskać pogodę</string>
     <string name="weather_location_null">Brak informacji</string>
-    <string name="weather_type_null">'Brak danych'</string>
     <string name="weather_type_0">Pogodnie</string>
     <string name="weather_type_1">Pochmurnie</string>
     <string name="weather_type_2">Zamglenie</string>

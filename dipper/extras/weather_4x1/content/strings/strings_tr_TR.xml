@@ -8,7 +8,6 @@
     <string name="air_quality5">\'AQI \'+#aqi</string>
     <string name="weather_null">Hava durumu bilgisi almak için dokunun</string>
     <string name="weather_location_null">Konum bilgisi yok</string>
-    <string name="weather_type_null">'Veri yok'</string>
     <string name="weather_type_0">Açık</string>
     <string name="weather_type_1">Bulutlu</string>
     <string name="weather_type_2">Kapalı</string>

@@ -676,7 +676,7 @@ To turn this feature off, go to Settings &gt; Sound &amp; vibration &gt; Profile
   <string name="theme_component_title_photo_frame">Image frames</string>
   <string name="theme_component_title_ringtone">Ringtone</string>
   <string name="theme_component_title_statusbar">Status bar</string>
-  <string name="theme_component_title_wallpaper">Home screen</string>
+  <string name="theme_component_title_wallpaper">Wallpaper</string>
   <string name="theme_current_using_has_update">Theme update available</string>
   <string name="theme_description_title_customized">Custom</string>
   <string name="theme_description_title_default">Default</string>
