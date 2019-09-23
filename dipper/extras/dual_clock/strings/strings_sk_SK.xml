@@ -2,6 +2,6 @@
 <resources>
     <string name="date_time">dd.MM. EEEE</string>
     <string name="date_time_12">dd.MM. EEEE</string>
-    <string name="clock_local">Local</string>
-    <string name="clock_city">City</string>
+    <string name="clock_local">Lokálny</string>
+    <string name="clock_city">Mesto</string>
 </resources>
