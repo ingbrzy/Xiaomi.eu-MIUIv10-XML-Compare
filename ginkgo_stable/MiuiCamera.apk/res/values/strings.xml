@@ -284,14 +284,15 @@ in Portrait mode"</string>
   <string name="lighting_pattern_rainbow">Rainbow</string>
   <string name="lighting_pattern_shutter">Blinds</string>
   <string name="lighting_pattern_stage">Stage</string>
-  <string name="live_appid">100079</string>
+  <string name="live_activation_id">100079</string>
+  <string name="live_activation_license">7ac2284d55330de408d7b1a714d8ec3135019be24db678c9535487bd8ec7bbf5f4e86cce375a9ef468253bc178bd2bec9205752e299978158dffa86f8e1adbdf82eeb9246e0a9b92cdf8b83838778b0e</string>
   <string name="live_edit_exit_confirm">Stop</string>
   <string name="live_edit_exit_message">Stop shooting now?</string>
   <string name="live_edit_share_title">Share</string>
   <string name="live_error_confirm">Adjust time</string>
   <string name="live_error_message">Some features might not work properly when system time is incorrect.</string>
   <string name="live_error_title">"System time isn't correct"</string>
-  <string name="live_license">7ac2284d55330de408d7b1a714d8ec3135019be24db678c9535487bd8ec7bbf5f4e86cce375a9ef468253bc178bd2bec9205752e299978158dffa86f8e1adbdf82eeb9246e0a9b92cdf8b83838778b0e</string>
+  <string name="live_music_author">Xiaomi Short Video</string>
   <string name="live_music_change_bgm">Change background music</string>
   <string name="live_music_close_cancel_message">Cancel</string>
   <string name="live_music_close_message">Turn off music now?</string>

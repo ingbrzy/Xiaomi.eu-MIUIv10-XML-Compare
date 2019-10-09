@@ -305,9 +305,9 @@ only in frame mode"</string>
   <string name="checkerboard_test">CHECKERBOARD TEST</string>
   <string name="choose_channel">Channel select</string>
   <string name="cit1">HW1:</string>
-  <string name="cit1reporttitle">MT1 Test Report</string>
+  <string name="cit1reporttitle">MT Test Report</string>
   <string name="cit2">HW2:</string>
-  <string name="cit2reporttitle">MT2 Test Report</string>
+  <string name="cit2reporttitle">RMT Test Report</string>
   <string name="cit3reporttitle">MT3 Test Report</string>
   <string name="cit4reporttitle">MT4 Test Report</string>
   <string name="cit_bluetooth_logging_confirm_info">this Bluetooth Logging will collect your device Bluetooth protocal datas, only record current Bluetooth releated operations. Involve privacy information data will also be recorded: Bluetooth Phonebook Access/Telephone Call History/SMS/MMS/Exchanged Files/Music Meta Data etc. this data is limited to XiaoMi company internal debugging with users but not be used for other purposes.</string>
@@ -450,8 +450,8 @@ Read card test:Fail"</string>
   <string name="gyroscope_hint">Please rotate cube</string>
   <string name="hallsensorinfo">Hall Sensor test...</string>
   <string name="halltest_ok">Test Success!</string>
-  <string name="hand_test">MT1</string>
-  <string name="hand_test2">MT2</string>
+  <string name="hand_test">MT</string>
+  <string name="hand_test2">RMT</string>
   <string name="hand_test3">MT3</string>
   <string name="hand_test4">MT4</string>
   <string name="hardver">Hardware version:</string>
@@ -459,6 +459,7 @@ Read card test:Fail"</string>
   <string name="hardware_version">Hardware Version:</string>
   <string name="headset">Enable headset</string>
   <string name="headset_in_test">Headset plug in</string>
+  <string name="headset_info">Please unplug the earphone and press the home button to retest!</string>
   <string name="headset_key_test">Headset Test</string>
   <string name="headset_loop_test">Headset loopback</string>
   <string name="headset_not_plug_in">Please plug in earphone</string>

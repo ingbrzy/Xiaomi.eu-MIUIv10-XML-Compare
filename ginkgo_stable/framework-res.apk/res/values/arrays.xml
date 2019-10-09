@@ -193,14 +193,14 @@
         <item>565</item>
         <item>674</item>
         <item>783</item>
-        <item>850</item>
         <item>905</item>
-        <item>985</item>
-        <item>1030</item>
-        <item>1100</item>
-        <item>1290</item>
-        <item>1560</item>
-        <item>1800</item>
+        <item>1028</item>
+        <item>1152</item>
+        <item>1284</item>
+        <item>1418</item>
+        <item>1600</item>
+        <item>1760</item>
+        <item>1900</item>
         <item>2000</item>
         <item>2047</item>
         <item>2047</item>
@@ -407,6 +407,17 @@
         <item>50.0</item>
         <item>90.0</item>
     </array>
+    <string-array name="config_miuiNonBlockableNotificationPackages">
+        <item>android</item>
+        <item>com.android.incallui</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.mms</item>
+        <item>com.android.bluetooth</item>
+        <item>com.android.updater</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.miui.hybrid</item>
+        <item>com.xiaomi.xmsf</item>
+    </string-array>
     <array name="config_mobile_hotspot_provision_app" />
     <array name="config_mobile_tcp_buffers" />
     <array name="config_networkNotifySwitches" />
