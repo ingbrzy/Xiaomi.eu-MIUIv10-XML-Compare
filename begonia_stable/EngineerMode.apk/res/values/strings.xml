@@ -997,6 +997,7 @@
   <string name="gwsd_auto_reject_title">Auto reject incoming call:</string>
   <string name="gwsd_btn_set">Set</string>
   <string name="gwsd_call_valid_title">Set MT Call valid time:</string>
+  <string name="gwsd_dual_sim_setting">GWSD Dual SIM Configuration</string>
   <string name="gwsd_ignore_same_number_interval_title">Ignore same number interval:</string>
   <string name="gwsd_processing">Waiting GWSD processing</string>
   <string name="gwsd_setting">GWSD Configuration</string>

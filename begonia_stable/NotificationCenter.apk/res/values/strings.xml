@@ -8,6 +8,7 @@
   <string name="enable_float_notification">Floating notifications are allowed</string>
   <string name="enable_lockscreen_notification">Lock screen notifications are allowed</string>
   <string name="enable_show_badge_notification">Notification badges are allowed</string>
+  <string name="expand_top_notification">Expand top notification</string>
   <string name="expandable_under_keyguard">Open Notification shade on Lock screen</string>
   <string name="float_notifications">Floating notifications</string>
   <string name="hint_search_all">Search for apps</string>

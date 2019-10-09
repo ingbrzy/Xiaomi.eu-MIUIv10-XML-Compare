@@ -59,34 +59,34 @@
     <array name="config_autoBrightnessGame" />
     <array name="config_autoBrightnessKeyboardBacklightValues" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>20</item>
-        <item>30</item>
+        <item>21</item>
         <item>40</item>
-        <item>60</item>
-        <item>85</item>
+        <item>77</item>
         <item>111</item>
-        <item>148</item>
-        <item>213</item>
-        <item>291</item>
-        <item>356</item>
-        <item>397</item>
-        <item>399</item>
-        <item>400</item>
-        <item>403</item>
+        <item>133</item>
+        <item>175</item>
+        <item>245</item>
+        <item>302</item>
+        <item>322</item>
+        <item>358</item>
+        <item>382</item>
         <item>404</item>
         <item>406</item>
         <item>407</item>
-        <item>410</item>
-        <item>411</item>
+        <item>408</item>
+        <item>409</item>
+        <item>412</item>
         <item>414</item>
-        <item>415</item>
+        <item>416</item>
         <item>417</item>
+        <item>419</item>
         <item>420</item>
-        <item>421</item>
         <item>423</item>
-        <item>433</item>
-        <item>441</item>
-        <item>448</item>
+        <item>426</item>
+        <item>428</item>
+        <item>432</item>
+        <item>442</item>
+        <item>449</item>
         <item>456</item>
         <item>465</item>
         <item>474</item>
@@ -98,8 +98,8 @@
         <item>523</item>
         <item>531</item>
         <item>536</item>
-        <item>548</item>
-        <item>557</item>
+        <item>542</item>
+        <item>552</item>
         <item>561</item>
         <item>572</item>
         <item>579</item>

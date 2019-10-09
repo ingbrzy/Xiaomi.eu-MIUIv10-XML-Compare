@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_airplane_mode">Mode Avion</string>
+    <string name="label_silent_mode">Silencieux</string>
+    <string name="label_reboot">Redémarrer</string>
+    <string name="label_shutdown">Éteindre</string>
+    <string name="label_alert_reboot">Appuyez pour redémarrer</string>
+    <string name="label_alert_recovery">Redémarrer en Recovery</string>
+    <string name="label_alert_fastboot">Redémarrer en Fastboot</string>
+    <string name="label_alert_shutdown">Appuyez pour éteindre</string>
+    <string name="label_blank">Retour</string>
+</resources>
