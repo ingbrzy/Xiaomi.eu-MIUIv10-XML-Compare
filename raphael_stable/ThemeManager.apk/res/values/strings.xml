@@ -138,8 +138,8 @@
   <string name="description_uploadtime">Update</string>
   <string name="description_version">Version</string>
   <string name="description_version_szie">Version: %1$s Size: %2$s</string>
-  <string name="desktop_effects">Home screen effects</string>
-  <string name="desktop_wallpaper">Home screen</string>
+  <string name="desktop_effects">Live wallpapers</string>
+  <string name="desktop_wallpaper">Wallpaper</string>
   <string name="detail_author_attention_head">Follow some of our most outstanding designers</string>
   <string name="detail_author_fans">"Followers: "</string>
   <string name="detail_author_works">"Items: "</string>
@@ -277,7 +277,7 @@ To turn this feature off, go to Settings &gt; Sound &amp; vibration &gt; Profile
   <string name="kuyin_user_agreement_content_href">iFlytek Privacy Policy</string>
   <string name="lab">Theme lab</string>
   <string name="like_list">Items I liked</string>
-  <string name="live_wallpaper">Live wallpaper</string>
+  <string name="live_wallpaper">Video wallpapers</string>
   <string name="loading">Just a sec…</string>
   <string name="loading_resource_detail_fail">"Can't load resource"</string>
   <string name="loading_resource_detail_info">Just a sec…</string>
@@ -676,7 +676,7 @@ To turn this feature off, go to Settings &gt; Sound &amp; vibration &gt; Profile
   <string name="theme_component_title_photo_frame">Image frames</string>
   <string name="theme_component_title_ringtone">Ringtone</string>
   <string name="theme_component_title_statusbar">Status bar</string>
-  <string name="theme_component_title_wallpaper">Home screen</string>
+  <string name="theme_component_title_wallpaper">Wallpaper</string>
   <string name="theme_current_using_has_update">Theme update available</string>
   <string name="theme_description_title_customized">Custom</string>
   <string name="theme_description_title_default">Default</string>
@@ -720,8 +720,8 @@ To turn this feature off, go to Settings &gt; Sound &amp; vibration &gt; Profile
   <string name="tips_theme_gate_transfer_fail">"Couldn't open this page. Wait a minute or two and try again."</string>
   <string name="title_component">Customize theme</string>
   <string name="title_my_audio_resource">My ringtones</string>
-  <string name="title_my_miwallpaper_desktop_effects">Home screen effects</string>
-  <string name="title_my_miwallpaper_resource">My live wallpapers</string>
+  <string name="title_my_miwallpaper_desktop_effects">Live wallpapers</string>
+  <string name="title_my_miwallpaper_resource">My video wallpapers</string>
   <string name="title_my_miwallpaper_video_file_resource">My wallpaper movies</string>
   <string name="title_my_wallpaper_resource">My wallpapers</string>
   <string name="title_system_audio_notification_resource">System notifications</string>

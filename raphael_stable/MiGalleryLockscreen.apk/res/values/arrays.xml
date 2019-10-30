@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="feature_desc">
-        <item>Fixed some known issues.</item>
-    </string-array>
     <string-array name="alphabet_table">
         <item>\#</item>
         <item>A</item>
@@ -31,5 +28,8 @@
         <item>X</item>
         <item>Y</item>
         <item>Z</item>
+    </string-array>
+    <string-array name="feature_desc">
+        <item>Optimized for international users by Xiaomi.eu</item>
     </string-array>
 </resources>

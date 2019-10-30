@@ -21,8 +21,6 @@
   <string name="alert_4378">4378</string>
   <string name="alert_4379">4379</string>
   <string name="alert_4380">4380</string>
-  <string name="alert_4381">4381</string>
-  <string name="alert_4382">4382</string>
   <string name="alert_4384">4384</string>
   <string name="alert_4385">4385</string>
   <string name="alert_4386">4386</string>
@@ -33,10 +31,6 @@
   <string name="alert_4391">4391</string>
   <string name="alert_4392">4392</string>
   <string name="alert_4393">4393</string>
-  <string name="alert_4396">4396</string>
-  <string name="alert_4397">4397</string>
-  <string name="alert_4398">4398</string>
-  <string name="alert_4399">4399</string>
   <string name="alert_reminder_interval_default_value">0</string>
   <string name="alert_reminder_interval_summary"/>
   <string name="alert_reminder_interval_title">Alert reminder</string>
@@ -114,7 +108,6 @@
   <string name="disable">Disable</string>
   <string name="done_text">Done</string>
   <string name="emergency_alert">Emergency Alert</string>
-  <string name="emergency_alert_dialog_title_prefix">Alerta de Emergencia</string>
   <string name="emergency_alert_settings_title">Emergency alert settings</string>
   <string name="emergency_alerts">Emergency Alerts</string>
   <string name="en_alert_message_dialog_title">Alert Message</string>
@@ -178,10 +171,6 @@
   <string name="notification_channel_broadcast_messages">Broadcast messages</string>
   <string name="notification_multiple">%s unread alerts.</string>
   <string name="notification_multiple_title">New alerts</string>
-  <string name="pe_information_alert_dialog_title">Mensaje Informativo</string>
-  <string name="pe_local_alert_dialog_title">Alerta de Emergencia</string>
-  <string name="pe_simulation_alert_dialog_title">Alerta de Emergencia–mensaje de Ejercicio/Simulacro</string>
-  <string name="pe_test_alert_dialog_title">Alerta de Emergencia-mensaje de Prueba</string>
   <string name="presidential_4370">4370</string>
   <string name="presidential_4383">4383</string>
   <string name="pws_other_message_identifiers">Emergency alert</string>
@@ -189,7 +178,7 @@
   <string name="receive_broad_cast">Receive Cell BroadCast SMS</string>
   <string name="show_cmas_opt_out_summary">Show an opt-out dialog after displaying the first CMAS alert (other than Presidential Alert).</string>
   <string name="show_cmas_opt_out_title">Show opt-out dialog</string>
-  <string name="sms_cb_settings">Emergency alerts</string>
+  <string name="sms_cb_settings">Cell Broadcast settings</string>
   <string name="test_alert">Test Alert</string>
   <string name="test_alerts">Test Alerts</string>
   <string name="tw_alert_message">Alert Message</string>
